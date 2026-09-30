@@ -4,6 +4,9 @@
 No prior evaluation reports or production parsing helpers are read or imported.
 Compares UTF-8 bytes, including punctuation and whitespace, without normalization.
 Only writes audit artifacts to the explicitly selected output directory.
+Exit codes: 0 = matched, 1 = completed with differences, 2 = input/I/O error.
+Errors also print JSON; a selected writable report directory receives the
+current failure result so a prior successful report cannot masquerade as it.
 """
 import argparse
 from collections import Counter
@@ -23,12 +26,24 @@ def line_at(blob, offset):
     return blob[:offset].count(b"\n") + 1
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
+class AuditInputError(Exception):
+    pass
+
+
+class AuditArgumentParser(argparse.ArgumentParser):
+    def error(self, message):
+        raise AuditInputError(f"Arguments: {message}. Use --help for usage.")
+
+
+def argument_parser():
+    parser = AuditArgumentParser(description=__doc__)
     parser.add_argument("--source-file", dest="source", type=Path, required=True, help="Source SKILL.md to compare, read only")
     parser.add_argument("--skill-root", dest="skill", type=Path, required=True, help="Integrated skill directory to audit, read only")
     parser.add_argument("--out", type=Path, help="Optional report directory; omit to print results without writing files")
-    args = parser.parse_args()
+    return parser
+
+
+def run_audit(args):
     source = args.source.read_bytes()
     source.decode("utf-8")  # fail rather than silently replace encoding errors
     source_hash = digest(source)
@@ -58,6 +73,14 @@ def main():
 
     index_path = args.skill / "references/wan-index.json"
     index = json.loads(index_path.read_text(encoding="utf-8"))
+    if not isinstance(index, list):
+        raise AuditInputError("references/wan-index.json must be a JSON array of objects")
+    for position, row in enumerate(index):
+        if not isinstance(row, dict):
+            raise AuditInputError(f"references/wan-index.json[{position}] must be an object")
+        for field in ("id", "source_sha256"):
+            if not isinstance(row.get(field), str) or not row[field]:
+                raise AuditInputError(f"references/wan-index.json[{position}].{field} must be nonempty text")
     index_ids = [row.get("id") for row in index]
     by_id = {row.get("id"): row for row in index}
     catalog = (args.skill / "references/wan-catalog.md").read_text(encoding="utf-8")
@@ -219,6 +242,50 @@ def main():
         (args.out / "wan-source-audit.md").write_text("\n".join(lines), encoding="utf-8")
     print(json.dumps({key: report[key] for key in ["pass", "source_sha256", "source_bytes", "attachment_changed_from_recorded_hash", "numeric_h3_count", "index_count", "catalog_count", "wan_tool_file_count", "excerpt_total_bytes", "excluded_total_bytes", "aggregate_checks", "differences"]}, ensure_ascii=False, indent=2))
     return 0 if report["pass"] else 1
+
+
+def error_result(args, exc):
+    kind = ("input_error" if isinstance(exc, (AuditInputError, json.JSONDecodeError))
+            else "encoding_error" if isinstance(exc, UnicodeError) else "io_error")
+    report = {
+        "audit_generated_at": datetime.now(timezone.utc).isoformat(),
+        "audit_script": Path(__file__).name,
+        "pass": False,
+        "status": "error",
+        "error": {"kind": kind, "message": str(exc)},
+        "notice": "The audit did not complete. This is not a content-difference result; fix the input or I/O error and rerun.",
+    }
+    if args is not None:
+        report.update(source_file_label=args.source.name, skill_root_label=args.skill.name)
+        if args.out is not None:
+            # Refresh both current-result artifacts after a failed invocation.
+            # A directory that cannot be written is reported explicitly instead.
+            write_errors = []
+            for name in ("wan-source-audit.json", "wan-source-audit.md"):
+                try:
+                    args.out.mkdir(parents=True, exist_ok=True)
+                    content = (json.dumps(report, ensure_ascii=False, indent=2) + "\n"
+                               if name.endswith(".json") else
+                               "# 万维钢来源独立审计\n\n结论：审计未完成，不能判定内容匹配。\n\n"
+                               f"生成时间：{report['audit_generated_at']}\n\n"
+                               f"错误：{kind} — {exc}\n\n修复输入或读写错误后重新运行。\n")
+                    (args.out / name).write_text(content, encoding="utf-8")
+                except OSError as write_exc:
+                    write_errors.append(f"{name}: {write_exc}")
+            if write_errors:
+                report["report_write_errors"] = write_errors
+                report["notice"] += " Report files could not all be refreshed; disregard any older result in that directory."
+    print(json.dumps(report, ensure_ascii=False, indent=2))
+    return 2
+
+
+def main():
+    args = None
+    try:
+        args = argument_parser().parse_args()
+        return run_audit(args)
+    except (AuditInputError, OSError, UnicodeError, json.JSONDecodeError) as exc:
+        return error_result(args, exc)
 
 
 if __name__ == "__main__":

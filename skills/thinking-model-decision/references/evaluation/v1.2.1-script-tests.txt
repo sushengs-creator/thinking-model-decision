@@ -1,0 +1,15 @@
+test_argument_errors_are_json_and_help_remains_help (__main__.AuditTests) ... ok
+test_complete_synthetic_source_matches (__main__.AuditTests) ... ok
+test_content_difference_keeps_exit_one (__main__.AuditTests) ... ok
+test_failed_invocation_replaces_both_prior_success_reports (__main__.AuditTests) ... ok
+test_framework_difference_keeps_exit_one (__main__.AuditTests) ... ok
+test_invalid_encoding_is_explicit_error (__main__.AuditTests) ... ok
+test_invalid_index_shapes_are_explicit_errors (__main__.AuditTests) ... ok
+test_malformed_json_is_explicit_error (__main__.AuditTests) ... ok
+test_missing_skill_root_is_explicit_error (__main__.AuditTests) ... ok
+test_unwritable_report_target_is_not_success (__main__.AuditTests) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.635s
+
+OK

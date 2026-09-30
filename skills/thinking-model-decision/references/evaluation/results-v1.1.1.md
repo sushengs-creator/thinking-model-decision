@@ -43,7 +43,7 @@
 - 入口版本与库状态一致；本轮修改文档的本地链接可解析。
 - 独立复核首页、安装、使用、入口、引导和维护文件，未发现仍影响使用路径的冲突或新增的无必要门槛。
 
-公开规则的审查说明见 [检查与修订](../../../../docs/SKILL-REVIEW.md)。
+公开规则的审查说明见 [检查与修订](https://github.com/sushengs-creator/thinking-model-decision/blob/main/docs/SKILL-REVIEW.md)。
 
 ## 未覆盖的范围
 

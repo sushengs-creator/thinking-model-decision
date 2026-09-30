@@ -1,7 +1,7 @@
 {
-  "version": "1.2.0",
-  "revision": 5,
-  "updated_at": "2026-09-30T06:18:08.935898+00:00",
+  "version": "1.2.1",
+  "revision": 6,
+  "updated_at": "2026-09-30T06:44:07.244752+00:00",
   "user_models": 125,
   "wan_tools": 100,
   "sample_cards": 8,
@@ -37,7 +37,7 @@
     "tested_at_revision": 2,
     "tested_version": "1.0.0"
   },
-  "change": "Verify all 100 WW tools against the supplied v2.0 source; integrate global framework and task routes; repair lexical retrieval. Original knowledge and indexes unchanged.",
+  "change": "Audit against the supplied skill-quality guide; clarify discovery and final report checks; fix source-audit error results and standalone reference; retain all knowledge.",
   "validation": {
     "tested_at_revision": 2,
     "official_skill_structure": "passed",
@@ -59,12 +59,13 @@
   "needs_review": [],
   "release_validation": {
     "status": "passed",
-    "version": "1.2.0",
-    "revision": 5,
+    "version": "1.2.1",
+    "revision": 6,
     "valid_for_current_revision": true,
+    "scope": "18 criteria review; before/after metadata selection and 3 runtime scenarios; source-audit error regression; unchanged knowledge and package checks",
     "official_skill_structure": "passed",
     "library_integrity": "passed",
-    "scope": "100 WW source checks plus global framework, 300 lexical retrieval cases, 13 CLI regressions, 5 source-audit checks and four independent simulated responses"
+    "local_markdown_links_checked": 1025
   },
   "release_validation_history": {
     "1.0.0": {
@@ -91,6 +92,15 @@
       "official_skill_structure": "passed",
       "library_integrity": "passed",
       "scope": "public invocation and maintenance reply boundaries; seven independent simulated replies; knowledge and scripts unchanged"
+    },
+    "1.2.0": {
+      "status": "passed",
+      "version": "1.2.0",
+      "revision": 5,
+      "valid_for_current_revision": false,
+      "official_skill_structure": "passed",
+      "library_integrity": "passed",
+      "scope": "100 WW source checks plus global framework, 300 lexical retrieval cases, 13 CLI regressions, 5 source-audit checks and four independent simulated responses"
     }
   },
   "workflow_validation": {
@@ -139,5 +149,28 @@
     "all_models_behavior_tested": false,
     "real_world_outcomes_validated": false,
     "semantic_search_implemented": false
+  },
+  "quality_guide_validation": {
+    "tested_version": "1.2.1",
+    "tested_at_revision": 6,
+    "criteria_reviewed": 18,
+    "metadata_requests_per_version": 15,
+    "metadata_versions_tested": 2,
+    "metadata_tests_are_simulation": true,
+    "ambiguous_report_request_requires_context": true,
+    "runtime_replies_per_version": 3,
+    "runtime_versions_tested": 2,
+    "runtime_cases": [
+      "standard",
+      "missing_information",
+      "pressure_to_hide_uncertainty"
+    ],
+    "source_audit_tests_passed": 10,
+    "source_tools_match": 100,
+    "knowledge_assets_byte_identical": 475,
+    "knowledge_indexes_unchanged": true,
+    "all_models_behavior_tested": false,
+    "real_world_outcomes_validated": false,
+    "evidence": "references/evaluation/results-v1.2.1.md"
   }
 }

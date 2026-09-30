@@ -1,0 +1,99 @@
+{
+  "trial": "metadata-only skill selection; separate evaluator; no body loaded",
+  "supplied_metadata": {
+    "name": "thinking-model-decision",
+    "description": "在用户说“帮我理清困惑”“比较方案”“给决策报告”，或需要工作、生活、业务决策时使用：逐步澄清后交付有依据、行动与更新条件的报告。也用于更新或复盘决策，以及明确要求维护本工具的思维模型文稿、卡片或流程。纯事实查询、翻译、格式转换、仅润色文章、机器学习建模和只想倾诉不启用。"
+  },
+  "results": [
+    {
+      "id": "T01",
+      "request": "我最近不知道该留下还是换工作，你能一步一步帮我想清楚吗？",
+      "decision": "activate",
+      "reason": "明确请求逐步澄清去留工作的决策。"
+    },
+    {
+      "id": "T02",
+      "request": "请比较自研、采购和继续现有工具三个方案，给我一个决策报告。",
+      "decision": "activate",
+      "reason": "明确要求比较方案并交付决策报告。"
+    },
+    {
+      "id": "T03",
+      "request": "我们产品留存下滑，预算有限，先改产品还是先换获客渠道？",
+      "decision": "activate",
+      "reason": "需要在预算约束下选择业务行动方向。"
+    },
+    {
+      "id": "T04",
+      "request": "第一性原理是什么意思？",
+      "decision": "ordinary_or_other",
+      "reason": "仅查询概念含义，属于纯事实问答。"
+    },
+    {
+      "id": "T05",
+      "request": "把这篇思维模型文章改得更顺口，不要更新工具库。",
+      "decision": "ordinary_or_other",
+      "reason": "仅润色文章，且明确不更新工具库。"
+    },
+    {
+      "id": "T06",
+      "request": "我今天就是很委屈，只想你听我说，暂时不用帮我分析。",
+      "decision": "ordinary_or_other",
+      "reason": "明确只想倾诉，暂不需要分析。"
+    },
+    {
+      "id": "T07",
+      "request": "帮我新增一个模型，用sklearn训练并比较准确率。",
+      "decision": "ordinary_or_other",
+      "reason": "请求使用 sklearn 进行机器学习建模。"
+    },
+    {
+      "id": "T08",
+      "request": "新增一个模型，数据我已经发你了。",
+      "decision": "clarify",
+      "reason": "“模型”类型不明，需确认是机器学习模型还是决策工具模型。"
+    },
+    {
+      "id": "T09",
+      "request": "这是第126篇思维模型终稿，请更新决策工具中的模型库。",
+      "decision": "activate",
+      "reason": "明确要求维护决策工具中的思维模型库。"
+    },
+    {
+      "id": "T10",
+      "request": "把上次报告更新一下，新供应商报价降低了20%。",
+      "decision": "activate",
+      "reason": "要求根据供应商报价变化更新既有决策报告。"
+    },
+    {
+      "id": "T11",
+      "request": "上个月我决定先做小规模试点，现在拿到结果，帮我复盘。",
+      "decision": "activate",
+      "reason": "要求结合试点结果复盘此前决策。"
+    },
+    {
+      "id": "T12",
+      "request": "给我核验一下周末北京到青岛的高铁时刻。",
+      "decision": "ordinary_or_other",
+      "reason": "仅核验交通时刻，属于事实查询。"
+    },
+    {
+      "id": "T13",
+      "request": "直接给我一个有条件的建议，不想再回答问题：我有10万元预算，3个月验证新业务，有外包和内部团队两个选择。",
+      "decision": "activate",
+      "reason": "需要在明确预算、期限和方案下给出有条件的决策建议。"
+    },
+    {
+      "id": "T14",
+      "request": "今天练习了三套模型题，帮我复盘错题。",
+      "decision": "ordinary_or_other",
+      "reason": "属于练习题错题复盘，不是决策复盘或工具维护。"
+    },
+    {
+      "id": "T15",
+      "request": "帮我把这个思维模型决策skill的触发逻辑改一下。",
+      "decision": "activate",
+      "reason": "明确要求维护该决策工具的触发流程。"
+    }
+  ]
+}
