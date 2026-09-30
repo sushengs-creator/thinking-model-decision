@@ -1,0 +1,4 @@
+interface:
+  display_name: "思维模型决策工具"
+  short_description: "通过逐步追问澄清困惑，结合思维模型与万维钢工具，最终形成决策报告"
+  default_prompt: "请用 $thinking-model-decision 通过一步一步的追问帮我理清当前困惑，再选择合适模型分析，最终给我一份决策报告。"
