@@ -2,7 +2,7 @@
 
 有困惑时，从一句话开始。工具通过一步一步的追问，帮你理清问题，再用思维模型比较选择，最终给出一份可执行、可修订的决策报告。
 
-知识库包含作者提供的 **125篇思维模型原文、125张操作卡，以及万维钢现代思维工具100讲的本地技能资料快照**，已整理66条跨库关系。当前Skill版本为 **1.1.1**。这些是可组合的参考资料，不是225个彼此独立、全部验证过的模型。
+知识库包含作者提供的 **125篇思维模型原文、125张操作卡，以及万维钢现代思维工具100讲的本地技能资料快照**，已整理66条跨库关系。当前Skill版本为 **1.2.0**。这些是可组合的参考资料，不是225个彼此独立、全部验证过的模型。
 
 ## 最简单的安装方法
 
@@ -62,6 +62,7 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 - [125个用户模型目录](skills/thinking-model-decision/references/user-catalog.md)
 - [万维钢100个工具目录](skills/thinking-model-decision/references/wan-catalog.md)
+- [万维钢整体运行框架与九类任务指引](skills/thinking-model-decision/references/wan-framework.md)
 - [按问题选择模型](skills/thinking-model-decision/references/decision-routing.md)
 - [跨库关系](skills/thinking-model-decision/references/relation-catalog.md)
 - [新增文章、修订及复盘流程](skills/thinking-model-decision/references/maintenance.md)
@@ -76,6 +77,8 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 v1.0完成资料完整性、模型卡来源核对及指定场景试跑；v1.1另完成一组四轮对话和三个边界场景的模拟验证。模拟通过不等于现实决策效果已得到保证。详见[v1.0验证记录](skills/thinking-model-decision/references/evaluation/results-v1.0.md)与[v1.1验证记录](skills/thinking-model-decision/references/evaluation/results-v1.1.md)。
 
-v1.1.1补清公开调用、暂停、能力不足及维护范围规则，另完成七条独立模拟回复审阅。见[公开版检查与修订](docs/SKILL-REVIEW.md)和[本版验证记录](skills/thinking-model-decision/references/evaluation/results-v1.1.1.md)。
+v1.1.1补清公开调用、暂停、能力不足及维护范围规则，另完成七条独立模拟回复审阅。见[公开版检查与修订](docs/SKILL-REVIEW.md)和[v1.1.1验证记录](skills/thinking-model-decision/references/evaluation/results-v1.1.1.md)。
+
+v1.2将用户再次提供的万维钢源文件逐条核对，100/100工具正文一致；补入整体框架、组合语法、证据协议和九类任务程序，并完善检索。100工具与125篇用户模型在同一技能内按问题选择，读者不需要另装一个万维钢 Skill。见[完整融入说明](docs/WAN-INTEGRATION.md)。
 
 真实决策仍以当前证据、个人目标和实际约束为准。个人案例默认留在当前对话，不写入通用技能库。与AI助手聊天本身的数据处理，遵循你使用的平台规则。

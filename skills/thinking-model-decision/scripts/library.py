@@ -155,6 +155,15 @@ def normalize(value):
     return unicodedata.normalize("NFKC", value).casefold().strip()
 
 
+def lexical_contains(haystack, needle):
+    """Match Chinese fragments, but not ASCII words inside unrelated words."""
+    if not needle or needle not in haystack:
+        return False
+    left = r"(?<![a-z0-9_])" if re.match(r"[a-z0-9_]", needle) else ""
+    right = r"(?![a-z0-9_])" if re.search(r"[a-z0-9_]$", needle) else ""
+    return not (left or right) or bool(re.search(left + re.escape(needle) + right, haystack))
+
+
 def query_terms(query):
     normalized = normalize(query)
     terms = re.findall(r"[\w.-]+", normalized, flags=re.UNICODE)
@@ -176,6 +185,7 @@ def search(args):
     for row in users + wan:
         reasons = []
         score = 0
+        phrase_bonus = 0
         card_meta = row.get("card_metadata", {}) if effective_card_status(row) != "needs_review" else {}
         fields = [("id", str(row.get("id", "")), 150),
                   ("short_name", str(row.get("short_name", "")), 90),
@@ -188,13 +198,20 @@ def search(args):
         for field, text, weight in fields:
             haystack = normalize(text)
             exact = phrase == haystack
-            hits = [term for term in terms if term in haystack]
+            hits = [term for term in terms if lexical_contains(haystack, term)]
             # Also recognize a model name embedded in a longer question.
-            named = field == "short_name" and len(haystack) >= 2 and haystack in phrase
-            if phrase in haystack or hits or named:
+            named = field == "short_name" and len(haystack) >= 2 and lexical_contains(phrase, haystack)
+            full_phrase = lexical_contains(haystack, phrase)
+            if full_phrase or hits or named:
                 found = hits[:4] or [text if named else phrase]
                 score += weight * (2 if exact else 1) + min(len(hits), 4)
                 reasons.append({"field": field, "matched": found})
+                # A specific problem quoted from a trigger outranks scattered
+                # generic words repeated across names and metadata fields.
+                # Apply once so extra card metadata cannot multiply this bonus.
+                if full_phrase and field in {"trigger", "card_trigger"} and len(phrase) >= 8:
+                    phrase_bonus = 500
+                    reasons[-1]["full_query_match"] = True
             elif bigrams and field != "id":
                 hits = [term for term in bigrams if term in haystack]
                 if hits:
@@ -205,8 +222,8 @@ def search(args):
                 body = normalize(safe_path(row["path"], exists=True).read_text(encoding="utf-8"))
             except (OSError, UnicodeError, KeyError) as exc:
                 raise LibraryError(f"Cannot read body for {row.get('id')}: {exc}") from exc
-            hits = [term for term in terms if term in body]
-            if phrase in body or hits:
+            hits = [term for term in terms if lexical_contains(body, term)]
+            if lexical_contains(body, phrase) or hits:
                 score = 5 + min(len(hits), 4)
                 reasons.append({"field": "body", "matched": hits[:4] or [phrase]})
             else:
@@ -219,7 +236,7 @@ def search(args):
             matches.append({"id": row["id"], "title": row.get("title"),
                             "path": row["path"], "card_path": row.get("card_path"),
                             "effective_card_status": effective_card_status(row),
-                            "lexical_score": score, "match_reasons": reasons})
+                            "lexical_score": score + phrase_bonus, "match_reasons": reasons})
     matches.sort(key=lambda row: (-row["lexical_score"], row["id"]))
     output({"query": args.query, "notice": "词面召回候选；分数不是适用性或可信度。先读原文，再判断机制、边界和选型。",
             "total_candidates": len(matches), "candidates": matches[:args.limit]})

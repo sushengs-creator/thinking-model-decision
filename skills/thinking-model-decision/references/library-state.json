@@ -1,7 +1,7 @@
 {
-  "version": "1.1.1",
-  "revision": 4,
-  "updated_at": "2026-09-30T06:03:16.457360+00:00",
+  "version": "1.2.0",
+  "revision": 5,
+  "updated_at": "2026-09-30T06:18:08.935898+00:00",
   "user_models": 125,
   "wan_tools": 100,
   "sample_cards": 8,
@@ -37,7 +37,7 @@
     "tested_at_revision": 2,
     "tested_version": "1.0.0"
   },
-  "change": "Clarify public invocation paths, pause vs partial report, capability limits and maintenance target scope; knowledge and scripts unchanged.",
+  "change": "Verify all 100 WW tools against the supplied v2.0 source; integrate global framework and task routes; repair lexical retrieval. Original knowledge and indexes unchanged.",
   "validation": {
     "tested_at_revision": 2,
     "official_skill_structure": "passed",
@@ -59,12 +59,12 @@
   "needs_review": [],
   "release_validation": {
     "status": "passed",
-    "version": "1.1.1",
-    "revision": 4,
+    "version": "1.2.0",
+    "revision": 5,
     "valid_for_current_revision": true,
     "official_skill_structure": "passed",
     "library_integrity": "passed",
-    "scope": "public invocation and maintenance reply boundaries; seven independent simulated replies; knowledge and scripts unchanged"
+    "scope": "100 WW source checks plus global framework, 300 lexical retrieval cases, 13 CLI regressions, 5 source-audit checks and four independent simulated responses"
   },
   "release_validation_history": {
     "1.0.0": {
@@ -82,6 +82,15 @@
       "official_skill_structure": "passed",
       "library_integrity": "passed",
       "scope": "guided clarification and report workflow; unchanged knowledge library; seven actual simulated replies reviewed"
+    },
+    "1.1.1": {
+      "status": "passed",
+      "version": "1.1.1",
+      "revision": 4,
+      "valid_for_current_revision": false,
+      "official_skill_structure": "passed",
+      "library_integrity": "passed",
+      "scope": "public invocation and maintenance reply boundaries; seven independent simulated replies; knowledge and scripts unchanged"
     }
   },
   "workflow_validation": {
@@ -111,5 +120,24 @@
     "knowledge_indexes_unchanged": true,
     "maintenance_script_unchanged": true,
     "evidence": "references/evaluation/results-v1.1.1.md"
+  },
+  "wan_integration_validation": {
+    "tested_version": "1.2.0",
+    "tested_at_revision": 5,
+    "source_tools_byte_identical": 100,
+    "source_per_tool_checks_passed": 1600,
+    "source_framework_excerpts_match": true,
+    "source_audit_tests_passed": 5,
+    "search_id_name_trigger_cases_passed": 300,
+    "cli_regression_tests_passed": 13,
+    "independent_response_cases_reviewed": 4,
+    "review": "passed_within_recorded_scope",
+    "knowledge_assets_byte_identical": 475,
+    "knowledge_indexes_unchanged": true,
+    "source_sha256": "db9cc3682ad51d9ce362e39f3365f9b148a718ad6188b1ee55722b9b623e1805",
+    "evidence": "references/evaluation/results-v1.2.md",
+    "all_models_behavior_tested": false,
+    "real_world_outcomes_validated": false,
+    "semantic_search_implemented": false
   }
 }

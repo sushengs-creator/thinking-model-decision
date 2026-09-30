@@ -1,0 +1,5801 @@
+{
+  "before_script_sha256": "3fbaf13b3f01c4f2a4ec8d64ad991a8e27a632f849db332e7211213200e97ece",
+  "after_script_sha256": "742a6b46ad62a70bb087753d014e2857644d573c3fd164ba2af8c49ddd929c05",
+  "limit": 8,
+  "notice": "Lexical candidate retrieval only, not model fitness or behavior verification.",
+  "coverage": {
+    "id": {
+      "before_top8_hits": 100,
+      "after_top8_hits": 100,
+      "cases": [
+        {
+          "query": "WW-1.1",
+          "expected": "WW-1.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-1.1"
+          ]
+        },
+        {
+          "query": "WW-1.2",
+          "expected": "WW-1.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-1.2"
+          ]
+        },
+        {
+          "query": "WW-1.3",
+          "expected": "WW-1.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-1.3"
+          ]
+        },
+        {
+          "query": "WW-1.4",
+          "expected": "WW-1.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-1.4"
+          ]
+        },
+        {
+          "query": "WW-1.5",
+          "expected": "WW-1.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-1.5"
+          ]
+        },
+        {
+          "query": "WW-1.6",
+          "expected": "WW-1.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-1.6"
+          ]
+        },
+        {
+          "query": "WW-2.1",
+          "expected": "WW-2.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.1"
+          ]
+        },
+        {
+          "query": "WW-2.2",
+          "expected": "WW-2.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.2"
+          ]
+        },
+        {
+          "query": "WW-2.3",
+          "expected": "WW-2.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.3"
+          ]
+        },
+        {
+          "query": "WW-2.4",
+          "expected": "WW-2.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.4"
+          ]
+        },
+        {
+          "query": "WW-2.5",
+          "expected": "WW-2.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.5"
+          ]
+        },
+        {
+          "query": "WW-2.6",
+          "expected": "WW-2.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.6"
+          ]
+        },
+        {
+          "query": "WW-2.7",
+          "expected": "WW-2.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.7"
+          ]
+        },
+        {
+          "query": "WW-2.8",
+          "expected": "WW-2.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.8"
+          ]
+        },
+        {
+          "query": "WW-2.9",
+          "expected": "WW-2.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.9"
+          ]
+        },
+        {
+          "query": "WW-2.10",
+          "expected": "WW-2.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.10"
+          ]
+        },
+        {
+          "query": "WW-2.11",
+          "expected": "WW-2.11",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.11"
+          ]
+        },
+        {
+          "query": "WW-2.12",
+          "expected": "WW-2.12",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.12"
+          ]
+        },
+        {
+          "query": "WW-2.13",
+          "expected": "WW-2.13",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.13"
+          ]
+        },
+        {
+          "query": "WW-2.14",
+          "expected": "WW-2.14",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.14"
+          ]
+        },
+        {
+          "query": "WW-2.15",
+          "expected": "WW-2.15",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.15"
+          ]
+        },
+        {
+          "query": "WW-3.1",
+          "expected": "WW-3.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.1"
+          ]
+        },
+        {
+          "query": "WW-3.2",
+          "expected": "WW-3.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.2"
+          ]
+        },
+        {
+          "query": "WW-3.3",
+          "expected": "WW-3.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.3"
+          ]
+        },
+        {
+          "query": "WW-3.4",
+          "expected": "WW-3.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.4"
+          ]
+        },
+        {
+          "query": "WW-3.5",
+          "expected": "WW-3.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.5"
+          ]
+        },
+        {
+          "query": "WW-3.6",
+          "expected": "WW-3.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.6"
+          ]
+        },
+        {
+          "query": "WW-3.7",
+          "expected": "WW-3.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.7"
+          ]
+        },
+        {
+          "query": "WW-3.8",
+          "expected": "WW-3.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.8"
+          ]
+        },
+        {
+          "query": "WW-3.9",
+          "expected": "WW-3.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.9"
+          ]
+        },
+        {
+          "query": "WW-3.10",
+          "expected": "WW-3.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.10"
+          ]
+        },
+        {
+          "query": "WW-3.11",
+          "expected": "WW-3.11",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.11"
+          ]
+        },
+        {
+          "query": "WW-3.12",
+          "expected": "WW-3.12",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.12"
+          ]
+        },
+        {
+          "query": "WW-3.13",
+          "expected": "WW-3.13",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.13"
+          ]
+        },
+        {
+          "query": "WW-3.14",
+          "expected": "WW-3.14",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.14"
+          ]
+        },
+        {
+          "query": "WW-3.15",
+          "expected": "WW-3.15",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.15"
+          ]
+        },
+        {
+          "query": "WW-3.16",
+          "expected": "WW-3.16",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.16"
+          ]
+        },
+        {
+          "query": "WW-4.1",
+          "expected": "WW-4.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.1"
+          ]
+        },
+        {
+          "query": "WW-4.2",
+          "expected": "WW-4.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.2"
+          ]
+        },
+        {
+          "query": "WW-4.3",
+          "expected": "WW-4.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.3"
+          ]
+        },
+        {
+          "query": "WW-4.4",
+          "expected": "WW-4.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.4"
+          ]
+        },
+        {
+          "query": "WW-4.5",
+          "expected": "WW-4.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.5"
+          ]
+        },
+        {
+          "query": "WW-4.6",
+          "expected": "WW-4.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.6"
+          ]
+        },
+        {
+          "query": "WW-4.7",
+          "expected": "WW-4.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.7"
+          ]
+        },
+        {
+          "query": "WW-4.8",
+          "expected": "WW-4.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.8"
+          ]
+        },
+        {
+          "query": "WW-4.9",
+          "expected": "WW-4.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.9"
+          ]
+        },
+        {
+          "query": "WW-4.10",
+          "expected": "WW-4.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.10"
+          ]
+        },
+        {
+          "query": "WW-5.1",
+          "expected": "WW-5.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.1"
+          ]
+        },
+        {
+          "query": "WW-5.2",
+          "expected": "WW-5.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.2"
+          ]
+        },
+        {
+          "query": "WW-5.3",
+          "expected": "WW-5.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.3"
+          ]
+        },
+        {
+          "query": "WW-5.4",
+          "expected": "WW-5.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.4"
+          ]
+        },
+        {
+          "query": "WW-5.5",
+          "expected": "WW-5.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.5"
+          ]
+        },
+        {
+          "query": "WW-5.6",
+          "expected": "WW-5.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.6"
+          ]
+        },
+        {
+          "query": "WW-5.7",
+          "expected": "WW-5.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.7"
+          ]
+        },
+        {
+          "query": "WW-5.8",
+          "expected": "WW-5.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.8"
+          ]
+        },
+        {
+          "query": "WW-5.9",
+          "expected": "WW-5.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.9"
+          ]
+        },
+        {
+          "query": "WW-5.10",
+          "expected": "WW-5.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.10"
+          ]
+        },
+        {
+          "query": "WW-6.1",
+          "expected": "WW-6.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.1"
+          ]
+        },
+        {
+          "query": "WW-6.2",
+          "expected": "WW-6.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.2"
+          ]
+        },
+        {
+          "query": "WW-6.3",
+          "expected": "WW-6.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.3"
+          ]
+        },
+        {
+          "query": "WW-6.4",
+          "expected": "WW-6.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.4"
+          ]
+        },
+        {
+          "query": "WW-6.5",
+          "expected": "WW-6.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.5"
+          ]
+        },
+        {
+          "query": "WW-6.6",
+          "expected": "WW-6.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.6"
+          ]
+        },
+        {
+          "query": "WW-6.7",
+          "expected": "WW-6.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.7"
+          ]
+        },
+        {
+          "query": "WW-6.8",
+          "expected": "WW-6.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.8"
+          ]
+        },
+        {
+          "query": "WW-6.9",
+          "expected": "WW-6.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.9"
+          ]
+        },
+        {
+          "query": "WW-6.10",
+          "expected": "WW-6.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.10"
+          ]
+        },
+        {
+          "query": "WW-6.11",
+          "expected": "WW-6.11",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.11"
+          ]
+        },
+        {
+          "query": "WW-6.12",
+          "expected": "WW-6.12",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.12"
+          ]
+        },
+        {
+          "query": "WW-6.13",
+          "expected": "WW-6.13",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.13"
+          ]
+        },
+        {
+          "query": "WW-6.14",
+          "expected": "WW-6.14",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.14"
+          ]
+        },
+        {
+          "query": "WW-7.1",
+          "expected": "WW-7.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.1"
+          ]
+        },
+        {
+          "query": "WW-7.2",
+          "expected": "WW-7.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.2"
+          ]
+        },
+        {
+          "query": "WW-7.3",
+          "expected": "WW-7.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.3"
+          ]
+        },
+        {
+          "query": "WW-7.4",
+          "expected": "WW-7.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.4"
+          ]
+        },
+        {
+          "query": "WW-7.5",
+          "expected": "WW-7.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.5"
+          ]
+        },
+        {
+          "query": "WW-7.6",
+          "expected": "WW-7.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.6"
+          ]
+        },
+        {
+          "query": "WW-7.7",
+          "expected": "WW-7.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.7"
+          ]
+        },
+        {
+          "query": "WW-7.8",
+          "expected": "WW-7.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.8"
+          ]
+        },
+        {
+          "query": "WW-7.9",
+          "expected": "WW-7.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.9"
+          ]
+        },
+        {
+          "query": "WW-7.10",
+          "expected": "WW-7.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.10"
+          ]
+        },
+        {
+          "query": "WW-8.1",
+          "expected": "WW-8.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.1"
+          ]
+        },
+        {
+          "query": "WW-8.2",
+          "expected": "WW-8.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.2"
+          ]
+        },
+        {
+          "query": "WW-8.3",
+          "expected": "WW-8.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.3"
+          ]
+        },
+        {
+          "query": "WW-8.4",
+          "expected": "WW-8.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.4"
+          ]
+        },
+        {
+          "query": "WW-8.5",
+          "expected": "WW-8.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.5"
+          ]
+        },
+        {
+          "query": "WW-8.6",
+          "expected": "WW-8.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.6"
+          ]
+        },
+        {
+          "query": "WW-8.7",
+          "expected": "WW-8.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.7"
+          ]
+        },
+        {
+          "query": "WW-8.8",
+          "expected": "WW-8.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.8"
+          ]
+        },
+        {
+          "query": "WW-9.1",
+          "expected": "WW-9.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.1"
+          ]
+        },
+        {
+          "query": "WW-9.2",
+          "expected": "WW-9.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.2"
+          ]
+        },
+        {
+          "query": "WW-9.3",
+          "expected": "WW-9.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.3"
+          ]
+        },
+        {
+          "query": "WW-9.4",
+          "expected": "WW-9.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.4"
+          ]
+        },
+        {
+          "query": "WW-9.5",
+          "expected": "WW-9.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.5"
+          ]
+        },
+        {
+          "query": "WW-9.6",
+          "expected": "WW-9.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.6"
+          ]
+        },
+        {
+          "query": "WW-9.7",
+          "expected": "WW-9.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.7"
+          ]
+        },
+        {
+          "query": "WW-9.8",
+          "expected": "WW-9.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.8"
+          ]
+        },
+        {
+          "query": "WW-9.9",
+          "expected": "WW-9.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.9"
+          ]
+        },
+        {
+          "query": "WW-9.10",
+          "expected": "WW-9.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.10"
+          ]
+        },
+        {
+          "query": "WW-100",
+          "expected": "WW-100",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-100"
+          ]
+        }
+      ]
+    },
+    "short_name": {
+      "before_top8_hits": 100,
+      "after_top8_hits": 100,
+      "cases": [
+        {
+          "query": "叙事",
+          "expected": "WW-1.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-1.1",
+            "WW-7.3",
+            "WW-1.6",
+            "WW-5.4",
+            "TM-004",
+            "TM-018",
+            "TM-020",
+            "TM-060"
+          ]
+        },
+        {
+          "query": "重尾分布",
+          "expected": "WW-1.2",
+          "before_rank": 2,
+          "after_rank": 2,
+          "after_top8": [
+            "TM-091",
+            "WW-1.2",
+            "WW-3.2",
+            "WW-2.12",
+            "TM-052",
+            "TM-073",
+            "TM-075",
+            "WW-3.8"
+          ]
+        },
+        {
+          "query": "稳态生存逻辑与文化滞后",
+          "expected": "WW-1.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-1.3",
+            "TM-045",
+            "TM-013",
+            "TM-016",
+            "TM-017",
+            "TM-031",
+            "TM-068",
+            "TM-079"
+          ]
+        },
+        {
+          "query": "硬约束",
+          "expected": "WW-1.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-1.4",
+            "TM-102",
+            "WW-100",
+            "TM-078",
+            "WW-4.8",
+            "WW-9.1",
+            "WW-6.7",
+            "WW-9.5"
+          ]
+        },
+        {
+          "query": "不确定性是意义的燃料",
+          "expected": "WW-1.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-1.5",
+            "TM-050",
+            "TM-055",
+            "TM-057",
+            "TM-058",
+            "TM-071",
+            "TM-076",
+            "TM-080"
+          ]
+        },
+        {
+          "query": "三个自我",
+          "expected": "WW-1.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-1.6",
+            "TM-122",
+            "WW-2.4",
+            "WW-9.5",
+            "TM-007",
+            "TM-010",
+            "TM-011",
+            "TM-021"
+          ]
+        },
+        {
+          "query": "能耐寻求定理",
+          "expected": "WW-2.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.1",
+            "TM-075",
+            "TM-122",
+            "WW-2.4",
+            "WW-3.1"
+          ]
+        },
+        {
+          "query": "供给侧心态",
+          "expected": "WW-2.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.2",
+            "TM-087",
+            "TM-023",
+            "WW-5.4"
+          ]
+        },
+        {
+          "query": "复利",
+          "expected": "WW-2.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.3",
+            "TM-080",
+            "TM-059",
+            "TM-081",
+            "TM-083",
+            "WW-1.2",
+            "WW-2.14",
+            "WW-3.6"
+          ]
+        },
+        {
+          "query": "自我决定理论",
+          "expected": "WW-2.4",
+          "before_rank": 2,
+          "after_rank": 2,
+          "after_top8": [
+            "TM-122",
+            "WW-2.4",
+            "TM-075",
+            "TM-078",
+            "TM-079",
+            "TM-106",
+            "TM-116",
+            "WW-1.6"
+          ]
+        },
+        {
+          "query": "自由能原理",
+          "expected": "WW-2.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.5",
+            "TM-102",
+            "TM-028"
+          ]
+        },
+        {
+          "query": "主动高认知负荷",
+          "expected": "WW-2.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.6",
+            "TM-106",
+            "WW-4.1",
+            "TM-046",
+            "TM-048",
+            "TM-121",
+            "WW-2.9",
+            "WW-4.7"
+          ]
+        },
+        {
+          "query": "WOOP",
+          "expected": "WW-2.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.7",
+            "TM-123"
+          ]
+        },
+        {
+          "query": "社交资本、结构洞与位置",
+          "expected": "WW-2.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.8",
+            "WW-4.8",
+            "WW-7.2",
+            "TM-014",
+            "TM-018",
+            "TM-032",
+            "TM-040",
+            "TM-043"
+          ]
+        },
+        {
+          "query": "认知解耦",
+          "expected": "WW-2.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.9",
+            "TM-046",
+            "TM-106",
+            "TM-121",
+            "WW-2.6",
+            "WW-4.1",
+            "WW-4.7",
+            "TM-076"
+          ]
+        },
+        {
+          "query": "身份认同",
+          "expected": "WW-2.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.10",
+            "TM-014",
+            "TM-016",
+            "TM-017",
+            "TM-045",
+            "WW-7.3",
+            "TM-027",
+            "TM-028"
+          ]
+        },
+        {
+          "query": "安全基地与安全港湾",
+          "expected": "WW-2.11",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.11",
+            "TM-058",
+            "TM-040",
+            "WW-7.1",
+            "WW-8.1",
+            "TM-011",
+            "TM-032",
+            "TM-091"
+          ]
+        },
+        {
+          "query": "赛道选择",
+          "expected": "WW-2.12",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.12",
+            "WW-3.11",
+            "TM-069",
+            "TM-009",
+            "TM-079",
+            "TM-112",
+            "WW-1.2",
+            "TM-007"
+          ]
+        },
+        {
+          "query": "场域",
+          "expected": "WW-2.13",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.13",
+            "TM-032",
+            "TM-034",
+            "WW-4.8",
+            "WW-6.13",
+            "WW-6.9",
+            "WW-8.3"
+          ]
+        },
+        {
+          "query": "探索与利用",
+          "expected": "WW-2.14",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.14",
+            "WW-100",
+            "TM-124",
+            "TM-073",
+            "TM-094",
+            "WW-8.3",
+            "TM-096",
+            "WW-1.5"
+          ]
+        },
+        {
+          "query": "共鸣",
+          "expected": "WW-2.15",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.15",
+            "TM-014",
+            "TM-037"
+          ]
+        },
+        {
+          "query": "无免费午餐定理",
+          "expected": "WW-3.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.1",
+            "TM-075",
+            "TM-122",
+            "WW-2.1",
+            "WW-2.4",
+            "TM-067",
+            "TM-076",
+            "TM-064"
+          ]
+        },
+        {
+          "query": "概率分布",
+          "expected": "WW-3.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.2",
+            "TM-052",
+            "TM-004",
+            "TM-081",
+            "WW-3.13",
+            "WW-5.10",
+            "TM-091",
+            "WW-1.2"
+          ]
+        },
+        {
+          "query": "颗粒度与因果中介",
+          "expected": "WW-3.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.3",
+            "TM-056",
+            "TM-014",
+            "TM-055",
+            "TM-084",
+            "TM-086",
+            "TM-100",
+            "TM-018"
+          ]
+        },
+        {
+          "query": "贝叶斯先验",
+          "expected": "WW-3.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.4",
+            "TM-054",
+            "TM-104",
+            "WW-3.12",
+            "WW-3.15"
+          ]
+        },
+        {
+          "query": "信息价值",
+          "expected": "WW-3.5",
+          "before_rank": 2,
+          "after_rank": 2,
+          "after_top8": [
+            "TM-062",
+            "WW-3.5",
+            "TM-076",
+            "TM-097",
+            "TM-007",
+            "TM-014",
+            "TM-016",
+            "TM-019"
+          ]
+        },
+        {
+          "query": "凯利公式",
+          "expected": "WW-3.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.6",
+            "TM-081",
+            "TM-116"
+          ]
+        },
+        {
+          "query": "非遍历性",
+          "expected": "WW-3.7",
+          "before_rank": 2,
+          "after_rank": 2,
+          "after_top8": [
+            "TM-080",
+            "WW-3.7",
+            "TM-081"
+          ]
+        },
+        {
+          "query": "脆弱与反脆弱",
+          "expected": "WW-3.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.8",
+            "TM-096",
+            "TM-016",
+            "TM-095",
+            "WW-8.8",
+            "TM-041",
+            "TM-110"
+          ]
+        },
+        {
+          "query": "期权",
+          "expected": "WW-3.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.9",
+            "TM-063",
+            "TM-065",
+            "TM-081",
+            "TM-096"
+          ]
+        },
+        {
+          "query": "状态杠杆",
+          "expected": "WW-3.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.10",
+            "TM-086",
+            "WW-5.3",
+            "TM-058",
+            "TM-082",
+            "TM-096",
+            "WW-2.3",
+            "WW-3.8"
+          ]
+        },
+        {
+          "query": "选择偏差",
+          "expected": "WW-3.11",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.11",
+            "TM-022",
+            "TM-001",
+            "TM-002",
+            "TM-004",
+            "TM-038",
+            "TM-100",
+            "WW-7.5"
+          ]
+        },
+        {
+          "query": "回归均值",
+          "expected": "WW-3.12",
+          "before_rank": 2,
+          "after_rank": 2,
+          "after_top8": [
+            "TM-055",
+            "WW-3.12",
+            "TM-023",
+            "TM-056",
+            "TM-069",
+            "TM-019",
+            "TM-075",
+            "TM-091"
+          ]
+        },
+        {
+          "query": "前景理论",
+          "expected": "WW-3.13",
+          "before_rank": 2,
+          "after_rank": 2,
+          "after_top8": [
+            "TM-079",
+            "WW-3.13",
+            "TM-016",
+            "TM-078",
+            "TM-106",
+            "TM-116",
+            "TM-122",
+            "WW-2.4"
+          ]
+        },
+        {
+          "query": "参考类预测",
+          "expected": "WW-3.14",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.14",
+            "TM-073",
+            "WW-3.15",
+            "TM-020",
+            "TM-053",
+            "TM-012",
+            "TM-016",
+            "TM-030"
+          ]
+        },
+        {
+          "query": "超级预测",
+          "expected": "WW-3.15",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.15",
+            "TM-073",
+            "WW-3.14",
+            "TM-034",
+            "TM-049",
+            "TM-051",
+            "TM-001",
+            "TM-009"
+          ]
+        },
+        {
+          "query": "OODA 环",
+          "expected": "WW-3.16",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.16",
+            "TM-003",
+            "WW-8.8",
+            "TM-085",
+            "TM-083",
+            "TM-092",
+            "TM-101",
+            "WW-1.3"
+          ]
+        },
+        {
+          "query": "认知负荷理论",
+          "expected": "WW-4.1",
+          "before_rank": 2,
+          "after_rank": 2,
+          "after_top8": [
+            "TM-106",
+            "WW-4.1",
+            "WW-2.6",
+            "TM-046",
+            "TM-078",
+            "TM-079",
+            "TM-116",
+            "TM-121"
+          ]
+        },
+        {
+          "query": "ICAP 框架",
+          "expected": "WW-4.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.2",
+            "TM-012",
+            "TM-115",
+            "WW-4.4",
+            "WW-9.3",
+            "TM-116",
+            "TM-002",
+            "TM-016"
+          ]
+        },
+        {
+          "query": "刻意练习",
+          "expected": "WW-4.3",
+          "before_rank": 2,
+          "after_rank": 2,
+          "after_top8": [
+            "TM-118",
+            "WW-4.3",
+            "TM-047",
+            "TM-117",
+            "TM-119",
+            "TM-120"
+          ]
+        },
+        {
+          "query": "表征—图式—心智模型—解释框架",
+          "expected": "WW-4.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.4",
+            "TM-047",
+            "TM-116",
+            "WW-9.3",
+            "TM-115",
+            "TM-012",
+            "WW-4.1",
+            "TM-050"
+          ]
+        },
+        {
+          "query": "综合调研",
+          "expected": "WW-4.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.5",
+            "TM-035",
+            "TM-053",
+            "WW-3.5"
+          ]
+        },
+        {
+          "query": "默会知识",
+          "expected": "WW-4.6",
+          "before_rank": 2,
+          "after_rank": 2,
+          "after_top8": [
+            "TM-119",
+            "WW-4.6",
+            "TM-107",
+            "TM-120",
+            "TM-111",
+            "WW-6.9",
+            "TM-087",
+            "TM-121"
+          ]
+        },
+        {
+          "query": "可取的困难与具身认知",
+          "expected": "WW-4.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.7",
+            "TM-117",
+            "TM-046",
+            "TM-106",
+            "TM-121",
+            "TM-118",
+            "TM-120",
+            "WW-2.6"
+          ]
+        },
+        {
+          "query": "人力资本、信号与社交资本",
+          "expected": "WW-4.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.8",
+            "WW-2.8",
+            "WW-2.3",
+            "TM-072",
+            "WW-6.2",
+            "WW-7.2",
+            "TM-029",
+            "TM-007"
+          ]
+        },
+        {
+          "query": "自主支持",
+          "expected": "WW-4.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.9",
+            "TM-043",
+            "TM-047",
+            "TM-048",
+            "TM-121",
+            "TM-122",
+            "WW-2.4",
+            "TM-002"
+          ]
+        },
+        {
+          "query": "拥抱与桥接",
+          "expected": "WW-4.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.10",
+            "TM-120"
+          ]
+        },
+        {
+          "query": "经济租",
+          "expected": "WW-5.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.1",
+            "WW-5.2",
+            "TM-064"
+          ]
+        },
+        {
+          "query": "阿尔法",
+          "expected": "WW-5.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.2"
+          ]
+        },
+        {
+          "query": "商业杠杆",
+          "expected": "WW-5.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.3",
+            "TM-086",
+            "WW-3.10",
+            "TM-085",
+            "TM-096",
+            "WW-3.7",
+            "WW-5.7"
+          ]
+        },
+        {
+          "query": "机会窗口",
+          "expected": "WW-5.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.4",
+            "TM-062",
+            "TM-064",
+            "TM-063",
+            "TM-078",
+            "TM-089",
+            "TM-096",
+            "TM-101"
+          ]
+        },
+        {
+          "query": "效果推理",
+          "expected": "WW-5.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.5",
+            "TM-053",
+            "TM-104",
+            "WW-4.7",
+            "TM-043",
+            "TM-044",
+            "TM-075",
+            "TM-092"
+          ]
+        },
+        {
+          "query": "沃德利地图",
+          "expected": "WW-5.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.6",
+            "TM-094",
+            "WW-4.4"
+          ]
+        },
+        {
+          "query": "鲍莫尔成本病",
+          "expected": "WW-5.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.7",
+            "TM-064",
+            "TM-065",
+            "TM-066",
+            "TM-099",
+            "TM-007",
+            "TM-022",
+            "TM-005"
+          ]
+        },
+        {
+          "query": "杰文斯悖论",
+          "expected": "WW-5.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.8",
+            "TM-069"
+          ]
+        },
+        {
+          "query": "平台",
+          "expected": "WW-5.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.9",
+            "TM-089",
+            "TM-099",
+            "WW-6.12",
+            "WW-6.6",
+            "WW-7.5",
+            "TM-007",
+            "TM-010"
+          ]
+        },
+        {
+          "query": "托付",
+          "expected": "WW-5.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.10",
+            "WW-6.4",
+            "WW-9.5"
+          ]
+        },
+        {
+          "query": "地位",
+          "expected": "WW-6.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.1",
+            "TM-028",
+            "TM-029",
+            "TM-030",
+            "TM-031",
+            "TM-038",
+            "TM-100",
+            "WW-2.12"
+          ]
+        },
+        {
+          "query": "礼与社会互动协议",
+          "expected": "WW-6.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.2",
+            "TM-027",
+            "TM-034",
+            "WW-4.8",
+            "TM-039",
+            "TM-102",
+            "TM-112",
+            "TM-028"
+          ]
+        },
+        {
+          "query": "激励相容",
+          "expected": "WW-6.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.3",
+            "TM-113",
+            "TM-029",
+            "TM-060",
+            "TM-098",
+            "TM-122"
+          ]
+        },
+        {
+          "query": "柠檬市场与可验证性",
+          "expected": "WW-6.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.4",
+            "TM-030",
+            "TM-097",
+            "TM-026",
+            "TM-050",
+            "TM-051",
+            "TM-067",
+            "TM-073"
+          ]
+        },
+        {
+          "query": "外部性与公地治理",
+          "expected": "WW-6.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.5",
+            "WW-6.6",
+            "WW-6.8",
+            "TM-017",
+            "TM-019",
+            "TM-020",
+            "TM-037",
+            "TM-086"
+          ]
+        },
+        {
+          "query": "保护费与公共契约",
+          "expected": "WW-6.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.6",
+            "WW-6.5",
+            "TM-048",
+            "TM-032",
+            "TM-033",
+            "TM-037",
+            "TM-040",
+            "TM-041"
+          ]
+        },
+        {
+          "query": "软预算约束",
+          "expected": "WW-6.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.7",
+            "TM-098",
+            "WW-1.4",
+            "WW-9.5",
+            "TM-013",
+            "TM-020",
+            "TM-057",
+            "TM-083"
+          ]
+        },
+        {
+          "query": "可读性与米提斯",
+          "expected": "WW-6.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.8",
+            "WW-6.5",
+            "TM-003",
+            "WW-7.5",
+            "WW-8.5"
+          ]
+        },
+        {
+          "query": "共同知识",
+          "expected": "WW-6.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.9",
+            "TM-111",
+            "TM-107",
+            "TM-108",
+            "TM-119",
+            "WW-4.6",
+            "TM-018",
+            "TM-025"
+          ]
+        },
+        {
+          "query": "替罪羊与系统",
+          "expected": "WW-6.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.10",
+            "TM-092",
+            "TM-095",
+            "TM-007",
+            "TM-060",
+            "TM-086",
+            "TM-090",
+            "TM-091"
+          ]
+        },
+        {
+          "query": "非预期后果",
+          "expected": "WW-6.11",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.11",
+            "WW-6.12",
+            "TM-057",
+            "TM-007",
+            "TM-045",
+            "TM-052",
+            "TM-058",
+            "TM-066"
+          ]
+        },
+        {
+          "query": "慢变量与稳定预期",
+          "expected": "WW-6.12",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.12",
+            "WW-6.11",
+            "TM-073",
+            "TM-023",
+            "TM-045",
+            "TM-049",
+            "TM-052",
+            "TM-055"
+          ]
+        },
+        {
+          "query": "摩洛克与锦标赛",
+          "expected": "WW-6.13",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.13",
+            "TM-052",
+            "TM-113",
+            "TM-114",
+            "WW-9.2"
+          ]
+        },
+        {
+          "query": "第三物",
+          "expected": "WW-6.14",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.14",
+            "WW-9.4",
+            "TM-015",
+            "WW-6.5"
+          ]
+        },
+        {
+          "query": "剩余判断权",
+          "expected": "WW-7.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.1",
+            "TM-037",
+            "TM-052",
+            "TM-054",
+            "WW-8.1",
+            "WW-9.9",
+            "TM-001",
+            "TM-015"
+          ]
+        },
+        {
+          "query": "组织资本",
+          "expected": "WW-7.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.2",
+            "TM-094",
+            "WW-2.8",
+            "WW-4.8",
+            "WW-8.5",
+            "TM-035",
+            "TM-060",
+            "TM-063"
+          ]
+        },
+        {
+          "query": "叙事权",
+          "expected": "WW-7.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.3",
+            "WW-1.1",
+            "WW-1.6",
+            "WW-5.4"
+          ]
+        },
+        {
+          "query": "人身依附与角色责任",
+          "expected": "WW-7.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.4",
+            "TM-025",
+            "TM-042",
+            "TM-045",
+            "TM-020",
+            "TM-023",
+            "TM-030",
+            "TM-033"
+          ]
+        },
+        {
+          "query": "古德哈特定律",
+          "expected": "WW-7.5",
+          "before_rank": 2,
+          "after_rank": 2,
+          "after_top8": [
+            "TM-074",
+            "WW-7.5",
+            "TM-060",
+            "TM-092",
+            "TM-098",
+            "TM-100",
+            "TM-024",
+            "TM-070"
+          ]
+        },
+        {
+          "query": "指挥官意图",
+          "expected": "WW-7.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.6",
+            "TM-061",
+            "TM-094",
+            "TM-123"
+          ]
+        },
+        {
+          "query": "委托—代理",
+          "expected": "WW-7.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.7",
+            "TM-100",
+            "TM-071",
+            "TM-074",
+            "TM-109",
+            "TM-113",
+            "TM-030",
+            "TM-063"
+          ]
+        },
+        {
+          "query": "智件：流程、清单与经验库",
+          "expected": "WW-7.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.8",
+            "TM-101",
+            "TM-007",
+            "TM-022",
+            "TM-085",
+            "WW-5.3",
+            "WW-6.8",
+            "WW-8.7"
+          ]
+        },
+        {
+          "query": "基线漂移",
+          "expected": "WW-7.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.9"
+          ]
+        },
+        {
+          "query": "认领—授予—授权",
+          "expected": "WW-7.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.10",
+            "TM-022",
+            "TM-033",
+            "TM-094",
+            "TM-098",
+            "TM-100",
+            "WW-5.10",
+            "WW-7.1"
+          ]
+        },
+        {
+          "query": "生成",
+          "expected": "WW-8.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.1",
+            "TM-019",
+            "TM-093",
+            "WW-5.5",
+            "TM-007",
+            "TM-014",
+            "TM-015",
+            "TM-018"
+          ]
+        },
+        {
+          "query": "对称性破缺",
+          "expected": "WW-8.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.2",
+            "TM-097",
+            "TM-015",
+            "WW-3.2",
+            "WW-6.4"
+          ]
+        },
+        {
+          "query": "邻近可能",
+          "expected": "WW-8.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.3",
+            "TM-125",
+            "WW-100",
+            "TM-057",
+            "TM-058",
+            "TM-060",
+            "TM-064",
+            "TM-070"
+          ]
+        },
+        {
+          "query": "反馈回路",
+          "expected": "WW-8.4",
+          "before_rank": 2,
+          "after_rank": 2,
+          "after_top8": [
+            "TM-083",
+            "WW-8.4",
+            "TM-051",
+            "TM-082",
+            "TM-086",
+            "TM-087",
+            "TM-092",
+            "TM-094"
+          ]
+        },
+        {
+          "query": "自组织临界",
+          "expected": "WW-8.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.5",
+            "TM-094",
+            "TM-090",
+            "WW-7.2",
+            "TM-035",
+            "TM-086",
+            "TM-095",
+            "TM-062"
+          ]
+        },
+        {
+          "query": "边际分析",
+          "expected": "WW-8.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.6",
+            "TM-065",
+            "TM-066",
+            "TM-067",
+            "TM-050",
+            "TM-058",
+            "TM-105",
+            "TM-052"
+          ]
+        },
+        {
+          "query": "路径创造",
+          "expected": "WW-8.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.7",
+            "TM-007",
+            "TM-017",
+            "TM-029",
+            "TM-063",
+            "TM-067",
+            "TM-073",
+            "TM-074"
+          ]
+        },
+        {
+          "query": "适应性循环",
+          "expected": "WW-8.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.8",
+            "TM-092",
+            "TM-007",
+            "TM-039",
+            "TM-045",
+            "TM-094",
+            "TM-060",
+            "WW-2.15"
+          ]
+        },
+        {
+          "query": "零阶道理",
+          "expected": "WW-9.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.1",
+            "WW-6.14"
+          ]
+        },
+        {
+          "query": "目标函数",
+          "expected": "WW-9.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.2",
+            "WW-3.1",
+            "WW-7.3",
+            "TM-016",
+            "TM-071",
+            "TM-099",
+            "TM-101",
+            "TM-117"
+          ]
+        },
+        {
+          "query": "二阶意愿与元表征",
+          "expected": "WW-9.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.3",
+            "TM-060",
+            "WW-4.4",
+            "TM-034",
+            "TM-087",
+            "TM-108",
+            "TM-010",
+            "TM-122"
+          ]
+        },
+        {
+          "query": "副产品与迂回",
+          "expected": "WW-9.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.4",
+            "TM-088",
+            "TM-090",
+            "TM-004",
+            "TM-017",
+            "WW-1.2",
+            "WW-2.14",
+            "WW-3.16"
+          ]
+        },
+        {
+          "query": "自我约束",
+          "expected": "WW-9.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.5",
+            "TM-042",
+            "TM-122",
+            "WW-3.9",
+            "WW-1.6",
+            "WW-1.4",
+            "WW-2.4",
+            "WW-6.7"
+          ]
+        },
+        {
+          "query": "道德的可扩展性",
+          "expected": "WW-9.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.6",
+            "TM-098",
+            "TM-113",
+            "TM-010",
+            "TM-042",
+            "TM-045",
+            "TM-071",
+            "TM-079"
+          ]
+        },
+        {
+          "query": "立题",
+          "expected": "WW-9.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.7"
+          ]
+        },
+        {
+          "query": "内部优化器",
+          "expected": "WW-9.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.8",
+            "TM-085",
+            "TM-030",
+            "TM-040",
+            "TM-061",
+            "TM-086",
+            "TM-089",
+            "TM-104"
+          ]
+        },
+        {
+          "query": "奇点前后的稀缺",
+          "expected": "WW-9.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.9",
+            "TM-109",
+            "TM-004",
+            "TM-019",
+            "TM-023",
+            "TM-055",
+            "TM-056",
+            "TM-062"
+          ]
+        },
+        {
+          "query": "预训练与后训练",
+          "expected": "WW-9.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.10",
+            "TM-055",
+            "TM-123",
+            "TM-118",
+            "WW-9.8"
+          ]
+        },
+        {
+          "query": "探索和生发",
+          "expected": "WW-100",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-100",
+            "WW-2.14",
+            "TM-124",
+            "WW-6.12",
+            "WW-2.11",
+            "WW-2.5"
+          ]
+        }
+      ]
+    },
+    "trigger": {
+      "before_top8_hits": 95,
+      "after_top8_hits": 100,
+      "cases": [
+        {
+          "query": "事实很多却没有方向",
+          "expected": "WW-1.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-1.1",
+            "TM-056",
+            "TM-003",
+            "TM-005",
+            "TM-006",
+            "TM-007",
+            "TM-010",
+            "TM-014"
+          ]
+        },
+        {
+          "query": "少数人、产品、事件或时段贡献大部分结果",
+          "expected": "WW-1.2",
+          "before_rank": 5,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-1.2",
+            "WW-9.4",
+            "TM-088",
+            "TM-004",
+            "TM-017",
+            "WW-2.14",
+            "WW-3.16",
+            "WW-4.5"
+          ]
+        },
+        {
+          "query": "旧观念在新环境中限制行动",
+          "expected": "WW-1.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-1.3",
+            "TM-123",
+            "TM-033",
+            "TM-046",
+            "TM-056",
+            "TM-083",
+            "TM-087",
+            "WW-4.10"
+          ]
+        },
+        {
+          "query": "宏大愿景缺少算账",
+          "expected": "WW-1.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-1.4",
+            "TM-026",
+            "WW-3.14"
+          ]
+        },
+        {
+          "query": "用户因未知而焦虑或要求绝对保证",
+          "expected": "WW-1.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-1.5",
+            "TM-021",
+            "TM-046",
+            "TM-052",
+            "TM-057",
+            "TM-059",
+            "TM-062",
+            "TM-067"
+          ]
+        },
+        {
+          "query": "用户问“我为什么又这样”",
+          "expected": "WW-1.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-1.6",
+            "WW-3.2",
+            "WW-5.4",
+            "TM-082",
+            "TM-090",
+            "TM-116",
+            "TM-004",
+            "TM-011"
+          ]
+        },
+        {
+          "query": "未来奖励位置不明",
+          "expected": "WW-2.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.1",
+            "WW-2.8",
+            "TM-013",
+            "TM-020",
+            "TM-055",
+            "TM-086",
+            "TM-098",
+            "TM-122"
+          ]
+        },
+        {
+          "query": "合作讨论只剩“我该得到什么”",
+          "expected": "WW-2.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.2",
+            "TM-114",
+            "TM-037",
+            "TM-041",
+            "TM-044",
+            "TM-052",
+            "TM-062",
+            "TM-066"
+          ]
+        },
+        {
+          "query": "规划多年成长",
+          "expected": "WW-2.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.3",
+            "TM-020",
+            "TM-007",
+            "TM-097",
+            "TM-125",
+            "TM-073",
+            "TM-095",
+            "TM-118"
+          ]
+        },
+        {
+          "query": "拖延、倦怠、最低成本合规",
+          "expected": "WW-2.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.4",
+            "WW-2.5",
+            "TM-014",
+            "TM-057",
+            "TM-063",
+            "TM-064",
+            "TM-065",
+            "TM-066"
+          ]
+        },
+        {
+          "query": "现实与预期持续冲突",
+          "expected": "WW-2.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.5",
+            "WW-6.11",
+            "TM-045",
+            "TM-073",
+            "TM-086",
+            "TM-113",
+            "TM-122",
+            "WW-6.12"
+          ]
+        },
+        {
+          "query": "高难工作被通知和会议切碎",
+          "expected": "WW-2.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.6",
+            "TM-108",
+            "TM-033",
+            "TM-047",
+            "TM-074",
+            "TM-111",
+            "TM-011",
+            "TM-018"
+          ]
+        },
+        {
+          "query": "愿望反复出现却没有行动",
+          "expected": "WW-2.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.7",
+            "TM-123",
+            "TM-033",
+            "TM-022",
+            "TM-009",
+            "TM-021",
+            "TM-026",
+            "TM-028"
+          ]
+        },
+        {
+          "query": "能力不错却看不到机会",
+          "expected": "WW-2.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.8",
+            "TM-064",
+            "TM-021",
+            "TM-028",
+            "TM-031",
+            "TM-032",
+            "TM-036",
+            "TM-041"
+          ]
+        },
+        {
+          "query": "愤怒、恐惧、羞耻或嫉妒正推动立即行动",
+          "expected": "WW-2.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.9",
+            "WW-2.7",
+            "TM-016",
+            "TM-023",
+            "TM-028",
+            "TM-031",
+            "TM-032",
+            "TM-037"
+          ]
+        },
+        {
+          "query": "“像我这样的人只能如此”",
+          "expected": "WW-2.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.10",
+            "TM-008",
+            "TM-017",
+            "TM-018",
+            "TM-020",
+            "TM-023",
+            "TM-025",
+            "TM-026"
+          ]
+        },
+        {
+          "query": "不敢探索、犯错或说真话",
+          "expected": "WW-2.11",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.11",
+            "WW-2.14",
+            "TM-035",
+            "WW-100",
+            "TM-020",
+            "TM-038",
+            "TM-041",
+            "TM-059"
+          ]
+        },
+        {
+          "query": "努力很多却回报很低",
+          "expected": "WW-2.12",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.12",
+            "TM-035",
+            "TM-012",
+            "TM-025",
+            "TM-026",
+            "TM-034",
+            "TM-039",
+            "TM-053"
+          ]
+        },
+        {
+          "query": "能力在一个环境中不被承认",
+          "expected": "WW-2.13",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.13",
+            "TM-002",
+            "TM-007",
+            "TM-018",
+            "TM-020",
+            "TM-021",
+            "TM-023",
+            "TM-024"
+          ]
+        },
+        {
+          "query": "在尝新与深耕间选择",
+          "expected": "WW-2.14",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.14",
+            "WW-2.12",
+            "WW-3.11",
+            "TM-031",
+            "TM-079",
+            "TM-099",
+            "WW-6.5",
+            "TM-007"
+          ]
+        },
+        {
+          "query": "外在成功不断升级却没有充实感",
+          "expected": "WW-2.15",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-2.15",
+            "TM-045",
+            "TM-020",
+            "TM-040",
+            "TM-047",
+            "TM-051",
+            "TM-054",
+            "TM-055"
+          ]
+        },
+        {
+          "query": "寻找适用于一切情境的最佳方法",
+          "expected": "WW-3.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.1",
+            "TM-014",
+            "TM-016",
+            "TM-026",
+            "TM-027",
+            "TM-035",
+            "TM-044",
+            "TM-049"
+          ]
+        },
+        {
+          "query": "只报成功率或平均收益",
+          "expected": "WW-3.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.2",
+            "TM-080",
+            "TM-057",
+            "TM-045",
+            "TM-051",
+            "TM-058",
+            "TM-062",
+            "TM-067"
+          ]
+        },
+        {
+          "query": "解释只有口号或标签",
+          "expected": "WW-3.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.3",
+            "TM-050",
+            "TM-038",
+            "TM-039",
+            "TM-107",
+            "WW-4.4",
+            "TM-010",
+            "TM-030"
+          ]
+        },
+        {
+          "query": "新证据需要改变信念",
+          "expected": "WW-3.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.4",
+            "TM-054",
+            "TM-002",
+            "TM-012",
+            "TM-023",
+            "TM-044",
+            "TM-047",
+            "TM-049"
+          ]
+        },
+        {
+          "query": "是否继续调研、测试或购买报告",
+          "expected": "WW-3.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.5",
+            "TM-007",
+            "TM-035",
+            "TM-041",
+            "TM-047",
+            "TM-061",
+            "TM-063",
+            "TM-071"
+          ]
+        },
+        {
+          "query": "已经判断有优势，却不知道投入多少",
+          "expected": "WW-3.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.6",
+            "TM-051",
+            "TM-065",
+            "TM-004",
+            "TM-005",
+            "TM-006",
+            "TM-007",
+            "TM-011"
+          ]
+        },
+        {
+          "query": "总体期望很好但个人可能出局",
+          "expected": "WW-3.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.7",
+            "TM-057",
+            "TM-042",
+            "TM-078",
+            "TM-125",
+            "TM-014",
+            "TM-017",
+            "TM-026"
+          ]
+        },
+        {
+          "query": "系统面对波动",
+          "expected": "WW-3.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.8",
+            "TM-092",
+            "TM-095",
+            "WW-6.10",
+            "TM-068",
+            "TM-069",
+            "TM-080",
+            "TM-091"
+          ]
+        },
+        {
+          "query": "未来信息会逐步揭晓",
+          "expected": "WW-3.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.9",
+            "TM-062",
+            "TM-097",
+            "WW-3.5",
+            "TM-056",
+            "TM-061",
+            "TM-077",
+            "TM-049"
+          ]
+        },
+        {
+          "query": "人人很忙但吞吐不增",
+          "expected": "WW-3.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.10",
+            "TM-035",
+            "TM-026",
+            "TM-087",
+            "TM-085"
+          ]
+        },
+        {
+          "query": "从成功者、名校生、现存公司、主动回应者或可见内容推断总体",
+          "expected": "WW-3.11",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.11",
+            "TM-004",
+            "TM-048",
+            "TM-003",
+            "TM-011",
+            "TM-012",
+            "TM-014",
+            "TM-017"
+          ]
+        },
+        {
+          "query": "极端表现后立即干预，随后指标改善",
+          "expected": "WW-3.12",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.12",
+            "TM-055",
+            "TM-074",
+            "TM-045",
+            "TM-049",
+            "TM-051",
+            "TM-060",
+            "TM-061"
+          ]
+        },
+        {
+          "query": "亏损后越赌越大",
+          "expected": "WW-3.13",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.13",
+            "TM-096",
+            "TM-004",
+            "TM-019",
+            "TM-058",
+            "TM-079",
+            "TM-081",
+            "TM-084"
+          ]
+        },
+        {
+          "query": "工期、成本、成功率过度乐观",
+          "expected": "WW-3.14",
+          "before_rank": 22,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.14",
+            "TM-064",
+            "TM-065",
+            "TM-066",
+            "TM-099",
+            "WW-5.7",
+            "TM-007",
+            "TM-022"
+          ]
+        },
+        {
+          "query": "重大未来问题边界模糊",
+          "expected": "WW-3.15",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.15",
+            "TM-017",
+            "TM-030",
+            "TM-033",
+            "TM-040",
+            "TM-051",
+            "TM-052",
+            "TM-057"
+          ]
+        },
+        {
+          "query": "信息不全而必须快速行动",
+          "expected": "WW-3.16",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-3.16",
+            "TM-097",
+            "TM-062",
+            "TM-123",
+            "WW-3.5",
+            "TM-025",
+            "TM-028",
+            "TM-030"
+          ]
+        },
+        {
+          "query": "内容讲了多次仍学不会",
+          "expected": "WW-4.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.1",
+            "TM-019",
+            "TM-055",
+            "TM-064",
+            "TM-066",
+            "TM-068",
+            "TM-070",
+            "TM-086"
+          ]
+        },
+        {
+          "query": "比较学习方法",
+          "expected": "WW-4.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.2",
+            "TM-120",
+            "TM-101",
+            "TM-117",
+            "TM-021",
+            "TM-025",
+            "TM-056",
+            "TM-060"
+          ]
+        },
+        {
+          "query": "从合格走向专家",
+          "expected": "WW-4.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.3",
+            "TM-030",
+            "TM-028",
+            "TM-029",
+            "TM-032",
+            "TM-051",
+            "TM-055",
+            "TM-073"
+          ]
+        },
+        {
+          "query": "读了很多却只会复述故事",
+          "expected": "WW-4.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.4",
+            "TM-032",
+            "TM-035",
+            "TM-039",
+            "TM-046",
+            "TM-086",
+            "TM-005",
+            "TM-020"
+          ]
+        },
+        {
+          "query": "没有现成教科书却必须形成判断",
+          "expected": "WW-4.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.5",
+            "TM-094",
+            "TM-007",
+            "TM-010",
+            "TM-012",
+            "TM-015",
+            "TM-026",
+            "TM-027"
+          ]
+        },
+        {
+          "query": "SOP 写得完整仍做不好",
+          "expected": "WW-4.6",
+          "before_rank": 2,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.6",
+            "WW-7.8",
+            "WW-5.6",
+            "TM-003",
+            "TM-017",
+            "TM-026",
+            "TM-108",
+            "TM-118"
+          ]
+        },
+        {
+          "query": "学习很流畅却记不住",
+          "expected": "WW-4.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.7",
+            "TM-120",
+            "TM-117",
+            "TM-115",
+            "TM-121",
+            "TM-019",
+            "TM-045",
+            "TM-046"
+          ]
+        },
+        {
+          "query": "评估学校、学位、考试、培训或名校价值",
+          "expected": "WW-4.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.8",
+            "WW-4.10",
+            "WW-9.7",
+            "TM-097",
+            "TM-125",
+            "TM-011",
+            "TM-018",
+            "TM-019"
+          ]
+        },
+        {
+          "query": "养育、教学或管理需要内化规则",
+          "expected": "WW-4.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.9",
+            "TM-067",
+            "WW-2.4",
+            "TM-046",
+            "TM-050",
+            "TM-056",
+            "TM-084",
+            "TM-089"
+          ]
+        },
+        {
+          "query": "考试会做、现实不会",
+          "expected": "WW-4.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-4.10",
+            "TM-120",
+            "TM-019",
+            "TM-020",
+            "TM-042",
+            "TM-097",
+            "TM-109",
+            "TM-012"
+          ]
+        },
+        {
+          "query": "用户创造了很多价值却留不住收益",
+          "expected": "WW-5.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.1",
+            "TM-062",
+            "WW-3.5",
+            "WW-8.7",
+            "TM-015",
+            "TM-017",
+            "TM-018",
+            "TM-019"
+          ]
+        },
+        {
+          "query": "个人或公司只能得到行业平均回报",
+          "expected": "WW-5.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.2",
+            "TM-042",
+            "TM-080",
+            "TM-007",
+            "TM-012",
+            "TM-014",
+            "TM-020",
+            "TM-026"
+          ]
+        },
+        {
+          "query": "收入与个人工时强绑定",
+          "expected": "WW-5.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.3",
+            "TM-042",
+            "TM-016",
+            "TM-100",
+            "TM-038",
+            "TM-045",
+            "TM-074",
+            "TM-082"
+          ]
+        },
+        {
+          "query": "用户问某个风口是否值得进入、现在是太早还是太晚",
+          "expected": "WW-5.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.4",
+            "TM-001",
+            "TM-005",
+            "TM-007",
+            "TM-009",
+            "TM-010",
+            "TM-012",
+            "TM-014"
+          ]
+        },
+        {
+          "query": "目标和市场尚不清楚，却必须开始创业、创作或职业转向",
+          "expected": "WW-5.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.5",
+            "WW-9.2",
+            "TM-002",
+            "TM-007",
+            "TM-012",
+            "TM-017",
+            "TM-018",
+            "TM-019"
+          ]
+        },
+        {
+          "query": "团队在自制还是采购之间争论",
+          "expected": "WW-5.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.6",
+            "TM-017",
+            "TM-019",
+            "TM-026",
+            "TM-041",
+            "TM-043",
+            "TM-045",
+            "TM-056"
+          ]
+        },
+        {
+          "query": "教育、医疗、照护、艺术、维修和专业服务越来越贵",
+          "expected": "WW-5.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.7",
+            "WW-2.4",
+            "WW-4.8",
+            "WW-7.7",
+            "TM-030",
+            "TM-049",
+            "TM-004",
+            "TM-020"
+          ]
+        },
+        {
+          "query": "用户断言效率提升会按比例减少资源消耗或岗位",
+          "expected": "WW-5.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.8",
+            "TM-007",
+            "TM-034",
+            "TM-045",
+            "TM-046",
+            "TM-047",
+            "TM-050",
+            "TM-051"
+          ]
+        },
+        {
+          "query": "业务依赖流量入口、应用商店、外卖、电商或内容平台",
+          "expected": "WW-5.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.9",
+            "TM-007",
+            "TM-012",
+            "TM-017",
+            "TM-027",
+            "TM-039",
+            "TM-058",
+            "TM-082"
+          ]
+        },
+        {
+          "query": "用户想提升职场价值、承担更大责任或培养高级人才",
+          "expected": "WW-5.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-5.10",
+            "TM-062",
+            "TM-014",
+            "TM-015",
+            "TM-016",
+            "TM-017",
+            "TM-018",
+            "TM-019"
+          ]
+        },
+        {
+          "query": "一个看似微小的意见分歧引发强烈防御",
+          "expected": "WW-6.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.1",
+            "TM-019",
+            "TM-020",
+            "TM-026",
+            "TM-033",
+            "TM-043",
+            "TM-045",
+            "TM-051"
+          ]
+        },
+        {
+          "query": "陌生人初次合作、跨文化沟通、敏感反馈、身份次序不清、关系受损或互动成本过高",
+          "expected": "WW-6.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.2",
+            "TM-099",
+            "TM-064",
+            "TM-065",
+            "TM-066",
+            "TM-083",
+            "TM-105",
+            "TM-114"
+          ]
+        },
+        {
+          "query": "制度依赖成员自觉或管理者威严",
+          "expected": "WW-6.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.3",
+            "TM-007",
+            "TM-021",
+            "TM-028",
+            "TM-045",
+            "TM-056",
+            "TM-061",
+            "TM-077"
+          ]
+        },
+        {
+          "query": "买卖双方质量信息不对称",
+          "expected": "WW-6.4",
+          "before_rank": 2,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.4",
+            "TM-097",
+            "TM-062",
+            "TM-090",
+            "WW-3.5",
+            "TM-025",
+            "TM-028",
+            "TM-030"
+          ]
+        },
+        {
+          "query": "行动收益归自己、成本却落到第三方",
+          "expected": "WW-6.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.5",
+            "TM-099",
+            "TM-065",
+            "TM-064",
+            "TM-066",
+            "TM-006",
+            "TM-022",
+            "TM-123"
+          ]
+        },
+        {
+          "query": "分析国家、平台或组织的强制权为何合法",
+          "expected": "WW-6.6",
+          "before_rank": 2,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.6",
+            "WW-5.9",
+            "TM-050",
+            "TM-094",
+            "TM-105",
+            "TM-007",
+            "TM-012",
+            "TM-060"
+          ]
+        },
+        {
+          "query": "项目反复超支仍获追加",
+          "expected": "WW-6.7",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.7",
+            "TM-047",
+            "TM-053",
+            "TM-056",
+            "TM-061",
+            "TM-001",
+            "TM-003",
+            "TM-006"
+          ]
+        },
+        {
+          "query": "大组织以统一表格、分类、KPI 和标准流程管理复杂现场",
+          "expected": "WW-6.8",
+          "before_rank": 3,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.8",
+            "TM-074",
+            "TM-103",
+            "WW-9.7",
+            "TM-013",
+            "TM-014",
+            "TM-016",
+            "TM-027"
+          ]
+        },
+        {
+          "query": "每个人似乎都知道，却没人敢先行动",
+          "expected": "WW-6.9",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.9",
+            "TM-033",
+            "TM-042",
+            "TM-111",
+            "TM-087",
+            "TM-056",
+            "TM-113",
+            "TM-123"
+          ]
+        },
+        {
+          "query": "事故、造假或危机后组织急着找一个坏人",
+          "expected": "WW-6.10",
+          "before_rank": 3,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.10",
+            "TM-001",
+            "TM-091",
+            "WW-7.8",
+            "TM-004",
+            "TM-008",
+            "TM-030",
+            "TM-043"
+          ]
+        },
+        {
+          "query": "政策、考核或家庭规则出于好意却可能事与愿违",
+          "expected": "WW-6.11",
+          "before_rank": 2,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.11",
+            "TM-092",
+            "WW-4.5",
+            "WW-6.12",
+            "WW-8.4",
+            "TM-012",
+            "TM-037",
+            "TM-038"
+          ]
+        },
+        {
+          "query": "政府、平台或组织频繁换政策追短期成绩",
+          "expected": "WW-6.12",
+          "before_rank": 2,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.12",
+            "WW-5.9",
+            "WW-6.5",
+            "TM-020",
+            "TM-031",
+            "TM-045",
+            "TM-064",
+            "TM-066"
+          ]
+        },
+        {
+          "query": "所有人都投入更多却无人更好",
+          "expected": "WW-6.13",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.13",
+            "TM-032",
+            "TM-001",
+            "TM-004",
+            "TM-007",
+            "TM-010",
+            "TM-012",
+            "TM-014"
+          ]
+        },
+        {
+          "query": "双方立场、身份或情绪正面冲撞",
+          "expected": "WW-6.14",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-6.14",
+            "WW-2.10",
+            "TM-043",
+            "TM-044",
+            "TM-045",
+            "TM-046",
+            "TM-028",
+            "TM-029"
+          ]
+        },
+        {
+          "query": "组织争论谁该拍板",
+          "expected": "WW-7.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.1",
+            "TM-094",
+            "WW-7.2",
+            "WW-8.5",
+            "TM-035",
+            "TM-077",
+            "TM-020",
+            "TM-041"
+          ]
+        },
+        {
+          "query": "明星人才很多却协作低效",
+          "expected": "WW-7.2",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.2",
+            "TM-035",
+            "TM-053",
+            "TM-084",
+            "TM-089",
+            "TM-007",
+            "TM-013",
+            "TM-019"
+          ]
+        },
+        {
+          "query": "组织有资源却缺共同方向",
+          "expected": "WW-7.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.3",
+            "TM-108",
+            "TM-111",
+            "TM-094",
+            "WW-7.2",
+            "TM-030",
+            "TM-035",
+            "TM-036"
+          ]
+        },
+        {
+          "query": "组织靠老板恩威、亲信忠诚、裙带关系或中间人运转",
+          "expected": "WW-7.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.4",
+            "TM-094",
+            "TM-036",
+            "TM-071",
+            "TM-084",
+            "TM-090",
+            "TM-095",
+            "TM-100"
+          ]
+        },
+        {
+          "query": "一项指标被用于奖惩后迅速失真",
+          "expected": "WW-7.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.5",
+            "TM-074",
+            "TM-053",
+            "TM-063",
+            "TM-067",
+            "TM-073",
+            "TM-094",
+            "TM-096"
+          ]
+        },
+        {
+          "query": "现场变化快，详细计划很快过时",
+          "expected": "WW-7.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.6",
+            "TM-050",
+            "TM-061",
+            "TM-032",
+            "TM-046",
+            "TM-052",
+            "TM-062",
+            "TM-073"
+          ]
+        },
+        {
+          "query": "装修、投资、医疗、外包、管理或公共治理中，执行者比委托人更懂现场",
+          "expected": "WW-7.7",
+          "before_rank": 2,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.7",
+            "TM-099",
+            "WW-2.7",
+            "WW-3.6",
+            "WW-5.6",
+            "WW-5.7",
+            "TM-098",
+            "TM-027"
+          ]
+        },
+        {
+          "query": "组织依赖英雄救火",
+          "expected": "WW-7.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.8",
+            "TM-007",
+            "TM-094",
+            "WW-7.2",
+            "WW-8.5",
+            "TM-019",
+            "TM-035",
+            "TM-083"
+          ]
+        },
+        {
+          "query": "曾经不可接受的质量、风险、账期或服务逐渐被当成正常",
+          "expected": "WW-7.9",
+          "before_rank": 14,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.9",
+            "TM-098",
+            "TM-049",
+            "TM-036",
+            "TM-061",
+            "TM-001",
+            "TM-032",
+            "TM-037"
+          ]
+        },
+        {
+          "query": "用户没有职位却想发挥领导作用",
+          "expected": "WW-7.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-7.10",
+            "TM-011",
+            "TM-014",
+            "TM-015",
+            "TM-018",
+            "TM-025",
+            "TM-028",
+            "TM-034"
+          ]
+        },
+        {
+          "query": "用户想创造能超越自己生命周期的公司、学校、作品体系或共同体",
+          "expected": "WW-8.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.1",
+            "WW-4.8",
+            "TM-007",
+            "TM-034",
+            "TM-059",
+            "TM-064",
+            "TM-083",
+            "TM-097"
+          ]
+        },
+        {
+          "query": "新行业、组织、标准或身份尚未定型",
+          "expected": "WW-8.2",
+          "before_rank": 5,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.2",
+            "TM-094",
+            "WW-7.2",
+            "WW-8.5",
+            "TM-035",
+            "WW-1.1",
+            "WW-1.3",
+            "WW-2.8"
+          ]
+        },
+        {
+          "query": "远大目标看不见直接路径",
+          "expected": "WW-8.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.3",
+            "WW-9.2",
+            "TM-007",
+            "WW-8.7",
+            "TM-018",
+            "TM-021",
+            "TM-026",
+            "TM-028"
+          ]
+        },
+        {
+          "query": "复杂系统因果太多难以下手",
+          "expected": "WW-8.4",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.4",
+            "TM-092",
+            "TM-056",
+            "TM-095",
+            "WW-3.3",
+            "WW-6.10",
+            "TM-019",
+            "TM-020"
+          ]
+        },
+        {
+          "query": "团队一潭死水或像沸水般混乱",
+          "expected": "WW-8.5",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.5",
+            "TM-035",
+            "TM-026",
+            "TM-086",
+            "TM-093",
+            "TM-096",
+            "TM-103",
+            "TM-112"
+          ]
+        },
+        {
+          "query": "决定继续、加码、缩减还是换打法",
+          "expected": "WW-8.6",
+          "before_rank": 5,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.6",
+            "TM-037",
+            "TM-084",
+            "TM-114",
+            "TM-086",
+            "TM-122",
+            "TM-010",
+            "TM-016"
+          ]
+        },
+        {
+          "query": "旧系统被网络、配套、利益和习惯强化，直接改革阻力巨大",
+          "expected": "WW-8.7",
+          "before_rank": 2,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.7",
+            "TM-007",
+            "TM-089",
+            "TM-090",
+            "TM-092",
+            "TM-095",
+            "WW-8.2",
+            "WW-6.10"
+          ]
+        },
+        {
+          "query": "系统在繁荣成熟后突然崩溃",
+          "expected": "WW-8.8",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-8.8",
+            "TM-092",
+            "TM-095",
+            "WW-6.10",
+            "WW-8.5",
+            "TM-039",
+            "TM-020",
+            "TM-025"
+          ]
+        },
+        {
+          "query": "讨论充满都正确的小道理，却无法决定主次",
+          "expected": "WW-9.1",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.1",
+            "TM-122",
+            "TM-005",
+            "TM-010",
+            "TM-018",
+            "TM-026",
+            "TM-031",
+            "TM-035"
+          ]
+        },
+        {
+          "query": "用户追问人生、组织或 AI 唯一应该最大化什么",
+          "expected": "WW-9.2",
+          "before_rank": 11,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.2",
+            "TM-115",
+            "TM-014",
+            "TM-021",
+            "WW-4.2",
+            "WW-4.6",
+            "WW-5.3",
+            "WW-5.6"
+          ]
+        },
+        {
+          "query": "用户同时有互相冲突的欲望",
+          "expected": "WW-9.3",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.3",
+            "TM-020",
+            "TM-028",
+            "TM-035",
+            "TM-038",
+            "TM-050",
+            "TM-064",
+            "TM-076"
+          ]
+        },
+        {
+          "query": "越追求睡眠、灵感、幸福、爱情、信任、声望或自然表现，状态越差",
+          "expected": "WW-9.4",
+          "before_rank": 2,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.4",
+            "TM-038",
+            "WW-3.6",
+            "WW-6.4",
+            "TM-013",
+            "TM-014",
+            "TM-021",
+            "TM-025"
+          ]
+        },
+        {
+          "query": "用户需要别人把钱、权限、信息或未来交给他",
+          "expected": "WW-9.5",
+          "before_rank": 5,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.5",
+            "TM-035",
+            "TM-109",
+            "TM-036",
+            "TM-100",
+            "WW-7.10",
+            "TM-062",
+            "TM-047"
+          ]
+        },
+        {
+          "query": "把公司说成家庭、把亲情规则用于公共资源、要求陌生人互爱，或反过来用合同和绩效管理家人",
+          "expected": "WW-9.6",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.6",
+            "TM-067",
+            "WW-6.6",
+            "TM-013",
+            "TM-014",
+            "TM-017",
+            "TM-018",
+            "TM-021"
+          ]
+        },
+        {
+          "query": "用户长期只答考试、KPI、舆论或对手给的题",
+          "expected": "WW-9.7",
+          "before_rank": 2,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.7",
+            "TM-074",
+            "WW-6.8",
+            "TM-043",
+            "TM-071",
+            "TM-092",
+            "TM-012",
+            "TM-018"
+          ]
+        },
+        {
+          "query": "人、组织或智能体表面完成任务却反复钻规则",
+          "expected": "WW-9.8",
+          "before_rank": 50,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.8",
+            "TM-042",
+            "TM-021",
+            "WW-4.8",
+            "WW-7.4",
+            "TM-025",
+            "TM-035",
+            "TM-038"
+          ]
+        },
+        {
+          "query": "AI 让文字、代码、分析或图像产出迅速便宜，用户担心个人价值消失",
+          "expected": "WW-9.9",
+          "before_rank": 11,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.9",
+            "TM-014",
+            "TM-021",
+            "TM-115",
+            "WW-5.3",
+            "WW-4.2",
+            "WW-4.6",
+            "WW-5.6"
+          ]
+        },
+        {
+          "query": "用户学过工具却临场想不起来",
+          "expected": "WW-9.10",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-9.10",
+            "TM-101",
+            "TM-117",
+            "TM-002",
+            "TM-006",
+            "TM-007",
+            "TM-014",
+            "TM-018"
+          ]
+        },
+        {
+          "query": "用户在满足基本需要后追问人生意义、长期事业和应留下什么",
+          "expected": "WW-100",
+          "before_rank": 1,
+          "after_rank": 1,
+          "after_top8": [
+            "WW-100",
+            "TM-025",
+            "WW-1.5",
+            "TM-030",
+            "WW-9.2",
+            "TM-005",
+            "TM-006",
+            "TM-007"
+          ]
+        }
+      ]
+    }
+  },
+  "ai_false_title_hits": {
+    "before": [
+      {
+        "id": "WW-5.10",
+        "title": "托付（Entrustment / Uncertainty Reduction）",
+        "path": "references/wan-tools/WW-5.10.md",
+        "card_path": null,
+        "effective_card_status": "not_extracted",
+        "lexical_score": 51,
+        "match_reasons": [
+          {
+            "field": "title",
+            "matched": [
+              "ai"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "WW-7.10",
+        "title": "认领—授予—授权（Claiming–Granting–Authorizing Leadership）",
+        "path": "references/wan-tools/WW-7.10.md",
+        "card_path": null,
+        "effective_card_status": "not_extracted",
+        "lexical_score": 51,
+        "match_reasons": [
+          {
+            "field": "title",
+            "matched": [
+              "ai"
+            ]
+          }
+        ]
+      }
+    ],
+    "after": []
+  },
+  "paraphrases": {
+    "before": [
+      {
+        "query": "团队该自己研发还是买现成服务",
+        "expected": "WW-5.6",
+        "rank": 124,
+        "top8": [
+          "TM-119",
+          "TM-021",
+          "TM-023",
+          "TM-025",
+          "TM-027",
+          "TM-029",
+          "TM-038",
+          "TM-041"
+        ],
+        "target": {
+          "id": "WW-5.6",
+          "title": "沃德利地图（Wardley Mapping）",
+          "path": "references/wan-tools/WW-5.6.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 2,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "团队",
+                "还是"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-119",
+            "title": "思维模型119： 默会知识——教程和步骤你都懂，为什么自己做还是不行？",
+            "path": "references/user-models/TM-119.md",
+            "card_path": "references/cards/TM-119.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 5,
+            "match_reasons": [
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "自己",
+                  "还是"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "自己",
+                  "还是"
+                ]
+              },
+              {
+                "field": "card_trigger",
+                "matched_bigrams": [
+                  "还是"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-021",
+            "title": "思维模型021：铁锤人思维——当你手里拿把锤子，看所有的东西都像钉子",
+            "path": "references/user-models/TM-021.md",
+            "card_path": "references/cards/TM-021.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "团队",
+                  "自己",
+                  "还是",
+                  "服务"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "AI越来越能干我的工作价值在哪",
+        "expected": "WW-9.9",
+        "rank": 134,
+        "top8": [
+          "TM-062",
+          "TM-008",
+          "TM-011",
+          "TM-012",
+          "TM-016",
+          "TM-017",
+          "TM-018",
+          "TM-020"
+        ],
+        "target": {
+          "id": "WW-9.9",
+          "title": "奇点前后的稀缺（Scarcity Before and After the Singularity）",
+          "path": "references/wan-tools/WW-9.9.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 1,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "价值"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-062",
+            "title": "思维模型062：信息价值——怎样分辨哪些信息是金子，哪些只是沙子？",
+            "path": "references/user-models/TM-062.md",
+            "card_path": "references/cards/TM-062.md",
+            "effective_card_status": "sample_reviewed",
+            "lexical_score": 6,
+            "match_reasons": [
+              {
+                "field": "short_name",
+                "matched_bigrams": [
+                  "价值"
+                ]
+              },
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "价值"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "价值"
+                ]
+              },
+              {
+                "field": "card_search_terms",
+                "matched_bigrams": [
+                  "价值"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-008",
+            "title": "思维模型008篇：禀赋效应——你舍不得放手的，到底是东西还是\"我的\"？",
+            "path": "references/user-models/TM-008.md",
+            "card_path": "references/cards/TM-008.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "我的"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "我的"
+                ]
+              },
+              {
+                "field": "card_trigger",
+                "matched_bigrams": [
+                  "价值"
+                ]
+              },
+              {
+                "field": "card_search_terms",
+                "matched_bigrams": [
+                  "我的"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "流程写得很详细新人还是干不好",
+        "expected": "WW-4.6",
+        "rank": 108,
+        "top8": [
+          "WW-7.8",
+          "TM-011",
+          "TM-014",
+          "TM-021",
+          "TM-024",
+          "TM-026",
+          "TM-030",
+          "TM-032"
+        ],
+        "target": {
+          "id": "WW-4.6",
+          "title": "默会知识（Tacit Knowledge）",
+          "path": "references/wan-tools/WW-4.6.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 2,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "写得",
+                "不好"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "WW-7.8",
+            "title": "智件：流程、清单与经验库（Cogware / SOP / Checklist）",
+            "path": "references/wan-tools/WW-7.8.md",
+            "card_path": null,
+            "effective_card_status": "not_extracted",
+            "lexical_score": 5,
+            "match_reasons": [
+              {
+                "field": "short_name",
+                "matched_bigrams": [
+                  "流程"
+                ]
+              },
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "流程"
+                ]
+              },
+              {
+                "field": "trigger",
+                "matched_bigrams": [
+                  "新人"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-011",
+            "title": "思维模型011篇：习得性无助——为什么你失败几次后连试都不试了？不是你不行，是你\"学会\"了不行",
+            "path": "references/user-models/TM-011.md",
+            "card_path": "references/cards/TM-011.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "流程",
+                  "人还",
+                  "还是",
+                  "是干",
+                  "不好"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "双方一说话就吵起来如何把讨论放在共同问题上",
+        "expected": "WW-6.14",
+        "rank": 164,
+        "top8": [
+          "TM-108",
+          "TM-111",
+          "TM-005",
+          "TM-018",
+          "TM-021",
+          "TM-022",
+          "TM-023",
+          "TM-024"
+        ],
+        "target": {
+          "id": "WW-6.14",
+          "title": "第三物（Third Object / Superordinate Goal）",
+          "path": "references/wan-tools/WW-6.14.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 1,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "双方"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-108",
+            "title": "思维模型108：共同基础——会上都说“收到”，为什么会后做的不是一回事？",
+            "path": "references/user-models/TM-108.md",
+            "card_path": "references/cards/TM-108.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 7,
+            "match_reasons": [
+              {
+                "field": "short_name",
+                "matched_bigrams": [
+                  "共同"
+                ]
+              },
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "共同"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "共同"
+                ]
+              },
+              {
+                "field": "card_search_terms",
+                "matched_bigrams": [
+                  "共同"
+                ]
+              },
+              {
+                "field": "decision_stage",
+                "matched_bigrams": [
+                  "问题"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-111",
+            "title": "思维模型111：共同知识模型——方案和分工都说清了，为什么到了切换时间还是没人敢行动？",
+            "path": "references/user-models/TM-111.md",
+            "card_path": "references/cards/TM-111.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 6,
+            "match_reasons": [
+              {
+                "field": "short_name",
+                "matched_bigrams": [
+                  "共同"
+                ]
+              },
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "共同"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "共同"
+                ]
+              },
+              {
+                "field": "card_search_terms",
+                "matched_bigrams": [
+                  "共同"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "我已经很成功了为什么还是不快乐",
+        "expected": "WW-2.15",
+        "rank": 134,
+        "top8": [
+          "TM-061",
+          "TM-114",
+          "TM-119",
+          "TM-045",
+          "TM-057",
+          "TM-097",
+          "TM-101",
+          "TM-107"
+        ],
+        "target": {
+          "id": "WW-2.15",
+          "title": "共鸣（Resonance）",
+          "path": "references/wan-tools/WW-2.15.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 2,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "成功",
+                "快乐"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-061",
+            "title": "思维模型061：事前验尸——方案明明已经通过，为什么还要先假设它失败了？",
+            "path": "references/user-models/TM-061.md",
+            "card_path": "references/cards/TM-061.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 9,
+            "match_reasons": [
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "已经",
+                  "为什",
+                  "什么",
+                  "么还"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "已经",
+                  "为什",
+                  "什么",
+                  "么还"
+                ]
+              },
+              {
+                "field": "card_search_terms",
+                "matched_bigrams": [
+                  "已经"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-114",
+            "title": "思维模型114：重复博弈——明明以后还要合作，为什么对方还是不守信用？",
+            "path": "references/user-models/TM-114.md",
+            "card_path": "references/cards/TM-114.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 9,
+            "match_reasons": [
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "为什",
+                  "什么",
+                  "还是",
+                  "是不"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "为什",
+                  "什么",
+                  "还是",
+                  "是不"
+                ]
+              },
+              {
+                "field": "card_trigger",
+                "matched_bigrams": [
+                  "还是"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "为什么老师和护工的成本越来越高",
+        "expected": "WW-5.7",
+        "rank": 7,
+        "top8": [
+          "TM-064",
+          "TM-065",
+          "TM-099",
+          "TM-022",
+          "TM-037",
+          "TM-066",
+          "WW-5.7",
+          "TM-011"
+        ],
+        "target": {
+          "id": "WW-5.7",
+          "title": "鲍莫尔成本病（Baumol’s Cost Disease）",
+          "path": "references/wan-tools/WW-5.7.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 6,
+          "match_reasons": [
+            {
+              "field": "short_name",
+              "matched_bigrams": [
+                "成本"
+              ]
+            },
+            {
+              "field": "title",
+              "matched_bigrams": [
+                "成本"
+              ]
+            },
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "越来",
+                "来越"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-064",
+            "title": "思维模型064：机会成本——你以为赚了1000万，为什么可能反而亏了500万？",
+            "path": "references/user-models/TM-064.md",
+            "card_path": "references/cards/TM-064.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 10,
+            "match_reasons": [
+              {
+                "field": "short_name",
+                "matched_bigrams": [
+                  "成本"
+                ]
+              },
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "为什",
+                  "什么",
+                  "成本"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "为什",
+                  "什么",
+                  "成本"
+                ]
+              },
+              {
+                "field": "card_search_terms",
+                "matched_bigrams": [
+                  "成本"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-065",
+            "title": "思维模型065：边际成本——平均每个座位成本500美元，为什么300美元也值得卖？",
+            "path": "references/user-models/TM-065.md",
+            "card_path": "references/cards/TM-065.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 10,
+            "match_reasons": [
+              {
+                "field": "short_name",
+                "matched_bigrams": [
+                  "成本"
+                ]
+              },
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "为什",
+                  "什么",
+                  "成本"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "为什",
+                  "什么",
+                  "成本"
+                ]
+              },
+              {
+                "field": "card_search_terms",
+                "matched_bigrams": [
+                  "成本"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "公司政策经常变导致大家不敢长期投入",
+        "expected": "WW-6.12",
+        "rank": 132,
+        "top8": [
+          "TM-007",
+          "TM-018",
+          "TM-019",
+          "TM-020",
+          "TM-028",
+          "TM-035",
+          "TM-036",
+          "TM-037"
+        ],
+        "target": {
+          "id": "WW-6.12",
+          "title": "慢变量与稳定预期（Slow Variables / Stable Expectations）",
+          "path": "references/wan-tools/WW-6.12.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 1,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "政策"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-007",
+            "title": "思维模型007篇：路径依赖——火箭直径，由两千年前的两匹马屁股决定？",
+            "path": "references/user-models/TM-007.md",
+            "card_path": "references/cards/TM-007.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "公司",
+                  "不敢",
+                  "长期",
+                  "投入"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-018",
+            "title": "思维模型018：叙述谬误——为什么我们都是事后诸葛亮？",
+            "path": "references/user-models/TM-018.md",
+            "card_path": "references/cards/TM-018.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "公司",
+                  "导致",
+                  "致大",
+                  "大家",
+                  "不敢",
+                  "投入"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "老板喜欢亲信员工看人情办事",
+        "expected": "WW-7.4",
+        "rank": 18,
+        "top8": [
+          "TM-021",
+          "TM-034",
+          "TM-047",
+          "TM-013",
+          "TM-015",
+          "TM-025",
+          "TM-028",
+          "TM-050"
+        ],
+        "target": {
+          "id": "WW-7.4",
+          "title": "人身依附与角色责任（Personal Dependence / Role Responsibility）",
+          "path": "references/wan-tools/WW-7.4.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 2,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "老板",
+                "亲信"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-021",
+            "title": "思维模型021：铁锤人思维——当你手里拿把锤子，看所有的东西都像钉子",
+            "path": "references/user-models/TM-021.md",
+            "card_path": "references/cards/TM-021.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 3,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "老板",
+                  "喜欢",
+                  "员工"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-034",
+            "title": "思维模型034：社会期许偏误——你听到的是真答案，还是标准答案？",
+            "path": "references/user-models/TM-034.md",
+            "card_path": "references/cards/TM-034.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 3,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "老板",
+                  "喜欢",
+                  "员工"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "旧制度根深蒂固如何不推倒重来地改变",
+        "expected": "WW-8.7",
+        "rank": 77,
+        "top8": [
+          "TM-007",
+          "TM-045",
+          "TM-023",
+          "TM-069",
+          "TM-072",
+          "TM-074",
+          "TM-076",
+          "TM-100"
+        ],
+        "target": {
+          "id": "WW-8.7",
+          "title": "路径创造（Path Creation / Minimum Viable Ecosystem）",
+          "path": "references/wan-tools/WW-8.7.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 1,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "制度"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-007",
+            "title": "思维模型007篇：路径依赖——火箭直径，由两千年前的两匹马屁股决定？",
+            "path": "references/user-models/TM-007.md",
+            "card_path": "references/cards/TM-007.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "推倒",
+                  "倒重",
+                  "重来",
+                  "改变"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-045",
+            "title": "思维模型045：避免意识形态偏见——为什么有些观点，成功能证明它对，失败也能证明它对？",
+            "path": "references/user-models/TM-045.md",
+            "card_path": "references/cards/TM-045.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "如何",
+                  "不推",
+                  "地改",
+                  "改变"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "我想留下一件能让后人继续完善的事业",
+        "expected": "WW-100",
+        "rank": 108,
+        "top8": [
+          "TM-010",
+          "TM-012",
+          "TM-016",
+          "TM-018",
+          "TM-025",
+          "TM-026",
+          "TM-027",
+          "TM-028"
+        ],
+        "target": {
+          "id": "WW-100",
+          "title": "探索和生发（Exploration and Generativity）",
+          "path": "references/wan-tools/WW-100.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 2,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "留下",
+                "事业"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-010",
+            "title": "思维模型010篇：登门槛效应——就领了一盒鸡蛋，怎么就花了三万块？",
+            "path": "references/user-models/TM-010.md",
+            "card_path": "references/cards/TM-010.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "下一",
+                  "一件",
+                  "继续",
+                  "的事"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-012",
+            "title": "思维模型012篇：框架效应——你可以做到不想那只大象吗？",
+            "path": "references/user-models/TM-012.md",
+            "card_path": "references/cards/TM-012.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "我想",
+                  "留下",
+                  "一件",
+                  "能让",
+                  "继续",
+                  "的事"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "after": [
+      {
+        "query": "团队该自己研发还是买现成服务",
+        "expected": "WW-5.6",
+        "rank": 124,
+        "top8": [
+          "TM-119",
+          "TM-021",
+          "TM-023",
+          "TM-025",
+          "TM-027",
+          "TM-029",
+          "TM-038",
+          "TM-041"
+        ],
+        "target": {
+          "id": "WW-5.6",
+          "title": "沃德利地图（Wardley Mapping）",
+          "path": "references/wan-tools/WW-5.6.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 2,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "团队",
+                "还是"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-119",
+            "title": "思维模型119： 默会知识——教程和步骤你都懂，为什么自己做还是不行？",
+            "path": "references/user-models/TM-119.md",
+            "card_path": "references/cards/TM-119.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 5,
+            "match_reasons": [
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "自己",
+                  "还是"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "自己",
+                  "还是"
+                ]
+              },
+              {
+                "field": "card_trigger",
+                "matched_bigrams": [
+                  "还是"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-021",
+            "title": "思维模型021：铁锤人思维——当你手里拿把锤子，看所有的东西都像钉子",
+            "path": "references/user-models/TM-021.md",
+            "card_path": "references/cards/TM-021.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "团队",
+                  "自己",
+                  "还是",
+                  "服务"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "AI越来越能干我的工作价值在哪",
+        "expected": "WW-9.9",
+        "rank": 134,
+        "top8": [
+          "TM-062",
+          "TM-008",
+          "TM-011",
+          "TM-012",
+          "TM-016",
+          "TM-017",
+          "TM-018",
+          "TM-020"
+        ],
+        "target": {
+          "id": "WW-9.9",
+          "title": "奇点前后的稀缺（Scarcity Before and After the Singularity）",
+          "path": "references/wan-tools/WW-9.9.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 1,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "价值"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-062",
+            "title": "思维模型062：信息价值——怎样分辨哪些信息是金子，哪些只是沙子？",
+            "path": "references/user-models/TM-062.md",
+            "card_path": "references/cards/TM-062.md",
+            "effective_card_status": "sample_reviewed",
+            "lexical_score": 6,
+            "match_reasons": [
+              {
+                "field": "short_name",
+                "matched_bigrams": [
+                  "价值"
+                ]
+              },
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "价值"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "价值"
+                ]
+              },
+              {
+                "field": "card_search_terms",
+                "matched_bigrams": [
+                  "价值"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-008",
+            "title": "思维模型008篇：禀赋效应——你舍不得放手的，到底是东西还是\"我的\"？",
+            "path": "references/user-models/TM-008.md",
+            "card_path": "references/cards/TM-008.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "我的"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "我的"
+                ]
+              },
+              {
+                "field": "card_trigger",
+                "matched_bigrams": [
+                  "价值"
+                ]
+              },
+              {
+                "field": "card_search_terms",
+                "matched_bigrams": [
+                  "我的"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "流程写得很详细新人还是干不好",
+        "expected": "WW-4.6",
+        "rank": 108,
+        "top8": [
+          "WW-7.8",
+          "TM-011",
+          "TM-014",
+          "TM-021",
+          "TM-024",
+          "TM-026",
+          "TM-030",
+          "TM-032"
+        ],
+        "target": {
+          "id": "WW-4.6",
+          "title": "默会知识（Tacit Knowledge）",
+          "path": "references/wan-tools/WW-4.6.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 2,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "写得",
+                "不好"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "WW-7.8",
+            "title": "智件：流程、清单与经验库（Cogware / SOP / Checklist）",
+            "path": "references/wan-tools/WW-7.8.md",
+            "card_path": null,
+            "effective_card_status": "not_extracted",
+            "lexical_score": 5,
+            "match_reasons": [
+              {
+                "field": "short_name",
+                "matched_bigrams": [
+                  "流程"
+                ]
+              },
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "流程"
+                ]
+              },
+              {
+                "field": "trigger",
+                "matched_bigrams": [
+                  "新人"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-011",
+            "title": "思维模型011篇：习得性无助——为什么你失败几次后连试都不试了？不是你不行，是你\"学会\"了不行",
+            "path": "references/user-models/TM-011.md",
+            "card_path": "references/cards/TM-011.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "流程",
+                  "人还",
+                  "还是",
+                  "是干",
+                  "不好"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "双方一说话就吵起来如何把讨论放在共同问题上",
+        "expected": "WW-6.14",
+        "rank": 164,
+        "top8": [
+          "TM-108",
+          "TM-111",
+          "TM-005",
+          "TM-018",
+          "TM-021",
+          "TM-022",
+          "TM-023",
+          "TM-024"
+        ],
+        "target": {
+          "id": "WW-6.14",
+          "title": "第三物（Third Object / Superordinate Goal）",
+          "path": "references/wan-tools/WW-6.14.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 1,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "双方"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-108",
+            "title": "思维模型108：共同基础——会上都说“收到”，为什么会后做的不是一回事？",
+            "path": "references/user-models/TM-108.md",
+            "card_path": "references/cards/TM-108.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 7,
+            "match_reasons": [
+              {
+                "field": "short_name",
+                "matched_bigrams": [
+                  "共同"
+                ]
+              },
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "共同"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "共同"
+                ]
+              },
+              {
+                "field": "card_search_terms",
+                "matched_bigrams": [
+                  "共同"
+                ]
+              },
+              {
+                "field": "decision_stage",
+                "matched_bigrams": [
+                  "问题"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-111",
+            "title": "思维模型111：共同知识模型——方案和分工都说清了，为什么到了切换时间还是没人敢行动？",
+            "path": "references/user-models/TM-111.md",
+            "card_path": "references/cards/TM-111.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 6,
+            "match_reasons": [
+              {
+                "field": "short_name",
+                "matched_bigrams": [
+                  "共同"
+                ]
+              },
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "共同"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "共同"
+                ]
+              },
+              {
+                "field": "card_search_terms",
+                "matched_bigrams": [
+                  "共同"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "我已经很成功了为什么还是不快乐",
+        "expected": "WW-2.15",
+        "rank": 134,
+        "top8": [
+          "TM-061",
+          "TM-114",
+          "TM-119",
+          "TM-045",
+          "TM-057",
+          "TM-097",
+          "TM-101",
+          "TM-107"
+        ],
+        "target": {
+          "id": "WW-2.15",
+          "title": "共鸣（Resonance）",
+          "path": "references/wan-tools/WW-2.15.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 2,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "成功",
+                "快乐"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-061",
+            "title": "思维模型061：事前验尸——方案明明已经通过，为什么还要先假设它失败了？",
+            "path": "references/user-models/TM-061.md",
+            "card_path": "references/cards/TM-061.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 9,
+            "match_reasons": [
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "已经",
+                  "为什",
+                  "什么",
+                  "么还"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "已经",
+                  "为什",
+                  "什么",
+                  "么还"
+                ]
+              },
+              {
+                "field": "card_search_terms",
+                "matched_bigrams": [
+                  "已经"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-114",
+            "title": "思维模型114：重复博弈——明明以后还要合作，为什么对方还是不守信用？",
+            "path": "references/user-models/TM-114.md",
+            "card_path": "references/cards/TM-114.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 9,
+            "match_reasons": [
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "为什",
+                  "什么",
+                  "还是",
+                  "是不"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "为什",
+                  "什么",
+                  "还是",
+                  "是不"
+                ]
+              },
+              {
+                "field": "card_trigger",
+                "matched_bigrams": [
+                  "还是"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "为什么老师和护工的成本越来越高",
+        "expected": "WW-5.7",
+        "rank": 7,
+        "top8": [
+          "TM-064",
+          "TM-065",
+          "TM-099",
+          "TM-022",
+          "TM-037",
+          "TM-066",
+          "WW-5.7",
+          "TM-011"
+        ],
+        "target": {
+          "id": "WW-5.7",
+          "title": "鲍莫尔成本病（Baumol’s Cost Disease）",
+          "path": "references/wan-tools/WW-5.7.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 6,
+          "match_reasons": [
+            {
+              "field": "short_name",
+              "matched_bigrams": [
+                "成本"
+              ]
+            },
+            {
+              "field": "title",
+              "matched_bigrams": [
+                "成本"
+              ]
+            },
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "越来",
+                "来越"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-064",
+            "title": "思维模型064：机会成本——你以为赚了1000万，为什么可能反而亏了500万？",
+            "path": "references/user-models/TM-064.md",
+            "card_path": "references/cards/TM-064.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 10,
+            "match_reasons": [
+              {
+                "field": "short_name",
+                "matched_bigrams": [
+                  "成本"
+                ]
+              },
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "为什",
+                  "什么",
+                  "成本"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "为什",
+                  "什么",
+                  "成本"
+                ]
+              },
+              {
+                "field": "card_search_terms",
+                "matched_bigrams": [
+                  "成本"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-065",
+            "title": "思维模型065：边际成本——平均每个座位成本500美元，为什么300美元也值得卖？",
+            "path": "references/user-models/TM-065.md",
+            "card_path": "references/cards/TM-065.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 10,
+            "match_reasons": [
+              {
+                "field": "short_name",
+                "matched_bigrams": [
+                  "成本"
+                ]
+              },
+              {
+                "field": "title",
+                "matched_bigrams": [
+                  "为什",
+                  "什么",
+                  "成本"
+                ]
+              },
+              {
+                "field": "search_terms",
+                "matched_bigrams": [
+                  "为什",
+                  "什么",
+                  "成本"
+                ]
+              },
+              {
+                "field": "card_search_terms",
+                "matched_bigrams": [
+                  "成本"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "公司政策经常变导致大家不敢长期投入",
+        "expected": "WW-6.12",
+        "rank": 132,
+        "top8": [
+          "TM-007",
+          "TM-018",
+          "TM-019",
+          "TM-020",
+          "TM-028",
+          "TM-035",
+          "TM-036",
+          "TM-037"
+        ],
+        "target": {
+          "id": "WW-6.12",
+          "title": "慢变量与稳定预期（Slow Variables / Stable Expectations）",
+          "path": "references/wan-tools/WW-6.12.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 1,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "政策"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-007",
+            "title": "思维模型007篇：路径依赖——火箭直径，由两千年前的两匹马屁股决定？",
+            "path": "references/user-models/TM-007.md",
+            "card_path": "references/cards/TM-007.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "公司",
+                  "不敢",
+                  "长期",
+                  "投入"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-018",
+            "title": "思维模型018：叙述谬误——为什么我们都是事后诸葛亮？",
+            "path": "references/user-models/TM-018.md",
+            "card_path": "references/cards/TM-018.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "公司",
+                  "导致",
+                  "致大",
+                  "大家",
+                  "不敢",
+                  "投入"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "老板喜欢亲信员工看人情办事",
+        "expected": "WW-7.4",
+        "rank": 18,
+        "top8": [
+          "TM-021",
+          "TM-034",
+          "TM-047",
+          "TM-013",
+          "TM-015",
+          "TM-025",
+          "TM-028",
+          "TM-050"
+        ],
+        "target": {
+          "id": "WW-7.4",
+          "title": "人身依附与角色责任（Personal Dependence / Role Responsibility）",
+          "path": "references/wan-tools/WW-7.4.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 2,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "老板",
+                "亲信"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-021",
+            "title": "思维模型021：铁锤人思维——当你手里拿把锤子，看所有的东西都像钉子",
+            "path": "references/user-models/TM-021.md",
+            "card_path": "references/cards/TM-021.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 3,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "老板",
+                  "喜欢",
+                  "员工"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-034",
+            "title": "思维模型034：社会期许偏误——你听到的是真答案，还是标准答案？",
+            "path": "references/user-models/TM-034.md",
+            "card_path": "references/cards/TM-034.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 3,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "老板",
+                  "喜欢",
+                  "员工"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "旧制度根深蒂固如何不推倒重来地改变",
+        "expected": "WW-8.7",
+        "rank": 77,
+        "top8": [
+          "TM-007",
+          "TM-045",
+          "TM-023",
+          "TM-069",
+          "TM-072",
+          "TM-074",
+          "TM-076",
+          "TM-100"
+        ],
+        "target": {
+          "id": "WW-8.7",
+          "title": "路径创造（Path Creation / Minimum Viable Ecosystem）",
+          "path": "references/wan-tools/WW-8.7.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 1,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "制度"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-007",
+            "title": "思维模型007篇：路径依赖——火箭直径，由两千年前的两匹马屁股决定？",
+            "path": "references/user-models/TM-007.md",
+            "card_path": "references/cards/TM-007.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "推倒",
+                  "倒重",
+                  "重来",
+                  "改变"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-045",
+            "title": "思维模型045：避免意识形态偏见——为什么有些观点，成功能证明它对，失败也能证明它对？",
+            "path": "references/user-models/TM-045.md",
+            "card_path": "references/cards/TM-045.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "如何",
+                  "不推",
+                  "地改",
+                  "改变"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "我想留下一件能让后人继续完善的事业",
+        "expected": "WW-100",
+        "rank": 108,
+        "top8": [
+          "TM-010",
+          "TM-012",
+          "TM-016",
+          "TM-018",
+          "TM-025",
+          "TM-026",
+          "TM-027",
+          "TM-028"
+        ],
+        "target": {
+          "id": "WW-100",
+          "title": "探索和生发（Exploration and Generativity）",
+          "path": "references/wan-tools/WW-100.md",
+          "card_path": null,
+          "effective_card_status": "not_extracted",
+          "lexical_score": 2,
+          "match_reasons": [
+            {
+              "field": "trigger",
+              "matched_bigrams": [
+                "留下",
+                "事业"
+              ]
+            }
+          ]
+        },
+        "top2_details": [
+          {
+            "id": "TM-010",
+            "title": "思维模型010篇：登门槛效应——就领了一盒鸡蛋，怎么就花了三万块？",
+            "path": "references/user-models/TM-010.md",
+            "card_path": "references/cards/TM-010.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "下一",
+                  "一件",
+                  "继续",
+                  "的事"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TM-012",
+            "title": "思维模型012篇：框架效应——你可以做到不想那只大象吗？",
+            "path": "references/user-models/TM-012.md",
+            "card_path": "references/cards/TM-012.md",
+            "effective_card_status": "source_reviewed",
+            "lexical_score": 4,
+            "match_reasons": [
+              {
+                "field": "body",
+                "matched_bigrams": [
+                  "我想",
+                  "留下",
+                  "一件",
+                  "能让",
+                  "继续",
+                  "的事"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
