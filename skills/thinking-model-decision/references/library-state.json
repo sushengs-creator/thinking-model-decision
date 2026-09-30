@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
-  "revision": 3,
-  "updated_at": "2026-09-30T04:43:05.376173+00:00",
+  "version": "1.1.1",
+  "revision": 4,
+  "updated_at": "2026-09-30T06:03:16.457360+00:00",
   "user_models": 125,
   "wan_tools": 100,
   "sample_cards": 8,
@@ -37,7 +37,7 @@
     "tested_at_revision": 2,
     "tested_version": "1.0.0"
   },
-  "change": "Guided multi-turn clarification, adaptive stopping, self-contained decision reports and report updates; knowledge assets unchanged.",
+  "change": "Clarify public invocation paths, pause vs partial report, capability limits and maintenance target scope; knowledge and scripts unchanged.",
   "validation": {
     "tested_at_revision": 2,
     "official_skill_structure": "passed",
@@ -59,12 +59,12 @@
   "needs_review": [],
   "release_validation": {
     "status": "passed",
-    "version": "1.1.0",
-    "revision": 3,
+    "version": "1.1.1",
+    "revision": 4,
     "valid_for_current_revision": true,
     "official_skill_structure": "passed",
     "library_integrity": "passed",
-    "scope": "guided clarification and report workflow; unchanged knowledge library; seven actual simulated replies reviewed"
+    "scope": "public invocation and maintenance reply boundaries; seven independent simulated replies; knowledge and scripts unchanged"
   },
   "release_validation_history": {
     "1.0.0": {
@@ -73,6 +73,15 @@
       "valid_for_current_revision": false,
       "html_reader_static_checks": "passed",
       "html_reader_visual_interaction": "blocked_by_browser_URL_policy"
+    },
+    "1.1.0": {
+      "status": "passed",
+      "version": "1.1.0",
+      "revision": 3,
+      "valid_for_current_revision": false,
+      "official_skill_structure": "passed",
+      "library_integrity": "passed",
+      "scope": "guided clarification and report workflow; unchanged knowledge library; seven actual simulated replies reviewed"
     }
   },
   "workflow_validation": {
@@ -88,5 +97,19 @@
     "maintenance_script_unchanged": true,
     "real_user_outcomes_validated": false,
     "evidence": "references/evaluation/results-v1.1.md"
+  },
+  "public_usage_validation": {
+    "tested_version": "1.1.1",
+    "tested_at_revision": 4,
+    "entry_cases": 4,
+    "maintenance_reply_cases": 3,
+    "actual_responses_reviewed": 7,
+    "review": "passed_within_recorded_scope",
+    "maintenance_writes_executed": false,
+    "real_user_outcomes_validated": false,
+    "knowledge_assets_byte_identical": 475,
+    "knowledge_indexes_unchanged": true,
+    "maintenance_script_unchanged": true,
+    "evidence": "references/evaluation/results-v1.1.1.md"
   }
 }
