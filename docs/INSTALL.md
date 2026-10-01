@@ -15,7 +15,7 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 工具会按自己的安装流程获取仓库中的技能目录。需要联网或本地目录权限时，按客户端提示处理。安装成功后，下一轮即可尝试：
 
 ```text
-用 $thinking-model-decision 帮我分析一个问题。请先逐步追问，最终给我决策报告。
+用 $thinking-model-decision 帮我分析一个问题。请先逐步追问，最终给我 HTML 下一步行动计划。
 ```
 
 看到技能名仍不等于模型已正确运作；可以用下面的简单请求试用：
@@ -57,7 +57,7 @@ python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/inst
 python3 "${CODEX_HOME:-$HOME/.codex}/skills/thinking-model-decision/scripts/library.py" validate
 ```
 
-本次公开版的预期是：Skill版本1.3.0、126个用户模型、126张操作卡、100个WW条目，校验无错误。后续版本新增模型后，数量以对应版本为准。
+本次公开版的预期是：Skill版本1.4.0、126个用户模型、126张操作卡、100个WW条目，校验无错误。后续版本新增模型后，数量以对应版本为准。
 
 无需额外Python依赖；维护脚本使用标准库。AI助手的对话与推理能力由你使用的平台提供。
 

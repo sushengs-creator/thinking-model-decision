@@ -1,7 +1,7 @@
 {
-  "version": "1.3.0",
-  "revision": 9,
-  "updated_at": "2026-10-01T02:24:21.918263+00:00",
+  "version": "1.4.0",
+  "revision": 10,
+  "updated_at": "2026-10-01T05:22:37.782746+00:00",
   "user_models": 126,
   "wan_tools": 100,
   "sample_cards": 9,
@@ -38,7 +38,7 @@
     "tested_at_revision": 2,
     "tested_version": "1.0.0"
   },
-  "change": "Add TM-126 from complete user manuscript; register source-reviewed card and three scoped simulated responses; update routing, relationships and public guidance",
+  "change": "Default to standalone HTML next-step action plans after completed analysis, provisional advice and report updates; add generic offline template and scoped delivery validation; knowledge library unchanged",
   "validation": {
     "tested_at_revision": 2,
     "official_skill_structure": "passed",
@@ -61,14 +61,15 @@
   "needs_review": [],
   "release_validation": {
     "status": "passed",
-    "version": "1.3.0",
-    "revision": 9,
+    "version": "1.4.0",
+    "revision": 10,
     "valid_for_current_revision": true,
     "official_skill_structure": "passed",
     "library_integrity": "passed",
-    "local_markdown_links_checked": 1048,
-    "scope": "TM-126 source and card addition; 3 recorded simulated responses; 12 scoped lexical discovery checks; unchanged prior assets and entry workflow",
-    "evidence": "references/evaluation/results-v1.3.md"
+    "local_markdown_links_checked": 1066,
+    "new_html_source_links_checked": 6,
+    "scope": "HTML delivery workflow; five actual simulated replies, three generated reports and template layout checks; knowledge library unchanged",
+    "evidence": "references/evaluation/results-v1.4.md"
   },
   "release_validation_history": {
     "1.0.0": {
@@ -114,6 +115,17 @@
       "official_skill_structure": "passed",
       "library_integrity": "passed",
       "local_markdown_links_checked": 1025
+    },
+    "1.3.0": {
+      "status": "passed",
+      "version": "1.3.0",
+      "revision": 9,
+      "valid_for_current_revision": false,
+      "official_skill_structure": "passed",
+      "library_integrity": "passed",
+      "local_markdown_links_checked": 1048,
+      "scope": "TM-126 source and card addition; 3 recorded simulated responses; 12 scoped lexical discovery checks; unchanged prior assets and entry workflow",
+      "evidence": "references/evaluation/results-v1.3.md"
     }
   },
   "workflow_validation": {
@@ -207,5 +219,26 @@
     "real_world_outcomes_validated": false,
     "online_article_attachment_match_verified": false,
     "evidence": "references/validation-notes/TM-126.md"
+  },
+  "html_action_plan_validation": {
+    "tested_version": "1.4.0",
+    "tested_at_revision": 10,
+    "simulation_contexts": 2,
+    "actual_responses_reviewed": 5,
+    "generated_html_reports": 3,
+    "template_layout_checked": true,
+    "viewport_widths_checked": [
+      1440,
+      768,
+      390
+    ],
+    "print_media_and_pdf_export_checked": true,
+    "knowledge_assets_byte_identical": 477,
+    "knowledge_indexes_unchanged": true,
+    "maintenance_scripts_unchanged": true,
+    "no_write_capability_fallback_executed": false,
+    "all_models_behavior_tested": false,
+    "real_world_outcomes_validated": false,
+    "evidence": "references/evaluation/results-v1.4.md"
   }
 }

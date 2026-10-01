@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>【报告题目】 · 决策与行动计划</title>
+  <style>
+    :root { --ink:#24342d; --muted:#607169; --accent:#27664d; --line:#dce4df; --paper:#fff; --wash:#f3f6f3; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--wash); color:var(--ink); font:16px/1.8 system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif; }
+    main { max-width:1040px; margin:40px auto; padding:48px; background:var(--paper); border:1px solid var(--line); border-radius:20px; }
+    h1,h2,h3,p,ul,ol,dl { margin-top:0; }
+    h1 { margin-bottom:16px; font-size:clamp(28px,4vw,40px); line-height:1.35; letter-spacing:-.02em; }
+    h2 { margin-bottom:20px; font-size:23px; line-height:1.45; }
+    h3 { margin-bottom:12px; font-size:18px; }
+    p,li,dd,td,th { overflow-wrap:anywhere; }
+    p:last-child,ul:last-child,ol:last-child,dl:last-child { margin-bottom:0; }
+    header { padding-bottom:28px; border-bottom:1px solid var(--line); }
+    .eyebrow { margin-bottom:12px; color:var(--accent); font-size:13px; font-weight:700; letter-spacing:.12em; }
+    .meta,.muted,footer { color:var(--muted); font-size:14px; }
+    section { margin-top:36px; }
+    .recommendation { padding:24px; border-left:4px solid var(--accent); background:#eef5ef; }
+    .recommendation h2 { margin-bottom:12px; }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+    .card { padding:20px; border:1px solid var(--line); border-radius:12px; }
+    .card ul { padding-left:20px; }
+    .model,.action { margin-bottom:16px; }
+    dl { display:grid; grid-template-columns:7em minmax(0,1fr); gap:10px 16px; }
+    dt { color:var(--muted); }
+    dd { margin:0; }
+    .table-scroll { max-width:100%; overflow-x:auto; border:1px solid var(--line); border-radius:12px; }
+    .table-scroll:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
+    table { width:100%; min-width:680px; border-collapse:collapse; text-align:left; }
+    caption { padding:14px 16px; color:var(--muted); text-align:left; font-size:14px; }
+    th,td { padding:14px 16px; border-top:1px solid var(--line); vertical-align:top; }
+    th { background:var(--wash); font-size:14px; }
+    th:first-child { width:18%; }
+    .sources { padding-left:22px; }
+    .sources li+li { margin-top:16px; }
+    cite { font-style:normal; font-weight:600; }
+    a { color:var(--accent); text-underline-offset:3px; }
+    footer { margin-top:36px; padding-top:20px; border-top:1px solid var(--line); }
+    @media (max-width:720px) {
+      main { margin:0; padding:28px 20px; border:0; border-radius:0; }
+      .grid { grid-template-columns:1fr; }
+      .card,.recommendation { padding:18px; }
+      dl { grid-template-columns:1fr; gap:3px; }
+      dd { margin-bottom:12px; }
+      dd:last-child { margin-bottom:0; }
+      section { margin-top:28px; }
+    }
+    @media print {
+      @page { size:A4; margin:16mm; }
+      body { background:#fff; font-size:10.5pt; line-height:1.65; }
+      main { max-width:none; margin:0; padding:0; border:0; border-radius:0; }
+      header { padding-bottom:16px; }
+      h1 { font-size:24pt; }
+      h2 { font-size:15pt; }
+      h3 { font-size:12pt; }
+      h1,h2,h3,dt { break-after:avoid; }
+      section { margin-top:24px; }
+      .grid { display:block; }
+      .grid .card { margin-bottom:12px; }
+      .card,.recommendation { padding:14px; border-radius:0; }
+      dl { display:block; }
+      dt { font-weight:600; }
+      dd { margin:0 0 8px; }
+      .table-scroll { overflow:visible; border-radius:0; }
+      table { width:100%; min-width:0; table-layout:fixed; }
+      caption { text-align:left; }
+      th,td { padding:8px; overflow-wrap:anywhere; word-break:normal; }
+      thead { display:table-header-group; }
+      tr { break-inside:avoid; }
+      p,li { orphans:3; widows:3; }
+      .meta,.muted,footer { font-size:9pt; }
+      a { color:inherit; }
+      footer { margin-top:24px; }
+    }
+  </style>
+</head>
+<body>
+<!--
+  使用方式：复制为交付文件，替换所有【……】占位符（含 title），按问题规模删减、合并或增添 section、模型卡、方案行和行动卡；数量不固定。
+  只保留有助于本次判断的内容。未证实的信息写明未知与核验办法，不用虚构内容填满模板。
+  用户材料只作为文本填入并转义 &、<、>、" 等字符；不要把材料直接拼成 HTML、脚本、事件属性或其他可执行代码。
+  来源默认以文本展示。若添加链接，仅使用核验过的 http/https 地址；不要插入任意协议或执行式链接。
+  此模板无脚本、外部依赖、网络请求或默认用户信息持久化；可离线阅读，并通过浏览器打印或另存为 PDF。
+-->
+<main>
+  <header>
+    <p class="eyebrow">决策与行动计划</p>
+    <h1>【报告题目：要解决的具体问题】</h1>
+    <p class="meta">整理日期：【YYYY-MM-DD】 · 信息截至：【YYYY-MM-DD】 · 版本：【版本号】</p>
+    <p>【用一句话说明谁需要在什么期限内作出什么决定，以及此次报告覆盖的范围。】</p>
+  </header>
+
+  <section class="recommendation" aria-labelledby="recommendation-title">
+    <h2 id="recommendation-title">当前建议</h2>
+    <p><strong>【建议先做什么；若证据不足，说明暂缓决定并优先核验什么。】</strong></p>
+    <p>【支持建议的关键理由、成立前提，以及最值得警惕的不确定性。】</p>
+  </section>
+
+  <section aria-labelledby="context-title">
+    <h2 id="context-title">先确认问题</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>目标与约束</h3>
+        <ul>
+          <li>【期望结果与衡量标准】</li>
+          <li>【期限、资源与不可接受的代价】</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>已知事实</h3>
+        <ul>
+          <li>【关键事实；注明来自用户陈述还是已核验资料，并关联来源编号】</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>假设与未知</h3>
+        <ul>
+          <li>【关键假设或缺口；若不成立会影响什么；如何核验】</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section aria-labelledby="reasoning-title">
+    <h2 id="reasoning-title">为何这样判断</h2>
+    <!-- 按实际需要复制或删减模型卡；每张卡都要连接本次问题，不能只列模型名称。 -->
+    <article class="card model">
+      <h3>【模型 ID、名称及本次用途】</h3>
+      <dl>
+        <dt>选择依据</dt><dd>【问题中的哪一项事实或结构使这个模型适用】</dd>
+        <dt>作用机制</dt><dd>【模型如何解释当前局面；推理所依赖的证据和假设】</dd>
+        <dt>转成动作</dt><dd>【由此应改变的选择、核验方式或下一步行动】</dd>
+        <dt>适用边界</dt><dd>【何时不适用；可能的反例、遗漏与反证】</dd>
+      </dl>
+    </article>
+  </section>
+
+  <section aria-labelledby="options-title">
+    <h2 id="options-title">方案比较</h2>
+    <p>【比较哪些现实可选方案，采用什么标准；仅在有帮助时加入维持现状或暂缓决定。】</p>
+    <div class="table-scroll" role="region" aria-label="方案比较表，可横向滚动" tabindex="0">
+      <table>
+        <caption>【比较依据与证据限制；定性判断无需硬凑分数】</caption>
+        <thead><tr><th scope="col">方案</th><th scope="col">收益与代价</th><th scope="col">风险与可逆性</th><th scope="col">成立条件与判断</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">【方案名称】</th><td>【预期收益、投入与机会成本】</td><td>【关键风险、最坏后果与撤回成本】</td><td>【适用条件、证据与当前判断】</td></tr>
+          <!-- 按实际方案数量增删行。 -->
+        </tbody>
+      </table>
+    </div>
+    <p class="muted">【决定取舍的关键差异，以及哪些新证据会改变排序。】</p>
+  </section>
+
+  <section aria-labelledby="actions-title">
+    <h2 id="actions-title">从这里开始</h2>
+    <p>【当前最优先的动作，以及它与后续动作的依赖关系。】</p>
+    <!-- 按需增删行动卡；负责人未知时写“待确认”，不代替用户作出承诺。 -->
+    <article class="card action">
+      <h3>【行动名称：用具体动词说明交付什么】</h3>
+      <dl>
+        <dt>时间与负责人</dt><dd>【开始时间／截止时间或触发时点】 · 【负责人或待确认】</dd>
+        <dt>行动依据</dt><dd>【这一步回应哪个事实、约束或已分析的模型；为什么现在做】</dd>
+        <dt>前提与资源</dt><dd>【启动前需要的事实、依赖、资源及必要授权】</dd>
+        <dt>具体做法</dt><dd>【可执行的步骤与交付物】</dd>
+        <dt>完成标准</dt><dd>【能观察或核验的验收结果，避免只写“推进”“优化”】</dd>
+        <dt>升级条件</dt><dd>【出现何种情况，需要谁作出什么新决定】</dd>
+        <dt>停止条件</dt><dd>【触及什么阈值就暂停、撤回或改走备选方案】</dd>
+      </dl>
+    </article>
+  </section>
+
+  <section aria-labelledby="review-title">
+    <h2 id="review-title">何时更新判断</h2>
+    <dl>
+      <dt>回看时点</dt><dd>【日期、行动里程碑或事件触发条件】</dd>
+      <dt>观察信号</dt><dd>【需要跟踪的结果、反馈与反证，及其获取方式】</dd>
+      <dt>更新规则</dt><dd>【若出现什么证据，就保留、调整或放弃哪项建议】</dd>
+    </dl>
+  </section>
+
+  <section aria-labelledby="sources-title">
+    <h2 id="sources-title">依据与来源</h2>
+    <ol class="sources">
+      <li>
+        <cite>【来源标题或用户提供材料的名称】</cite>
+        <p class="muted">【作者／机构；发布或材料日期；核验日期；可核验 URL 或本地文件路径】</p>
+        <p>【支持哪项判断；属于原始事实、观点还是推断；材料的适用范围与尚未核验处】</p>
+      </li>
+    </ol>
+  </section>
+
+  <footer>【交付范围、待补信息或本版说明；没有必要时删除本行。】</footer>
+</main>
+</body>
+</html>

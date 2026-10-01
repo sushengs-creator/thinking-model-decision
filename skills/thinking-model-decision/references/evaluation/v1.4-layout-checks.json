@@ -1,0 +1,222 @@
+{
+  "date": "2026-10-01",
+  "browser": "Local Chromium headless shell 1208",
+  "checks": [
+    {
+      "input": "assets/action-plan.html",
+      "title": "【报告题目】 · 决策与行动计划",
+      "duplicateIds": [],
+      "badAnchors": [],
+      "bodyChars": 1064,
+      "dimensions": [
+        {
+          "viewport": 1440,
+          "page": 1440,
+          "tableScroll": [
+            {
+              "width": 940,
+              "parent": 940,
+              "overflow": "auto"
+            }
+          ]
+        },
+        {
+          "viewport": 768,
+          "page": 768,
+          "tableScroll": [
+            {
+              "width": 680,
+              "parent": 668,
+              "overflow": "auto"
+            }
+          ]
+        },
+        {
+          "viewport": 390,
+          "page": 390,
+          "tableScroll": [
+            {
+              "width": 680,
+              "parent": 348,
+              "overflow": "auto"
+            }
+          ]
+        }
+      ],
+      "print": {
+        "page": 794,
+        "viewport": 794,
+        "tables": [
+          {
+            "width": 792,
+            "parent": 794
+          }
+        ]
+      },
+      "requests": [],
+      "errors": []
+    },
+    {
+      "input": "references/evaluation/v1.4-artifacts/standard.html",
+      "title": "两周学习安排｜下一步行动计划",
+      "duplicateIds": [],
+      "badAnchors": [],
+      "bodyChars": 2269,
+      "dimensions": [
+        {
+          "viewport": 1440,
+          "page": 1440,
+          "tableScroll": [
+            {
+              "width": 862,
+              "parent": 862,
+              "overflow": "auto"
+            }
+          ]
+        },
+        {
+          "viewport": 768,
+          "page": 768,
+          "tableScroll": [
+            {
+              "width": 670,
+              "parent": 670,
+              "overflow": "auto"
+            }
+          ]
+        },
+        {
+          "viewport": 390,
+          "page": 390,
+          "tableScroll": [
+            {
+              "width": 620,
+              "parent": 350,
+              "overflow": "auto"
+            }
+          ]
+        }
+      ],
+      "print": {
+        "page": 794,
+        "viewport": 794,
+        "tables": [
+          {
+            "width": 718.4375,
+            "parent": 718.4375
+          }
+        ]
+      },
+      "requests": [],
+      "errors": []
+    },
+    {
+      "input": "references/evaluation/v1.4-artifacts/provisional.html",
+      "title": "兼职选择｜阶段性行动计划",
+      "duplicateIds": [],
+      "badAnchors": [],
+      "bodyChars": 2050,
+      "dimensions": [
+        {
+          "viewport": 1440,
+          "page": 1440,
+          "tableScroll": [
+            {
+              "width": 826,
+              "parent": 826,
+              "overflow": "auto"
+            }
+          ]
+        },
+        {
+          "viewport": 768,
+          "page": 768,
+          "tableScroll": [
+            {
+              "width": 654,
+              "parent": 654,
+              "overflow": "auto"
+            }
+          ]
+        },
+        {
+          "viewport": 390,
+          "page": 390,
+          "tableScroll": [
+            {
+              "width": 640,
+              "parent": 320,
+              "overflow": "auto"
+            }
+          ]
+        }
+      ],
+      "print": {
+        "page": 794,
+        "viewport": 794,
+        "tables": [
+          {
+            "width": 794,
+            "parent": 794
+          }
+        ]
+      },
+      "requests": [],
+      "errors": []
+    },
+    {
+      "input": "references/evaluation/v1.4-artifacts/updated.html",
+      "title": "每周一小时｜学习验证行动计划",
+      "duplicateIds": [],
+      "badAnchors": [],
+      "bodyChars": 2444,
+      "dimensions": [
+        {
+          "viewport": 1440,
+          "page": 1440,
+          "tableScroll": [
+            {
+              "width": 862,
+              "parent": 862,
+              "overflow": "auto"
+            }
+          ]
+        },
+        {
+          "viewport": 768,
+          "page": 768,
+          "tableScroll": [
+            {
+              "width": 670,
+              "parent": 670,
+              "overflow": "auto"
+            }
+          ]
+        },
+        {
+          "viewport": 390,
+          "page": 390,
+          "tableScroll": [
+            {
+              "width": 620,
+              "parent": 350,
+              "overflow": "auto"
+            }
+          ]
+        }
+      ],
+      "print": {
+        "page": 794,
+        "viewport": 794,
+        "tables": [
+          {
+            "width": 718.4375,
+            "parent": 718.4375
+          }
+        ]
+      },
+      "requests": [],
+      "errors": []
+    }
+  ]
+}
