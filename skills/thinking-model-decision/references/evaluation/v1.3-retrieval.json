@@ -1,0 +1,351 @@
+{
+  "protocol_note": "Initial run assumed rank 1 for English Embodied Cognition. WW-4.7 shares that concept and ranked first while TM-126 ranked second. Candidate recall is the intended contract; changed that assertion to top 8 without changing retrieval or metadata. Initial output retained in initial_run below.",
+  "scope": "12 lexical discovery checks; not semantic retrieval or suitability validation",
+  "results": [
+    {
+      "query": "TM-126",
+      "expected": "TM-126",
+      "rank": 1,
+      "rank_limit": 1,
+      "candidates": [
+        "TM-126"
+      ],
+      "passed": true
+    },
+    {
+      "query": "具身认知",
+      "expected": "TM-126",
+      "rank": 1,
+      "rank_limit": 1,
+      "candidates": [
+        "TM-126",
+        "WW-4.7",
+        "TM-046",
+        "TM-106",
+        "TM-121",
+        "WW-2.6",
+        "WW-2.9",
+        "WW-4.1"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Embodied Cognition",
+      "expected": "TM-126",
+      "rank": 2,
+      "rank_limit": 8,
+      "candidates": [
+        "WW-4.7",
+        "TM-126",
+        "TM-116"
+      ],
+      "passed": true
+    },
+    {
+      "query": "只记步骤",
+      "expected": "TM-126",
+      "rank": 1,
+      "rank_limit": 8,
+      "candidates": [
+        "TM-126",
+        "TM-119",
+        "TM-105",
+        "TM-106",
+        "TM-109",
+        "TM-121",
+        "WW-4.6"
+      ],
+      "passed": true
+    },
+    {
+      "query": "动作反馈",
+      "expected": "TM-126",
+      "rank": 1,
+      "rank_limit": 8,
+      "candidates": [
+        "TM-126",
+        "TM-083",
+        "WW-8.4",
+        "TM-019",
+        "TM-021",
+        "TM-029",
+        "TM-034",
+        "TM-035"
+      ],
+      "passed": true
+    },
+    {
+      "query": "跟着教程 换个条件",
+      "expected": "TM-126",
+      "rank": 2,
+      "rank_limit": 8,
+      "candidates": [
+        "TM-120",
+        "TM-126",
+        "TM-011",
+        "TM-111",
+        "TM-117",
+        "TM-118",
+        "TM-029",
+        "TM-048"
+      ],
+      "passed": true
+    },
+    {
+      "query": "TM-054",
+      "expected": "TM-054",
+      "rank": 1,
+      "rank_limit": 1,
+      "candidates": [
+        "TM-054"
+      ],
+      "passed": true
+    },
+    {
+      "query": "贝叶斯更新",
+      "expected": "TM-054",
+      "rank": 1,
+      "rank_limit": 8,
+      "candidates": [
+        "TM-054",
+        "WW-3.4",
+        "TM-104",
+        "WW-3.15",
+        "WW-3.12",
+        "TM-002",
+        "TM-018",
+        "TM-024"
+      ],
+      "passed": true
+    },
+    {
+      "query": "TM-125",
+      "expected": "TM-125",
+      "rank": 1,
+      "rank_limit": 1,
+      "candidates": [
+        "TM-125"
+      ],
+      "passed": true
+    },
+    {
+      "query": "相邻可能",
+      "expected": "TM-125",
+      "rank": 1,
+      "rank_limit": 8,
+      "candidates": [
+        "TM-125",
+        "WW-8.3",
+        "TM-032",
+        "TM-036",
+        "TM-037",
+        "TM-038",
+        "TM-057",
+        "TM-058"
+      ],
+      "passed": true
+    },
+    {
+      "query": "WW-4.7",
+      "expected": "WW-4.7",
+      "rank": 1,
+      "rank_limit": 1,
+      "candidates": [
+        "WW-4.7"
+      ],
+      "passed": true
+    },
+    {
+      "query": "认知负荷",
+      "expected": "WW-4.1",
+      "rank": 3,
+      "rank_limit": 8,
+      "candidates": [
+        "TM-106",
+        "WW-2.6",
+        "WW-4.1",
+        "TM-126",
+        "TM-046",
+        "TM-121",
+        "WW-2.9",
+        "WW-4.7"
+      ],
+      "passed": true
+    }
+  ],
+  "initial_run": {
+    "scope": "12 lexical discovery checks; not semantic retrieval or suitability validation",
+    "results": [
+      {
+        "query": "TM-126",
+        "expected": "TM-126",
+        "rank": 1,
+        "rank_limit": 1,
+        "candidates": [
+          "TM-126"
+        ],
+        "passed": true
+      },
+      {
+        "query": "具身认知",
+        "expected": "TM-126",
+        "rank": 1,
+        "rank_limit": 1,
+        "candidates": [
+          "TM-126",
+          "WW-4.7",
+          "TM-046",
+          "TM-106",
+          "TM-121",
+          "WW-2.6",
+          "WW-2.9",
+          "WW-4.1"
+        ],
+        "passed": true
+      },
+      {
+        "query": "Embodied Cognition",
+        "expected": "TM-126",
+        "rank": 2,
+        "rank_limit": 1,
+        "candidates": [
+          "WW-4.7",
+          "TM-126",
+          "TM-116"
+        ],
+        "passed": false
+      },
+      {
+        "query": "只记步骤",
+        "expected": "TM-126",
+        "rank": 1,
+        "rank_limit": 8,
+        "candidates": [
+          "TM-126",
+          "TM-119",
+          "TM-105",
+          "TM-106",
+          "TM-109",
+          "TM-121",
+          "WW-4.6"
+        ],
+        "passed": true
+      },
+      {
+        "query": "动作反馈",
+        "expected": "TM-126",
+        "rank": 1,
+        "rank_limit": 8,
+        "candidates": [
+          "TM-126",
+          "TM-083",
+          "WW-8.4",
+          "TM-019",
+          "TM-021",
+          "TM-029",
+          "TM-034",
+          "TM-035"
+        ],
+        "passed": true
+      },
+      {
+        "query": "跟着教程 换个条件",
+        "expected": "TM-126",
+        "rank": 2,
+        "rank_limit": 8,
+        "candidates": [
+          "TM-120",
+          "TM-126",
+          "TM-011",
+          "TM-111",
+          "TM-117",
+          "TM-118",
+          "TM-029",
+          "TM-048"
+        ],
+        "passed": true
+      },
+      {
+        "query": "TM-054",
+        "expected": "TM-054",
+        "rank": 1,
+        "rank_limit": 1,
+        "candidates": [
+          "TM-054"
+        ],
+        "passed": true
+      },
+      {
+        "query": "贝叶斯更新",
+        "expected": "TM-054",
+        "rank": 1,
+        "rank_limit": 8,
+        "candidates": [
+          "TM-054",
+          "WW-3.4",
+          "TM-104",
+          "WW-3.15",
+          "WW-3.12",
+          "TM-002",
+          "TM-018",
+          "TM-024"
+        ],
+        "passed": true
+      },
+      {
+        "query": "TM-125",
+        "expected": "TM-125",
+        "rank": 1,
+        "rank_limit": 1,
+        "candidates": [
+          "TM-125"
+        ],
+        "passed": true
+      },
+      {
+        "query": "相邻可能",
+        "expected": "TM-125",
+        "rank": 1,
+        "rank_limit": 8,
+        "candidates": [
+          "TM-125",
+          "WW-8.3",
+          "TM-032",
+          "TM-036",
+          "TM-037",
+          "TM-038",
+          "TM-057",
+          "TM-058"
+        ],
+        "passed": true
+      },
+      {
+        "query": "WW-4.7",
+        "expected": "WW-4.7",
+        "rank": 1,
+        "rank_limit": 1,
+        "candidates": [
+          "WW-4.7"
+        ],
+        "passed": true
+      },
+      {
+        "query": "认知负荷",
+        "expected": "WW-4.1",
+        "rank": 3,
+        "rank_limit": 8,
+        "candidates": [
+          "TM-106",
+          "WW-2.6",
+          "WW-4.1",
+          "TM-126",
+          "TM-046",
+          "TM-121",
+          "WW-2.9",
+          "WW-4.7"
+        ],
+        "passed": true
+      }
+    ]
+  }
+}

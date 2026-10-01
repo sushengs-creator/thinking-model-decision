@@ -1,6 +1,6 @@
 # 用户思维模型原文目录
 
-共 125 篇归档原文；归档不等于事实核验或行为验证。卡片状态和来源指纹以 user-index.json 为准。
+共 126 篇归档原文；归档不等于事实核验或行为验证。卡片状态和来源指纹以 user-index.json 为准。
 
 未卡片化条目须完整读原文后提炼；needs_review 卡片须复核。召回只提供候选，不能凭标题推断机制。
 
@@ -135,3 +135,4 @@ source_sha256 记录原来源指纹；content_sha256 校验包内 Markdown。初
 | TM-123 | WOOP思维 | 认可的可行目标反复没有行动，障碍具体是什么 | [全文](<user-models/TM-123.md>) · [HTML](<user-models/TM-123.html>) · [模型卡](<cards/TM-123.md>)（sample_reviewed） |
 | TM-124 | 多臂老虎机模型 | 多个办法可反复尝试，下一轮如何分配探索机会 | [全文](<user-models/TM-124.md>) · [HTML](<user-models/TM-124.html>) · [模型卡](<cards/TM-124.md>)（sample_reviewed） |
 | TM-125 | 相邻可能 | 远期目标太大，当前条件够得着的下一步是什么 | [全文](<user-models/TM-125.md>) · [HTML](<user-models/TM-125.html>) · [模型卡](<cards/TM-125.md>)（sample_reviewed） |
+| TM-126 | 具身认知 | 跟着教程能做，换个条件就不会；亲手练过却只记步骤；想判断动作、手势或实物能否帮助理解。 | [全文](<user-models/TM-126.md>) · [模型卡](<cards/TM-126.md>)（behavior_checked） |

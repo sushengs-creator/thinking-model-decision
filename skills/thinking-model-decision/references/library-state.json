@@ -1,10 +1,10 @@
 {
-  "version": "1.2.1",
-  "revision": 6,
-  "updated_at": "2026-09-30T06:44:07.244752+00:00",
-  "user_models": 125,
+  "version": "1.3.0",
+  "revision": 9,
+  "updated_at": "2026-10-01T02:24:21.918263+00:00",
+  "user_models": 126,
   "wan_tools": 100,
-  "sample_cards": 8,
+  "sample_cards": 9,
   "sample_card_ids": [
     "TM-054",
     "TM-062",
@@ -13,7 +13,8 @@
     "TM-103",
     "TM-123",
     "TM-124",
-    "TM-125"
+    "TM-125",
+    "TM-126"
   ],
   "behavior_trial_scope": {
     "v0_1_full_entry_cases": [
@@ -37,7 +38,7 @@
     "tested_at_revision": 2,
     "tested_version": "1.0.0"
   },
-  "change": "Audit against the supplied skill-quality guide; clarify discovery and final report checks; fix source-audit error results and standalone reference; retain all knowledge.",
+  "change": "Add TM-126 from complete user manuscript; register source-reviewed card and three scoped simulated responses; update routing, relationships and public guidance",
   "validation": {
     "tested_at_revision": 2,
     "official_skill_structure": "passed",
@@ -50,22 +51,24 @@
     "sandbox_manuscript_update": "passed",
     "tested_version": "1.0.0"
   },
-  "total_cards": 125,
+  "total_cards": 126,
   "source_reviewed_cards": 117,
   "card_status_counts": {
     "source_reviewed": 117,
-    "sample_reviewed": 8
+    "sample_reviewed": 8,
+    "behavior_checked": 1
   },
   "needs_review": [],
   "release_validation": {
     "status": "passed",
-    "version": "1.2.1",
-    "revision": 6,
+    "version": "1.3.0",
+    "revision": 9,
     "valid_for_current_revision": true,
-    "scope": "18 criteria review; before/after metadata selection and 3 runtime scenarios; source-audit error regression; unchanged knowledge and package checks",
     "official_skill_structure": "passed",
     "library_integrity": "passed",
-    "local_markdown_links_checked": 1025
+    "local_markdown_links_checked": 1048,
+    "scope": "TM-126 source and card addition; 3 recorded simulated responses; 12 scoped lexical discovery checks; unchanged prior assets and entry workflow",
+    "evidence": "references/evaluation/results-v1.3.md"
   },
   "release_validation_history": {
     "1.0.0": {
@@ -101,6 +104,16 @@
       "official_skill_structure": "passed",
       "library_integrity": "passed",
       "scope": "100 WW source checks plus global framework, 300 lexical retrieval cases, 13 CLI regressions, 5 source-audit checks and four independent simulated responses"
+    },
+    "1.2.1": {
+      "status": "passed",
+      "version": "1.2.1",
+      "revision": 6,
+      "valid_for_current_revision": false,
+      "scope": "18 criteria review; before/after metadata selection and 3 runtime scenarios; source-audit error regression; unchanged knowledge and package checks",
+      "official_skill_structure": "passed",
+      "library_integrity": "passed",
+      "local_markdown_links_checked": 1025
     }
   },
   "workflow_validation": {
@@ -172,5 +185,27 @@
     "all_models_behavior_tested": false,
     "real_world_outcomes_validated": false,
     "evidence": "references/evaluation/results-v1.2.1.md"
+  },
+  "tm126_update_validation": {
+    "tested_version": "1.3.0",
+    "card_tested_at_revision": 8,
+    "registered_at_revision": 9,
+    "card_version": "0.1",
+    "card_sha256": "296919d90a4b401ff8ebd466fdec150887f42a71d58819a8e762fe662208efe0",
+    "source_sha256": "2c4e6d9e790bbd93df295b8047819b15786090c20697a1a5108a8fda32390229",
+    "source_attachment_byte_identical": true,
+    "independent_source_review_cards": 1,
+    "simulated_response_cases_reviewed": 3,
+    "simulation_contexts": 1,
+    "lexical_discovery_checks": 12,
+    "english_shared_concept_rank": 2,
+    "review": "passed_within_recorded_scope",
+    "old_knowledge_assets_byte_identical": 475,
+    "old_user_index_entries_unchanged": 125,
+    "added_cross_library_relations": 3,
+    "all_models_behavior_tested": false,
+    "real_world_outcomes_validated": false,
+    "online_article_attachment_match_verified": false,
+    "evidence": "references/validation-notes/TM-126.md"
   }
 }

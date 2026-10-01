@@ -57,7 +57,7 @@ python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/inst
 python3 "${CODEX_HOME:-$HOME/.codex}/skills/thinking-model-decision/scripts/library.py" validate
 ```
 
-本次公开版的预期是：Skill版本1.2.0、125个用户模型、125张操作卡、100个WW条目，校验无错误。后续版本新增模型后，数量以对应版本为准。
+本次公开版的预期是：Skill版本1.3.0、126个用户模型、126张操作卡、100个WW条目，校验无错误。后续版本新增模型后，数量以对应版本为准。
 
 无需额外Python依赖；维护脚本使用标准库。AI助手的对话与推理能力由你使用的平台提供。
 

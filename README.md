@@ -2,7 +2,7 @@
 
 有困惑时，从一句话开始。工具通过一步一步的追问，帮你理清问题，再用思维模型比较选择，最终给出一份可执行、可修订的决策报告。
 
-知识库包含作者提供的 **125篇思维模型原文、125张操作卡，以及万维钢现代思维工具100讲的本地技能资料快照**，已整理66条跨库关系。当前Skill版本为 **1.2.1**。这些是可组合的参考资料，不是225个彼此独立、全部验证过的模型。
+知识库包含作者提供的 **126篇思维模型原文、126张操作卡，以及万维钢现代思维工具100讲的本地技能资料快照**，已整理69条跨库关系。当前Skill版本为 **1.3.0**。这些是可组合的参考资料，不是226个彼此独立、全部验证过的模型。
 
 ## 最简单的安装方法
 
@@ -50,7 +50,7 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 | 先暂停 | “今天先暂停。”（停止追问和分析；只有你同时要求时才出阶段性报告。） |
 | 修改已有报告 | “情况变了：……请更新受影响的结论和行动。” |
 | 复盘 | “这是上次的判断、行动和结果，帮我区分决策、执行和环境变化。” |
-| 新增模型 | “这是思维模型126的文稿，请更新工具，完成卡片、关系核对和试跑。” |
+| 新增模型 | “这是思维模型127的文稿，请更新工具，完成卡片、关系核对和试跑。” |
 
 默认每轮一个主要问题，等你回答再推进；已有信息不重复问，未知不替你编。问题、目标、关键限制和可比较选项清楚后，就进入分析和报告，不再要求你批准开始。报告使用实际读过的模型，默认一个主模型、至多三个补充或反证工具；没有适合的模型就说明原因，不凑数量。模型帮助比较，最终价值排序与选择仍由你决定。
 
@@ -60,7 +60,7 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 ## 模型库与维护
 
-- [125个用户模型目录](skills/thinking-model-decision/references/user-catalog.md)
+- [126个用户模型目录](skills/thinking-model-decision/references/user-catalog.md)
 - [万维钢100个工具目录](skills/thinking-model-decision/references/wan-catalog.md)
 - [万维钢整体运行框架与九类任务指引](skills/thinking-model-decision/references/wan-framework.md)
 - [按问题选择模型](skills/thinking-model-decision/references/decision-routing.md)
@@ -73,7 +73,7 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 ## 来源、署名与验证范围
 
-本工具由 [sushengs-creator](https://github.com/sushengs-creator) 整理与维护，125篇编号思维模型保留各自原文及来源。万维钢部分来自作者提供的本地技能快照，**不是原课程逐字稿，也不表示万维钢参与制作、审定或背书**。来源记录见[来源说明](skills/thinking-model-decision/references/source-notes.md)，使用与署名说明见[NOTICE](NOTICE.md)。
+本工具由 [sushengs-creator](https://github.com/sushengs-creator) 整理与维护，126篇编号思维模型保留各自原文及来源。万维钢部分来自作者提供的本地技能快照，**不是原课程逐字稿，也不表示万维钢参与制作、审定或背书**。来源记录见[来源说明](skills/thinking-model-decision/references/source-notes.md)，使用与署名说明见[NOTICE](NOTICE.md)。
 
 v1.0完成资料完整性、模型卡来源核对及指定场景试跑；v1.1另完成一组四轮对话和三个边界场景的模拟验证。模拟通过不等于现实决策效果已得到保证。详见[v1.0验证记录](skills/thinking-model-decision/references/evaluation/results-v1.0.md)与[v1.1验证记录](skills/thinking-model-decision/references/evaluation/results-v1.1.md)。
 
@@ -82,5 +82,7 @@ v1.1.1补清公开调用、暂停、能力不足及维护范围规则，另完�
 v1.2将用户再次提供的万维钢源文件逐条核对，100/100工具正文一致；补入整体框架、组合语法、证据协议和九类任务程序，并完善检索。100工具与125篇用户模型在同一技能内按问题选择，读者不需要另装一个万维钢 Skill。见[完整融入说明](docs/WAN-INTEGRATION.md)。
 
 v1.2.1 按用户提供的《从0到1写出高质量Skill，先设计触发，再设计流程》逐项审阅：明确触发边界和交付复核，修复来源审计失败残留旧通过结果、独立安装后的验证链接，并分别测试触发与三类决策场景。见 [18项标准、问题及修复证据](docs/QUALITY-AUDIT.md)。
+
+v1.3.0新增 **TM-126「具身认知」**：根据作者提供的完整文稿，检查动作与反馈是否帮助理解步骤背后的关系，保留知识缺口、认知负荷与可替代学习方式等边界。新增原文、操作卡、三条跨库关联及有限适用/误用试跑。详见 [126篇更新记录](skills/thinking-model-decision/references/evaluation/results-v1.3.md)。
 
 真实决策仍以当前证据、个人目标和实际约束为准。个人案例默认留在当前对话，不写入通用技能库。与AI助手聊天本身的数据处理，遵循你使用的平台规则。

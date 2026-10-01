@@ -6150,5 +6150,86 @@
         "本卡原有样例审阅不代表现实效果或全部论断已验证。"
       ]
     }
+  },
+  {
+    "id": "TM-126",
+    "title": "思维模型126：具身认知——照着菜谱做对了一盘菜，换种食材就不会了——问题出在哪？",
+    "short_name": "具身认知",
+    "path": "references/user-models/TM-126.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s/MIo5w4Winho1Jw51yugwwQ",
+    "source_label": "用户提供的第126篇完整Markdown文稿",
+    "captured_at": "2026-10-01",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "2c4e6d9e790bbd93df295b8047819b15786090c20697a1a5108a8fda32390229",
+    "content_sha256": "2c4e6d9e790bbd93df295b8047819b15786090c20697a1a5108a8fda32390229",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-126.md",
+    "search_terms": [
+      "思维模型126：具身认知——照着菜谱做对了一盘菜，换种食材就不会了——问题出在哪？"
+    ],
+    "card_sha256": "296919d90a4b401ff8ebd466fdec150887f42a71d58819a8e762fe662208efe0",
+    "card_source_sha256": "2c4e6d9e790bbd93df295b8047819b15786090c20697a1a5108a8fda32390229",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-01T02:23:09.580950+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "跟着教程能做，换个条件就不会；亲手练过却只记步骤；想判断动作、手势或实物能否帮助理解。",
+      "source_sections": [
+        "看别人做和自己上手，学到的会一样吗？",
+        "照着步骤做对了，怎么一换条件就不会了？",
+        "记住了“炒三十秒”，还要弄清什么？",
+        "换种食材，你还知道该怎么调整吗？",
+        "学新东西，每次都得亲手做一遍吗？",
+        "跟着教程做完后，问自己哪三个问题？"
+      ],
+      "search_terms": [
+        "具身认知",
+        "Embodied Cognition",
+        "照着菜谱",
+        "跟着教程",
+        "换个条件",
+        "换食材",
+        "只记步骤",
+        "动作反馈",
+        "感觉与动作",
+        "动作与概念",
+        "身体经验",
+        "手势",
+        "迁移失败"
+      ],
+      "decision_stage": [
+        "解释原因",
+        "比较方案",
+        "学习执行",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-4.7",
+          "relation": "部分重叠、互补",
+          "reason": "共同涉及身体经验参与理解、即时表现不足以证明学习；TM-126细化动作—反馈—关系与小变式，WW-4.7另含可取困难、提取、间隔及身心状态。不可等同或重复计为独立证据。"
+        },
+        {
+          "ww_id": "WW-4.2",
+          "relation": "互补",
+          "reason": "ICAP区分物理操作和生成新表征；TM-126检查感觉、动作与目标关系是否对应，活动层级不是具身机制本身。"
+        },
+        {
+          "ww_id": "WW-4.1",
+          "relation": "条件性互补",
+          "reason": "动作、工具或陌生条件过多时检查先验知识、认知负荷与支架，不把迁移困难一律归因于过载。"
+        }
+      ],
+      "warnings": [
+        "本次原文来自用户附件，未核实在线发布页与附件一致性；文中研究未独立复核原始数据。",
+        "动作与关系是否匹配、已有知识及学习支持共同影响效果；不要求必须亲手做或固定媒介。",
+        "正常工具和无障碍支持可以保留；一次成功或失败不能定论，需结合多次变式、判断依据及延迟表现。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-126.md",
+    "validation_note_sha256": "3a5b1960abb6f28711530a2162d29dd9069436eab9b80ad0c9b126f302bd12c8"
   }
 ]
