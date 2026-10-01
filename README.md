@@ -2,26 +2,30 @@
 
 有困惑时，从一句话开始。工具通过一步一步的追问，帮你理清问题，再用思维模型比较选择，每次分析完成后，默认给出一份 **HTML 下一步行动计划**，包含决策依据、执行安排和调整条件。
 
-知识库包含作者提供的 **126篇思维模型原文、126张操作卡，以及万维钢现代思维工具100讲的本地技能资料快照**，已整理69条跨库关系。当前Skill版本为 **1.4.0**。这些是可组合的参考资料，不是226个彼此独立、全部验证过的模型。
+知识库包含作者提供的 **126篇思维模型原文、126张操作卡，以及万维钢现代思维工具100讲的本地技能资料快照**，已整理69条跨库关系。当前Skill版本为 **1.4.1**。这些是可组合的参考资料，不是226个彼此独立、全部验证过的模型。
 
 ## 最简单的安装方法
 
-把下面整段话复制到 **Codex**：
+把下面整段话复制到 **你正在使用的、支持 Skill 的 AI Agent**：
 
 ```text
-请使用 skill-installer 安装这个思维模型决策工具：
+请为当前 AI Agent 安装“思维模型决策工具”：
 https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thinking-model-decision
-安装后检查技能名 thinking-model-decision 是否可用。如果已经安装，请先检查版本和本地修改，不要直接覆盖我的新增模型。
+请按照当前 Agent 支持的 Skill 安装方式，安装完整的 thinking-model-decision 技能目录，并检查是否可调用。
+如果已经安装，请先检查版本、备份并保留我的本地新增模型和修改，再进行更新。
+如果当前环境无法自动安装，请说明原因，并给出适用于当前 Agent 的手动安装步骤。
 ```
 
-安装完成后，从下一轮对话开始使用：
+安装完成并被当前 Agent 识别后，可以这样使用：
 
 ```text
-用 $thinking-model-decision 帮我一步一步梳理这个困惑，最后给我 HTML 下一步行动计划：
+请调用 thinking-model-decision（思维模型决策工具），帮我一步一步梳理这个困惑，最后给我 HTML 下一步行动计划：
 我最近在纠结……
 ```
 
-它是运行在AI助手中的 **Skill**，不是独立网站或单独运行的聊天程序。首次推荐在Codex中安装使用；运行仍需要你已有的AI助手账号及其使用额度。本仓库不要求额外配置API Key。其他支持Skill的客户端，需要按各自规则安装，未在本项目中逐一验证。
+本工具采用 [Agent Skills 开放格式](https://agentskills.io/specification)，面向所有支持该格式的 AI Agent，安装方式由各 Agent 决定。核心流程不依赖 Codex 或 `skill-installer`；后者只是部分环境可用的安装工具。使用时需要 Agent 能读取完整技能包及相关资料；保存 HTML 需要文件生成能力。各产品的导入入口、技能目录、调用语法和能力可能不同，本项目尚未逐一实测。
+
+它是运行在 AI Agent 中的 **Skill**，运行需要你使用的平台或模型服务。本仓库没有独立聊天服务，也不要求额外配置专用 API Key。
 
 不会安装或希望手动安装，可查看[详细安装与更新指南](docs/INSTALL.md)。
 
@@ -39,7 +43,7 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 ## 调用方式与规则
 
-在 Codex 中，用 `$thinking-model-decision` 可以明确指定本技能；也可以用中文名“思维模型决策工具”表达使用意图。工具根据你这次想做的事情选择路径，不必背固定口令。
+通用说法是“请调用 thinking-model-decision（思维模型决策工具）”。如果你的 Agent 提供技能菜单或专用命令，使用该产品的调用方式；例如 Codex 可以用 `$thinking-model-decision`。`$` 前缀不是跨 Agent 的统一要求。工具根据你这次想做的事情选择路径，不必背固定口令。
 
 | 你想做什么 | 可以直接这样说 |
 |---|---|
@@ -86,5 +90,7 @@ v1.2.1 按用户提供的《从0到1写出高质量Skill，先设计触发，再
 v1.3.0新增 **TM-126「具身认知」**：根据作者提供的完整文稿，检查动作与反馈是否帮助理解步骤背后的关系，保留知识缺口、认知负荷与可替代学习方式等边界。新增原文、操作卡、三条跨库关联及有限适用/误用试跑。详见 [126篇更新记录](skills/thinking-model-decision/references/evaluation/results-v1.3.md)。
 
 v1.4.0 将 HTML 下一步行动计划设为完成分析、阶段性建议和后续更新的默认交付，补入通用离线模板、行动依据与交付检查。逐步澄清和用户指定格式仍然优先；126 篇模型与 100 个 WW 条目不变。见 [HTML 交付验证记录](skills/thinking-model-decision/references/evaluation/results-v1.4.md)。
+
+v1.4.1 将安装、调用和更新说明改为面向支持 Agent Skills 的 AI Agent，区分通用技能包与产品专用安装工具，并补充能力要求及手动加载路径。见 [跨 Agent 安装检查](skills/thinking-model-decision/references/evaluation/results-v1.4.1.md)。
 
 真实决策仍以当前证据、个人目标和实际约束为准。个人案例与 HTML 报告默认留在当前任务及其输出目录，不写入通用技能库或自动公开发布。与AI助手聊天本身的数据处理，遵循你使用的平台规则。
