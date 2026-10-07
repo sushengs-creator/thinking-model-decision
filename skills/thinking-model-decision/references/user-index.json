@@ -6231,5 +6231,544 @@
     },
     "validation_note_path": "references/validation-notes/TM-126.md",
     "validation_note_sha256": "3a5b1960abb6f28711530a2162d29dd9069436eab9b80ad0c9b126f302bd12c8"
+  },
+  {
+    "id": "TM-127",
+    "title": "思维模型127：观察学习——同事演示时你看懂了，回到工位为什么还是不会做？不是你笨，是没查这5个问题",
+    "short_name": "观察学习",
+    "path": "references/user-models/TM-127.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060058&idx=1&sn=28b031807982ff8dcd09ec21f0f1eb09&chksm=beabece989dc65ff8d06da2acbdce840f3d11db01addf230cb4c2f05fb966a67eb804069deae#rd",
+    "source_label": "本地作者完整文稿；公众号合集标题和链接已核对，线上正文受验证页阻挡未比对",
+    "captured_at": "2026-10-07",
+    "source_format": "local_author_manuscript_utf8",
+    "source_sha256": "523ffcfa1752ccce6bb8a357ffc23d9c5b68d7fde362b0a4404a223f56dcddb4",
+    "content_sha256": "523ffcfa1752ccce6bb8a357ffc23d9c5b68d7fde362b0a4404a223f56dcddb4",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-127.md",
+    "search_terms": [
+      "思维模型127：观察学习——同事演示时你看懂了，回到工位为什么还是不会做？不是你笨，是没查这5个问题"
+    ],
+    "original_manuscript_label": "思维模型127：观察学习.md",
+    "original_manuscript_sha256": "523ffcfa1752ccce6bb8a357ffc23d9c5b68d7fde362b0a4404a223f56dcddb4",
+    "source_transformations": [],
+    "published_title_verified": true,
+    "published_body_match_verified": false,
+    "published_body_access_status": "verification_required",
+    "album_source_url": "https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MjM5MjA2Nzc0MA%3D%3D&album_id=4536247579494842374&count=10",
+    "manuscript_title": "思维模型127：观察学习——同事演示时你看懂了，回到工位为什么还是不会做？",
+    "card_sha256": "3a7ad71345e528f21dca75dd3e007dc6a551998dcf777ac4c154100e853237be",
+    "card_source_sha256": "523ffcfa1752ccce6bb8a357ffc23d9c5b68d7fde362b0a4404a223f56dcddb4",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-07T16:02:12.724244+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "看别人演示时觉得懂了，独立做却卡住；培训后不会用、用不上，或说得出步骤却做不出合格结果，需要决定补示范、补记忆、练操作还是调整条件。",
+      "source_sections": [
+        "自己做不出来，刚才的示范就白看了吗？",
+        "回到工位卡住了，先查哪儿出了问题？",
+        "拿不准字段往哪拖，怎么补上这一步？",
+        "换一张表，刚才学的方法还能用吗？",
+        "再看一遍就做对了，能说明刚才为什么不会吗？",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "看懂了不会做",
+        "同事演示",
+        "回到工位",
+        "独立操作卡住",
+        "培训后用不上",
+        "重看教程",
+        "步骤记不住",
+        "说得出做不到",
+        "示范漏步骤",
+        "不会用还是不愿用",
+        "换个任务不会",
+        "观察学习"
+      ],
+      "decision_stage": [
+        "解释原因",
+        "设计行动",
+        "学习执行",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-4.1",
+          "relation": "条件性互补",
+          "reason": "陌生元素过多时检查先验、范例与支架；观察学习仍须区分信息获得、执行表现和使用条件，不能单凭失败认定过载。"
+        },
+        {
+          "ww_id": "WW-4.2",
+          "relation": "部分重叠、互补",
+          "reason": "ICAP比较活动中的认知参与，观察学习检查从示范到保持、执行与使用的卡点；共用生成、反馈和迁移检验，但不能认定观察无用或互动总是最好。"
+        },
+        {
+          "ww_id": "WW-4.6",
+          "relation": "条件性互补",
+          "reason": "示范省略现场线索和例外判断时，默会知识帮助安排共同操作和反馈；观察学习检查从示范中实际获得和表现了什么。"
+        }
+      ],
+      "warnings": [
+        "本卡依据本地作者完整文稿；合集标题与链接已核对，公开正文返回验证页，线上与本地正文一致性未验证。",
+        "没有表现不等于没有学到，也不等于不愿意学。",
+        "四过程相互影响，五问是应用检查，不是互斥诊断或必经阶段。",
+        "一次成功、流畅复述或重看后改善都不能确认长期迁移及失败的唯一原因。",
+        "先核对示范与完成标准，另查权限、工具、时间和任务条件。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-127.md",
+    "validation_note_sha256": "70947a1fa91744526594a94ae479b8d5365bbc799537a3ec0cffceba27683f84"
+  },
+  {
+    "id": "TM-128",
+    "title": "思维模型128：概念转变模型——为什么“觉得自己懂了”之后，换个问题又回到老路？",
+    "short_name": "概念转变模型",
+    "path": "references/user-models/TM-128.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060067&idx=1&sn=8b62e076cc5980713d316e42593bbcce&chksm=beabecd089dc65c6454fd7226b203f87f73c12b013b7aef0559e255cb67686aa55dcb6f5df61#rd",
+    "source_label": "本地作者完整文稿；公众号合集标题和链接已核对，线上正文受验证页阻挡未比对",
+    "captured_at": "2026-10-07",
+    "source_format": "local_author_manuscript_utf8",
+    "source_sha256": "c5f06a4dc0c11537dfc343f41adcb007070e75b582ca7e32a549e999f914cb20",
+    "content_sha256": "c5f06a4dc0c11537dfc343f41adcb007070e75b582ca7e32a549e999f914cb20",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-128.md",
+    "search_terms": [
+      "思维模型128：概念转变模型——为什么“觉得自己懂了”之后，换个问题又回到老路？"
+    ],
+    "original_manuscript_label": "128_终稿_V001.md",
+    "original_manuscript_sha256": "c5f06a4dc0c11537dfc343f41adcb007070e75b582ca7e32a549e999f914cb20",
+    "source_transformations": [],
+    "published_title_verified": true,
+    "published_body_match_verified": false,
+    "published_body_access_status": "verification_required",
+    "album_source_url": "https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MjM5MjA2Nzc0MA%3D%3D&album_id=4536247579494842374&count=10",
+    "manuscript_title": "**思维模型128：概念转变模型——为什么“觉得自己懂了”之后，换个问题又回到老路？**",
+    "card_sha256": "f392aaf9a14b3ebdc3597a01824197f006efcfff7e364a45c41d5a6d72559791",
+    "card_source_sha256": "c5f06a4dc0c11537dfc343f41adcb007070e75b582ca7e32a549e999f914cb20",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-07T16:02:12.824888+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "答案已经改对、定义也会背，换个条件却又沿用旧解释；需要判断该补证据、解释、可信理由还是迁移练习。",
+      "source_sections": [
+        "都叫“改不过来”，卡住的未必是同一件事",
+        "答案讲过了，为什么还会沿用旧解释？",
+        "看到了反例，有了新解释，为什么还会出错？",
+        "别再只问“懂了吗”，把判断过程写下来",
+        "改变有没有发生，要看下一次怎样判断",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "讲了几遍还是老样子",
+        "换个问题又错",
+        "道理我都懂",
+        "只记住正确答案",
+        "背会定义不会用",
+        "反例当成例外",
+        "旧解释改不过来",
+        "听懂了但不相信",
+        "为什么要这样算",
+        "概念理解",
+        "新旧解释比较",
+        "换条件先预测",
+        "判断理由",
+        "概念转变"
+      ],
+      "decision_stage": [
+        "解释原因",
+        "学习执行",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-4.4",
+          "relation": "互补、部分重叠",
+          "reason": "WW-4.4构建可运行的知识关系与预测；TM-128定位旧解释修订的困难。知识地图本身不证明概念已转变。"
+        },
+        {
+          "ww_id": "WW-3.4",
+          "relation": "条件性互补",
+          "reason": "证据可信性成为卡点时比较不同假设下的证据诊断性；概念是否可理解及能否迁移仍由TM-128检查，不编造概率。"
+        }
+      ],
+      "warnings": [
+        "本卡依据本地作者完整文稿；合集标题与链接已核对，公开正文返回验证页，线上与本地正文一致性未验证。",
+        "四条件不是固定步骤或成功保证",
+        "先核实证据及新解释，不能把质疑当抗拒",
+        "已理解却未执行时另查动机、技能、利益与环境",
+        "一次正确不证明迁移，一次错误不抹去已有学习",
+        "特定实验不能规定所有学习的顺序"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-128.md",
+    "validation_note_sha256": "cf5e7bcca150a26f0ddde08ec91edf4399925f2b1aefdffddea9bd968f7d3cc9"
+  },
+  {
+    "id": "TM-129",
+    "title": "思维模型129：交互记忆系统——一个人离职，为什么像带走了整个团队的记忆？",
+    "short_name": "交互记忆系统",
+    "path": "references/user-models/TM-129.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060076&idx=1&sn=509fe42f470b599316ad03e88a2c9d6b&chksm=beabecdf89dc65c9549d231a6424c9d585e9c8591075323dcb28a88102895bf9747f35b5c545#rd",
+    "source_label": "本地作者完整文稿；公众号合集标题和链接已核对，线上正文受验证页阻挡未比对",
+    "captured_at": "2026-10-07",
+    "source_format": "local_author_manuscript_utf8",
+    "source_sha256": "d6993a7f2a5798a05b1f8e917c30eaceca81cbf9ef5ff2047f199cb8947806b3",
+    "content_sha256": "d6993a7f2a5798a05b1f8e917c30eaceca81cbf9ef5ff2047f199cb8947806b3",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-129.md",
+    "search_terms": [
+      "思维模型129：交互记忆系统——一个人离职，为什么像带走了整个团队的记忆？"
+    ],
+    "original_manuscript_label": "129_作者确认定稿_V001.md",
+    "original_manuscript_sha256": "d6993a7f2a5798a05b1f8e917c30eaceca81cbf9ef5ff2047f199cb8947806b3",
+    "source_transformations": [],
+    "published_title_verified": true,
+    "published_body_match_verified": false,
+    "published_body_access_status": "verification_required",
+    "album_source_url": "https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MjM5MjA2Nzc0MA%3D%3D&album_id=4536247579494842374&count=10",
+    "manuscript_title": "**思维模型129：交互记忆系统——一个人离职，为什么像带走了整个团队的记忆？**",
+    "card_sha256": "71a6d140839945f58c0d5c4184d2b08c2c2daa4ae2f223430b03c6a3dab77f14",
+    "card_source_sha256": "d6993a7f2a5798a05b1f8e917c30eaceca81cbf9ef5ff2047f199cb8947806b3",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-07T16:02:13.033255+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "老同事离职后文档留了但新人接不住；团队有人懂却找不到、取不到或无法拼合知识；专家答案过时，或人员变化后仍按旧分工协作。",
+      "source_sections": [
+        "一群人各记一部分，怎样才能一起用得上？",
+        "问题没解决，究竟卡在了哪一环？",
+        "各自都会做，为什么还要一起练？",
+        "人换了，知识分工为什么还停在过去？",
+        "下一次求助，先说清哪些信息？",
+        "文档交出去了，怎样才算真的交接了？",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "离职交接",
+        "新人接不住",
+        "文档很多找不到",
+        "团队里有人懂",
+        "找不到该问谁",
+        "专家联系不上",
+        "答案过时",
+        "各说各的",
+        "信息对不上",
+        "规则版本不一致",
+        "知识断层",
+        "谁知道什么",
+        "交互记忆系统"
+      ],
+      "decision_stage": [
+        "解释原因",
+        "设计行动",
+        "系统干预",
+        "协作博弈",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-7.2",
+          "relation": "部分重叠、互补",
+          "reason": "组织资本中的知识分工和信息流与交互记忆重叠，并扩展到共同语言与心理安全；本卡细查一次任务中知识的定位、取得、核实和组合。"
+        },
+        {
+          "ww_id": "WW-4.6",
+          "relation": "条件性互补",
+          "reason": "知识难以完整写入文档时，用现场示范与共同操作补经验；交互记忆检查经验持有人与信息路径是否接入实际任务。"
+        },
+        {
+          "ww_id": "WW-6.9",
+          "relation": "互补",
+          "reason": "交互记忆处理差异化专长的调用；新分工已经明确却缺少彼此知晓的确认时，共同知识帮助建立可见确认，不把公开宣布当作准确性证明。"
+        }
+      ],
+      "warnings": [
+        "本卡依据本地作者完整文稿；合集标题与链接已核对，公开正文返回验证页，线上与本地正文一致性未验证。",
+        "团队既需要个人知识，也需要取得、核对与结合知识的协作过程。",
+        "联系人清单、文档交付或共同认可专家不能替代真实任务验收和事实核对。",
+        "权限、资源、利益冲突及团队根本没有必要知识应分别处理。",
+        "四问不能保证消除专业分歧；人员和任务变化后要重查知识分工。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-129.md",
+    "validation_note_sha256": "c5ffeebd4b3a64ce093b435fc6436e08946c4edd4f6a1b4025fcdd3c3a442492"
+  },
+  {
+    "id": "TM-130",
+    "title": "思维模型130：双环学习——复盘十遍还在同一个地方摔倒，问题到底出在哪？",
+    "short_name": "双环学习",
+    "path": "references/user-models/TM-130.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060085&idx=1&sn=1bcecfd386d182eeb11c8a4f702fd594&chksm=beabecc689dc65d0c193dbb3fb2d445fe13e08ee10139db8dc0ba45a6dee61b54071ebd5ce7e#rd",
+    "source_label": "本地作者完整文稿；公众号合集标题和链接已核对，线上正文受验证页阻挡未比对",
+    "captured_at": "2026-10-07",
+    "source_format": "local_author_manuscript_utf8",
+    "source_sha256": "8e5ae5a6af15a48140f8b91c91a68c4dd7c7329d55c9710f8ced3b49cf3ba3c7",
+    "content_sha256": "8e5ae5a6af15a48140f8b91c91a68c4dd7c7329d55c9710f8ced3b49cf3ba3c7",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-130.md",
+    "search_terms": [
+      "思维模型130：双环学习——复盘十遍还在同一个地方摔倒，问题到底出在哪？"
+    ],
+    "original_manuscript_label": "130_作者确认定稿_V001.md",
+    "original_manuscript_sha256": "8e5ae5a6af15a48140f8b91c91a68c4dd7c7329d55c9710f8ced3b49cf3ba3c7",
+    "source_transformations": [],
+    "published_title_verified": true,
+    "published_body_match_verified": false,
+    "published_body_access_status": "verification_required",
+    "album_source_url": "https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MjM5MjA2Nzc0MA%3D%3D&album_id=4536247579494842374&count=10",
+    "manuscript_title": "思维模型130：双环学习——复盘十遍还在同一个地方摔倒，，问题到底出在哪？",
+    "card_sha256": "f6b4234af6060ac31a86e8cc99714b1f6dbfbd58508ce2813690d1d9a50872ad",
+    "card_source_sha256": "8e5ae5a6af15a48140f8b91c91a68c4dd7c7329d55c9710f8ced3b49cf3ba3c7",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-07T16:02:13.141170+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "复盘和改流程多次，同类问题仍重复；口头目标与实际取舍不一致，需要检查既定标准是否仍合适，以及谁能批准修订。",
+      "source_sections": [
+        "办法一直在改，什么始终没变？",
+        "嘴上说质量优先，为什么行动总在保日期？",
+        "想改变规则，先从哪一次取舍开始？",
+        "补上眼前的缺口，就算学会了吗？",
+        "下次复盘，从一份决策记录开始",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "复盘十遍还在返工",
+        "检查表越来越多",
+        "总在同一个地方摔倒",
+        "嘴上说一套做一套",
+        "实际怎么作取舍",
+        "默认规则不能讨论",
+        "指标只看眼前",
+        "改了制度没有变化",
+        "规则有没有问题",
+        "规则谁能修改",
+        "单环学习",
+        "双环学习",
+        "前提改变",
+        "复盘无效"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "解释原因",
+        "比较方案",
+        "系统干预",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-9.3",
+          "relation": "部分重叠、互补",
+          "reason": "均可检验默认题目或目标；WW-9.3也处理个人欲望层次，TM-130追查实际规则、权限以及后续判断行为，不因反思层次高而认定更正确。"
+        },
+        {
+          "ww_id": "WW-7.9",
+          "relation": "条件性互补",
+          "reason": "在例外成为默认时追溯标准漂移，再检验规则是否应修订及是否被采用；不能假设过去标准天然正确，也不能假设用户已有修改或停线权限。"
+        }
+      ],
+      "warnings": [
+        "本卡依据本地作者完整文稿；合集标题与链接已核对，公开正文返回验证页，线上与本地正文一致性未验证。",
+        "反复失败不证明规则必错，单环纠错也有价值",
+        "先处理即时风险，不自行越过组织权限",
+        "使用理论和组织防卫均需证据，不用来判断恶意",
+        "修改文件不等于改变规则，相同选择也可能有新的判断过程",
+        "分开检查规则是否被采用与采用后是否有效",
+        "不复用原文医院案例中混用版本的护士样本数字"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-130.md",
+    "validation_note_sha256": "655abb93c485664b2dc1ac60434abd11832d33be800d0f3c4a8e9cb6602e6489"
+  },
+  {
+    "id": "TM-131",
+    "title": "思维模型131：费曼学习法——刚学完，合上书讲不到三句就卡壳？用费曼学习法，把卡壳的知识讲到外行也能懂",
+    "short_name": "费曼学习法",
+    "path": "references/user-models/TM-131.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060094&idx=1&sn=8a94b0d4a671cca7f4903c4e38a5db20&chksm=beabeccd89dc65db7e2f34103f8cba94898618e0c0c442cc8dca69be4a30e4e394e943c0f5d1#rd",
+    "source_label": "本地作者完整文稿；公众号合集标题和链接已核对，线上正文受验证页阻挡未比对",
+    "captured_at": "2026-10-07",
+    "source_format": "local_author_manuscript_utf8",
+    "source_sha256": "012dcf7adc75e7917328ce664e72972caeca22e0e1b45ce26f61e46b24c6a203",
+    "content_sha256": "012dcf7adc75e7917328ce664e72972caeca22e0e1b45ce26f61e46b24c6a203",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-131.md",
+    "search_terms": [
+      "思维模型131：费曼学习法——刚学完，合上书讲不到三句就卡壳？用费曼学习法，把卡壳的知识讲到外行也能懂"
+    ],
+    "original_manuscript_label": "131_作者定稿_V007.md",
+    "original_manuscript_sha256": "012dcf7adc75e7917328ce664e72972caeca22e0e1b45ce26f61e46b24c6a203",
+    "source_transformations": [],
+    "published_title_verified": true,
+    "published_body_match_verified": false,
+    "published_body_access_status": "verification_required",
+    "album_source_url": "https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MjM5MjA2Nzc0MA%3D%3D&album_id=4536247579494842374&count=10",
+    "manuscript_title": "**思维模型131：费曼学习法——刚学完，合上书讲不到三句就卡壳？用费曼学习法，把卡壳的知识讲到外行也能懂**",
+    "card_sha256": "ca5e06e7221402b675d6e693bb71caa8307a6a59184f143eb507628dcaf3995f",
+    "card_source_sha256": "012dcf7adc75e7917328ce664e72972caeca22e0e1b45ce26f61e46b24c6a203",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-07T16:02:12.927164+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "看完觉得懂了，合上书却讲不清；能背定义却解释不了理由，或讲得顺但不确定是否正确，需要找缺口、回查并检验理解。",
+      "source_sections": [
+        "知道名字，不等于理解事物",
+        "离开材料，你还能把道理接起来吗？",
+        "讲得顺的地方，也值得追问",
+        "费曼学习法的每一步，有没有研究支持？",
+        "拿一个具体问题，把四步走一遍",
+        "哪些内容，不能只靠讲清楚来检验？",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "合上书讲不清",
+        "看完觉得懂了",
+        "讲三句就卡壳",
+        "背得出定义",
+        "解释不了为什么",
+        "说得顺但怕讲错",
+        "用自己的话解释",
+        "不知道缺在哪里",
+        "脱稿解释",
+        "回查知识缺口",
+        "给外行讲明白",
+        "费曼学习法"
+      ],
+      "decision_stage": [
+        "检查偏差",
+        "解释原因",
+        "设计行动",
+        "学习执行",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-4.2",
+          "relation": "部分重叠、互补",
+          "reason": "ICAP用建构与互动区分学习参与，费曼学习法细化独立解释、标记缺口、回查和核对；复述或轮流发言不自动代表生成新理解。"
+        },
+        {
+          "ww_id": "WW-4.7",
+          "relation": "部分重叠、条件性互补",
+          "reason": "暂离材料及延后检验涉及提取与保持，可取困难补充节奏和状态边界；本卡聚焦解释关系及准确性，不能强迫无基础者硬讲。"
+        },
+        {
+          "ww_id": "WW-4.1",
+          "relation": "条件性互补",
+          "reason": "任务过大或完全无从开始时，认知负荷视角帮助补先验、范例和支架，再逐步独立解释，不把一切卡壳都归因过载。"
+        }
+      ],
+      "warnings": [
+        "本卡依据本地作者完整文稿；合集标题与链接已核对，公开正文返回验证页，线上与本地正文一致性未验证。",
+        "讲不清可能涉及理解、记忆或表达，不能直接判定没有学到或能力低。",
+        "讲得流畅、外行点头或AI认可都不证明解释准确，需外部核对与新任务检验。",
+        "独自写解释也能起步；陌生内容先补基础，动作技能仍需实操反馈。",
+        "相关自我解释和教学预期研究不等于整套流行四步法的统一验证。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-131.md",
+    "validation_note_sha256": "2f374fae2d2dd54d3acf317b379936ef6a12ccc620ccbe2bec70fd78af26f22e"
+  },
+  {
+    "id": "TM-132",
+    "title": "思维模型132：福格行为模型——计划每天学半小时，到最后却总拖到“明天再说”，问题到底出在哪？",
+    "short_name": "福格行为模型",
+    "path": "references/user-models/TM-132.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060106&idx=1&sn=fa5d1e1118c6e07ca4822fbddf7dc428&chksm=beabecb989dc65af7e8359c339eac6876284097c9f010dadfaaf46065135929082bf11d37b78#rd",
+    "source_label": "本地作者完整文稿；公众号合集标题和链接已核对，线上正文受验证页阻挡未比对；临时图片地址已作显式占位",
+    "captured_at": "2026-10-07",
+    "source_format": "local_author_manuscript_utf8",
+    "source_sha256": "0151afefef706d68aedf8604ca6ad35f3f42aa95b8403492079c90dad86a6cdb",
+    "content_sha256": "0151afefef706d68aedf8604ca6ad35f3f42aa95b8403492079c90dad86a6cdb",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-132.md",
+    "search_terms": [
+      "思维模型132：福格行为模型——计划每天学半小时，到最后却总拖到“明天再说”，问题到底出在哪？"
+    ],
+    "original_manuscript_label": "132_作者确认终稿_V005.md",
+    "original_manuscript_sha256": "8226c1cd53e67947a4a5e7af06ec25ee464c0cb888338882d15eb43a50b911a7",
+    "source_transformations": [
+      "Removed one temporary signed image URL; inserted explicit image placeholder. Text body unchanged."
+    ],
+    "published_title_verified": true,
+    "published_body_match_verified": false,
+    "published_body_access_status": "verification_required",
+    "album_source_url": "https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MjM5MjA2Nzc0MA%3D%3D&album_id=4536247579494842374&count=10",
+    "manuscript_title": "思维模型132：福格行为模型，计划每天学半小时，到最后却总拖到“明天再说”，问题到底出在哪？",
+    "card_sha256": "7337d3bb655a504fcd2e2cf6fec95e48ecee18a6a286799b895bce5c3fc1cb29",
+    "card_source_sha256": "0151afefef706d68aedf8604ca6ad35f3f42aa95b8403492079c90dad86a6cdb",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-07T16:02:13.248912+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "计划迟迟没执行，提醒响了却没去做；会做但当时做不成，想找出提示、准备成本和意愿哪一处值得先调整。",
+      "source_sections": [
+        "行为不发生，不等于你不想做",
+        "福格行为模型三个要素，分别管什么",
+        "回看一次没开始，下一步该改什么？",
+        "照着做时，还容易在哪些地方判断错？",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "福格行为模型",
+        "Fogg Behavior Model",
+        "B=MAP",
+        "动机能力提示",
+        "提醒响了",
+        "没有开始",
+        "学半小时",
+        "明天再说",
+        "执行阻力",
+        "准备成本",
+        "启动困难",
+        "缩小动作",
+        "行动时机",
+        "微小习惯"
+      ],
+      "decision_stage": [
+        "解释原因",
+        "设计行动",
+        "学习执行",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-2.7",
+          "relation": "互补、局部重叠",
+          "reason": "MAP定位一次机会中的提示、容易程度和当时意愿；WOOP围绕可行愿望与主要内在障碍形成执行意图。不能用内在障碍替代资源约束。"
+        },
+        {
+          "ww_id": "WW-2.4",
+          "relation": "条件性互补",
+          "reason": "MAP描述当时的行动意愿与条件；自我决定理论进一步检查自主、胜任、关系支持。容易执行不等于认同目标，能力与胜任感不能混为一项。"
+        }
+      ],
+      "warnings": [
+        "本卡依据本地作者完整文稿；合集标题与链接已核对，公开正文返回验证页，线上与本地正文一致性未验证。",
+        "B=MAP不是定量乘法或行为概率公式，不把普遍性表述当作已经跨情境验证的充分必要条件。",
+        "原文个人经验、产品故事和具体数字未在本轮全部独立核验；开始行为不等于目标成果。",
+        "单次成败不能识别唯一原因；组织权限资源与严重成瘾等问题不能仅靠习惯设计处理。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-132.md",
+    "validation_note_sha256": "757c1bc05af35af1affe70b7b46d941871aec090c545fa0f76410c15edc833d4"
   }
 ]

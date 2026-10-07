@@ -1,10 +1,10 @@
 {
-  "version": "1.4.1",
-  "revision": 11,
-  "updated_at": "2026-10-01T05:45:31.559931+00:00",
-  "user_models": 126,
+  "version": "1.5.0",
+  "revision": 29,
+  "updated_at": "2026-10-07T16:15:05.981344+00:00",
+  "user_models": 132,
   "wan_tools": 100,
-  "sample_cards": 9,
+  "sample_cards": 15,
   "sample_card_ids": [
     "TM-054",
     "TM-062",
@@ -14,7 +14,13 @@
     "TM-123",
     "TM-124",
     "TM-125",
-    "TM-126"
+    "TM-126",
+    "TM-127",
+    "TM-128",
+    "TM-129",
+    "TM-130",
+    "TM-131",
+    "TM-132"
   ],
   "behavior_trial_scope": {
     "v0_1_full_entry_cases": [
@@ -38,7 +44,7 @@
     "tested_at_revision": 2,
     "tested_version": "1.0.0"
   },
-  "change": "Make installation and invocation guidance Agent Skills compatible across agents; remove default Codex and skill-installer requirements; preserve HTML report workflow and model library",
+  "change": "Add TM-127 through TM-132 from complete local author manuscripts, verified album titles/links, 15 cross-library relations, limited behavioral trials; retain disclosure that online bodies were blocked",
   "validation": {
     "tested_at_revision": 2,
     "official_skill_structure": "passed",
@@ -51,24 +57,25 @@
     "sandbox_manuscript_update": "passed",
     "tested_version": "1.0.0"
   },
-  "total_cards": 126,
+  "total_cards": 132,
   "source_reviewed_cards": 117,
   "card_status_counts": {
     "source_reviewed": 117,
     "sample_reviewed": 8,
-    "behavior_checked": 1
+    "behavior_checked": 7
   },
   "needs_review": [],
   "release_validation": {
     "status": "passed",
-    "version": "1.4.1",
-    "revision": 11,
+    "version": "1.5.0",
+    "revision": 29,
     "valid_for_current_revision": true,
+    "scope": "Six new local-manuscript cards, retrieval, limited simulations and final package checks; published-body equivalence and new report visual rendering unverified.",
+    "evidence": "references/evaluation/results-v1.5.md",
     "official_skill_structure": "passed",
     "library_integrity": "passed",
-    "local_markdown_links_checked": 1066,
-    "scope": "Installation and invocation documentation; neutral-directory package, optional metadata omission and CLI checks; no third-party client installation claim",
-    "evidence": "references/evaluation/results-v1.4.1.md"
+    "local_markdown_links_checked": 1159,
+    "html_source_links_checked": 3
   },
   "release_validation_history": {
     "1.0.0": {
@@ -137,6 +144,17 @@
       "new_html_source_links_checked": 6,
       "scope": "HTML delivery workflow; five actual simulated replies, three generated reports and template layout checks; knowledge library unchanged",
       "evidence": "references/evaluation/results-v1.4.md"
+    },
+    "1.4.1": {
+      "status": "passed",
+      "version": "1.4.1",
+      "revision": 11,
+      "valid_for_current_revision": false,
+      "official_skill_structure": "passed",
+      "library_integrity": "passed",
+      "local_markdown_links_checked": 1066,
+      "scope": "Installation and invocation documentation; neutral-directory package, optional metadata omission and CLI checks; no third-party client installation claim",
+      "evidence": "references/evaluation/results-v1.4.1.md"
     }
   },
   "workflow_validation": {
@@ -265,5 +283,44 @@
     "scripts_and_analysis_workflow_unchanged": true,
     "third_party_agent_installation_tested": false,
     "evidence": "references/evaluation/results-v1.4.1.md"
+  },
+  "tm127_132_update_validation": {
+    "tested_version": "1.5.0",
+    "registered_at_revision": 29,
+    "new_user_models": 6,
+    "new_card_ids": [
+      "TM-127",
+      "TM-128",
+      "TM-129",
+      "TM-130",
+      "TM-131",
+      "TM-132"
+    ],
+    "source_provenance": "local_author_manuscripts",
+    "album_entries_enumerated": 134,
+    "album_numbered_models": 132,
+    "online_new_article_bodies_retrieved": 0,
+    "online_article_manuscript_match_verified": false,
+    "source_manuscripts_exact_bytes": 5,
+    "signed_image_url_replaced_with_explicit_placeholder": [
+      "TM-132"
+    ],
+    "new_cross_library_relations": 15,
+    "independent_card_simulations": 12,
+    "independent_simulation_contexts": 2,
+    "lexical_discovery_checks": 18,
+    "card_simulations_used_specified_model": true,
+    "all_models_behavior_tested": false,
+    "real_world_outcomes_validated": false,
+    "evidence": "references/evaluation/results-v1.5.md",
+    "full_entry_simulations": 1,
+    "full_entry_generated_html_reports": 1,
+    "full_entry_html_content_and_local_links": "passed",
+    "full_entry_html_visual_validation": "not_completed",
+    "new_cards_source_reviewed": 6,
+    "old_knowledge_assets_byte_identical": 477,
+    "old_user_index_entries_unchanged": 126,
+    "cli_regression_tests_passed": 13,
+    "review": "passed_within_recorded_scope"
   }
 }

@@ -1,6 +1,6 @@
 # 用户思维模型原文目录
 
-共 126 篇归档原文；归档不等于事实核验或行为验证。卡片状态和来源指纹以 user-index.json 为准。
+共 132 篇归档原文；归档不等于事实核验或行为验证。卡片状态和来源指纹以 user-index.json 为准。
 
 未卡片化条目须完整读原文后提炼；needs_review 卡片须复核。召回只提供候选，不能凭标题推断机制。
 
@@ -136,3 +136,9 @@ source_sha256 记录原来源指纹；content_sha256 校验包内 Markdown。初
 | TM-124 | 多臂老虎机模型 | 多个办法可反复尝试，下一轮如何分配探索机会 | [全文](<user-models/TM-124.md>) · [HTML](<user-models/TM-124.html>) · [模型卡](<cards/TM-124.md>)（sample_reviewed） |
 | TM-125 | 相邻可能 | 远期目标太大，当前条件够得着的下一步是什么 | [全文](<user-models/TM-125.md>) · [HTML](<user-models/TM-125.html>) · [模型卡](<cards/TM-125.md>)（sample_reviewed） |
 | TM-126 | 具身认知 | 跟着教程能做，换个条件就不会；亲手练过却只记步骤；想判断动作、手势或实物能否帮助理解。 | [全文](<user-models/TM-126.md>) · [模型卡](<cards/TM-126.md>)（behavior_checked） |
+| TM-127 | 观察学习 | 看别人演示时觉得懂了，独立做却卡住；培训后不会用、用不上，或说得出步骤却做不出合格结果，需要决定补示范、补记忆、练操作还是调整条件。 | [全文](<user-models/TM-127.md>) · [模型卡](<cards/TM-127.md>)（behavior_checked） |
+| TM-128 | 概念转变模型 | 答案已经改对、定义也会背，换个条件却又沿用旧解释；需要判断该补证据、解释、可信理由还是迁移练习。 | [全文](<user-models/TM-128.md>) · [模型卡](<cards/TM-128.md>)（behavior_checked） |
+| TM-129 | 交互记忆系统 | 老同事离职后文档留了但新人接不住；团队有人懂却找不到、取不到或无法拼合知识；专家答案过时，或人员变化后仍按旧分工协作。 | [全文](<user-models/TM-129.md>) · [模型卡](<cards/TM-129.md>)（behavior_checked） |
+| TM-130 | 双环学习 | 复盘和改流程多次，同类问题仍重复；口头目标与实际取舍不一致，需要检查既定标准是否仍合适，以及谁能批准修订。 | [全文](<user-models/TM-130.md>) · [模型卡](<cards/TM-130.md>)（behavior_checked） |
+| TM-131 | 费曼学习法 | 看完觉得懂了，合上书却讲不清；能背定义却解释不了理由，或讲得顺但不确定是否正确，需要找缺口、回查并检验理解。 | [全文](<user-models/TM-131.md>) · [模型卡](<cards/TM-131.md>)（behavior_checked） |
+| TM-132 | 福格行为模型 | 计划迟迟没执行，提醒响了却没去做；会做但当时做不成，想找出提示、准备成本和意愿哪一处值得先调整。 | [全文](<user-models/TM-132.md>) · [模型卡](<cards/TM-132.md>)（behavior_checked） |
