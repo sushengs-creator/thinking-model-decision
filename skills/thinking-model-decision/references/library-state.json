@@ -1,10 +1,10 @@
 {
-  "version": "1.5.0",
-  "revision": 29,
-  "updated_at": "2026-10-07T16:15:05.981344+00:00",
-  "user_models": 132,
+  "version": "1.6.0",
+  "revision": 33,
+  "updated_at": "2026-10-08T03:41:29.183594+00:00",
+  "user_models": 133,
   "wan_tools": 100,
-  "sample_cards": 15,
+  "sample_cards": 16,
   "sample_card_ids": [
     "TM-054",
     "TM-062",
@@ -20,7 +20,8 @@
     "TM-129",
     "TM-130",
     "TM-131",
-    "TM-132"
+    "TM-132",
+    "TM-133"
   ],
   "behavior_trial_scope": {
     "v0_1_full_entry_cases": [
@@ -44,7 +45,7 @@
     "tested_at_revision": 2,
     "tested_version": "1.0.0"
   },
-  "change": "Add TM-127 through TM-132 from complete local author manuscripts, verified album titles/links, 15 cross-library relations, limited behavioral trials; retain disclosure that online bodies were blocked",
+  "change": "Add TM-133 from published browser text, three cross-library relations and scoped validation; clarify MAP versus WOOP entry routing after observed regression",
   "validation": {
     "tested_at_revision": 2,
     "official_skill_structure": "passed",
@@ -57,25 +58,24 @@
     "sandbox_manuscript_update": "passed",
     "tested_version": "1.0.0"
   },
-  "total_cards": 132,
+  "total_cards": 133,
   "source_reviewed_cards": 117,
   "card_status_counts": {
     "source_reviewed": 117,
     "sample_reviewed": 8,
-    "behavior_checked": 7
+    "behavior_checked": 8
   },
   "needs_review": [],
   "release_validation": {
     "status": "passed",
-    "version": "1.5.0",
-    "revision": 29,
+    "version": "1.6.0",
+    "revision": 33,
     "valid_for_current_revision": true,
-    "scope": "Six new local-manuscript cards, retrieval, limited simulations and final package checks; published-body equivalence and new report visual rendering unverified.",
-    "evidence": "references/evaluation/results-v1.5.md",
+    "scope": "TM-133 source/card, retrieval, limited text simulations, MAP/WOOP routing and package integrity; no new HTML rendering or real-world outcomes test",
+    "evidence": "references/evaluation/results-v1.6.md",
     "official_skill_structure": "passed",
     "library_integrity": "passed",
-    "local_markdown_links_checked": 1159,
-    "html_source_links_checked": 3
+    "local_markdown_links_checked": 1182
   },
   "release_validation_history": {
     "1.0.0": {
@@ -155,6 +155,18 @@
       "local_markdown_links_checked": 1066,
       "scope": "Installation and invocation documentation; neutral-directory package, optional metadata omission and CLI checks; no third-party client installation claim",
       "evidence": "references/evaluation/results-v1.4.1.md"
+    },
+    "1.5.0": {
+      "status": "passed",
+      "version": "1.5.0",
+      "revision": 29,
+      "valid_for_current_revision": false,
+      "scope": "Six new local-manuscript cards, retrieval, limited simulations and final package checks; published-body equivalence and new report visual rendering unverified.",
+      "evidence": "references/evaluation/results-v1.5.md",
+      "official_skill_structure": "passed",
+      "library_integrity": "passed",
+      "local_markdown_links_checked": 1159,
+      "html_source_links_checked": 3
     }
   },
   "workflow_validation": {
@@ -321,6 +333,32 @@
     "old_knowledge_assets_byte_identical": 477,
     "old_user_index_entries_unchanged": 126,
     "cli_regression_tests_passed": 13,
+    "review": "passed_within_recorded_scope"
+  },
+  "tm133_update_validation": {
+    "tested_version": "1.6.0",
+    "source_acquisition": "published_article_browser_rendered_text",
+    "source_text_non_whitespace_characters": 4181,
+    "source_text_transcription_comparison": "matched",
+    "article_media_downloaded": false,
+    "underlying_research_reaudited": false,
+    "new_cross_library_relations": 3,
+    "card_tested_at_revision": 31,
+    "registered_at_revision": 32,
+    "specified_card_simulations": 2,
+    "initial_entry_regression_cases": 1,
+    "initial_entry_regression_finding": "selected_incomplete_WOOP_for_external_start_conditions",
+    "all_models_behavior_tested": false,
+    "real_world_outcomes_validated": false,
+    "evidence": "references/evaluation/results-v1.6.md",
+    "simulation_contexts": 2,
+    "actual_responses_reviewed": 5,
+    "entry_retest_cases": 2,
+    "entry_retest_result": "passed_within_recorded_scope",
+    "entry_routing_tested_at_revision": 33,
+    "lexical_discovery_checks": 9,
+    "old_knowledge_assets_byte_identical": 489,
+    "old_user_index_entries_unchanged": 132,
     "review": "passed_within_recorded_scope"
   }
 }

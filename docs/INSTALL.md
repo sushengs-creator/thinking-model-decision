@@ -73,7 +73,7 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 ## 检查完整性
 
-让 Agent 读取 `references/library-state.json`，核对版本与模型数量。本次公开版为 **1.5.0**，包含 132 篇用户原文、132 张操作卡、100 个 WW 工具；后续数量以对应版本为准。
+让 Agent 读取 `references/library-state.json`，核对版本与模型数量。本次公开版为 **1.6.0**，包含 133 篇用户原文、133 张操作卡、100 个 WW 工具；后续数量以对应版本为准。
 
 有命令执行能力及 Python 3.9 以上版本时，可在任意工作目录运行以下命令，将路径替换成实际安装位置：
 

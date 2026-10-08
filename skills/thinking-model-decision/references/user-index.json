@@ -6770,5 +6770,104 @@
     },
     "validation_note_path": "references/validation-notes/TM-132.md",
     "validation_note_sha256": "757c1bc05af35af1affe70b7b46d941871aec090c545fa0f76410c15edc833d4"
+  },
+  {
+    "id": "TM-133",
+    "title": "思维模型133：反馈干预理论——你给同事方案写了3条修改建议，他点头说“收到”，为什么下次还是老样子？",
+    "short_name": "反馈干预理论",
+    "path": "references/user-models/TM-133.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s/EDbDKfDphm9QbRKFF8TM-w",
+    "source_label": "公众号133发表正文（浏览器文字提取）",
+    "captured_at": "2026-10-08",
+    "source_format": "published_article_browser_rendered_text",
+    "source_sha256": "ac047489e7cd13cdc31ccf19a5e73d75969c3231c4f8f80d5a3c5d63bf550211",
+    "content_sha256": "ac047489e7cd13cdc31ccf19a5e73d75969c3231c4f8f80d5a3c5d63bf550211",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-133.md",
+    "search_terms": [
+      "思维模型133：反馈干预理论——你给同事方案写了3条修改建议，他点头说“收到”，为什么下次还是老样子？"
+    ],
+    "published_body_match_verified": true,
+    "source_acquisition_note": "2026-10-08 从公开文章浏览器渲染正文提取，去除空白后4181字符逐字核对一致；标题和段落转为Markdown，文末档案卡按字段顺序保留。4幅插图未下载、未OCR；文字原稿中的争议表述照存，不等于原研究已核实。",
+    "album_source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060115&idx=1&sn=758f2ef487c7ba2e6ca582f23395e206&chksm=beabeca089dc65b6593665034947a9037f75ff388dd51abcf8d2a508203cc0de4ef7e51d6e8b#rd",
+    "original_body_sha256": "e42762fb8f8ac6b22592fdbe74353b164de8f03c6edc78be2bb99d4efbe1fdda",
+    "card_sha256": "2b7289c473ef1966850865e72edf14104509421e8a118e2dbe1e973074613824",
+    "card_source_sha256": "ac047489e7cd13cdc31ccf19a5e73d75969c3231c4f8f80d5a3c5d63bf550211",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-08T03:33:32.124230+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "修改建议反复给，对方说收到却不改；评价后只顾能力或排名，会复述建议却做不出；依靠逐步提示完成，下次独立做又不会，需要判断该澄清要求、示范方法、回应担忧还是调整条件。",
+      "source_sections": [
+        "建议听见了，为什么心思却用在了别处？",
+        "同样是\"没做好\"，对方可能在想三件不同的事",
+        "建议写在分数旁边，对方就会用吗？",
+        "当场做得好，为什么下次仍可能不会？",
+        "对方点头之后，接下来检查什么？",
+        "改进反馈时，容易判断错误的地方",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "反馈干预理论",
+        "Feedback Intervention Theory",
+        "FIT",
+        "反馈了很多次还不改",
+        "修改建议没有用",
+        "收到但没改",
+        "点头后还是老样子",
+        "会复述却做不出来",
+        "评价后表现更差",
+        "担心被认为能力差",
+        "只争论排名和分数",
+        "建议越多越混乱",
+        "不知道先改哪里",
+        "注意力离开任务",
+        "反馈内容是否准确",
+        "理解建议并实际修改",
+        "反馈依赖",
+        "撤掉提示就不会",
+        "AI提示下会独立不会",
+        "当场表现与独立掌握"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "解释原因",
+        "设计行动",
+        "学习执行",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-4.2",
+          "relation": "操作互补、局部重叠",
+          "reason": "FIT检查反馈后的注意与具体困难；ICAP补充先解释、生成和修正的学习活动，以及迁移和延迟检验。动手或口头收到不等于理解，互动形式也不保证反馈有效。"
+        },
+        {
+          "ww_id": "WW-3.12",
+          "relation": "归因反证、条件性互补",
+          "reason": "异常表现后才实施反馈时，随后变化可能含自然回弹。对照既有波动和相近任务再评估效果，不能凭前后两次表现断定反馈有效或注意转移；仍检查真实技能和条件变化。"
+        },
+        {
+          "ww_id": "WW-8.4",
+          "relation": "功能互补、条件性张力",
+          "reason": "反馈回路检查结果进入下一轮及测量延迟，FIT检查给人的表现信息如何被理解和使用，二者并非同义。高频测量不等于高频同步提示；以独立掌握为目标时另验提示依赖，不因此削减必要系统测量。"
+        }
+      ],
+      "warnings": [
+        "来源为2026-10-08公开浏览器文字提取，完整正文已比对；本次未独立核实文中历史研究的样本、效应量及实验结论。",
+        "原文不取决于反馈内容本身的绝对句与限定段冲突；本卡按内容、注意与情境共同检查，不将其升级为普遍定律。",
+        "1996年元分析未直接测量所假设的注意过程是原文自身的边界说明，不能凭表现变化倒推个人心理。",
+        "沉默、反驳、不高兴或一句收到都不足以判定反馈被理解、注意转移或反馈效果；评价错误、技能、资源和目标冲突也需检查。",
+        "三个注意层级可以并存，不是好坏排序；质疑评价可能有事实依据。",
+        "当场表现、独立掌握和干预的因果效果分别验收；运动任务的同步反馈依赖不能直接推广为AI写作等场景的定律。",
+        "不统一增加或减少提示频率，不贸然撤掉高风险任务的必要支持；本次交付允许合理使用工具。",
+        "WW关系来自已读包内条目的编辑比较，未核验原课程；系统反馈回路与给人的表现反馈不是同一机制。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-133.md",
+    "validation_note_sha256": "76b4cd0bcb50baccb433f12e3593e479c7638c4af7c52ac81821e21750eccf81"
   }
 ]

@@ -2,7 +2,7 @@
 
 有困惑时，从一句话开始。工具通过一步一步的追问，帮你理清问题，再用思维模型比较选择，每次分析完成后，默认给出一份 **HTML 下一步行动计划**，包含决策依据、执行安排和调整条件。
 
-知识库包含作者提供的 **132篇思维模型原文、132张操作卡，以及万维钢现代思维工具100讲的本地技能资料快照**，已整理84条跨库关系。当前Skill版本为 **1.5.0**。这些是可组合的参考资料，不是232个彼此独立、全部验证过的模型。
+知识库包含作者提供的 **133篇思维模型原文、133张操作卡，以及万维钢现代思维工具100讲的本地技能资料快照**，已整理87条跨库关系。当前Skill版本为 **1.6.0**。这些是可组合的参考资料，不是233个彼此独立、全部验证过的模型。
 
 ## 最简单的安装方法
 
@@ -54,7 +54,7 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 | 先暂停 | “今天先暂停。”（停止追问和分析；只有你同时要求时才出阶段性报告。） |
 | 修改已有报告 | “情况变了：……请更新受影响的结论和行动。” |
 | 复盘 | “这是上次的判断、行动和结果，帮我区分决策、执行和环境变化。” |
-| 新增模型 | “这是思维模型133的文稿，请更新工具，完成卡片、关系核对和试跑。” |
+| 新增模型 | “这是思维模型134的文稿，请更新工具，完成卡片、关系核对和试跑。” |
 
 默认每轮一个主要问题，等你回答再推进；已有信息不重复问，未知不替你编。问题、目标、关键限制和可比较选项清楚后，就进入分析和报告，不再要求你批准开始。报告使用实际读过的模型，默认一个主模型、至多三个补充或反证工具；没有适合的模型就说明原因，不凑数量。模型帮助比较，最终价值排序与选择仍由你决定。
 
@@ -64,7 +64,7 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 ## 模型库与维护
 
-- [132个用户模型目录](skills/thinking-model-decision/references/user-catalog.md)
+- [133个用户模型目录](skills/thinking-model-decision/references/user-catalog.md)
 - [万维钢100个工具目录](skills/thinking-model-decision/references/wan-catalog.md)
 - [万维钢整体运行框架与九类任务指引](skills/thinking-model-decision/references/wan-framework.md)
 - [按问题选择模型](skills/thinking-model-decision/references/decision-routing.md)
@@ -77,7 +77,7 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 ## 来源、署名与验证范围
 
-本工具由 [sushengs-creator](https://github.com/sushengs-creator) 整理与维护，132篇编号思维模型保留各自原文及来源。万维钢部分来自作者提供的本地技能快照，**不是原课程逐字稿，也不表示万维钢参与制作、审定或背书**。来源记录见[来源说明](skills/thinking-model-decision/references/source-notes.md)，使用与署名说明见[NOTICE](NOTICE.md)。
+本工具由 [sushengs-creator](https://github.com/sushengs-creator) 整理与维护，133篇编号思维模型保留各自原文及来源。万维钢部分来自作者提供的本地技能快照，**不是原课程逐字稿，也不表示万维钢参与制作、审定或背书**。来源记录见[来源说明](skills/thinking-model-decision/references/source-notes.md)，使用与署名说明见[NOTICE](NOTICE.md)。
 
 v1.0完成资料完整性、模型卡来源核对及指定场景试跑；v1.1另完成一组四轮对话和三个边界场景的模拟验证。模拟通过不等于现实决策效果已得到保证。详见[v1.0验证记录](skills/thinking-model-decision/references/evaluation/results-v1.0.md)与[v1.1验证记录](skills/thinking-model-decision/references/evaluation/results-v1.1.md)。
 
@@ -96,3 +96,5 @@ v1.4.1 将安装、调用和更新说明改为面向支持 Agent Skills 的 AI A
 v1.5.0 新增 **TM-127—TM-132**：观察学习、概念转变模型、交互记忆系统、双环学习、费曼学习法和福格行为模型。同步原文、模型卡、问题路由与15条跨库关系；合集核对、正文读取限制和本轮验证范围见 [新增六篇更新记录](skills/thinking-model-decision/references/evaluation/results-v1.5.md)。
 
 真实决策仍以当前证据、个人目标和实际约束为准。个人案例与 HTML 报告默认留在当前任务及其输出目录，不写入通用技能库或自动公开发布。与AI助手聊天本身的数据处理，遵循你使用的平台规则。
+
+v1.6.0 新增 **TM-133 反馈干预理论**，从已发表文章提炼模型卡、调用边界与跨库关系，区分收到建议、实际采用和独立掌握。公开正文提取及验证范围见 [第133篇更新记录](skills/thinking-model-decision/references/evaluation/results-v1.6.md)。
