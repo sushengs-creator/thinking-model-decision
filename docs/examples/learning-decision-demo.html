@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>每周 3 小时，如何开始改善活动报告｜教学示例</title>
+  <style>
+    :root{--ink:#20332c;--muted:#586b63;--green:#205a47;--line:#dbe5de;--paper:#fff;--bg:#f1f5f0;--soft:#e8f1e9;--amber:#73592d}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;font-size:16px;line-height:1.8}a{color:var(--green);text-underline-offset:3px;overflow-wrap:anywhere}a:focus-visible{outline:3px solid #b48943;outline-offset:4px}main{max-width:1060px;margin:40px auto;padding:0 28px 36px}.notice{border:1px solid #decda9;border-radius:12px;padding:16px 22px;background:#fff9ec;color:#624c29;font-size:14px}.notice strong{font-size:15px}.hero{padding:36px 0 28px}.eyebrow{color:var(--green);font-size:13px;letter-spacing:.1em;font-weight:700}.hero h1{font-size:clamp(28px,4.5vw,43px);letter-spacing:-.025em;line-height:1.35;margin:12px 0 18px;max-width:820px}.subtitle{font-size:18px;color:var(--muted);margin:0}.meta{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:var(--muted);margin-top:21px}.lead{background:var(--green);color:#fff;border-radius:18px;padding:28px 32px}.lead h2{margin:0 0 12px;font-size:23px;line-height:1.5}.lead p{margin:10px 0}.lead .first{border-top:1px solid #7fa494;padding-top:16px;margin-top:18px}.lead small{color:#e2efe7}.nav{display:flex;flex-wrap:wrap;gap:6px 20px;margin:24px 0 0;font-size:14px}.nav a{text-decoration:none}.section{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:28px 30px;margin-top:22px}.section h2{font-size:23px;line-height:1.45;margin:0 0 18px}.section h3{font-size:17px;line-height:1.5;margin:22px 0 8px}p{margin:10px 0}ul,ol{margin:10px 0;padding-left:1.5em}li{padding-left:3px;margin:7px 0}.muted{color:var(--muted)}.label{display:inline-block;font-size:12px;letter-spacing:.03em;background:var(--soft);color:var(--green);border-radius:5px;padding:2px 8px;margin-bottom:9px}.facts{display:grid;grid-template-columns:1fr 1fr;gap:20px}.facts>div{border-left:3px solid var(--line);padding-left:18px}.facts h3{margin-top:0}.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;margin:16px 0;scrollbar-width:thin}table{width:100%;border-collapse:collapse;min-width:660px;font-size:14px;line-height:1.7}th,td{text-align:left;vertical-align:top;padding:14px 16px;border-bottom:1px solid var(--line)}th{background:var(--soft);font-weight:650;color:var(--green)}tr:last-child td{border-bottom:0}td:first-child{width:18%;font-weight:650}.model{display:grid;grid-template-columns:150px 1fr;gap:20px;border-top:1px solid var(--line);padding-top:20px;margin-top:20px}.model:first-of-type{border-top:0;padding-top:0;margin-top:0}.model h3{margin:0}.model p{margin:0 0 8px}.step{border-top:1px solid var(--line);padding-top:20px;margin-top:20px}.step:first-of-type{border-top:0;padding-top:0}.step h3{margin:0 0 7px}.step-meta{font-size:13px;color:var(--muted)}.callout{border-left:4px solid #ac8852;background:#fbf7ef;padding:12px 18px;margin:18px 0;color:var(--amber)}.checklist{list-style:none;padding-left:0}.checklist li{padding-left:25px;position:relative}.checklist li:before{content:"□";position:absolute;left:0;color:var(--green)}footer{padding:22px 4px 0;font-size:13px;color:var(--muted)}.source-list{font-size:14px}.source-list li{margin:10px 0}strong{font-weight:650}
+    @media(max-width:680px){main{margin:18px auto;padding:0 16px 24px}.hero{padding:28px 0 22px}.notice{padding:14px 17px}.lead{padding:23px 22px}.section{padding:23px 20px}.facts{grid-template-columns:1fr}.model{grid-template-columns:1fr;gap:10px}.nav{gap:8px 16px}.subtitle{font-size:16px}.section h2{font-size:21px}.table-wrap{margin-left:-4px;margin-right:-4px}th,td{padding:12px}.meta{gap:5px 14px}}
+    @media print{@page{size:A4;margin:16mm}html{scroll-behavior:auto}body{background:#fff;font-size:10.5pt;line-height:1.65;color:#17291f}main{max-width:none;margin:0;padding:0}.notice{font-size:9pt;padding:10px 13px}.hero{padding:18px 0}.hero h1{font-size:25pt}.subtitle{font-size:12pt}.meta{font-size:9pt}.lead{background:#edf4ee!important;color:#173f2e;padding:16px 20px;border:1px solid #b8cabc;border-radius:8px}.lead small{color:#365448}.lead .first{border-color:#b8cabc}.lead h2{font-size:15pt}.nav{display:none}.section{padding:17px 18px;margin-top:15px;border-radius:8px}.section h2{font-size:15pt;break-after:avoid}.section h3{font-size:11.5pt;break-after:avoid}.table-wrap{overflow:visible}table{min-width:0;font-size:9pt;table-layout:fixed}th,td{padding:8px;overflow-wrap:anywhere}tr,.model,.step,.callout{break-inside:avoid}thead{display:table-header-group}.facts{gap:14px}.source-list{font-size:9pt}a{color:inherit}footer{font-size:9pt}p,li{orphans:3;widows:3}}
+  </style>
+</head>
+<body>
+<main>
+  <aside class="notice" role="note"><strong>教学演示，非真实案例</strong><br>本示例中的全部人物、问答与条件均为编写的教学材料，用于展示 Skill 的报告形式。它不是真实用户记录、实跑记录或效果证明；下列行动尚未执行，也没有试学结果。</aside>
+  <header class="hero">
+    <div class="eyebrow">思维模型决策工具 · 下一步行动计划</div>
+    <h1>每周 3 小时，<br>如何开始改善活动报告</h1>
+    <p class="subtitle">把“要不要报一门系统课”收窄成一个可以开始、也可以及时调整的决定。</p>
+    <div class="meta"><span>生成日 2026-10-08</span><span>报告状态 教学示例·初版</span><span>适用范围 本页虚构学习情境</span></div>
+  </header>
+
+  <section class="lead" aria-labelledby="recommendation">
+    <h2 id="recommendation">有条件建议 · 暂缓当前每周 8 小时的系统课</h2>
+    <p>在每周只有 3 小时、课程是否可以放慢节奏尚未确认的条件下，先用已有短教程尝试一个与活动月报有关的小任务。先检查材料能否使用，再决定是否开始；这一次的准备、练习和复盘<strong>合计不超过 3 小时</strong>。</p>
+    <p class="first"><strong>眼下第一步</strong><br>下次可用时段开始时，检查教程的付款与软件要求，以及往年数据表的练习权限和必要字段。只有材料、权限和时间都允许，才选一个月报问题动手。</p>
+    <small>3 小时是投入上限，不是完成承诺。出现新增费用、额外资源需求或数据不可用时，先缩小目标或暂停。本示例不安排买课，也不安排上传真实数据。</small>
+  </section>
+
+  <nav class="nav" aria-label="报告导航"><a href="#question">决定什么</a><a href="#evidence">事实与未知</a><a href="#options">比较方案</a><a href="#models">模型的作用</a><a href="#actions">下一步行动</a><a href="#review">如何调整</a><a href="#sources">资料来源</a></nav>
+
+  <section class="section" id="question">
+    <span class="label">01 / 问题定义</span>
+    <h2>先改善一个报告问题，再判断学习路径</h2>
+    <p>本次需要决定的是<strong>如何在每周 3 小时内开始改善活动报告</strong>。优先目标是获得能用于月报的分析能力；报名本身不作为进展指标。</p>
+    <p>比较范围包含直接报名当前系统课、使用已有短教程完成小任务、暂时维持现状。没有必须现在报名的期限，不需要为了赶一个未确认的窗口立即作出承诺。</p>
+  </section>
+
+  <section class="section" id="evidence">
+    <span class="label">02 / 证据层级</span>
+    <h2>哪些是情境设定，哪些仍需检查</h2>
+    <div class="facts">
+      <div><h3>教学设定中的陈述</h3><ul><li>示例学习者希望学习数据分析，用于改善每月活动报告。</li><li>每周稳定可用 3 小时，目标系统课声称每周需 8 小时。</li><li>已有免费短教程和一份可用于练习的往年数据表，尚未尝试。</li><li>没有必须现在报名的期限。</li></ul><p class="muted">以上均来自编写的示例情境，未对应真实学习者、课程或数据文件。</p></div>
+      <div><h3>待核实的关键条件</h3><ul><li>免费教程是否包含付费环节、软件或硬件要求。它决定能否在现有资源内试学。</li><li>已有练习权限的往年数据，字段是否足以回答选定问题。它决定能否用该表练习。</li><li>当前系统课能否按每周 3 小时推进，学习服务或访问期限是否允许。它影响该课程是否可行。</li><li>教程能否帮助学习者理解并独立解释一个结果。它需要通过练习观察。</li></ul></div>
+    </div>
+    <h3>本报告的推断与前提</h3>
+    <p>“当前系统课与可用时间存在冲突”是根据 3 小时与课程所称 8 小时作出的条件判断；如果课程确实允许更慢节奏，应重新比较。短教程可能提供有用反馈，但尚不能认定它适合学习者，也不能假定一次练习必定完成。</p>
+    <p class="muted">外部核实层本次为空。报告没有核验具体课程条款、教程内容或数据文件，也没有构造成功概率、课程评分或数值信息价值。</p>
+  </section>
+
+  <section class="section" id="options">
+    <span class="label">03 / 同一目标下比较</span>
+    <h2>三个方案，各自承担什么代价</h2>
+    <div class="table-wrap" role="region" aria-label="方案比较，可横向滚动" tabindex="0">
+      <table><thead><tr><th scope="col">方案</th><th scope="col">可能收益</th><th scope="col">成本与依赖</th><th scope="col">当前判断</th></tr></thead><tbody>
+        <tr><td>直接报名当前系统课</td><td>可能获得较完整的学习路径；辅导与反馈是否包含，仍需查明。</td><td>标称每周 8 小时，超出稳定可用时间。价格、退款、访问期限及慢速学习安排均未知；报名可能产生难以追回的费用和时间投入。</td><td>有条件暂缓。先证实它能适配 3 小时，再比较课程收益和承诺成本。</td></tr>
+        <tr><td>已有短教程＋一个月报小任务</td><td>直接观察材料是否可用、能否理解步骤，以及问题卡在哪里。</td><td>准备和复盘也占用时间；免费不等于没有其他资源要求。已用时间不可收回，结果可能不充分。</td><td>先检查条件，再尝试。总投入封顶 3 小时，不承诺完成，也不由此自动转入买课。</td></tr>
+        <tr><td>维持现状</td><td>暂不增加学习负担，也不承担新增课程费用。</td><td>得不到本次试学信息，月报改善继续等待；等待造成多大影响尚不清楚。</td><td>保留为合理基准。若材料或时段不具备，先暂停，比无条件推进更符合当前约束。</td></tr>
+      </tbody></table>
+    </div>
+    <p>一个有竞争力的替代解释是，系统课的“每周 8 小时”只是推荐节奏，实际可以慢学。如果这一点得到确认，系统课就值得重新进入比较；一次小任务试学不能直接证明系统学习不必要。</p>
+  </section>
+
+  <section class="section" id="models">
+    <span class="label">04 / 模型实际改变了什么</span>
+    <h2>用两个模型约束动作</h2>
+    <div class="model"><div><span class="label">主模型</span><h3>TM-077<br>可逆决策</h3></div><div><p>先看损失能否承受、多久得到反馈、出错后能否调整。这里能控制的是试学范围、总时长和是否产生新增承诺；已经花掉的时间不能恢复。</p><p><strong>对行动的改变</strong>是把下一步限定为材料检查和一次小任务，事先写清退出条件。由示例学习者自行停止，不新增付款，不上传真实数据。若以后扩大投入，必须重新检查费用、时间和退出条件。</p></div></div>
+    <div class="model"><div><span class="label">补充模型</span><h3>TM-062<br>信息价值</h3></div><div><p>先问不同结果会不会改变下一步。此次最有用的信息是，现有材料是否支持一个真实的月报问题，以及学习者能否理解结果；泛泛搜集更多课程名单不直接回答这些问题。</p><p><strong>对行动的改变</strong>是预先安排反馈分支。能够独立解释，就继续考察这条路径；只能照做，就定位理解缺口；材料不足，就先补条件。没有可信概率与收益数据，因此只作定性分析。</p></div></div>
+  </section>
+
+  <section class="section" id="actions">
+    <span class="label">05 / 行动安排</span>
+    <h2>一次有上限的试学</h2>
+    <p class="muted">以下为建议安排，尚未执行。全部行动由示例学习者负责，在其下次实际可用时段进行；开始前确认本次可用时长，所有步骤合计不超过 3 小时，若实际可用时间更少则采用更低上限。</p>
+    <div class="step"><h3>1. 先检查材料与权限</h3><p>查看短教程是否需要新付款或额外软件，确认现有设备能完成相关步骤；检查往年数据的练习权限、保密要求和字段。只在获准环境内练习，不向外部服务上传真实数据。</p><p><strong>验证标准</strong>是能明确记录“现有条件可用”或指出具体缺口。若要求超出资源，就缩小任务、换用允许使用的材料，或暂停，不在本次试学中临时新增付费承诺。</p><p class="step-meta">依据为 3 小时硬约束、材料尚未尝试，以及 TM-077 对可承担损失与退出条件的要求。此项检查也计入时间上限。</p></div>
+    <div class="step"><h3>2. 选一个月报问题做最小汇总</h3><p>检查通过后，从实际月报需求中选一个问题，先写清需要哪些字段、怎样汇总、怎样核对，再找教程中相关的一小段练习。比如，只有活动日期、类型和口径一致的参与人数都存在时，才尝试按月和活动类型汇总人数；这只是可选任务，不假定示例数据一定含这些字段。</p><p><strong>验证标准</strong>是留下实际做到的表格或步骤记录，能说明字段和计算口径，并尝试独立解释结果。如果准备耗时过多、任务规模超过剩余时间，先缩小问题；到达时间上限立即停止。</p><p class="step-meta">依据为改善活动报告的目标与 TM-062 对“能改变下一步的信息”的要求。目标是获得有用观察，不是保证做出完整月报。</p></div>
+    <div class="step"><h3>3. 留出复盘时间，记录结果</h3><p>在总时间上限内留出记录时间。写下准备、练习、复盘各自用时，完成了什么，哪些内容真正理解，能否不依赖逐步提示解释结果，以及具体卡点。没完成就如实记录停在哪一步。</p><p><strong>验证标准</strong>是一份足以判断下次动作的记录。若到停止时仍不足以区分原因，标为信息不足，不能把未完成直接判成教程无用或自身没有学习能力。</p><p class="step-meta">依据为 TM-077 对反馈清晰度的要求，以及 TM-062 的定性分支。记录后按下一节决定继续、调整或暂停，不自动报名。</p></div>
+    <div class="callout"><strong>共同停止条件</strong><br>到达本次时间上限；材料或练习权限不具备；出现未约定费用；需要超出当前资源的软硬件。任一条件成立，停止当前安排，先处理缺口或缩小目标。</div>
+  </section>
+
+  <section class="section" id="review">
+    <span class="label">06 / 反馈怎样改变建议</span>
+    <h2>按观察调整，不把一次结果放大</h2>
+    <div class="table-wrap" role="region" aria-label="反馈与调整条件，可横向滚动" tabindex="0"><table><thead><tr><th scope="col">观察到的情况</th><th scope="col">可以支持什么判断</th><th scope="col">下一步</th></tr></thead><tbody>
+      <tr><td>能独立解释结果</td><td>这一小段材料对这个任务可能适用；仍不足以证明更大任务或每周 8 小时课程可行。</td><td>下次继续一个相近的小任务，仍按可用时间安排。只有系统课的节奏、条款与目标另行核实后，才重新比较报名。</td></tr>
+      <tr><td>只能照着操作</td><td>已经接触步骤，但理解还需验证；可能缺概念基础，也可能是教程或任务不匹配。</td><td>缩小到一个关键概念或操作，尝试解释并核对。不要只靠再看一遍的熟悉感判断已经学会。</td></tr>
+      <tr><td>材料或权限不足</td><td>本次条件不具备，尚未检验学习效果。</td><td>先找到获准且字段适用的练习材料，或暂停。保留此前记录，不评价教程质量。</td></tr>
+      <tr><td>时间用完仍未完成</td><td>只知道本次安排未在上限内完成；原因可能是准备、任务过大、工具或理解障碍。</td><td>根据记录定位耗时处，缩小目标或换材料后再决定。未完成本身不能证明学习路径无效。</td></tr>
+      <tr><td>新条件改变约束</td><td>例如课程被确认允许慢学，或稳定可用时间发生变化，原比较可能过时。</td><td>更新约束、成本与收益，再比较三个方案。把改变判断的新证据写清楚。</td></tr>
+    </tbody></table></div>
+    <h3>复盘时带回这五项就够了</h3>
+    <ul class="checklist"><li>实际用了多久，准备、练习和复盘各占多少。</li><li>完成了什么，留下了哪些表格或步骤。</li><li>哪些内容能独立解释，哪些只能跟着做。</li><li>卡点是什么，是否涉及材料、工具、任务规模或概念理解。</li><li>下一次仍能投入多少时间，有没有新增条件。</li></ul>
+    <p class="muted">这些是未来复盘所需的观察项，不是已经获得的结果。本文件不设置提醒、不监控进展，也不替学习者报名或执行任何对外操作。</p>
+  </section>
+
+  <section class="section" id="sources">
+    <span class="label">07 / 来源与适用范围</span>
+    <h2>能追溯模型，也能看清证据边界</h2>
+    <ol class="source-list">
+      <li><strong>情境材料</strong>来自本项目为 README 编写的教学演示。人物、问答与约束均为虚构，不对应真实课程，也没有独立核实、实跑或效果数据。</li>
+      <li><a href="https://github.com/sushengs-creator/thinking-model-decision/blob/main/skills/thinking-model-decision/references/cards/TM-077.md">TM-077 · 可逆决策操作卡</a>，本次读取版本 0.1。采用其中的损失、反馈、恢复程度及扩大前重新检查原则；卡片内含原文来源。</li>
+      <li><a href="https://github.com/sushengs-creator/thinking-model-decision/blob/main/skills/thinking-model-decision/references/cards/TM-062.md">TM-062 · 信息价值操作卡</a>，本次读取版本 0.2。采用输入不足时的定性分支、获取成本及停止规则；本报告未计算数值信息价值。</li>
+      <li><strong>报告结构</strong>依据本 Skill 的 decision-report.md 与 html-action-plan.md。上述模型用于组织推理，不能代替具体课程条款、材料条件与实际学习反馈。</li>
+    </ol>
+  </section>
+  <footer>思维模型决策工具 · 教学示例·初版 · 2026-10-08<br>可离线阅读和打印。模型来源链接仅在点击时需要网络；正文没有脚本、外链字体或追踪功能。</footer>
+</main>
+</body>
+</html>
