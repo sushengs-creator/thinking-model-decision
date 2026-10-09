@@ -35,6 +35,8 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 **不能自动安装时**，先[下载独立技能包 ZIP](https://raw.githubusercontent.com/sushengs-creator/thinking-model-decision/main/dist/thinking-model-decision-v1.6.0.zip)。解压后得到 `thinking-model-decision` 文件夹，里面直接有 `SKILL.md` 和 `references` 等资料。按照当前产品的技能导入或工作区文件入口，提供**完整文件夹**。只接受 ZIP 的产品要按其格式要求导入；不同产品的入口和限制可能不同，具体操作见[手动安装与会话加载](docs/INSTALL.md#手动安装与会话加载)。
 
+如果下载直链打不开，可用[完整仓库备用下载](https://codeload.github.com/sushengs-creator/thinking-model-decision/zip/refs/heads/main)。解压后在 `dist` 文件夹找到 `thinking-model-decision-v1.6.0.zip`，再按上面的方法使用。
+
 如果产品只能收聊天文字，无法安装技能或读取完整资料，就暂时不能运行本工具的完整模型库。可以先看下面的示范，或在能读取资料的智能体中使用。向普通聊天框只发一个 GitHub 链接，不等于完成安装。
 
 ### 2. 确认已经能用

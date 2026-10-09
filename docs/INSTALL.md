@@ -54,7 +54,7 @@ thinking-model-decision/
 └── README.md
 ```
 
-也可以下载[完整仓库 ZIP](https://github.com/sushengs-creator/thinking-model-decision/archive/refs/heads/main.zip)。这个包还包含网站说明与维护文件，解压后需进入 `skills/thinking-model-decision`，再取出技能目录。两个包的用途不同，不要把仓库外层文件夹当成技能目录。
+独立包直链无法访问时，可以使用[完整仓库 ZIP 备用下载](https://codeload.github.com/sushengs-creator/thinking-model-decision/zip/refs/heads/main)。解压后进入 `dist`，取出里面的 `thinking-model-decision-v1.6.0.zip` 即可；也可以直接取出 `skills/thinking-model-decision` 技能目录。完整仓库还包含网站说明与维护文件，不要把仓库外层文件夹当成技能目录。
 
 ### 有技能导入入口
 
