@@ -39,7 +39,7 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 ### 下载什么
 
-直接[下载独立技能包 v1.6.0](https://raw.githubusercontent.com/sushengs-creator/thinking-model-decision/main/dist/thinking-model-decision-v1.6.0.zip)。这是技能目录的 ZIP，包含全部模型资料、模板、工具脚本和署名说明；[SHA-256 校验值](../dist/thinking-model-decision-v1.6.0.zip.sha256)供需要核对文件的用户使用。
+直接[下载独立技能包 v1.7.0](https://raw.githubusercontent.com/sushengs-creator/thinking-model-decision/main/dist/thinking-model-decision-v1.7.0.zip)。这是技能目录的 ZIP，包含全部模型资料、模板、工具脚本和署名说明；[SHA-256 校验值](../dist/thinking-model-decision-v1.7.0.zip.sha256)供需要核对文件的用户使用。
 
 解压后应该得到下面的结构。顶层只有一个 `thinking-model-decision` 文件夹，`SKILL.md` 就在这个文件夹内。
 
@@ -54,7 +54,7 @@ thinking-model-decision/
 └── README.md
 ```
 
-独立包直链无法访问时，可以使用[完整仓库 ZIP 备用下载](https://codeload.github.com/sushengs-creator/thinking-model-decision/zip/refs/heads/main)。解压后进入 `dist`，取出里面的 `thinking-model-decision-v1.6.0.zip` 即可；也可以直接取出 `skills/thinking-model-decision` 技能目录。完整仓库还包含网站说明与维护文件，不要把仓库外层文件夹当成技能目录。
+独立包直链无法访问时，可以使用[完整仓库 ZIP 备用下载](https://codeload.github.com/sushengs-creator/thinking-model-decision/zip/refs/heads/main)。解压后进入 `dist`，取出里面的 `thinking-model-decision-v1.7.0.zip` 即可；也可以直接取出 `skills/thinking-model-decision` 技能目录。完整仓库还包含网站说明与维护文件，不要把仓库外层文件夹当成技能目录。
 
 ### 有技能导入入口
 
@@ -106,7 +106,7 @@ thinking-model-decision/
 无法读取就明确说失败，不要根据网页介绍猜测。
 ```
 
-本版本应读到入口与库状态均为 `1.6.0`，模型卡为“可逆决策”。后续发布时以对应版本为准。这个检查证明当前会话能够访问相关文件，不等于所有模型行为、所有客户端和新会话自动发现都已验证。
+本版本应读到入口与库状态均为 `1.7.0`，模型卡为“可逆决策”。后续发布时以对应版本为准。这个检查证明当前会话能够访问相关文件，不等于所有模型行为、所有客户端和新会话自动发现都已验证。
 
 随后试着发送“请用思维模型决策工具帮我梳理，我想学数据分析，但不知道要不要报课”。它通常会先询问一个影响判断的问题，等待你回答。只会重复技能名称、不能读取资料或一直输出模型名单，都不算完成使用检查。
 

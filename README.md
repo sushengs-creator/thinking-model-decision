@@ -33,9 +33,9 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 下次如何调用，以及能否生成可下载的 HTML 文件。
 ```
 
-**不能自动安装时**，先[下载独立技能包 ZIP](https://raw.githubusercontent.com/sushengs-creator/thinking-model-decision/main/dist/thinking-model-decision-v1.6.0.zip)。解压后得到 `thinking-model-decision` 文件夹，里面直接有 `SKILL.md` 和 `references` 等资料。按照当前产品的技能导入或工作区文件入口，提供**完整文件夹**。只接受 ZIP 的产品要按其格式要求导入；不同产品的入口和限制可能不同，具体操作见[手动安装与会话加载](docs/INSTALL.md#手动安装与会话加载)。
+**不能自动安装时**，先[下载独立技能包 ZIP](https://raw.githubusercontent.com/sushengs-creator/thinking-model-decision/main/dist/thinking-model-decision-v1.7.0.zip)。解压后得到 `thinking-model-decision` 文件夹，里面直接有 `SKILL.md` 和 `references` 等资料。按照当前产品的技能导入或工作区文件入口，提供**完整文件夹**。只接受 ZIP 的产品要按其格式要求导入；不同产品的入口和限制可能不同，具体操作见[手动安装与会话加载](docs/INSTALL.md#手动安装与会话加载)。
 
-如果下载直链打不开，可用[完整仓库备用下载](https://codeload.github.com/sushengs-creator/thinking-model-decision/zip/refs/heads/main)。解压后在 `dist` 文件夹找到 `thinking-model-decision-v1.6.0.zip`，再按上面的方法使用。
+如果下载直链打不开，可用[完整仓库备用下载](https://codeload.github.com/sushengs-creator/thinking-model-decision/zip/refs/heads/main)。解压后在 `dist` 文件夹找到 `thinking-model-decision-v1.7.0.zip`，再按上面的方法使用。
 
 如果产品只能收聊天文字，无法安装技能或读取完整资料，就暂时不能运行本工具的完整模型库。可以先看下面的示范，或在能读取资料的智能体中使用。向普通聊天框只发一个 GitHub 链接，不等于完成安装。
 
@@ -155,12 +155,12 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 ## 资料、来源与维护
 
-当前技能版本为 **1.6.0**，包含鬼子不言撰写的 133 篇思维模型原文、133 张操作卡、100 个万维钢工具条目及 87 条跨库关系。两套资料有重叠，不等于 233 个彼此独立、全部验证过的模型。本轮更新的是新手说明与分发方式，模型内容和核心流程不变。
+当前技能版本为 **1.7.0**，包含鬼子不言撰写的 135 篇思维模型原文、135 张操作卡、100 个万维钢工具条目及 91 条跨库关系。两套资料有重叠，不等于 235 个彼此独立、全部验证过的模型。本轮新增 TM-134 自我效能与 TM-135 编码特异性原则，保留逐步追问与默认 HTML 行动计划流程。
 
 本工具使用 [Agent Skills 开放格式](https://agentskills.io/specification)。格式可以复用，各智能体的安装和资源访问能力仍有差异；本项目没有逐一实测所有产品，也不需要额外的专用 API Key。模型服务的账号和额度由你所用的平台提供。
 
 - [模型目录](skills/thinking-model-decision/references/user-catalog.md) · [万维钢工具目录](skills/thinking-model-decision/references/wan-catalog.md)
 - [来源说明](skills/thinking-model-decision/references/source-notes.md) · [使用与署名说明](NOTICE.md)
-- [历次更新与验证范围](docs/VERSION-HISTORY.md) · [此前新手说明审阅](docs/ONBOARDING-REVIEW.md) · [本次新手与跨 Agent 检查](docs/USABILITY-REVIEW.md)
+- [历次更新与验证范围](docs/VERSION-HISTORY.md) · [此前新手说明审阅](docs/ONBOARDING-REVIEW.md) · [新手与跨 Agent 检查](docs/USABILITY-REVIEW.md)
 
 工具由 [sushengs-creator](https://github.com/sushengs-creator) 整理与维护，万维钢部分来自提供者的技能资料快照，不代表本人参与制作或背书。个人报告默认留在你的任务中，不自动写回公共模型库；聊天数据处理遵循你所用平台的规则。模型帮助判断，最终选择仍由你作出。

@@ -6869,5 +6869,206 @@
     },
     "validation_note_path": "references/validation-notes/TM-133.md",
     "validation_note_sha256": "76b4cd0bcb50baccb433f12e3593e479c7638c4af7c52ac81821e21750eccf81"
+  },
+  {
+    "id": "TM-134",
+    "title": "思维模型134：自我效能——明明知道该怎么做，为什么就是开不了头？",
+    "short_name": "自我效能",
+    "path": "references/user-models/TM-134.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060125&idx=1&sn=685ec79bf1bc37bb4886b44a1c19e8e9&chksm=beabecae89dc65b8441aa68ca5612311a02a3700b5b0c2b198f2f227a16713e819a8e561f79d&scene=178&cur_album_id=4536247579494842374&search_click_id=#rd",
+    "source_label": "公众号134发表正文（浏览器文字转录）",
+    "captured_at": "2026-10-10",
+    "source_format": "published_article_browser_rendered_text",
+    "source_sha256": "1a35447166b4ee07bcad42db239bd7ebf254dbc38707e8119319ec553e6fb03a",
+    "content_sha256": "1a35447166b4ee07bcad42db239bd7ebf254dbc38707e8119319ec553e6fb03a",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-134.md",
+    "search_terms": [
+      "思维模型134：自我效能——明明知道该怎么做，为什么就是开不了头？"
+    ],
+    "published_body_match_verified": true,
+    "source_acquisition_note": "2026-10-10公开浏览器正文文字转录，去空白后4901个UTF-16字符与页面核对一致；图片未下载或OCR，原文研究未独立核实。",
+    "original_body_sha256": "3658d9d57c57e507f14d2664d4d41909ad121d8cf861a9687867168474dc3557",
+    "card_sha256": "5426c5a5b10f8453a0470c9e749e6745b03c40cea944783698943ee753a507d0",
+    "card_source_sha256": "1a35447166b4ee07bcad42db239bd7ebf254dbc38707e8119319ec553e6fb03a",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-10T05:54:18.834197+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "知道该做什么却不敢开始，担心自己做不到；完成要求仍全盘否定，或有把握却准备不足，需要分清能力判断、真实技能、结果预期、投入意愿和外部条件，再选择相关小练习、校准判断或补足条件。",
+      "source_sections": [
+        "更有信心，就一定能做得更好吗？",
+        "你相信自己能做什么，得说具体",
+        "你凭什么觉得自己能行，或者不行？",
+        "都说\"我做不到\"，需要的帮助却不同",
+        "把远期大目标拆成近期小目标，会发生什么变化？",
+        "下一次卡住时，可以怎样检查？",
+        "怎样避免把信心当成能力？",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "自我效能",
+        "自我效能感",
+        "Self-Efficacy",
+        "知道该做什么却不敢开始",
+        "开不了头",
+        "没信心",
+        "不自信",
+        "我做不到",
+        "能力判断",
+        "效能预期",
+        "结果预期",
+        "行动意愿",
+        "现实条件",
+        "掌握经验",
+        "替代经验",
+        "言语说服",
+        "生理与情绪状态",
+        "紧张",
+        "全盘否定",
+        "高估能力",
+        "低估能力",
+        "小成功",
+        "完成标准",
+        "相关小练习",
+        "预判与表现",
+        "校准判断",
+        "面对陌生听众没信心"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "检查偏差",
+        "解释原因",
+        "设计行动",
+        "学习执行",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-2.7",
+          "relation": "条件性互补",
+          "reason": "自我效能先检查具体任务中的能力判断及其证据，区分技能、结果预期、意愿与资源；当目标可行且内部障碍明确时，WOOP补充如果—那么的执行计划。不能把外部限制心理化，也不因没开始就同时套用。"
+        },
+        {
+          "ww_id": "WW-4.3",
+          "relation": "功能互补、局部重叠",
+          "reason": "自我效能对照预判与表现以校准能力判断；证据指向稳定微技能缺口，且领域具备清楚标准、反馈和训练条件时，刻意练习补充弱点修复。一次小尝试不等于严格刻意练习，信心变化不代替表现。"
+        }
+      ],
+      "warnings": [
+        "自我效能是具体条件下的能力判断，不等于实际能力、结果预期、行动意愿或现实条件；多种障碍可以并存。",
+        "一次成功只支持已完成的部分和条件，一次失败也不足以给能力定性；信心与表现共同变化不能直接证明因果。",
+        "先检查时间、资源、配合和身体条件，不把外部障碍、疾病或持续困扰都归为缺自信。",
+        "小目标须关联目标任务，不能靠无关的轻易成功或降低必要标准制造效能感。",
+        "高风险任务不以真实失败试探能力，改用已有记录、专业评估或受监督的模拟。",
+        "已比对公众号正文，未独立核验文中各项历史研究；跨库关系为包内快照比较后的编辑判断。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-134.md",
+    "validation_note_sha256": "b21908310ba62154cf25aa7dae31c8cf4336153426e2dab54cb1a78c7cbcd702"
+  },
+  {
+    "id": "TM-135",
+    "title": "思维模型135：编码特异性原则——为什么明明学过却就是想不起来，答案总在交卷后才冒出来",
+    "short_name": "编码特异性原则",
+    "path": "references/user-models/TM-135.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060135&idx=1&sn=f1626fdd43319d8bedcc8b901776acec&chksm=beabec9489dc658285dca7f57ce8be8a237136ae41eed0d9ede5611566f74cd62b8094f9c7e2&cur_album_id=4536247579494842374&scene=189#wechat_redirect",
+    "source_label": "公众号135发表正文（浏览器文字转录）",
+    "captured_at": "2026-10-10",
+    "source_format": "published_article_browser_rendered_text",
+    "source_sha256": "6ec38d0339cb9131d1dec68be5978612c195ca53b0d9fd19ee43fe09b0a98226",
+    "content_sha256": "6ec38d0339cb9131d1dec68be5978612c195ca53b0d9fd19ee43fe09b0a98226",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-135.md",
+    "search_terms": [
+      "思维模型135：编码特异性原则——为什么明明学过却就是想不起来，答案总在交卷后才冒出来"
+    ],
+    "published_body_match_verified": true,
+    "source_acquisition_note": "2026-10-10公开浏览器正文文字转录，去空白后4980个UTF-16字符与页面核对一致；5幅插图未下载或OCR，原文研究未独立核实。",
+    "original_body_sha256": "f5c877a84e3149197430ce86a3f405f2b517d6ebdc12cccec837187e75cdd3d0",
+    "card_sha256": "a01eea1503821b3afa4d8c54b20aeba9e085b64dfe47def64cc0598e126e77a9",
+    "card_source_sha256": "6ec38d0339cb9131d1dec68be5978612c195ca53b0d9fd19ee43fe09b0a98226",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-10T05:54:18.943967+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "明明学过却想不起来；原例子提醒后能答，换问法或实际需求就卡住；看答案眼熟但不能独立说出，需要判断换什么线索、是否补学以及怎样检查目标情境下能否调用。",
+      "source_sections": [
+        "提示和答案越相关，就越容易想起来吗？",
+        "当时怎样学，为什么会影响现在的回忆？",
+        "连答案都没认出来，就一定忘了吗？",
+        "回到原来的环境，就能找回记忆吗？",
+        "想不起方案名称，什么提示才有帮助？",
+        "想不起来时，怎样检查？",
+        "容易判断错误的地方",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "编码特异性原则",
+        "Encoding Specificity Principle",
+        "学过却想不起来",
+        "明明学过",
+        "答案在嘴边",
+        "交卷后才想起来",
+        "换个提示才想起",
+        "看答案眼熟",
+        "换问法不会",
+        "原例子提示后会",
+        "想不起名称",
+        "培训后想不起代号",
+        "提取线索",
+        "编码关系",
+        "线索匹配",
+        "一般关联强",
+        "线索过载",
+        "提示缺乏区分力",
+        "回忆与再认",
+        "辅助回忆",
+        "独立回忆",
+        "直接告诉答案",
+        "回到原环境",
+        "学习环境变化",
+        "目标情境线索",
+        "实际需求调用知识"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "解释原因",
+        "设计行动",
+        "学习执行",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-4.2",
+          "relation": "操作互补、局部重叠",
+          "reason": "TM-135检查提取线索与当时学习关联及目标情境的联系；ICAP补充先解释、生成问题和校正的学习活动及迁移延迟检验。互动不自动保证线索有效，答出名称也不等于理解。"
+        },
+        {
+          "ww_id": "WW-4.7",
+          "relation": "练习互补、条件性张力",
+          "reason": "TM-135选择当下可能有用的线索，WW-4.7补充间隔、提取练习、状态负荷和延迟检验。找回当前内容与训练以后独立掌握目标不同，不能一律增加提示或撤去必要支持。"
+        }
+      ],
+      "warnings": [
+        "来源为2026-10-10公开浏览器正文文字转录并比对；5幅插图未下载未OCR，本次未独立核实所述历史研究或推广范围。",
+        "原文必要条件和换多少次都没用的绝对句不作为普遍定律；匹配和区分力是实用检查，不能保证每次提取成功。",
+        "提取失败不足以证明完全遗忘，辅助成功也不证明记忆完整保存；编码不足、干扰、疲劳和任务变化等解释须保留。",
+        "区分熟悉感、再认、独立回忆、借线索回忆和正确应用；直接告诉答案后的复述不是独立提取。",
+        "重复测试与答案暴露会影响后续表现；记录提示顺序，不把最后一次成功全归因于最后线索。",
+        "物理环境只是一类可能线索，回原地不是万能处方；不为复原环境增加风险或不必要成本。",
+        "真实任务允许查阅时可使用外部工具；学习目标要求独立掌握时才单独验收无答案提示的表现。",
+        "不能用此模型诊断记忆疾病或确认争议经历发生；重要事实查独立记录，不以诱导性提示补造细节。",
+        "WW关系来自已读包内快照的编辑比较，未核验原课程；卡内虚构案例不是实际行为验证。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-135.md",
+    "validation_note_sha256": "2644a9a65458397da329f4386281fa65c8f88ffd00d4b4971e66006e48674567"
   }
 ]
