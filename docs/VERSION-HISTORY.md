@@ -1,6 +1,6 @@
 # 版本历史、来源与验证范围
 
-本工具由 [sushengs-creator](https://github.com/sushengs-creator) 整理与维护，138篇编号思维模型保留各自原文及来源。万维钢部分来自作者提供的本地技能快照，**不是原课程逐字稿，也不表示万维钢参与制作、审定或背书**。来源记录见[来源说明](../skills/thinking-model-decision/references/source-notes.md)，使用与署名说明见[NOTICE](../NOTICE.md)。
+本工具由 [sushengs-creator](https://github.com/sushengs-creator) 整理与维护，139篇编号思维模型保留各自原文及来源。万维钢部分来自作者提供的本地技能快照，**不是原课程逐字稿，也不表示万维钢参与制作、审定或背书**。来源记录见[来源说明](../skills/thinking-model-decision/references/source-notes.md)，使用与署名说明见[NOTICE](../NOTICE.md)。
 
 v1.0完成资料完整性、模型卡来源核对及指定场景试跑；v1.1另完成一组四轮对话和三个边界场景的模拟验证。模拟通过不等于现实决策效果已得到保证。详见[v1.0验证记录](../skills/thinking-model-decision/references/evaluation/results-v1.0.md)与[v1.1验证记录](../skills/thinking-model-decision/references/evaluation/results-v1.1.md)。
 
@@ -26,6 +26,8 @@ v1.6.0 新增 **TM-133 反馈干预理论**，从已发表文章提炼模型卡�
 v1.7.0 新增 **TM-134 自我效能**与 **TM-135 编码特异性原则**，保存已发表文字正文、操作卡、问题路由及跨库关系；来源、模拟与验证范围见 [134—135 更新记录](../skills/thinking-model-decision/references/evaluation/results-v1.7.md)。
 
 v1.8.0 新增 **TM-136 双重编码理论**、**TM-137 变易理论**与 **TM-138 期望价值理论**，保留已发表文字正文，补入操作卡、问题路由及跨库关系。模型名称以发表文章为准；来源、模拟与校验范围见 [136—138 更新记录](../skills/thinking-model-decision/references/evaluation/results-v1.8.md)。
+
+v1.9.0（2026-10-14）新增 **TM-139 团队心理安全**，保留当日发表的文字正文，补入操作卡、问题路由及跨库关系。调用时检查人际风险、实际回应和团队跟进，保留绩效要求，并排查其他沉默原因；不把无人提问、报错增多或关系融洽直接当作心理安全或学习成效的证明。正文文字已核对，4 幅图片未下载或 OCR，原研究与历史案例未独立重新审核；来源、图文转换限制及验证范围见 [第139篇更新记录](../skills/thinking-model-decision/references/evaluation/results-v1.9.md)。
 
 维护参考：[整体运行框架](../skills/thinking-model-decision/references/wan-framework.md) · [跨库关系目录](../skills/thinking-model-decision/references/relation-catalog.md) · [此前新手说明审阅](ONBOARDING-REVIEW.md)
 

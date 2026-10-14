@@ -7391,5 +7391,120 @@
     },
     "validation_note_path": "references/validation-notes/TM-138.md",
     "validation_note_sha256": "e1371eba476a3aeafc32328af857d7e29e278fcac58b19fce0ee6698eb117ab3"
+  },
+  {
+    "id": "TM-139",
+    "title": "思维模型139：团队心理安全——明明都说懂了，为什么问题还在反复出现",
+    "short_name": "团队心理安全",
+    "path": "references/user-models/TM-139.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060215&idx=2&sn=184ed642ff9e91282877395bcea1b06d&chksm=beabec4489dc65529a3cab5982c67f24bbdce07fe1ceaf8429a428e94bba7956a4da71eb711c#rd",
+    "source_label": "微信公众号139正式发表文字正文",
+    "captured_at": "2026-10-14",
+    "source_format": "published_article_browser_rendered_text",
+    "source_sha256": "88fe31b9364ac30051c7f3602e2f91ad800101e88a13154cea99880ccbdf913d",
+    "content_sha256": "88fe31b9364ac30051c7f3602e2f91ad800101e88a13154cea99880ccbdf913d",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-139.md",
+    "search_terms": [
+      "思维模型139：团队心理安全——明明都说懂了，为什么问题还在反复出现"
+    ],
+    "source_provenance": {
+      "published_at": "2026-10-14T07:35:00+08:00",
+      "published_body_match_verified": true,
+      "comparison_method": "Ignore whitespace and Markdown presentation syntax; body matches 5232 UTF-16 code units with FNV-1a32 75485c61",
+      "article_images_downloaded": false,
+      "article_images_ocr": false,
+      "underlying_research_reaudited": false
+    },
+    "card_sha256": "258dd1700a73e10e8d347436deb4ba2c660772aae3b12ce0235533e4eb59bc80",
+    "card_source_sha256": "88fe31b9364ac30051c7f3602e2f91ad800101e88a13154cea99880ccbdf913d",
+    "card_status": "behavior_checked",
+    "card_revision": 3,
+    "card_registered_at": "2026-10-14T03:29:38.936020+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "培训后都说懂了，同一处却反复卡住；知道谁懂却只找熟人私下求助；没人提问、报错或质疑，无法判断是真的清楚还是担心被羞辱、排斥或报复；报告数量变化，需要区分表达环境、发现渠道与实际问题。",
+      "source_sections": [
+        "团队越好，为什么记录下来的错误反而越多？",
+        "问一句\"我不会\"，到底在担心什么？",
+        "心理安全，真的会让人变懒散吗？",
+        "没人报错，关系也好，就能放心了吗？",
+        "几个模型看着相近，为什么不能混着用？",
+        "同一个地方总卡住，怎样查出该改什么？",
+        "下一位新人，还会卡在第三步吗？",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "团队心理安全",
+        "不敢开口",
+        "不敢提问",
+        "不敢求助",
+        "只找熟人",
+        "私下求助",
+        "明明都说懂了",
+        "没人报错",
+        "不敢报错",
+        "不敢质疑",
+        "不敢说真话",
+        "报错变多",
+        "问题反复出现",
+        "同一个地方卡住",
+        "怕被嘲笑",
+        "怕被排斥",
+        "担心报复",
+        "人际风险",
+        "绩效要求",
+        "新人培训",
+        "善意报告",
+        "报告数量",
+        "发现渠道",
+        "开口后的回应",
+        "可信私下渠道",
+        "问题跟进验收",
+        "Team Psychological Safety",
+        "Psychological Safety",
+        "提意见",
+        "不敢提意见",
+        "会议沉默",
+        "会后议论"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "解释原因",
+        "设计行动",
+        "协作博弈",
+        "学习执行",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-2.11",
+          "relation": "部分重叠、条件性互补",
+          "reason": "安全基地与安全港湾着重可预期的关系支持、探索范围及受挫后的修复；TM-139聚焦团队对承担人际风险的共享判断。一段可靠支持关系可改善求助条件，但不能代表全队安全，不能由沉默推断依恋类型或把支持变成无限兜底。"
+        },
+        {
+          "ww_id": "WW-6.10",
+          "relation": "条件性互补",
+          "reason": "TM-139检查问题能否被提出并认真处理；错误发生后，替罪羊与系统帮助同时核查当时可选行动、系统条件和个人责任，按证据与责任范围区分差错、冒险和鲁莽。保护善意报告不等于取消问责，追责也不能针对提出问题本身。"
+        },
+        {
+          "ww_id": "WW-6.9",
+          "relation": "条件性互补、概念有别",
+          "reason": "心理安全的共享信念是对人际风险环境的判断；共同知识检查参与者是否知道彼此收到信息或作出承诺。需要协调处理时可确认负责人、标准和进展，但公开可见不等于安全或正确，须先检查风险，不能强迫公开表态。"
+        }
+      ],
+      "warnings": [
+        "沉默和私下求助原因不止一种；领导表态、一个老员工或一段熟人关系不能代表不同岗位与资历成员的共享判断。",
+        "未向负责者开口，就没有这次负责者回应的可观察事实；担心是需要核查的预期，不等于实际报复，也不能仅因尚无事件便被否定。",
+        "心理安全与绩效要求是不同维度；保护坦诚表达可以与纠正操作、训练、工作标准和公平问责并存，不保证高绩效。",
+        "报告数量受发现渠道、报告方式、任务条件与表达意愿影响；增多不证明实际错误增加或环境改善，减少也不证明错误减少。",
+        "不强迫当众认错，不承诺无法保障的匿名、保密或安全；须明确可信渠道的可见范围与跟进责任，发生不利后果时调整安排。",
+        "愿意表达、问题被接收、材料已更新与后续任务真正改善须分别验收；原文历史案例与研究数字未在本轮独立再审，不作单因果证据。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-139.md",
+    "validation_note_sha256": "620329cb1f9728dd6cb420ba1afa01d7de0c0af46a1455908d737a97eada7a46"
   }
 ]

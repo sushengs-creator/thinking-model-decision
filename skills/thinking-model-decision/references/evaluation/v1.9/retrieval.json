@@ -1,0 +1,157 @@
+[
+  {
+    "query": "TM-139",
+    "expected_candidate": "TM-139",
+    "rank": 1,
+    "top_ids": [
+      "TM-139"
+    ]
+  },
+  {
+    "query": "团队心理安全",
+    "expected_candidate": "TM-139",
+    "rank": 1,
+    "top_ids": [
+      "TM-139",
+      "TM-013",
+      "TM-058",
+      "WW-2.11",
+      "TM-129",
+      "TM-016",
+      "TM-021",
+      "TM-027"
+    ]
+  },
+  {
+    "query": "Team Psychological Safety",
+    "expected_candidate": "TM-139",
+    "rank": 1,
+    "top_ids": [
+      "TM-139",
+      "TM-031",
+      "TM-040"
+    ]
+  },
+  {
+    "query": "新人有问题只敢私下找熟人问",
+    "expected_candidate": "TM-139",
+    "rank": 1,
+    "top_ids": [
+      "TM-139",
+      "TM-130",
+      "TM-021",
+      "TM-028",
+      "TM-037",
+      "TM-040",
+      "TM-041",
+      "TM-048"
+    ]
+  },
+  {
+    "query": "领导让大家提意见但没人说",
+    "expected_candidate": "TM-139",
+    "rank": null,
+    "top_ids": [
+      "TM-032",
+      "TM-033",
+      "TM-109",
+      "TM-018",
+      "TM-027",
+      "TM-034",
+      "TM-037",
+      "TM-040"
+    ],
+    "known_limitation": "长句未召回TM-139；该句也可能对应沉默螺旋等机制，不能据关键词确定适用性。按入口规则提炼机制词并读问题路由。"
+  },
+  {
+    "query": "报错数量增加了能说明团队变好吗",
+    "expected_candidate": "TM-139",
+    "rank": 1,
+    "top_ids": [
+      "TM-139",
+      "TM-017",
+      "TM-019",
+      "TM-023",
+      "TM-026",
+      "TM-027",
+      "TM-028",
+      "TM-029"
+    ]
+  },
+  {
+    "query": "交互记忆系统",
+    "expected_candidate": "TM-129",
+    "rank": 1,
+    "top_ids": [
+      "TM-129",
+      "TM-092",
+      "TM-095",
+      "TM-139",
+      "WW-6.10",
+      "WW-7.2",
+      "TM-001",
+      "TM-007"
+    ]
+  },
+  {
+    "query": "双环学习",
+    "expected_candidate": "TM-130",
+    "rank": 1,
+    "top_ids": [
+      "TM-130",
+      "TM-127",
+      "TM-131",
+      "TM-120",
+      "TM-117",
+      "TM-115",
+      "TM-121",
+      "TM-138"
+    ]
+  },
+  {
+    "query": "沉默螺旋",
+    "expected_candidate": "TM-032",
+    "rank": 1,
+    "top_ids": [
+      "TM-032",
+      "TM-033",
+      "TM-034",
+      "TM-036",
+      "TM-037",
+      "TM-040",
+      "TM-001",
+      "TM-139"
+    ]
+  },
+  {
+    "query": "反馈干预理论",
+    "expected_candidate": "TM-133",
+    "rank": 1,
+    "top_ids": [
+      "TM-133",
+      "TM-083",
+      "TM-122",
+      "TM-136",
+      "TM-137",
+      "TM-138",
+      "TM-078",
+      "TM-079"
+    ]
+  },
+  {
+    "query": "不敢提意见",
+    "expected_candidate": "TM-139",
+    "rank": 1,
+    "top_ids": [
+      "TM-139",
+      "TM-030",
+      "TM-032",
+      "TM-004",
+      "TM-016",
+      "TM-018",
+      "TM-027",
+      "TM-033"
+    ],
+    "fallback_for": "领导让大家提意见但没人说"
+  }
+]
