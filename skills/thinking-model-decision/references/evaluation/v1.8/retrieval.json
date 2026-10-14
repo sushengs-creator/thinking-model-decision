@@ -1,0 +1,112 @@
+[
+  {
+    "query": "TM-136",
+    "expected_candidate": "TM-136",
+    "rank": 1
+  },
+  {
+    "query": "双重编码理论",
+    "expected_candidate": "TM-136",
+    "rank": 1
+  },
+  {
+    "query": "Dual Coding Theory",
+    "expected_candidate": "TM-136",
+    "rank": 5
+  },
+  {
+    "query": "图文教程一看就懂",
+    "expected_candidate": "TM-136",
+    "rank": 1
+  },
+  {
+    "query": "能背步骤找不到按钮",
+    "expected_candidate": "TM-136",
+    "rank": 1
+  },
+  {
+    "query": "上传下载分不清",
+    "expected_candidate": "TM-136",
+    "rank": 1
+  },
+  {
+    "query": "TM-137",
+    "expected_candidate": "TM-137",
+    "rank": 1
+  },
+  {
+    "query": "变易理论",
+    "expected_candidate": "TM-137",
+    "rank": 1
+  },
+  {
+    "query": "Variation Theory of Learning",
+    "expected_candidate": "TM-137",
+    "rank": 8
+  },
+  {
+    "query": "看过很多例子仍抓不住关键区别",
+    "expected_candidate": "TM-137",
+    "rank": 1
+  },
+  {
+    "query": "换行序就错",
+    "expected_candidate": "TM-137",
+    "rank": 1
+  },
+  {
+    "query": "人数与比例",
+    "expected_candidate": "TM-137",
+    "rank": 2
+  },
+  {
+    "query": "TM-138",
+    "expected_candidate": "TM-138",
+    "rank": 1
+  },
+  {
+    "query": "期望价值理论",
+    "expected_candidate": "TM-138",
+    "rank": 1
+  },
+  {
+    "query": "Situated Expectancy-Value Theory",
+    "expected_candidate": "TM-138",
+    "rank": 5
+  },
+  {
+    "query": "知道有用却没开始",
+    "expected_candidate": "TM-138",
+    "rank": 1
+  },
+  {
+    "query": "课程一直没学",
+    "expected_candidate": "TM-138",
+    "rank": 2
+  },
+  {
+    "query": "休息和学习怎么选",
+    "expected_candidate": "TM-138",
+    "rank": 5
+  },
+  {
+    "query": "福格行为模型",
+    "expected_candidate": "TM-132",
+    "rank": 1
+  },
+  {
+    "query": "自我效能",
+    "expected_candidate": "TM-134",
+    "rank": 1
+  },
+  {
+    "query": "编码特异性原则",
+    "expected_candidate": "TM-135",
+    "rank": 1
+  },
+  {
+    "query": "可逆决策",
+    "expected_candidate": "TM-077",
+    "rank": 1
+  }
+]
