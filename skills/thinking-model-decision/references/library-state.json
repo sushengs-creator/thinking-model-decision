@@ -1,10 +1,10 @@
 {
-  "version": "1.9.0",
-  "revision": 52,
-  "updated_at": "2026-10-14T03:29:38.936565+00:00",
-  "user_models": 139,
+  "version": "1.10.0",
+  "revision": 55,
+  "updated_at": "2026-10-15T02:12:56.179171+00:00",
+  "user_models": 140,
   "wan_tools": 100,
-  "sample_cards": 22,
+  "sample_cards": 23,
   "sample_card_ids": [
     "TM-054",
     "TM-062",
@@ -27,7 +27,8 @@
     "TM-136",
     "TM-137",
     "TM-138",
-    "TM-139"
+    "TM-139",
+    "TM-140"
   ],
   "behavior_trial_scope": {
     "v0_1_full_entry_cases": [
@@ -51,7 +52,7 @@
     "tested_at_revision": 2,
     "tested_version": "1.0.0"
   },
-  "change": "Register TM-139 card as behavior_checked; status supplied by maintainer, not inferred by CLI",
+  "change": "Register TM-140 card as behavior_checked; status supplied by maintainer, not inferred by CLI",
   "validation": {
     "tested_at_revision": 2,
     "official_skill_structure": "passed",
@@ -64,34 +65,31 @@
     "sandbox_manuscript_update": "passed",
     "tested_version": "1.0.0"
   },
-  "total_cards": 139,
+  "total_cards": 140,
   "source_reviewed_cards": 117,
   "card_status_counts": {
     "source_reviewed": 117,
     "sample_reviewed": 8,
-    "behavior_checked": 14
+    "behavior_checked": 15
   },
   "needs_review": [],
   "release_validation": {
     "status": "passed",
-    "version": "1.9.0",
-    "revision": 52,
+    "version": "1.10.0",
+    "revision": 55,
     "valid_for_current_revision": true,
-    "scope": "TM-139 published text and card; two card simulations; one old-model entry regression with source fallback before card registration; scoped lexical retrieval and package integrity. One long-query retrieval limitation remains. No final-card full-entry, new HTML rendering, third-party client installation or real-world outcome test.",
-    "evidence": "references/evaluation/results-v1.9.md",
+    "scope": "TM-139 preservation and TM-140 published text/card; two card simulations, one entry regression using TM-139 and TM-140, 12 lexical retrieval cases and package integrity. No new HTML rendering, third-party client installation or real-world outcome test.",
+    "evidence": "references/evaluation/results-v1.10.md",
     "official_skill_structure": "passed",
     "library_integrity": "passed",
-    "local_markdown_links_checked": 1333,
+    "local_markdown_links_checked": 1364,
     "new_card_simulated_responses_reviewed": 2,
-    "source_fallback_entry_regressions_reviewed": 1,
-    "final_card_entry_path_retested": false,
-    "lexical_retrieval_checks": 11,
-    "lexical_target_rank_one": 10,
-    "known_retrieval_limitations": [
-      "领导让大家提意见但没人说: TM-139 is absent from top eight; the mechanism-keyword fallback 不敢提意见 ranks TM-139 first."
-    ],
-    "old_knowledge_assets_unchanged": 501,
-    "old_user_index_entries_unchanged": 138,
+    "full_entry_regressions_reviewed": 1,
+    "lexical_retrieval_checks": 12,
+    "lexical_target_rank_one": 11,
+    "lexical_target_rank_five": 1,
+    "old_knowledge_assets_unchanged": 503,
+    "old_user_index_entries_unchanged": 139,
     "all_models_behavior_tested": false,
     "real_world_outcomes_validated": false
   },
@@ -231,6 +229,29 @@
       "old_model_retrieval_checks": 4,
       "old_knowledge_assets_unchanged": 495,
       "old_user_index_entries_unchanged": 135
+    },
+    "1.9.0": {
+      "status": "passed",
+      "version": "1.9.0",
+      "revision": 52,
+      "valid_for_current_revision": false,
+      "scope": "TM-139 published text and card; two card simulations; one old-model entry regression with source fallback before card registration; scoped lexical retrieval and package integrity. One long-query retrieval limitation remains. No final-card full-entry, new HTML rendering, third-party client installation or real-world outcome test.",
+      "evidence": "references/evaluation/results-v1.9.md",
+      "official_skill_structure": "passed",
+      "library_integrity": "passed",
+      "local_markdown_links_checked": 1333,
+      "new_card_simulated_responses_reviewed": 2,
+      "source_fallback_entry_regressions_reviewed": 1,
+      "final_card_entry_path_retested": false,
+      "lexical_retrieval_checks": 11,
+      "lexical_target_rank_one": 10,
+      "known_retrieval_limitations": [
+        "领导让大家提意见但没人说: TM-139 is absent from top eight; the mechanism-keyword fallback 不敢提意见 ranks TM-139 first."
+      ],
+      "old_knowledge_assets_unchanged": 501,
+      "old_user_index_entries_unchanged": 138,
+      "all_models_behavior_tested": false,
+      "real_world_outcomes_validated": false
     }
   },
   "workflow_validation": {

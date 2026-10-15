@@ -1,0 +1,168 @@
+[
+  {
+    "query": "TM-140",
+    "target": "TM-140",
+    "candidates": [
+      "TM-140"
+    ],
+    "rank": 1
+  },
+  {
+    "query": "吸收能力",
+    "target": "TM-140",
+    "candidates": [
+      "TM-140",
+      "TM-095",
+      "TM-058",
+      "TM-080",
+      "TM-088",
+      "TM-093",
+      "TM-133",
+      "TM-134"
+    ],
+    "rank": 1
+  },
+  {
+    "query": "Absorptive Capacity",
+    "target": "TM-140",
+    "candidates": [
+      "TM-140"
+    ],
+    "rank": 1
+  },
+  {
+    "query": "专家请了课程买了团队还是用不起来",
+    "target": "TM-140",
+    "candidates": [
+      "TM-140",
+      "TM-135",
+      "TM-139",
+      "TM-101",
+      "TM-112",
+      "TM-127",
+      "TM-129",
+      "TM-138"
+    ],
+    "rank": 1
+  },
+  {
+    "query": "外部知识进入组织后怎样真正用上",
+    "target": "TM-140",
+    "candidates": [
+      "TM-107",
+      "TM-094",
+      "TM-111",
+      "TM-119",
+      "TM-140",
+      "WW-7.2",
+      "TM-007",
+      "TM-014"
+    ],
+    "rank": 5
+  },
+  {
+    "query": "买了系统，业务团队却用不起来",
+    "target": "TM-140",
+    "candidates": [
+      "TM-140",
+      "TM-129",
+      "TM-135",
+      "TM-092",
+      "TM-095",
+      "TM-139",
+      "WW-6.10",
+      "TM-002"
+    ],
+    "rank": 1
+  },
+  {
+    "query": "知识接续",
+    "target": "TM-140",
+    "candidates": [
+      "TM-140",
+      "TM-107",
+      "TM-111",
+      "TM-119",
+      "WW-4.6",
+      "WW-6.9",
+      "TM-131",
+      "TM-129"
+    ],
+    "rank": 1
+  },
+  {
+    "query": "团队心理安全",
+    "target": "TM-139",
+    "candidates": [
+      "TM-139",
+      "TM-013",
+      "TM-058",
+      "WW-2.11",
+      "TM-129",
+      "TM-016",
+      "TM-021",
+      "TM-027"
+    ],
+    "rank": 1
+  },
+  {
+    "query": "不敢提意见",
+    "target": "TM-139",
+    "candidates": [
+      "TM-139",
+      "TM-030",
+      "TM-032",
+      "TM-004",
+      "TM-016",
+      "TM-018",
+      "TM-027",
+      "TM-033"
+    ],
+    "rank": 1
+  },
+  {
+    "query": "交互记忆系统",
+    "target": "TM-129",
+    "candidates": [
+      "TM-129",
+      "TM-092",
+      "TM-095",
+      "TM-139",
+      "WW-6.10",
+      "WW-7.2",
+      "TM-001",
+      "TM-007"
+    ],
+    "rank": 1
+  },
+  {
+    "query": "学习迁移",
+    "target": "TM-120",
+    "candidates": [
+      "TM-120",
+      "TM-127",
+      "TM-131",
+      "TM-130",
+      "TM-117",
+      "TM-115",
+      "TM-121",
+      "TM-137"
+    ],
+    "rank": 1
+  },
+  {
+    "query": "期望价值理论",
+    "target": "TM-138",
+    "candidates": [
+      "TM-138",
+      "TM-078",
+      "TM-057",
+      "TM-062",
+      "TM-122",
+      "TM-133",
+      "TM-136",
+      "TM-137"
+    ],
+    "rank": 1
+  }
+]

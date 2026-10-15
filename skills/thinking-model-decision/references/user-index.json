@@ -7506,5 +7506,120 @@
     },
     "validation_note_path": "references/validation-notes/TM-139.md",
     "validation_note_sha256": "620329cb1f9728dd6cb420ba1afa01d7de0c0af46a1455908d737a97eada7a46"
+  },
+  {
+    "id": "TM-140",
+    "title": "思维模型140：吸收能力——专家请了，课程也买了，团队为什么还是用不起来？",
+    "short_name": "吸收能力",
+    "path": "references/user-models/TM-140.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060234&idx=2&sn=62e4abc43b8f14ef8ee0c8f3922d2001&chksm=beabec3989dc652f7c01f7635d1821ae77978684567c97a6bba72e80d3e0f259eb3f84e43fd3#rd",
+    "source_label": "鬼子不言公众号第140篇正式发表文字正文",
+    "captured_at": "2026-10-15",
+    "source_format": "published_article_browser_rendered_text",
+    "source_sha256": "ea1533380f26ec125ae52a7909d7c7456da499c87a4be20d7058f33eb31c563a",
+    "content_sha256": "ea1533380f26ec125ae52a7909d7c7456da499c87a4be20d7058f33eb31c563a",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-140.md",
+    "search_terms": [
+      "吸收能力",
+      "组织吸收能力",
+      "Absorptive Capacity"
+    ],
+    "source_provenance": {
+      "published_at": "2026-10-15T07:35:00+08:00",
+      "published_body_match_verified": true,
+      "comparison_method": "Normal-browser visible body; strip Markdown headings, code fences and whitespace from archive body; compare UTF-16 code unit length and FNV-1a32. 5904 UTF-16 code units; FNV-1a32 0904174e",
+      "article_images_downloaded": false,
+      "article_images_ocr": false,
+      "underlying_research_reaudited": false
+    },
+    "card_sha256": "2eaad33e53ba4b838d112b3a2b91dd230875cf3e6fed5f5643738300f9e8c214",
+    "card_source_sha256": "ea1533380f26ec125ae52a7909d7c7456da499c87a4be20d7058f33eb31c563a",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-15T02:12:56.178734+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "请了专家、买了课程、引进系统或方法，演示成功但真实任务仍用不起来；对接者懂了，使用岗位接不上；想决定是补基础、补跨岗接续、争取条件、继续试用还是停止采用。",
+      "source_sections": [
+        "吸收能力到底是什么",
+        "为什么请了专家还是接不住",
+        "引进本身，不产生能力",
+        "几个容易搞混的判断",
+        "遇到这种情况，先做一次检查",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "吸收能力",
+        "组织吸收能力",
+        "Absorptive Capacity",
+        "absorptive capacity",
+        "专家请了",
+        "请了专家",
+        "买了课程",
+        "用不起来",
+        "团队用不起来",
+        "培训后没用",
+        "知识接不住",
+        "外部知识",
+        "已有相关知识",
+        "识别价值",
+        "吸收同化",
+        "商业应用",
+        "接收端",
+        "接收准备",
+        "守门人",
+        "跨岗接续",
+        "知识接续",
+        "演示成功",
+        "落地失败",
+        "再培训",
+        "新系统用不起来",
+        "新工具不用",
+        "顾问依赖",
+        "方法适用性",
+        "合理拒绝",
+        "资源授权",
+        "试用验收",
+        "换人复核"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "解释原因",
+        "比较方案",
+        "设计行动",
+        "学习执行",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-7.2",
+          "relation": "部分重叠、互补",
+          "reason": "组织资本涉及共同语言、信息流、信任和长期协作资产；TM-140聚焦一项外部知识从识别、同化到应用的过程。共同任务与经验沉淀可支持接续，不能用关系融洽证明知识可靠或应用有效。"
+        },
+        {
+          "ww_id": "WW-4.4",
+          "relation": "条件性互补",
+          "reason": "当团队会术语却说不清变量、关系和适用条件时，利用术语操作定义、关系和新例子检查是否理解。图画得完整不证明方法可信，也不能代替权限、时间和跨岗责任。"
+        },
+        {
+          "ww_id": "WW-4.10",
+          "relation": "条件性互补",
+          "reason": "已经掌握的方法停在演示或训练场景时，以近实际任务练习、不同表面案例比较和不适用例检查迁移，记录提示依赖。它与TM-120机制高度重叠，按断点择需选用，不当成两份独立证据。"
+        }
+      ],
+      "warnings": [
+        "未采用不自动意味着吸收不足；须先核验需求、方法可靠性与适用性、资源授权，以及经过比较后合理拒绝的可能。",
+        "基础与接续分别取证；演示成功、对接者点头和培训完成率不能证明接收基础已有，更不保证后续成功。",
+        "组织能力不是个人能力简单加总，也不要求每个人拥有全部知识；持续支持可保留，独立运行声明须与实际专家或提示介入相符。",
+        "任务中正确使用与业务效果分开核验；普通任务、边界例子、新任务及换人交接的证据不能互相替代。",
+        "不把未采用归为态度差，不以吸收为由强迫无限投入或采用不适用的方法；条件不满足可争取授权、改方案、暂停或停止。",
+        "原文四组合为检查示意而非预测保证；外部顾问不自动等于组织内部能力。华为顺序及六个字、8英寸IGBT和其他研究数字未独立复核，不作规范程序或精确事实背书。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-140.md",
+    "validation_note_sha256": "b589d80d087bc47a60015a78040596eb854e17030c26b9892a38c07427bd2b71"
   }
 ]

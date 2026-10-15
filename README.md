@@ -33,9 +33,9 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 下次如何调用，以及能否生成可下载的 HTML 文件。
 ```
 
-**不能自动安装时**，先[下载独立技能包 ZIP](https://raw.githubusercontent.com/sushengs-creator/thinking-model-decision/main/dist/thinking-model-decision-v1.9.0.zip)。解压后得到 `thinking-model-decision` 文件夹，里面直接有 `SKILL.md` 和 `references` 等资料。按照当前产品的技能导入或工作区文件入口，提供**完整文件夹**。只接受 ZIP 的产品要按其格式要求导入；不同产品的入口和限制可能不同，具体操作见[手动安装与会话加载](docs/INSTALL.md#手动安装与会话加载)。
+**不能自动安装时**，先[下载独立技能包 ZIP](https://raw.githubusercontent.com/sushengs-creator/thinking-model-decision/main/dist/thinking-model-decision-v1.10.0.zip)。解压后得到 `thinking-model-decision` 文件夹，里面直接有 `SKILL.md` 和 `references` 等资料。按照当前产品的技能导入或工作区文件入口，提供**完整文件夹**。只接受 ZIP 的产品要按其格式要求导入；不同产品的入口和限制可能不同，具体操作见[手动安装与会话加载](docs/INSTALL.md#手动安装与会话加载)。
 
-如果下载直链打不开，可用[完整仓库备用下载](https://codeload.github.com/sushengs-creator/thinking-model-decision/zip/refs/heads/main)。解压后在 `dist` 文件夹找到 `thinking-model-decision-v1.9.0.zip`，再按上面的方法使用。
+如果下载直链打不开，可用[完整仓库备用下载](https://codeload.github.com/sushengs-creator/thinking-model-decision/zip/refs/heads/main)。解压后在 `dist` 文件夹找到 `thinking-model-decision-v1.10.0.zip`，再按上面的方法使用。
 
 如果产品只能收聊天文字，无法安装技能或读取完整资料，就暂时不能运行本工具的完整模型库。可以先看下面的示范，或在能读取资料的智能体中使用。向普通聊天框只发一个 GitHub 链接，不等于完成安装。
 
@@ -155,9 +155,9 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 ## 资料、来源与维护
 
-当前技能版本为 **1.9.0**，包含鬼子不言撰写的 139 篇思维模型原文、139 张操作卡、100 个万维钢工具条目及 100 条跨库关系。两套资料有重叠，不等于 239 个彼此独立、全部验证过的模型。本轮新增 **TM-139 团队心理安全**：从最近一次求助、报错或异议出发，检查成员预期的人际风险、实际得到的回应和团队后续跟进；保持绩效要求，同时排查知识、渠道、时间等其他沉默原因。逐步追问与默认 HTML 行动计划流程保持不变。
+当前技能版本为 **1.10.0**，包含鬼子不言撰写的 140 篇思维模型原文、140 张操作卡、100 个万维钢工具条目及 103 条跨库关系。两套资料有重叠，不等于 240 个彼此独立、全部验证过的模型。本轮新增 **TM-140 吸收能力**，帮助检查团队为什么已经接触专家、课程或其他外部知识，却仍未能在实际工作中用起来。**TM-139 团队心理安全**已在 v1.9.0 收录，本轮复核保留。逐步追问与默认 HTML 行动计划流程保持不变。
 
-第 139 篇于 2026-10-14 发表，本轮读取并核对其文字正文；4 幅图片未下载或 OCR，原研究与历史案例未独立重新审核。来源、图文转换限制及本轮验证范围见 [第139篇更新记录](skills/thinking-model-decision/references/evaluation/results-v1.9.md)。
+第 140 篇于 2026-10-15 发表，本轮通过正常浏览器读取文字正文；文字归档不等于完整媒体归档，也不表示文中的原研究与历史案例已独立重新审核。来源整理及本轮验证范围见 [第140篇更新记录](skills/thinking-model-decision/references/evaluation/results-v1.10.md)；第 139 篇的来源与验证记录仍保留在 [v1.9 更新记录](skills/thinking-model-decision/references/evaluation/results-v1.9.md)。
 
 本工具使用 [Agent Skills 开放格式](https://agentskills.io/specification)。格式可以复用，各智能体的安装和资源访问能力仍有差异；本项目没有逐一实测所有产品，也不需要额外的专用 API Key。模型服务的账号和额度由你所用的平台提供。
 
