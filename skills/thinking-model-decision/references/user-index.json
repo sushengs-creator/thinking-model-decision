@@ -7621,5 +7621,120 @@
     },
     "validation_note_path": "references/validation-notes/TM-140.md",
     "validation_note_sha256": "b589d80d087bc47a60015a78040596eb854e17030c26b9892a38c07427bd2b71"
+  },
+  {
+    "id": "TM-141",
+    "title": "思维模型141：控制二分法——我们怎么才能做到不被命运的无常所伤害？",
+    "short_name": "控制二分法",
+    "path": "references/user-models/TM-141.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060253&idx=2&sn=a0da6aebcb12c0779c3a1c61333529bf&chksm=beabec2e89dc653885baf3b4cdb0c64b1ec958115fe4eedbb808b2086f24a6564b5fa6ddfac0#rd",
+    "source_label": "鬼子不言微信公众号正式发表文章（正常浏览器正文）",
+    "captured_at": "2026-10-16",
+    "source_format": "published_article_browser_rendered_text",
+    "source_sha256": "706cf89c3fd923c2002fba5edc0164900ca273b013d34dc42095757ddd71ede4",
+    "content_sha256": "706cf89c3fd923c2002fba5edc0164900ca273b013d34dc42095757ddd71ede4",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-141.md",
+    "search_terms": [
+      "控制二分法",
+      "Dichotomy of Control",
+      "行动边界"
+    ],
+    "source_provenance": {
+      "published_at": "2026-10-16T18:45:00+08:00",
+      "published_body_match_verified": true,
+      "comparison_method": "Normal-browser visible body; strip added Markdown headings and whitespace; compare UTF-16 code unit length and FNV-1a32.",
+      "nonwhitespace_utf16_chars": 5606,
+      "fnv1a32": "b0d6a174",
+      "article_images_downloaded": false,
+      "article_images_ocr": false,
+      "underlying_research_reaudited": false
+    },
+    "card_sha256": "5291c37e63132c9b35a8447763f05b33530dd022e91988cd962659fc1caa6dd7",
+    "card_source_sha256": "706cf89c3fd923c2002fba5edc0164900ca273b013d34dc42095757ddd71ede4",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-16T11:04:11.675582+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "重要结果由他人和外部条件共同决定，自己反复猜测、内耗；把努力理解成结果必须发生，或用不可控解释停止一切行动，需要找出当前仍可尝试的合理工作、实际依赖、备选和反馈节点。",
+      "source_sections": [
+        "这个模型到底在分什么",
+        "不可控的部分里，藏着被忽略的可控行动",
+        "行动质量和结果保证，是两回事",
+        "几种常见的误判",
+        "遇到内耗时，怎么用这个模型",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "控制二分法",
+        "Dichotomy of Control",
+        "dichotomy of control",
+        "斯多葛",
+        "爱比克泰德",
+        "反复内耗",
+        "结果不由我",
+        "不由自己决定",
+        "别人说了算",
+        "不可控",
+        "可控行动",
+        "控制不了",
+        "什么也做不了",
+        "做了也没用",
+        "努力没有结果",
+        "努力了就必须成功",
+        "结果保证",
+        "行动边界",
+        "行动质量",
+        "过程全部可控",
+        "可以尝试",
+        "行动完成",
+        "内部目标",
+        "外部目标",
+        "尽人事听天命",
+        "等待回复",
+        "反复刷新",
+        "接受事实",
+        "接受不公",
+        "情绪不能控制",
+        "资源权限",
+        "合理尽责",
+        "准备备选",
+        "根据反馈调整",
+        "继续还是退出"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "检查偏差",
+        "设计行动",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-1.5",
+          "relation": "部分重叠、互补",
+          "reason": "两者都反对虚假的结果保证；WW-1.5补充区分未知来源、可调查部分和不可承受的下行，决定先查什么、规避什么及保留哪些可承受的探索。TM-141聚焦具体处境中的行动边界，不把风险浪漫化，也不把合理保障需求归为过度追求确定。"
+        },
+        {
+          "ww_id": "WW-5.5",
+          "relation": "条件性互补、局部重叠",
+          "reason": "目标和路径仍不清楚但需探索时，效果推理以已有手段、可承受损失和伙伴真实承诺设计能带回信息的动作；其飞行员原则与行动不保证结果部分重叠。TM-141不要求创业探索，不保证小动作能创造机会；目标与因果结构稳定时不替代既有计划。"
+        }
+      ],
+      "warnings": [
+        "先处理迫近危险和不可逆期限，核查关键事实、方法、资源与权限；不得把外部障碍或处境不公心理化。",
+        "可以选择尝试、行动实际完成、收到外部反馈与目标结果实现分别记录；行动完成也受身体、资源、技术和他人影响，不能认定过程全部可控。",
+        "情绪与身体反应不必然即时可控；不以立即平静验收，不作疗效承诺或以模型替代必要支持。",
+        "接受事实不等于赞同不公、免除他人责任或停止保护求助；不保证结果也不取消合理尽责和方法修正。",
+        "可影响不等于能保证，不能保证不等于不重要或无需行动；没有可行动作时允许等待、暂缓、休息或求助，不能要求无限努力。",
+        "此模型判断行动边界，不能独立决定继续投入、退出或切换；须另比未来收益、完整后续成本、替代方案与风险，不能只以还有一步能做作为继续依据。",
+        "原文五步流程是作者应用设计，非原典流程；本卡状态拆分、分流细化和案例为编辑操作化，四种组合不是心理诊断或成功预测。",
+        "原典引语、历史人物、医疗经历与遗嘱法律细节保留于正式原文，本轮未独立核验；不能将故事中的诊疗或法律做法当作通用建议，也不能把文字来源比对当作事实核验。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-141.md",
+    "validation_note_sha256": "d06110f2243abb50cea116f306db72bbd1c4462a094bd6130c7fef0fdc0be61b"
   }
 ]

@@ -1,6 +1,6 @@
 # 版本历史、来源与验证范围
 
-本工具由 [sushengs-creator](https://github.com/sushengs-creator) 整理与维护，140篇编号思维模型保留各自原文及来源。万维钢部分来自作者提供的本地技能快照，**不是原课程逐字稿，也不表示万维钢参与制作、审定或背书**。来源记录见[来源说明](../skills/thinking-model-decision/references/source-notes.md)，使用与署名说明见[NOTICE](../NOTICE.md)。
+本工具由 [sushengs-creator](https://github.com/sushengs-creator) 整理与维护，141篇编号思维模型保留各自原文及来源。万维钢部分来自作者提供的本地技能快照，**不是原课程逐字稿，也不表示万维钢参与制作、审定或背书**。来源记录见[来源说明](../skills/thinking-model-decision/references/source-notes.md)，使用与署名说明见[NOTICE](../NOTICE.md)。
 
 v1.0完成资料完整性、模型卡来源核对及指定场景试跑；v1.1另完成一组四轮对话和三个边界场景的模拟验证。模拟通过不等于现实决策效果已得到保证。详见[v1.0验证记录](../skills/thinking-model-decision/references/evaluation/results-v1.0.md)与[v1.1验证记录](../skills/thinking-model-decision/references/evaluation/results-v1.1.md)。
 
@@ -30,6 +30,8 @@ v1.8.0 新增 **TM-136 双重编码理论**、**TM-137 变易理论**与 **TM-13
 v1.9.0（2026-10-14）新增 **TM-139 团队心理安全**，保留当日发表的文字正文，补入操作卡、问题路由及跨库关系。调用时检查人际风险、实际回应和团队跟进，保留绩效要求，并排查其他沉默原因；不把无人提问、报错增多或关系融洽直接当作心理安全或学习成效的证明。正文文字已核对，4 幅图片未下载或 OCR，原研究与历史案例未独立重新审核；来源、图文转换限制及验证范围见 [第139篇更新记录](../skills/thinking-model-decision/references/evaluation/results-v1.9.md)。
 
 v1.10.0（2026-10-15）新增 **TM-140 吸收能力**，保留正式发表文章的文字正文，补入操作卡、问题路由及跨库关系，用于检查外部知识为何尚未转化为实际工作中的能力。**TM-139 团队心理安全**已在 v1.9.0 收录，本轮复核保留，不重复新增。资料库共 140 篇原文、140 张操作卡与 100 个万维钢工具条目；文字归档不等于完整媒体归档，原研究与历史案例未在本轮独立重新审核。来源整理及验证范围见 [第140篇更新记录](../skills/thinking-model-decision/references/evaluation/results-v1.10.md)。
+
+v1.11.0（2026-10-16）新增 **TM-141 控制二分法**，保留正式发表文章的文字正文，补入操作卡、问题路由及跨库关系，用于区分当前可以审查、选择和尝试的行动，以及不能由自己单方保证的结果，寻找遗漏的合理工作、准备备选，并依据反馈调整。资料库共 141 篇原文、141 张操作卡与 100 个万维钢工具条目。正文文字已比对；图片未下载或 OCR，历史研究及法律、医疗等例子未独立核验，文字归档不等于完整媒体归档。来源整理及验证范围见 [第141篇更新记录](../skills/thinking-model-decision/references/evaluation/results-v1.11.md)。本轮完成两项卡片场景、一项预算澄清修正和一项入口回归；预算首答遗漏及修正过程已保留。另完成12项检索与结构、打包检查；不代表全部模型或现实效果均已验证。
 
 维护参考：[整体运行框架](../skills/thinking-model-decision/references/wan-framework.md) · [跨库关系目录](../skills/thinking-model-decision/references/relation-catalog.md) · [此前新手说明审阅](ONBOARDING-REVIEW.md)
 

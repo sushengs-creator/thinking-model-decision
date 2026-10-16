@@ -1,0 +1,172 @@
+[
+  {
+    "query": "TM-141",
+    "target": "TM-141",
+    "rank": 1,
+    "returned_ids": [
+      "TM-141"
+    ]
+  },
+  {
+    "query": "控制二分法",
+    "target": "TM-141",
+    "rank": 1,
+    "returned_ids": [
+      "TM-141",
+      "TM-096",
+      "TM-100",
+      "TM-133",
+      "WW-4.9"
+    ]
+  },
+  {
+    "query": "Dichotomy of Control",
+    "target": "TM-141",
+    "rank": 1,
+    "returned_ids": [
+      "TM-141",
+      "WW-3.5",
+      "WW-5.4",
+      "WW-7.9",
+      "WW-8.4",
+      "TM-137",
+      "TM-134",
+      "TM-027"
+    ]
+  },
+  {
+    "query": "结果不由我决定，反复内耗怎么办",
+    "target": "TM-141",
+    "rank": 2,
+    "returned_ids": [
+      "TM-122",
+      "TM-141",
+      "TM-068",
+      "WW-2.4",
+      "TM-006",
+      "TM-013",
+      "TM-015",
+      "TM-016"
+    ]
+  },
+  {
+    "query": "努力了就必须成功",
+    "target": "TM-141",
+    "rank": 1,
+    "returned_ids": [
+      "TM-141",
+      "TM-010",
+      "TM-012",
+      "TM-045",
+      "TM-048",
+      "TM-050",
+      "TM-057",
+      "TM-066"
+    ]
+  },
+  {
+    "query": "不可控就什么也做不了",
+    "target": "TM-141",
+    "rank": 2,
+    "returned_ids": [
+      "TM-134",
+      "TM-141",
+      "TM-011",
+      "TM-056",
+      "TM-059",
+      "TM-066",
+      "TM-098",
+      "TM-127"
+    ]
+  },
+  {
+    "query": "过程全部可控吗",
+    "target": "TM-141",
+    "rank": 1,
+    "returned_ids": [
+      "TM-141",
+      "TM-076",
+      "TM-095",
+      "TM-017",
+      "TM-073",
+      "TM-085",
+      "TM-090",
+      "TM-098"
+    ]
+  },
+  {
+    "query": "接受事实等于接受不公吗",
+    "target": "TM-141",
+    "rank": 3,
+    "returned_ids": [
+      "TM-049",
+      "TM-056",
+      "TM-141",
+      "TM-033",
+      "TM-058",
+      "TM-078",
+      "TM-122",
+      "TM-001"
+    ]
+  },
+  {
+    "query": "请了专家买了课程团队用不起来",
+    "target": "TM-140",
+    "rank": 1,
+    "returned_ids": [
+      "TM-140",
+      "TM-135",
+      "TM-129",
+      "TM-139",
+      "TM-002",
+      "TM-027",
+      "TM-028",
+      "TM-029"
+    ]
+  },
+  {
+    "query": "不敢提意见",
+    "target": "TM-139",
+    "rank": 1,
+    "returned_ids": [
+      "TM-139",
+      "TM-030",
+      "TM-032",
+      "TM-004",
+      "TM-016",
+      "TM-018",
+      "TM-027",
+      "TM-033"
+    ]
+  },
+  {
+    "query": "自我效能",
+    "target": "TM-134",
+    "rank": 1,
+    "returned_ids": [
+      "TM-134",
+      "TM-122",
+      "TM-138",
+      "WW-1.6",
+      "WW-2.4",
+      "WW-9.5",
+      "TM-044",
+      "WW-6.4"
+    ]
+  },
+  {
+    "query": "沉没成本",
+    "target": "TM-066",
+    "rank": 1,
+    "returned_ids": [
+      "TM-066",
+      "WW-8.6",
+      "TM-016",
+      "TM-017",
+      "TM-038",
+      "TM-063",
+      "TM-064",
+      "TM-065"
+    ]
+  }
+]
