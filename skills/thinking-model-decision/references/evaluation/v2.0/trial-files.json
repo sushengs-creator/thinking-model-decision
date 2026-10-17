@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "errors": [],
+  "groups": [
+    {
+      "group": "001-050",
+      "tools": 50,
+      "actual_responses": 100,
+      "expected_responses": 100,
+      "minimum_chinese_characters": 179,
+      "requests_identical": true
+    },
+    {
+      "group": "051-100",
+      "tools": 50,
+      "actual_responses": 100,
+      "expected_responses": 100,
+      "minimum_chinese_characters": 139,
+      "requests_identical": true
+    },
+    {
+      "group": "101-142",
+      "tools": 42,
+      "actual_responses": 84,
+      "expected_responses": 84,
+      "minimum_chinese_characters": 175,
+      "requests_identical": true
+    }
+  ],
+  "scope": "File completeness and declared paths only; not proof of actual reading or semantic quality."
+}

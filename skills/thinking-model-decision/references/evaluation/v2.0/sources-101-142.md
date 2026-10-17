@@ -1,0 +1,46 @@
+# TM-101–142 来源回读记录
+
+仅记录本轮实际阅读；未执行或评分虚构请求。原文案例与统计未另行核验。
+
+- TM-101：`references/cards/TM-101.md` 全文；`references/user-models/TM-101.md` 原文 L36–170、L254–303：结果定义、交互比较、改善与因果、单项目试行；完整卡已读。注意无单项比较不得识别交互。
+- TM-102：`references/cards/TM-102.md` 全文；`references/user-models/TM-102.md` 原文 L38–53、L86–159：底层假设三问、手段目的解耦、历史与当前条件；完整卡已读。历史故事不作为核实事实复用。
+- TM-103：`references/cards/TM-103.md` 全文；`references/user-models/TM-103.md` 原文 L30–158、L172–190：总体、互斥与因果区别、对象/结果/行动、调查清单与边界；完整卡已读。不得声称找全所有原因。
+- TM-104：`references/cards/TM-104.md` 全文；`references/user-models/TM-104.md` 原文 L34–107、L197–222：异常核验、竞争解释、观察条件、调查与止损区别；完整卡已读。不得把未记录视为排除证据。
+- TM-105：`references/cards/TM-105.md` 全文；`references/user-models/TM-105.md` 原文 L38–135：同需比较、单项与联合变化、有据范围及条件回本线；完整卡已读。偏好不得强制折钱。
+- TM-106：`references/cards/TM-106.md` 全文；`references/user-models/TM-106.md` 原文 L36–154：内外负荷、图式、材料整合、范例与淡出、专家反转及失败边界；完整卡已读。不要沿用原文个别绝对化归因。
+- TM-107：`references/cards/TM-107.md` 全文；`references/user-models/TM-107.md` 原文 L28–86、L88–170、L175–199：已知干扰、组块、实际反馈四步与权限/立场/自身理解边界；完整卡已读。
+- TM-108：`references/cards/TM-108.md` 全文；`references/user-models/TM-108.md` L66–152：理解证据三层、旧约定与新决定、角色接续及共同基础不等于共识。
+- TM-109：`references/cards/TM-109.md` 全文；`references/user-models/TM-109.md` L145–170、L242–269：五步约定核查、记录效力、资源前提与边界；结合完整卡保留请求/承诺/履行区别。
+- TM-110：`references/cards/TM-110.md` 全文；`references/user-models/TM-110.md` L48–106、L185–226：担保/支持/限定/反驳、质疑落点、收缩主张与六格边界。
+- TM-111：`references/cards/TM-111.md` 全文；`references/user-models/TM-111.md` L68–119、L168–195：现实公开协议、READY/GO、异常回退、真伪意愿权限与完成边界。
+- TM-112：`references/cards/TM-112.md` 全文；`references/user-models/TM-112.md` L28–55、L142–197：三类协调、执行协议、囚徒困境及利益分配边界。
+- TM-113：`references/cards/TM-113.md` 全文；`references/user-models/TM-113.md` L158–202、L292–314、L376–400：分别排序、隐藏收益、规则重画、误判纠正与类型边界。
+- TM-114：`references/cards/TM-114.md` 全文；`references/user-models/TM-114.md` L182–251：缺漏核实、七项未来条件、正常职责与额外支持、噪声及重复不保证合作；已完整读既有 references/tools/TM-114.md，保留其核验、权限、可恢复设计与状态区分。
+- TM-115：`references/cards/TM-115.md` 全文；`references/user-models/TM-115.md` L34–160：四类实际活动、建构与复述、回应机制、资源配置及分类边界。
+- TM-116：`references/cards/TM-116.md` 全文；`references/user-models/TM-116.md` L74–124、L138–154：四种错因、对比变式、独立调用与错误补全边界。
+- TM-117：`references/cards/TM-117.md` 全文；`references/user-models/TM-117.md` L62–113、L126–152：提取/间隔/交错机制、无益困难、延迟验效与调整。
+- TM-118：`references/cards/TM-118.md` 全文；`references/user-models/TM-118.md` L126–180：指导与反馈可信度、瓶颈诊断、PPT训练及完整新任务检验；完整卡补严格定义与难度提示边界。
+- TM-119：`references/cards/TM-119.md` 全文；`references/user-models/TM-119.md` L78–140：三类排查、预测反馈修正、对照与独立练习、回放和信息条件；完整卡保留不可言传及自动化边界。
+- TM-120：`references/cards/TM-120.md` 全文；`references/user-models/TM-120.md` L54–153：表征/触发/生态使用归纳、拥抱桥接与五项排查；独立和提示表现严格区分。
+- TM-121：`references/cards/TM-121.md` 全文；`references/user-models/TM-121.md` L150–210、L353–382：预测—表现—调节、提示条件、反馈可靠性及监控不等于进步。
+- TM-122：`references/cards/TM-122.md` 全文；`references/user-models/TM-122.md` L118–170、L206–244、L248–297：理由区别、三类需要、结构与自主、同标复查及四类结果。
+- TM-123：`references/cards/TM-123.md` 全文；`references/user-models/TM-123.md` L56–143、L176–190：W/O/O/P顺序、心理对比、执行意图、外部限制与开始/掌握区别；不沿用自动执行的绝对表述。
+- TM-124：`references/cards/TM-124.md` 全文；`references/user-models/TM-124.md` L298–366：七项分配约定、硬约束、延迟/上下文/非平稳/状态改变边界；完整卡已读并保留最后机会分支。
+- TM-125：`references/cards/TM-125.md` 全文；`references/user-models/TM-125.md` L100–176：条件变化、当前可用能力、三问、最小验证与四类误用。
+- TM-126：`references/cards/TM-126.md` 全文；`references/user-models/TM-126.md` L47–114：动作作用与反馈、单条件变式、正常工具、无障碍与无需动作边界。
+- TM-127：`references/cards/TM-127.md` 全文；`references/user-models/TM-127.md` L33–105：四过程与外部条件、从卡点选择补法、迁移及单次成功不确证原因。
+- TM-128：`references/cards/TM-128.md` 全文；`references/user-models/TM-128.md` L18–86：四条件交叉检查、可靠证据、新旧解释比较、变式与执行边界。
+- TM-129：`references/cards/TM-129.md` 全文；`references/user-models/TM-129.md` L35–74、L109–150：四类知识协作断点、任务坐标、真实交接检验；保留原卡对个人知识排他结论的修正。
+- TM-130：`references/cards/TM-130.md` 全文；`references/user-models/TM-130.md` L53–106、L117–130：宣称/使用理论、一次取舍四步、权限、采用和效果及单环边界。
+- TM-131：`references/cards/TM-131.md` 全文；`references/user-models/TM-131.md` L77–120：具体四步、顺口也需核查、变式、技能与陌生材料边界。
+- TM-132：`references/cards/TM-132.md` 全文；`references/user-models/TM-132.md` L73–98、L125–148：机会回放、提示条件、意愿与结果边界；完整读既有 references/tools/TM-132.md，保留原工具的事实空模板、资源分流、四段验收和不编概率设计。
+- TM-133：`references/cards/TM-133.md` 全文；`references/user-models/TM-133.md` L17–68、L89–124：注意机制与内容准确性、共同尝试、基准、条件、感受和表现；保留原卡对绝对表述的编辑限制。
+- TM-134：`references/cards/TM-134.md` 全文；`references/user-models/TM-134.md` L111–159：现实条件优先、缩范围、来源、相关尝试与预判比对、信心不等于能力；完整卡保留四类来源边界。
+- TM-135：`references/cards/TM-135.md` 全文；`references/user-models/TM-135.md` L51–74、L113–156：编码关系与区分力、线索尝试、直接给答案及原环境边界；不沿用原文必要条件和绝对无效的强断言。
+- TM-136：`references/cards/TM-136.md` 全文；`references/user-models/TM-136.md` L39–60、L91–130：表征与呈现形式、四类卡点、双向对应和任务检查；不推断脑内机制或固定学习风格。
+- TM-137：`references/cards/TM-137.md` 全文；`references/user-models/TM-137.md` L31–68、L150–201：关键方面与学习者关系、三种学习对象、对照设计及诊断分流。
+- TM-138：`references/cards/TM-138.md` 全文；`references/user-models/TM-138.md` L39–79、L122–171：情境比较、期望价值成本和现实选项；依据原卡纠正原文固定递进与没开始必有更高选项的强断言。
+- TM-139：`references/cards/TM-139.md` 全文；`references/user-models/TM-139.md` L40–94、L155–198：共享信念与工作标准、求助原因、实际回应、渠道保护和下一次任务检验。
+- TM-140：`references/cards/TM-140.md` 全文；`references/user-models/TM-140.md` L48–81、L154–201：方法适用、资源与经济边界、六步检查和真实任务；补读识别、同化、应用与角色接续机制。
+- TM-141：`references/cards/TM-141.md` 全文；`references/user-models/TM-141.md` L88–155：行动质量与结果保证、过程条件、责任和五步反馈；完整读既有 references/tools/TM-141.md，保留遗漏工作、投入取舍、状态分段与责任修复。
+- TM-142：`references/cards/TM-142.md` 全文；`references/user-models/TM-142.md` L156–195：三步、四栏、角色责任与能力危险修正；完整读既有 references/tools/TM-142.md，保留已有承诺、修复义务、支持与双边协议状态。

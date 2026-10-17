@@ -1,0 +1,17 @@
+{
+  "id": "multiturn-04",
+  "request": "我刚又花20分钟比较范例，尚未执行上一版的写作步骤。现在本周只有10分钟，90分钟总约束不变。请保留旧版，更新HTML计划，说明哪些判断改变、哪些还成立。",
+  "response": "已保留旧版，并按本周剩余10分钟更新计划。现在建议完成一个有出处的分析片段：一条观察、一项待验证判断，再核对和保存。\n\n改变的是预算与本周交付范围；分析对象、问题和证据要求仍成立。旧版尚未执行，因此不能把这次更新写成“执行后无效”。新增20分钟已计入：80分钟已用＋本次10分钟＝90分钟。\n\n[打开更新后的HTML计划](multiturn-plan-v2.html) · [查看旧版](multiturn-plan-v1.html)\n\n仅完成静态检查，未进行视觉预览。新版仍为待执行建议。",
+  "reads": [
+    "references/evaluation/v2.0/multiturn-plan-v1.html",
+    "references/decision-report.md",
+    "references/html-action-plan.md",
+    "references/tools/TM-132.md",
+    "references/cards/TM-132.md",
+    "references/tools/TM-107.md",
+    "references/cards/TM-107.md"
+  ],
+  "artifacts": [
+    "references/evaluation/v2.0/multiturn-plan-v2.html"
+  ]
+}

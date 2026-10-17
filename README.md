@@ -2,7 +2,7 @@
 
 **任何疑惑，先用思维模型跑一遍。**
 
-**把一件纠结的事发给你正在使用的 AI 智能体，让它逐步问清问题、比较选择，最后给你一份下一步行动计划。**
+**把一件纠结的事发给你正在使用的 AI 智能体，让它逐步问清问题，组成适合你的思维工具箱，带你全面分析，最后给出解决方案和实施步骤。**
 
 例如，决定要不要报名课程、怎样安排有限时间、一个项目该继续还是调整。你不用先学模型名称，也不用写完整需求书，从一句“我最近在纠结……”就能开始。
 
@@ -14,7 +14,7 @@
 
 ## 开始使用
 
-已经安装的用户，可以直接从第 2 步检查并开始。
+已经安装的用户，可以从第 2 步检查版本。当前版本为 **2.0.0**；若仍是旧版，先按[更新已有版本](docs/INSTALL.md#更新已安装版本)保留本地修改并升级，再开始使用。GitHub 更新不会自动更新你已经安装的副本。
 
 ### 1. 把这段话发给你正在用的智能体
 
@@ -29,13 +29,13 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 若都做不到，请说明具体缺口，并给我当前产品可执行的下一步，不要声称已经安装。
 不确定产品信息时先问我产品名和版本，不要猜测菜单或安装目录。
 若已有版本，先备份并保留我的新增模型与修改。
-完成后，实际读取入口和一张模型卡，告诉我采用哪种方式、读取是否成功、
+完成后，实际读取入口、一张模型卡及对应运行工具，告诉我采用哪种方式、读取是否成功、
 下次如何调用，以及能否生成可下载的 HTML 文件。
 ```
 
-**不能自动安装时**，先[下载独立技能包 ZIP](https://raw.githubusercontent.com/sushengs-creator/thinking-model-decision/main/dist/thinking-model-decision-v1.12.0.zip)。解压后得到 `thinking-model-decision` 文件夹，里面直接有 `SKILL.md` 和 `references` 等资料。按照当前产品的技能导入或工作区文件入口，提供**完整文件夹**。只接受 ZIP 的产品要按其格式要求导入；不同产品的入口和限制可能不同，具体操作见[手动安装与会话加载](docs/INSTALL.md#手动安装与会话加载)。
+**不能自动安装时**，先[下载独立技能包 ZIP](https://raw.githubusercontent.com/sushengs-creator/thinking-model-decision/main/dist/thinking-model-decision-v2.0.0.zip)。解压后得到 `thinking-model-decision` 文件夹，里面直接有 `SKILL.md` 和 `references` 等资料。按照当前产品的技能导入或工作区文件入口，提供**完整文件夹**。只接受 ZIP 的产品要按其格式要求导入；不同产品的入口和限制可能不同，具体操作见[手动安装与会话加载](docs/INSTALL.md#手动安装与会话加载)。
 
-如果下载直链打不开，可用[完整仓库备用下载](https://codeload.github.com/sushengs-creator/thinking-model-decision/zip/refs/heads/main)。解压后在 `dist` 文件夹找到 `thinking-model-decision-v1.12.0.zip`，再按上面的方法使用。
+如果下载直链打不开，可用[完整仓库备用下载](https://codeload.github.com/sushengs-creator/thinking-model-decision/zip/refs/heads/main)。解压后在 `dist` 文件夹找到 `thinking-model-decision-v2.0.0.zip`，再按上面的方法使用。
 
 如果产品只能收聊天文字，无法安装技能或读取完整资料，就暂时不能运行本工具的完整模型库。可以先看下面的示范，或在能读取资料的智能体中使用。向普通聊天框只发一个 GitHub 链接，不等于完成安装。
 
@@ -47,7 +47,7 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 ```text
 请检查 thinking-model-decision 是否在当前会话可用。
-实际读取它的 SKILL.md 和 references/cards/TM-077.md，
+实际读取它的 SKILL.md、references/cards/TM-077.md 和 references/tools/TM-077.md，
 告诉我入口中的版本、这张卡的名称，以及它在什么情况下不适合直接试错。
 说明资料从哪里读取、是原生安装还是仅本次加载；无法读取就如实说明。
 ```
@@ -60,7 +60,8 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 ```text
 请使用思维模型决策工具，先每轮问我一个关键问题，等我回答后再继续。
-问题清楚后，比较选择，给我下一步行动计划。
+问题清楚后，选择互补工具组成工具箱，带我全面分析，
+给出解决方案、实施步骤和 HTML 行动计划，说明依据与调整条件。
 我想学数据分析，已经看了好几门课，但一直决定不了要不要报名。
 ```
 
@@ -70,7 +71,7 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 ### 4. 看行动计划，再带着结果回来
 
-信息足够后，你应看到**当前建议、为什么这样判断、第一步做什么、什么时候调整**，以及事实和未知的区分。先核对建议是否符合你的目标和限制，有误就纠正；前提成立后再执行第一步。
+信息足够后，你应看到**当前建议、工具箱怎样帮助分析、第一步及后续步骤、什么时候调整**，以及事实和未知的区分。先核对建议是否符合你的目标和限制，有误就纠正；前提成立后再执行第一步。
 
 - **能生成文件的环境**，默认提供 HTML 行动计划链接或附件。下载 `.html` 文件，用浏览器打开即可阅读和打印，不需要编程。
 - **不能生成文件的环境**，默认提供完整 HTML 源码及保存方法，不应给出不存在的下载链接。觉得保存源码麻烦，可以直接说“这次请用聊天文字给我行动计划，不生成文件”。
@@ -97,6 +98,12 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 | 3 | 除了报名这门课，还有什么可以先试的方式？ | 有免费短教程和有权用于练习的往年数据表，尚未试过，也没有必须现在报名的期限。 |
 
 助手逐轮等待回答。得到这些信息后，问题被明确为“怎样在每周三小时以内，开始改善活动报告”。短教程是否适用、数据是否齐全、能否独立理解结果，都仍然未知。
+
+### 工具怎样组成一个解决方案
+
+追问阶段可以用“立题”等工具，把“买哪门课”重新看成“怎样改善活动报告”。分析时，工具各有分工：检查投入与退出、判断哪些未知值得先验证；如果试做后发现学习或执行障碍，再增加相应工具。**不要求你点名工具，也没有“最多四个”的上限；与问题无关的工具不会为了凑数加入。**
+
+你会看到“问题 → 工具分工 → 实际分析结果 → 综合方案 → 实施步骤”的联系，而非一串模型名称。复杂问题的完整示范见 [工具箱协作案例](docs/TOOLBOX-EXAMPLE.md)。
 
 ### 你会得到怎样的建议
 
@@ -132,6 +139,8 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 | 你想做什么 | 可以直接发送 |
 |---|---|
+| 只有模糊困惑 | “我最近总觉得事情不对劲，但说不清，请先一步步帮我看清。” |
+| 理解或改善问题 | “我想弄清为什么总卡在这里，再找到处理办法，不一定是二选一。” |
 | 比较方案 | “请用思维模型决策工具，比较这几个选择，先帮我弄清目标和限制。” |
 | 已准备好材料 | “请根据这些背景、选项和约束，直接给行动计划。” |
 | 不想继续回答 | “先根据现有信息给阶段性计划，把未知和条件写清楚。” |
@@ -155,13 +164,13 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 ## 资料、来源与维护
 
-当前技能版本为 **1.12.0**，包含鬼子不言撰写的 142 篇思维模型原文、142 张操作卡、100 个万维钢工具条目及107条跨库关系。两套资料有重叠，242 个来源条目不等于 242 个彼此独立、全部验证过的模型。本轮新增 [**TM-142 课题分离**](skills/thinking-model-decision/references/cards/TM-142.md)，帮助分清一件事里的选择、行动和后果由谁承担，再商量各自的责任、可提供的支持和共同配合。承担后果是判断线索，不能直接用于裁定责任，也不能以此免除职责、伤害后的修正或必要帮助。逐步追问与默认 HTML 行动计划流程保持不变。
+当前技能版本为 **2.0.0**：142 篇鬼子不言思维模型原文、142 张操作卡、**142 个逐项设计的运行工具**、100 个万维钢工具来源条目及107条既有跨库关系。两库平等参与选择，存在机制重叠，不能把242个来源条目当成242个互不重复、全部验证过的模型。
 
-第 142 篇于 2026-10-17 13:18（北京时间）发表，本轮通过正常浏览器读取可见文字正文并完成文字比对；图片未下载或 OCR，位置未核定，历史归因、作者对谈、专业人物引语和效果表述未独立核验。文字归档不等于完整媒体归档。来源整理及本轮验证范围见 [第142篇更新记录](skills/thinking-model-decision/references/evaluation/results-v1.12.md)。本轮完成两项卡片模拟、一项入口回归及结构与打包检查；12项原始检索中11项进入前八，一项长句未召回，两项关键词回退检查可找到。已保留原失败，不代表全部模型、所有客户端或现实效果均已验证。此前版本的检查不作为本轮已经通过的证据。
+v2.0 增加提问工具箱、互补工具编排、工具成果交接、综合方案与整体资源核算。原文和原卡保留，运行工具单独记录来源指纹与试跑范围；今后每新增一篇，就同步补齐相应工具、索引和验证。实际验证与未覆盖范围见 [v2.0 检查记录](skills/thinking-model-decision/references/evaluation/results-v2.0.md)，结构完整、模拟表现、跨客户端实机测试与现实效果是不同层次。
 
 本工具使用 [Agent Skills 开放格式](https://agentskills.io/specification)。格式可以复用，各智能体的安装和资源访问能力仍有差异；本项目没有逐一实测所有产品，也不需要额外的专用 API Key。模型服务的账号和额度由你所用的平台提供。
 
-- [模型目录](skills/thinking-model-decision/references/user-catalog.md) · [万维钢工具目录](skills/thinking-model-decision/references/wan-catalog.md)
+- [运行工具目录](skills/thinking-model-decision/references/tool-catalog.md) · [原文与模型卡目录](skills/thinking-model-decision/references/user-catalog.md) · [万维钢工具目录](skills/thinking-model-decision/references/wan-catalog.md)
 - [来源说明](skills/thinking-model-decision/references/source-notes.md) · [使用与署名说明](NOTICE.md)
 - [历次更新与验证范围](docs/VERSION-HISTORY.md) · [此前新手说明审阅](docs/ONBOARDING-REVIEW.md) · [新手与跨 Agent 检查](docs/USABILITY-REVIEW.md)
 

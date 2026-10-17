@@ -1,0 +1,4648 @@
+{
+  "schema_version": 2,
+  "version": "2.0.0",
+  "scope": "142 runtime tools; source checking, recorded trials, reviewed trials and real outcomes are distinct.",
+  "tools": [
+    {
+      "id": "TM-001",
+      "name": "易得性偏差",
+      "task": "校准被鲜明个案带偏的判断",
+      "roles": [
+        "证据",
+        "解释"
+      ],
+      "signals": [
+        "刚看到事故",
+        "印象很深",
+        "到处都在说",
+        "担心发生"
+      ],
+      "output": "显眼依据与总体证据对照",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-001.md",
+      "source_sha256": "4973c7eda7b9015d3d7bd24c6dadee691bb715772390935f7f49db0be7bd4901",
+      "card_path": "references/cards/TM-001.md",
+      "card_sha256": "5c50cb54989d7d897a46732aecc6759345af7b9cf1e71db3d503692dfd43090d",
+      "runtime_path": "references/tools/TM-001.md",
+      "runtime_sha256": "a492b732044c08e8de43fa2e965c10d211cafc8208bc305eec3d078c774cb5eb"
+    },
+    {
+      "id": "TM-002",
+      "name": "确认性偏差",
+      "task": "检查支持与反对证据是否受到同样审查",
+      "roles": [
+        "证据",
+        "复盘"
+      ],
+      "signals": [
+        "早就认定",
+        "只找到支持",
+        "反对都不算",
+        "证明我对"
+      ],
+      "output": "带反证条件的判断日志",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-002.md",
+      "source_sha256": "387eec578550c4378674f8e40605c2fa327344683354bb75a4c465a7d1e944cf",
+      "card_path": "references/cards/TM-002.md",
+      "card_sha256": "8d79bcee0529ca8d26a308d9932e7ab647a2af292118a414c07c7b23cadd3e63",
+      "runtime_path": "references/tools/TM-002.md",
+      "runtime_sha256": "289e2f428d6a4bffb3f8b2096074c2c3826c86ce1856c31d56ea1a334ade3979"
+    },
+    {
+      "id": "TM-003",
+      "name": "光环效应",
+      "task": "把整体印象拆成有独立依据的评价",
+      "roles": [
+        "证据",
+        "取舍"
+      ],
+      "signals": [
+        "名气很大",
+        "名校背景",
+        "一次失误",
+        "样样都好"
+      ],
+      "output": "分维度证据表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-003.md",
+      "source_sha256": "829b586d1727e1bc9781dbd674d58236799e3ca8c7c9545384d3b818bf715d18",
+      "card_path": "references/cards/TM-003.md",
+      "card_sha256": "3213052fe0fec9af645500fb3a5e7e9af9fa507debd1cc8882603c4d19aee7ee",
+      "runtime_path": "references/tools/TM-003.md",
+      "runtime_sha256": "3044cd609abd43e9e4ff5f28621723d0c48a4e29fc7304d7b0af335db21d326d"
+    },
+    {
+      "id": "TM-004",
+      "name": "幸存者偏差",
+      "task": "补出退出者与分母再判断经验能否迁移",
+      "roles": [
+        "证据",
+        "解释"
+      ],
+      "signals": [
+        "成功经验",
+        "活跃用户",
+        "退出的人",
+        "只看留下者"
+      ],
+      "output": "样本筛选图与迁移限制",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-004.md",
+      "source_sha256": "24996a8ee64e7b40feebac0b46b9e7727eeb4d6def3b8a41042189cf9d473b97",
+      "card_path": "references/cards/TM-004.md",
+      "card_sha256": "98b7173695f8a1eccecc56c5cc207c2328607cd3ff50b9c241fa8982c04085d0",
+      "runtime_path": "references/tools/TM-004.md",
+      "runtime_sha256": "9dd561f7931390b9e036d2ce7c668f00ff7dfeec2d7fadfe43d09f12706f5d0d"
+    },
+    {
+      "id": "TM-005",
+      "name": "锚定效应",
+      "task": "从独立依据重建数值范围与底线",
+      "roles": [
+        "证据",
+        "取舍"
+      ],
+      "signals": [
+        "先报价格",
+        "工期拍板",
+        "原价打折",
+        "围着数字转"
+      ],
+      "output": "锚点与独立估计对照",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-005.md",
+      "source_sha256": "96e572012b93208e6907dbf226e85526d982b1fe4496e5b4c0f24558eafeaa65",
+      "card_path": "references/cards/TM-005.md",
+      "card_sha256": "65b35589efccdf343a3ed1142b623501a741cf79d0d66f7169be593a12496f2a",
+      "runtime_path": "references/tools/TM-005.md",
+      "runtime_sha256": "d3f7a2e563fd05f652df40664038b474d7661271aa2c9b4c493f45f8d735f534"
+    },
+    {
+      "id": "TM-006",
+      "name": "聚光灯效应",
+      "task": "校准他人关注并恢复必要行动",
+      "roles": [
+        "解释",
+        "执行"
+      ],
+      "signals": [
+        "怕别人看我",
+        "一次口误",
+        "不敢发言",
+        "反复想出丑"
+      ],
+      "output": "预期关注与实际反馈记录",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-006.md",
+      "source_sha256": "52a0cdcfa2d960b48dee23f95e482faf7129573d53f617c7ed6add65ead2e9da",
+      "card_path": "references/cards/TM-006.md",
+      "card_sha256": "e502f3b495e3bc4bd1fb6f34c86d28cdc588a965043f4ae6ccc7330b7cba7890",
+      "runtime_path": "references/tools/TM-006.md",
+      "runtime_sha256": "99b2af4359728823a593041ac4bc4671478988b1fa8d905d69c457908a09da5e"
+    },
+    {
+      "id": "TM-007",
+      "name": "路径依赖",
+      "task": "找出旧流程锁定点并设计可回退迁移",
+      "roles": [
+        "解释",
+        "约束",
+        "执行"
+      ],
+      "signals": [
+        "一直这么做",
+        "换不动",
+        "旧系统",
+        "牵一发动全身"
+      ],
+      "output": "强化关系图与迁移试点",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-007.md",
+      "source_sha256": "7eaa9b1d989ea887f65628d4cd82fe776328aa56f959921c86bc3662e07ef688",
+      "card_path": "references/cards/TM-007.md",
+      "card_sha256": "1ec47c33031b712503a3410235093d6d68702abdb5b045da67f51ba10d4f5028",
+      "runtime_path": "references/tools/TM-007.md",
+      "runtime_sha256": "cc37547723935d05a1837b037369f1a348da13417dd69978ebca5b9e4fa5771e"
+    },
+    {
+      "id": "TM-008",
+      "name": "禀赋效应",
+      "task": "区分真实持有价值与仅因拥有而加价",
+      "roles": [
+        "取舍",
+        "解释"
+      ],
+      "signals": [
+        "舍不得卖",
+        "已经是我的",
+        "闲置续费",
+        "别人出价太低"
+      ],
+      "output": "拥有与未拥有视角价差表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-008.md",
+      "source_sha256": "259e8069357a21cee07ec5237de2c3cb6311e29ee9bb260bfcac74cf57b103fd",
+      "card_path": "references/cards/TM-008.md",
+      "card_sha256": "581101629e72a1871c561e8d6f082f50538c46837515ed7d49c4661c750676fa",
+      "runtime_path": "references/tools/TM-008.md",
+      "runtime_sha256": "19d5556162ac616db86bb43d8c1eb5edcebe6edf11c3f88a3b46469a6cc781aa"
+    },
+    {
+      "id": "TM-009",
+      "name": "频率错觉",
+      "task": "把注意变多与外界真实增长分开",
+      "roles": [
+        "证据",
+        "解释"
+      ],
+      "signals": [
+        "突然到处都是",
+        "刚学新词",
+        "信息流都在推",
+        "最近好像很多"
+      ],
+      "output": "注意与趋势竞争解释表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-009.md",
+      "source_sha256": "f0f59aab3352a4f8d9a23ef8d6297ef104178e78827b563c02d382c9eb8a3570",
+      "card_path": "references/cards/TM-009.md",
+      "card_sha256": "a7863e86fb2b703d9291c23ac42bfdca416fa5cf82107c5d5fbc48bdd6661988",
+      "runtime_path": "references/tools/TM-009.md",
+      "runtime_sha256": "cf3f9ccd21df74615a34f67ea90dce4fee5f8d06d4ce5eb367484ce38a85431d"
+    },
+    {
+      "id": "TM-010",
+      "name": "登门槛效应",
+      "task": "把逐次加码的要求重新分开决定",
+      "roles": [
+        "约束",
+        "取舍"
+      ],
+      "signals": [
+        "已经答应了",
+        "再帮一点",
+        "越来越多",
+        "不好撤回"
+      ],
+      "output": "承诺链与升级确认点",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-010.md",
+      "source_sha256": "5cdcca2fa1d510e6f4a3ff356329a30469048c513ceaedeea2c021d355271039",
+      "card_path": "references/cards/TM-010.md",
+      "card_sha256": "312f2a89a3725676f644e1f948d070385f5a5c11b787f8fd13d1bb095242612a",
+      "runtime_path": "references/tools/TM-010.md",
+      "runtime_sha256": "bb266ebcf1443344e0eb4580918d08424be16b1bc49d0642b007715407cc3910"
+    },
+    {
+      "id": "TM-011",
+      "name": "习得性无助",
+      "task": "把做什么都没用拆成可控行动与真实障碍",
+      "roles": [
+        "解释",
+        "约束",
+        "执行"
+      ],
+      "signals": [
+        "做了也没用",
+        "我永远不行",
+        "反复受挫",
+        "不想再试"
+      ],
+      "output": "可控性地图与行动反馈",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-011.md",
+      "source_sha256": "122c5b936310b22fc6638f2ca1db2570f7708941575452c444ace853a3efaafe",
+      "card_path": "references/cards/TM-011.md",
+      "card_sha256": "84afdedbb9d4e89cbefc1f8e1a5ad60216a54cdef51ba2c4936b19c61e11ab2e",
+      "runtime_path": "references/tools/TM-011.md",
+      "runtime_sha256": "23a207ccc63d74573e04f73745207dc655e16a6ce7f837f75941bd92dff703d1"
+    },
+    {
+      "id": "TM-012",
+      "name": "框架效应",
+      "task": "用等价重述检验选择是否被说法带动",
+      "roles": [
+        "澄清",
+        "取舍"
+      ],
+      "signals": [
+        "换个说法",
+        "成功还是失败",
+        "不甘心冒险",
+        "被词语带着走"
+      ],
+      "output": "等价重述与中性结果表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-012.md",
+      "source_sha256": "8ac534576071ff30cecfe601de0531964eb7e705cfd58eedc927fcb0319442f3",
+      "card_path": "references/cards/TM-012.md",
+      "card_sha256": "bc8f8cc66f4bb210e0ce00d983442717a4e5faee82ee1c861c62402b23b97eb1",
+      "runtime_path": "references/tools/TM-012.md",
+      "runtime_sha256": "7e6d1403e8a70087eaa3388d5c885250b5983b7f26502af9df3a56ee9a049fcd"
+    },
+    {
+      "id": "TM-013",
+      "name": "心理账户",
+      "task": "把不同标签的钱还原成总账和真实约束",
+      "roles": [
+        "澄清",
+        "约束",
+        "取舍"
+      ],
+      "signals": [
+        "奖金随便花",
+        "每天只要",
+        "预算不能挪",
+        "红包不心疼"
+      ],
+      "output": "总成本与账户规则表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-013.md",
+      "source_sha256": "47efd39e4e219876a32f7f23b9dad845219ed80401167f95da0f224b5eb7e2a3",
+      "card_path": "references/cards/TM-013.md",
+      "card_sha256": "a388cc8657359443d48f6258f8953431c995e039817d0f9cfcd698d993dac51d",
+      "runtime_path": "references/tools/TM-013.md",
+      "runtime_sha256": "e340038f1961b1c6619e962a072af35168879db040aa36a70e2dfca82f7167d4"
+    },
+    {
+      "id": "TM-014",
+      "name": "巴纳姆效应",
+      "task": "把专属评价拆成可检验的具体描述",
+      "roles": [
+        "证据",
+        "澄清"
+      ],
+      "signals": [
+        "说得太准",
+        "专属测评",
+        "很有潜力",
+        "性格标签"
+      ],
+      "output": "描述区分力与证据清单",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-014.md",
+      "source_sha256": "be10680f1c48c8c641e7d528ceab06a06f4a9a3542fa16e496235d511374c80a",
+      "card_path": "references/cards/TM-014.md",
+      "card_sha256": "6d1d805b594d3e8f3fb7126cd20e6d4c82e7ad87a3a20cc03dcfb2f1c917943a",
+      "runtime_path": "references/tools/TM-014.md",
+      "runtime_sha256": "4c794cc54bbd476e02f9131caeeddda13a194fb33fdb75f3a11153c5103e5e8f"
+    },
+    {
+      "id": "TM-015",
+      "name": "诱饵效应",
+      "task": "去掉被支配选项后按真实需要重选",
+      "roles": [
+        "取舍",
+        "澄清"
+      ],
+      "signals": [
+        "三档套餐",
+        "升级更划算",
+        "没人选那档",
+        "加一点就好"
+      ],
+      "output": "属性矩阵与支配关系",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-015.md",
+      "source_sha256": "5d4769b4cd9faa5cedfaf76b40eed13a8e7b7fc8123bb26d93d8103662b39ea3",
+      "card_path": "references/cards/TM-015.md",
+      "card_sha256": "dda01e44ad07b6706b41903da75d679562bda17ac34e61924127becb244015a8",
+      "runtime_path": "references/tools/TM-015.md",
+      "runtime_sha256": "523bfdd61c3b2c4b3f5a69f4b435f22b54590d96c43893a80b59be5f77620113"
+    },
+    {
+      "id": "TM-016",
+      "name": "损失厌恶",
+      "task": "分清不甘认亏与真实不能承受的损失",
+      "roles": [
+        "取舍",
+        "约束"
+      ],
+      "signals": [
+        "不甘心",
+        "想翻回来",
+        "怕白费",
+        "舍不得停"
+      ],
+      "output": "参考点与未来行动条件",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-016.md",
+      "source_sha256": "deff516be5e4e8b8e80cd866487d2dc48199529c4829fdc782b0c049fc42dc90",
+      "card_path": "references/cards/TM-016.md",
+      "card_sha256": "b5028090a983c30ab862b24958df67e789229e8abf6b3d261a7a45dc59f78afb",
+      "runtime_path": "references/tools/TM-016.md",
+      "runtime_sha256": "0ed3780437fa29c0064c49c89b817c34f045e215bfc412f2b58475a48febc053"
+    },
+    {
+      "id": "TM-017",
+      "name": "宜家效应",
+      "task": "分开亲手完成的成就感与成果使用价值",
+      "roles": [
+        "证据",
+        "取舍"
+      ],
+      "signals": [
+        "自己做的最好",
+        "不舍得改稿",
+        "花心血完成",
+        "别人不识货"
+      ],
+      "output": "作者视角与使用反馈表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-017.md",
+      "source_sha256": "46304db5f7972df5494d39df6d3f87a4db9d2643b19f84b8a810c6c96c0f59c5",
+      "card_path": "references/cards/TM-017.md",
+      "card_sha256": "22aa37c5e019cd6059d2e4e461d53ee735d89834fbebc08e83e6a72506fff6af",
+      "runtime_path": "references/tools/TM-017.md",
+      "runtime_sha256": "d05b99b5b13efd461354b2cc81343fef7923a63804dd471a34dae49435b8c0e2"
+    },
+    {
+      "id": "TM-018",
+      "name": "叙述谬误",
+      "task": "拆开顺畅故事与可核验因果解释",
+      "roles": [
+        "证据",
+        "解释"
+      ],
+      "signals": [
+        "肯定因为",
+        "故事太顺",
+        "事后解释",
+        "一个原因包办"
+      ],
+      "output": "事实叙事表与区分性证据",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-018.md",
+      "source_sha256": "2ae4851affd1a79e7d83c0367a72b02f3bbe78a2b6450b6427cc55a34400729d",
+      "card_path": "references/cards/TM-018.md",
+      "card_sha256": "6cc67bb7f8c1327657e7c568079046601cffb7ef1a5b0654b087b4f44948ff0e",
+      "runtime_path": "references/tools/TM-018.md",
+      "runtime_sha256": "a71ed2434fa64b8d799af75e1678c05cf0a018c73b19ab3d8d803dd2bdb3d94f"
+    },
+    {
+      "id": "TM-019",
+      "name": "赌徒谬误",
+      "task": "检查连续结果是否真的改变下一次机制",
+      "roles": [
+        "证据",
+        "解释"
+      ],
+      "signals": [
+        "总该轮到",
+        "连败必胜",
+        "连续太多",
+        "下次该反转"
+      ],
+      "output": "独立性与机制变化检查",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-019.md",
+      "source_sha256": "b3fb6c1bd18cacbe2497b97c44ea43af38d842ad3f46d566dfd0abbc2274acfa",
+      "card_path": "references/cards/TM-019.md",
+      "card_sha256": "9bd7373950e494dc92c5f5c821f97486310741a68858796373f6caf4de5fc558",
+      "runtime_path": "references/tools/TM-019.md",
+      "runtime_sha256": "55d55ec4243f44cc3e7e33ba737d373f874e525affdbd9b76dfdf61a6c2cfba9"
+    },
+    {
+      "id": "TM-020",
+      "name": "规划谬误",
+      "task": "用同类实际结果校准工期和交付承诺",
+      "roles": [
+        "证据",
+        "执行",
+        "约束"
+      ],
+      "signals": [
+        "这次会顺利",
+        "总是延期",
+        "计划很细",
+        "来不及交付"
+      ],
+      "output": "参考类基线与复估节点",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-020.md",
+      "source_sha256": "be4b88e12e66f3aaadf187c7f57542ee16e425e2a70fbe580170d1ce504e6383",
+      "card_path": "references/cards/TM-020.md",
+      "card_sha256": "4aea9493d62392dacf1832a2e15e1a8c42188d2eb03f31262a56549fc1a2cb67",
+      "runtime_path": "references/tools/TM-020.md",
+      "runtime_sha256": "6475bde847017f8267328c7a9d1e967d36b3517754a99ee7c23dcdca43fcd1fe"
+    },
+    {
+      "id": "TM-021",
+      "name": "铁锤人思维",
+      "task": "先恢复原问题再选择合适的方法",
+      "roles": [
+        "澄清",
+        "选项"
+      ],
+      "signals": [
+        "先上工具",
+        "什么都做表",
+        "老办法万能",
+        "刚成功一次"
+      ],
+      "output": "原问题与工具适配表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-021.md",
+      "source_sha256": "f081797bd38f0d5bafeb7372a3b3c03873c28f1e88120e96bb0c943b3daad239",
+      "card_path": "references/cards/TM-021.md",
+      "card_sha256": "43770a067cc8ee491d3e9931002cb738d03bf6d49af23ce4f154fdcb9906bdae",
+      "runtime_path": "references/tools/TM-021.md",
+      "runtime_sha256": "29081bcea8b2b609b04e4c0a276bf576cd0e65d9b27e79c9e4cf966da1a8cbbb"
+    },
+    {
+      "id": "TM-022",
+      "name": "默认选项偏差",
+      "task": "看清不操作会发生什么并主动取舍",
+      "roles": [
+        "澄清",
+        "约束",
+        "取舍"
+      ],
+      "signals": [
+        "自动续费",
+        "默认勾选",
+        "一直没改",
+        "系统推荐"
+      ],
+      "output": "默认后果与保留修改清单",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-022.md",
+      "source_sha256": "8c9bd5a6b980b40f97a3a7a5a6316370ead2fc8aeda9d40bf54fb45d3a7d0c7a",
+      "card_path": "references/cards/TM-022.md",
+      "card_sha256": "ba733e0aa8537919f1049bee877ca35b0ba160ce71e7c43ed5ce8e90405136c5",
+      "runtime_path": "references/tools/TM-022.md",
+      "runtime_sha256": "573d9db9d2d9bf9528654b8b8a31df4c8687414029cd9c33fb1501523b99377d"
+    },
+    {
+      "id": "TM-023",
+      "name": "安慰剂效应",
+      "task": "区分体验变化与特定处理的实际作用",
+      "roles": [
+        "证据",
+        "解释"
+      ],
+      "signals": [
+        "感觉有效",
+        "仪式之后",
+        "期待改善",
+        "前后对比"
+      ],
+      "output": "改善指标与竞争解释清单",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-023.md",
+      "source_sha256": "77c81a2c802c38f99000fbcce6d69194df757c3285679c65020bf9bf5cfed647",
+      "card_path": "references/cards/TM-023.md",
+      "card_sha256": "cf8be01a21f3eae2e5692a27da0acd9c4d1e7bddfbb4d5e1ace72e04e2b12d30",
+      "runtime_path": "references/tools/TM-023.md",
+      "runtime_sha256": "59c1feb85106aa799f5a4b4754da405ce0d4a0d680fde5a013546c97716e0501"
+    },
+    {
+      "id": "TM-024",
+      "name": "峰终定律",
+      "task": "补全体验过程或改善关键节点与结尾",
+      "roles": [
+        "复盘",
+        "选项",
+        "执行"
+      ],
+      "signals": [
+        "结尾很精彩",
+        "只记得高潮",
+        "活动体验",
+        "离场感受"
+      ],
+      "output": "全过程与峰终记忆对照",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-024.md",
+      "source_sha256": "210b79bce62c100df942f277e6f6181409925b1513249ad30ade34bd864c3198",
+      "card_path": "references/cards/TM-024.md",
+      "card_sha256": "315dc2ba17251a6c6c2a308c91ba16718b19f52dc8c2269244f9e49704084e78",
+      "runtime_path": "references/tools/TM-024.md",
+      "runtime_sha256": "08a86d37f568b4d59401d234b9b1746fdda681cb76dc6cfd718b4245b85c2643"
+    },
+    {
+      "id": "TM-025",
+      "name": "基本归因谬误",
+      "task": "把人格标签还原为行为情境与责任",
+      "roles": [
+        "解释",
+        "参与者"
+      ],
+      "signals": [
+        "他就是不靠谱",
+        "态度不好",
+        "不重视我",
+        "一次迟到"
+      ],
+      "output": "行为情境责任对照",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-025.md",
+      "source_sha256": "200a0e22f029689c172802e56a8415275dafbee78c2a500be7a82de38fa2e434",
+      "card_path": "references/cards/TM-025.md",
+      "card_sha256": "b41b9de21657f30e8336ca536ba87bf6b503b734c96c8258bac7465597a1e3cc",
+      "runtime_path": "references/tools/TM-025.md",
+      "runtime_sha256": "667fa72addec8106f0ee0b03c16a6bebe2acb30c16cb603cb13697e2197dfa89"
+    },
+    {
+      "id": "TM-026",
+      "name": "达克效应",
+      "task": "用具体任务与外部标准校准能力自评",
+      "roles": [
+        "证据",
+        "学习"
+      ],
+      "signals": [
+        "刚学会就全懂",
+        "不知道错哪",
+        "自评很高",
+        "一次成功"
+      ],
+      "output": "自评表现与训练差距记录",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-026.md",
+      "source_sha256": "bd3c27856a8305491c03a409c0021da82f352dba44435e52e5df7cd21b71a71d",
+      "card_path": "references/cards/TM-026.md",
+      "card_sha256": "79be6dc6eba25871abc55545cbe5552ecf652f2a2ab10e4b239b6f8dad86099a",
+      "runtime_path": "references/tools/TM-026.md",
+      "runtime_sha256": "12bdac1f4005a6647b76a84ea9dbaeebcee281b2ad348fceea05e05868ca6117"
+    },
+    {
+      "id": "TM-027",
+      "name": "社会认同倾向",
+      "task": "检查热门与好评是否能支持自己的选择",
+      "roles": [
+        "证据",
+        "取舍"
+      ],
+      "signals": [
+        "大家都买",
+        "点赞很多",
+        "排队长",
+        "万人报名"
+      ],
+      "output": "社会信号与需求匹配清单",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl",
+        "references/evaluation/v2.0/retest-responses.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl",
+        "references/evaluation/v2.0/final-behavior-review.json"
+      ],
+      "source_path": "references/user-models/TM-027.md",
+      "source_sha256": "17e7c31f4a5fb47a7d6942b71c840dce13c104fc0f595dbda7c7d9028dfb88c6",
+      "card_path": "references/cards/TM-027.md",
+      "card_sha256": "88a8a6a7e851760bfb9df6b072b16f38ca0055f00e06e49d854846e3cf883ffd",
+      "runtime_path": "references/tools/TM-027.md",
+      "runtime_sha256": "b11c3dba15b0d0eed6a4d94fe3071ccb36a77ffd3f8614b44639dea7c3233fe7"
+    },
+    {
+      "id": "TM-028",
+      "name": "从众效应",
+      "task": "保留独立判断并把异议安全带入讨论",
+      "roles": [
+        "参与者",
+        "证据"
+      ],
+      "signals": [
+        "全场点头",
+        "怕不合群",
+        "我也没意见",
+        "不好反对"
+      ],
+      "output": "初始判断与共识变化记录",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-028.md",
+      "source_sha256": "1afb1876b6e300df12f8c9b44ad6530ce74b3a06cb47d4384b3a3364456fd445",
+      "card_path": "references/cards/TM-028.md",
+      "card_sha256": "034aea400c5f49ecd41e3998f0278c83e762a0fa179edea4bd3cc3791fdc895e",
+      "runtime_path": "references/tools/TM-028.md",
+      "runtime_sha256": "68f1840957063e1e5091e86859b4eb92bd6f3af06eab97913dd77302acb8f4f9"
+    },
+    {
+      "id": "TM-029",
+      "name": "羊群效应",
+      "task": "拆开跟随链中的独立信息与模仿",
+      "roles": [
+        "证据",
+        "二阶",
+        "参与者"
+      ],
+      "signals": [
+        "大家都跟进",
+        "队伍越来越长",
+        "别人知道内幕",
+        "怕错过"
+      ],
+      "output": "行动来源链与加入退出条件",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-029.md",
+      "source_sha256": "4efd08cd2f265c9e07775070479d6cd9f907712db372ba2cc0f0d6d8683d499b",
+      "card_path": "references/cards/TM-029.md",
+      "card_sha256": "00156d158606ff8c40ffe06df20037c6555921df8e5c3b4ca217766e93563219",
+      "runtime_path": "references/tools/TM-029.md",
+      "runtime_sha256": "3ab8923118b772eda0384455c78868fd1f611e91d6934e2a3be158fbbf9483fe"
+    },
+    {
+      "id": "TM-030",
+      "name": "权威偏误",
+      "task": "把身份背书还原为专业范围与证据",
+      "roles": [
+        "证据",
+        "取舍"
+      ],
+      "signals": [
+        "专家说的",
+        "领导拍板",
+        "权威报告",
+        "大厂都这么干"
+      ],
+      "output": "主张专业证据与条件表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-030.md",
+      "source_sha256": "fc175ffc0af9cead6e6e78a02ff2f3bb8ceda46b1736a590a0b842318d2e0028",
+      "card_path": "references/cards/TM-030.md",
+      "card_sha256": "18c2cfdb680804786a4fda567f32dee369bf510b86a625fb550a8f5e92c56d62",
+      "runtime_path": "references/tools/TM-030.md",
+      "runtime_sha256": "ee9693055dd12e2cf7033a5138f199e956ea6cfda72b34738e17f6a3e9ee422b"
+    },
+    {
+      "id": "TM-031",
+      "name": "单纯曝光效应",
+      "task": "把眼熟好感与真实使用证据分开",
+      "roles": [
+        "证据",
+        "取舍"
+      ],
+      "signals": [
+        "总能看到",
+        "很眼熟",
+        "熟悉才放心",
+        "广告看多了"
+      ],
+      "output": "熟悉来源与试用证据表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-031.md",
+      "source_sha256": "6c1ee3613d6b4e984fe760eaf9a9d5701750d6b5e188978ff56facbb38387de7",
+      "card_path": "references/cards/TM-031.md",
+      "card_sha256": "963975bed34d6893e95282d070d4fce85e2cf9199c0d2306a3cd124d1391430f",
+      "runtime_path": "references/tools/TM-031.md",
+      "runtime_sha256": "d907097fd825f95511629f2b2d4d864fac3812f56b66b34ef9dee003a1855915"
+    },
+    {
+      "id": "TM-032",
+      "name": "沉默螺旋",
+      "task": "让未表达的意见可见而不把沉默当同意",
+      "roles": [
+        "参与者",
+        "证据"
+      ],
+      "signals": [
+        "没人反对",
+        "不敢开口",
+        "表面一致",
+        "怕被孤立"
+      ],
+      "output": "支持保留未知与反馈安排",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-032.md",
+      "source_sha256": "4c600cdee8342f677a83a294753258129377c3dd524d40e58c3527661ccb04e8",
+      "card_path": "references/cards/TM-032.md",
+      "card_sha256": "8ce4419cf69ae4ce3881573537bbabbb23eab97889def288f6c9e21307b1ec68",
+      "runtime_path": "references/tools/TM-032.md",
+      "runtime_sha256": "a1190d663592045a905c85ffd6093b18677ac84aff8f4af3ee196cd9ae5ef1ba"
+    },
+    {
+      "id": "TM-033",
+      "name": "旁观者效应",
+      "task": "把大家都知道转成有人接受并完成的任务",
+      "roles": [
+        "参与者",
+        "执行"
+      ],
+      "signals": [
+        "大家关注一下",
+        "总有人处理",
+        "群里没人接",
+        "责任悬空"
+      ],
+      "output": "责任接受与完成回执表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-033.md",
+      "source_sha256": "51793f66e707c3878bd9b8ec19764f9899d0e8170aaa14981957d4d1c5d585bb",
+      "card_path": "references/cards/TM-033.md",
+      "card_sha256": "86ca38ba5c76928ab9ec0d8f300c0d419c6ea6c2f3f02bec75bc7c1259d44751",
+      "runtime_path": "references/tools/TM-033.md",
+      "runtime_sha256": "ff935c2a912b5a5e57f0020a2344f0a4126d9529e0899f24cb15f67111a6eefd"
+    },
+    {
+      "id": "TM-034",
+      "name": "社会期许偏误",
+      "task": "改写体面问法并核对真实行为与限制",
+      "roles": [
+        "证据",
+        "参与者"
+      ],
+      "signals": [
+        "都说挺好",
+        "标准答案",
+        "愿意付费",
+        "问不出真话"
+      ],
+      "output": "中性问题与行为核对表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-034.md",
+      "source_sha256": "4858dd5e207ac4153c7387203d57b461f903351a60aceb4c33470457b84712e1",
+      "card_path": "references/cards/TM-034.md",
+      "card_sha256": "b04c815bea41ba168077a34c3e079f7adba315afe7a224e69084c9713d374788",
+      "runtime_path": "references/tools/TM-034.md",
+      "runtime_sha256": "43ffa182f83361b48401fdfab723e97f942b7e382d6624fc2dd4c57b0c38bb3d"
+    },
+    {
+      "id": "TM-035",
+      "name": "蜂巢思维",
+      "task": "让分散贡献通过交接和反馈进入下一轮行动",
+      "roles": [
+        "参与者",
+        "执行",
+        "学习"
+      ],
+      "signals": [
+        "消息很多没推进",
+        "交接丢失",
+        "问题反复",
+        "各干各的"
+      ],
+      "output": "有责任与反馈的协作流转图",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-035.md",
+      "source_sha256": "3bd6137623882d8a29591c35673546b2bc3e4f9694c6b1882623d8211e5956f1",
+      "card_path": "references/cards/TM-035.md",
+      "card_sha256": "b262ea979abb55b7327583aae06cd082180ad351aed224ac9e4bf7df6fe8b532",
+      "runtime_path": "references/tools/TM-035.md",
+      "runtime_sha256": "984301bc270f4098f528266b7f9567905b7e5b1c082eb9a0d12c6ccbc3947261"
+    },
+    {
+      "id": "TM-036",
+      "name": "群体迷思",
+      "task": "让风险异议和替代方案真正进入共识形成",
+      "roles": [
+        "参与者",
+        "选项",
+        "证据"
+      ],
+      "signals": [
+        "一致通过",
+        "别打击士气",
+        "只谈怎么做",
+        "反对没回应"
+      ],
+      "output": "经异议检验的决策记录",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-036.md",
+      "source_sha256": "d8a2fce58bd6e4b67a71bb0cfe568dc3620f541afa6d5d34712bb0724d6b3e4c",
+      "card_path": "references/cards/TM-036.md",
+      "card_sha256": "565601acf3dcd55afe16697cec091fe05df9b5658b93baac8993fd2ced7aa49a",
+      "runtime_path": "references/tools/TM-036.md",
+      "runtime_sha256": "5ddf0f1f15eeebe39506bb0962b66f09a606f791e410e195393b02ff20c9f415"
+    },
+    {
+      "id": "TM-037",
+      "name": "群体极化",
+      "task": "检查讨论后的加码是否来自新证据",
+      "roles": [
+        "证据",
+        "二阶",
+        "参与者"
+      ],
+      "signals": [
+        "越聊越激烈",
+        "必须全面铺开",
+        "外面都不懂",
+        "同类声音加码"
+      ],
+      "output": "讨论前后强度与证据对照",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl",
+        "references/evaluation/v2.0/retest-responses.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl",
+        "references/evaluation/v2.0/final-behavior-review.json"
+      ],
+      "source_path": "references/user-models/TM-037.md",
+      "source_sha256": "c59a2e31596fc4f467344e9e9d8dc1d60400962e27fb135337b6e569d41acab5",
+      "card_path": "references/cards/TM-037.md",
+      "card_sha256": "67d0a1ff5d1bc24cac6b4adc58e600f85d1e84d14032bb75731c1968fdce267e",
+      "runtime_path": "references/tools/TM-037.md",
+      "runtime_sha256": "c5e4f0372e2de43ea0d7f48461babb5eaaee7ed58178e6e9f6a818a5a3236b9a"
+    },
+    {
+      "id": "TM-038",
+      "name": "内群体偏差",
+      "task": "用同一标准比较自己人与外人的行为",
+      "roles": [
+        "证据",
+        "参与者",
+        "取舍"
+      ],
+      "signals": [
+        "自己人",
+        "外部门不靠谱",
+        "替熟人解释",
+        "两套标准"
+      ],
+      "output": "双方同标准证据表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-038.md",
+      "source_sha256": "86248ff5b12b5a200df4b93865be29c9f90181b206373e10ae06c1b92a1ac119",
+      "card_path": "references/cards/TM-038.md",
+      "card_sha256": "c1a18019c5f5b3b957c2bb3f3370032eb0df8598d369559c679df95faa4586bd",
+      "runtime_path": "references/tools/TM-038.md",
+      "runtime_sha256": "41273fff366b6a356dcab3af1e2346c6076adee08abe4061ef4ed5244d497f27"
+    },
+    {
+      "id": "TM-039",
+      "name": "外群体同质性偏误",
+      "task": "把他们都一样拆成样本与行动相关差异",
+      "roles": [
+        "澄清",
+        "证据",
+        "选项"
+      ],
+      "signals": [
+        "他们都一样",
+        "一类人都这样",
+        "用户只看价格",
+        "外部门统一标签"
+      ],
+      "output": "有限群体描述与差异响应",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-039.md",
+      "source_sha256": "93f961afbf0927a5ca44cd51bb6d892d26b995b7f08b163d9203ea76c7f1789a",
+      "card_path": "references/cards/TM-039.md",
+      "card_sha256": "ea685435f731c43ba2619debd97073a55672c55c73d29ea23a7583876e96c75a",
+      "runtime_path": "references/tools/TM-039.md",
+      "runtime_sha256": "f39061bb78d36919af6b4bd563fbc44d1012de180161afc4a0a7ce5f2a3a74a7"
+    },
+    {
+      "id": "TM-040",
+      "name": "虚假共识效应",
+      "task": "验证我喜欢是否真的代表目标人群",
+      "roles": [
+        "澄清",
+        "证据",
+        "选项"
+      ],
+      "signals": [
+        "大家肯定喜欢",
+        "正常人都会",
+        "我用着很好",
+        "应该都同意"
+      ],
+      "output": "目标人群假设与行为验证表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-040.md",
+      "source_sha256": "99f3829a7250875dca8ad942385bfa1c8ef8bf62636965f93f4998d6aacbea60",
+      "card_path": "references/cards/TM-040.md",
+      "card_sha256": "e3e8e68756fbbaab39cba053eaaa7b930cedfc0fe84105af52717b9c8ae5cb24",
+      "runtime_path": "references/tools/TM-040.md",
+      "runtime_sha256": "eb5ef6ec610692ef06104d22fe0f9859c796019d2e6a021b7ff95c3a8308add6"
+    },
+    {
+      "id": "TM-041",
+      "name": "部落化思维",
+      "task": "把阵营忠诚与事实方法分开讨论",
+      "roles": [
+        "澄清",
+        "参与者",
+        "证据"
+      ],
+      "signals": [
+        "你是哪边的",
+        "替他们说话",
+        "承认就输了",
+        "先看谁说"
+      ],
+      "output": "身份内容分离与共同核验表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-041.md",
+      "source_sha256": "0c7d5337cb1ffe263bc8b0779961aaf894228ed8b3e242a0ea54d3920ff83ece",
+      "card_path": "references/cards/TM-041.md",
+      "card_sha256": "b61f75056137af77bd415025dbaa680f8f2bf78bc9c57376b4fe644a0234539f",
+      "runtime_path": "references/tools/TM-041.md",
+      "runtime_sha256": "ab6574ef661821530c66f79dd4e8b8f5ec8fbb641670aa4202b1bf733e04aed3"
+    },
+    {
+      "id": "TM-042",
+      "name": "去个人化效应",
+      "task": "在群体气氛中恢复行为责任与后果意识",
+      "roles": [
+        "参与者",
+        "约束",
+        "执行"
+      ],
+      "signals": [
+        "没人知道是我",
+        "又不是我一个",
+        "跟着起哄",
+        "匿名越界"
+      ],
+      "output": "行动责任影响检查与纠错流程",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-042.md",
+      "source_sha256": "9e6f56458c2364f411700f9c02f29e1fc21f576f62903619ac03ed244c065fd8",
+      "card_path": "references/cards/TM-042.md",
+      "card_sha256": "1d92c3136769acdf32f383e4083a4abc4f1c03f4ca5a4ea3423e508ffed1cb4e",
+      "runtime_path": "references/tools/TM-042.md",
+      "runtime_sha256": "3279578721324b186a69f188b7f920833bb0dda9ec8b4751ffe180d31b1043ca"
+    },
+    {
+      "id": "TM-043",
+      "name": "我侧偏误",
+      "task": "用同一把尺子评估支持与反对材料",
+      "roles": [
+        "证据",
+        "取舍"
+      ],
+      "signals": [
+        "对我有利就可信",
+        "反方样本太小",
+        "两套证据标准",
+        "总替我方辩护"
+      ],
+      "output": "对称证据与换边修订表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-043.md",
+      "source_sha256": "0dda3dbbfa8fb7069031e4b08872db6aeda0c01ef3a8e41c80bf237949e00d9f",
+      "card_path": "references/cards/TM-043.md",
+      "card_sha256": "2bbca7a6302b2c567d8fed81b537369a203dab935b9f2dc28b4618ff26b5e233",
+      "runtime_path": "references/tools/TM-043.md",
+      "runtime_sha256": "6ad805db4b388e914e6760c1d8ff7e87ade47b2ff1200d2251d401ec3c82f7c6"
+    },
+    {
+      "id": "TM-044",
+      "name": "偏误盲点",
+      "task": "把检查别人的标准也用于自己的实际判断",
+      "roles": [
+        "证据",
+        "复盘"
+      ],
+      "signals": [
+        "偏误都在别人",
+        "我很客观",
+        "我不是故意的",
+        "懂很多模型"
+      ],
+      "output": "同标自查与具体校准记录",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-044.md",
+      "source_sha256": "6237d0d04e02051a29bf3fb6bbfeb62de92a7ca827575e9be3a79ff4c60635df",
+      "card_path": "references/cards/TM-044.md",
+      "card_sha256": "35c260e99b0c42336eafc9a42950a638cfee639efbf833f2cb6f8dc046933317",
+      "runtime_path": "references/tools/TM-044.md",
+      "runtime_sha256": "5fc275e54774fae1f2a1f5ff65528da02dcaf9ab9d929e21aa3e55fda18f0d36"
+    },
+    {
+      "id": "TM-045",
+      "name": "避免意识形态偏见",
+      "task": "为坚持的目标保留修改方法的证据入口",
+      "roles": [
+        "澄清",
+        "证据",
+        "复盘"
+      ],
+      "signals": [
+        "方向永远没错",
+        "失败只是执行差",
+        "不能质疑战略",
+        "怎么都能解释"
+      ],
+      "output": "可修改方法假设与暂停条件",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-045.md",
+      "source_sha256": "551f337d6b793ea6edc4d2740eb0eff57560f1cb16e011af814223f43eb969ac",
+      "card_path": "references/cards/TM-045.md",
+      "card_sha256": "eda089360b910e981ef32e998066328b7fad14c936204a235b703bb23092129a",
+      "runtime_path": "references/tools/TM-045.md",
+      "runtime_sha256": "b422eb4c2429dc30bf688ea556e55c4e5a36177ec068bc3ba3682be87496beb6"
+    },
+    {
+      "id": "TM-046",
+      "name": "认知吝啬",
+      "task": "在重要问题提前收工前补最关键的一次检查",
+      "roles": [
+        "澄清",
+        "证据"
+      ],
+      "signals": [
+        "很明显不用想",
+        "以前一直这样",
+        "看懂了就行",
+        "答案太顺"
+      ],
+      "output": "快捷答案与遗漏条件检查表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-046.md",
+      "source_sha256": "aca2210820c38240432ad5191ef56987c3d459e800d9f912f312a57226353bc1",
+      "card_path": "references/cards/TM-046.md",
+      "card_sha256": "b4d4af631a77bf8a7a08d4d0f5392d5ba8fe2b09a02106e71c7954fa862bc505",
+      "runtime_path": "references/tools/TM-046.md",
+      "runtime_sha256": "bb0db10fd83c3163189a61ddc1f3f564c1dab396b7bcbb1ed21c93d21603d4a1"
+    },
+    {
+      "id": "TM-047",
+      "name": "三重心智模型",
+      "task": "区分没启动检查与目标规则能力等不同障碍",
+      "roles": [
+        "解释",
+        "学习",
+        "执行"
+      ],
+      "signals": [
+        "认真了还错",
+        "会算却没查",
+        "分析只为证明",
+        "缺规则还是缺能力"
+      ],
+      "output": "判断功能诊断与修复动作图",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-047.md",
+      "source_sha256": "ec94524b1bec8831bac91da426b6e00050181d474b0e8b01652ec6b57adb0717",
+      "card_path": "references/cards/TM-047.md",
+      "card_sha256": "7c33c57c87d2f6a0b16e5917a8729b70c02e4e6e9ae9814122beb86e4caeaba0",
+      "runtime_path": "references/tools/TM-047.md",
+      "runtime_sha256": "347f3b72c1b948434dc7327187732e9898d47c651ca4a59403cb3e0ab4258840"
+    },
+    {
+      "id": "TM-048",
+      "name": "主动开放思维",
+      "task": "主动找强反证并让判断随证据更新",
+      "roles": [
+        "证据",
+        "学习",
+        "取舍"
+      ],
+      "signals": [
+        "调研只是找理由",
+        "没人反对也要查",
+        "不想改方案",
+        "最强反方"
+      ],
+      "output": "暂定判断反证与更新记录",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-048.md",
+      "source_sha256": "7c0ace9c741ddd2b1c65bb0ad8c1732621527b3b0f209fe309277efa209ed3c9",
+      "card_path": "references/cards/TM-048.md",
+      "card_sha256": "e3b7692121c1e6bd106e0d039ea3d4a6b8dae4e4d21a647c618fcdc24a366f7d",
+      "runtime_path": "references/tools/TM-048.md",
+      "runtime_sha256": "acf431b13d673cd54f5643c49b9a6feef893382f1c5021feea17e7d7871d8965"
+    },
+    {
+      "id": "TM-049",
+      "name": "可证伪性",
+      "task": "把迟早有效改成有条件有期限的可检验主张",
+      "roles": [
+        "澄清",
+        "证据",
+        "学习"
+      ],
+      "signals": [
+        "迟早有效",
+        "永远解释得通",
+        "失败还没做够",
+        "什么结果算错"
+      ],
+      "output": "可结算主张与修订预测",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-049.md",
+      "source_sha256": "f2e93ffe2aee002e1f03fd12b7ccdfd0d06f4f1586258b6d2c4a208a252cd656",
+      "card_path": "references/cards/TM-049.md",
+      "card_sha256": "a9b5e8fa5c06e74156508695a8fd09281c95bcdd843b824e86b94ea0bd2cb157",
+      "runtime_path": "references/tools/TM-049.md",
+      "runtime_sha256": "3acc6b6439886b670c86f744e2bbaebfe32edff6b9e31247501bb056983821e3"
+    },
+    {
+      "id": "TM-050",
+      "name": "竞争性假设分析",
+      "task": "让多个解释接受同一批证据的交叉检查",
+      "roles": [
+        "证据",
+        "解释"
+      ],
+      "signals": [
+        "原因各说各话",
+        "几个解释都通",
+        "异常怎么来的",
+        "先入为主找原因"
+      ],
+      "output": "小型假设证据矩阵与首要调查",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-001-050.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-001-050.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-001-050.jsonl"
+      ],
+      "source_path": "references/user-models/TM-050.md",
+      "source_sha256": "bf816c30a7b8431b1e8c1e1e30b38874274566db9b12b850431c3b94456a0902",
+      "card_path": "references/cards/TM-050.md",
+      "card_sha256": "5f3b3926e4c22d2d146dfeade12400e780c25c4c10cee3d1f5fed57dfd9daec2",
+      "runtime_path": "references/tools/TM-050.md",
+      "runtime_sha256": "2db9390697359749971443a5b118df3f15c049dc662b33387c72faf4d521469a"
+    },
+    {
+      "id": "TM-051",
+      "name": "置信度校准",
+      "task": "检查自己说得多有把握，是否长期配得上正确率",
+      "roles": [
+        "证据",
+        "学习",
+        "复盘"
+      ],
+      "signals": [
+        "我很有把握",
+        "预测总偏高",
+        "概率记录",
+        "事后改口"
+      ],
+      "output": "分档校准记录",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-051.md",
+      "source_sha256": "164ae2bf75e9881233fa1a23fbc5de803d07173aba14046346dfa8d488b805a3",
+      "card_path": "references/cards/TM-051.md",
+      "card_sha256": "b9b4b328431b482cc7ae2f7b37072bc3d45b6e5396e61f645a4385b1c2d7da67",
+      "runtime_path": "references/tools/TM-051.md",
+      "runtime_sha256": "7d7ff9fdd89222a84feb84ea62f92f2d42743093199b9d160c60e5c03e10132d"
+    },
+    {
+      "id": "TM-052",
+      "name": "概率思维",
+      "task": "把一定或不可能改成有依据的多种结果",
+      "roles": [
+        "澄清",
+        "解释",
+        "取舍"
+      ],
+      "signals": [
+        "一定能成",
+        "会不会延期",
+        "拿不准",
+        "低概率"
+      ],
+      "output": "结果与后果表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-052.md",
+      "source_sha256": "6d29bfb8b336c75078c316cc1020ed2ad7e4536fd67e7a43ebc54d1e5bbb407c",
+      "card_path": "references/cards/TM-052.md",
+      "card_sha256": "a9dbe589d42c96088ecf779e9aed68d553ca48ee3cdbf097095edb665e2a60cb",
+      "runtime_path": "references/tools/TM-052.md",
+      "runtime_sha256": "9e8e972e29dfb506ad87b391609c2915736a71cbc69e04c4715c93d25c63befe"
+    },
+    {
+      "id": "TM-053",
+      "name": "基准率推理",
+      "task": "先看真正同类通常怎样，再判断自己有何不同",
+      "roles": [
+        "证据",
+        "解释"
+      ],
+      "signals": [
+        "我们不一样",
+        "成功案例",
+        "参考同类",
+        "明星团队"
+      ],
+      "output": "参考类起点表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-053.md",
+      "source_sha256": "c2f218f4130079819f9ff485e54b1272823377182807685775500d98b870a887",
+      "card_path": "references/cards/TM-053.md",
+      "card_sha256": "1c56ec9235fd117978b30b62d41c246565cf1004a9ddeb0a2c2cd1ab38314c23",
+      "runtime_path": "references/tools/TM-053.md",
+      "runtime_sha256": "a456bdca74c0f1754859d2271b782880402b14e8920c5003bc79b721a2c9a789"
+    },
+    {
+      "id": "TM-054",
+      "name": "贝叶斯更新",
+      "task": "判断一条新消息该让原来的看法改变多少",
+      "roles": [
+        "证据",
+        "解释"
+      ],
+      "signals": [
+        "有新消息",
+        "该不该改口",
+        "多条利好",
+        "证据重复"
+      ],
+      "output": "判断更新记录",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-054.md",
+      "source_sha256": "e656c02a0ed5957d11e999788a6581622b7e090f74316c527d7962f552336855",
+      "card_path": "references/cards/TM-054.md",
+      "card_sha256": "d628afeadb5d172cd07e91fea95d91d34f57631fdae91a71d937447ecd34c74e",
+      "runtime_path": "references/tools/TM-054.md",
+      "runtime_sha256": "8681264ad956b191f64381aedaaa4c4e5c09f1bdfa9af1b384e4fe5c53b616cc"
+    },
+    {
+      "id": "TM-055",
+      "name": "回归均值",
+      "task": "避免把一次极端表现直接当未来水平或整改功劳",
+      "roles": [
+        "解释",
+        "证据"
+      ],
+      "signals": [
+        "突然垫底",
+        "冠军退步",
+        "整改变好",
+        "异常月份"
+      ],
+      "output": "极端表现拆解表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-055.md",
+      "source_sha256": "36396e4f0967d967feff66a70fe65c683b59744b3e0346a47aa32d7ee862159b",
+      "card_path": "references/cards/TM-055.md",
+      "card_sha256": "09bcbae2391199c21d2a206e0a2bd4bdf0994e932cbe245fbd55be09f06f8429",
+      "runtime_path": "references/tools/TM-055.md",
+      "runtime_sha256": "b9062c68d930b9b5ac24d263894976a4a73b3f46d81a62efb0f3692ca4b169b5"
+    },
+    {
+      "id": "TM-056",
+      "name": "反事实因果模型",
+      "task": "分清结果变了多少和行动真正带来了多少变化",
+      "roles": [
+        "证据",
+        "解释"
+      ],
+      "signals": [
+        "活动有效吗",
+        "培训后提高",
+        "前后对比",
+        "谁的功劳"
+      ],
+      "output": "因果归因说明",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-056.md",
+      "source_sha256": "a0238519aab4d4c6c0673b953991f27bc4ddb70e8d306596ec95254ee01f3265",
+      "card_path": "references/cards/TM-056.md",
+      "card_sha256": "0a00899bafd6b23410133f6628b4dc81bb97876f5760d6915af4e3e488c66657",
+      "runtime_path": "references/tools/TM-056.md",
+      "runtime_sha256": "99ef356027022e3442013ca5a691c74a9574c37b46fa6cbbb41a2960059ea76f"
+    },
+    {
+      "id": "TM-057",
+      "name": "期望值思维",
+      "task": "把各种结果及代价一起算，找方案排序会反转的条件",
+      "roles": [
+        "取舍",
+        "约束"
+      ],
+      "signals": [
+        "哪个更划算",
+        "成功率高",
+        "平均回报",
+        "最坏扛不住"
+      ],
+      "output": "结果加权与反转点表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-057.md",
+      "source_sha256": "e7d76cdbc94c42c86affd23f59b41c50e0e11ab08b0515d637b8f6aa08a387ad",
+      "card_path": "references/cards/TM-057.md",
+      "card_sha256": "73f8ba9347dbf43668336016f6d859721eabe1353f6302d898255f403df9f996",
+      "runtime_path": "references/tools/TM-057.md",
+      "runtime_sha256": "e1d0056212cf57d034915f83e90006d0663cf5b24f333f35ad2dbbcae6580232"
+    },
+    {
+      "id": "TM-058",
+      "name": "安全边际",
+      "task": "看计划扣掉合理误差后还能不能守住底线",
+      "roles": [
+        "约束",
+        "取舍",
+        "执行"
+      ],
+      "signals": [
+        "刚好够用",
+        "没有余量",
+        "一延期就完",
+        "备用资源"
+      ],
+      "output": "余量与收缩决定表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-058.md",
+      "source_sha256": "82f734b58e7b47cc8467a8c5cd05ceb0d46aa858dc8fc591bdede9ce803daa5f",
+      "card_path": "references/cards/TM-058.md",
+      "card_sha256": "c69d4054c51bd2d48a6dfb2d281679916471cc8a1c0ac6691bac2190afad9e6a",
+      "runtime_path": "references/tools/TM-058.md",
+      "runtime_sha256": "aece8432670a004aee5228ee197323982e4632dd2ed2f78d8ba5159dd7605e16"
+    },
+    {
+      "id": "TM-059",
+      "name": "逆向思维",
+      "task": "从会怎样失败反查当前方案缺了什么条件",
+      "roles": [
+        "约束",
+        "选项",
+        "解释"
+      ],
+      "signals": [
+        "怎么会搞砸",
+        "不做清单",
+        "只看好处",
+        "倒推条件"
+      ],
+      "output": "关键失败链与防范表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-059.md",
+      "source_sha256": "6baa8ddf96b06524604ad78a3d972da0f3681644533f4b13093350d54b0c8b11",
+      "card_path": "references/cards/TM-059.md",
+      "card_sha256": "e1f4018ebcf4d9bb04dcbcf8b50a00a66e21b0647508b2e6302ed9e48f80ddc9",
+      "runtime_path": "references/tools/TM-059.md",
+      "runtime_sha256": "c5aa9e93bf05d35d1cb14de6fa26e1f674c225a71637da45f03b46c7b830d255"
+    },
+    {
+      "id": "TM-060",
+      "name": "二阶思维",
+      "task": "看直接效果会怎样改变人的行为及后续结果",
+      "roles": [
+        "二阶",
+        "参与者",
+        "解释"
+      ],
+      "signals": [
+        "然后会怎样",
+        "改奖励",
+        "短期有效",
+        "放大试点"
+      ],
+      "output": "后续影响链与预警表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-060.md",
+      "source_sha256": "fd2aa66e1fba0feb60bfc48fb1e1c2af4116feffbec1ab10fd7499949e6efe81",
+      "card_path": "references/cards/TM-060.md",
+      "card_sha256": "de3f8e415b286f0917223c065d16e6e277709d3fba119dd662ad775f34449940",
+      "runtime_path": "references/tools/TM-060.md",
+      "runtime_sha256": "dfc67c2df04a453d350ae18b27390f67af82890148b49991821b3a586104bcef"
+    },
+    {
+      "id": "TM-061",
+      "name": "事前验尸",
+      "task": "让成形方案在投入前暴露不方便说出的失败路径",
+      "roles": [
+        "参与者",
+        "约束",
+        "执行"
+      ],
+      "signals": [
+        "方案都通过了",
+        "没人提意见",
+        "上线前检查",
+        "提前找死因"
+      ],
+      "output": "失败路径与计划修改单",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-061.md",
+      "source_sha256": "4f569fa2bdc8cb91d71133e7692d906cd23c77ad15d7c17862e5f5a01e92e8ef",
+      "card_path": "references/cards/TM-061.md",
+      "card_sha256": "26237d280f65ef300834f3e1ea4827eedc362e8e4d69c5fd4953b02b934b3058",
+      "runtime_path": "references/tools/TM-061.md",
+      "runtime_sha256": "11022a6f82086745b22e6affcb9f33f6c7874e3f630ead2b02ba8a101a111577"
+    },
+    {
+      "id": "TM-062",
+      "name": "信息价值",
+      "task": "判断还要查什么，以及何时信息已经够用",
+      "roles": [
+        "证据",
+        "取舍",
+        "约束"
+      ],
+      "signals": [
+        "还想再查查",
+        "信息不够",
+        "调研值不值",
+        "什么时候停搜"
+      ],
+      "output": "答案到行动分支表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-062.md",
+      "source_sha256": "e8479d1d636c7f7e05c286e62195faeec7054401c44029a6ab24c4cc1290cb8a",
+      "card_path": "references/cards/TM-062.md",
+      "card_sha256": "b5af71361b0f7b9ec0b2c691a0dd107070f45d2e9a940102d2dab0a504cda167",
+      "runtime_path": "references/tools/TM-062.md",
+      "runtime_sha256": "6d1f23d7285a9e44a9dc2d3f494fc9e38aab2a90e3b64e5873a32db133e54d35"
+    },
+    {
+      "id": "TM-063",
+      "name": "期权思维",
+      "task": "用有限成本保留看清情况后再扩大或退出的权利",
+      "roles": [
+        "选项",
+        "约束",
+        "执行"
+      ],
+      "signals": [
+        "先别押满",
+        "保留机会",
+        "先租后买",
+        "试点停不掉"
+      ],
+      "output": "期权决策卡",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-063.md",
+      "source_sha256": "64b869da65c1d55b4ba82a172cf07c1477afc49c8d21bd3e2d867a4a72b91993",
+      "card_path": "references/cards/TM-063.md",
+      "card_sha256": "40455c3afe050928f6b66971ff3ab5e0cc2f190af97af14c7b1a497df8329d7e",
+      "runtime_path": "references/tools/TM-063.md",
+      "runtime_sha256": "7a3d084268e03b9e1fee48f91d2716ae02f9c7a6a2e67043c16bcb91cfd913c2"
+    },
+    {
+      "id": "TM-064",
+      "name": "机会成本",
+      "task": "看同一份时间和资源还能做什么更值得的事",
+      "roles": [
+        "取舍",
+        "约束"
+      ],
+      "signals": [
+        "这个不花钱",
+        "时间不够",
+        "放弃了什么",
+        "最好替代"
+      ],
+      "output": "最佳可行替代表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-064.md",
+      "source_sha256": "07fb64b6126060781e0ea6d8b67f6007890ec1a3628822abc7a73ad2c8ead6ae",
+      "card_path": "references/cards/TM-064.md",
+      "card_sha256": "bad62beeb37b8ce0c1a75df4cf3bb074a79ad76267bf143f00a8af98c9c3224c",
+      "runtime_path": "references/tools/TM-064.md",
+      "runtime_sha256": "e62be069e3bebc89630e45f341701c848b7d613a3ca7ca620f7fa4b85dbcf879"
+    },
+    {
+      "id": "TM-065",
+      "name": "边际成本",
+      "task": "决定下一单下一批或下一段投入还值不值得",
+      "roles": [
+        "取舍",
+        "约束",
+        "执行"
+      ],
+      "signals": [
+        "再加一点",
+        "多接一单",
+        "平均成本低",
+        "扩容门槛"
+      ],
+      "output": "下一增量收支表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-065.md",
+      "source_sha256": "2d5c1fe65568e9c53fba871fe21d1ad3532d105c089fcc6befb5f0fffc91cb92",
+      "card_path": "references/cards/TM-065.md",
+      "card_sha256": "d2b758274a17ac143408bbc66a64b40a899efa4e14f368a96c090bd24b061b76",
+      "runtime_path": "references/tools/TM-065.md",
+      "runtime_sha256": "4b63e36ab75a54103db3fa3e2df8db6459db64d2b88f3bd130aa10d60bb8349e"
+    },
+    {
+      "id": "TM-066",
+      "name": "沉没成本",
+      "task": "把无法改变的旧投入和仍会改变的未来后果分开",
+      "roles": [
+        "澄清",
+        "取舍"
+      ],
+      "signals": [
+        "已经花这么多",
+        "舍不得放弃",
+        "票都买了",
+        "继续还是退出"
+      ],
+      "output": "未来选择清账表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-066.md",
+      "source_sha256": "67462fa94967e5c0fd50bfafe0b170581f21075a31d0b7cae1b187583a888450",
+      "card_path": "references/cards/TM-066.md",
+      "card_sha256": "69e0c66ace0775a54de0f2017adac057513bf4b0886835c334f1d6a8eec865e9",
+      "runtime_path": "references/tools/TM-066.md",
+      "runtime_sha256": "21260732b252f286c872882eda185d74233546361d8cb600df2ac88d0e4841b2"
+    },
+    {
+      "id": "TM-067",
+      "name": "停止规则",
+      "task": "提前规定看到什么就继续转向或停止",
+      "roles": [
+        "约束",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "再试一次",
+        "无限延期",
+        "何时退出",
+        "停止标准"
+      ],
+      "output": "阶段触发规则表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-067.md",
+      "source_sha256": "a1884e51a94314006f9b59ea1c1b8c2036ca64685de68e8ececaf66aaf1250d6",
+      "card_path": "references/cards/TM-067.md",
+      "card_sha256": "346db32e2b48c0280a6a0e4e846e6f6f447a648a43304d78da0ae85bb1e001c9",
+      "runtime_path": "references/tools/TM-067.md",
+      "runtime_sha256": "12ef76c08fa91867877a8a2800f6b413f1f2c4cd0d5d0fb3ad49639c84bf28a5"
+    },
+    {
+      "id": "TM-068",
+      "name": "决策—结果分离",
+      "task": "按当时信息评选择，再用后来结果改进判断",
+      "roles": [
+        "复盘",
+        "证据",
+        "学习"
+      ],
+      "signals": [
+        "输了就错吗",
+        "侥幸成功",
+        "只是运气差",
+        "事后诸葛"
+      ],
+      "output": "事前质量与结果更新表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-068.md",
+      "source_sha256": "2098e30f09fe5e9834e8d3b95998a42f91898bcb037e9e712c139449e92e4cf8",
+      "card_path": "references/cards/TM-068.md",
+      "card_sha256": "3f7e235341765348195e986651f53390f13aec514a9b62f85d305591ba1ed737",
+      "runtime_path": "references/tools/TM-068.md",
+      "runtime_sha256": "416b449e1520815ee995156df7373f37aa061fb65b08236a9878610c1fae9b27"
+    },
+    {
+      "id": "TM-069",
+      "name": "运气—技能连续体",
+      "task": "判断一次成绩能说明多少稳定能力",
+      "roles": [
+        "解释",
+        "证据",
+        "复盘"
+      ],
+      "signals": [
+        "一次冠军",
+        "是不是实力",
+        "排名波动",
+        "换环境还行吗"
+      ],
+      "output": "优势来源与持续性评估",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-069.md",
+      "source_sha256": "22276d621b166ee01e771eb2b9fd561be59c1a46972be44de8386f17a68e96c3",
+      "card_path": "references/cards/TM-069.md",
+      "card_sha256": "3417ab3b724fe37503f24139a0a7e38d1d63f4a698dd194996f6282c6e2ed8fb",
+      "runtime_path": "references/tools/TM-069.md",
+      "runtime_sha256": "4d384e4fbd20cf0685a59f6673d6a70524cbab2468b94ec08889ee314c04fd79"
+    },
+    {
+      "id": "TM-070",
+      "name": "大数定律",
+      "task": "检查大量记录是否真的增加了可靠信息",
+      "roles": [
+        "证据",
+        "学习"
+      ],
+      "signals": [
+        "样本够多吗",
+        "数据很多",
+        "同源转发",
+        "越做越准"
+      ],
+      "output": "有效观察与合并检查表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-070.md",
+      "source_sha256": "8089b8eb9bf1d5812b2635aaf4bf174e9b7a9eaed996cf34820c18d7b0290b03",
+      "card_path": "references/cards/TM-070.md",
+      "card_sha256": "1793f406babef6fea4ec16e9ec8f4e9fbeeb37473d174ed6a60503272449a19d",
+      "runtime_path": "references/tools/TM-070.md",
+      "runtime_sha256": "2bd96da12139261d46c5c27ac5ece4b1575440d5de6c604033275af817bc9c22"
+    },
+    {
+      "id": "TM-071",
+      "name": "测量模型",
+      "task": "判断一个数字究竟能代表什么，以及能支持多大的决定",
+      "roles": [
+        "澄清",
+        "证据",
+        "解释"
+      ],
+      "signals": [
+        "指标代表什么",
+        "分数很高",
+        "停留变长",
+        "测准了吗"
+      ],
+      "output": "目标与指标解释表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-071.md",
+      "source_sha256": "5d028c85cd608d45d936292bfde48c550bf87d3a0ba1de2ed9f9d4d3dc8a4da4",
+      "card_path": "references/cards/TM-071.md",
+      "card_sha256": "be792a6d08cc185818b3942a28788eca5f0655008876bc6fc34d431a35bea13d",
+      "runtime_path": "references/tools/TM-071.md",
+      "runtime_sha256": "59f354cb66a59d1428e1053d7dc211984c6479d2be3006e17dbe0be802adb70f"
+    },
+    {
+      "id": "TM-072",
+      "name": "信号检测论",
+      "task": "分清判断出错是分不清真假，还是门槛设得不合适",
+      "roles": [
+        "证据",
+        "取舍",
+        "执行"
+      ],
+      "signals": [
+        "误报太多",
+        "漏掉重要消息",
+        "报警疲劳",
+        "筛选门槛"
+      ],
+      "output": "四格判断与门槛表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-072.md",
+      "source_sha256": "626214876a192422ca31e8800ce49ba0626114461572d6cb20c0ea5aa028d7f1",
+      "card_path": "references/cards/TM-072.md",
+      "card_sha256": "ae6324b15a6c29a1fed0b5dc72d60f25afef7d6202f18d62b917d77b9bf5de4b",
+      "runtime_path": "references/tools/TM-072.md",
+      "runtime_sha256": "f537fa6d22b0d9b37e77b9e2b8c158bb79a8647948e473212eda839d7ab506db"
+    },
+    {
+      "id": "TM-073",
+      "name": "参考类预测法",
+      "task": "用同类项目实际结果校准工期成本和承诺",
+      "roles": [
+        "证据",
+        "约束",
+        "执行"
+      ],
+      "signals": [
+        "排期太乐观",
+        "预算承诺",
+        "同类做多久",
+        "目标当预测"
+      ],
+      "output": "外部基线与承诺条件表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-073.md",
+      "source_sha256": "4e3c1d2ba32f6c4b5f5efb4786e7c7563c708c4fb42c4a308a81ca35d7f058d6",
+      "card_path": "references/cards/TM-073.md",
+      "card_sha256": "438a2056f43481e55b14ed71dacfeb991d014e2f489365ee6d6a16e76dc40acc",
+      "runtime_path": "references/tools/TM-073.md",
+      "runtime_sha256": "c05a97a9cc1bbeb04fb71da3d8ee287e100f31ae41a7905bd48e93e78a0cc318"
+    },
+    {
+      "id": "TM-074",
+      "name": "古德哈特定律",
+      "task": "检查追逐指标是否正在破坏真正目标",
+      "roles": [
+        "解释",
+        "参与者",
+        "二阶"
+      ],
+      "signals": [
+        "为了达标",
+        "刷打卡",
+        "数字好看",
+        "指标变目标"
+      ],
+      "output": "指标失真与护栏方案",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-074.md",
+      "source_sha256": "577ef362ad70f8d970c17445f364c98fe42af5061636075730ecd2e3e87579fc",
+      "card_path": "references/cards/TM-074.md",
+      "card_sha256": "02fa92aa536a6c08bcac0743077f52d7d0b0044a08a5d7dba75245ef2bfbd8e3",
+      "runtime_path": "references/tools/TM-074.md",
+      "runtime_sha256": "c52ad967983daa7f830de6b43fa0c9f658df1e78d9726ec575a8edad3518f68c"
+    },
+    {
+      "id": "TM-075",
+      "name": "中心极限定理",
+      "task": "给样本均值和差异加上符合抽样方式的不确定范围",
+      "roles": [
+        "证据",
+        "解释"
+      ],
+      "signals": [
+        "平均数差一点",
+        "误差范围",
+        "三十个够吗",
+        "样本均值"
+      ],
+      "output": "均值估计与设计限制表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-075.md",
+      "source_sha256": "b6e55700a4f0310616c6d7d566da9e2c9b51b93eae08dfa572ea85c5241e5f0e",
+      "card_path": "references/cards/TM-075.md",
+      "card_sha256": "9e43ac3d7b78293c5c37fce327b3cb27aa501e8c947a6c3e3f5738205bc75075",
+      "runtime_path": "references/tools/TM-075.md",
+      "runtime_sha256": "d1cee6c3262a1eae959a3577d81bebc82567927fc898d6348febe9aef66bdc23"
+    },
+    {
+      "id": "TM-076",
+      "name": "有限理性",
+      "task": "在时间和精力有限时设计足够可靠的选择过程",
+      "roles": [
+        "约束",
+        "取舍",
+        "执行"
+      ],
+      "signals": [
+        "选择太多",
+        "越比越累",
+        "找不到最好",
+        "够好就行吗"
+      ],
+      "output": "候选短名单与搜索边界",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-076.md",
+      "source_sha256": "fb8b464424fb24a619ba5a9b06ce4553c48d923480c57c290fb0e554fbe2e6f2",
+      "card_path": "references/cards/TM-076.md",
+      "card_sha256": "51e49e6208bb8a7981ec3ad7509f1f6a7e8a1c6801eea70e3166003226e8cb3a",
+      "runtime_path": "references/tools/TM-076.md",
+      "runtime_sha256": "3cad30c945ff647432df83dbb71514a178da2731d6ccd45cd47354c8c18c0c65"
+    },
+    {
+      "id": "TM-077",
+      "name": "可逆决策",
+      "task": "按损失反馈和恢复能力决定先走多大一步",
+      "roles": [
+        "约束",
+        "选项",
+        "执行"
+      ],
+      "signals": [
+        "错了再改",
+        "可不可以先试",
+        "回滚退路",
+        "决定太慢",
+        "退出与恢复"
+      ],
+      "output": "行动范围与恢复安排",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-077.md",
+      "source_sha256": "65e73dd568eb74d6d4839e30e78aad5b36db97e87c66719dc5ff6387e42362e9",
+      "card_path": "references/cards/TM-077.md",
+      "card_sha256": "e0ac63ba72fc19db6fbfd292ab4758d7b5c3fe0d8702991b4f38271d427429b3",
+      "runtime_path": "references/tools/TM-077.md",
+      "runtime_sha256": "6a7a00728a76e0ee5b4df136304eda5cd348cccd6b3799d0cc7aed211351ba39"
+    },
+    {
+      "id": "TM-078",
+      "name": "期望效用理论",
+      "task": "把风险方案换成自己愿意接受的确定结果来比较",
+      "roles": [
+        "取舍",
+        "约束"
+      ],
+      "signals": [
+        "想要稳一点",
+        "平均值更高却不选",
+        "愿付多少换确定",
+        "风险偏好"
+      ],
+      "output": "最终状态与确定等价表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-078.md",
+      "source_sha256": "c7aa35e0abfbe4604baa808945d18622fb0ae62e40a8610cd5beeaedcd6b730d",
+      "card_path": "references/cards/TM-078.md",
+      "card_sha256": "fd8690b6a99a1c192e828a18991bf6959b116ae442265c562ac2767a7013a5f3",
+      "runtime_path": "references/tools/TM-078.md",
+      "runtime_sha256": "3663bc61ceb4d5e09ca4930913753434070a813b4a89b8abeb8f8f40b8d2fa05"
+    },
+    {
+      "id": "TM-079",
+      "name": "前景理论",
+      "task": "发现得失措辞和心理参照点是否改变了选择",
+      "roles": [
+        "解释",
+        "取舍",
+        "复盘"
+      ],
+      "signals": [
+        "想回本",
+        "亏了不甘心",
+        "确定才安心",
+        "换说法就变"
+      ],
+      "output": "参照点与终局重写记录",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-079.md",
+      "source_sha256": "4b02e8a71c0d72f9d2f48026b720552b77ad1c9ffd0e75ae15c2f333ba37f8d9",
+      "card_path": "references/cards/TM-079.md",
+      "card_sha256": "4764a2223bf3acd7d0c866032358466660832ac28044c72ff5d81b57d681ba9f",
+      "runtime_path": "references/tools/TM-079.md",
+      "runtime_sha256": "196cf622047aea8599ad0441dd624115b53646f65a98ef9227631ff55caf2c8f"
+    },
+    {
+      "id": "TM-080",
+      "name": "非遍历性",
+      "task": "检查平均看起来不错的安排能否让自己走完整条路",
+      "roles": [
+        "约束",
+        "二阶",
+        "取舍"
+      ],
+      "signals": [
+        "平均赚却撑不住",
+        "连续投入",
+        "中途出局",
+        "回款赶不上"
+      ],
+      "output": "资源递推与退出边界表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-080.md",
+      "source_sha256": "fe49a370514021d18cfedf3dc70ebfbb8ea3299deab7e1c3fa5268e109b4d1d6",
+      "card_path": "references/cards/TM-080.md",
+      "card_sha256": "f17f30636c7b3545a5ddeb7752abbabe3fbf8673c0abc0c510f5e6d840cab809",
+      "runtime_path": "references/tools/TM-080.md",
+      "runtime_sha256": "56ff6c4873b4fd1c3625cb341c42aab5ec5392578ec21f87c189963c34daa00d"
+    },
+    {
+      "id": "TM-081",
+      "name": "凯利准则",
+      "task": "在有可靠优势的重复复合机会中限制每轮投入",
+      "roles": [
+        "约束",
+        "取舍"
+      ],
+      "signals": [
+        "每轮投多少",
+        "优势不等于全押",
+        "重复复合",
+        "比例太大"
+      ],
+      "output": "理论投入与硬上限表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-081.md",
+      "source_sha256": "5190e36191502b45a769d50ebc90e33c1ca00e4346e95839be188b3ffe33cc7a",
+      "card_path": "references/cards/TM-081.md",
+      "card_sha256": "fc47694482f4ca1986aac72d24b9e104fd60a4fc48acb5310edbcb4d6e00976e",
+      "runtime_path": "references/tools/TM-081.md",
+      "runtime_sha256": "a52d328be359e60263ecdf57832e0129263fe6dea40290048a984232dbfb2b4c"
+    },
+    {
+      "id": "TM-082",
+      "name": "存量—流量模型",
+      "task": "把总量变化拆成起点和所有进出，找遗漏的那一边",
+      "roles": [
+        "澄清",
+        "解释",
+        "证据"
+      ],
+      "signals": [
+        "新增多总量少",
+        "积压变多",
+        "进出账",
+        "流失多少"
+      ],
+      "output": "存量进出对账表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-082.md",
+      "source_sha256": "6b93b2e25787befc38d071282d80909991e8d86ea6e982f7d78ea83142d27f0b",
+      "card_path": "references/cards/TM-082.md",
+      "card_sha256": "5c6f3e06eb663ec0496dd6831a103198af6310098512e24afdb9407a3f8ccb79",
+      "runtime_path": "references/tools/TM-082.md",
+      "runtime_sha256": "1ecdc5d2b55eaa2cba21f163cff5890daf3fd5cd4805333017aefb34efd57630"
+    },
+    {
+      "id": "TM-083",
+      "name": "反馈回路",
+      "task": "找到结果如何反过来推动下一轮问题或改善",
+      "roles": [
+        "解释",
+        "二阶",
+        "选项"
+      ],
+      "signals": [
+        "越忙越乱",
+        "问题反弹",
+        "越努力越糟",
+        "循环强化",
+        "反复返工"
+      ],
+      "output": "闭合回路与干预假说图",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-083.md",
+      "source_sha256": "5ba7bbd9bec29df7393d879f58e915977ac10c0ed8c5b1fc6038dbbeab44e7e8",
+      "card_path": "references/cards/TM-083.md",
+      "card_sha256": "84860f506617ab528d9d4b7f9188248198dd8678be2a1aab4a369b8a5b733f45",
+      "runtime_path": "references/tools/TM-083.md",
+      "runtime_sha256": "79619b6a23c0877a71e8f502cf3252d816fc84e2134256177bcc5ec84f6fe051"
+    },
+    {
+      "id": "TM-084",
+      "name": "延迟效应",
+      "task": "把尚未生效的行动算进去，再决定等还是加力",
+      "roles": [
+        "解释",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "效果还没来",
+        "越催越乱",
+        "在途没算",
+        "反复加码"
+      ],
+      "output": "延迟链路与在途台账",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-084.md",
+      "source_sha256": "a361f62e7aab41427674fd58924605f449eab4bdbb27e5da66ea93d49150eda6",
+      "card_path": "references/cards/TM-084.md",
+      "card_sha256": "43b6ec6254122890ee7eca8d4c5ddd19d73deb2ee65fca372be9c949bf869cf6",
+      "runtime_path": "references/tools/TM-084.md",
+      "runtime_sha256": "2b38b1ff226230d27c15d21feabd0b047a8ddee61e0624bd2deea33dc309c081"
+    },
+    {
+      "id": "TM-085",
+      "name": "瓶颈效应",
+      "task": "找出限制整体完成量的环节，再决定先改善哪里",
+      "roles": [
+        "约束",
+        "解释",
+        "执行"
+      ],
+      "signals": [
+        "都很忙却交不出",
+        "哪里卡住",
+        "先招谁",
+        "验收排队"
+      ],
+      "output": "约束诊断与优先动作卡",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-085.md",
+      "source_sha256": "a4eb493d208c749b22cd5839d67f976673e0c1b5f4b5e5d73bcf581f0e0d0753",
+      "card_path": "references/cards/TM-085.md",
+      "card_sha256": "9d12b904658290849365ee8eb7a50a6737eb2b4af6f14bf2d646f2c97cb7de82",
+      "runtime_path": "references/tools/TM-085.md",
+      "runtime_sha256": "2a0ca26416ac03de4a206aedf36648b2ea3fa8a4e43e03a1fada2d84f4e4df35"
+    },
+    {
+      "id": "TM-086",
+      "name": "杠杆思维",
+      "task": "反复加钱加人无效时，比较还可以改变哪种机制",
+      "roles": [
+        "解释",
+        "选项",
+        "二阶"
+      ],
+      "signals": [
+        "越加资源越没用",
+        "改哪里有效",
+        "规则在推什么",
+        "临时刺激"
+      ],
+      "output": "干预机制候选表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-086.md",
+      "source_sha256": "abce7f722afa637f59c64df19f7ff690ee069f53657383deba6936f3593d66ee",
+      "card_path": "references/cards/TM-086.md",
+      "card_sha256": "ca4fc5587df0a0fb3aae16382ba531e0bef8ac9b8e5f42692822d52ba09f8553",
+      "runtime_path": "references/tools/TM-086.md",
+      "runtime_sha256": "b979ee4879b7817d3dc856425b1f40d2cb6d3a4d1d5e48f40780fcd640c455ce"
+    },
+    {
+      "id": "TM-087",
+      "name": "阈值模型",
+      "task": "找出大家等别人先做时，跟进链断在哪一类人",
+      "roles": [
+        "参与者",
+        "解释",
+        "执行"
+      ],
+      "signals": [
+        "等别人先用",
+        "有人带头没人跟",
+        "不想第一个",
+        "采用门槛"
+      ],
+      "output": "采用链与断点草图",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-087.md",
+      "source_sha256": "2029246c0e5e0a00e40e49f917fa97098cee99a09c13de4c9559e1b551e7b255",
+      "card_path": "references/cards/TM-087.md",
+      "card_sha256": "01e0f34c961f5671d45df3582a1efbbceb004106158c490f1816aebca43f62ab",
+      "runtime_path": "references/tools/TM-087.md",
+      "runtime_sha256": "167f2907fe00bbb9db63d5a01e08b65cb3c77315ab0dc5d64928ff62155a1305"
+    },
+    {
+      "id": "TM-088",
+      "name": "巴斯扩散模型",
+      "task": "区分首次采用增长放缓是扩散阶段变化还是别的问题",
+      "roles": [
+        "解释",
+        "证据",
+        "选项"
+      ],
+      "signals": [
+        "新增先快后慢",
+        "市场饱和吗",
+        "首次采用",
+        "增长曲线"
+      ],
+      "output": "扩散诊断与情景预测",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-088.md",
+      "source_sha256": "33e0590c516c689390a3eaa2dfa5a6e01c51bea01132218327f2be42fa327cb0",
+      "card_path": "references/cards/TM-088.md",
+      "card_sha256": "39486efe353e25351e20e1a3fa4487ac46a37c1d698c9392d1c931a916c16ec6",
+      "runtime_path": "references/tools/TM-088.md",
+      "runtime_sha256": "cd23bce5581ec04d2bddc548f0a6af155f126de6849095ae513a1d8a38616678"
+    },
+    {
+      "id": "TM-089",
+      "name": "网络效应",
+      "task": "查相关参与者增减是否真的改变现有用户体验",
+      "roles": [
+        "参与者",
+        "解释",
+        "选项"
+      ],
+      "signals": [
+        "人多更有用吗",
+        "补供给还是用户",
+        "局部密度",
+        "拥堵竞争"
+      ],
+      "output": "网络作用矩阵",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-089.md",
+      "source_sha256": "a6e51097e34b2fd2c8807a3497bc5ba3852cc9a4bfa11af6e6f21d87f2e636c3",
+      "card_path": "references/cards/TM-089.md",
+      "card_sha256": "80f74f5b6ec2717758baf368e1caf0d05a35a67f3a114d4a90a438e95fe22bd5",
+      "runtime_path": "references/tools/TM-089.md",
+      "runtime_sha256": "d9819551f67661b9ae33d789350b4c3e25b3b49d24467bc4fc3f0dc72d2b121f"
+    },
+    {
+      "id": "TM-090",
+      "name": "临界质量",
+      "task": "判断减少催促和奖励后系统能否在当前条件下维持",
+      "roles": [
+        "解释",
+        "二阶",
+        "执行"
+      ],
+      "signals": [
+        "撤奖励就没人",
+        "需要每天催",
+        "能自己跑吗",
+        "关键角色缺席"
+      ],
+      "output": "条件化自维持判断",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-090.md",
+      "source_sha256": "63dae973bcdb33aeae24346856fe0d40ca29ad32d824e4929812c7f1b2008846",
+      "card_path": "references/cards/TM-090.md",
+      "card_sha256": "bc77a2e1fb5f099834da7347615ee5d56cf392e8bbea3991e1f66dc3a228a939",
+      "runtime_path": "references/tools/TM-090.md",
+      "runtime_sha256": "4af0f99c88436647f3e1844ad0b5a6247ab24d1048f944458776ac79b8958cbc"
+    },
+    {
+      "id": "TM-091",
+      "name": "重尾分布",
+      "task": "检查少数极端对象是否主导整体，并准备超出历史的冲击",
+      "roles": [
+        "证据",
+        "约束",
+        "取舍"
+      ],
+      "signals": [
+        "大客户依赖",
+        "平均值骗人",
+        "极端值要删吗",
+        "尾部损失"
+      ],
+      "output": "集中度与尾部压力表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-091.md",
+      "source_sha256": "22dd139eb2160c8fa8928649a34b30d029431b828a6ad509fc8f041bcb05ad50",
+      "card_path": "references/cards/TM-091.md",
+      "card_sha256": "2299d08bf5d49812a16a60315b7e25dd708ee60ef6e7a6bd2b89e9e9519168d4",
+      "runtime_path": "references/tools/TM-091.md",
+      "runtime_sha256": "410c1ef586931a46ca8466c57a18472dc7181b7ea99030399248cf83fc61831b"
+    },
+    {
+      "id": "TM-092",
+      "name": "复杂适应系统",
+      "task": "把参与者学会新规则后的第二轮反应纳入方案",
+      "roles": [
+        "参与者",
+        "二阶",
+        "执行"
+      ],
+      "signals": [
+        "规则越来越不灵",
+        "堵住又换地方",
+        "大家会适应",
+        "系统共同变化"
+      ],
+      "output": "参与者两轮反应图",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-092.md",
+      "source_sha256": "5ace4a396abf219a96f9b6e0debdc6a601c670300910f8ab951ec29fb837044b",
+      "card_path": "references/cards/TM-092.md",
+      "card_sha256": "2828c1c75b22f20912e0bc9e2461e48e97356705a9d634424b737ccf5a03df0a",
+      "runtime_path": "references/tools/TM-092.md",
+      "runtime_sha256": "7d43f9d0563a573aeab0bcf200acdae67c76c4a55bf01cb742e452926ad663f3"
+    },
+    {
+      "id": "TM-093",
+      "name": "涌现",
+      "task": "解释局部动作怎样形成单个参与者没有的整体模式",
+      "roles": [
+        "解释",
+        "二阶",
+        "选项"
+      ],
+      "signals": [
+        "各做各的却失控",
+        "整体意外模式",
+        "局部互动",
+        "不是简单加总"
+      ],
+      "output": "局部互动到整体模式链",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-093.md",
+      "source_sha256": "4ee6a3c846d3c055202c8730e3dba54ee33915a8851426fb45d5637c4deb6acf",
+      "card_path": "references/cards/TM-093.md",
+      "card_sha256": "02b02a7f82285690d1935fa5820c594252e1d32901e634341b2c0ea4b3363b75",
+      "runtime_path": "references/tools/TM-093.md",
+      "runtime_sha256": "1198a9e262235b10aa427f889d4d80085525d1db306bf5a8c62e56a632330668"
+    },
+    {
+      "id": "TM-094",
+      "name": "自组织",
+      "task": "看没有逐项指挥的分工和秩序如何形成并调整",
+      "roles": [
+        "参与者",
+        "解释",
+        "执行"
+      ],
+      "signals": [
+        "没人安排却固定分工",
+        "自主认领",
+        "旧路锁住",
+        "局部规则"
+      ],
+      "output": "秩序形成与局部规则方案",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-094.md",
+      "source_sha256": "f14fcaaa30ab377fb76db5f07b6377180144ee48d16fbda2012d01a6a6b1d3e6",
+      "card_path": "references/cards/TM-094.md",
+      "card_sha256": "fc45454189610f1177ac36b0acf8aa2ae4a28204e6a825c586a31f75afde9447",
+      "runtime_path": "references/tools/TM-094.md",
+      "runtime_sha256": "7f3f83209f2eac02e1a8fa57a7ec89c629d008a23aeeac4801d0254d18e99190"
+    },
+    {
+      "id": "TM-095",
+      "name": "系统韧性",
+      "task": "检查关键路径出问题后怎样维持最低功能并恢复",
+      "roles": [
+        "约束",
+        "执行",
+        "二阶"
+      ],
+      "signals": [
+        "主力缺席怎么办",
+        "备份能用吗",
+        "恢复要多久",
+        "压掉冗余"
+      ],
+      "output": "关键功能恢复安排",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-095.md",
+      "source_sha256": "c61e7ff949275b3531682c66d5caca9023b140fd5fb57c33dba8eae416a4c6cf",
+      "card_path": "references/cards/TM-095.md",
+      "card_sha256": "67c221ce92ddd9dfd655024bdd6062d28dbb00271b3f2e9e808d593b4cd5219f",
+      "runtime_path": "references/tools/TM-095.md",
+      "runtime_sha256": "6092847c56baf1dbe7aad3be3f26b3a48e64e00495f8b917139cea3c7246ef25"
+    },
+    {
+      "id": "TM-096",
+      "name": "反脆弱性",
+      "task": "判断可承受的波动是否真的带来超过无冲击基准的改善",
+      "roles": [
+        "约束",
+        "学习",
+        "复盘"
+      ],
+      "signals": [
+        "挫折后更强了吗",
+        "小试学习",
+        "不是只恢复",
+        "波动能受益吗"
+      ],
+      "output": "受限损失与修复复测方案",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-096.md",
+      "source_sha256": "7489d8aea89d411e9c2411a9ed595dfd1fa0a4f7adbdb81d979e643d8c3d36b6",
+      "card_path": "references/cards/TM-096.md",
+      "card_sha256": "90d4143edbc8f9a4a3bc4d3582f0ef28f380b24d62197bafe83ceea71c128f08",
+      "runtime_path": "references/tools/TM-096.md",
+      "runtime_sha256": "037ea4045cdb020f5ec235a462beb7b05ecb06277cb10f06bbdab498b0d8c2ac"
+    },
+    {
+      "id": "TM-097",
+      "name": "信息不对称",
+      "task": "找出合作中谁知道关键事实，并设计可核验的证据",
+      "roles": [
+        "证据",
+        "参与者",
+        "取舍"
+      ],
+      "signals": [
+        "都说自己靠谱",
+        "资料很多可信么",
+        "报价太一致",
+        "怎么验质量"
+      ],
+      "output": "信息差与验证方案表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-097.md",
+      "source_sha256": "70b30471333822d570941c31c3640680914f4dee883a2e0a603686471ce0079a",
+      "card_path": "references/cards/TM-097.md",
+      "card_sha256": "f33786c46fa761c2017784e8da65d6f4b7ad68c451aba7c86a1d6c69364eb34a",
+      "runtime_path": "references/tools/TM-097.md",
+      "runtime_sha256": "9dadc17c0bb7ed99c1f232f94fe322f71382ab56d58bd02650a451a65db3b38a"
+    },
+    {
+      "id": "TM-098",
+      "name": "道德风险",
+      "task": "分清激励安排可能引起偏离，和偏离是否真的发生",
+      "roles": [
+        "参与者",
+        "证据",
+        "解释"
+      ],
+      "signals": [
+        "有人兜底",
+        "按量付费",
+        "做的人不担后果",
+        "行为看不见"
+      ],
+      "output": "条件与行为证据分列表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-098.md",
+      "source_sha256": "96b0af61f193e2975f13815fb96e91a3c731a6c52a05a15a43055d4bee1d7d69",
+      "card_path": "references/cards/TM-098.md",
+      "card_sha256": "89d5271f32c0c41d466449848d3972484431de5c398f8b5e22d0d8c4cea0f26f",
+      "runtime_path": "references/tools/TM-098.md",
+      "runtime_sha256": "853df7bcd65d6a6022550463636534af628d08d637beb69b6cb597949f63d9a4"
+    },
+    {
+      "id": "TM-099",
+      "name": "交易成本",
+      "task": "把报价外的找人协调验收和退出代价一起比较",
+      "roles": [
+        "取舍",
+        "约束",
+        "参与者"
+      ],
+      "signals": [
+        "低报价不省钱",
+        "自己做还是外包",
+        "反复重谈",
+        "切换很难"
+      ],
+      "output": "可比治理成本表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-099.md",
+      "source_sha256": "f4e3d571cfe8c077ad0678b85023b0ea6c406eb2ff65aca3b5d9d2214b83cfda",
+      "card_path": "references/cards/TM-099.md",
+      "card_sha256": "cc64c988570133887a0d6bd245be14d31e9bce7ef44f4ac03924515d14ef0eaa",
+      "runtime_path": "references/tools/TM-099.md",
+      "runtime_sha256": "a9ecfcd026def4f196e029dc474bdfc138e164d5dc2232ab5cf534c932e22209"
+    },
+    {
+      "id": "TM-100",
+      "name": "委托代理模型",
+      "task": "把交给别人做的目标权限报酬和验收说清楚",
+      "roles": [
+        "参与者",
+        "约束",
+        "执行"
+      ],
+      "signals": [
+        "交给别人做",
+        "汇报很好结果不对",
+        "怎么授权",
+        "谁来验收"
+      ],
+      "output": "最小授权书",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-051-100.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-051-100.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-051-100.jsonl"
+      ],
+      "source_path": "references/user-models/TM-100.md",
+      "source_sha256": "bae4701a42c6e6740dfe5d4d1c295c4125b0d5f9e8ff7cd7ef95dcf7245ded3f",
+      "card_path": "references/cards/TM-100.md",
+      "card_sha256": "bbf3abcce9f1b4ac92a8435c079f1cfc23501f44d19bc9f070a3504985603128",
+      "runtime_path": "references/tools/TM-100.md",
+      "runtime_sha256": "17262dc5d0145cbcbbcd33ae2262c9df792908b033fd5d0f34748b1c569ae37e"
+    },
+    {
+      "id": "TM-101",
+      "name": "Y=f(X)",
+      "task": "把原因清单变成可检验的关系假说",
+      "roles": [
+        "解释",
+        "证据",
+        "执行"
+      ],
+      "signals": [
+        "流程改了还是慢",
+        "几个原因互相影响",
+        "措施一起用有没有用",
+        "怎么判断改善由谁造成"
+      ],
+      "output": "变量关系表与有边界的比较计划",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-101-114.jsonl"
+      ],
+      "source_path": "references/user-models/TM-101.md",
+      "source_sha256": "0e9987949dccb7f5ac986e1eda8c8dd7360f66673354db7a5f83fcc3afd0b864",
+      "card_path": "references/cards/TM-101.md",
+      "card_sha256": "115f8d2ff28c021bcb3e795c3ce6edf7b6be4246b67c61502851829240c681e0",
+      "runtime_path": "references/tools/TM-101.md",
+      "runtime_sha256": "b4bb03f3f3e75c30ac90f91302f8b77e5e2d2b530c2c60db42b5f6221b447c1e"
+    },
+    {
+      "id": "TM-102",
+      "name": "第一性原理",
+      "task": "区分真实约束与沿用惯例后重组手段",
+      "roles": [
+        "澄清",
+        "约束",
+        "选项"
+      ],
+      "signals": [
+        "只能一直这么做",
+        "旧流程能不能换",
+        "目的和手段混了",
+        "原料便宜为何成品贵"
+      ],
+      "output": "目标约束表与有实现条件的替代方案",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-101-114.jsonl"
+      ],
+      "source_path": "references/user-models/TM-102.md",
+      "source_sha256": "4b286609221f7c8d6adfc29becd13685cb695281469b4687cbab58ed056c0ff4",
+      "card_path": "references/cards/TM-102.md",
+      "card_sha256": "b365cffc2be187eeb9a559c5e5b99974bef4372ee6c2dddc61418d98bb29d59e",
+      "runtime_path": "references/tools/TM-102.md",
+      "runtime_sha256": "04d55dc785cf2782667bdaef10b791018e9812fcbe06f91b7054de6238b04e94"
+    },
+    {
+      "id": "TM-103",
+      "name": "MECE原则",
+      "task": "将混杂材料整理为可回溯的分类与调查清单",
+      "roles": [
+        "澄清",
+        "证据"
+      ],
+      "signals": [
+        "意见太乱怎么分",
+        "分类重复遗漏",
+        "方案栏目打架",
+        "不知道谁查什么"
+      ],
+      "output": "编号分类表、归类规则及待查分工",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-101-114.jsonl"
+      ],
+      "source_path": "references/user-models/TM-103.md",
+      "source_sha256": "18e425cceada11184a262398bce0b66f82419b246b00c29de7d6886a71efeca8",
+      "card_path": "references/cards/TM-103.md",
+      "card_sha256": "7b2d6661aea1a826db06d3f35aa6f204ecb7b6b8e3a43729c4262d448324789a",
+      "runtime_path": "references/tools/TM-103.md",
+      "runtime_sha256": "7d32815b4b5c6522f546935aeb7a59510ee98b831ea9b25c816ff3c2bb747ced"
+    },
+    {
+      "id": "TM-104",
+      "name": "溯因推理",
+      "task": "从已核现象比较竞争解释并确定下一项证据",
+      "roles": [
+        "解释",
+        "证据"
+      ],
+      "signals": [
+        "指标突然掉了",
+        "是不是用户不喜欢",
+        "原因没找准就返工",
+        "查不到日志能排除吗"
+      ],
+      "output": "异常陈述与竞争解释检验表",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-101-114.jsonl"
+      ],
+      "source_path": "references/user-models/TM-104.md",
+      "source_sha256": "4088005c0a6b256ca34c36131033996790fd7c058d9dccec425504102a01f11a",
+      "card_path": "references/cards/TM-104.md",
+      "card_sha256": "ea2a28b806e2ae5e5db19c9bdfc7f9c089a7487e48914b2f04bd77d8fd6a6a98",
+      "runtime_path": "references/tools/TM-104.md",
+      "runtime_sha256": "8da56ef0a485e6e23fb131d9ad7ae91b9f96e2c1b25e19dff45a5926582a7d39"
+    },
+    {
+      "id": "TM-105",
+      "name": "敏感性分析",
+      "task": "找出不确定输入怎样使选择翻转",
+      "roles": [
+        "取舍",
+        "证据"
+      ],
+      "signals": [
+        "少用几次还划算吗",
+        "估计变了就不值",
+        "回本线靠不靠谱",
+        "哪项数据先核实"
+      ],
+      "output": "联合情景表、条件翻转点与核实顺序",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-101-114.jsonl"
+      ],
+      "source_path": "references/user-models/TM-105.md",
+      "source_sha256": "f83b64c43d9c8920c523a393b377b4a7a50d458a8fba871e6277e7b1f724937e",
+      "card_path": "references/cards/TM-105.md",
+      "card_sha256": "2512c95df17d3adaee5345ad19c0748981f1b06e3b018fd8b68badf623d8b9c1",
+      "runtime_path": "references/tools/TM-105.md",
+      "runtime_sha256": "f0ce53e8f5ab7c2099c5c1d023d211dbbd4151a334824c8086e3253a04f14d84"
+    },
+    {
+      "id": "TM-106",
+      "name": "认知负荷理论",
+      "task": "减少无关加工并组织分段到整合练习",
+      "roles": [
+        "解释",
+        "学习",
+        "执行"
+      ],
+      "signals": [
+        "教程懂但做时乱",
+        "同时记太多",
+        "步骤来回翻",
+        "熟了还要看详解"
+      ],
+      "output": "卡点负荷图与逐渐淡出指导的练习安排",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-101-114.jsonl"
+      ],
+      "source_path": "references/user-models/TM-106.md",
+      "source_sha256": "3858d373be451c24ba51d07f4433e0f48c53986f134bd19ecc49b4f4cde41778",
+      "card_path": "references/cards/TM-106.md",
+      "card_sha256": "b8109678437da477f4f7ef9bb72d0257a77ebec629eb849288c605e312d19266",
+      "runtime_path": "references/tools/TM-106.md",
+      "runtime_sha256": "d039be3311b7ec665608120e474f02fa5333c231fd5aed6f3e2a6bb5123f1880"
+    },
+    {
+      "id": "TM-107",
+      "name": "知识的诅咒",
+      "task": "用接收者的实际理解修正解释者的误估",
+      "roles": [
+        "澄清",
+        "参与者",
+        "学习"
+      ],
+      "signals": [
+        "讲了几遍还是不会",
+        "我以为他早知道",
+        "这还用解释吗",
+        "术语把新人卡住"
+      ],
+      "output": "受众理解缺口与经操作核对的修订说明",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-101-114.jsonl"
+      ],
+      "source_path": "references/user-models/TM-107.md",
+      "source_sha256": "3e0c11d32ddc0113f8e5e7c5663fc159dd7a73cad7707705d9294971d258e5af",
+      "card_path": "references/cards/TM-107.md",
+      "card_sha256": "bb419ffc2e2557601177f54b590823545d047afd333157675f40f2e87be2503d",
+      "runtime_path": "references/tools/TM-107.md",
+      "runtime_sha256": "3a077fad40d19c51a423e37fc0952a941f8c9e28126d5548c0712e31d0f739bd"
+    },
+    {
+      "id": "TM-108",
+      "name": "共同基础",
+      "task": "核对任务含义并接通角色之间的下一步",
+      "roles": [
+        "澄清",
+        "参与者",
+        "执行"
+      ],
+      "signals": [
+        "都说收到却做不一样",
+        "上线到底指什么",
+        "交接对不上",
+        "完成标准各说各话"
+      ],
+      "output": "共享任务定义、衔接与未决事项",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-101-114.jsonl"
+      ],
+      "source_path": "references/user-models/TM-108.md",
+      "source_sha256": "2aa8d04ce1cb49e358d62b7e962aa9aeb5017628a7331ef8967187ce39e80525",
+      "card_path": "references/cards/TM-108.md",
+      "card_sha256": "59e99e42bd7154506d9deba957a7c57cbd74366721f8dda1fe501dc93b123e6a",
+      "runtime_path": "references/tools/TM-108.md",
+      "runtime_sha256": "baa2fc615380e9fd5d0d8530c0c0b69b128c2b2cc400542d340aa88afde216c1"
+    },
+    {
+      "id": "TM-109",
+      "name": "言语行为模型",
+      "task": "还原话语如何形成请求承诺和有效安排",
+      "roles": [
+        "澄清",
+        "参与者",
+        "执行"
+      ],
+      "signals": [
+        "收到算答应了吗",
+        "谁真正接了任务",
+        "答应回复还是交付",
+        "没权限却说通过"
+      ],
+      "output": "约定状态表与回复或交付节点",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-101-114.jsonl"
+      ],
+      "source_path": "references/user-models/TM-109.md",
+      "source_sha256": "dca726616acdecb2d36fb98fe1bd08b8901b7072e151f42105ae121be528e0ac",
+      "card_path": "references/cards/TM-109.md",
+      "card_sha256": "6a1cde6e8001f5f5128edfe786fed616d7e978d9aae0bb8c13031495173cbe52",
+      "runtime_path": "references/tools/TM-109.md",
+      "runtime_sha256": "b8d8cbbec1508f9f36775a7e03e276c1610a556cfc5bfc6786ac9cbe66804a28"
+    },
+    {
+      "id": "TM-110",
+      "name": "图尔敏论证模型",
+      "task": "找出证据通向建议的连接规则与缺口",
+      "roles": [
+        "证据",
+        "解释",
+        "取舍"
+      ],
+      "signals": [
+        "数据有了却说不通",
+        "凭什么得出结论",
+        "别人都用所以该选",
+        "理由能撑多强建议"
+      ],
+      "output": "可检查的论证链与相称结论",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-101-114.jsonl"
+      ],
+      "source_path": "references/user-models/TM-110.md",
+      "source_sha256": "5173755d2d491dfbcd08fd89252e50c337db622b9d68f68e6c7e5f9ea6bed7eb",
+      "card_path": "references/cards/TM-110.md",
+      "card_sha256": "c4df765246353b96e5f832d9d646e741cbfad6ac6fa9109259b44521a1adac83",
+      "runtime_path": "references/tools/TM-110.md",
+      "runtime_sha256": "7fa5a400ae8e5614f536985186686a27f05a1c7adf19d8fbecb867a324f9c06b"
+    },
+    {
+      "id": "TM-111",
+      "name": "共同知识模型",
+      "task": "建立多方可共同依赖的公开准备与启动状态",
+      "roles": [
+        "参与者",
+        "执行",
+        "约束"
+      ],
+      "signals": [
+        "都知道却不敢启动",
+        "不知道别人准备好没",
+        "切换版本不同步",
+        "群发不等于一起动"
+      ],
+      "output": "公开准备清单、唯一启动信号及异常协议",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-101-114.jsonl"
+      ],
+      "source_path": "references/user-models/TM-111.md",
+      "source_sha256": "e139bf4cc9dc95c2275e78ec1007dd0b47c1b447acb4259e4d4d09a9026da79c",
+      "card_path": "references/cards/TM-111.md",
+      "card_sha256": "1ac5f4bb84c8cf771af6f575ceeaa0b8bb1586190c40b4df8a7fd3ca3cfbcac6",
+      "runtime_path": "references/tools/TM-111.md",
+      "runtime_sha256": "b89cae8e24753223175aa187b027df74d3fddd1375acd29bcfa3d961fcb4f204"
+    },
+    {
+      "id": "TM-112",
+      "name": "协调博弈模型",
+      "task": "识别选岔风险并选择对应的协调机制",
+      "roles": [
+        "参与者",
+        "选项",
+        "执行"
+      ],
+      "signals": [
+        "两套都行定不下来",
+        "谁都不敢先动",
+        "都想配合却选岔",
+        "统一方案谁吃亏"
+      ],
+      "output": "协调类型、真实缺口与可执行协议",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-101-114.jsonl"
+      ],
+      "source_path": "references/user-models/TM-112.md",
+      "source_sha256": "742da080fc569c340736ee200f104f612e13ba7e537c7750f159cd1007afcd4a",
+      "card_path": "references/cards/TM-112.md",
+      "card_sha256": "37d612e235138805cced608e8a091ee169ad7fd7283a188ba82c38ba8eb16ecf",
+      "runtime_path": "references/tools/TM-112.md",
+      "runtime_sha256": "1c3fc091156cb0a9fdb5133b507a15a7f016115e5253d8dfe6b4593aa8d309a2"
+    },
+    {
+      "id": "TM-113",
+      "name": "囚徒困境",
+      "task": "核查双方背离激励并改变低效合作结构",
+      "roles": [
+        "参与者",
+        "解释",
+        "执行"
+      ],
+      "signals": [
+        "都少做反而一起吃亏",
+        "别人贡献我也想搭便车",
+        "喊合作没人行动",
+        "规则怎么改才合作"
+      ],
+      "output": "双方收益顺序、结构改变点和监测安排",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-101-114.jsonl"
+      ],
+      "source_path": "references/user-models/TM-113.md",
+      "source_sha256": "2dcb8bc629069506e5cd52ca5afadb4836c9b2830157f16652353398edba6799",
+      "card_path": "references/cards/TM-113.md",
+      "card_sha256": "841d22258ed5df2782bfbed8760a9b0fa2c06126ba6aee0eaaf8896f0df84ee1",
+      "runtime_path": "references/tools/TM-113.md",
+      "runtime_sha256": "bc26387a6137acdedd8ba42a427c35085b20f5acea048af296b0aa41acdf0e5c"
+    },
+    {
+      "id": "TM-114",
+      "name": "重复博弈",
+      "task": "核实履约缺口并设计可兑现可恢复的后续条件",
+      "roles": [
+        "参与者",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "以后合作为何还违约",
+        "总帮忙却总缺交付",
+        "下次支持怎么调整",
+        "合作要不要继续"
+      ],
+      "output": "核验补正要求、后续待遇差别及恢复退出规则",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-101-114.jsonl"
+      ],
+      "source_path": "references/user-models/TM-114.md",
+      "source_sha256": "a87c8af408676662ddb0fe14515e87f766ffc76a45fb03fe6d1ae8d367be0273",
+      "card_path": "references/cards/TM-114.md",
+      "card_sha256": "ec61d7458937e994f509aef856575c891edbaa01feefdca0ccd6efc2ac6071b4",
+      "runtime_path": "references/tools/TM-114.md",
+      "runtime_sha256": "8f5a047fc89e05f6a2e274fda0a049684bbe3fdfa46aa05c61b17b73a9d1bec5"
+    },
+    {
+      "id": "TM-115",
+      "name": "ICAP框架",
+      "task": "按真实加工活动重设计学习并检验新任务表现",
+      "roles": [
+        "学习",
+        "解释"
+      ],
+      "signals": [
+        "笔记很多还是不会",
+        "讨论热闹没学会",
+        "和AI聊了很多",
+        "复述还是自己推理"
+      ],
+      "output": "活动诊断、下一次学习动作与迁移检查",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-115.md",
+      "source_sha256": "fd39359fbbc43bfa4608ac278e8289f7192037315d42d438378d8ec04adb5ebd",
+      "card_path": "references/cards/TM-115.md",
+      "card_sha256": "3d9125ab2dbe020dabae54550566c430ca499ff1853c800de442563de65eaac6",
+      "runtime_path": "references/tools/TM-115.md",
+      "runtime_sha256": "f7128d6d144b21c1fc45819a37eb5fbdad7750069226cc2aa8fcec68f88a4797"
+    },
+    {
+      "id": "TM-116",
+      "name": "图式理论",
+      "task": "定位知识关系形成激活误选与执行的不同断点",
+      "roles": [
+        "解释",
+        "学习"
+      ],
+      "signals": [
+        "公式会背题一变不会",
+        "总套错方法",
+        "知识连不起来",
+        "会换数字不会换场景"
+      ],
+      "output": "关系条件图、错因假说与正反变式",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-116.md",
+      "source_sha256": "7c8de140a6b7d6b9b51b252f27a3c8a10218647749f9f449fa52a68625476a64",
+      "card_path": "references/cards/TM-116.md",
+      "card_sha256": "c1a374982b6984cba4848760492bf80a2775bffade39d5ef60ff1400cfce2a34",
+      "runtime_path": "references/tools/TM-116.md",
+      "runtime_sha256": "a681e317c877ab95b529ac899f1cc6de3cdc6401609b2a7b117b4fee370887d7"
+    },
+    {
+      "id": "TM-117",
+      "name": "可取的困难",
+      "task": "选择服务于长期保持或辨别的可克服难度",
+      "roles": [
+        "学习",
+        "执行"
+      ],
+      "signals": [
+        "学时顺隔天忘",
+        "闭卷还是重看",
+        "混着练反而更错",
+        "费劲到底有没有用"
+      ],
+      "output": "加难练习、纠错恢复与延迟验证",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-117.md",
+      "source_sha256": "07a59cbe674458e1f7d3e9979cfa82b8afa41e237112d408120320235d49af6a",
+      "card_path": "references/cards/TM-117.md",
+      "card_sha256": "cf6158ea6d4ae2ab578b5f59e0c8fbcfa0421d77b5971561961d3fec62fb27c4",
+      "runtime_path": "references/tools/TM-117.md",
+      "runtime_sha256": "f9febf6cbb31239c617c9cd70e4ee44a48389cbfd347e4dd3d163347e5683fa8"
+    },
+    {
+      "id": "TM-118",
+      "name": "刻意练习",
+      "task": "把重复工作转成针对弱点的反馈纠错回合",
+      "roles": [
+        "学习",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "做了多年没进步",
+        "总在同处出错",
+        "怎么练一个薄弱点",
+        "练得多但不会新任务"
+      ],
+      "output": "微技能训练单及完整任务复查",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-118.md",
+      "source_sha256": "d00061efc20707db2a48821b2bf5ad33a2419af5aa79d0922239882ca5278421",
+      "card_path": "references/cards/TM-118.md",
+      "card_sha256": "70a356781b14fe4fa8c5ab0d4e856b23380dd21706aa630fb463068c46cfd94f",
+      "runtime_path": "references/tools/TM-118.md",
+      "runtime_sha256": "e77ce7f3aa0ecb1f92953fec6347a2ce26953859c40bc96e054911b1f7cc8163"
+    },
+    {
+      "id": "TM-119",
+      "name": "默会知识",
+      "task": "把情境判断转成可校准的对照与实践",
+      "roles": [
+        "学习",
+        "解释",
+        "执行"
+      ],
+      "signals": [
+        "步骤都懂手上做不好",
+        "凭感觉怎么教",
+        "时机总抓不准",
+        "师傅会我不会"
+      ],
+      "output": "可言明线索、现场判断点与对照练习",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-119.md",
+      "source_sha256": "02f6c977e6e1ca5a9d25157e6df5cd49b667af92788197f9b36cc1a8a55fdcb1",
+      "card_path": "references/cards/TM-119.md",
+      "card_sha256": "eadfdb5d28ea8ca6e814b58984c57b2d28b28df6babce5f6afd884b537f83b94",
+      "runtime_path": "references/tools/TM-119.md",
+      "runtime_sha256": "67f414acf757d80a0893f84fafe4355a065cc69f8819c6f0d225c3bc8d972d31"
+    },
+    {
+      "id": "TM-120",
+      "name": "学习迁移",
+      "task": "把旧技能映射到新任务并补触发和环境条件",
+      "roles": [
+        "学习",
+        "执行",
+        "解释"
+      ],
+      "signals": [
+        "教程会换任务不会",
+        "提醒才想起方法",
+        "旧办法套错场景",
+        "课堂会工作用不上"
+      ],
+      "output": "情境映射、近实境练习及独立迁移证据",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-120.md",
+      "source_sha256": "1e3dc7959e485a9fb2bb393a156d360322adafcd72f686a4d03b5fefe46aad27",
+      "card_path": "references/cards/TM-120.md",
+      "card_sha256": "604ccaa35046eb15c288e9299c6317bed5a73c1eba9e7197aa0958edf55fabc7",
+      "runtime_path": "references/tools/TM-120.md",
+      "runtime_sha256": "8e16e1ade39a37f220601567896f1bb512d46b0044dfc960048ebf40d8d29887"
+    },
+    {
+      "id": "TM-121",
+      "name": "元认知",
+      "task": "用预测与真实表现校准判断并重新分配学习",
+      "roles": [
+        "学习",
+        "复盘",
+        "证据"
+      ],
+      "signals": [
+        "觉得会实际做不出",
+        "知道不会却没改",
+        "怎么检查真会假会",
+        "该把学习时间给哪项"
+      ],
+      "output": "预测表现偏差表及下一轮学习分配",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-121.md",
+      "source_sha256": "089f0f3fd633d0ab4c7827bcfc2ba73606b6f303aa333db5b4e636c848f34a27",
+      "card_path": "references/cards/TM-121.md",
+      "card_sha256": "cee9867a4d3a45d7998c83ebb484a81f5752a0de73bc873cd3627170cb7aabec",
+      "runtime_path": "references/tools/TM-121.md",
+      "runtime_sha256": "c19091b489c03abdb405c0b536d6b7f4675b0560a78df5097c3d2ca88f427e96"
+    },
+    {
+      "id": "TM-122",
+      "name": "自我决定理论",
+      "task": "检查行动理由与自主胜任关系支持",
+      "roles": [
+        "参与者",
+        "解释",
+        "执行"
+      ],
+      "signals": [
+        "靠排名催着做",
+        "不催也做却很内耗",
+        "奖励停了就不参与",
+        "有要求怎样支持自主"
+      ],
+      "output": "支持阻碍诊断、具体改动及四类观察",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-122.md",
+      "source_sha256": "d050e9e7a05631684db4383aa358386b211f227ad363a8f16eb83ee814de2890",
+      "card_path": "references/cards/TM-122.md",
+      "card_sha256": "c983994c70b34b72aebf4438f789221591acf2fa56b3aa62f6a15c0c08a5100b",
+      "runtime_path": "references/tools/TM-122.md",
+      "runtime_sha256": "44170fe6c2dd477d555375cc24fb64b7bec2f81bcb90ba28704980c90379cfeb"
+    },
+    {
+      "id": "TM-123",
+      "name": "WOOP思维",
+      "task": "将认可愿望与内在障碍连接为执行意图",
+      "roles": [
+        "澄清",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "想做总在准备",
+        "怕出错又找教程",
+        "障碍出现具体怎么办",
+        "计划总停在开始前"
+      ],
+      "output": "W—O—O—P 卡、触发动作与复查记录",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-123.md",
+      "source_sha256": "325a6075e569a9e884833a26f323750edeee88d1366d71fb587fe5d2b8708c04",
+      "card_path": "references/cards/TM-123.md",
+      "card_sha256": "5861866f169f9adb006b22070ea899c15e689466480c1ef6edc1a3b32f7dd10a",
+      "runtime_path": "references/tools/TM-123.md",
+      "runtime_sha256": "b98d91fe764ffc78d6c95d0f38900251b9090326815a566d97d2f159fd20b8c4"
+    },
+    {
+      "id": "TM-124",
+      "name": "多臂老虎机模型",
+      "task": "在重复选择中分配探索与利用机会",
+      "roles": [
+        "选项",
+        "取舍",
+        "学习"
+      ],
+      "signals": [
+        "好方案还要不要试别的",
+        "每次怎么分配机会",
+        "反馈没回来活动结束了",
+        "领先样本太少"
+      ],
+      "output": "候选回报、预算反馈窗口与下一轮分配约定",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-124.md",
+      "source_sha256": "77a92f32e90213a1b005fa076904728869ffdb9bc68429d45d8eb9c98f8e42e2",
+      "card_path": "references/cards/TM-124.md",
+      "card_sha256": "a49c6b381bd92f4d6b6677cdf33d3c60ffdb99db06cf62c64a69ce8fe3a11254",
+      "runtime_path": "references/tools/TM-124.md",
+      "runtime_sha256": "cc65e9a498cc50f920152a3ca9523930a10b67235ed82a3116bcbfba819eeceb"
+    },
+    {
+      "id": "TM-125",
+      "name": "相邻可能",
+      "task": "将远期想法拆为当前可完成并改变条件的一步",
+      "roles": [
+        "约束",
+        "选项",
+        "执行"
+      ],
+      "signals": [
+        "想法很大不知道先做什么",
+        "只差一步到底差什么",
+        "工具买了还不能用",
+        "做完后新增什么能力"
+      ],
+      "output": "当前条件到验证任务再到新增能力的行动路径",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-125.md",
+      "source_sha256": "c03d824df2b472358056912b4e2da3567a64d4705c9272f5c90962589f9991a5",
+      "card_path": "references/cards/TM-125.md",
+      "card_sha256": "b2c7f913df576981a2b6d26086b14a5ca552ffc5b673a3d42b3334796c99c847",
+      "runtime_path": "references/tools/TM-125.md",
+      "runtime_sha256": "deb186e29f033c986291f126021013499824c46e5f70c86ad00bc9c72c9ef54c"
+    },
+    {
+      "id": "TM-126",
+      "name": "具身认知",
+      "task": "连接动作感觉与目标关系并检验变式判断",
+      "roles": [
+        "学习",
+        "解释"
+      ],
+      "signals": [
+        "亲手做过仍不会变通",
+        "动作和理解没接上",
+        "是否必须动手",
+        "手感能适用多大范围"
+      ],
+      "output": "动作反馈关系与有边界的小变式练习",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-126.md",
+      "source_sha256": "2c4e6d9e790bbd93df295b8047819b15786090c20697a1a5108a8fda32390229",
+      "card_path": "references/cards/TM-126.md",
+      "card_sha256": "296919d90a4b401ff8ebd466fdec150887f42a71d58819a8e762fe662208efe0",
+      "runtime_path": "references/tools/TM-126.md",
+      "runtime_sha256": "f95dd4325f55d47d754a786cc9043ce022af35450d7daaac78987f60be9fded0"
+    },
+    {
+      "id": "TM-127",
+      "name": "观察学习",
+      "task": "区分从示范获得什么与后来为何未表现",
+      "roles": [
+        "学习",
+        "解释",
+        "执行"
+      ],
+      "signals": [
+        "看同事演示懂自己不会",
+        "培训后没采用",
+        "步骤能说动作做不出",
+        "补看一次能说明什么"
+      ],
+      "output": "卡点证据、候选解释与最小补法",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-127.md",
+      "source_sha256": "523ffcfa1752ccce6bb8a357ffc23d9c5b68d7fde362b0a4404a223f56dcddb4",
+      "card_path": "references/cards/TM-127.md",
+      "card_sha256": "3a7ad71345e528f21dca75dd3e007dc6a551998dcf777ac4c154100e853237be",
+      "runtime_path": "references/tools/TM-127.md",
+      "runtime_sha256": "ea300192604abc018467cdf00f8c9078b4db1fb90118c4ec0ee2a5e2f36808a7"
+    },
+    {
+      "id": "TM-128",
+      "name": "概念转变模型",
+      "task": "比较新旧解释并检验是否修订判断依据",
+      "roles": [
+        "解释",
+        "学习",
+        "证据"
+      ],
+      "signals": [
+        "答案记住理由没改",
+        "反例当特殊情况",
+        "换问题又用旧解释",
+        "懂了却不信新说法"
+      ],
+      "output": "原解释记录、证据缺口与可区分的变式",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-128.md",
+      "source_sha256": "c5f06a4dc0c11537dfc343f41adcb007070e75b582ca7e32a549e999f914cb20",
+      "card_path": "references/cards/TM-128.md",
+      "card_sha256": "f392aaf9a14b3ebdc3597a01824197f006efcfff7e364a45c41d5a6d72559791",
+      "runtime_path": "references/tools/TM-128.md",
+      "runtime_sha256": "53c7231c323108a3482bc43300623529d193a25460effc37b7d17f92d739bec7"
+    },
+    {
+      "id": "TM-129",
+      "name": "交互记忆系统",
+      "task": "让分散知识在真实任务中被定位取得核实和组合",
+      "roles": [
+        "参与者",
+        "证据",
+        "执行"
+      ],
+      "signals": [
+        "文档交了新人接不住",
+        "知道谁懂却拿不到答案",
+        "专家说得对却合不起来",
+        "换人后知识地图过时",
+        "知识交接"
+      ],
+      "output": "任务知识协作图与实际接手检验",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-129.md",
+      "source_sha256": "d6993a7f2a5798a05b1f8e917c30eaceca81cbf9ef5ff2047f199cb8947806b3",
+      "card_path": "references/cards/TM-129.md",
+      "card_sha256": "71a6d140839945f58c0d5c4184d2b08c2c2daa4ae2f223430b03c6a3dab77f14",
+      "runtime_path": "references/tools/TM-129.md",
+      "runtime_sha256": "e10318c8e3678b5f1b21e996c3389dd98456331829305b84d61ff4f5eade04ca"
+    },
+    {
+      "id": "TM-130",
+      "name": "双环学习",
+      "task": "检查支配实际取舍的规则并区分采用与效果",
+      "roles": [
+        "解释",
+        "约束",
+        "复盘"
+      ],
+      "signals": [
+        "复盘很多还是同样失败",
+        "嘴上质量优先实际保日期",
+        "检查表越来越长",
+        "规则改了有没有真用"
+      ],
+      "output": "决策还原、规则假说及采用效果双重检查",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-130.md",
+      "source_sha256": "8e5ae5a6af15a48140f8b91c91a68c4dd7c7329d55c9710f8ced3b49cf3ba3c7",
+      "card_path": "references/cards/TM-130.md",
+      "card_sha256": "f6b4234af6060ac31a86e8cc99714b1f6dbfbd58508ce2813690d1d9a50872ad",
+      "runtime_path": "references/tools/TM-130.md",
+      "runtime_sha256": "eb3cebd517a612c2bca1c9d2d104c29205cd9bc1eba1b14ce36484a66b796d75"
+    },
+    {
+      "id": "TM-131",
+      "name": "费曼学习法",
+      "task": "用独立解释暴露缺口并回查修正核验",
+      "roles": [
+        "学习",
+        "证据"
+      ],
+      "signals": [
+        "书看懂合上讲不清",
+        "术语会背道理接不上",
+        "讲得顺但怕讲错",
+        "解释哪里需要补"
+      ],
+      "output": "解释缺口、回查依据与变式核对任务",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-131.md",
+      "source_sha256": "012dcf7adc75e7917328ce664e72972caeca22e0e1b45ce26f61e46b24c6a203",
+      "card_path": "references/cards/TM-131.md",
+      "card_sha256": "ca5e06e7221402b675d6e693bb71caa8307a6a59184f143eb507628dcaf3995f",
+      "runtime_path": "references/tools/TM-131.md",
+      "runtime_sha256": "99d4d5211e1acd9b46635b919ed4e6a2bd581626a88e0796f1225cc4f34a2986"
+    },
+    {
+      "id": "TM-132",
+      "name": "福格行为模型",
+      "task": "还原一次未行动机会并调整提示条件或目标",
+      "roles": [
+        "澄清",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "提醒响了还是不做",
+        "会做但当时做不成",
+        "总拖到明天",
+        "小动作完成没成果"
+      ],
+      "output": "一次机会的障碍假说、调整与分段观察",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-132.md",
+      "source_sha256": "0151afefef706d68aedf8604ca6ad35f3f42aa95b8403492079c90dad86a6cdb",
+      "card_path": "references/cards/TM-132.md",
+      "card_sha256": "7337d3bb655a504fcd2e2cf6fec95e48ecee18a6a286799b895bce5c3fc1cb29",
+      "runtime_path": "references/tools/TM-132.md",
+      "runtime_sha256": "e11a1bdf6a573345fd65098ca434d887f913ae3b93e1c808373bc4782ab4cb9a"
+    },
+    {
+      "id": "TM-133",
+      "name": "反馈干预理论",
+      "task": "检查反馈后实际困难并调整建议与支持",
+      "roles": [
+        "参与者",
+        "学习",
+        "复盘"
+      ],
+      "signals": [
+        "提了建议下次还一样",
+        "收到却改不出来",
+        "只顾分数没用建议",
+        "有人提示才会完成"
+      ],
+      "output": "反馈采用、表现改善与独立掌握的检查安排",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-133.md",
+      "source_sha256": "ac047489e7cd13cdc31ccf19a5e73d75969c3231c4f8f80d5a3c5d63bf550211",
+      "card_path": "references/cards/TM-133.md",
+      "card_sha256": "2b7289c473ef1966850865e72edf14104509421e8a118e2dbe1e973074613824",
+      "runtime_path": "references/tools/TM-133.md",
+      "runtime_sha256": "99380754e97b43d411f17b9a87c36b504a0e89d79adb0086b4cd33b54ddffd67"
+    },
+    {
+      "id": "TM-134",
+      "name": "自我效能",
+      "task": "以相关表现证据校准具体能力判断",
+      "roles": [
+        "澄清",
+        "学习",
+        "执行"
+      ],
+      "signals": [
+        "知道做法却觉得做不到",
+        "达标仍全盘否定",
+        "有信心却准备不足",
+        "换场合就没把握"
+      ],
+      "output": "任务预判、条件内表现与下一项支持",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-134.md",
+      "source_sha256": "1a35447166b4ee07bcad42db239bd7ebf254dbc38707e8119319ec553e6fb03a",
+      "card_path": "references/cards/TM-134.md",
+      "card_sha256": "5426c5a5b10f8453a0470c9e749e6745b03c40cea944783698943ee753a507d0",
+      "runtime_path": "references/tools/TM-134.md",
+      "runtime_sha256": "0576fe1c353a8c018990ae808016bf5f513be538735afdf34aa25f732cb4b9c6"
+    },
+    {
+      "id": "TM-135",
+      "name": "编码特异性原则",
+      "task": "检查提取线索并连接未来真实使用条件",
+      "roles": [
+        "学习",
+        "证据"
+      ],
+      "signals": [
+        "学过却想不起",
+        "换提示就记得",
+        "原例会新问法不会",
+        "看到答案熟悉不算会"
+      ],
+      "output": "线索尝试、核对材料与未来情境练习",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-135.md",
+      "source_sha256": "6ec38d0339cb9131d1dec68be5978612c195ca53b0d9fd19ee43fe09b0a98226",
+      "card_path": "references/cards/TM-135.md",
+      "card_sha256": "a01eea1503821b3afa4d8c54b20aeba9e085b64dfe47def64cc0598e126e77a9",
+      "runtime_path": "references/tools/TM-135.md",
+      "runtime_sha256": "5beb81713a594e3511b65771362272940e7091920e2c7680a754c50ebf411147"
+    },
+    {
+      "id": "TM-136",
+      "name": "双重编码理论",
+      "task": "检查名称与对象关系能否双向对应并用于任务",
+      "roles": [
+        "学习",
+        "证据"
+      ],
+      "signals": [
+        "步骤会背却找不到按钮",
+        "图看着熟却说不清",
+        "图文对不上",
+        "换个界面又不会"
+      ],
+      "output": "图文双向对应检查与实际任务修正",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-136.md",
+      "source_sha256": "4d102e0404437192fac241d78406bbe6fcdd4260f8ca5d44b3059736931afdec",
+      "card_path": "references/cards/TM-136.md",
+      "card_sha256": "222abb5c70a074762b45ae6e3a40161b4ce024005e213724fc6c9cc049cfe551",
+      "runtime_path": "references/tools/TM-136.md",
+      "runtime_sha256": "71a13a42f23a6142af61219ea442979c90b4b16a6118c3239cd23dbfc8fb551b"
+    },
+    {
+      "id": "TM-137",
+      "name": "变易理论",
+      "task": "设计有目的的变与不变帮助辨识关键关系",
+      "roles": [
+        "学习",
+        "证据"
+      ],
+      "signals": [
+        "题换了就不会",
+        "把人数当成比例",
+        "讲了很多例子还是混",
+        "只会选有颜色那行"
+      ],
+      "output": "关键方面假说、对照材料与新任务检查",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-137.md",
+      "source_sha256": "c90641bb73f96aee8c310e1eeeb8017cc3694fdb062c442fab209fd9e9096e8a",
+      "card_path": "references/cards/TM-137.md",
+      "card_sha256": "edee746bb2d32de0ace4c44f07a9d640b3407850298589bde3e8d9bd7a515bfb",
+      "runtime_path": "references/tools/TM-137.md",
+      "runtime_sha256": "4cd3bd86153a1cddb801d6b87f652e526c1847ba812d5b3a6757fd46e3f1d989"
+    },
+    {
+      "id": "TM-138",
+      "name": "期望价值理论",
+      "task": "比较现实选项中的预期进展价值与代价",
+      "roles": [
+        "取舍",
+        "澄清"
+      ],
+      "signals": [
+        "明知有用还是没学",
+        "两个课都想学",
+        "学习和休息怎么选",
+        "投入不值得还是没信心"
+      ],
+      "output": "现实选项比较、关键未知项与条件选择",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl",
+        "references/evaluation/v2.0/retest-138-responses.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl",
+        "references/evaluation/v2.0/final-behavior-review.json"
+      ],
+      "source_path": "references/user-models/TM-138.md",
+      "source_sha256": "63137207bd00d37640914e6fe2bcb5b42096640f2fe047babfb0ef0ba7e266ee",
+      "card_path": "references/cards/TM-138.md",
+      "card_sha256": "84cf2a0a59c9a3057cab11060fa383f04c767fd39982860b5ba2d7a2f9921dd3",
+      "runtime_path": "references/tools/TM-138.md",
+      "runtime_sha256": "912a46c4f81da28f83fc6c59d5fb9d17bc654ff2048496570c4a7756bcfdb1ca"
+    },
+    {
+      "id": "TM-139",
+      "name": "团队心理安全",
+      "task": "核查开口后果并让问题得到回应与改进",
+      "roles": [
+        "参与者",
+        "证据",
+        "执行"
+      ],
+      "signals": [
+        "不敢说不会",
+        "只敢私下问熟人",
+        "说欢迎意见却有人被嘲笑",
+        "问题报了没有下文"
+      ],
+      "output": "具体事件回应方案、责任闭环与任务验证",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-139.md",
+      "source_sha256": "88fe31b9364ac30051c7f3602e2f91ad800101e88a13154cea99880ccbdf913d",
+      "card_path": "references/cards/TM-139.md",
+      "card_sha256": "258dd1700a73e10e8d347436deb4ba2c660772aae3b12ce0235533e4eb59bc80",
+      "runtime_path": "references/tools/TM-139.md",
+      "runtime_sha256": "a3050bc13c065d641be433f522110002082ed76e31fd54abdefb877cf9f6b69d"
+    },
+    {
+      "id": "TM-140",
+      "name": "吸收能力",
+      "task": "检查外部知识从识别理解接续到实际应用的断点",
+      "roles": [
+        "学习",
+        "执行",
+        "证据"
+      ],
+      "signals": [
+        "专家来了还是用不起来",
+        "资料进群等于学会吗",
+        "会复述不会实际用",
+        "培训很多工作照旧"
+      ],
+      "output": "知识任务接续图、小任务试用与继续条件",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-140.md",
+      "source_sha256": "ea1533380f26ec125ae52a7909d7c7456da499c87a4be20d7058f33eb31c563a",
+      "card_path": "references/cards/TM-140.md",
+      "card_sha256": "2eaad33e53ba4b838d112b3a2b91dd230875cf3e6fed5f5643738300f9e8c214",
+      "runtime_path": "references/tools/TM-140.md",
+      "runtime_sha256": "75269e12e97978ae2ca070db7ecc38f36ac6d2fff463ce25d09eb6a7e9f1606c"
+    },
+    {
+      "id": "TM-141",
+      "name": "控制二分法",
+      "task": "找出可尝试的合理工作并撤去结果保证",
+      "roles": [
+        "约束",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "结果不由我还有什么能做",
+        "等回复越等越焦虑",
+        "努力了还是没结果",
+        "把不可控当成不用管"
+      ],
+      "output": "行动边界、遗漏工作、备选与反馈节点",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-141.md",
+      "source_sha256": "706cf89c3fd923c2002fba5edc0164900ca273b013d34dc42095757ddd71ede4",
+      "card_path": "references/cards/TM-141.md",
+      "card_sha256": "5291c37e63132c9b35a8447763f05b33530dd022e91988cd962659fc1caa6dd7",
+      "runtime_path": "references/tools/TM-141.md",
+      "runtime_sha256": "9cf9dcb99deccae5ca0d1367cb2a22d8fe738f755db49bd12b9b2e42b099bc51"
+    },
+    {
+      "id": "TM-142",
+      "name": "课题分离",
+      "task": "区分决定行为影响与支持并设计责任内的配合",
+      "roles": [
+        "参与者",
+        "约束",
+        "执行"
+      ],
+      "signals": [
+        "替别人决定又很累",
+        "别人不满意就是我错吗",
+        "不想兜底但有旧承诺",
+        "共同任务边界怎么谈"
+      ],
+      "output": "角色责任图、支持边界与可协商交接方案",
+      "runtime_status": "sample_trials_reviewed",
+      "source_review_records": [
+        "references/evaluation/v2.0/sources-101-142.md"
+      ],
+      "trial_records": [
+        "references/evaluation/v2.0/responses-101-142.jsonl"
+      ],
+      "review_records": [
+        "references/evaluation/v2.0/review-115-142.jsonl"
+      ],
+      "source_path": "references/user-models/TM-142.md",
+      "source_sha256": "50daa0725e5b828e7850c09d9a31690e68e829650c422345c2823227553c5f3e",
+      "card_path": "references/cards/TM-142.md",
+      "card_sha256": "a076e86838f8a482a9001a2914d5fbfb9933d131296b8e517d296bccb0cdc3d6",
+      "runtime_path": "references/tools/TM-142.md",
+      "runtime_sha256": "0be1ae498c7ba3cfcbc55c8527f68268d1fc54ca2d6fbdba2ead443123bc6ded"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "response": "references/evaluation/v2.0/multiturn-03.json",
+  "html": "references/evaluation/v2.0/multiturn-plan-v1.html",
+  "report_date": "2026-10-17",
+  "new_minutes": 30,
+  "previously_used_this_week_minutes": 60,
+  "weekly_total_minutes": 90,
+  "all_links_exist": true,
+  "external_dependencies": false,
+  "prior_rounds_preserved": true,
+  "visual_preview": "未进行视觉预览或打印验证；仅静态检查。",
+  "portable_copy_note": "Checks and hashes describe the original local artifact. Only resource paths are normalized in this public copy; publication checks validate the portable HTML separately."
+}

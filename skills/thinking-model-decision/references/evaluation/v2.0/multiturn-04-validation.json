@@ -1,0 +1,16 @@
+{
+  "response": "references/evaluation/v2.0/multiturn-04.json",
+  "html": "references/evaluation/v2.0/multiturn-plan-v2.html",
+  "report_date": "2026-10-17",
+  "old_html_sha256_before": "85ec1614072eebd59c943d0ef68316b43f0bd05f4a4ee0fc1872dc0c6262c1e7",
+  "old_html_sha256_after": "85ec1614072eebd59c943d0ef68316b43f0bd05f4a4ee0fc1872dc0c6262c1e7",
+  "v1_unchanged": true,
+  "used_this_week_minutes": 80,
+  "remaining_plan_minutes": 10,
+  "weekly_total_minutes": 90,
+  "links_valid": true,
+  "external_dependencies": false,
+  "visual_preview": "未进行视觉预览或打印验证；仅静态检查。",
+  "execution_status": "建议已更新，用户尚未执行。",
+  "portable_copy_note": "Checks and hashes describe the original local artifact. Only resource paths are normalized in this public copy; publication checks validate the portable HTML separately."
+}

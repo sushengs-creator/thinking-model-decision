@@ -1,4 +1,4 @@
 interface:
   display_name: "思维模型决策工具"
-  short_description: "逐步澄清困惑，结合思维模型与万维钢工具，默认交付 HTML 下一步行动计划"
-  default_prompt: "请用 $thinking-model-decision 通过一步一步的追问帮我理清当前困惑，再选择合适模型分析，最终给我一份 HTML 下一步行动计划，说明行动依据、时间安排和调整条件。"
+  short_description: "逐步追问看清难题，组合互补工具箱，形成有依据的解决方案与 HTML 实施计划"
+  default_prompt: "请用 $thinking-model-decision 帮我一步步看清当前难题，每轮只问一个最重要的问题；根据需要组建工具箱，带我全面分析，最终给出 HTML 解决方案与实施步骤，说明依据和调整条件。"

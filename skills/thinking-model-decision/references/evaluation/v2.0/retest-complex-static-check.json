@@ -1,0 +1,94 @@
+{
+  "file": "references/evaluation/v2.0/retest-complex-solution.html",
+  "sha256": "282d24496f1144be3827c4fecd6a120ab68185e01c82fa8277d35bc79c4879f4",
+  "bytes": 27210,
+  "static_checks": {
+    "balanced_html": true,
+    "utf8": true,
+    "required_sections": 7,
+    "local_and_internal_links_valid": 18,
+    "no_external_runtime_resources": true,
+    "no_template_placeholders": true,
+    "current_week_planned_person_minutes": 110,
+    "current_week_reserve_person_minutes": 10,
+    "next_week_proposed_unconfirmed_person_minutes": 18,
+    "release_date": "2026-10-22",
+    "date_consistent": true
+  },
+  "visual_validation": "not_performed; browser and all alternative rendering paths prohibited for this task",
+  "links": [
+    {
+      "href": "#facts",
+      "exists": true
+    },
+    {
+      "href": "#people",
+      "exists": true
+    },
+    {
+      "href": "#mechanism",
+      "exists": true
+    },
+    {
+      "href": "#routes",
+      "exists": true
+    },
+    {
+      "href": "#plan",
+      "exists": true
+    },
+    {
+      "href": "#signals",
+      "exists": true
+    },
+    {
+      "href": "#sources",
+      "exists": true
+    },
+    {
+      "href": "../../tools/TM-050.md",
+      "exists": true
+    },
+    {
+      "href": "../../cards/TM-050.md",
+      "exists": true
+    },
+    {
+      "href": "../../wan-tools/WW-6.14.md",
+      "exists": true
+    },
+    {
+      "href": "../../tools/TM-142.md",
+      "exists": true
+    },
+    {
+      "href": "../../cards/TM-142.md",
+      "exists": true
+    },
+    {
+      "href": "../../wan-tools/WW-1.4.md",
+      "exists": true
+    },
+    {
+      "href": "../../tools/TM-083.md",
+      "exists": true
+    },
+    {
+      "href": "../../cards/TM-083.md",
+      "exists": true
+    },
+    {
+      "href": "../../tools/TM-077.md",
+      "exists": true
+    },
+    {
+      "href": "../../cards/TM-077.md",
+      "exists": true
+    },
+    {
+      "href": "../../wan-tools/WW-7.6.md",
+      "exists": true
+    }
+  ],
+  "portable_copy_note": "Checks and hashes describe the original local artifact. Only resource paths are normalized in this public copy; publication checks validate the portable HTML separately."
+}

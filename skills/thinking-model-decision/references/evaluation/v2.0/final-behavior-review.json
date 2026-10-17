@@ -1,0 +1,90 @@
+{
+  "version": "2.0.0",
+  "revision": 63,
+  "review_date": "2026-10-17",
+  "reviewer": "Maintainer readback of retests, entry cases, generated HTML and sequential conversation; initial individual tools reviewed separately by the recorded reviewers.",
+  "all_required_cases_reviewed": true,
+  "open_findings": [],
+  "resolved_tool_ids": [
+    "TM-027",
+    "TM-037",
+    "TM-138"
+  ],
+  "closures": [
+    {
+      "id": "TM-027",
+      "initial": "A converted registrations to purchases without evidence.",
+      "fix": "Common rule separates signup, payment, participation and outcome.",
+      "retests": [
+        "TM-027-repeat-A",
+        "TM-027-new"
+      ],
+      "review": "Both retain unverified payment/outcome as unknown, treat popularity as a candidate signal and check task fit; new case conditions the 3% calculation on same cohort and period.",
+      "status": "resolved_within_samples"
+    },
+    {
+      "id": "TM-037",
+      "initial": "A treated an originally planned single event as already affordable.",
+      "fix": "Common rule says prior intention does not establish feasibility.",
+      "retests": [
+        "TM-037-repeat-A",
+        "TM-037-new"
+      ],
+      "review": "Both pause commitments, separate repeated optimism from independent new evidence, and verify even the original event against people, cost, demand and acceptance.",
+      "status": "resolved_within_samples"
+    },
+    {
+      "id": "TM-138",
+      "initial": "A prioritized a potentially useful data task before eliciting the user value order.",
+      "fix": "Common rule does not prioritize instrumental value over interest or rest without the user priorities and existing duties.",
+      "retests": [
+        "TM-138-repeat-A",
+        "TM-138-new"
+      ],
+      "review": "Both compare known values, expected outcomes and costs without ranking; ask one concrete desired-change question and wait. A possible next-month task is not upgraded to an obligation.",
+      "status": "resolved_within_samples"
+    },
+    {
+      "id": "complex_solution",
+      "initial": "D5 was described as this week although the 2026-10-17 report plus five days falls next week; 120 person-minutes was only this week.",
+      "fix": "Check calendar and budget window; future capacity requires confirmation.",
+      "retests": [
+        "complex_solution-repeat"
+      ],
+      "review": "Seven-tool report preserves evidence/claims/unknowns, produces interdependent artifacts, limits current week to110+10 person-minutes and separately proposes unconfirmed next-week18. Oct22 is identified as next week. Normal production capacity and others consent remain unknown; no guaranteed on-time delivery.",
+      "status": "resolved_within_sample"
+    }
+  ],
+  "entry_review": {
+    "ww_only": "passed_within_sample: WW only;120 person-minutes including all collaboration; participant number and consent conditional",
+    "non_choice_learning": "passed_within_sample:30 remaining; normal-reference use distinguished from unsupported transfer",
+    "pause": "passed: stops without report",
+    "translation": "passed: direct translation without forced workflow",
+    "missing_history_update": "passed: does not pretend to read old report or mechanically shrink an unseen plan"
+  },
+  "multiturn_review": {
+    "turns": 4,
+    "mode": "Executor response followed by maintainer-supplied synthetic user reply; later inputs not supplied beforehand.",
+    "finding": "Two single-question replies then initial HTML, followed by revised HTML.60+30 changes to80+10; previous writing steps remain unexecuted; scope reduced; no invented screenshot or new-user evidence.",
+    "original_v1_hash_preserved": true,
+    "review": "passed_within_sample"
+  },
+  "public_flow_review": "No blocking issue. Two optional USAGE clarifications applied. Original v1 title retained as historical evidence; its body explicitly treats30minutes as a cap, not completion guarantee.",
+  "counts": {
+    "initial_local_tool_responses": 284,
+    "additional_local_tool_responses": 6,
+    "entry_responses_including_retest": 7,
+    "sequential_turn_responses": 4,
+    "total_actual_responses": 301,
+    "actual_html_reports": 4,
+    "fresh_reviewed_tools": 128,
+    "maintainer_reviewed_tools": 14
+  },
+  "limitations": [
+    "Synthetic scenarios; cases within a batch share executor context.",
+    "Not all initial cases regenerated after shared-rule fixes.",
+    "No universal causal claim about the fixes, all-tool-combination coverage, all-WW behavior validation, cross-client installation or real-world effectiveness.",
+    "Static HTML readback only; no visual or print rendering.",
+    "Per-tool runtime hashes do not cover every shared protocol, executor model or client."
+  ]
+}

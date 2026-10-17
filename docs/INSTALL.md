@@ -27,7 +27,7 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 若不支持原生安装，但能读取完整目录，请说明怎样在本次会话加载。
 若已经安装，请先备份、保留我的新增模型和修改，再决定怎样更新。
 不要把某个产品的安装目录或命令当成通用标准；无法核实入口时不要猜测。
-完成后实际读取 SKILL.md 与一张模型卡，报告读取结果、版本、使用范围及调用方式。
+完成后实际读取 SKILL.md、一张模型卡及对应运行工具，报告读取结果、版本、使用范围及调用方式。
 没有完成的步骤请明确列出，并给我当前环境可执行的下一步。
 ```
 
@@ -39,7 +39,7 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 ### 下载什么
 
-直接[下载独立技能包 v1.12.0](https://raw.githubusercontent.com/sushengs-creator/thinking-model-decision/main/dist/thinking-model-decision-v1.12.0.zip)。这是技能目录的 ZIP，包含全部模型资料、模板、工具脚本和署名说明；[SHA-256 校验值](../dist/thinking-model-decision-v1.12.0.zip.sha256)供需要核对文件的用户使用。
+直接[下载独立技能包 v2.0.0](https://raw.githubusercontent.com/sushengs-creator/thinking-model-decision/main/dist/thinking-model-decision-v2.0.0.zip)。这是技能目录的 ZIP，包含全部模型资料、模板、工具脚本和署名说明；[SHA-256 校验值](../dist/thinking-model-decision-v2.0.0.zip.sha256)供需要核对文件的用户使用。
 
 解压后应该得到下面的结构。顶层只有一个 `thinking-model-decision` 文件夹，`SKILL.md` 就在这个文件夹内。
 
@@ -54,7 +54,7 @@ thinking-model-decision/
 └── README.md
 ```
 
-独立包直链无法访问时，可以使用[完整仓库 ZIP 备用下载](https://codeload.github.com/sushengs-creator/thinking-model-decision/zip/refs/heads/main)。解压后进入 `dist`，取出里面的 `thinking-model-decision-v1.12.0.zip` 即可；也可以直接取出 `skills/thinking-model-decision` 技能目录。完整仓库还包含网站说明与维护文件，不要把仓库外层文件夹当成技能目录。
+独立包直链无法访问时，可以使用[完整仓库 ZIP 备用下载](https://codeload.github.com/sushengs-creator/thinking-model-decision/zip/refs/heads/main)。解压后进入 `dist`，取出里面的 `thinking-model-decision-v2.0.0.zip` 即可；也可以直接取出 `skills/thinking-model-decision` 技能目录。完整仓库还包含网站说明与维护文件，不要把仓库外层文件夹当成技能目录。
 
 ### 有技能导入入口
 
@@ -86,7 +86,8 @@ thinking-model-decision/
 ```text
 请在本次会话使用【完整技能目录的位置】中的 thinking-model-decision。
 先读取 SKILL.md，再按需读取目录中的引用资料；不用一次加载全部模型。
-先验证能否读取 references/cards/TM-077.md。若读取失败，请指出缺口。
+先验证能否读取 references/cards/TM-077.md 和 references/tools/TM-077.md。
+若读取失败，请指出缺口。
 读取成功后，按该技能帮我逐步梳理问题。我的困惑是【写实际问题】。
 ```
 
@@ -96,17 +97,18 @@ thinking-model-decision/
 
 ## 检查成功的标准
 
-**看到“已下载”还不够。** 让智能体实际读取入口与模型卡，再进行一次对话试用。
+**看到“已下载”还不够。** 让智能体实际读取入口、模型卡与运行工具，再进行一次对话试用。
 
 ```text
 请检查 thinking-model-decision 在当前会话是否可用。
-实际读取 SKILL.md、references/library-state.json 和 references/cards/TM-077.md，
+实际读取 SKILL.md、references/library-state.json、references/cards/TM-077.md
+和 references/tools/TM-077.md，
 报告入口与库状态的版本是否一致、这张卡的名称和一条真实使用边界。
 说明你从哪个目录或资源入口读取，是原生安装还是仅本次加载。
 无法读取就明确说失败，不要根据网页介绍猜测。
 ```
 
-本版本应读到入口与库状态均为 `1.12.0`，模型卡为“可逆决策”。后续发布时以对应版本为准。这个检查证明当前会话能够访问相关文件，不等于所有模型行为、所有客户端和新会话自动发现都已验证。本轮完成两项卡片模拟、一项入口回归及结构与打包检查；12项原始检索中11项进入前八，一项长句未召回，两项关键词回退检查可找到。已保留原失败，不代表全部模型、所有客户端或现实效果均已验证，见[第142篇更新记录](../skills/thinking-model-decision/references/evaluation/results-v1.12.md)。
+本版本应读到入口与库状态均为 `2.0.0`，模型卡为“可逆决策”。后续发布时以对应版本为准。这个检查证明当前会话能够访问相关文件，不等于所有模型行为、所有客户端和新会话自动发现都已验证。v2.0 的实际验证与限制见[本轮记录](../skills/thinking-model-decision/references/evaluation/results-v2.0.md)。当前环境的读取检查不能替代所有工具和客户端的行为验证。
 
 随后试着发送“请用思维模型决策工具帮我梳理，我想学数据分析，但不知道要不要报课”。它通常会先询问一个影响判断的问题，等待你回答。只会重复技能名称、不能读取资料或一直输出模型名单，都不算完成使用检查。
 
@@ -128,7 +130,7 @@ thinking-model-decision/
 
 | 能力缺口 | 可以继续做什么 |
 |---|---|
-| 没有 Python 或终端 | 直接读取目录、模型卡和原文完成普通决策分析；不要为了使用技能先安装 Python |
+| 没有 Python 或终端 | 直接读取目录、运行工具、模型卡及按需原文完成分析；不要为了使用技能先安装 Python |
 | 不能生成文件或附件 | 给完整 HTML 源码及保存方式，或按你的明确要求直接给聊天文字报告 |
 | 没有浏览器预览 | 可以给实际生成的文件，但应说明未做显示检查 |
 | 无法联网 | 分析已有材料，把需要当前外部事实的条件标为待核实 |
@@ -158,10 +160,11 @@ https://github.com/sushengs-creator/thinking-model-decision
 
 ```sh
 python3 "<技能目录>/scripts/library.py" validate
+python3 "<技能目录>/scripts/tool_runtime.py" validate
 ```
 
 脚本从自身位置定位资料，与当前工作目录无关。未运行时应说明未运行，不把复制文件算作校验通过。
 
-仓库维护者更新分发包时，在仓库根目录运行 `python3 scripts/package_skill.py`。它读取技能版本，生成独立 ZIP 和校验值；发布前核对解压文件与源目录一致，再同步文档中的版本链接。当前原生客户端覆盖情况与检查范围见[本轮审查记录](USABILITY-REVIEW.md)。
+仓库维护者更新分发包时，在仓库根目录运行 `python3 scripts/package_skill.py`。它读取技能版本，生成独立 ZIP 和校验值；发布前核对解压文件与源目录一致，再同步文档中的版本链接。当前覆盖情况与检查范围见[v2.0记录](../skills/thinking-model-decision/references/evaluation/results-v2.0.md)。
 
 下一步回到[首页第 3 步](../README.md#3-说出第一件困惑)，开始自己的问题。

@@ -1,0 +1,13 @@
+{
+  "id": "multiturn-01",
+  "request": "我总在忙，自己的学习总往后拖，不知道是不是我没毅力。请用思维模型决策工具陪我一步步理清。",
+  "response": "你一直很忙，自己的学习又反复往后拖，但这些还不足以说明你没有毅力。我们先看一件具体的事，找出当时卡在哪里。\n\n最近一次你原本准备学习、最后却往后推的时候，具体发生了什么？",
+  "reads": [
+    "SKILL.md",
+    "references/guided-dialogue.md",
+    "references/questioning-toolkit.md",
+    "references/tools/TM-132.md",
+    "references/cards/TM-132.md"
+  ],
+  "artifacts": []
+}

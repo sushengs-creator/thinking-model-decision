@@ -1,0 +1,243 @@
+{
+  "natural_language_queries": 18,
+  "in_top_12": 14,
+  "exact_tm_ids": 142,
+  "all_exact_ids_first": true,
+  "scope": "Lexical discovery only; intended candidates are not necessarily unique best choices.",
+  "results": [
+    {
+      "query": "总担心自己出丑，别人怎么看我",
+      "intended_candidate": "TM-006",
+      "rank": 1,
+      "in_top_12": true,
+      "top_5": [
+        "TM-006",
+        "TM-100",
+        "TM-017",
+        "TM-097",
+        "TM-113"
+      ]
+    },
+    {
+      "query": "几种解释都说得通，先查哪个证据",
+      "intended_candidate": "TM-050",
+      "rank": 1,
+      "in_top_12": true,
+      "top_5": [
+        "TM-050",
+        "TM-049",
+        "TM-018",
+        "TM-128",
+        "WW-4.4"
+      ]
+    },
+    {
+      "query": "新消息来了，原来的判断要不要更新",
+      "intended_candidate": "TM-054",
+      "rank": 1,
+      "in_top_12": true,
+      "top_5": [
+        "TM-054",
+        "TM-114",
+        "TM-124",
+        "WW-7.1",
+        "TM-072"
+      ]
+    },
+    {
+      "query": "还要花钱查资料吗，信息回来可能太晚",
+      "intended_candidate": "TM-062",
+      "rank": 1,
+      "in_top_12": true,
+      "top_5": [
+        "TM-062",
+        "TM-097",
+        "TM-124",
+        "WW-3.5",
+        "TM-125"
+      ]
+    },
+    {
+      "query": "做错能不能恢复，退出代价多大",
+      "intended_candidate": "TM-077",
+      "rank": 13,
+      "in_top_12": false,
+      "top_5": [
+        "TM-102",
+        "TM-095",
+        "TM-004",
+        "TM-099",
+        "TM-013"
+      ]
+    },
+    {
+      "query": "催得越多返工越多，下次还是这样",
+      "intended_candidate": "TM-083",
+      "rank": null,
+      "in_top_12": false,
+      "top_5": [
+        "TM-133",
+        "TM-010",
+        "TM-012",
+        "TM-019",
+        "TM-039"
+      ]
+    },
+    {
+      "query": "对方这次失约，还要不要继续合作",
+      "intended_candidate": "TM-114",
+      "rank": 1,
+      "in_top_12": true,
+      "top_5": [
+        "TM-114",
+        "TM-124",
+        "TM-113",
+        "TM-003",
+        "TM-020"
+      ]
+    },
+    {
+      "query": "每个人各知道一点，交接还是卡住",
+      "intended_candidate": "TM-129",
+      "rank": 27,
+      "in_top_12": false,
+      "top_5": [
+        "TM-107",
+        "TM-042",
+        "TM-035",
+        "WW-6.9",
+        "TM-010"
+      ]
+    },
+    {
+      "query": "提醒响了却还是没开始做",
+      "intended_candidate": "TM-132",
+      "rank": 1,
+      "in_top_12": true,
+      "top_5": [
+        "TM-132",
+        "TM-138",
+        "TM-141",
+        "TM-012",
+        "TM-047"
+      ]
+    },
+    {
+      "query": "给了反馈和修改意见，对方还是没改",
+      "intended_candidate": "TM-133",
+      "rank": 2,
+      "in_top_12": true,
+      "top_5": [
+        "TM-141",
+        "TM-133",
+        "TM-138",
+        "TM-083",
+        "WW-8.4"
+      ]
+    },
+    {
+      "query": "公开承认问题会不会被责备",
+      "intended_candidate": "TM-139",
+      "rank": 1,
+      "in_top_12": true,
+      "top_5": [
+        "TM-139",
+        "TM-052",
+        "TM-083",
+        "TM-035",
+        "TM-041"
+      ]
+    },
+    {
+      "query": "学来的新方法进不了真实工作",
+      "intended_candidate": "TM-140",
+      "rank": 4,
+      "in_top_12": true,
+      "top_5": [
+        "TM-120",
+        "TM-050",
+        "TM-116",
+        "TM-140",
+        "WW-5.8"
+      ]
+    },
+    {
+      "query": "总担心无法保证的结果",
+      "intended_candidate": "TM-141",
+      "rank": 2,
+      "in_top_12": true,
+      "top_5": [
+        "TM-068",
+        "TM-141",
+        "TM-001",
+        "TM-049",
+        "TM-100"
+      ]
+    },
+    {
+      "query": "帮助别人最后替他做决定",
+      "intended_candidate": "TM-142",
+      "rank": 1,
+      "in_top_12": true,
+      "top_5": [
+        "TM-142",
+        "TM-122",
+        "WW-2.4",
+        "TM-044",
+        "TM-077"
+      ]
+    },
+    {
+      "query": "团队需要自主调整方法",
+      "intended_candidate": "WW-7.6",
+      "rank": 3,
+      "in_top_12": true,
+      "top_5": [
+        "WW-4.9",
+        "TM-139",
+        "WW-7.6",
+        "TM-094",
+        "TM-122"
+      ]
+    },
+    {
+      "query": "在自制和采购之间决定",
+      "intended_candidate": "WW-5.6",
+      "rank": 1,
+      "in_top_12": true,
+      "top_5": [
+        "WW-5.6",
+        "TM-122",
+        "WW-2.4",
+        "TM-077",
+        "TM-142"
+      ]
+    },
+    {
+      "query": "我一直在解决别人给的题目",
+      "intended_candidate": "WW-9.7",
+      "rank": 4,
+      "in_top_12": true,
+      "top_5": [
+        "TM-044",
+        "TM-087",
+        "TM-100",
+        "WW-9.7",
+        "TM-006"
+      ]
+    },
+    {
+      "query": "怎么确定我真正想要什么",
+      "intended_candidate": "WW-9.2",
+      "rank": 58,
+      "in_top_12": false,
+      "top_5": [
+        "TM-078",
+        "TM-103",
+        "WW-1.5",
+        "TM-036",
+        "TM-059"
+      ]
+    }
+  ]
+}

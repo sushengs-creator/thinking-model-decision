@@ -16,7 +16,7 @@ from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
 
 SKILL_NAME = "thinking-model-decision"
 REPOSITORY = "https://github.com/sushengs-creator/thinking-model-decision"
-EXCLUDED_DIRS = {".git", ".svn", "__pycache__", ".pytest_cache", ".mypy_cache", ".ruff_cache"}
+EXCLUDED_DIRS = {".git", ".svn", ".history", "__pycache__", ".pytest_cache", ".mypy_cache", ".ruff_cache"}
 EXCLUDED_FILES = {".DS_Store", "Thumbs.db"}
 
 
@@ -57,6 +57,9 @@ def build(repo_root, out):
         f"# 思维模型决策工具\n\n打包版本 **{version}**。\n\n"
         "请保留完整的 `thinking-model-decision` 文件夹。`SKILL.md` 需要和 "
         "`references/` 等配套资源一起使用，不要只复制入口文件。\n\n"
+        "在支持 Skills 的智能体中按该产品方式安装；只能读工作区文件时，明确要求本次会话读取完整目录。\n\n"
+        "开始时说：请用思维模型决策工具，先每轮问我一个关键问题，问题清楚后组建工具箱，给出解决方案和 HTML 实施步骤。我的困惑是……\n\n"
+        "先确认助手实际读到入口、模型卡及运行文件；仅下载或看到技能名称不等于已能使用。个人报告留在当前任务。\n\n"
         f"- [开始使用与操作示范]({REPOSITORY}#readme)\n"
         f"- [安装与更新说明]({REPOSITORY}/blob/main/docs/INSTALL.md)\n"
     ).encode("utf-8")

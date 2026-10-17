@@ -1,5 +1,11 @@
 # 版本历史、来源与验证范围
 
+## 2.0.0 · 2026-10-17
+
+全面重构为逐轮追问、问题地图、互补工具箱、综合解决方案、实施步骤与反馈更新。新增142个TM运行文件，保留142篇原文、142张卡及100个WW条目；两库平等选型，取消固定工具数量上限。新增运行索引、检索、增量登记和陈旧指纹检查。默认HTML报告合计全方案资源，区分建议、承诺、执行与结果。
+
+详见 [升级说明](V2-UPGRADE.md) 与 [实际验证范围](../skills/thinking-model-decision/references/evaluation/results-v2.0.md)。此前版本记录保持历史范围，不转记为本版行为验证。
+
 本工具由 [sushengs-creator](https://github.com/sushengs-creator) 整理与维护，142篇编号思维模型保留各自原文及来源。万维钢部分来自作者提供的本地技能快照，**不是原课程逐字稿，也不表示万维钢参与制作、审定或背书**。来源记录见[来源说明](../skills/thinking-model-decision/references/source-notes.md)，使用与署名说明见[NOTICE](../NOTICE.md)。
 
 v1.0完成资料完整性、模型卡来源核对及指定场景试跑；v1.1另完成一组四轮对话和三个边界场景的模拟验证。模拟通过不等于现实决策效果已得到保证。详见[v1.0验证记录](../skills/thinking-model-decision/references/evaluation/results-v1.0.md)与[v1.1验证记录](../skills/thinking-model-decision/references/evaluation/results-v1.1.md)。
