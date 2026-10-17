@@ -1,10 +1,10 @@
 {
-  "version": "1.11.0",
-  "revision": 58,
-  "updated_at": "2026-10-16T11:04:11.676277+00:00",
-  "user_models": 141,
+  "version": "1.12.0",
+  "revision": 61,
+  "updated_at": "2026-10-17T05:38:17.368190+00:00",
+  "user_models": 142,
   "wan_tools": 100,
-  "sample_cards": 24,
+  "sample_cards": 25,
   "sample_card_ids": [
     "TM-054",
     "TM-062",
@@ -29,7 +29,8 @@
     "TM-138",
     "TM-139",
     "TM-140",
-    "TM-141"
+    "TM-141",
+    "TM-142"
   ],
   "behavior_trial_scope": {
     "v0_1_full_entry_cases": [
@@ -53,7 +54,7 @@
     "tested_at_revision": 2,
     "tested_version": "1.0.0"
   },
-  "change": "Register TM-141 card as behavior_checked; status supplied by maintainer, not inferred by CLI",
+  "change": "Register TM-142 card as behavior_checked; status supplied by maintainer, not inferred by CLI",
   "validation": {
     "tested_at_revision": 2,
     "official_skill_structure": "passed",
@@ -66,37 +67,40 @@
     "sandbox_manuscript_update": "passed",
     "tested_version": "1.0.0"
   },
-  "total_cards": 141,
+  "total_cards": 142,
   "source_reviewed_cards": 117,
   "card_status_counts": {
     "source_reviewed": 117,
     "sample_reviewed": 8,
-    "behavior_checked": 16
+    "behavior_checked": 17
   },
   "needs_review": [],
   "release_validation": {
-    "status": "passed",
-    "version": "1.11.0",
-    "revision": 58,
+    "status": "passed_with_known_retrieval_limitation",
+    "version": "1.12.0",
+    "revision": 61,
     "valid_for_current_revision": true,
-    "scope": "TM-141 published text/card, two card scenarios plus one budget clarification reply, one full-entry regression using TM-140/TM-141/TM-062, 12 lexical retrieval checks and package integrity. The first budget answer omitted follow-up time; a recorded follow-up corrected it. No new HTML rendering, third-party client installation or real-world outcome test.",
-    "evidence": "references/evaluation/results-v1.11.md",
+    "scope": "TM-142 published text and card, two card scenarios, one full-entry regression using TM-141 and TM-062, 12 original lexical checks (11 within top8; one long sentence at rank49), two successful keyword fallback checks, and package integrity. No new HTML rendering, third-party client installation or real-world outcome test.",
+    "evidence": "references/evaluation/results-v1.12.md",
     "official_skill_structure": "passed",
     "library_integrity": "passed",
-    "local_markdown_links_checked": 1390,
+    "local_markdown_links_checked": 1419,
     "new_card_scenarios_reviewed": 2,
     "new_card_initial_responses_reviewed": 2,
-    "new_card_followup_responses_reviewed": 1,
-    "card_scenario_findings": [
-      "Initial A omitted email/follow-up from the 90-minute budget; explicit clarification elicited a corrected total-budget allocation."
-    ],
+    "new_card_followup_responses_reviewed": 0,
     "full_entry_regressions_reviewed": 1,
     "lexical_retrieval_checks": 12,
+    "lexical_default_top8": 11,
     "lexical_target_rank_one": 9,
-    "lexical_target_rank_two": 2,
-    "lexical_target_rank_three": 1,
-    "old_knowledge_assets_unchanged": 505,
-    "old_user_index_entries_unchanged": 140,
+    "lexical_target_rank_two": 1,
+    "lexical_target_rank_five": 1,
+    "lexical_known_limitations": 1,
+    "lexical_keyword_fallback_checks": 2,
+    "known_limitations": [
+      "Long sentence 分清责任以后怎么一起配合 did not retrieve TM-142 within default top8 (rank49); mechanism-keyword fallback retrieved it at ranks4 and1. Retrieval algorithm unchanged."
+    ],
+    "old_knowledge_assets_unchanged": 507,
+    "old_user_index_entries_unchanged": 141,
     "all_models_behavior_tested": false,
     "real_world_outcomes_validated": false
   },
@@ -277,6 +281,32 @@
       "lexical_target_rank_five": 1,
       "old_knowledge_assets_unchanged": 503,
       "old_user_index_entries_unchanged": 139,
+      "all_models_behavior_tested": false,
+      "real_world_outcomes_validated": false
+    },
+    "1.11.0": {
+      "status": "passed",
+      "version": "1.11.0",
+      "revision": 58,
+      "valid_for_current_revision": false,
+      "scope": "TM-141 published text/card, two card scenarios plus one budget clarification reply, one full-entry regression using TM-140/TM-141/TM-062, 12 lexical retrieval checks and package integrity. The first budget answer omitted follow-up time; a recorded follow-up corrected it. No new HTML rendering, third-party client installation or real-world outcome test.",
+      "evidence": "references/evaluation/results-v1.11.md",
+      "official_skill_structure": "passed",
+      "library_integrity": "passed",
+      "local_markdown_links_checked": 1390,
+      "new_card_scenarios_reviewed": 2,
+      "new_card_initial_responses_reviewed": 2,
+      "new_card_followup_responses_reviewed": 1,
+      "card_scenario_findings": [
+        "Initial A omitted email/follow-up from the 90-minute budget; explicit clarification elicited a corrected total-budget allocation."
+      ],
+      "full_entry_regressions_reviewed": 1,
+      "lexical_retrieval_checks": 12,
+      "lexical_target_rank_one": 9,
+      "lexical_target_rank_two": 2,
+      "lexical_target_rank_three": 1,
+      "old_knowledge_assets_unchanged": 505,
+      "old_user_index_entries_unchanged": 140,
       "all_models_behavior_tested": false,
       "real_world_outcomes_validated": false
     }

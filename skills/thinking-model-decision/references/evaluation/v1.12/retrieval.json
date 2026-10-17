@@ -1,0 +1,200 @@
+[
+  {
+    "query": "TM-142",
+    "target": "TM-142",
+    "rank": 1,
+    "returned_ids": [
+      "TM-142"
+    ]
+  },
+  {
+    "query": "课题分离",
+    "target": "TM-142",
+    "rank": 1,
+    "returned_ids": [
+      "TM-142",
+      "TM-006",
+      "TM-068",
+      "TM-137"
+    ]
+  },
+  {
+    "query": "Separation of Tasks",
+    "target": "TM-142",
+    "rank": 5,
+    "returned_ids": [
+      "TM-141",
+      "WW-3.5",
+      "WW-5.4",
+      "WW-7.9",
+      "TM-142",
+      "TM-137",
+      "TM-027",
+      "TM-028"
+    ]
+  },
+  {
+    "query": "我都是为你好为什么他还不高兴",
+    "target": "TM-142",
+    "rank": 1,
+    "returned_ids": [
+      "TM-142",
+      "TM-128",
+      "TM-018",
+      "TM-030",
+      "TM-134",
+      "TM-138",
+      "TM-009",
+      "TM-011"
+    ]
+  },
+  {
+    "query": "不敢拒绝同事的额外请求",
+    "target": "TM-142",
+    "rank": 1,
+    "returned_ids": [
+      "TM-142",
+      "TM-018",
+      "TM-029",
+      "TM-101",
+      "TM-001",
+      "TM-013",
+      "TM-019",
+      "TM-025"
+    ]
+  },
+  {
+    "query": "帮人越帮越累",
+    "target": "TM-142",
+    "rank": 1,
+    "returned_ids": [
+      "TM-142",
+      "TM-080",
+      "TM-137"
+    ]
+  },
+  {
+    "query": "已经失约了还能说是别人的课题吗",
+    "target": "TM-142",
+    "rank": 1,
+    "returned_ids": [
+      "TM-142",
+      "TM-044",
+      "TM-004",
+      "TM-013",
+      "TM-014",
+      "TM-016",
+      "TM-017",
+      "TM-019"
+    ]
+  },
+  {
+    "query": "分清责任以后怎么一起配合",
+    "target": "TM-142",
+    "rank": null,
+    "returned_ids": [
+      "TM-014",
+      "TM-018",
+      "TM-023",
+      "TM-027",
+      "TM-028",
+      "TM-029",
+      "TM-034",
+      "TM-035"
+    ],
+    "known_limitation": "完整长句未在默认前八项召回；扩展只读定位显示目标第49。沿用入口既有的机制词重搜与目录路由，不把无结果当作无模型。",
+    "expanded_rank": 49,
+    "fallback_checks": [
+      {
+        "query": "责任 支持 协作",
+        "target": "TM-142",
+        "rank": 4,
+        "returned_ids": [
+          "WW-4.9",
+          "WW-7.4",
+          "TM-043",
+          "TM-142",
+          "TM-042",
+          "TM-025",
+          "TM-032",
+          "TM-033"
+        ]
+      },
+      {
+        "query": "课题分离 共同部分",
+        "target": "TM-142",
+        "rank": 1,
+        "returned_ids": [
+          "TM-142",
+          "TM-006",
+          "TM-078",
+          "TM-108",
+          "TM-111",
+          "TM-068",
+          "WW-6.9",
+          "TM-018"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "结果不由我决定，反复内耗怎么办",
+    "target": "TM-141",
+    "rank": 2,
+    "returned_ids": [
+      "TM-122",
+      "TM-141",
+      "TM-068",
+      "WW-2.4",
+      "TM-006",
+      "TM-013",
+      "TM-015",
+      "TM-016"
+    ]
+  },
+  {
+    "query": "请了专家买了课程团队用不起来",
+    "target": "TM-140",
+    "rank": 1,
+    "returned_ids": [
+      "TM-140",
+      "TM-135",
+      "TM-129",
+      "TM-139",
+      "TM-002",
+      "TM-027",
+      "TM-028",
+      "TM-029"
+    ]
+  },
+  {
+    "query": "不敢提意见",
+    "target": "TM-139",
+    "rank": 1,
+    "returned_ids": [
+      "TM-139",
+      "TM-030",
+      "TM-032",
+      "TM-004",
+      "TM-016",
+      "TM-018",
+      "TM-027",
+      "TM-033"
+    ]
+  },
+  {
+    "query": "可逆决策",
+    "target": "TM-077",
+    "rank": 1,
+    "returned_ids": [
+      "TM-077",
+      "TM-068",
+      "TM-063",
+      "TM-076",
+      "TM-030",
+      "TM-046",
+      "TM-051",
+      "TM-054"
+    ]
+  }
+]

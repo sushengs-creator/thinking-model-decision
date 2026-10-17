@@ -7736,5 +7736,120 @@
     },
     "validation_note_path": "references/validation-notes/TM-141.md",
     "validation_note_sha256": "d06110f2243abb50cea116f306db72bbd1c4462a094bd6130c7fef0fdc0be61b"
+  },
+  {
+    "id": "TM-142",
+    "title": "思维模型142：课题分离——为什么“我都是为你好”，说的人换来一肚子气，听的人也是满腔怨气？",
+    "short_name": "课题分离",
+    "path": "references/user-models/TM-142.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060263&idx=1&sn=68518f22d83e10bbb43d8ad49887ea3a&chksm=beabec1489dc65020afd5612bb55b4d4cd903bab29b452438e54c60e66c6f6bf39ac20fd1150#rd",
+    "source_label": "鬼子不言公众号第142篇正式发表文字正文",
+    "captured_at": "2026-10-17",
+    "source_format": "published_article_browser_rendered_text",
+    "source_sha256": "50daa0725e5b828e7850c09d9a31690e68e829650c422345c2823227553c5f3e",
+    "content_sha256": "50daa0725e5b828e7850c09d9a31690e68e829650c422345c2823227553c5f3e",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-142.md",
+    "search_terms": [
+      "课题分离",
+      "Separation of Tasks",
+      "责任归属"
+    ],
+    "source_provenance": {
+      "published_at": "2026-10-17T13:18:00+08:00",
+      "published_body_match_verified": true,
+      "comparison_method": "Normal-browser visible body; remove added Markdown headings and whitespace, compare UTF-16 code units and FNV-1a32.",
+      "nonwhitespace_utf16_chars": 5177,
+      "fnv1a32": "c4d38abc",
+      "article_images_downloaded": false,
+      "article_images_ocr": false,
+      "underlying_research_reaudited": false
+    },
+    "card_sha256": "a076e86838f8a482a9001a2914d5fbfb9933d131296b8e517d296bccb0cdc3d6",
+    "card_source_sha256": "50daa0725e5b828e7850c09d9a31690e68e829650c422345c2823227553c5f3e",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-17T05:38:17.367535+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "好意帮忙却替对方决定、催促或包办；拒绝额外请求时内疚，担心必须让对方满意；他人越界或转移选择；或想以‘这是别人的课题’退出既有承诺与共同任务。需分清选择权、具体行为、所受影响、已有职责和适当支持，再安排协作。",
+      "source_sections": [
+        "一个被讲歪了的方法",
+        "阿德勒到底想说什么",
+        "为什么\"分清\"这么难",
+        "分清之后，不是撒手",
+        "三步判断，落到具体的事上",
+        "一张简卡，明天就能用",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "课题分离",
+        "我都是为你好",
+        "好心帮忙反而怨气",
+        "替别人决定",
+        "替别人活",
+        "过度包办",
+        "越帮越累",
+        "不敢拒绝同事",
+        "拒绝内疚",
+        "怕让对方失望",
+        "老好人",
+        "被催婚",
+        "辅导作业发火",
+        "亲子边界",
+        "自主选择",
+        "选择权",
+        "谁的课题",
+        "责任转移",
+        "课题混淆",
+        "受害者归责",
+        "后果不是责任裁定",
+        "失约修复",
+        "伤害补救",
+        "已有承诺",
+        "岗位职责",
+        "照护责任",
+        "这跟我无关",
+        "撒手不管",
+        "支持不是操控",
+        "适当支持",
+        "共同任务分工",
+        "权责协商",
+        "判断能力不足",
+        "分清之后合作"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "检查偏差",
+        "设计行动",
+        "协作博弈"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-4.9",
+          "relation": "部分重叠、操作互补",
+          "reason": "均区分支持与控制。TM-142先拆开选择、行为、影响和职责；WW-4.9在养育、教学或管理中补充真实可选范围、边界、能力支架及依据胜任证据逐步退出，不取消必要照护或监督。"
+        },
+        {
+          "ww_id": "WW-7.4",
+          "relation": "条件性互补",
+          "reason": "组织存在人情依附或权责随关系变化时，WW-7.4把职责、权限、资源、信息和交接变成可替换的角色安排，补足TM-142的共同协作设计；普通人际摩擦不自动需要治理改造。"
+        }
+      ],
+      "warnings": [
+        "后果归属只是线索，不是责任裁定；不能因为受影响者承担损失或情绪就把他归为有过错的一方。",
+        "选择权、行为、受影响者、支持者和既有职责须分开；失约、欺骗或造成伤害应核查并修正，不能用课题分离免除责任。",
+        "既有承诺、岗位与照护职责不能单方取消；共同受影响不等于决定权或责任均分，需按事实、权利与约定协商。",
+        "判断能力不足或存在现实危险时，先提供相应支持、保护或求助；成年人身份不是能力与安全的保证。",
+        "支持不是操控，也不是撒手；尊重真实可选范围，保留必要监督与照护，不用内疚或故意制造危险后果逼迫负责。",
+        "TM-141关注当前可尝试动作及不能保证的结果；TM-142关注选择权、行动、后果、职责和协作，不能将可影响误作有权控制。",
+        "情绪不必然即时可控，不以对方满意、自己平静或一次单方宣布边界作为协作已达成的证据。",
+        "原文历史归因、作者对谈和人物引语未独立重新核验；原文三步与四栏简卡及本轮操作化须分清，不包装为已证实疗效或固定问卷。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-142.md",
+    "validation_note_sha256": "c43b85bf88a48081f47860d0584094da8b2b02e5a0257dab9249469ebdc1eaa1"
   }
 ]
