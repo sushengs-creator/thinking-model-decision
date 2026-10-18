@@ -22,6 +22,10 @@ class RuntimeTests(unittest.TestCase):
         self.index = {"schema_version": 2, "version": "2.0.0", "tools": [self.row]}
         self.users = [{"id": "TM-001", "short_name": "sample", "path": self.row["source_path"], "card_path": self.row["card_path"]},
                       {"id": "TM-002", "short_name": "legacy", "path": "references/source.md", "card_path": "references/card.md"}]
+        for user in self.users:
+            user.update(source_sha256=self.row["source_sha256"], content_sha256=self.row["source_sha256"],
+                        card_sha256=self.row["card_sha256"], card_source_sha256=self.row["source_sha256"],
+                        card_status="source_reviewed")
         self.state = {"version": self.index["version"], "wan_tools": 1, "tool_migration": {"migrated_ids": ["TM-001"], "migrated_count": 1, "total_user_models": 2, "remaining_not_migrated": 1}}
         (refs / "wan.md").write_text("WW peer body", encoding="utf-8")
         self.wan = [{"id": "WW-1.1", "short_name": "合作", "trigger": "共同合作", "path": "references/wan.md", "content_sha256": runtime.digest(refs / "wan.md")}]
@@ -41,6 +45,39 @@ class RuntimeTests(unittest.TestCase):
         (self.root / self.row["source_path"]).write_text("changed")
         self.assertIn("TM-001: stale source fingerprint", runtime.validate(self.root)["errors"])
         self.assertFalse(runtime.show(self.root, "TM-001")["fingerprints_current"])
+
+    def test_stale_card_association_cannot_be_hidden_by_current_runtime_hashes(self):
+        self.users[0]["card_source_sha256"] = "0" * 64
+        self.save()
+        self.assertFalse(runtime.validate(self.root)["ok"])
+        shown = runtime.show(self.root, "TM-001")
+        self.assertFalse(shown["card_source_is_current"])
+        self.assertEqual(shown["invocation_status"], "review_required")
+        self.users[0]["card_source_sha256"] = self.users[0]["source_sha256"]
+        self.users[0]["card_status"] = "needs_review"
+        self.save()
+        self.assertFalse(runtime.validate(self.root)["ok"])
+        self.assertFalse(runtime.show(self.root, "TM-001")["fingerprints_current"])
+
+    def test_search_marks_stale_tm_and_ww_without_hiding_candidates(self):
+        (self.root / self.row["source_path"]).write_text("changed source")
+        (self.root / "references/wan.md").write_text("changed WW")
+        hits = runtime.search(self.root, "共同合作")["results"]
+        self.assertEqual({r["family"] for r in hits}, {"TM", "WW"})
+        for hit in hits:
+            self.assertFalse(hit["fingerprints_current"])
+            self.assertEqual(hit["invocation_status"], "review_required")
+            self.assertTrue(hit["freshness_issues"])
+
+    def test_unregistered_source_or_card_edits_are_not_current(self):
+        for kind, hash_key in (("source", "content_sha256"), ("card", "card_sha256")):
+            with self.subTest(kind=kind):
+                old = self.users[0].pop(hash_key)
+                self.save()
+                self.assertFalse(runtime.validate(self.root)["ok"])
+                self.users[0][hash_key] = old
+        self.save()
+        self.assertTrue(runtime.validate(self.root)["ok"])
 
     def test_duplicate_or_count_drift(self):
         self.index["tools"].append(copy.deepcopy(self.row))

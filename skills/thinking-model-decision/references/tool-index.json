@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "version": "2.0.0",
-  "scope": "142 runtime tools; source checking, recorded trials, reviewed trials and real outcomes are distinct.",
+  "version": "2.1.0",
+  "scope": "143 runtime tools; source checking, recorded trials, reviewed trials and real outcomes are distinct.",
   "tools": [
     {
       "id": "TM-001",
@@ -4643,6 +4643,47 @@
       "card_sha256": "a076e86838f8a482a9001a2914d5fbfb9933d131296b8e517d296bccb0cdc3d6",
       "runtime_path": "references/tools/TM-142.md",
       "runtime_sha256": "0be1ae498c7ba3cfcbc55c8527f68268d1fc54ca2d6fbdba2ead443123bc6ded"
+    },
+    {
+      "id": "TM-143",
+      "name": "第三选择",
+      "task": "检查既定二选一的目标与前提，寻找有依据的可改条件，共同验证新方案，并在真冲突或搜索到期时转入取舍",
+      "roles": [
+        "澄清",
+        "约束",
+        "参与者",
+        "选项",
+        "取舍"
+      ],
+      "signals": [
+        "两个选项都不理想",
+        "只能接受或拒绝",
+        "二选一越想越纠结",
+        "各执一词找不到办法",
+        "这个条件是不是不能改",
+        "对方真正需要什么",
+        "分阶段交付是否可行",
+        "一直找第三条路却不决定"
+      ],
+      "output": "原二选一的前提核查、可改条件与同口径候选比较，含各方接受状态、全周期成本和搜索退出路径",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.1.0/tm143-responses.md",
+        "references/evaluation/v2.1.0/fresh-retest-responses.md"
+      ],
+      "review_records": [
+        "references/validation-notes/TM-143.md",
+        "references/evaluation/v2.1.0/final-behavior-review.md"
+      ],
+      "source_review_records": [
+        "references/evaluation/v2.1.0/tm143-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-143.md",
+      "source_sha256": "7ab61e8a6481a8399ba649022ec78ae4444ac716f6913a0c9d9eed4c5d7c397a",
+      "card_path": "references/cards/TM-143.md",
+      "card_sha256": "46f411f37e7cf98ab66a9bb5b907228a5c7393fd1c52d3b917704e4e7daec42b",
+      "runtime_path": "references/tools/TM-143.md",
+      "runtime_sha256": "879b0c00698a7d34278c2796ccf498baf37792d085e0c9ce8526c6d37dd8f75e"
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "tm143-responses.md": {
+    "original_sha256": "175ce433cb06a5681d267b13c452dc03c95fc8ed7cf3abee8edc5ed000acff79",
+    "public_copy_sha256": "d937778205d31e738253d0d945b27415927e097b8da9cdac29153a0293af4873"
+  },
+  "entry-responses.md": {
+    "original_sha256": "423df95676984c564230c12d5fbe76cbb98747fa3705097a2eadb7a5f202c5d2",
+    "public_copy_sha256": "90978e64f4a1b8be611b92869803e38c4088b7d8b90d066bb8829e9fcc5b9c9a"
+  },
+  "entry-plan.html": {
+    "original_sha256": "88d200c30054f7310da599858f781a41bc024e0c8e2f35b1c9dc989e2576eb63",
+    "public_copy_sha256": "d2753267a509d94fb9c5378b92d2f6d2897ce98c78d2cbe072532481beb4d040"
+  },
+  "entry-third-choice-plan.html": {
+    "original_sha256": "7a0fc9f641408f204457626dbc3d3768f248888def954d2ae2b3c5219779a0a2",
+    "public_copy_sha256": "89244531093748821d901f724e7a12cc945b01d4e58f77a6396bd1a58074630d"
+  }
+}

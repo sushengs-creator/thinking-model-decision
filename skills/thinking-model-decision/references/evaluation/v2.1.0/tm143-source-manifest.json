@@ -1,0 +1,19 @@
+{
+  "id": "TM-143",
+  "title": "思维模型143：第三选择——当两个选项都不理想，如何找到新的出路",
+  "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060274&idx=1&sn=7bc661c976ec5e88e0441615dc28ae60&chksm=beabec0189dc6517cc0af78082ff7ceeb6e123877eaa5f71a5c3456e30caa732e85ccf322124#rd",
+  "published_at": "2026-10-18T09:00:00+08:00",
+  "captured_at": "2026-10-18",
+  "source_format": "published_article_browser_rendered_text",
+  "published_body_match_verified": true,
+  "comparison_method": "Browser visible js_content innerText; normalize whitespace; compare UTF-16 code units and FNV-1a32. Python implementation iterates utf-16-le code units.",
+  "nonwhitespace_utf16_chars": 4864,
+  "fnv1a32": "3607debc",
+  "images_in_body": 5,
+  "article_images_downloaded": false,
+  "article_images_ocr": false,
+  "media_positions_verified": false,
+  "historical_research_claims_independently_reverified": false,
+  "source_sha256": "7ab61e8a6481a8399ba649022ec78ae4444ac716f6913a0c9d9eed4c5d7c397a",
+  "body_sha256": "e5b8aa95fc1aaeac012b8f0e5095e578dca696f22fd89f8f2cadc18126e8a86d"
+}

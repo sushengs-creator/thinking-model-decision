@@ -1,0 +1,292 @@
+[
+  {
+    "case": "two_options",
+    "query": "两个选项都不理想",
+    "target": "TM-143",
+    "rank": 1,
+    "ids": [
+      "TM-143",
+      "TM-022",
+      "TM-138",
+      "TM-002",
+      "TM-037",
+      "TM-112",
+      "WW-2.8",
+      "TM-015",
+      "WW-100"
+    ],
+    "freshness_flags": {
+      "TM-143": "registered_current",
+      "TM-022": "registered_current",
+      "TM-138": "registered_current",
+      "TM-002": "registered_current",
+      "TM-037": "registered_current",
+      "TM-112": "registered_current",
+      "WW-2.8": "registered_current",
+      "TM-015": "registered_current",
+      "WW-100": "registered_current"
+    }
+  },
+  {
+    "case": "accept_or_refuse",
+    "query": "只能接受或拒绝",
+    "target": "TM-143",
+    "rank": 1,
+    "ids": [
+      "TM-143",
+      "TM-102",
+      "TM-033",
+      "TM-050",
+      "TM-078",
+      "WW-1.5",
+      "WW-2.10",
+      "WW-5.2",
+      "WW-6.14",
+      "WW-6.4",
+      "WW-7.9"
+    ],
+    "freshness_flags": {
+      "TM-143": "registered_current",
+      "TM-102": "registered_current",
+      "TM-033": "registered_current",
+      "TM-050": "registered_current",
+      "TM-078": "registered_current",
+      "WW-1.5": "registered_current",
+      "WW-2.10": "registered_current",
+      "WW-5.2": "registered_current",
+      "WW-6.14": "registered_current",
+      "WW-6.4": "registered_current",
+      "WW-7.9": "registered_current"
+    }
+  },
+  {
+    "case": "third_choice",
+    "query": "第三选择",
+    "target": "TM-143",
+    "rank": 1,
+    "ids": [
+      "TM-143",
+      "WW-2.12",
+      "WW-3.11",
+      "WW-6.14",
+      "TM-076",
+      "WW-6.5",
+      "TM-012",
+      "TM-021",
+      "TM-027",
+      "TM-066",
+      "TM-068",
+      "TM-079"
+    ],
+    "freshness_flags": {
+      "TM-143": "registered_current",
+      "WW-2.12": "registered_current",
+      "WW-3.11": "registered_current",
+      "WW-6.14": "registered_current",
+      "TM-076": "registered_current",
+      "WW-6.5": "registered_current",
+      "TM-012": "registered_current",
+      "TM-021": "registered_current",
+      "TM-027": "registered_current",
+      "TM-066": "registered_current",
+      "TM-068": "registered_current",
+      "TM-079": "registered_current"
+    }
+  },
+  {
+    "case": "different_conditions",
+    "query": "这个条件是不是不能改",
+    "target": "TM-143",
+    "rank": 1,
+    "ids": [
+      "TM-143",
+      "TM-069",
+      "TM-104",
+      "TM-045",
+      "TM-059",
+      "TM-102",
+      "TM-125",
+      "TM-132",
+      "TM-013",
+      "TM-025",
+      "TM-042",
+      "TM-044"
+    ],
+    "freshness_flags": {
+      "TM-143": "registered_current",
+      "TM-069": "registered_current",
+      "TM-104": "registered_current",
+      "TM-045": "registered_current",
+      "TM-059": "registered_current",
+      "TM-102": "registered_current",
+      "TM-125": "registered_current",
+      "TM-132": "registered_current",
+      "TM-013": "registered_current",
+      "TM-025": "registered_current",
+      "TM-042": "registered_current",
+      "TM-044": "registered_current"
+    }
+  },
+  {
+    "case": "phase",
+    "query": "分阶段交付是否可行",
+    "target": "TM-143",
+    "rank": 1,
+    "ids": [
+      "TM-143",
+      "TM-020",
+      "TM-109",
+      "TM-114",
+      "TM-126",
+      "WW-3.4",
+      "WW-3.9",
+      "TM-002",
+      "TM-012",
+      "TM-019",
+      "TM-027",
+      "TM-037"
+    ],
+    "freshness_flags": {
+      "TM-143": "registered_current",
+      "TM-020": "registered_current",
+      "TM-109": "registered_current",
+      "TM-114": "registered_current",
+      "TM-126": "registered_current",
+      "WW-3.4": "registered_current",
+      "WW-3.9": "registered_current",
+      "TM-002": "registered_current",
+      "TM-012": "registered_current",
+      "TM-019": "registered_current",
+      "TM-027": "registered_current",
+      "TM-037": "registered_current"
+    }
+  },
+  {
+    "case": "stop",
+    "query": "一直找第三条路却不决定",
+    "target": "TM-143",
+    "rank": 1,
+    "ids": [
+      "TM-143",
+      "TM-122",
+      "WW-2.4",
+      "WW-6.14",
+      "TM-077",
+      "TM-142",
+      "TM-007",
+      "TM-022",
+      "TM-046",
+      "TM-078",
+      "TM-102",
+      "TM-111"
+    ],
+    "freshness_flags": {
+      "TM-143": "registered_current",
+      "TM-122": "registered_current",
+      "WW-2.4": "registered_current",
+      "WW-6.14": "registered_current",
+      "TM-077": "registered_current",
+      "TM-142": "registered_current",
+      "TM-007": "registered_current",
+      "TM-022": "registered_current",
+      "TM-046": "registered_current",
+      "TM-078": "registered_current",
+      "TM-102": "registered_current",
+      "TM-111": "registered_current"
+    }
+  },
+  {
+    "case": "old_psych",
+    "query": "不敢提意见",
+    "target": "TM-139",
+    "rank": 2,
+    "ids": [
+      "TM-061",
+      "TM-139",
+      "TM-032",
+      "TM-006",
+      "TM-028",
+      "TM-103",
+      "TM-111",
+      "TM-112",
+      "WW-2.11",
+      "WW-6.1"
+    ],
+    "freshness_flags": {
+      "TM-061": "registered_current",
+      "TM-139": "registered_current",
+      "TM-032": "registered_current",
+      "TM-006": "registered_current",
+      "TM-028": "registered_current",
+      "TM-103": "registered_current",
+      "TM-111": "registered_current",
+      "TM-112": "registered_current",
+      "WW-2.11": "registered_current",
+      "WW-6.1": "registered_current"
+    }
+  },
+  {
+    "case": "old_control",
+    "query": "控制二分法",
+    "target": "TM-141",
+    "rank": 1,
+    "ids": [
+      "TM-141",
+      "WW-4.9"
+    ],
+    "freshness_flags": {
+      "TM-141": "registered_current",
+      "WW-4.9": "registered_current"
+    }
+  },
+  {
+    "case": "old_boundary",
+    "query": "课题分离",
+    "target": "TM-142",
+    "rank": 1,
+    "ids": [
+      "TM-142",
+      "TM-068",
+      "TM-041"
+    ],
+    "freshness_flags": {
+      "TM-142": "registered_current",
+      "TM-068": "registered_current",
+      "TM-041": "registered_current"
+    }
+  },
+  {
+    "case": "wan",
+    "query": "信息价值",
+    "target": "WW-3.5",
+    "rank": 2,
+    "ids": [
+      "TM-062",
+      "WW-3.5",
+      "TM-097",
+      "TM-138",
+      "TM-009",
+      "WW-3.1",
+      "TM-008",
+      "TM-017",
+      "TM-029",
+      "TM-068",
+      "TM-070",
+      "WW-2.2"
+    ],
+    "freshness_flags": {
+      "TM-062": "registered_current",
+      "WW-3.5": "registered_current",
+      "TM-097": "registered_current",
+      "TM-138": "registered_current",
+      "TM-009": "registered_current",
+      "WW-3.1": "registered_current",
+      "TM-008": "registered_current",
+      "TM-017": "registered_current",
+      "TM-029": "registered_current",
+      "TM-068": "registered_current",
+      "TM-070": "registered_current",
+      "WW-2.2": "registered_current"
+    }
+  }
+]

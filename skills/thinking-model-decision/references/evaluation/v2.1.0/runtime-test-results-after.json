@@ -1,0 +1,62 @@
+[
+  {
+    "command": [
+      "python3",
+      "<skill>/scripts/library.py",
+      "validate"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"ok\": true,\n  \"library_root\": \"<skill>\",\n  \"partial_fixture_mode\": false,\n  \"version\": \"2.0.0\",\n  \"revision\": 63,\n  \"counts\": {\n    \"user_models\": 142,\n    \"wan_tools\": 100,\n    \"cards\": 142,\n    \"card_statuses\": {\n      \"source_reviewed\": 117,\n      \"sample_reviewed\": 8,\n      \"behavior_checked\": 17\n    },\n    \"content_statuses\": {\n      \"source_archived\": 142,\n      \"existing_skill_snapshot\": 100\n    }\n  },\n  \"needs_review\": [],\n  \"errors\": [],\n  \"warnings\": [],\n  \"provenance_note\": \"source_sha256 保存原来源指纹；未提供 source_path 的原始来源不在包内，不能重算验证。可携带正文、HTML、卡片及验证记录按各自哈希核验。\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "<skill>/scripts/tool_runtime.py",
+      "validate"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"scope\": \"Structural and fingerprint checks only; not behavioral proof\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "<skill>/scripts/test_tool_runtime.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.041s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "<skill>/scripts/test_register_runtime.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.015s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "<skill>/scripts/test_audit_wan_source.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "test_argument_errors_are_json_and_help_remains_help (__main__.AuditTests) ... ok\ntest_complete_synthetic_source_matches (__main__.AuditTests) ... ok\ntest_content_difference_keeps_exit_one (__main__.AuditTests) ... ok\ntest_failed_invocation_replaces_both_prior_success_reports (__main__.AuditTests) ... ok\ntest_framework_difference_keeps_exit_one (__main__.AuditTests) ... ok\ntest_invalid_encoding_is_explicit_error (__main__.AuditTests) ... ok\ntest_invalid_index_shapes_are_explicit_errors (__main__.AuditTests) ... ok\ntest_malformed_json_is_explicit_error (__main__.AuditTests) ... ok\ntest_missing_skill_root_is_explicit_error (__main__.AuditTests) ... ok\ntest_unwritable_report_target_is_not_success (__main__.AuditTests) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.586s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "<skill>/scripts/tool_runtime.py",
+      "search",
+      "共同协作的目标和责任不清",
+      "--limit",
+      "3"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"query\": \"共同协作的目标和责任不清\",\n  \"scope\": \"Lexical candidate retrieval, not suitability or confidence; read mechanisms and boundaries.\",\n  \"role_filter\": null,\n  \"role_scope\": \"TM and WW\",\n  \"total_matches\": 43,\n  \"results\": [\n    {\n      \"id\": \"WW-9.2\",\n      \"name\": \"目标函数\",\n      \"family\": \"WW\",\n      \"task\": \"用户追问人生、组织或 AI 唯一应该最大化什么；工具理性很强却目标不清；有人试图从自然事实、智力或效率直接推出价值结论。\",\n      \"roles\": [],\n      \"signals\": [],\n      \"path\": \"references/wan-tools/WW-9.2.md\",\n      \"lexical_score\": 12,\n      \"matched_terms\": [\n        \"不清\",\n        \"目标\"\n      ],\n      \"fingerprints_current\": true,\n      \"freshness_issues\": [],\n      \"invocation_status\": \"registered_current\"\n    },\n    {\n      \"id\": \"TM-111\",\n      \"name\": \"共同知识模型\",\n      \"family\": \"TM\",\n      \"task\": \"建立多方可共同依赖的公开准备与启动状态\",\n      \"roles\": [\n        \"参与者\",\n        \"执行\",\n        \"约束\"\n      ],\n      \"signals\": [\n        \"都知道却不敢启动\",\n        \"不知道别人准备好没\",\n        \"切换版本不同步\",\n        \"群发不等于一起动\"\n      ],\n      \"output\": \"公开准备清单、唯一启动信号及异常协议\",\n      \"path\": \"references/tools/TM-111.md\",\n      \"lexical_score\": 10,\n      \"matched_terms\": [\n        \"共同\"\n      ],\n      \"runtime_status\": \"sample_trials_reviewed\",\n      \"fingerprints_current\": true,\n      \"card_source_is_current\": true,\n      \"freshness_issues\": [],\n      \"invocation_status\": \"registered_current\"\n    },\n    {\n      \"id\": \"TM-108\",\n      \"name\": \"共同基础\",\n      \"family\": \"TM\",\n      \"task\": \"核对任务含义并接通角色之间的下一步\",\n      \"roles\": [\n        \"澄清\",\n        \"参与者\",\n        \"执行\"\n      ],\n      \"signals\": [\n        \"都说收到却做不一样\",\n        \"上线到底指什么\",\n        \"交接对不上\",\n        \"完成标准各说各话\"\n      ],\n      \"output\": \"共享任务定义、衔接与未决事项\",\n      \"path\": \"references/tools/TM-108.md\",\n      \"lexical_score\": 8,\n      \"matched_terms\": [\n        \"共同\"\n      ],\n      \"runtime_status\": \"sample_trials_reviewed\",\n      \"fingerprints_current\": true,\n      \"card_source_is_current\": true,\n      \"freshness_issues\": [],\n      \"invocation_status\": \"registered_current\"\n    }\n  ]\n}\n",
+    "stderr": ""
+  }
+]

@@ -10,6 +10,7 @@ from pathlib import Path
 
 ROLES = {"澄清", "证据", "解释", "约束", "参与者", "二阶", "选项", "取舍", "执行", "学习", "复盘"}
 STATUSES = {"authored", "source_checked", "sample_trials_recorded", "sample_trials_reviewed"}
+REVIEWED_CARD_STATUSES = {"source_reviewed", "sample_reviewed", "behavior_checked"}
 
 
 def read_json(path):
@@ -45,6 +46,47 @@ def freshness(root, row):
     return errors
 
 
+def registered_card_issues(root, user):
+    """A fresh runtime hash cannot make a stale or unregistered card current."""
+    errors = []
+    if user.get("card_status") == "needs_review":
+        errors.append("card is marked needs_review")
+    elif user.get("card_status") not in REVIEWED_CARD_STATUSES:
+        errors.append("card must have a recognized reviewed status before runtime registration")
+    source_hash, card_source_hash = user.get("source_sha256"), user.get("card_source_sha256")
+    if not source_hash or not card_source_hash:
+        errors.append("card source association is missing")
+    elif source_hash != card_source_hash:
+        errors.append("card refers to an older source")
+    for kind, path_key, hash_key in (("source", "path", "content_sha256"), ("card", "card_path", "card_sha256")):
+        try:
+            if digest(checked_path(root, user[path_key])) != user.get(hash_key):
+                errors.append("registered " + kind + " fingerprint mismatch")
+        except (ValueError, KeyError, OSError) as exc:
+            errors.append(str(exc))
+    return errors
+
+
+def runtime_state(root, row, user):
+    issues = freshness(root, row)
+    card_issues = registered_card_issues(root, user)
+    issues.extend(card_issues)
+    if row.get("source_path") != user.get("path") or row.get("card_path") != user.get("card_path"):
+        issues.append("source/card association mismatch")
+    return {"fingerprints_current": not issues, "card_source_is_current": not card_issues,
+            "freshness_issues": issues,
+            "invocation_status": "review_required" if issues else "registered_current"}
+
+
+def wan_state(root, row):
+    try:
+        issues = [] if digest(checked_path(root, row["path"])) == row["content_sha256"] else ["stale WW fingerprint"]
+    except (OSError, ValueError, KeyError) as exc:
+        issues = [str(exc)]
+    return {"fingerprints_current": not issues, "freshness_issues": issues,
+            "invocation_status": "review_required" if issues else "registered_current"}
+
+
 def validate(root):
     errors = []
     try:
@@ -77,6 +119,7 @@ def validate(root):
             if row["runtime_path"] != "references/tools/" + mid + ".md":
                 errors.append(mid + ": runtime association mismatch")
             errors.extend(mid + ": " + error for error in freshness(root, row))
+            errors.extend(mid + ": " + error for error in registered_card_issues(root, user_map[mid]))
             if not row.get("task") or not row.get("output") or not row.get("name"):
                 errors.append(mid + ": task/name/output required")
             if not row.get("roles") or not set(row["roles"]).issubset(ROLES):
@@ -117,12 +160,10 @@ def show(root, mid):
             if row["id"] == mid:
                 result = dict(row)
                 result["family"] = "WW"
-                try:
-                    current = digest(checked_path(root, row["path"])) == row["content_sha256"]
-                except (OSError, ValueError):
-                    current = False
-                result["fingerprints_current"] = current
-                result["note"] = "Peer candidate; read full tool text. Snapshot coverage is not outcome validation."
+                result.update(wan_state(root, row))
+                result["note"] = ("Peer candidate; read full tool text. Snapshot coverage is not outcome validation."
+                                  if result["fingerprints_current"] else
+                                  "Review required: current text differs from the registered WW snapshot.")
                 return result
         raise ValueError("Unknown WW tool ID: " + mid)
     users = {r["id"]: r for r in read_json(root / "references/user-index.json")}
@@ -131,10 +172,9 @@ def show(root, mid):
     for row in read_json(root / "references/tool-index.json")["tools"]:
         if row["id"] == mid:
             result = dict(row)
-            issues = freshness(root, row)
-            result.update(family="TM", fingerprints_current=not issues, freshness_issues=issues)
-            if issues:
-                result["note"] = "Content changed since registration; recorded trial status does not validate current text."
+            result.update(family="TM", **runtime_state(root, row, users[mid]))
+            if not result["fingerprints_current"]:
+                result["note"] = "Review required: current source, card association or runtime differs from registration; recorded trial status does not validate current text."
             return result
     row = users[mid]
     return {"id": mid, "name": row["short_name"], "runtime_status": "not_migrated",
@@ -168,14 +208,17 @@ def search(root, query, limit=12, role=None):
     if not needles:
         raise ValueError("Search query must contain words or a tool ID")
     candidates = []
-    for row in read_json(root / "references/tool-index.json")["tools"]:
+    runtime_rows = {r["id"]: r for r in read_json(root / "references/tool-index.json")["tools"]}
+    users = {r["id"]: r for r in read_json(root / "references/user-index.json")}
+    wan_rows = {r["id"]: r for r in read_json(root / "references/wan-index.json")}
+    for row in runtime_rows.values():
         if role and role not in row["roles"]:
             continue
         candidates.append({"id": row["id"], "name": row["name"], "family": "TM", "task": row["task"],
                            "roles": row["roles"], "signals": row["signals"], "output": row["output"], "path": row["runtime_path"]})
     # Role tags are curated only for TM. Do not silently infer WW roles.
     if not role:
-        for row in read_json(root / "references/wan-index.json"):
+        for row in wan_rows.values():
             candidates.append({"id": row["id"], "name": row["short_name"], "family": "WW", "task": row.get("trigger", ""), "roles": [], "signals": [], "path": row["path"]})
     ranked = []
     for row in candidates:
@@ -189,8 +232,22 @@ def search(root, query, limit=12, role=None):
         if score:
             ranked.append(dict(row, lexical_score=score, matched_terms=matched))
     ranked.sort(key=lambda row: (-row["lexical_score"], row["id"]))
+    selected = ranked[:limit]
+    for hit in selected:
+        mid = hit["id"]
+        if hit["family"] == "TM":
+            hit["runtime_status"] = runtime_rows[mid].get("runtime_status")
+            if mid not in users:
+                hit.update(fingerprints_current=False, card_source_is_current=False,
+                           freshness_issues=["unknown source model"], invocation_status="review_required")
+            else:
+                hit.update(runtime_state(root, runtime_rows[mid], users[mid]))
+        else:
+            hit.update(wan_state(root, wan_rows[mid]))
+        if not hit["fingerprints_current"]:
+            hit["note"] = "Review required before using this candidate; consult current source and resolve freshness issues."
     return {"query": query, "scope": "Lexical candidate retrieval, not suitability or confidence; read mechanisms and boundaries.",
-            "role_filter": role, "role_scope": "TM only" if role else "TM and WW", "total_matches": len(ranked), "results": ranked[:limit]}
+            "role_filter": role, "role_scope": "TM only" if role else "TM and WW", "total_matches": len(ranked), "results": selected}
 
 
 def main():

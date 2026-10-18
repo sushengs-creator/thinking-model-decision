@@ -1,0 +1,102 @@
+{
+  "case": "Source replaced; card explicitly needs_review and has old source fingerprint",
+  "register_runtime_prepare": {
+    "accepted": false,
+    "error": "Review and register the current source/card before runtime TM-001: card is marked needs_review; card refers to an older source"
+  },
+  "validate": {
+    "ok": false,
+    "errors": [
+      "TM-001: card is marked needs_review",
+      "TM-001: card refers to an older source"
+    ],
+    "scope": "Structural and fingerprint checks only; not behavioral proof"
+  },
+  "show": {
+    "id": "TM-001",
+    "name": "sample",
+    "runtime_status": "authored",
+    "trial_records": [],
+    "task": "改变合作方式",
+    "roles": [
+      "参与者"
+    ],
+    "signals": [
+      "共同合作"
+    ],
+    "output": "合作安排",
+    "source_path": "references/source.md",
+    "source_sha256": "41cf6794ba4200b839c53531555f0f3998df4cbb01a4d5cb0b94e3ca5e23947d",
+    "card_path": "references/card.md",
+    "card_sha256": "8367cd66fdd136bba8ba23f8805bb050dd6289401c8ec3b0be44a3c233eef90d",
+    "runtime_path": "references/tools/TM-001.md",
+    "runtime_sha256": "d92c6a81b2ff50096bcda80885427d1f59a25b5f483f7055523504925d16ab23",
+    "family": "TM",
+    "fingerprints_current": false,
+    "card_source_is_current": false,
+    "freshness_issues": [
+      "card is marked needs_review",
+      "card refers to an older source"
+    ],
+    "invocation_status": "review_required",
+    "note": "Review required: current source, card association or runtime differs from registration; recorded trial status does not validate current text."
+  },
+  "search": {
+    "query": "共同合作",
+    "scope": "Lexical candidate retrieval, not suitability or confidence; read mechanisms and boundaries.",
+    "role_filter": null,
+    "role_scope": "TM and WW",
+    "total_matches": 2,
+    "results": [
+      {
+        "id": "TM-001",
+        "name": "sample",
+        "family": "TM",
+        "task": "改变合作方式",
+        "roles": [
+          "参与者"
+        ],
+        "signals": [
+          "共同合作"
+        ],
+        "output": "合作安排",
+        "path": "references/tools/TM-001.md",
+        "lexical_score": 22,
+        "matched_terms": [
+          "共同",
+          "共同合作",
+          "合作",
+          "同合"
+        ],
+        "runtime_status": "authored",
+        "fingerprints_current": false,
+        "card_source_is_current": false,
+        "freshness_issues": [
+          "card is marked needs_review",
+          "card refers to an older source"
+        ],
+        "invocation_status": "review_required",
+        "note": "Review required before using this candidate; consult current source and resolve freshness issues."
+      },
+      {
+        "id": "WW-1.1",
+        "name": "合作",
+        "family": "WW",
+        "task": "共同合作",
+        "roles": [],
+        "signals": [],
+        "path": "references/wan.md",
+        "lexical_score": 16,
+        "matched_terms": [
+          "共同",
+          "共同合作",
+          "合作",
+          "同合"
+        ],
+        "fingerprints_current": true,
+        "freshness_issues": [],
+        "invocation_status": "registered_current"
+      }
+    ]
+  }
+}

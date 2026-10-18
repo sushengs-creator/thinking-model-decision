@@ -1,10 +1,10 @@
 {
-  "version": "2.0.0",
-  "revision": 63,
-  "updated_at": "2026-10-17T07:42:50.113776+00:00",
-  "user_models": 142,
+  "version": "2.1.0",
+  "revision": 68,
+  "updated_at": "2026-10-18T08:22:24.995046+00:00",
+  "user_models": 143,
   "wan_tools": 100,
-  "sample_cards": 25,
+  "sample_cards": 26,
   "sample_card_ids": [
     "TM-054",
     "TM-062",
@@ -30,7 +30,8 @@
     "TM-139",
     "TM-140",
     "TM-141",
-    "TM-142"
+    "TM-142",
+    "TM-143"
   ],
   "behavior_trial_scope": {
     "v0_1_full_entry_cases": [
@@ -54,7 +55,7 @@
     "tested_at_revision": 2,
     "tested_version": "1.0.0"
   },
-  "change": "Full TM runtime migration and adaptive questioning/toolbox orchestration",
+  "change": "TM-143 published source/card/runtime; source freshness guards, deadline and goal-attribution fixes, public guidance and published-source reading workflow",
   "validation": {
     "tested_at_revision": 2,
     "official_skill_structure": "passed",
@@ -67,12 +68,12 @@
     "sandbox_manuscript_update": "passed",
     "tested_version": "1.0.0"
   },
-  "total_cards": 142,
+  "total_cards": 143,
   "source_reviewed_cards": 117,
   "card_status_counts": {
     "source_reviewed": 117,
     "sample_reviewed": 8,
-    "behavior_checked": 17
+    "behavior_checked": 18
   },
   "needs_review": [],
   "release_validation_history": {
@@ -309,6 +310,43 @@
       "old_user_index_entries_unchanged": 141,
       "all_models_behavior_tested": false,
       "real_world_outcomes_validated": false
+    },
+    "2.0.0": {
+      "status": "passed_with_limits",
+      "version": "2.0.0",
+      "revision": 63,
+      "valid_for_current_revision": false,
+      "scope": "142 TM local tool trials; sampled complete entry and sequential conversation; static source and structure checks. See scoped evidence, not universal effectiveness.",
+      "evidence": "references/evaluation/results-v2.0.md",
+      "tm_runtime_tools": 142,
+      "initial_tool_responses": 284,
+      "initial_tools_passed": 139,
+      "initial_tools_with_findings": 3,
+      "additional_tool_retest_responses": 6,
+      "fresh_context_reviewed_tools": 128,
+      "maintainer_reviewed_tools": 14,
+      "entry_initial_responses": 6,
+      "entry_retest_responses": 1,
+      "sequential_conversation_turns": 4,
+      "generated_actual_html_reports": 4,
+      "new_cli_unit_tests_passed": 14,
+      "tool_name_or_id_lexical_checks": 142,
+      "natural_query_checks": 18,
+      "natural_query_top12": 17,
+      "keyword_fallback_checks": 1,
+      "all_142_tm_have_local_samples_reviewed": true,
+      "all_ww_behavior_tested": false,
+      "all_tool_combinations_tested": false,
+      "real_world_outcomes_validated": false,
+      "third_party_client_installation_tested": false,
+      "html_visual_preview": "not performed; local-file browser policy",
+      "limitations": [
+        "Cases within each executor batch share context; they are synthetic, not real user outcome studies.",
+        "Only affected cases were rerun after common-rule fixes; all 284 initial answers were not regenerated.",
+        "One ambiguous natural-language query missed the intended WW tool in top12; mechanism-keyword fallback succeeded.",
+        "Per-tool hashes cover source, card and runtime, not executor model, client or every shared rule.",
+        "Package and deployment require separate final readback; this behavior record alone does not establish installation."
+      ]
     }
   },
   "workflow_validation": {
@@ -647,10 +685,11 @@
       "TM-139",
       "TM-140",
       "TM-141",
-      "TM-142"
+      "TM-142",
+      "TM-143"
     ],
-    "migrated_count": 142,
-    "total_user_models": 142,
+    "migrated_count": 143,
+    "total_user_models": 143,
     "remaining_not_migrated": 0
   },
   "preview_validation_history": {
@@ -677,40 +716,23 @@
     ]
   },
   "release_validation": {
-    "status": "passed_with_limits",
-    "version": "2.0.0",
-    "revision": 63,
+    "status": "passed",
+    "version": "2.1.0",
+    "revision": 68,
     "valid_for_current_revision": true,
-    "scope": "142 TM local tool trials; sampled complete entry and sequential conversation; static source and structure checks. See scoped evidence, not universal effectiveness.",
-    "evidence": "references/evaluation/results-v2.0.md",
-    "tm_runtime_tools": 142,
-    "initial_tool_responses": 284,
-    "initial_tools_passed": 139,
-    "initial_tools_with_findings": 3,
-    "additional_tool_retest_responses": 6,
-    "fresh_context_reviewed_tools": 128,
-    "maintainer_reviewed_tools": 14,
-    "entry_initial_responses": 6,
-    "entry_retest_responses": 1,
-    "sequential_conversation_turns": 4,
-    "generated_actual_html_reports": 4,
-    "new_cli_unit_tests_passed": 14,
-    "tool_name_or_id_lexical_checks": 142,
-    "natural_query_checks": 18,
-    "natural_query_top12": 17,
-    "keyword_fallback_checks": 1,
-    "all_142_tm_have_local_samples_reviewed": true,
-    "all_ww_behavior_tested": false,
-    "all_tool_combinations_tested": false,
+    "scope": "TM-143 increment, scoped maintenance guards and public workflow; 12 actual simulated responses including two corrective retests; no whole-library behavioral rerun or real-world outcome proof",
+    "evidence": "references/evaluation/results-v2.1.md",
+    "official_skill_structure": "passed",
+    "library_integrity": "passed",
+    "runtime_integrity": "passed",
+    "maintenance_tests_passed": 30,
+    "actual_simulated_responses": 12,
+    "corrective_retests": 2,
+    "html_reports": 2,
+    "lexical_retrieval_checks": 10,
+    "html_visual_preview": "not_performed",
+    "all_models_retested_this_release": false,
     "real_world_outcomes_validated": false,
-    "third_party_client_installation_tested": false,
-    "html_visual_preview": "not performed; local-file browser policy",
-    "limitations": [
-      "Cases within each executor batch share context; they are synthetic, not real user outcome studies.",
-      "Only affected cases were rerun after common-rule fixes; all 284 initial answers were not regenerated.",
-      "One ambiguous natural-language query missed the intended WW tool in top12; mechanism-keyword fallback succeeded.",
-      "Per-tool hashes cover source, card and runtime, not executor model, client or every shared rule.",
-      "Package and deployment require separate final readback; this behavior record alone does not establish installation."
-    ]
+    "deployment": "verify_each_target_with_separate_readback_receipts"
   }
 }

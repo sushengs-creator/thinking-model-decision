@@ -1,0 +1,49 @@
+[
+  {
+    "command": [
+      "python3",
+      "<skill>/scripts/library.py",
+      "validate"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"ok\": true,\n  \"library_root\": \"<skill>\",\n  \"partial_fixture_mode\": false,\n  \"version\": \"2.1.0\",\n  \"revision\": 64,\n  \"counts\": {\n    \"user_models\": 143,\n    \"wan_tools\": 100,\n    \"cards\": 142,\n    \"card_statuses\": {\n      \"source_reviewed\": 117,\n      \"sample_reviewed\": 8,\n      \"behavior_checked\": 17,\n      \"not_extracted\": 1\n    },\n    \"content_statuses\": {\n      \"source_archived\": 143,\n      \"existing_skill_snapshot\": 100\n    }\n  },\n  \"needs_review\": [],\n  \"errors\": [],\n  \"warnings\": [],\n  \"provenance_note\": \"source_sha256 保存原来源指纹；未提供 source_path 的原始来源不在包内，不能重算验证。可携带正文、HTML、卡片及验证记录按各自哈希核验。\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "<skill>/scripts/tool_runtime.py",
+      "validate"
+    ],
+    "returncode": 1,
+    "stdout": "{\n  \"ok\": false,\n  \"errors\": [\n    \"Version mismatch\",\n    \"Migration inventory mismatch\"\n  ],\n  \"scope\": \"Structural and fingerprint checks only; not behavioral proof\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "<skill>/scripts/test_tool_runtime.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.043s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "<skill>/scripts/test_register_runtime.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.030s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "<skill>/scripts/test_audit_wan_source.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "test_argument_errors_are_json_and_help_remains_help (__main__.AuditTests) ... ok\ntest_complete_synthetic_source_matches (__main__.AuditTests) ... ok\ntest_content_difference_keeps_exit_one (__main__.AuditTests) ... ok\ntest_failed_invocation_replaces_both_prior_success_reports (__main__.AuditTests) ... ok\ntest_framework_difference_keeps_exit_one (__main__.AuditTests) ... ok\ntest_invalid_encoding_is_explicit_error (__main__.AuditTests) ... ok\ntest_invalid_index_shapes_are_explicit_errors (__main__.AuditTests) ... ok\ntest_malformed_json_is_explicit_error (__main__.AuditTests) ... ok\ntest_missing_skill_root_is_explicit_error (__main__.AuditTests) ... ok\ntest_unwritable_report_target_is_not_success (__main__.AuditTests) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.651s\n\nOK\n"
+  }
+]

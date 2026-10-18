@@ -25,6 +25,9 @@ def prepare(root, metadata):
     mid = metadata["id"]
     if mid not in users:
         raise ValueError("Register source and card first: " + mid)
+    card_issues = runtime.registered_card_issues(root, users[mid])
+    if card_issues:
+        raise ValueError("Review and register the current source/card before runtime " + mid + ": " + "; ".join(card_issues))
     if not metadata.get("roles") or not set(metadata["roles"]).issubset(runtime.ROLES):
         raise ValueError("Use recognized roles")
     for key in ("name", "task", "output"):

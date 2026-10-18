@@ -7851,5 +7851,106 @@
     },
     "validation_note_path": "references/validation-notes/TM-142.md",
     "validation_note_sha256": "c43b85bf88a48081f47860d0584094da8b2b02e5a0257dab9249469ebdc1eaa1"
+  },
+  {
+    "id": "TM-143",
+    "title": "思维模型143：第三选择——当两个选项都不理想，如何找到新的出路",
+    "short_name": "第三选择",
+    "path": "references/user-models/TM-143.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060274&idx=1&sn=7bc661c976ec5e88e0441615dc28ae60&chksm=beabec0189dc6517cc0af78082ff7ceeb6e123877eaa5f71a5c3456e30caa732e85ccf322124#rd",
+    "source_label": "Author published WeChat article; browser-visible full body",
+    "captured_at": "2026-10-18",
+    "source_format": "published_article_browser_rendered_text",
+    "source_sha256": "7ab61e8a6481a8399ba649022ec78ae4444ac716f6913a0c9d9eed4c5d7c397a",
+    "content_sha256": "7ab61e8a6481a8399ba649022ec78ae4444ac716f6913a0c9d9eed4c5d7c397a",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-143.md",
+    "search_terms": [
+      "思维模型143：第三选择——当两个选项都不理想，如何找到新的出路"
+    ],
+    "published_at": "2026-10-18T09:00:00+08:00",
+    "card_sha256": "46f411f37e7cf98ab66a9bb5b907228a5c7393fd1c52d3b917704e4e7daec42b",
+    "card_source_sha256": "7ab61e8a6481a8399ba649022ec78ae4444ac716f6913a0c9d9eed4c5d7c397a",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-18T08:22:24.756706+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "两个选项都不理想、只能接受或拒绝、合作只剩各执一词，或怀疑某条不能改只是默认条件；先核实目标、约束、假设及各方需要，再共同设计和验证新方案，必要时承认真取舍。",
+      "source_sections": [
+        "什么是第三选择？",
+        "为什么说第三选择是\"检查\"，不是\"想\"？",
+        "怎么查？把\"二选一\"拆开看",
+        "一次只改一项，会怎样？",
+        "什么时候，第三选择也会失效？",
+        "延伸阅读",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "第三选择",
+        "两个选项都不理想",
+        "二选一",
+        "非此即彼",
+        "左右为难",
+        "不想选任何一个",
+        "除了接受就是拒绝",
+        "只能忍还是翻脸",
+        "双赢",
+        "合作僵局",
+        "共同创造方案",
+        "查明真正目标",
+        "未经核实的假设",
+        "默认条件",
+        "可变条件",
+        "改变范围",
+        "改变分工",
+        "分阶段交付",
+        "全周期成本",
+        "真实约束",
+        "对方真正需要什么",
+        "不能替对方回答",
+        "合理妥协",
+        "真取舍",
+        "搜索期限",
+        "停止寻找新方案"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "检查偏差",
+        "比较方案",
+        "设计行动",
+        "协作博弈"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-6.14",
+          "relation": "互补，非同义",
+          "reason": "第三物把人对人的冲突转为共同修改的提纲、原型或其他对象；第三选择核查既定选项的前提并创造验证新方案。共同对象可承载核查，但不等于新方案更优或已被接受。"
+        },
+        {
+          "ww_id": "WW-1.4",
+          "relation": "互补校核",
+          "reason": "硬约束检查资源、时间、规律、他人能动性及移动边界的代价，帮助区分真正不可变与可协商条件；不能用存在第三选择的信念取消限制。"
+        },
+        {
+          "ww_id": "WW-3.5",
+          "relation": "条件性互补",
+          "reason": "信息价值检查前提核实的不同答案是否改变行动，计入获取、延迟和注意成本，帮助决定查什么及何时停止；无需为了第三方案无限收集信息。"
+        }
+      ],
+      "warnings": [
+        "新选项不保证更优或双赢；真取舍、原方案和合理妥协都可能是应选结果。",
+        "未核实条件不等于可随意改变；明确变更权限、既有职责和由谁承担代价。",
+        "对他人需求的猜测须核实；相关人可修改、拒绝或不参与，不把单方说服包装为共创。",
+        "分阶段交付不等于原期限内全量完成，必须合并全周期成本并确认跨阶段资源。",
+        "候选提出、相关人接受、实际执行、结果出现分别记录，不能互相替代。",
+        "设置搜索期限、资源上限和退出路径，迫近危险、不可逆期限与必要履约优先处理。",
+        "原文作者整理的五步不等于柯维原书四步骤；人物引语、书籍历史及52%与32%数字未独立核验，不作效果证据。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-143.md",
+    "validation_note_sha256": "c2696613a090e3ef34829465a2f862d7ea14b5fc29c5d2c447c78b86f1fc623e"
   }
 ]

@@ -1,0 +1,233 @@
+[
+  {
+    "card_status": "draft",
+    "registration": {
+      "accepted": false,
+      "error": "Review and register the current source/card before runtime TM-001: card must have a recognized reviewed status before runtime registration"
+    },
+    "validate": {
+      "ok": false,
+      "errors": [
+        "TM-001: card must have a recognized reviewed status before runtime registration"
+      ],
+      "scope": "Structural and fingerprint checks only; not behavioral proof"
+    },
+    "show": {
+      "id": "TM-001",
+      "name": "sample",
+      "runtime_status": "authored",
+      "trial_records": [],
+      "task": "改变合作方式",
+      "roles": [
+        "参与者"
+      ],
+      "signals": [
+        "共同合作"
+      ],
+      "output": "合作安排",
+      "source_path": "references/source.md",
+      "source_sha256": "41cf6794ba4200b839c53531555f0f3998df4cbb01a4d5cb0b94e3ca5e23947d",
+      "card_path": "references/card.md",
+      "card_sha256": "8367cd66fdd136bba8ba23f8805bb050dd6289401c8ec3b0be44a3c233eef90d",
+      "runtime_path": "references/tools/TM-001.md",
+      "runtime_sha256": "d92c6a81b2ff50096bcda80885427d1f59a25b5f483f7055523504925d16ab23",
+      "family": "TM",
+      "fingerprints_current": false,
+      "card_source_is_current": false,
+      "freshness_issues": [
+        "card must have a recognized reviewed status before runtime registration"
+      ],
+      "invocation_status": "review_required",
+      "note": "Review required: current source, card association or runtime differs from registration; recorded trial status does not validate current text."
+    },
+    "search": {
+      "query": "TM-001",
+      "scope": "Lexical candidate retrieval, not suitability or confidence; read mechanisms and boundaries.",
+      "role_filter": null,
+      "role_scope": "TM and WW",
+      "total_matches": 1,
+      "results": [
+        {
+          "id": "TM-001",
+          "name": "sample",
+          "family": "TM",
+          "task": "改变合作方式",
+          "roles": [
+            "参与者"
+          ],
+          "signals": [
+            "共同合作"
+          ],
+          "output": "合作安排",
+          "path": "references/tools/TM-001.md",
+          "lexical_score": 1008,
+          "matched_terms": [
+            "tm-001"
+          ],
+          "runtime_status": "authored",
+          "fingerprints_current": false,
+          "card_source_is_current": false,
+          "freshness_issues": [
+            "card must have a recognized reviewed status before runtime registration"
+          ],
+          "invocation_status": "review_required",
+          "note": "Review required before using this candidate; consult current source and resolve freshness issues."
+        }
+      ]
+    }
+  },
+  {
+    "card_status": "unsupported",
+    "registration": {
+      "accepted": false,
+      "error": "Review and register the current source/card before runtime TM-001: card must have a recognized reviewed status before runtime registration"
+    },
+    "validate": {
+      "ok": false,
+      "errors": [
+        "TM-001: card must have a recognized reviewed status before runtime registration"
+      ],
+      "scope": "Structural and fingerprint checks only; not behavioral proof"
+    },
+    "show": {
+      "id": "TM-001",
+      "name": "sample",
+      "runtime_status": "authored",
+      "trial_records": [],
+      "task": "改变合作方式",
+      "roles": [
+        "参与者"
+      ],
+      "signals": [
+        "共同合作"
+      ],
+      "output": "合作安排",
+      "source_path": "references/source.md",
+      "source_sha256": "41cf6794ba4200b839c53531555f0f3998df4cbb01a4d5cb0b94e3ca5e23947d",
+      "card_path": "references/card.md",
+      "card_sha256": "8367cd66fdd136bba8ba23f8805bb050dd6289401c8ec3b0be44a3c233eef90d",
+      "runtime_path": "references/tools/TM-001.md",
+      "runtime_sha256": "d92c6a81b2ff50096bcda80885427d1f59a25b5f483f7055523504925d16ab23",
+      "family": "TM",
+      "fingerprints_current": false,
+      "card_source_is_current": false,
+      "freshness_issues": [
+        "card must have a recognized reviewed status before runtime registration"
+      ],
+      "invocation_status": "review_required",
+      "note": "Review required: current source, card association or runtime differs from registration; recorded trial status does not validate current text."
+    },
+    "search": {
+      "query": "TM-001",
+      "scope": "Lexical candidate retrieval, not suitability or confidence; read mechanisms and boundaries.",
+      "role_filter": null,
+      "role_scope": "TM and WW",
+      "total_matches": 1,
+      "results": [
+        {
+          "id": "TM-001",
+          "name": "sample",
+          "family": "TM",
+          "task": "改变合作方式",
+          "roles": [
+            "参与者"
+          ],
+          "signals": [
+            "共同合作"
+          ],
+          "output": "合作安排",
+          "path": "references/tools/TM-001.md",
+          "lexical_score": 1008,
+          "matched_terms": [
+            "tm-001"
+          ],
+          "runtime_status": "authored",
+          "fingerprints_current": false,
+          "card_source_is_current": false,
+          "freshness_issues": [
+            "card must have a recognized reviewed status before runtime registration"
+          ],
+          "invocation_status": "review_required",
+          "note": "Review required before using this candidate; consult current source and resolve freshness issues."
+        }
+      ]
+    }
+  },
+  {
+    "card_status": null,
+    "registration": {
+      "accepted": false,
+      "error": "Review and register the current source/card before runtime TM-001: card must have a recognized reviewed status before runtime registration"
+    },
+    "validate": {
+      "ok": false,
+      "errors": [
+        "TM-001: card must have a recognized reviewed status before runtime registration"
+      ],
+      "scope": "Structural and fingerprint checks only; not behavioral proof"
+    },
+    "show": {
+      "id": "TM-001",
+      "name": "sample",
+      "runtime_status": "authored",
+      "trial_records": [],
+      "task": "改变合作方式",
+      "roles": [
+        "参与者"
+      ],
+      "signals": [
+        "共同合作"
+      ],
+      "output": "合作安排",
+      "source_path": "references/source.md",
+      "source_sha256": "41cf6794ba4200b839c53531555f0f3998df4cbb01a4d5cb0b94e3ca5e23947d",
+      "card_path": "references/card.md",
+      "card_sha256": "8367cd66fdd136bba8ba23f8805bb050dd6289401c8ec3b0be44a3c233eef90d",
+      "runtime_path": "references/tools/TM-001.md",
+      "runtime_sha256": "d92c6a81b2ff50096bcda80885427d1f59a25b5f483f7055523504925d16ab23",
+      "family": "TM",
+      "fingerprints_current": false,
+      "card_source_is_current": false,
+      "freshness_issues": [
+        "card must have a recognized reviewed status before runtime registration"
+      ],
+      "invocation_status": "review_required",
+      "note": "Review required: current source, card association or runtime differs from registration; recorded trial status does not validate current text."
+    },
+    "search": {
+      "query": "TM-001",
+      "scope": "Lexical candidate retrieval, not suitability or confidence; read mechanisms and boundaries.",
+      "role_filter": null,
+      "role_scope": "TM and WW",
+      "total_matches": 1,
+      "results": [
+        {
+          "id": "TM-001",
+          "name": "sample",
+          "family": "TM",
+          "task": "改变合作方式",
+          "roles": [
+            "参与者"
+          ],
+          "signals": [
+            "共同合作"
+          ],
+          "output": "合作安排",
+          "path": "references/tools/TM-001.md",
+          "lexical_score": 1008,
+          "matched_terms": [
+            "tm-001"
+          ],
+          "runtime_status": "authored",
+          "fingerprints_current": false,
+          "card_source_is_current": false,
+          "freshness_issues": [
+            "card must have a recognized reviewed status before runtime registration"
+          ],
+          "invocation_status": "review_required",
+          "note": "Review required before using this candidate; consult current source and resolve freshness issues."
+        }
+      ]
+    }
+  }
+]

@@ -36,7 +36,7 @@
 - [技能入口](../skills/thinking-model-decision/SKILL.md)
 - [提问工具箱](../skills/thinking-model-decision/references/questioning-toolkit.md)
 - [工具箱编排](../skills/thinking-model-decision/references/toolbox-orchestration.md)
-- [142个运行工具目录](../skills/thinking-model-decision/references/tool-catalog.md)
+- [当前运行工具目录](../skills/thinking-model-decision/references/tool-catalog.md)
 - [报告规范](../skills/thinking-model-decision/references/decision-report.md)
 - [增量维护流程](../skills/thinking-model-decision/references/maintenance.md)
 
