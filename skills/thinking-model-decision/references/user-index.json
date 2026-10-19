@@ -7952,5 +7952,97 @@
     },
     "validation_note_path": "references/validation-notes/TM-143.md",
     "validation_note_sha256": "c2696613a090e3ef34829465a2f862d7ea14b5fc29c5d2c447c78b86f1fc623e"
+  },
+  {
+    "id": "TM-144",
+    "title": "思维模型144：情绪ABC——就一次小事儿没做好，为什么变成“我整个人都不行”？",
+    "short_name": "思维模型144：情绪ABC——就一次小事儿没做好，为什么变成“我整个人都不行”？",
+    "path": "references/user-models/TM-144.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060290&idx=1&sn=3a2fc81e0303bfc5da513df32b2ac4da&chksm=beabeff189dc66e74c1cf2ac01d92229a424ff767cf4ef9942ba637438188a6f789d1a6d26e7#rd",
+    "source_label": "鬼子不言公开发表原文，正常浏览器可见正文含两表及档案卡，4张图片未读取",
+    "captured_at": "2026-10-19",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "b3a2e723eeac8f99da2edbfc5ff3dc899ee5aacbb38edec8a2f62e62b05e6636",
+    "content_sha256": "b3a2e723eeac8f99da2edbfc5ff3dc899ee5aacbb38edec8a2f62e62b05e6636",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-144.md",
+    "search_terms": [
+      "思维模型144：情绪ABC——就一次小事儿没做好，为什么变成“我整个人都不行”？"
+    ],
+    "card_sha256": "a4cf3316607fb4da3826e62ceeb5cf6dd87ce81b347172494086bd539629d508",
+    "card_source_sha256": "b3a2e723eeac8f99da2edbfc5ff3dc899ee5aacbb38edec8a2f62e62b05e6636",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-19T02:22:29.231419+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "一次具体失误被扩成我整个人都不行，反复出现绝对不能发生、完全受不了，或因仍难受再责备自己；分清事件、未核实推断、评价与反应，检查关键判断并保留现实补救。",
+      "source_sections": [
+        "ABC里的B，为什么最容易漏看？",
+        "把\"他嫌我\"改成\"他欣赏我\"，就对了？",
+        "中间到底多了哪四种判断？",
+        "下次再陷进去，怎么一步步走出来？",
+        "查完还是难受，是不是白查了？",
+        "学过ABC还缓不过来，问题出在哪？",
+        "分清评价以后，现实问题谁来管？",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "情绪ABC",
+        "ABCDE",
+        "REBT",
+        "一次失误否定整个人",
+        "我整个人都不行",
+        "我就是个废物",
+        "做错一点就自责",
+        "我绝对不能失误",
+        "他们肯定看不起我",
+        "分清事实推断评价",
+        "关键评价",
+        "僵化要求",
+        "灾难化",
+        "完全受不了",
+        "低挫折容忍",
+        "整体贬低",
+        "仍然难受",
+        "学了方法怎么还这样",
+        "越分析越自责",
+        "反复审问自己",
+        "现实补救",
+        "保留合理失望",
+        "不强行积极"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "检查偏差",
+        "设计行动",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-2.9",
+          "relation": "部分重叠，条件性互补",
+          "reason": "认知解耦在事实、解释与冲动之间留空间并转换视角；情绪ABC进一步检查评价和僵化要求的证据与逻辑。按缺口选用，不重复整套流程；迫近期限和必要保护不以情绪降低为前提。"
+        },
+        {
+          "ww_id": "WW-9.4",
+          "relation": "条件性互补",
+          "reason": "只有已经观察到反复检查情绪是否改善干扰行动时，副产品与迂回才可帮助减少监控、转向本身有价值的活动；普通难受不自动符合该机制，也不能保证停止监控便会开心。"
+        }
+      ],
+      "warnings": [
+        "日常反思不能诊断或替代心理治疗；难受不自动说明信念错误，情绪不立即改善不等于失败。",
+        "区分具体情境、待查推断与评价；原文观察—推断—评价图不是REBT标准B三层，也不代表唯一情绪因果链。",
+        "四类核查方向不必凑齐；合理标准、必要条件、承诺和现实限制不能被一律当作僵化信念删去。",
+        "替代看法须符合证据并由用户认可，不能靠积极猜测或感觉更舒服证明其为真。",
+        "不把伤害归咎受害者，不用ABC给别人判不理性；现实保护、期限处理和补救不等情绪平静才进行。",
+        "持续重复检查没有新信息或增加自责时暂停；持续困扰明显影响生活可寻求专业支持。",
+        "原文发展史、其他ABC完整理论和本工具效果未全面核验，有限官方机制核查不等于临床验证。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-144.md",
+    "validation_note_sha256": "9af68b94fd01744b27b417a06f6d6798ac5a143b17ffbfeb280a6f70f7384b53"
   }
 ]

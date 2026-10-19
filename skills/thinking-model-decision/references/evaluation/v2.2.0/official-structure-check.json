@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-19",
+  "version": "2.2.0",
+  "revision": 73,
+  "command": "skill-creator/scripts/quick_validate.py [skill-root]",
+  "exit_code": 0,
+  "stdout": "Skill is valid!",
+  "dependency": "isolated PyYAML 6.0.3 used by official validation only; runtime scripts remain Python standard library"
+}

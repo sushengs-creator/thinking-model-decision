@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-19",
+  "id": "TM-143",
+  "method": "ordinary browser #js_content.innerText whitespace-normalized UTF-16 FNV-1a32",
+  "title": "思维模型143：第三选择——当两个选项都不理想，如何找到新的出路",
+  "published_at": "2026-10-18T09:00:00+08:00",
+  "nonwhitespace_utf16_chars": 4864,
+  "fnv1a32": "3607debc",
+  "matches_archived_source": true,
+  "images_in_body": 5,
+  "media_read": false,
+  "historical_body_scope": [
+    "TM-143"
+  ],
+  "other_old_bodies_rechecked": false
+}

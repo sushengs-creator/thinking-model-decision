@@ -1,0 +1,311 @@
+{
+  "scope": "Current source/index integrity and lexical retrieval only; not actual behavior or suitability probabilities",
+  "checks": [
+    {
+      "name": "library_validate",
+      "exit_code": 0,
+      "output": {
+        "ok": true,
+        "partial_fixture_mode": false,
+        "version": "2.2.0",
+        "revision": 73,
+        "counts": {
+          "user_models": 144,
+          "wan_tools": 100,
+          "cards": 144,
+          "card_statuses": {
+            "source_reviewed": 117,
+            "sample_reviewed": 8,
+            "behavior_checked": 19
+          },
+          "content_statuses": {
+            "source_archived": 144,
+            "existing_skill_snapshot": 100
+          }
+        },
+        "needs_review": [],
+        "errors": [],
+        "warnings": [],
+        "provenance_note": "source_sha256 保存原来源指纹；未提供 source_path 的原始来源不在包内，不能重算验证。可携带正文、HTML、卡片及验证记录按各自哈希核验。"
+      }
+    },
+    {
+      "name": "tool_runtime_validate",
+      "exit_code": 0,
+      "output": {
+        "ok": true,
+        "errors": [],
+        "scope": "Structural and fingerprint checks only; not behavioral proof"
+      }
+    },
+    {
+      "name": "library_search",
+      "query": "做错一点就觉得我整个人都不行",
+      "expected_candidate": "TM-144",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-144",
+        "TM-042",
+        "TM-031",
+        "TM-027",
+        "TM-001",
+        "TM-003",
+        "TM-004",
+        "TM-005"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "越分析越自责",
+      "expected_candidate": "TM-144",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-144",
+        "TM-050",
+        "TM-105",
+        "WW-8.6",
+        "TM-026",
+        "TM-051",
+        "WW-2.7",
+        "WW-5.1"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "学了方法还难受又开始自责",
+      "expected_candidate": "TM-144",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-144",
+        "TM-120",
+        "TM-121",
+        "TM-138",
+        "TM-014",
+        "TM-020",
+        "TM-025",
+        "TM-026"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "他们肯定看不起我",
+      "expected_candidate": "TM-144",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-144",
+        "TM-006",
+        "TM-135",
+        "TM-002",
+        "TM-003",
+        "TM-014",
+        "TM-015",
+        "TM-018"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "情绪ABC",
+      "expected_candidate": "TM-144",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-144"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "两个选项都不理想",
+      "expected_candidate": "TM-143",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-143",
+        "TM-144",
+        "TM-022",
+        "TM-018",
+        "TM-021",
+        "TM-057",
+        "TM-058",
+        "TM-062"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "替别人做决定",
+      "expected_candidate": "TM-142",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-122",
+        "TM-142",
+        "TM-020",
+        "TM-022",
+        "TM-028",
+        "TM-029",
+        "TM-042",
+        "TM-064"
+      ],
+      "candidate_found": true,
+      "rank": 2
+    },
+    {
+      "name": "library_search",
+      "query": "控制二分法",
+      "expected_candidate": "TM-141",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-141",
+        "TM-096",
+        "TM-100",
+        "TM-133",
+        "WW-4.9"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "做错一点就觉得我整个人都不行",
+      "expected_candidate": "TM-144",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-144",
+        "TM-015",
+        "TM-042",
+        "TM-002",
+        "TM-010",
+        "TM-011",
+        "TM-037",
+        "TM-039"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "越分析越自责",
+      "expected_candidate": "TM-144",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-144",
+        "TM-050",
+        "TM-105",
+        "WW-8.6",
+        "TM-047",
+        "WW-5.1",
+        "WW-5.9",
+        "WW-6.6"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "学了方法还难受又开始自责",
+      "expected_candidate": "TM-144",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-144",
+        "TM-116",
+        "TM-120",
+        "TM-123",
+        "TM-021",
+        "TM-041",
+        "TM-045",
+        "WW-3.1"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "他们肯定看不起我",
+      "expected_candidate": "TM-144",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-144",
+        "TM-039",
+        "TM-018",
+        "TM-040",
+        "TM-041",
+        "TM-098",
+        "TM-116",
+        "TM-129"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "情绪ABC",
+      "expected_candidate": "TM-144",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-144",
+        "WW-1.1",
+        "WW-1.6",
+        "WW-6.14"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "两个选项都不理想",
+      "expected_candidate": "TM-143",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-143",
+        "TM-022",
+        "TM-138",
+        "TM-002",
+        "TM-037",
+        "TM-112",
+        "TM-144",
+        "WW-2.8"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "替别人做决定",
+      "expected_candidate": "TM-142",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-142",
+        "TM-100",
+        "TM-122",
+        "WW-2.4",
+        "TM-044",
+        "TM-077",
+        "TM-087",
+        "TM-006"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "控制二分法",
+      "expected_candidate": "TM-141",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-141",
+        "WW-4.9"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    }
+  ],
+  "ok": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "TM-144",
+  "title": "思维模型144：情绪ABC——就一次小事儿没做好，为什么变成“我整个人都不行”？",
+  "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060290&idx=1&sn=3a2fc81e0303bfc5da513df32b2ac4da&chksm=beabeff189dc66e74c1cf2ac01d92229a424ff767cf4ef9942ba637438188a6f789d1a6d26e7#rd",
+  "published_at": "2026-10-19T07:35:00+08:00",
+  "captured_at": "2026-10-19",
+  "source_format": "published_article_browser_rendered_text",
+  "published_body_match_verified": true,
+  "comparison_method": "Browser #js_content.innerText; normalize whitespace; UTF-16 code units and FNV-1a32. Markdown table delimiters removed before source comparison.",
+  "nonwhitespace_utf16_chars": 5775,
+  "fnv1a32": "987e6349",
+  "images_in_body": 4,
+  "tables_in_body": 2,
+  "tables_preserved": true,
+  "article_images_downloaded": false,
+  "article_images_ocr": false,
+  "media_positions_verified": false,
+  "historical_research_claims_independently_reverified": false,
+  "source_sha256": "b3a2e723eeac8f99da2edbfc5ff3dc899ee5aacbb38edec8a2f62e62b05e6636",
+  "body_sha256": "89639c6dcf66686ea528d43d3f9c8014308cf087b0d7248726e6f18cccfc32fd"
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "2.1.0",
+  "version": "2.2.0",
   "scope": "143 runtime tools; source checking, recorded trials, reviewed trials and real outcomes are distinct.",
   "tools": [
     {
@@ -4684,6 +4684,47 @@
       "card_sha256": "46f411f37e7cf98ab66a9bb5b907228a5c7393fd1c52d3b917704e4e7daec42b",
       "runtime_path": "references/tools/TM-143.md",
       "runtime_sha256": "879b0c00698a7d34278c2796ccf498baf37792d085e0c9ce8526c6d37dd8f75e"
+    },
+    {
+      "id": "TM-144",
+      "name": "情绪ABC",
+      "task": "区分具体情境、待查推断、关键评价与情绪行为反应，核查不受支持的判断，形成用户可认同的新说法并完成现实补救或必要回应",
+      "roles": [
+        "澄清",
+        "证据",
+        "解释",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "一次没做好就觉得整个人都不行",
+        "我就是个废物",
+        "我绝对不能失误",
+        "他们肯定看不起我",
+        "这点难受我完全受不了",
+        "学了方法还难受又开始自责",
+        "越分析越像审问自己",
+        "承认错误但不想否定整个人"
+      ],
+      "output": "具体事件的评价核查与现实回应：证据状态、关键评价及检查理由、待确认或已接受的新说法、现实动作与分别复查的信号",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.2.0/card-trials.md",
+        "references/evaluation/v2.2.0/entry-trial.md",
+        "references/evaluation/v2.2.0/entry-regressions.md"
+      ],
+      "review_records": [
+        "references/evaluation/v2.2.0/behavior-review.md"
+      ],
+      "source_review_records": [
+        "references/evaluation/v2.2.0/tm144-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-144.md",
+      "source_sha256": "b3a2e723eeac8f99da2edbfc5ff3dc899ee5aacbb38edec8a2f62e62b05e6636",
+      "card_path": "references/cards/TM-144.md",
+      "card_sha256": "a4cf3316607fb4da3826e62ceeb5cf6dd87ce81b347172494086bd539629d508",
+      "runtime_path": "references/tools/TM-144.md",
+      "runtime_sha256": "415042c831bbb6eed96c1b42a4984d18b11b448da47f01f99086290d6669c1a3"
     }
   ]
 }

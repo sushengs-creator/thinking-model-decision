@@ -1,10 +1,10 @@
 {
-  "version": "2.1.0",
-  "revision": 68,
-  "updated_at": "2026-10-18T08:22:24.995046+00:00",
-  "user_models": 143,
+  "version": "2.2.0",
+  "revision": 73,
+  "updated_at": "2026-10-19T02:23:49.459163+00:00",
+  "user_models": 144,
   "wan_tools": 100,
-  "sample_cards": 26,
+  "sample_cards": 27,
   "sample_card_ids": [
     "TM-054",
     "TM-062",
@@ -31,7 +31,8 @@
     "TM-140",
     "TM-141",
     "TM-142",
-    "TM-143"
+    "TM-143",
+    "TM-144"
   ],
   "behavior_trial_scope": {
     "v0_1_full_entry_cases": [
@@ -55,7 +56,7 @@
     "tested_at_revision": 2,
     "tested_version": "1.0.0"
   },
-  "change": "TM-143 published source/card/runtime; source freshness guards, deadline and goal-attribution fixes, public guidance and published-source reading workflow",
+  "change": "TM-144 published source/card/runtime; emotional ABC question and routing entries; 6 scoped simulated responses, source coverage and portable package guidance",
   "validation": {
     "tested_at_revision": 2,
     "official_skill_structure": "passed",
@@ -68,12 +69,12 @@
     "sandbox_manuscript_update": "passed",
     "tested_version": "1.0.0"
   },
-  "total_cards": 143,
+  "total_cards": 144,
   "source_reviewed_cards": 117,
   "card_status_counts": {
     "source_reviewed": 117,
     "sample_reviewed": 8,
-    "behavior_checked": 18
+    "behavior_checked": 19
   },
   "needs_review": [],
   "release_validation_history": {
@@ -347,6 +348,26 @@
         "Per-tool hashes cover source, card and runtime, not executor model, client or every shared rule.",
         "Package and deployment require separate final readback; this behavior record alone does not establish installation."
       ]
+    },
+    "2.1.0": {
+      "status": "passed",
+      "version": "2.1.0",
+      "revision": 68,
+      "valid_for_current_revision": false,
+      "scope": "TM-143 increment, scoped maintenance guards and public workflow; 12 actual simulated responses including two corrective retests; no whole-library behavioral rerun or real-world outcome proof",
+      "evidence": "references/evaluation/results-v2.1.md",
+      "official_skill_structure": "passed",
+      "library_integrity": "passed",
+      "runtime_integrity": "passed",
+      "maintenance_tests_passed": 30,
+      "actual_simulated_responses": 12,
+      "corrective_retests": 2,
+      "html_reports": 2,
+      "lexical_retrieval_checks": 10,
+      "html_visual_preview": "not_performed",
+      "all_models_retested_this_release": false,
+      "real_world_outcomes_validated": false,
+      "deployment": "verify_each_target_with_separate_readback_receipts"
     }
   },
   "workflow_validation": {
@@ -686,10 +707,11 @@
       "TM-140",
       "TM-141",
       "TM-142",
-      "TM-143"
+      "TM-143",
+      "TM-144"
     ],
-    "migrated_count": 143,
-    "total_user_models": 143,
+    "migrated_count": 144,
+    "total_user_models": 144,
     "remaining_not_migrated": 0
   },
   "preview_validation_history": {
@@ -716,23 +738,22 @@
     ]
   },
   "release_validation": {
-    "status": "passed",
-    "version": "2.1.0",
-    "revision": 68,
+    "status": "passed_with_limits",
+    "version": "2.2.0",
+    "revision": 73,
     "valid_for_current_revision": true,
-    "scope": "TM-143 increment, scoped maintenance guards and public workflow; 12 actual simulated responses including two corrective retests; no whole-library behavioral rerun or real-world outcome proof",
-    "evidence": "references/evaluation/results-v2.1.md",
+    "scope": "TM-144 increment; 3 local tool replies, 1 complete entry with HTML, 2 first-turn regressions; no full-library behavior rerun or clinical/real-world proof",
+    "evidence": "references/evaluation/results-v2.2.md",
     "official_skill_structure": "passed",
     "library_integrity": "passed",
     "runtime_integrity": "passed",
-    "maintenance_tests_passed": 30,
-    "actual_simulated_responses": 12,
-    "corrective_retests": 2,
-    "html_reports": 2,
-    "lexical_retrieval_checks": 10,
-    "html_visual_preview": "not_performed",
+    "actual_simulated_responses": 6,
+    "html_reports": 1,
+    "lexical_retrieval_checks": 16,
+    "html_visual_preview": "not_performed_local_file_protocol_blocked",
     "all_models_retested_this_release": false,
     "real_world_outcomes_validated": false,
+    "cross_client_compatibility_tested": false,
     "deployment": "verify_each_target_with_separate_readback_receipts"
   }
 }
