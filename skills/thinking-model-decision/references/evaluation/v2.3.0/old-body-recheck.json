@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-20",
+  "method": "ordinary browser visible body #js_content.innerText; UTF16 code unit FNV-1a32 ignoring whitespace",
+  "reread_old_models": [
+    "TM-144"
+  ],
+  "TM-144": {
+    "nonwhitespace_utf16_chars": 5775,
+    "fnv1a32": "987e6349",
+    "matches_prior": true,
+    "published_at": "2026-10-19T07:35:00+08:00",
+    "tables": 2,
+    "tables_checked": true,
+    "images": 4,
+    "images_read": false
+  },
+  "not_reread": "TM-001 through TM-143; directory identity/title comparison does not establish unchanged bodies"
+}

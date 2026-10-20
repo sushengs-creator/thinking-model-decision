@@ -1,10 +1,10 @@
 {
-  "version": "2.2.0",
-  "revision": 73,
-  "updated_at": "2026-10-19T02:23:49.459163+00:00",
-  "user_models": 144,
+  "version": "2.3.0",
+  "revision": 78,
+  "updated_at": "2026-10-20T02:15:33.813675+00:00",
+  "user_models": 145,
   "wan_tools": 100,
-  "sample_cards": 27,
+  "sample_cards": 28,
   "sample_card_ids": [
     "TM-054",
     "TM-062",
@@ -32,7 +32,8 @@
     "TM-141",
     "TM-142",
     "TM-143",
-    "TM-144"
+    "TM-144",
+    "TM-145"
   ],
   "behavior_trial_scope": {
     "v0_1_full_entry_cases": [
@@ -56,7 +57,7 @@
     "tested_at_revision": 2,
     "tested_version": "1.0.0"
   },
-  "change": "TM-144 published source/card/runtime; emotional ABC question and routing entries; 6 scoped simulated responses, source coverage and portable package guidance",
+  "change": "TM-145 published source/card/runtime, evidence-first assumption deletion and routing; 6 scoped simulated responses and 18 lexical retrieval checks; current counts and package documentation aligned",
   "validation": {
     "tested_at_revision": 2,
     "official_skill_structure": "passed",
@@ -69,12 +70,12 @@
     "sandbox_manuscript_update": "passed",
     "tested_version": "1.0.0"
   },
-  "total_cards": 144,
+  "total_cards": 145,
   "source_reviewed_cards": 117,
   "card_status_counts": {
     "source_reviewed": 117,
     "sample_reviewed": 8,
-    "behavior_checked": 19
+    "behavior_checked": 20
   },
   "needs_review": [],
   "release_validation_history": {
@@ -367,6 +368,25 @@
       "html_visual_preview": "not_performed",
       "all_models_retested_this_release": false,
       "real_world_outcomes_validated": false,
+      "deployment": "verify_each_target_with_separate_readback_receipts"
+    },
+    "2.2.0": {
+      "status": "passed_with_limits",
+      "version": "2.2.0",
+      "revision": 73,
+      "valid_for_current_revision": false,
+      "scope": "TM-144 increment; 3 local tool replies, 1 complete entry with HTML, 2 first-turn regressions; no full-library behavior rerun or clinical/real-world proof",
+      "evidence": "references/evaluation/results-v2.2.md",
+      "official_skill_structure": "passed",
+      "library_integrity": "passed",
+      "runtime_integrity": "passed",
+      "actual_simulated_responses": 6,
+      "html_reports": 1,
+      "lexical_retrieval_checks": 16,
+      "html_visual_preview": "not_performed_local_file_protocol_blocked",
+      "all_models_retested_this_release": false,
+      "real_world_outcomes_validated": false,
+      "cross_client_compatibility_tested": false,
       "deployment": "verify_each_target_with_separate_readback_receipts"
     }
   },
@@ -708,10 +728,11 @@
       "TM-141",
       "TM-142",
       "TM-143",
-      "TM-144"
+      "TM-144",
+      "TM-145"
     ],
-    "migrated_count": 144,
-    "total_user_models": 144,
+    "migrated_count": 145,
+    "total_user_models": 145,
     "remaining_not_migrated": 0
   },
   "preview_validation_history": {
@@ -739,18 +760,18 @@
   },
   "release_validation": {
     "status": "passed_with_limits",
-    "version": "2.2.0",
-    "revision": 73,
+    "version": "2.3.0",
+    "revision": 78,
     "valid_for_current_revision": true,
-    "scope": "TM-144 increment; 3 local tool replies, 1 complete entry with HTML, 2 first-turn regressions; no full-library behavior rerun or clinical/real-world proof",
-    "evidence": "references/evaluation/results-v2.2.md",
+    "scope": "TM-145 increment; 3 local responses, 1 complete entry with HTML, 2 first-turn regressions; no full-library behavior rerun or real-world proof",
+    "evidence": "references/evaluation/results-v2.3.md",
     "official_skill_structure": "passed",
     "library_integrity": "passed",
     "runtime_integrity": "passed",
     "actual_simulated_responses": 6,
     "html_reports": 1,
-    "lexical_retrieval_checks": 16,
-    "html_visual_preview": "not_performed_local_file_protocol_blocked",
+    "lexical_retrieval_checks": 18,
+    "html_visual_preview": "not_performed_known_local_file_protocol_limitation",
     "all_models_retested_this_release": false,
     "real_world_outcomes_validated": false,
     "cross_client_compatibility_tested": false,

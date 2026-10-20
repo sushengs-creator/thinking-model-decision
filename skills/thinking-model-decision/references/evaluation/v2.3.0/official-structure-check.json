@@ -1,0 +1,6 @@
+{
+  "command": "skill-creator quick_validate.py [skill-root]",
+  "exit_code": 0,
+  "stdout": "Skill is valid!\n",
+  "stderr": ""
+}

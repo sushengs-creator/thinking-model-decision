@@ -1,0 +1,338 @@
+{
+  "scope": "Current source/index integrity and lexical retrieval only; not actual behavior or suitability probabilities",
+  "checks": [
+    {
+      "name": "library_validate",
+      "exit_code": 0,
+      "output": {
+        "ok": true,
+        "partial_fixture_mode": false,
+        "version": "2.3.0",
+        "revision": 78,
+        "counts": {
+          "user_models": 145,
+          "wan_tools": 100,
+          "cards": 145,
+          "card_statuses": {
+            "source_reviewed": 117,
+            "sample_reviewed": 8,
+            "behavior_checked": 20
+          },
+          "content_statuses": {
+            "source_archived": 145,
+            "existing_skill_snapshot": 100
+          }
+        },
+        "needs_review": [],
+        "errors": [],
+        "warnings": [],
+        "provenance_note": "source_sha256 保存原来源指纹；未提供 source_path 的原始来源不在包内，不能重算验证。可携带正文、HTML、卡片及验证记录按各自哈希核验。"
+      }
+    },
+    {
+      "name": "tool_runtime_validate",
+      "exit_code": 0,
+      "output": {
+        "ok": true,
+        "errors": [],
+        "scope": "Structural and fingerprint checks only; not behavioral proof"
+      }
+    },
+    {
+      "name": "library_search",
+      "query": "奥卡姆剃刀",
+      "expected_candidate": "TM-145",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-145"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "同事没回消息",
+      "expected_candidate": "TM-145",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-145",
+        "TM-025",
+        "TM-117",
+        "TM-127",
+        "TM-132",
+        "TM-006",
+        "TM-013",
+        "TM-018"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "解释的额外假设",
+      "expected_candidate": "TM-145",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-145",
+        "TM-050",
+        "TM-057",
+        "TM-114",
+        "WW-4.4",
+        "TM-013",
+        "TM-016",
+        "TM-030"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "删除测试",
+      "expected_candidate": "TM-145",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-145",
+        "TM-091",
+        "TM-056",
+        "TM-058",
+        "WW-3.5",
+        "WW-6.1"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "必要复杂性",
+      "expected_candidate": "TM-145",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-145",
+        "TM-092",
+        "TM-018",
+        "TM-046",
+        "TM-014",
+        "TM-025",
+        "TM-028",
+        "TM-029"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "竞争性假设",
+      "expected_candidate": "TM-050",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-050",
+        "TM-104",
+        "TM-061",
+        "TM-015",
+        "TM-038",
+        "TM-041",
+        "TM-045",
+        "TM-049"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "溯因推理",
+      "expected_candidate": "TM-104",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-104",
+        "TM-053",
+        "WW-5.5",
+        "TM-110"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "做错一点就觉得我整个人都不行",
+      "expected_candidate": "TM-144",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-144",
+        "TM-042",
+        "TM-031",
+        "TM-027",
+        "TM-001",
+        "TM-003",
+        "TM-004",
+        "TM-005"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "两个选项都不理想",
+      "expected_candidate": "TM-143",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-143",
+        "TM-144",
+        "TM-022",
+        "TM-018",
+        "TM-021",
+        "TM-057",
+        "TM-058",
+        "TM-062"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "奥卡姆剃刀",
+      "expected_candidate": "TM-145",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-145"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "同事没回消息",
+      "expected_candidate": "TM-145",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-145",
+        "TM-054",
+        "TM-035",
+        "TM-036",
+        "TM-072",
+        "TM-124",
+        "TM-127",
+        "WW-3.4"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "解释的额外假设",
+      "expected_candidate": "TM-145",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-050",
+        "TM-145",
+        "WW-4.4",
+        "TM-018",
+        "TM-045",
+        "TM-107",
+        "TM-128",
+        "TM-131"
+      ],
+      "candidate_found": true,
+      "rank": 2
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "删除测试",
+      "expected_candidate": "TM-145",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-145",
+        "WW-3.5",
+        "WW-6.1"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "必要复杂性",
+      "expected_candidate": "TM-145",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-145",
+        "TM-092",
+        "TM-006",
+        "TM-144",
+        "WW-3.14",
+        "WW-6.11",
+        "WW-6.8",
+        "WW-8.4"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "竞争性假设",
+      "expected_candidate": "TM-050",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-050",
+        "TM-089",
+        "TM-009",
+        "TM-023",
+        "TM-040",
+        "TM-045",
+        "TM-104",
+        "TM-145"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "溯因推理",
+      "expected_candidate": "TM-104",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-104",
+        "TM-053",
+        "WW-5.5",
+        "TM-115"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "做错一点就觉得我整个人都不行",
+      "expected_candidate": "TM-144",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-144",
+        "TM-015",
+        "TM-145",
+        "TM-042",
+        "TM-002",
+        "TM-010",
+        "TM-011",
+        "TM-037"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "两个选项都不理想",
+      "expected_candidate": "TM-143",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-143",
+        "TM-022",
+        "TM-138",
+        "TM-002",
+        "TM-037",
+        "TM-112",
+        "TM-144",
+        "WW-2.8"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    }
+  ],
+  "ok": true
+}

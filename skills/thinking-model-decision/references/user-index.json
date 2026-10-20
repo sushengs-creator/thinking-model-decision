@@ -8044,5 +8044,92 @@
     },
     "validation_note_path": "references/validation-notes/TM-144.md",
     "validation_note_sha256": "9af68b94fd01744b27b417a06f6d6798ac5a143b17ffbfeb280a6f70f7384b53"
+  },
+  {
+    "id": "TM-145",
+    "title": "思维模型145：奥卡姆剃刀——同事没回你消息，你脑子里那三个解释，为什么你偏偏选了最伤人的那个？",
+    "short_name": "思维模型145：奥卡姆剃刀——同事没回你消息，你脑子里那三个解释，为什么你偏偏选了最伤人的那个？",
+    "path": "references/user-models/TM-145.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060300&idx=1&sn=ef2243b31a04cbe644721ac85855d714&chksm=beabefff89dc66e9c6b3ec52ad3b9df57a12abfe52d9e3e5e3cdb447f4eb9b2e0ee1d3cd83e0#rd",
+    "source_label": "鬼子不言微信公众号正式发表文章；正常浏览器可见全文",
+    "captured_at": "2026-10-20",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "1a07370508bdef05d0b8e3682350cce2ba0873c02e370af311b8e15401a6b31f",
+    "content_sha256": "1a07370508bdef05d0b8e3682350cce2ba0873c02e370af311b8e15401a6b31f",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-145.md",
+    "search_terms": [
+      "思维模型145：奥卡姆剃刀——同事没回你消息，你脑子里那三个解释，为什么你偏偏选了最伤人的那个？"
+    ],
+    "card_sha256": "585e322c7eb98d2862e7aff4ac5e08826313b144817476a8ada20a02aa090bd9",
+    "card_source_sha256": "1a07370508bdef05d0b8e3682350cce2ba0873c02e370af311b8e15401a6b31f",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-20T02:15:31.772913+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "同一件事有几套解释，故事不断增加未核实的动机或前提；先比共同证据与说明力，再检查额外假设能否删除，保留必要复杂性和现实处理。",
+      "source_sections": [
+        "奥卡姆剃刀的准确说法是什么？",
+        "你信的那个解释，为什么总是假设更多的？",
+        "奥卡姆剃刀，到底该怎么用？",
+        "这把刀什么时候会砍错？",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "奥卡姆剃刀",
+        "奥康剃刀",
+        "Ockham",
+        "Occam",
+        "如无必要勿增实体",
+        "简约原则",
+        "解释的额外假设",
+        "不必要的假设",
+        "删除测试",
+        "说明力相近",
+        "必要复杂性",
+        "反剃刀",
+        "同事没回消息",
+        "他是不是针对我",
+        "脑补动机",
+        "越想越有内情",
+        "简单不等于真实",
+        "假设条数",
+        "改判条件",
+        "汉隆剃刀的边界"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "检查偏差",
+        "比较方案",
+        "设计行动",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-3.3",
+          "relation": "部分重叠，条件性互补",
+          "reason": "两者均要求简化时保留足够说明力；奥卡姆剃刀审查额外设定，颗粒度与因果中介进一步找可干预环节。需要干预机制时才交接，不把删除设定当因果证明。"
+        },
+        {
+          "ww_id": "WW-3.4",
+          "relation": "条件性互补",
+          "reason": "新证据有区分度且存在基准率或似然依据时可用贝叶斯先验更新；奥卡姆剃刀不提供概率，不能把假设条数当先验，也不能相乘未知依赖的证据。"
+        }
+      ],
+      "warnings": [
+        "证据和说明力先行；简短或假设条数少不能证明解释为真，不知是否等价时保留分支。",
+        "逐项检查承诺的作用、依赖与证据负担，不按句长、条数、数字评分机械判胜负。",
+        "未知或难取证不等于错误；暂不纳入工作解释不等于证明不存在，必要复杂性必须保留。",
+        "不以简单或无心解释否认已证实伤害，不等查清动机才作必要保护、补救或履约。",
+        "概率依据和独立性未知时，不使用原文三个八成的直接连乘，不制造精确概率。",
+        "原文防骗格言、暴力预测清单、历史和研究故事仅归档未全面独立核实，不转成通用安全保证或评分。",
+        "本工具不作人格诊断、法律定性或因果确证；没有新增信息或期限要求行动时停止推测。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-145.md",
+    "validation_note_sha256": "073fe05d8504c82507e84b80a9a48077f4e987c5b5ff5de850b725c898d61b66"
   }
 ]

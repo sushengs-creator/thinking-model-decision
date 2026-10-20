@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "2.2.0",
+  "version": "2.3.0",
   "scope": "143 runtime tools; source checking, recorded trials, reviewed trials and real outcomes are distinct.",
   "tools": [
     {
@@ -4725,6 +4725,47 @@
       "card_sha256": "a4cf3316607fb4da3826e62ceeb5cf6dd87ce81b347172494086bd539629d508",
       "runtime_path": "references/tools/TM-144.md",
       "runtime_sha256": "415042c831bbb6eed96c1b42a4984d18b11b448da47f01f99086290d6669c1a3"
+    },
+    {
+      "id": "TM-145",
+      "name": "奥卡姆剃刀",
+      "task": "先核对证据与说明力，再检查解释中的额外假设并作删除测试，保留必要复杂性，形成暂定判断、查验与现实行动",
+      "roles": [
+        "澄清",
+        "证据",
+        "解释",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "同事没回消息就觉得在针对我",
+        "解释越讲越完整却没有证据",
+        "我是不是又在脑补动机",
+        "几个解释都说得通该信哪个",
+        "这个解释偷偷加了什么前提",
+        "删掉这层设定还解释得通吗",
+        "简单解释和复杂解释怎么选",
+        "什么时候不能用奥卡姆剃刀"
+      ],
+      "output": "解释—证据—额外假设—删除测试—验证与更新条件的比较，加保留未知的暂定判断及下一步行动",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.3.0/card-trials.md",
+        "references/evaluation/v2.3.0/entry-trial.md",
+        "references/evaluation/v2.3.0/entry-regressions.md"
+      ],
+      "review_records": [
+        "references/evaluation/v2.3.0/behavior-review.md"
+      ],
+      "source_review_records": [
+        "references/validation/TM-145-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-145.md",
+      "source_sha256": "1a07370508bdef05d0b8e3682350cce2ba0873c02e370af311b8e15401a6b31f",
+      "card_path": "references/cards/TM-145.md",
+      "card_sha256": "585e322c7eb98d2862e7aff4ac5e08826313b144817476a8ada20a02aa090bd9",
+      "runtime_path": "references/tools/TM-145.md",
+      "runtime_sha256": "94c1ba30c6fa29f4b8867d118ef38c532cebc07716a47569d7a75a4559ea0622"
     }
   ]
 }
