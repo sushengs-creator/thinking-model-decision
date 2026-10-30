@@ -1,0 +1,839 @@
+{
+  "review_id": "entry-review",
+  "review_date": "2026-10-30",
+  "reviewer": "independent_agent_review_151_155",
+  "overall_verdict": "pass_with_visual_and_scope_limits",
+  "cases_reviewed": 4,
+  "passed": 4,
+  "failed": 0,
+  "blocking_findings": [],
+  "findings": [
+    {
+      "id": "ENTRY-LIMIT-01",
+      "severity": "low",
+      "type": "verification_limit",
+      "blocking": false,
+      "title": "HTML visual verification not completed",
+      "evidence": "entry-manifest.json html_delivery_checks and both Markdown limitations",
+      "repair_required": false,
+      "retry_required": false,
+      "recommendation": "Keep static-content pass separate from visual unverified status. Later inspect desktop, narrow and print layouts only with a supported preview; do not bypass file URL policy."
+    }
+  ],
+  "cases": [
+    {
+      "id": "entry-project",
+      "verdict": "pass",
+      "severity": "none",
+      "scope": "direct report plus HTML content/static review",
+      "tools_selected": [
+        "TM-153",
+        "TM-155",
+        "WW-3.5"
+      ],
+      "mechanism_and_goal_review": "Appropriate distinct roles: hard constraints, network/resource timing, value of reply before venue release. Full conditional schedules supplied. Current resource minimum is 9 days; 8 requires accepted C delegation, timely A and all remaining resource/cost conditions. Capacity 20 cannot satisfy 30 via score compensation. No invented volunteer commitment or skipped validation.",
+      "resource_and_deadline_review": "11 task-days distinguished from person-days; 50 additional minutes are proposed and checked against critical-worker conflicts. Original start retained. Venue-only versus whole-event 500 budget ambiguity disclosed.",
+      "findings": [],
+      "repair_required": false,
+      "retry_required": false
+    },
+    {
+      "id": "entry-choice",
+      "verdict": "pass",
+      "severity": "none",
+      "scope": "direct report plus HTML content/static review",
+      "tools_selected": [
+        "TM-148"
+      ],
+      "mechanism_and_goal_review": "Given gates and value scales support one weighted comparison tool. Scores, contributions, complete interval and 0.60 threshold are correct. No default weight or midpoint adopted. Preference interaction remains a stated condition.",
+      "resource_and_deadline_review": "Original deadline T and e spent determine R=40-e. Plan sums to R, reserves decision and confirmation time, has short-balance branches and allows honest no-decision outcome. Confirmation sent is not reservation complete.",
+      "findings": [],
+      "repair_required": false,
+      "retry_required": false
+    },
+    {
+      "id": "entry-clarify",
+      "verdict": "pass",
+      "severity": "none",
+      "scope": "first turn only",
+      "tools_selected": [
+        "WW-9.7: clarification only"
+      ],
+      "mechanism_and_goal_review": "One main question identifies a recent concrete situation. No diagnosis, fabricated answer, agenda presumption or premature plan. WW-9.7 is explicitly a limited prompt, not a claimed full run.",
+      "resource_and_deadline_review": "No fabricated deadline, goal ranking or budget before clarification.",
+      "findings": [],
+      "repair_required": false,
+      "retry_required": false
+    },
+    {
+      "id": "entry-old-regression",
+      "verdict": "pass",
+      "severity": "none",
+      "scope": "first turn regression only",
+      "tools_selected": [
+        "TM-143: premise-check only"
+      ],
+      "mechanism_and_goal_review": "Checks the premise making two options appear exhaustive. Two neutral examples are not treated as facts. No forced third route, delegated consent or answer substitution. Waits for real reply.",
+      "resource_and_deadline_review": "No unauthorized duty changes or invented search commitment.",
+      "findings": [],
+      "repair_required": false,
+      "retry_required": false
+    }
+  ],
+  "html_checks": [
+    {
+      "case_id": "entry-project",
+      "file": "trials/entry-project.html",
+      "static_content_verdict": "pass",
+      "content_self_contained": true,
+      "source_link_count": 12,
+      "source_links": [
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/SKILL.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/toolbox-orchestration.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/tool-runtime.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/tools/TM-153.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/cards/TM-153.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/tools/TM-155.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/cards/TM-155.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/user-models/TM-155.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/wan-tools/WW-3.5.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/second-order-check.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/decision-report.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/html-action-plan.md",
+          "exists": true
+        }
+      ],
+      "script_count": 0,
+      "external_resources": [],
+      "utf8": true,
+      "responsive_css_present": true,
+      "print_css_present": true,
+      "visual_verified": false,
+      "visual_status": "not_completed",
+      "visual_limitation": "Trial author recorded headless Chrome exit 134, unavailable Chrome CUA and IAB file URL security-policy block. Reviewer did not retry or use another protocol."
+    },
+    {
+      "case_id": "entry-choice",
+      "file": "trials/entry-choice.html",
+      "static_content_verdict": "pass",
+      "content_self_contained": true,
+      "source_link_count": 10,
+      "source_links": [
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/SKILL.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/decision-routing.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/tool-catalog.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/toolbox-orchestration.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/tool-runtime.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/tools/TM-148.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/cards/TM-148.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/user-models/TM-148.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/decision-report.md",
+          "exists": true
+        },
+        {
+          "href": "../staged-repo/skills/thinking-model-decision/references/html-action-plan.md",
+          "exists": true
+        }
+      ],
+      "script_count": 0,
+      "external_resources": [],
+      "utf8": true,
+      "responsive_css_present": true,
+      "print_css_present": true,
+      "visual_verified": false,
+      "visual_status": "not_completed",
+      "visual_limitation": "Trial author recorded headless Chrome exit 134, unavailable Chrome CUA and IAB file URL security-policy block. Reviewer did not retry or use another protocol."
+    }
+  ],
+  "independent_calculations": {
+    "parallel_C": {
+      "duration": 8,
+      "matrix_columns": [
+        "ES",
+        "EF",
+        "LS",
+        "LF",
+        "TF"
+      ],
+      "matrix": {
+        "A": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "B": [
+          1,
+          4,
+          1,
+          4,
+          0
+        ],
+        "C": [
+          1,
+          3,
+          3,
+          5,
+          2
+        ],
+        "D": [
+          4,
+          6,
+          4,
+          6,
+          0
+        ],
+        "E": [
+          3,
+          4,
+          5,
+          6,
+          2
+        ],
+        "F": [
+          6,
+          7,
+          6,
+          7,
+          0
+        ],
+        "G": [
+          7,
+          8,
+          7,
+          8,
+          0
+        ]
+      },
+      "all_paths": [
+        {
+          "path": [
+            "A",
+            "B",
+            "D",
+            "F",
+            "G"
+          ],
+          "duration": 8
+        },
+        {
+          "path": [
+            "A",
+            "C",
+            "E",
+            "F",
+            "G"
+          ],
+          "duration": 6
+        }
+      ]
+    },
+    "B_then_C": {
+      "duration": 9,
+      "matrix_columns": [
+        "ES",
+        "EF",
+        "LS",
+        "LF",
+        "TF"
+      ],
+      "matrix": {
+        "A": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "B": [
+          1,
+          4,
+          1,
+          4,
+          0
+        ],
+        "C": [
+          4,
+          6,
+          4,
+          6,
+          0
+        ],
+        "D": [
+          4,
+          6,
+          5,
+          7,
+          1
+        ],
+        "E": [
+          6,
+          7,
+          6,
+          7,
+          0
+        ],
+        "F": [
+          7,
+          8,
+          7,
+          8,
+          0
+        ],
+        "G": [
+          8,
+          9,
+          8,
+          9,
+          0
+        ]
+      },
+      "all_paths": [
+        {
+          "path": [
+            "A",
+            "B",
+            "C",
+            "E",
+            "F",
+            "G"
+          ],
+          "duration": 9
+        },
+        {
+          "path": [
+            "A",
+            "B",
+            "D",
+            "F",
+            "G"
+          ],
+          "duration": 8
+        },
+        {
+          "path": [
+            "A",
+            "C",
+            "E",
+            "F",
+            "G"
+          ],
+          "duration": 6
+        }
+      ]
+    },
+    "C_then_B": {
+      "duration": 10,
+      "matrix_columns": [
+        "ES",
+        "EF",
+        "LS",
+        "LF",
+        "TF"
+      ],
+      "matrix": {
+        "A": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "B": [
+          3,
+          6,
+          3,
+          6,
+          0
+        ],
+        "C": [
+          1,
+          3,
+          1,
+          3,
+          0
+        ],
+        "D": [
+          6,
+          8,
+          6,
+          8,
+          0
+        ],
+        "E": [
+          3,
+          4,
+          7,
+          8,
+          4
+        ],
+        "F": [
+          8,
+          9,
+          8,
+          9,
+          0
+        ],
+        "G": [
+          9,
+          10,
+          9,
+          10,
+          0
+        ]
+      },
+      "all_paths": [
+        {
+          "path": [
+            "A",
+            "B",
+            "D",
+            "F",
+            "G"
+          ],
+          "duration": 8
+        },
+        {
+          "path": [
+            "A",
+            "C",
+            "B",
+            "D",
+            "F",
+            "G"
+          ],
+          "duration": 10
+        },
+        {
+          "path": [
+            "A",
+            "C",
+            "E",
+            "F",
+            "G"
+          ],
+          "duration": 6
+        }
+      ]
+    },
+    "B_then_C_D1": {
+      "duration": 9,
+      "matrix_columns": [
+        "ES",
+        "EF",
+        "LS",
+        "LF",
+        "TF"
+      ],
+      "matrix": {
+        "A": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "B": [
+          1,
+          4,
+          1,
+          4,
+          0
+        ],
+        "C": [
+          4,
+          6,
+          4,
+          6,
+          0
+        ],
+        "D": [
+          4,
+          5,
+          6,
+          7,
+          2
+        ],
+        "E": [
+          6,
+          7,
+          6,
+          7,
+          0
+        ],
+        "F": [
+          7,
+          8,
+          7,
+          8,
+          0
+        ],
+        "G": [
+          8,
+          9,
+          8,
+          9,
+          0
+        ]
+      },
+      "all_paths": [
+        {
+          "path": [
+            "A",
+            "B",
+            "C",
+            "E",
+            "F",
+            "G"
+          ],
+          "duration": 9
+        },
+        {
+          "path": [
+            "A",
+            "B",
+            "D",
+            "F",
+            "G"
+          ],
+          "duration": 7
+        },
+        {
+          "path": [
+            "A",
+            "C",
+            "E",
+            "F",
+            "G"
+          ],
+          "duration": 6
+        }
+      ]
+    },
+    "all_ten_daily_interleavings": [
+      {
+        "order": "BBBCC",
+        "B_finish": 4,
+        "C_finish": 6,
+        "project_finish": 9,
+        "finish_if_D_is_one_day": 9
+      },
+      {
+        "order": "BBCBC",
+        "B_finish": 5,
+        "C_finish": 6,
+        "project_finish": 9,
+        "finish_if_D_is_one_day": 9
+      },
+      {
+        "order": "BBCCB",
+        "B_finish": 6,
+        "C_finish": 5,
+        "project_finish": 10,
+        "finish_if_D_is_one_day": 9
+      },
+      {
+        "order": "BCBBC",
+        "B_finish": 5,
+        "C_finish": 6,
+        "project_finish": 9,
+        "finish_if_D_is_one_day": 9
+      },
+      {
+        "order": "BCBCB",
+        "B_finish": 6,
+        "C_finish": 5,
+        "project_finish": 10,
+        "finish_if_D_is_one_day": 9
+      },
+      {
+        "order": "BCCBB",
+        "B_finish": 6,
+        "C_finish": 4,
+        "project_finish": 10,
+        "finish_if_D_is_one_day": 9
+      },
+      {
+        "order": "CBBBC",
+        "B_finish": 5,
+        "C_finish": 6,
+        "project_finish": 9,
+        "finish_if_D_is_one_day": 9
+      },
+      {
+        "order": "CBBCB",
+        "B_finish": 6,
+        "C_finish": 5,
+        "project_finish": 10,
+        "finish_if_D_is_one_day": 9
+      },
+      {
+        "order": "CBCBB",
+        "B_finish": 6,
+        "C_finish": 4,
+        "project_finish": 10,
+        "finish_if_D_is_one_day": 9
+      },
+      {
+        "order": "CCBBB",
+        "B_finish": 6,
+        "C_finish": 3,
+        "project_finish": 10,
+        "finish_if_D_is_one_day": 9
+      }
+    ],
+    "task_days_sum": 11,
+    "additional_coordination_minutes": 50,
+    "choice_formula_A": "30+50w",
+    "choice_formula_B": "90-50w",
+    "choice_difference": "100w-60",
+    "threshold": 0.6,
+    "choice_values": [
+      {
+        "w": 0.55,
+        "A": 57.5,
+        "B": 62.5
+      },
+      {
+        "w": 0.6,
+        "A": 60.0,
+        "B": 60.0
+      },
+      {
+        "w": 0.7,
+        "A": 65.0,
+        "B": 55.0
+      }
+    ],
+    "choice_time_identity": "2+(R-10)+3+5=R; e+R=40"
+  },
+  "input_manifest_checks": [
+    {
+      "id": "entry-project",
+      "input_exact_match": true,
+      "artifact_hashes_and_sizes_match": true
+    },
+    {
+      "id": "entry-choice",
+      "input_exact_match": true,
+      "artifact_hashes_and_sizes_match": true
+    },
+    {
+      "id": "entry-clarify",
+      "input_exact_match": true,
+      "artifact_hashes_and_sizes_match": true
+    },
+    {
+      "id": "entry-old-regression",
+      "input_exact_match": true,
+      "artifact_hashes_and_sizes_match": true
+    }
+  ],
+  "read_evidence": [
+    {
+      "path": "entry-inputs.json",
+      "sha256": "1ad31ebcd9cc4e467587f86c24550fb99a9f8f8437027eb4e2e3b34992b88a1a",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "entry-manifest.json",
+      "sha256": "8307814b54780d2483a601e2c2a48cb87d08d0d35395fc76b8cccece8320ea80",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "trials/entry-project.md",
+      "sha256": "ea64eafc7a24c1eb214bb781b743bd26501390e88f129db5e89a738cc9f44f71",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "trials/entry-project.html",
+      "sha256": "decbcb194c635918f15e524e31f81e358b049f10c7de6edaa06ad9fab03fce7b",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "trials/entry-choice.md",
+      "sha256": "060831a09ec8db91bb9ee534ca28a6382b52258f2c013ba8c986cbc1cf7577fd",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "trials/entry-choice.html",
+      "sha256": "ab3b4163d86afab68a1ecf7eeea45a46a00c5e21f5196f932476e309c9e4eee6",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "trials/entry-clarify.md",
+      "sha256": "717ee20f1441a8320d48ea0cc3660546f761def37621d861a769a4356a931e89",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "trials/entry-old-regression.md",
+      "sha256": "a021c49a16aa799ce133ac94191db12ac7e46414320bdff533b0980d04c2ff89",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/SKILL.md",
+      "sha256": "1fe354a169934276535dfce2262833aefdc1adda675599ef2d181ed8d0ba831b",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/guided-dialogue.md",
+      "sha256": "7700f109b08a913fcecf6a8ce26083f00376cc2f32863e7e9225e4ee47bb012a",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/questioning-toolkit.md",
+      "sha256": "4c4435666732c7d48a602866c0c0f17cb3f6fb2676d088093052620a849c80f6",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/toolbox-orchestration.md",
+      "sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tool-runtime.md",
+      "sha256": "4ecb86d1eedd089f583a8b14f298a4d738fe72794c11baade323b7e573edb2ce",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/decision-report.md",
+      "sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/html-action-plan.md",
+      "sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/second-order-check.md",
+      "sha256": "733f5ff5ce00c02ec94ef7a82da36b9520472031193fc461eca2bb4f30cbfe8f",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-148.md",
+      "sha256": "b05fc4c35a22d750d00b0db7eebcba4cf025db534282814f9ae12f999e018c53",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-148.md",
+      "sha256": "e99a7caf6c93b31317e718d9dd8f8addcc53cce3b872d709a7d53e2851439576",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-143.md",
+      "sha256": "879b0c00698a7d34278c2796ccf498baf37792d085e0c9ce8526c6d37dd8f75e",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-143.md",
+      "sha256": "46f411f37e7cf98ab66a9bb5b907228a5c7393fd1c52d3b917704e4e7daec42b",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-153.md",
+      "sha256": "7b611a103436fc549a3c794d3a14ee8bbbe33c23c750df9c67761eea60e1ddbd",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-153.md",
+      "sha256": "dfc6b9ccab1db76250d424a20d0b15cdaa9411b085eac6575cd35961939d7833",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-155.md",
+      "sha256": "f00060236a69e5b4d5e3308b51e485c1e255b0c29aa7ad6d2379777c26816503",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-155.md",
+      "sha256": "2158761b4d37944088e5572c1d4d5189ab9621b751fea1503c208b4bd313e674",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/wan-tools/WW-3.5.md",
+      "sha256": "03441b42221aad7183fb542291559faab956a03bbf7d350eafc701748958afa6",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/wan-tools/WW-9.7.md",
+      "sha256": "ac16db91b6e64d3568f35bfe967a08f1e81f7fe109abae6fab7da8980a2afa19",
+      "scope": "full; earlier-session full reads reused where applicable"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/user-models/TM-148.md",
+      "sha256": "d0f2390f07fe8168a521d50a2aa5b01c64728d7b6cd72c57a9079d3b91616b1d",
+      "scope": "targeted text search: formula, value scale, weighting and sensitivity; not full original"
+    }
+  ],
+  "limitations": [
+    "Two HTMLs passed static content/path checks only. No desktop, narrow-screen or print visual claim.",
+    "Clarification cases cover first turn only; genuine later answers and final multi-turn reports untested.",
+    "Requests contain no model IDs and tool choices match mechanisms; blind execution history beyond manifest declaration was not independently audited.",
+    "No real reservation, message, volunteer acceptance, event or user outcome verified.",
+    "Local source links resolve within this task layout; relocation needs preservation or recheck."
+  ],
+  "original_answers_modified": false,
+  "private_cases_read": false,
+  "formal_install_modified": false
+}

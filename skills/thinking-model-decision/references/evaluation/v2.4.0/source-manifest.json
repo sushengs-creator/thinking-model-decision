@@ -1,0 +1,516 @@
+{
+  "captured_date": "2026-10-30",
+  "count": 10,
+  "old_body_reread_scope": [],
+  "old_body_limit": "TM-001—145正文未重读；只比对合集目录元数据。",
+  "records": [
+    {
+      "id": "TM-146",
+      "title": "思维模型146：心理灵活性——道理都想明白了，为什么还在等“不紧张了再开始”？",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060323&idx=2&sn=61e66b6efb3886c1b261e13789b49b5d&chksm=beabefd089dc66c648689acca129b52481949886616b7caef3b3b64e1b23e902e7b44e7a8490#rd",
+      "msgid": "2650060323",
+      "itemidx": "2",
+      "published_at_page_display": "2026-10-21T23:10:00+08:00",
+      "album_create_time": "1792595312",
+      "album_time_china": "2026-10-21T23:08:32+08:00",
+      "captured_at": "2026-10-30",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 7610,
+      "fnv1a32_code_units": "71edbf03",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "7ae8a2c90ba292aaca3bdf3aec51641039b35dfa6cbd376b2b1aa7215c30fc5f",
+      "source_sha256": "6b26a5e64bbd9f255efad605b0c61ec65c671e1a73dd24ebc42b4e0238d37f32",
+      "table_count": 2,
+      "tables": [
+        {
+          "rows": [
+            [
+              "过程",
+              "放到这件事里，可以怎么理解"
+            ],
+            [
+              "接纳",
+              "注意到紧张，允许这份感受存在，不急着先消灭它。"
+            ],
+            [
+              "认知解离",
+              "听见\"我会出丑\"的念头，仍然查看实际条件，再决定怎么做。"
+            ],
+            [
+              "当下觉察",
+              "从脑中的尴尬画面回到眼前。此刻只是在填一张报名表。"
+            ],
+            [
+              "自我即情境",
+              "退后一步，看见自己正在紧张，不让\"我就是个胆小的人\"概括全部的自己。"
+            ],
+            [
+              "价值",
+              "弄清楚自己想怎样学习、创造和安排业余生活。"
+            ],
+            [
+              "承诺行动",
+              "采取与这个方向相符的具体行动，并根据情况继续或调整。"
+            ]
+          ],
+          "text": "过程\n\t\n放到这件事里，可以怎么理解\n\n\n接纳\n\t\n注意到紧张，允许这份感受存在，不急着先消灭它。\n\n\n认知解离\n\t\n听见\"我会出丑\"的念头，仍然查看实际条件，再决定怎么做。\n\n\n当下觉察\n\t\n从脑中的尴尬画面回到眼前。此刻只是在填一张报名表。\n\n\n自我即情境\n\t\n退后一步，看见自己正在紧张，不让\"我就是个胆小的人\"概括全部的自己。\n\n\n价值\n\t\n弄清楚自己想怎样学习、创造和安排业余生活。\n\n\n承诺行动\n\t\n采取与这个方向相符的具体行动，并根据情况继续或调整。"
+        },
+        {
+          "rows": [
+            [
+              "做法",
+              "判断时可以看什么",
+              "可以直接说的一句话"
+            ],
+            [
+              "继续",
+              "事情仍值得做，条件允许，代价可以承担。",
+              "我知道我会紧张，那就带着紧张去试一次。"
+            ],
+            [
+              "调整",
+              "方向仍然重要，但课程、时间或参与方式需要改变。",
+              "方向不变，我先换个更短的方式试一试。"
+            ],
+            [
+              "暂缓",
+              "当下需要休息、处理更急的事或补足条件；可以约定何时再看。",
+              "这一期时间不合适，我定个日子再看下一期。"
+            ],
+            [
+              "求助",
+              "缺少必要的信息、技能或支持，需要向老师、朋友或专业人员求助。",
+              "这一块我自己摸不出来，得找人问清楚。"
+            ],
+            [
+              "退出",
+              "这门课不合适、代价过高，或自己已经不想继续。",
+              "我试过了，这条路不合适，我把时间放到别处。"
+            ]
+          ],
+          "text": "做法\n\t\n判断时可以看什么\n\t\n可以直接说的一句话\n\n\n继续\n\t\n事情仍值得做，条件允许，代价可以承担。\n\t\n我知道我会紧张，那就带着紧张去试一次。\n\n\n调整\n\t\n方向仍然重要，但课程、时间或参与方式需要改变。\n\t\n方向不变，我先换个更短的方式试一试。\n\n\n暂缓\n\t\n当下需要休息、处理更急的事或补足条件；可以约定何时再看。\n\t\n这一期时间不合适，我定个日子再看下一期。\n\n\n求助\n\t\n缺少必要的信息、技能或支持，需要向老师、朋友或专业人员求助。\n\t\n这一块我自己摸不出来，得找人问清楚。\n\n\n退出\n\t\n这门课不合适、代价过高，或自己已经不想继续。\n\t\n我试过了，这条路不合适，我把时间放到别处。"
+        }
+      ],
+      "image_count": 5,
+      "media_read_this_run": false,
+      "media_scope": "本轮核对可见文字，未重新查看图片；历史媒体范围见来源清单，不宣称本轮媒体完整归档。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": true,
+      "historical_capture_date": "2026-10-22",
+      "historical_media_scope": "归档为当轮普通浏览器可见全文，包含两表、模型档案卡和结束句；5幅原文图片未下载或OCR，不能宣称媒体完备。制作只使用文字中已有完整信息，不根据未读图片猜写。",
+      "historical_fingerprint_algorithm": "UTF-16LE bytes, distinct from this run code-unit hash",
+      "historical_fnv1a32_utf16le_bytes": "286de907"
+    },
+    {
+      "id": "TM-147",
+      "title": "思维模型147：价值聚焦思维——装修花了二十万，最该花钱的地方为什么一分没花？",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060333&idx=1&sn=abc943749b87880694e296afd93c10d0&chksm=beabefde89dc66c8676c6f0c92887650909e9ee104204285c7ef215e9fb9662e6c35ab91b843#rd",
+      "msgid": "2650060333",
+      "itemidx": "1",
+      "published_at_page_display": "2026-10-22T18:30:00+08:00",
+      "album_create_time": "1792665000",
+      "album_time_china": "2026-10-22T18:30:00+08:00",
+      "captured_at": "2026-10-30T02:33:02.138Z",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 7137,
+      "fnv1a32_code_units": "4d6f6007",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "8ea7ce4322323da07508540b9e0c3d1d31408f6d353e46212ff6c370e194f9c7",
+      "source_sha256": "0dc503f142ffe05fad153a608dc63aec20870218f6f46a99129cf23e73504401",
+      "table_count": 0,
+      "tables": [],
+      "image_count": 4,
+      "media_read_this_run": false,
+      "media_scope": "本轮核对可见文字，未重新查看图片；历史媒体范围见来源清单，不宣称本轮媒体完整归档。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": true,
+      "historical_capture_date": "2026-10-23T02:20:06.446142+00:00",
+      "historical_media_scope": "Four original images not OCRed. All selected concepts and examples are explained in complete text; no inference from unread images.",
+      "historical_fingerprint_algorithm": "UTF-16LE bytes, distinct from this run code-unit hash",
+      "historical_fnv1a32_utf16le_bytes": "81e2caf0"
+    },
+    {
+      "id": "TM-148",
+      "title": "思维模型148：加权评分法——同一批人、同一份材料，换个权重排名为什么就全变了？",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060342&idx=1&sn=5739fc93c7675fff6ea67ab896e34a3a&chksm=beabefc589dc66d3e8f6849074ac737dd240a69f767844526f87ae5753bdd8625e2ff7fcc963#rd",
+      "msgid": "2650060342",
+      "itemidx": "1",
+      "published_at_page_display": "2026-10-23T23:57:00+08:00",
+      "album_create_time": "1792770969",
+      "album_time_china": "2026-10-23T23:56:09+08:00",
+      "captured_at": "2026-10-30T02:33:12.793Z",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 8482,
+      "fnv1a32_code_units": "f8eb8f02",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "bbaf0badab6b4d42edad5fc76c8759880762d319d6cd071daf2cdd1805423106",
+      "source_sha256": "d0f2390f07fe8168a521d50a2aa5b01c64728d7b6cd72c57a9079d3b91616b1d",
+      "table_count": 1,
+      "tables": [
+        {
+          "rows": [
+            [
+              "候选人",
+              "职务价值分",
+              "工龄价值分"
+            ],
+            [
+              "甲",
+              "90",
+              "40"
+            ],
+            [
+              "乙",
+              "60",
+              "80"
+            ]
+          ],
+          "text": "候选人\n\t\n职务价值分\n\t\n工龄价值分\n\n\n甲\n\t\n90\n\t\n40\n\n\n乙\n\t\n60\n\t\n80"
+        }
+      ],
+      "image_count": 4,
+      "media_read_this_run": false,
+      "media_scope": "本轮核对可见文字，未重新查看图片；历史媒体范围见来源清单，不宣称本轮媒体完整归档。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": true,
+      "historical_capture_date": "2026-10-24",
+      "historical_media_scope": "Four article images not OCRed. The one three-column teaching table was completely read. All selected concepts and examples can be independently reconstructed from complete visible text; no inference from unread images.",
+      "historical_fingerprint_algorithm": "UTF-16LE bytes, distinct from this run code-unit hash",
+      "historical_fnv1a32_utf16le_bytes": "fc58d6d5"
+    },
+    {
+      "id": "TM-149",
+      "title": "思维模型149：非暴力沟通——明明你有理，为什么一开口就吵起来了？",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060352&idx=1&sn=9a1d0dcbb274218e62e38d02b7e261f9&chksm=beabefb389dc66a5ecdd5f0013e55e68bac05470f665787b02e68177daeaec4e1eb4842b3cb8#rd",
+      "msgid": "2650060352",
+      "itemidx": "1",
+      "published_at_page_display": "2026-10-24T23:33:00+08:00",
+      "album_create_time": "1792855960",
+      "album_time_china": "2026-10-24T23:32:40+08:00",
+      "captured_at": "2026-10-30T02:33:38.074Z",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 5745,
+      "fnv1a32_code_units": "beac79e6",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "551f56a9eb68d399295a1eaa234ae405980bec9e0b833d03246e77d110d6f2c6",
+      "source_sha256": "c412d6bed78fc6b5844113343d1f38ca54f703928fe3e1d0221c3adf685acfe0",
+      "table_count": 1,
+      "tables": [
+        {
+          "rows": [
+            [
+              "模型名称",
+              "非暴力沟通（Nonviolent Communication，NVC）。"
+            ],
+            [
+              "一句话定义",
+              "用观察、感受、需要和请求整理表达与倾听，在重视双方需要的基础上，寻找愿意共同采取的行动。"
+            ],
+            [
+              "来源与\n代表著作",
+              "马歇尔·卢森堡（Marshall B. Rosenberg）发展；代表著作《Nonviolent Communication: A Language of Life》（《非暴力沟通》）。"
+            ],
+            [
+              "解决什么\n问题",
+              "诉求难以说清、对话容易滑向人身评价，以及只顾表达自己、没有核实对方意思的沟通困境。"
+            ],
+            [
+              "调用提醒",
+              "发生了什么？我有什么感受？我在意什么？我希望下一步做什么？对方的意思，我核实了吗？"
+            ],
+            [
+              "边界",
+              "它是整理思路的方向，不是必须一句句念出来的公式。需要与具体策略要分开。理解不等于赞同，听取拒绝不取消原有约定。它不保证对方听懂、答应合作，也不能替代安全保障、规则和责任处理。"
+            ]
+          ],
+          "text": "模型名称\n\t\n非暴力沟通（Nonviolent Communication，NVC）。\n\n\n一句话定义\n\t\n用观察、感受、需要和请求整理表达与倾听，在重视双方需要的基础上，寻找愿意共同采取的行动。\n\n\n来源与\n代表著作\n\t\n马歇尔·卢森堡（Marshall B. Rosenberg）发展；代表著作《Nonviolent Communication: A Language of Life》（《非暴力沟通》）。\n\n\n解决什么\n问题\n\t\n诉求难以说清、对话容易滑向人身评价，以及只顾表达自己、没有核实对方意思的沟通困境。\n\n\n调用提醒\n\t\n发生了什么？我有什么感受？我在意什么？我希望下一步做什么？对方的意思，我核实了吗？\n\n\n边界\n\t\n它是整理思路的方向，不是必须一句句念出来的公式。需要与具体策略要分开。理解不等于赞同，听取拒绝不取消原有约定。它不保证对方听懂、答应合作，也不能替代安全保障、规则和责任处理。"
+        }
+      ],
+      "image_count": 4,
+      "media_read_this_run": false,
+      "media_scope": "本轮核对可见文字，未重新查看图片；历史媒体范围见来源清单，不宣称本轮媒体完整归档。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": true,
+      "historical_capture_date": "2026-10-25T02:12:03.054625+00:00",
+      "historical_media_scope": "All four original inline images visually inspected in ordinary browser screenshots; key text and relationships agree with the complete archived body. Original media files not downloaded; no automated OCR claimed.",
+      "historical_fingerprint_algorithm": "UTF-16LE bytes, distinct from this run code-unit hash",
+      "historical_fnv1a32_utf16le_bytes": "bc0cf062"
+    },
+    {
+      "id": "TM-150",
+      "title": "思维模型150：BATNA——谈判前最该想清楚的，不是怎么谈成，而是谈崩后你转身去哪儿",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060362&idx=1&sn=0aa009ae804c541e40026958c0d4ece2&chksm=beabefb989dc66aff072ce7d65c31ea1df8a23dcc37086a2855fd552bede2930fb63a50a06b0#rd",
+      "msgid": "2650060362",
+      "itemidx": "1",
+      "published_at_page_display": "2026-10-25T12:02:00+08:00",
+      "album_create_time": "1792900882",
+      "album_time_china": "2026-10-25T12:01:22+08:00",
+      "captured_at": "2026-10-30T02:33:47.934Z",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 5127,
+      "fnv1a32_code_units": "0c74438c",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "f630529b14d1bc0a37f080cadda18981ff4a7f5050ea159a54e5f2c65ea42027",
+      "source_sha256": "4ef364105c1cc277eb0bc66b17c9aba4fdc96b3fcbb1ace62ad76c3094a212bf",
+      "table_count": 1,
+      "tables": [
+        {
+          "rows": [
+            [
+              "模型名称",
+              "BATNA（Best Alternative to a Negotiated Agreement，谈判协议的最佳替代方案）。"
+            ],
+            [
+              "一句话定义",
+              "无法达成当前协议时，在可采取的备选行动中对你最有利的方案；用它比较眼前协议的整体价值。"
+            ],
+            [
+              "来源与\n代表著作",
+              "罗杰·费希尔与威廉·尤里，1981 年出版的《谈判力》（Getting to Yes）。"
+            ],
+            [
+              "解决什么问题",
+              "只盯着预期价格，忽略不成交后的处境，因而接下更差的协议，或推掉值得接受的协议。"
+            ],
+            [
+              "核心区分",
+              "BATNA 是替代行动；保留值或保留价是据此比较得到的接受边界；预算是你实际能付的钱。"
+            ],
+            [
+              "调用提醒",
+              "谈不成有哪些可行选择，最好的是哪一个？眼前条件与它相比如何？替代什么时候可能变化，能否提前改善？"
+            ],
+            [
+              "边界",
+              "替代可能很差，也可能有不确定性，应计入成本、风险与等待时间。它不能保证谈判成功，也不能独自回答是否值得继续谈；比较依据需要随着信息和条件变化而更新。"
+            ]
+          ],
+          "text": "模型名称\n\t\nBATNA（Best Alternative to a Negotiated Agreement，谈判协议的最佳替代方案）。\n\n\n一句话定义\n\t\n无法达成当前协议时，在可采取的备选行动中对你最有利的方案；用它比较眼前协议的整体价值。\n\n\n来源与\n代表著作\n\t\n罗杰·费希尔与威廉·尤里，1981 年出版的《谈判力》（Getting to Yes）。\n\n\n解决什么问题\n\t\n只盯着预期价格，忽略不成交后的处境，因而接下更差的协议，或推掉值得接受的协议。\n\n\n核心区分\n\t\nBATNA 是替代行动；保留值或保留价是据此比较得到的接受边界；预算是你实际能付的钱。\n\n\n调用提醒\n\t\n谈不成有哪些可行选择，最好的是哪一个？眼前条件与它相比如何？替代什么时候可能变化，能否提前改善？\n\n\n边界\n\t\n替代可能很差，也可能有不确定性，应计入成本、风险与等待时间。它不能保证谈判成功，也不能独自回答是否值得继续谈；比较依据需要随着信息和条件变化而更新。"
+        }
+      ],
+      "image_count": 4,
+      "media_read_this_run": false,
+      "media_scope": "本轮核对可见文字，未重新查看图片；历史媒体范围见来源清单，不宣称本轮媒体完整归档。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": true,
+      "historical_capture_date": "2026-10-26T02:28:47.565109+00:00",
+      "historical_media_scope": "All 4 inline images visually read in live browser; first tall image inspected in upper/lower portions. No image-only information gap; originals not downloaded.",
+      "historical_fingerprint_algorithm": "UTF-16LE bytes, distinct from this run code-unit hash",
+      "historical_fnv1a32_utf16le_bytes": "9e699b71"
+    },
+    {
+      "id": "TM-151",
+      "title": "思维模型151：5Why分析法——问了五个为什么，为什么还是没找到原因？",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060373&idx=1&sn=ae20040540b0c30d831c5702f0020625&chksm=beabefa689dc66b0536fb4b14b56fdfd35866f3dab298e50bc60d3b5b246e03580f5031cd3c6#rd",
+      "msgid": "2650060373",
+      "itemidx": "1",
+      "published_at_page_display": "2026-10-26T07:35:00+08:00",
+      "album_create_time": "1792971300",
+      "album_time_china": "2026-10-26T07:35:00+08:00",
+      "captured_at": "2026-10-30T02:34:12.363Z",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 5253,
+      "fnv1a32_code_units": "758b7cbc",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "2e40ea993718232a562854d8c0b892976bf1d509acebd72dc2ab075d2db46a1c",
+      "source_sha256": "c2ffae8b4e0cc8479cb3f4898991f37f41e95a1e6997fe3a3c1f25fd22690486",
+      "table_count": 1,
+      "tables": [
+        {
+          "rows": [
+            [
+              "模型名称",
+              "5Why分析法（五个为什么）。"
+            ],
+            [
+              "一句话定义",
+              "通过连续追问，越过表面现象、追查问题原因的方法；追问次数不固定，答案需要证据支持。"
+            ],
+            [
+              "来源与代表著作",
+              "与丰田生产方式密切相关。大野耐一在《丰田生产方式》中用机器停转的例子说明这套方法。精益企业研究院的约翰·舒克在讲解中补充了反向检查的「因此链」。"
+            ],
+            [
+              "核心动作",
+              "从具体问题出发，沿可能原因继续追问，逐层核对依据。反向检查可以帮助发现跳步，不能单独证明因果。"
+            ],
+            [
+              "解决什么问题",
+              "分析停在表面症状，或停在「某个人不行」的笼统判断，无法形成具体调查与改进方向。"
+            ],
+            [
+              "调用提醒",
+              "这一层有什么依据？还有哪些解释？先改什么，改完怎样检查？"
+            ],
+            [
+              "边界",
+              "「能改」不等于原因正确，问得深不等于措施更有效，多条链也不保证找全原因。复杂问题需要更多视角、证据和系统调查；不能用5Why单独得出心理诊断或问责结论。"
+            ]
+          ],
+          "text": "模型名称\n\t\n5Why分析法（五个为什么）。\n\n\n一句话定义\n\t\n通过连续追问，越过表面现象、追查问题原因的方法；追问次数不固定，答案需要证据支持。\n\n\n来源与代表著作\n\t\n与丰田生产方式密切相关。大野耐一在《丰田生产方式》中用机器停转的例子说明这套方法。精益企业研究院的约翰·舒克在讲解中补充了反向检查的「因此链」。\n\n\n核心动作\n\t\n从具体问题出发，沿可能原因继续追问，逐层核对依据。反向检查可以帮助发现跳步，不能单独证明因果。\n\n\n解决什么问题\n\t\n分析停在表面症状，或停在「某个人不行」的笼统判断，无法形成具体调查与改进方向。\n\n\n调用提醒\n\t\n这一层有什么依据？还有哪些解释？先改什么，改完怎样检查？\n\n\n边界\n\t\n「能改」不等于原因正确，问得深不等于措施更有效，多条链也不保证找全原因。复杂问题需要更多视角、证据和系统调查；不能用5Why单独得出心理诊断或问责结论。"
+        }
+      ],
+      "image_count": 5,
+      "media_read_this_run": false,
+      "media_scope": "本轮核对可见文字，未重新查看图片；历史媒体范围见来源清单，不宣称本轮媒体完整归档。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": true,
+      "historical_capture_date": "2026-10-26T02:47:30.903449+00:00",
+      "historical_media_scope": "All 5 inline images visually read in live browser; first tall image inspected in upper/lower portions. No image-only information gap; originals not downloaded.",
+      "historical_fingerprint_algorithm": "UTF-16LE bytes, distinct from this run code-unit hash",
+      "historical_fnv1a32_utf16le_bytes": "f6e22917"
+    },
+    {
+      "id": "TM-152",
+      "title": "思维模型152：OODA环 ——为什么一直在改方案，问题却反复出现？",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060385&idx=1&sn=c8f1fe8fe54a22820da943d3672dd625&chksm=beabef9289dc66844f099e8c2e05e823db0906533e00b7eb69343b1c526ce9e61b600fbbd978#rd",
+      "msgid": "2650060385",
+      "itemidx": "1",
+      "published_at_page_display": "2026-10-27T07:35:00+08:00",
+      "album_create_time": "1793057700",
+      "album_time_china": "2026-10-27T07:35:00+08:00",
+      "captured_at": "2026-10-30T02:34:22.298Z",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 7912,
+      "fnv1a32_code_units": "8bd4c2ca",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "d863f849ba8a6e0b640ba1a18522ea37bc6f0e07ba034e75426bf549b83b6b55",
+      "source_sha256": "1131e5a0486f9535003e9c32a6e72e10eec186823e44d9f7051ea6e83bf4c15d",
+      "table_count": 1,
+      "tables": [
+        {
+          "rows": [
+            [
+              "一句话定义",
+              "在变化中持续观察、修正理解、作出决定、采取行动的检查框架。"
+            ],
+            [
+              "来源",
+              "美国空军退役上校约翰·博伊德（John Boyd，1927—1997）。"
+            ],
+            [
+              "核心机制",
+              "定向决定你注意什么、怎样解释、怎么动手；新信息和行动结果反过来修正定向。"
+            ],
+            [
+              "解决什么问题",
+              "局面变了还在按照旧解释行动；每次调整都在修改动作，没有修改判断。"
+            ],
+            [
+              "调用提醒",
+              "判断依据是什么？新信息支持还是挑战它？这一步能带回什么？"
+            ],
+            [
+              "边界",
+              "适用：局面在变化、判断得边做边改的时候。不适用：需要精确归因单个事件，或者代价太大、必须先把证据补齐的行动。"
+            ]
+          ],
+          "text": "一句话定义\n\t\n在变化中持续观察、修正理解、作出决定、采取行动的检查框架。\n\n\n来源\n\t\n美国空军退役上校约翰·博伊德（John Boyd，1927—1997）。\n\n\n核心机制\n\t\n定向决定你注意什么、怎样解释、怎么动手；新信息和行动结果反过来修正定向。\n\n\n解决什么问题\n\t\n局面变了还在按照旧解释行动；每次调整都在修改动作，没有修改判断。\n\n\n调用提醒\n\t\n判断依据是什么？新信息支持还是挑战它？这一步能带回什么？\n\n\n边界\n\t\n适用：局面在变化、判断得边做边改的时候。不适用：需要精确归因单个事件，或者代价太大、必须先把证据补齐的行动。"
+        }
+      ],
+      "image_count": 6,
+      "media_read_this_run": false,
+      "media_scope": "本轮核对可见文字，未重新查看图片；历史媒体范围见来源清单，不宣称本轮媒体完整归档。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": true,
+      "historical_capture_date": "2026-10-27T02:25:00.062317+00:00",
+      "historical_media_scope": "All 6 inline images visually read in the ordinary browser, including full overview and OODA relation diagrams; 1 table read in full. No original media binaries archived; no OCR claim. No unread key image-only content remains.",
+      "historical_fingerprint_algorithm": "UTF-16LE bytes, distinct from this run code-unit hash",
+      "historical_fnv1a32_utf16le_bytes": "8289bd8d"
+    },
+    {
+      "id": "TM-153",
+      "title": "思维模型153：约束满足 ——每件事都做好了安排，为什么凑到一起就是无法办成？",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060395&idx=1&sn=4fdd6ea271d0a6c6e3d5d83916b49976&chksm=beabef9889dc668ee1f9cb2807d1ad410ff9089cbd660f051851ac9ac0a01e358d318ee0aa59#rd",
+      "msgid": "2650060395",
+      "itemidx": "1",
+      "published_at_page_display": "2026-10-28T07:35:00+08:00",
+      "album_create_time": "1793144100",
+      "album_time_china": "2026-10-28T07:35:00+08:00",
+      "captured_at": "2026-10-30T02:34:42.443Z",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 8139,
+      "fnv1a32_code_units": "be920929",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "cdb6e7cd6fe866b2958b926448ca53bda8853d56befe91c06b0f787d3d2d02f2",
+      "source_sha256": "1e95d1f2782fb3450aba8e1b35cf67fae92e083ba28766dbf2e200e6c715ccd6",
+      "table_count": 0,
+      "tables": [],
+      "image_count": 4,
+      "media_read_this_run": false,
+      "media_scope": "本轮核对可见文字，未重新查看图片；历史媒体范围见来源清单，不宣称本轮媒体完整归档。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": true,
+      "historical_capture_date": "2026-10-28T03:42:30.096976+00:00",
+      "historical_media_scope": "All 4 inline image URLs visually read in ordinary browser, including full overview and both scheduling diagrams. Model card text read in full; no HTML table. Original image binaries not archived; no OCR claim. No unread key image-only content remains.",
+      "historical_fingerprint_algorithm": "UTF-16LE bytes, distinct from this run code-unit hash",
+      "historical_fnv1a32_utf16le_bytes": "d25e4a64"
+    },
+    {
+      "id": "TM-154",
+      "title": "思维模型154：手段—目的分析 ——目标很清楚，为什么还是不知道下一步做什么？",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060406&idx=1&sn=3bcd74b0caed7e7df5b00e1f7530a267&chksm=beabef8589dc669300908d81af58bc38ef1e03bfa853ec9586912a71b748ffbd3be4f0e9c262#rd",
+      "msgid": "2650060406",
+      "itemidx": "1",
+      "published_at_page_display": "2026-10-29T07:35:00+08:00",
+      "album_create_time": "1793230500",
+      "album_time_china": "2026-10-29T07:35:00+08:00",
+      "captured_at": "2026-10-30T02:34:52.179Z",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 5583,
+      "fnv1a32_code_units": "e0cfb0f8",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "39b1491792b828feedb3253a38ebdd246ac069284c94ba3fa51abd101d91ad57",
+      "source_sha256": "bc5c32d755522c9fef7aaa4832240166356b4b9b8374cdb523ca65eb26f1ef45",
+      "table_count": 0,
+      "tables": [],
+      "image_count": 5,
+      "media_read_this_run": false,
+      "media_scope": "本轮核对可见文字，未重新查看图片；历史媒体范围见来源清单，不宣称本轮媒体完整归档。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": true,
+      "historical_capture_date": "2026-10-29T02:26:55.997029+00:00",
+      "historical_media_scope": "All five inline images visually read in normal browser at full page. Original binary images not archived; no OCR claim. No unread key image content remains.",
+      "historical_fingerprint_algorithm": "UTF-16LE bytes, distinct from this run code-unit hash",
+      "historical_fnv1a32_utf16le_bytes": "58302e5f"
+    },
+    {
+      "id": "TM-155",
+      "title": "思维模型155：关键路径法 ——华罗庚的泡茶法，戳破职场最大幻觉：你提前3天交活，项目为什么一天没提前？",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060422&idx=1&sn=c60641a51758ee5301da67e3e23f8594&chksm=beabef7589dc666333bce73d9342e88caf0100a661e550584f8e459ec08dd80c0151557d208a#rd",
+      "msgid": "2650060422",
+      "itemidx": "1",
+      "published_at_page_display": "2026-10-30T07:44:00+08:00",
+      "album_create_time": "1793317424",
+      "album_time_china": "2026-10-30T07:43:44+08:00",
+      "captured_at": "2026-10-30T02:34:52.180Z",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 7280,
+      "fnv1a32_code_units": "e7dd51c0",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "cb680adac9dd7d6d7194eee0c364df9ad4b91646ae500043101de3958b571874",
+      "source_sha256": "c8c83bba7b54db1f11246f6d514fd84dafecef117cd83c0141547952377ad35c",
+      "table_count": 0,
+      "tables": [],
+      "image_count": 8,
+      "media_read_this_run": true,
+      "media_scope": "8幅图片本轮已逐张查看；本包保留文字和审阅摘要，原图仅留维护工作区。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": false,
+      "historical_capture_date": null,
+      "historical_media_scope": null,
+      "historical_fingerprint_algorithm": null,
+      "historical_fnv1a32_utf16le_bytes": null
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "run_date": "2026-10-30",
+  "executor": "trial_146_148",
+  "format": "markdown",
+  "fictional": true,
+  "skill_root": "maintenance-workspace/staged-repo/skills/thinking-model-decision",
+  "outputs": [
+    {
+      "case_id": "TM-146-fit",
+      "model": "TM-146",
+      "input_path": "maintenance-workspace/drafts/TM-146/cases.json",
+      "output_path": "TM-146-fit.md",
+      "sha256": "55b353128c05b31157c2589f981cad14f5258b529ff8174e89508879a11a935e",
+      "characters": 2851,
+      "status": "actual_response_saved",
+      "model_invocation": "registered_current; source_checked; independent fictional trial"
+    },
+    {
+      "case_id": "TM-146-boundary",
+      "model": "TM-146",
+      "input_path": "maintenance-workspace/drafts/TM-146/cases.json",
+      "output_path": "TM-146-boundary.md",
+      "sha256": "10545b071470f69ecae98520e28e3fc40ba38f6359ec51e78aa094a173fd7f3a",
+      "characters": 2380,
+      "status": "actual_response_saved",
+      "model_invocation": "registered_current; source_checked; independent fictional trial"
+    },
+    {
+      "case_id": "TM-147-fit",
+      "model": "TM-147",
+      "input_path": "maintenance-workspace/drafts/TM-147/cases.json",
+      "output_path": "TM-147-fit.md",
+      "sha256": "c003e6739a317e922a955500700d847eb70b8ee672eb4080bb81588986010d0b",
+      "characters": 3353,
+      "status": "actual_response_saved",
+      "model_invocation": "registered_current; source_checked; independent fictional trial"
+    },
+    {
+      "case_id": "TM-147-boundary",
+      "model": "TM-147",
+      "input_path": "maintenance-workspace/drafts/TM-147/cases.json",
+      "output_path": "TM-147-boundary.md",
+      "sha256": "d0f03a1c0e824a4a134665f5b07970c1bbad16155225027e96653f646cf43d31",
+      "characters": 2462,
+      "status": "actual_response_saved",
+      "model_invocation": "registered_current; source_checked; independent fictional trial"
+    },
+    {
+      "case_id": "TM-148-fit",
+      "model": "TM-148",
+      "input_path": "maintenance-workspace/drafts/TM-148/cases.json",
+      "output_path": "TM-148-fit.md",
+      "sha256": "bd0bcd75a0ed88eab0e2be90da27b08b80e3380a08f4544c1e11c02191d7f5d0",
+      "characters": 3141,
+      "status": "actual_response_saved",
+      "model_invocation": "registered_current; source_checked; independent fictional trial"
+    },
+    {
+      "case_id": "TM-148-boundary",
+      "model": "TM-148",
+      "input_path": "maintenance-workspace/drafts/TM-148/cases.json",
+      "output_path": "TM-148-boundary.md",
+      "sha256": "cf32d4fd786cd56e9c530fd060be2e9c79d5948cbbe4cb2a1f7152755bc8066b",
+      "characters": 2383,
+      "status": "actual_response_saved",
+      "model_invocation": "registered_current; source_checked; independent fictional trial"
+    }
+  ],
+  "external_actions_performed": [],
+  "scope": "只完成六案独立模拟回答；未改技能或正式目录，未读取评审、预期答案或私人案例。"
+}

@@ -1,0 +1,454 @@
+{
+  "task": "independent_entry_trials",
+  "skill_entry": "staged-repo/skills/thinking-model-decision/SKILL.md",
+  "skill_version": "2.4.0",
+  "input_file": "entry-inputs.json",
+  "generated_date": "2026-10-30",
+  "timezone": "Asia/Shanghai",
+  "case_type": "fictional",
+  "review_status": "not_assessed_by_trial_author",
+  "external_actions_performed": [],
+  "independence_note": "Selected resources from skill main entry and supplied requests; did not read other trial outputs, reviews or expectations. Parent requested clickable local source links only after HTML drafts existed; no substantive conclusions changed in response.",
+  "cases": [
+    {
+      "id": "entry-project",
+      "request": "请用思维模型决策工具，直接给我一份方案和HTML，不再追问。我组织一次30人的公益分享会，从今天0点开始按工作日算，第8天末必须准备好。团队已经同意：A定主题1天；A后B写讲稿3天、C确认场地2天；B后D做投影片2天；C后E布置设备1天；D和E都完成后F联排1天；F后G最后修订1天。各项时长目前按固定估算，除特别说明都有人独立负责。问题是B和C其实只能由同一个人做，他每天只能做一项；他愿意按安排投入。另一位志愿者可接C，但还没答应，今天晚间才会回复。两个场地：甲只有20人容量，但价格便宜；乙容量30人且费用在500元预算内，可免费保留到今天晚间。有人想选甲靠分数证明它便宜，有人说让做投影片的人加班就够了。我想守住已承诺的30人和8天，又不乱许诺志愿者已到位，也不取消必要验收。请帮我看清哪些条件冲突、有哪些真实路线、现在先做什么；如果条件凑不齐，也请明确说出来。",
+      "mode": "direct_report",
+      "state": "artifacts_written_unreviewed",
+      "selected_tools": [
+        {
+          "id": "TM-153",
+          "role": "约束建模、容量筛选、同一安排核对和限定范围无解依据"
+        },
+        {
+          "id": "TM-155",
+          "role": "依赖网络、前后推、资源排序、全部关键路径与赶工重算"
+        },
+        {
+          "id": "WW-3.5",
+          "role": "今晚志愿者回复是否改变行动、场地保留窗口和停止等待条件"
+        }
+      ],
+      "files": [
+        {
+          "path": "trials/entry-project.md",
+          "bytes": 6777,
+          "sha256": "ea64eafc7a24c1eb214bb781b743bd26501390e88f129db5e89a738cc9f44f71"
+        },
+        {
+          "path": "trials/entry-project.html",
+          "bytes": 15819,
+          "sha256": "decbcb194c635918f15e524e31f81e358b049f10c7de6edaa06ad9fab03fce7b"
+        }
+      ],
+      "resources_read": [
+        {
+          "path": "staged-repo/skills/thinking-model-decision/SKILL.md",
+          "sha256": "1fe354a169934276535dfce2262833aefdc1adda675599ef2d181ed8d0ba831b"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/toolbox-orchestration.md",
+          "sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/decision-routing.md",
+          "sha256": "caec14f0dbefb52a40db5b1e11bf53fa2cc3cbc62419ce70285de45b3c898099"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/tool-catalog.md",
+          "sha256": "8b81ff786abcd51eef063f8efbc58d085f510f3292de7a64a1628af807104bf8"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/wan-catalog.md",
+          "sha256": "eb7a2d9f605ab5e938b5ddca43fe51bce3d261ee5dc4429f4b1b5bc670c3c082"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/tool-runtime.md",
+          "sha256": "4ecb86d1eedd089f583a8b14f298a4d738fe72794c11baade323b7e573edb2ce"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/decision-report.md",
+          "sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/html-action-plan.md",
+          "sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-153.md",
+          "sha256": "7b611a103436fc549a3c794d3a14ee8bbbe33c23c750df9c67761eea60e1ddbd"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-153.md",
+          "sha256": "dfc6b9ccab1db76250d424a20d0b15cdaa9411b085eac6575cd35961939d7833"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-155.md",
+          "sha256": "f00060236a69e5b4d5e3308b51e485c1e255b0c29aa7ad6d2379777c26816503"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-155.md",
+          "sha256": "2158761b4d37944088e5572c1d4d5189ab9621b751fea1503c208b4bd313e674"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/user-models/TM-155.md",
+          "sha256": "c8c83bba7b54db1f11246f6d514fd84dafecef117cd83c0141547952377ad35c"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/wan-tools/WW-3.5.md",
+          "sha256": "03441b42221aad7183fb542291559faab956a03bbf7d350eafc701748958afa6"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/second-order-check.md",
+          "sha256": "733f5ff5ce00c02ec94ef7a82da36b9520472031193fc461eca2bb4f30cbfe8f"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/tool-index.json",
+          "sha256": "c7844f7d101825a0d0543b49a3c84f0b7f82e9aeefe23a91f11402df7406e7dd"
+        }
+      ]
+    },
+    {
+      "id": "entry-choice",
+      "request": "请用思维模型决策工具直接给行动方案和HTML。我为读书会选甲乙两个场地，容量、无障碍、日期和总预算门槛均已核对通过，不需要你另问一轮。大家在意费用和交通，两项没有重复，已按同一0—100价值刻度核实：甲费用80、交通30；乙费用40、交通90。其他条件相同。我们同意费用改善的权重在0.55—0.70之间，但具体值没有定，交通取剩余权重。今天有40分钟讨论时间，两家都能免费保留到讨论结束；这个40分钟要包括读方案、讨论及发确认。请比较什么情况下选谁、先把哪个分歧说清，并安排能在期限内结束的步骤。不要替我们定一个权重，也不要把这当成已预订。",
+      "mode": "direct_report",
+      "state": "artifacts_written_unreviewed",
+      "selected_tools": [
+        {
+          "id": "TM-148",
+          "role": "条件加权、分项贡献、代数翻转点与完整给定区间的敏感性比较"
+        }
+      ],
+      "files": [
+        {
+          "path": "trials/entry-choice.md",
+          "bytes": 5515,
+          "sha256": "060831a09ec8db91bb9ee534ca28a6382b52258f2c013ba8c986cbc1cf7577fd"
+        },
+        {
+          "path": "trials/entry-choice.html",
+          "bytes": 10633,
+          "sha256": "ab3b4163d86afab68a1ecf7eeea45a46a00c5e21f5196f932476e309c9e4eee6"
+        }
+      ],
+      "resources_read": [
+        {
+          "path": "staged-repo/skills/thinking-model-decision/SKILL.md",
+          "sha256": "1fe354a169934276535dfce2262833aefdc1adda675599ef2d181ed8d0ba831b"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/toolbox-orchestration.md",
+          "sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/decision-routing.md",
+          "sha256": "caec14f0dbefb52a40db5b1e11bf53fa2cc3cbc62419ce70285de45b3c898099"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/tool-catalog.md",
+          "sha256": "8b81ff786abcd51eef063f8efbc58d085f510f3292de7a64a1628af807104bf8"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/wan-catalog.md",
+          "sha256": "eb7a2d9f605ab5e938b5ddca43fe51bce3d261ee5dc4429f4b1b5bc670c3c082"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/tool-runtime.md",
+          "sha256": "4ecb86d1eedd089f583a8b14f298a4d738fe72794c11baade323b7e573edb2ce"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/decision-report.md",
+          "sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/html-action-plan.md",
+          "sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-148.md",
+          "sha256": "b05fc4c35a22d750d00b0db7eebcba4cf025db534282814f9ae12f999e018c53"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-148.md",
+          "sha256": "e99a7caf6c93b31317e718d9dd8f8addcc53cce3b872d709a7d53e2851439576"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/user-models/TM-148.md",
+          "sha256": "d0f2390f07fe8168a521d50a2aa5b01c64728d7b6cd72c57a9079d3b91616b1d"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/tool-index.json",
+          "sha256": "c7844f7d101825a0d0543b49a3c84f0b7f82e9aeefe23a91f11402df7406e7dd"
+        }
+      ]
+    },
+    {
+      "id": "entry-clarify",
+      "request": "我最近有点迷茫，事情很多，做什么都不踏实。用思维模型决策工具陪我一步步理清吧。",
+      "mode": "first_turn_only",
+      "state": "first_reply_written_waiting_for_real_answer",
+      "selected_tools": [
+        {
+          "id": "WW-9.7",
+          "role": "仅读取后借用对象界定提示；当前只做情境澄清，不推断外部议程，也不声称完整运行"
+        }
+      ],
+      "files": [
+        {
+          "path": "trials/entry-clarify.md",
+          "bytes": 2112,
+          "sha256": "717ee20f1441a8320d48ea0cc3660546f761def37621d861a769a4356a931e89"
+        }
+      ],
+      "resources_read": [
+        {
+          "path": "staged-repo/skills/thinking-model-decision/SKILL.md",
+          "sha256": "1fe354a169934276535dfce2262833aefdc1adda675599ef2d181ed8d0ba831b"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/guided-dialogue.md",
+          "sha256": "7700f109b08a913fcecf6a8ce26083f00376cc2f32863e7e9225e4ee47bb012a"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/questioning-toolkit.md",
+          "sha256": "4c4435666732c7d48a602866c0c0f17cb3f6fb2676d088093052620a849c80f6"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/wan-tools/WW-9.7.md",
+          "sha256": "ac16db91b6e64d3568f35bfe967a08f1e81f7fe109abae6fab7da8980a2afa19"
+        }
+      ]
+    },
+    {
+      "id": "entry-old-regression",
+      "request": "我觉得只剩两个选择：要么接下朋友整个活动的组织工作，要么就彻底不管，但这两个我都不愿意。先帮我理清，不要马上出结论。",
+      "mode": "first_turn_only",
+      "state": "first_reply_written_waiting_for_real_answer",
+      "selected_tools": [
+        {
+          "id": "TM-143",
+          "role": "只把二选一前提核查转成首轮提问，等待真实回答；尚未生成候选或执行完整流程"
+        }
+      ],
+      "files": [
+        {
+          "path": "trials/entry-old-regression.md",
+          "bytes": 2866,
+          "sha256": "a021c49a16aa799ce133ac94191db12ac7e46414320bdff533b0980d04c2ff89"
+        }
+      ],
+      "resources_read": [
+        {
+          "path": "staged-repo/skills/thinking-model-decision/SKILL.md",
+          "sha256": "1fe354a169934276535dfce2262833aefdc1adda675599ef2d181ed8d0ba831b"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/guided-dialogue.md",
+          "sha256": "7700f109b08a913fcecf6a8ce26083f00376cc2f32863e7e9225e4ee47bb012a"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/questioning-toolkit.md",
+          "sha256": "4c4435666732c7d48a602866c0c0f17cb3f6fb2676d088093052620a849c80f6"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/decision-routing.md",
+          "sha256": "caec14f0dbefb52a40db5b1e11bf53fa2cc3cbc62419ce70285de45b3c898099"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-143.md",
+          "sha256": "879b0c00698a7d34278c2796ccf498baf37792d085e0c9ce8526c6d37dd8f75e"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-143.md",
+          "sha256": "46f411f37e7cf98ab66a9bb5b907228a5c7393fd1c52d3b917704e4e7daec42b"
+        },
+        {
+          "path": "staged-repo/skills/thinking-model-decision/references/tool-index.json",
+          "sha256": "c7844f7d101825a0d0543b49a3c84f0b7f82e9aeefe23a91f11402df7406e7dd"
+        }
+      ]
+    }
+  ],
+  "calculation_snapshot": {
+    "shared_person_all_daily_interleavings": [
+      {
+        "order": "BBBCC",
+        "finish_workday": 9
+      },
+      {
+        "order": "BBCBC",
+        "finish_workday": 9
+      },
+      {
+        "order": "BBCCB",
+        "finish_workday": 10
+      },
+      {
+        "order": "BCBBC",
+        "finish_workday": 9
+      },
+      {
+        "order": "BCBCB",
+        "finish_workday": 10
+      },
+      {
+        "order": "BCCBB",
+        "finish_workday": 10
+      },
+      {
+        "order": "CBBBC",
+        "finish_workday": 9
+      },
+      {
+        "order": "CBBCB",
+        "finish_workday": 10
+      },
+      {
+        "order": "CBCBB",
+        "finish_workday": 10
+      },
+      {
+        "order": "CCBBB",
+        "finish_workday": 10
+      }
+    ],
+    "minimum_finish_workday": 9,
+    "delegated_C_finish_workday": 8,
+    "D_2_to_1_with_B_first_finish_workday": 9,
+    "choice_formula_A": "30+50w",
+    "choice_formula_B": "90-50w",
+    "choice_threshold": 0.6,
+    "choice_snapshots": [
+      {
+        "w": 0.55,
+        "A": 57.5,
+        "B": 62.5
+      },
+      {
+        "w": 0.6,
+        "A": 60.0,
+        "B": 60.0
+      },
+      {
+        "w": 0.7,
+        "A": 65.0,
+        "B": 55.0
+      }
+    ]
+  },
+  "html_delivery_checks": {
+    "entry-project": {
+      "file_read_back": true,
+      "utf8_bytes": 15819,
+      "local_source_links": [
+        {
+          "href": "../../../../SKILL.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/toolbox-orchestration.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/tool-runtime.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/tools/TM-153.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/cards/TM-153.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/tools/TM-155.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/cards/TM-155.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/user-models/TM-155.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/wan-tools/WW-3.5.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/second-order-check.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/decision-report.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/html-action-plan.md",
+          "exists": true
+        }
+      ],
+      "script_count": 0,
+      "external_resources": [],
+      "visual_check": "not_completed",
+      "visual_limitation": "Headless Chrome exited 134 without a screenshot; CUA chrome unavailable; IAB file URL denied by URL security policy. Stopped, no alternate protocol workaround."
+    },
+    "entry-choice": {
+      "file_read_back": true,
+      "utf8_bytes": 10633,
+      "local_source_links": [
+        {
+          "href": "../../../../SKILL.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/decision-routing.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/tool-catalog.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/toolbox-orchestration.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/tool-runtime.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/tools/TM-148.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/cards/TM-148.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/user-models/TM-148.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/decision-report.md",
+          "exists": true
+        },
+        {
+          "href": "../../../../references/html-action-plan.md",
+          "exists": true
+        }
+      ],
+      "script_count": 0,
+      "external_resources": [],
+      "visual_check": "not_completed",
+      "visual_limitation": "Headless Chrome exited 134 without a screenshot; CUA chrome unavailable; IAB file URL denied by URL security policy. Stopped, no alternate protocol workaround."
+    }
+  },
+  "limitations": [
+    "No real-world outcome validation.",
+    "No visual verification due to blocked local file preview.",
+    "No later user answers were fabricated for the two clarification cases."
+  ]
+}

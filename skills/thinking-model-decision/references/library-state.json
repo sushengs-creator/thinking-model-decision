@@ -1,10 +1,10 @@
 {
-  "version": "2.3.0",
-  "revision": 78,
-  "updated_at": "2026-10-20T02:15:33.813675+00:00",
-  "user_models": 145,
+  "version": "2.4.0",
+  "revision": 135,
+  "updated_at": "2026-10-30T03:35:49.162656+00:00",
+  "user_models": 155,
   "wan_tools": 100,
-  "sample_cards": 28,
+  "sample_cards": 38,
   "sample_card_ids": [
     "TM-054",
     "TM-062",
@@ -33,7 +33,17 @@
     "TM-142",
     "TM-143",
     "TM-144",
-    "TM-145"
+    "TM-145",
+    "TM-146",
+    "TM-147",
+    "TM-148",
+    "TM-149",
+    "TM-150",
+    "TM-151",
+    "TM-152",
+    "TM-153",
+    "TM-154",
+    "TM-155"
   ],
   "behavior_trial_scope": {
     "v0_1_full_entry_cases": [
@@ -57,7 +67,7 @@
     "tested_at_revision": 2,
     "tested_version": "1.0.0"
   },
-  "change": "TM-145 published source/card/runtime, evidence-first assumption deletion and routing; 6 scoped simulated responses and 18 lexical retrieval checks; current counts and package documentation aligned",
+  "change": "Add TM-146 through TM-155 with full published sources, cards, runtimes, routing and 21 WW relations; 24 actual simulated responses reviewed; 3 lexical misses fixed and 70 checks passed; preserve historical scope.",
   "validation": {
     "tested_at_revision": 2,
     "official_skill_structure": "passed",
@@ -70,12 +80,12 @@
     "sandbox_manuscript_update": "passed",
     "tested_version": "1.0.0"
   },
-  "total_cards": 145,
+  "total_cards": 155,
   "source_reviewed_cards": 117,
   "card_status_counts": {
     "source_reviewed": 117,
     "sample_reviewed": 8,
-    "behavior_checked": 20
+    "behavior_checked": 30
   },
   "needs_review": [],
   "release_validation_history": {
@@ -384,6 +394,25 @@
       "html_reports": 1,
       "lexical_retrieval_checks": 16,
       "html_visual_preview": "not_performed_local_file_protocol_blocked",
+      "all_models_retested_this_release": false,
+      "real_world_outcomes_validated": false,
+      "cross_client_compatibility_tested": false,
+      "deployment": "verify_each_target_with_separate_readback_receipts"
+    },
+    "2.3.0": {
+      "status": "passed_with_limits",
+      "version": "2.3.0",
+      "revision": 78,
+      "valid_for_current_revision": false,
+      "scope": "TM-145 increment; 3 local responses, 1 complete entry with HTML, 2 first-turn regressions; no full-library behavior rerun or real-world proof",
+      "evidence": "references/evaluation/results-v2.3.md",
+      "official_skill_structure": "passed",
+      "library_integrity": "passed",
+      "runtime_integrity": "passed",
+      "actual_simulated_responses": 6,
+      "html_reports": 1,
+      "lexical_retrieval_checks": 18,
+      "html_visual_preview": "not_performed_known_local_file_protocol_limitation",
       "all_models_retested_this_release": false,
       "real_world_outcomes_validated": false,
       "cross_client_compatibility_tested": false,
@@ -729,10 +758,20 @@
       "TM-142",
       "TM-143",
       "TM-144",
-      "TM-145"
+      "TM-145",
+      "TM-146",
+      "TM-147",
+      "TM-148",
+      "TM-149",
+      "TM-150",
+      "TM-151",
+      "TM-152",
+      "TM-153",
+      "TM-154",
+      "TM-155"
     ],
-    "migrated_count": 145,
-    "total_user_models": 145,
+    "migrated_count": 155,
+    "total_user_models": 155,
     "remaining_not_migrated": 0
   },
   "preview_validation_history": {
@@ -760,18 +799,20 @@
   },
   "release_validation": {
     "status": "passed_with_limits",
-    "version": "2.3.0",
-    "revision": 78,
+    "version": "2.4.0",
+    "revision": 135,
     "valid_for_current_revision": true,
-    "scope": "TM-145 increment; 3 local responses, 1 complete entry with HTML, 2 first-turn regressions; no full-library behavior rerun or real-world proof",
-    "evidence": "references/evaluation/results-v2.3.md",
+    "scope": "TM-146—155 increment; 20 local tool responses, 2 full entry HTML reports and 2 first-turn regressions; no all-library behavior rerun",
+    "evidence": "references/evaluation/results-v2.4.md",
     "official_skill_structure": "passed",
     "library_integrity": "passed",
     "runtime_integrity": "passed",
-    "actual_simulated_responses": 6,
-    "html_reports": 1,
-    "lexical_retrieval_checks": 18,
-    "html_visual_preview": "not_performed_known_local_file_protocol_limitation",
+    "actual_simulated_responses": 24,
+    "html_reports": 2,
+    "lexical_retrieval_checks": 70,
+    "initial_lexical_misses": 3,
+    "initial_misses_fixed": true,
+    "html_visual_preview": "blocked_by_browser_local_file_URL_policy_not_bypassed",
     "all_models_retested_this_release": false,
     "real_world_outcomes_validated": false,
     "cross_client_compatibility_tested": false,

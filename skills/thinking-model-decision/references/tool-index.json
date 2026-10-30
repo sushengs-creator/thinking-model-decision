@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "2.3.0",
+  "version": "2.4.0",
   "scope": "143 runtime tools; source checking, recorded trials, reviewed trials and real outcomes are distinct.",
   "tools": [
     {
@@ -4766,6 +4766,407 @@
       "card_sha256": "585e322c7eb98d2862e7aff4ac5e08826313b144817476a8ada20a02aa090bd9",
       "runtime_path": "references/tools/TM-145.md",
       "runtime_sha256": "94c1ba30c6fa29f4b8867d118ef38c532cebc07716a47569d7a75a4559ea0622"
+    },
+    {
+      "id": "TM-146",
+      "name": "心理灵活性",
+      "task": "识别把舒适感设为行动前提的规则，核查真实条件和本人价值，调整应对并安排可承担的一步",
+      "roles": [
+        "澄清",
+        "约束",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "等状态好了再行动",
+        "准备好了再开始",
+        "紧张还在",
+        "分不清休息还是拖延",
+        "道理懂了还是不敢做",
+        "做完练习必须先舒服",
+        "退出是不是失败"
+      ],
+      "output": "当前循环—隐含前提—本人方向—现实条件—所选动作—复查信号的短卡",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.4.0/trials/TM-146-fit.md",
+        "references/evaluation/v2.4.0/trials/TM-146-boundary.md"
+      ],
+      "review_records": [
+        "references/evaluation/v2.4.0/reviews/review-146-150.md"
+      ],
+      "source_review_records": [
+        "references/validation/TM-146-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-146.md",
+      "source_sha256": "6b26a5e64bbd9f255efad605b0c61ec65c671e1a73dd24ebc42b4e0238d37f32",
+      "card_path": "references/cards/TM-146.md",
+      "card_sha256": "044cca9edb2d4ee802f0db805005cd7d1ec420cd8eee9a1bffe49c90b7984c27",
+      "runtime_path": "references/tools/TM-146.md",
+      "runtime_sha256": "42b252ffe0bdedfc28cc7a03ad13411cbeb053880d2f454e7ea970faaf90fe41"
+    },
+    {
+      "id": "TM-147",
+      "name": "价值聚焦思维",
+      "task": "澄清具体决定的目标及后果范围，分开目的手段与底线，用目标补充或重组方案",
+      "roles": [
+        "澄清",
+        "约束",
+        "选项",
+        "取舍"
+      ],
+      "signals": [
+        "比较方案总觉得不对",
+        "不知道真正想要什么",
+        "标准清单遗漏",
+        "手段变成目的",
+        "只在现成选项里挑",
+        "先问希望什么变好",
+        "换一种办法实现目标"
+      ],
+      "output": "本次决定—目的及观察迹象—手段关系—底线—候选路径—关键未知与下一步",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.4.0/trials/TM-147-fit.md",
+        "references/evaluation/v2.4.0/trials/TM-147-boundary.md"
+      ],
+      "review_records": [
+        "references/evaluation/v2.4.0/reviews/review-146-150.md"
+      ],
+      "source_review_records": [
+        "references/validation/TM-147-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-147.md",
+      "source_sha256": "0dc503f142ffe05fad153a608dc63aec20870218f6f46a99129cf23e73504401",
+      "card_path": "references/cards/TM-147.md",
+      "card_sha256": "51afcccfb2190928b404dc569b89851ccef8895f84c3cd524be122f19ac5ede7",
+      "runtime_path": "references/tools/TM-147.md",
+      "runtime_sha256": "750c2a2085d2b10dca6aeff03b25bcef52f3c1d241d94816c655dff0f249f3cf"
+    },
+    {
+      "id": "TM-148",
+      "name": "加权评分法",
+      "task": "先验证可补偿性、刻度和依赖条件，再计算条件式加权比较并查权重与评分敏感性",
+      "roles": [
+        "证据",
+        "约束",
+        "取舍",
+        "复盘"
+      ],
+      "signals": [
+        "权重一改排名就变",
+        "评分表该怎么算",
+        "总分最高但不满足底线",
+        "各项零分满分是什么",
+        "评分刻度不统一",
+        "敏感性分析",
+        "是否重复计值",
+        "权重是谁定的"
+      ],
+      "output": "门槛筛选、原始表现/价值分/权重依据、分项贡献与条件排序、敏感性及下一步",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.4.0/trials/TM-148-fit.md",
+        "references/evaluation/v2.4.0/trials/TM-148-boundary.md"
+      ],
+      "review_records": [
+        "references/evaluation/v2.4.0/reviews/review-146-150.md"
+      ],
+      "source_review_records": [
+        "references/validation/TM-148-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-148.md",
+      "source_sha256": "d0f2390f07fe8168a521d50a2aa5b01c64728d7b6cd72c57a9079d3b91616b1d",
+      "card_path": "references/cards/TM-148.md",
+      "card_sha256": "e99a7caf6c93b31317e718d9dd8f8addcc53cce3b872d709a7d53e2851439576",
+      "runtime_path": "references/tools/TM-148.md",
+      "runtime_sha256": "b05fc4c35a22d750d00b0db7eebcba4cf025db534282814f9ae12f999e018c53"
+    },
+    {
+      "id": "TM-149",
+      "name": "非暴力沟通",
+      "task": "把表达拆成事实、感受、需要和策略，拟自然请求并核实回应，落实交接与不配合时的处理分支",
+      "roles": [
+        "澄清",
+        "参与者",
+        "选项",
+        "执行"
+      ],
+      "signals": [
+        "一开口就吵起来",
+        "不知道怎么开口",
+        "非暴力沟通",
+        "NVC",
+        "观察感受需要请求",
+        "催还东西",
+        "表达诉求",
+        "听懂对方",
+        "对方不回复",
+        "需要和策略"
+      ],
+      "output": "内容区分、自然开口稿、回应分支与交接检查",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.4.0/trials/TM-149-fit.md",
+        "references/evaluation/v2.4.0/trials/TM-149-misuse.md"
+      ],
+      "review_records": [
+        "references/evaluation/v2.4.0/reviews/review-146-150.md"
+      ],
+      "source_review_records": [
+        "references/validation/TM-149-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-149.md",
+      "source_sha256": "c412d6bed78fc6b5844113343d1f38ca54f703928fe3e1d0221c3adf685acfe0",
+      "card_path": "references/cards/TM-149.md",
+      "card_sha256": "df57d065eb2195f35a7ae22e3ece5e3bfa67e4045934d784620ecb7b547d9d92",
+      "runtime_path": "references/tools/TM-149.md",
+      "runtime_sha256": "16c221ef55a5ddc32be4641b5df76cfd326ec3794709a89f7817531974ee665e"
+    },
+    {
+      "id": "TM-150",
+      "name": "BATNA",
+      "task": "核实无协议时的可行替代，比较整体价值形成接受边界，并安排替代失效前的决定与执行",
+      "roles": [
+        "证据",
+        "约束",
+        "选项",
+        "取舍",
+        "执行"
+      ],
+      "signals": [
+        "BATNA",
+        "最佳替代方案",
+        "谈崩后去哪",
+        "谈判底线",
+        "保留价",
+        "接受边界",
+        "对方已经让价",
+        "退路",
+        "备选快到期",
+        "口头offer",
+        "预算不等于值得",
+        "谈不成怎么办",
+        "谈崩后怎么办"
+      ],
+      "output": "可行替代表、最佳替代、协议接受条件、最迟决定点和执行步骤",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.4.0/trials/TM-150-fit.md",
+        "references/evaluation/v2.4.0/trials/TM-150-misuse.md"
+      ],
+      "review_records": [
+        "references/evaluation/v2.4.0/reviews/review-146-150.md"
+      ],
+      "source_review_records": [
+        "references/validation/TM-150-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-150.md",
+      "source_sha256": "4ef364105c1cc277eb0bc66b17c9aba4fdc96b3fcbb1ace62ad76c3094a212bf",
+      "card_path": "references/cards/TM-150.md",
+      "card_sha256": "4dfa86baaa760ddbe0a42f2df55c39f7a67e7ccad3fc4b950b48653f4c4c8ed0",
+      "runtime_path": "references/tools/TM-150.md",
+      "runtime_sha256": "99964af43303300d1d976bfb39aa34e6632ddc7faadab601c0c4d36efb62a088"
+    },
+    {
+      "id": "TM-151",
+      "name": "5Why分析法",
+      "task": "从具体偏差沿可核查线索追问，逐层检查因果机制和证据，保留竞争分支并形成调查与改进复查",
+      "roles": [
+        "澄清",
+        "证据",
+        "解释",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "5Why",
+        "五个为什么",
+        "反复出错",
+        "根因分析",
+        "不够认真",
+        "不够自律",
+        "为什么链",
+        "因此链",
+        "逐层证据",
+        "漏装",
+        "流程排查",
+        "原因没找到"
+      ],
+      "output": "事件差异、带证据状态的因果分支、下一核查、暂定措施与执行/结果复查",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.4.0/trials/TM-151-fit.md",
+        "references/evaluation/v2.4.0/trials/TM-151-misuse.md"
+      ],
+      "review_records": [
+        "references/evaluation/v2.4.0/reviews/review-151-155.md"
+      ],
+      "source_review_records": [
+        "references/validation/TM-151-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-151.md",
+      "source_sha256": "c2ffae8b4e0cc8479cb3f4898991f37f41e95a1e6997fe3a3c1f25fd22690486",
+      "card_path": "references/cards/TM-151.md",
+      "card_sha256": "3be29e84f77ceacbecf5234522af53bb93f7307019b5770448a185452cfb1239",
+      "runtime_path": "references/tools/TM-151.md",
+      "runtime_sha256": "0f3dd384629cf49a807a8f3c4db2290f3bed8e2eff910f1b993a7f276d28c53b"
+    },
+    {
+      "id": "TM-152",
+      "name": "OODA环",
+      "task": "对照新信号检查旧理解，设计有权限且代价可承受的行动，把结果真正送回下一次判断",
+      "roles": [
+        "澄清",
+        "证据",
+        "解释",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "方案一直在改问题反复出现",
+        "动作改了判断没改",
+        "还在按旧局面行动",
+        "团队各用一版信息",
+        "反应很快还是白忙",
+        "反馈多久才回来",
+        "旧解释",
+        "沿用旧判断"
+      ],
+      "output": "旧判断与新信号对照、维持或修正理由、行动与学习目标、常规复查及立即重看条件",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.4.0/trials/TM-152-fit.md",
+        "references/evaluation/v2.4.0/trials/TM-152-misuse.md"
+      ],
+      "review_records": [
+        "references/evaluation/v2.4.0/reviews/review-151-155.md"
+      ],
+      "source_review_records": [
+        "references/validation/TM-152-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-152.md",
+      "source_sha256": "1131e5a0486f9535003e9c32a6e72e10eec186823e44d9f7051ea6e83bf4c15d",
+      "card_path": "references/cards/TM-152.md",
+      "card_sha256": "a6256ddac05519a7487d56311d36bf0c541f7635a87ab97b44f65485fb2c1273",
+      "runtime_path": "references/tools/TM-152.md",
+      "runtime_sha256": "55b03ed93247fbb30ce1899eaee64e5b094f02ea1d430b7bc2490292f9f58eba"
+    },
+    {
+      "id": "TM-153",
+      "name": "约束满足",
+      "task": "把变量、选项和共同硬条件放入同一份安排，区分可行、已证明无解与尚未判定，并定位获授权才可调整的条件",
+      "roles": [
+        "澄清",
+        "约束",
+        "选项",
+        "执行"
+      ],
+      "signals": [
+        "每个人都有空但约不到共同时间",
+        "各自都合理凑到一起不行",
+        "排班怎么排都冲突",
+        "两两能配合整体不成立",
+        "试过几种就说没有办法",
+        "一个人同时间被分两项任务",
+        "安排不开",
+        "凑在一起办不成"
+      ],
+      "output": "变量和取值域、带确认人的约束清单、同一版本完整安排或冲突依据、三态结论及下一步",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.4.0/trials/TM-153-fit.md",
+        "references/evaluation/v2.4.0/trials/TM-153-misuse.md"
+      ],
+      "review_records": [
+        "references/evaluation/v2.4.0/reviews/review-151-155.md"
+      ],
+      "source_review_records": [
+        "references/validation/TM-153-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-153.md",
+      "source_sha256": "1e95d1f2782fb3450aba8e1b35cf67fae92e083ba28766dbf2e200e6c715ccd6",
+      "card_path": "references/cards/TM-153.md",
+      "card_sha256": "dfc6b9ccab1db76250d424a20d0b15cdaa9411b085eac6575cd35961939d7833",
+      "runtime_path": "references/tools/TM-153.md",
+      "runtime_sha256": "7b611a103436fc549a3c794d3a14ee8bbbe33c23c750df9c67761eea60e1ddbd"
+    },
+    {
+      "id": "TM-154",
+      "name": "手段—目的分析",
+      "task": "从目标与现状差距选择动作，将未满足的动作前提变为子目标，补齐后返回，并防止手段替代目标或破坏后续条件",
+      "roles": [
+        "澄清",
+        "约束",
+        "选项",
+        "执行",
+        "学习"
+      ],
+      "signals": [
+        "目标清楚但不知道下一步",
+        "清单越拆越长还是动不了",
+        "知道该做什么但缺条件",
+        "只顾找转接器忘了演示目标",
+        "做成一件却堵死另一件",
+        "准备一直不返回执行"
+      ],
+      "output": "目标—差距—候选动作—前提/子目标—返回点，以及资源冲突、换路和实际验收条件",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.4.0/trials/TM-154-fit.md",
+        "references/evaluation/v2.4.0/trials/TM-154-misuse.md"
+      ],
+      "review_records": [
+        "references/evaluation/v2.4.0/reviews/review-151-155.md"
+      ],
+      "source_review_records": [
+        "references/validation/TM-154-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-154.md",
+      "source_sha256": "bc5c32d755522c9fef7aaa4832240166356b4b9b8374cdb523ca65eb26f1ef45",
+      "card_path": "references/cards/TM-154.md",
+      "card_sha256": "da58d15664f3e7538a99cb10ce04a02205ca708a30e90e8531f1cec317bc944c",
+      "runtime_path": "references/tools/TM-154.md",
+      "runtime_sha256": "d4e9602e3094b618cfb7a1511ed2341ce80422c8b2ff951559fcfabe3aefce4a"
+    },
+    {
+      "id": "TM-155",
+      "name": "关键路径法",
+      "task": "在明确的任务、工期与依赖假设下计算完工下限和共享浮时，检查资源可行性，选择真正改变总工期的调整并重算",
+      "roles": [
+        "约束",
+        "解释",
+        "取舍",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "自己提前交活项目没提前",
+        "人人加班交期不动",
+        "谁在等谁",
+        "哪些任务能真正缩短总工期",
+        "同一人两个并行任务",
+        "两条关键路径",
+        "把两人的浮时相加"
+      ],
+      "output": "依赖表或网络、假设下的最早/最晚时点与总浮时、全部关键路径、资源冲突及赶工后重算结果",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.4.0/trials/TM-155-fit.md",
+        "references/evaluation/v2.4.0/trials/TM-155-misuse.md"
+      ],
+      "review_records": [
+        "references/evaluation/v2.4.0/reviews/review-151-155.md"
+      ],
+      "source_review_records": [
+        "references/validation/TM-155-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-155.md",
+      "source_sha256": "c8c83bba7b54db1f11246f6d514fd84dafecef117cd83c0141547952377ad35c",
+      "card_path": "references/cards/TM-155.md",
+      "card_sha256": "2158761b4d37944088e5572c1d4d5189ab9621b751fea1503c208b4bd313e674",
+      "runtime_path": "references/tools/TM-155.md",
+      "runtime_sha256": "f00060236a69e5b4d5e3308b51e485c1e255b0c29aa7ad6d2379777c26816503"
     }
   ]
 }

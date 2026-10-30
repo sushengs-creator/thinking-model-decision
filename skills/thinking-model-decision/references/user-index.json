@@ -8131,5 +8131,790 @@
     },
     "validation_note_path": "references/validation-notes/TM-145.md",
     "validation_note_sha256": "073fe05d8504c82507e84b80a9a48077f4e987c5b5ff5de850b725c898d61b66"
+  },
+  {
+    "id": "TM-146",
+    "title": "思维模型146：心理灵活性——道理都想明白了，为什么还在等“不紧张了再开始”？",
+    "short_name": "思维模型146：心理灵活性——道理都想明白了，为什么还在等“不紧张了再开始”？",
+    "path": "references/user-models/TM-146.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060323&idx=2&sn=61e66b6efb3886c1b261e13789b49b5d&chksm=beabefd089dc66c648689acca129b52481949886616b7caef3b3b64e1b23e902e7b44e7a8490#rd",
+    "source_label": "微信公众号正式发表全文，本轮正常浏览器核对",
+    "captured_at": "2026-10-30",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "6b26a5e64bbd9f255efad605b0c61ec65c671e1a73dd24ebc42b4e0238d37f32",
+    "content_sha256": "6b26a5e64bbd9f255efad605b0c61ec65c671e1a73dd24ebc42b4e0238d37f32",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-146.md",
+    "search_terms": [
+      "思维模型146：心理灵活性——道理都想明白了，为什么还在等“不紧张了再开始”？"
+    ],
+    "card_sha256": "044cca9edb2d4ee802f0db805005cd7d1ec420cd8eee9a1bffe49c90b7984c27",
+    "card_source_sha256": "6b26a5e64bbd9f255efad605b0c61ec65c671e1a73dd24ebc42b4e0238d37f32",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-30T03:29:37.485671+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "条件允许却反复等状态好、紧张消失或完全有把握才行动；分清必要准备、休息与已不再有用的回避，围绕本人方向选择下一步。",
+      "source_sections": [
+        "念头一出现，为什么就成了必须照办的指令？",
+        "暂时躲开，怎样判断是在休息还是在耽误自己？",
+        "想做成一件事，为什么也要允许自己调整或退出？",
+        "轮到自己时，可以怎样走完一次？",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "心理灵活性",
+        "ACT",
+        "接纳与承诺",
+        "认知融合",
+        "认知解离",
+        "经验性回避",
+        "等状态好了再行动",
+        "紧张还在",
+        "准备好了再开始",
+        "分不清休息还是拖延",
+        "带着不舒服行动",
+        "价值导向",
+        "承诺行动",
+        "退出不是失败"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "检查偏差",
+        "设计行动",
+        "学习执行",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-2.9",
+          "relation": "部分重叠，条件性交接",
+          "reason": "都区分念头与行为；认知解耦可补替代视角，心理灵活性更重应对的长期作用与价值行动。不把情绪下降设为必要行动的前提。"
+        },
+        {
+          "ww_id": "WW-1.4",
+          "relation": "条件性互补",
+          "reason": "先辨真实资源、时间、依赖及他人选择，避免把现实障碍全作心理回避；条件允许后才讨论带着感受行动。"
+        }
+      ],
+      "warnings": [
+        "接纳内在体验不等于接受危险、不公或资源不足；必要保护和履约不等情绪下降。",
+        "休息、准备、暂缓、求助和退出可能合理，不能从表面行为或一次成败判定心理僵化。",
+        "本人价值和意愿须确认，计划过或事情有用不证明当前应该做，不替用户排序人生目标。",
+        "观察念头不是证明念头为假，不把解离成功或练习后平静设为新的门槛。",
+        "此为日常反思工具，不作诊断、完整治疗或疗效保证；文中App研究不证明本文练习有效。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-146.md",
+    "validation_note_sha256": "53064c49d2223d2d1f3f053b60c566f820ce8cafc9b47ad8b30b26005c5c0c4c"
+  },
+  {
+    "id": "TM-147",
+    "title": "思维模型147：价值聚焦思维——装修花了二十万，最该花钱的地方为什么一分没花？",
+    "short_name": "思维模型147：价值聚焦思维——装修花了二十万，最该花钱的地方为什么一分没花？",
+    "path": "references/user-models/TM-147.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060333&idx=1&sn=abc943749b87880694e296afd93c10d0&chksm=beabefde89dc66c8676c6f0c92887650909e9ee104204285c7ef215e9fb9662e6c35ab91b843#rd",
+    "source_label": "微信公众号正式发表全文，本轮正常浏览器核对",
+    "captured_at": "2026-10-30",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "0dc503f142ffe05fad153a608dc63aec20870218f6f46a99129cf23e73504401",
+    "content_sha256": "0dc503f142ffe05fad153a608dc63aec20870218f6f46a99129cf23e73504401",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-147.md",
+    "search_terms": [
+      "思维模型147：价值聚焦思维——装修花了二十万，最该花钱的地方为什么一分没花？"
+    ],
+    "card_sha256": "51afcccfb2190928b404dc569b89851ccef8895f84c3cd524be122f19ac5ede7",
+    "card_source_sha256": "0dc503f142ffe05fad153a608dc63aec20870218f6f46a99129cf23e73504401",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-30T03:29:37.801060+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "现成方案越比越不对劲、只比较参数却漏掉想要的生活后果，或手段越做越精致却偏离目的；先补目标、分目的手段和门槛，再创造候选路线。",
+      "source_sections": [
+        "你用的那几条标准，可能漏了重要的",
+        "顺着\"为什么\"，分清目的和手段",
+        "说\"更重要\"之前，先问能改善多少",
+        "目标写清楚了，选项才可能变多",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "价值聚焦思维",
+        "Value-Focused Thinking",
+        "Keeney",
+        "想实现什么",
+        "目的与手段",
+        "根本目标",
+        "手段目标",
+        "目标清单遗漏",
+        "标准清单",
+        "方案聚焦",
+        "比较方案总觉得不对",
+        "创造选项",
+        "具体变化范围",
+        "手段变成目的"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "比较方案",
+        "设计行动",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-9.2",
+          "relation": "部分重叠",
+          "reason": "都区分事实与价值前提并尊重用户自选目标；147聚焦具体决定的目标结构与路线创造，9.2检查从效率或事实跳到应该的跨越。"
+        },
+        {
+          "ww_id": "WW-3.5",
+          "relation": "条件性互补",
+          "reason": "目标和候选明确后识别最值得核查的未知，避免为完整清单无限调研；只查可能改变当前行动的信息。"
+        }
+      ],
+      "warnings": [
+        "不能断言每位用户都漏掉固定比例目标，也不设必须增加若干条的配额。",
+        "手段目标不是可随便删除的目标；必要安全、验收、履约和实施流程仍须保留。",
+        "不能代替用户或受影响者确认价值，也不以目标多元取消责任。",
+        "目标相关或有因果联系不自动等于重复计值，需说明各自后果覆盖范围。",
+        "清单只是可更新工作稿，不保证完全穷尽或选出最优方案，简单小决定可轻量处理。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-147.md",
+    "validation_note_sha256": "238f1fd55ff6c00a8785e0a7d5031febd82cb37161e4ac43537ba92b68d9de0b"
+  },
+  {
+    "id": "TM-148",
+    "title": "思维模型148：加权评分法——同一批人、同一份材料，换个权重排名为什么就全变了？",
+    "short_name": "思维模型148：加权评分法——同一批人、同一份材料，换个权重排名为什么就全变了？",
+    "path": "references/user-models/TM-148.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060342&idx=1&sn=5739fc93c7675fff6ea67ab896e34a3a&chksm=beabefc589dc66d3e8f6849074ac737dd240a69f767844526f87ae5753bdd8625e2ff7fcc963#rd",
+    "source_label": "微信公众号正式发表全文，本轮正常浏览器核对",
+    "captured_at": "2026-10-30",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "d0f2390f07fe8168a521d50a2aa5b01c64728d7b6cd72c57a9079d3b91616b1d",
+    "content_sha256": "d0f2390f07fe8168a521d50a2aa5b01c64728d7b6cd72c57a9079d3b91616b1d",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-148.md",
+    "search_terms": [
+      "思维模型148：加权评分法——同一批人、同一份材料，换个权重排名为什么就全变了？"
+    ],
+    "card_sha256": "e99a7caf6c93b31317e718d9dd8f8addcc53cce3b872d709a7d53e2851439576",
+    "card_source_sha256": "d0f2390f07fe8168a521d50a2aa5b01c64728d7b6cd72c57a9079d3b91616b1d",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-30T03:29:38.087857+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "多目标方案需要透明比较、排名对权重变化敏感，或要审计一张评分表的指标、刻度、权重与制定过程；先筛不可补偿门槛并核查加性条件。",
+      "source_sections": [
+        "一堆不一样的东西，怎么加成一个总分",
+        "权重不代表重要，那它到底量什么？",
+        "有些东西加不进总分",
+        "挪一挪权重，第一名还稳吗",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "加权评分法",
+        "加性多属性价值模型",
+        "Additive Multi-Attribute Value Model",
+        "权重",
+        "价值分",
+        "摆幅权重",
+        "敏感性分析",
+        "评分排名翻转",
+        "零分和满分",
+        "硬门槛",
+        "不能抵消",
+        "重复计值",
+        "偏好依赖",
+        "非线性价值刻度",
+        "先定规则后算分",
+        "权重审计"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "比较方案",
+        "检查偏差",
+        "设计行动",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-1.4",
+          "relation": "前置互补",
+          "reason": "硬约束核查资源和可行空间；加权评分只比较通过门槛的候选，总分不能抵消真实限制。"
+        },
+        {
+          "ww_id": "WW-7.5",
+          "relation": "条件性互补",
+          "reason": "148审查当前刻度和交换比例；用于奖惩后，7.5继续检查行为迎合、代理失真和审查机制，不能仅因评分就预判作弊。"
+        }
+      ],
+      "warnings": [
+        "不可补偿门槛先筛，未知门槛待核；不能用极大权重代替硬约束。",
+        "权重依赖指定范围的价值摆幅与真实偏好，不按样本离散度、当前缺口或名称直接赋权。",
+        "非线性价值函数下原始量等量增加不等于价值分等量增加；加性不等于线性。",
+        "只删除重复计算同一后果的维度，相关或有因果关系不自动等于重复。",
+        "偏好随其他属性变化时需重组或换方法；简单筛查不等于数学前提已全面证明。",
+        "局部敏感性未翻转不保证全范围稳健；不能看结果后调参保住指定赢家。",
+        "公式不证明公平、合法或临床有效；文章法规和医疗案例需另查当前权威依据。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-148.md",
+    "validation_note_sha256": "51975bf79e4f3a98e649427d9e55cd0daa1fac4f224ace7dc0a9b185139c6529"
+  },
+  {
+    "id": "TM-149",
+    "title": "思维模型149：非暴力沟通——明明你有理，为什么一开口就吵起来了？",
+    "short_name": "思维模型149：非暴力沟通——明明你有理，为什么一开口就吵起来了？",
+    "path": "references/user-models/TM-149.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060352&idx=1&sn=9a1d0dcbb274218e62e38d02b7e261f9&chksm=beabefb389dc66a5ecdd5f0013e55e68bac05470f665787b02e68177daeaec4e1eb4842b3cb8#rd",
+    "source_label": "微信公众号正式发表全文，本轮正常浏览器核对",
+    "captured_at": "2026-10-30",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "c412d6bed78fc6b5844113343d1f38ca54f703928fe3e1d0221c3adf685acfe0",
+    "content_sha256": "c412d6bed78fc6b5844113343d1f38ca54f703928fe3e1d0221c3adf685acfe0",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-149.md",
+    "search_terms": [
+      "思维模型149：非暴力沟通——明明你有理，为什么一开口就吵起来了？"
+    ],
+    "card_sha256": "df57d065eb2195f35a7ae22e3ece5e3bfa67e4045934d784620ecb7b547d9d92",
+    "card_source_sha256": "c412d6bed78fc6b5844113343d1f38ca54f703928fe3e1d0221c3adf685acfe0",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-30T03:30:20.765742+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "有合理诉求却怕一开口吵起来；话语滑向人身评价，或说了却没听懂对方回应",
+      "source_sections": [
+        "那句话里，其实装着四样东西",
+        "非得让他亲自送回来吗",
+        "你以为听懂了，其实你猜的是自己的意思",
+        "说得很温和，也可能是在下命令",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "一开口就吵起来",
+        "不知道怎么开口",
+        "非暴力沟通",
+        "NVC",
+        "观察感受需要请求",
+        "催还东西",
+        "表达诉求",
+        "听懂对方",
+        "对方不回复",
+        "需要和策略"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "协作博弈",
+        "设计行动"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-6.2",
+          "relation": "部分重叠与互补",
+          "reason": "均保留回应空间；6.2安排互动角色权限与修复，149整理话语内容和倾听。"
+        },
+        {
+          "ww_id": "WW-6.14",
+          "relation": "条件性互补",
+          "reason": "把具体约定或草稿作为共同修改对象以承载149澄清的诉求；对象存在不等于达成共识。"
+        }
+      ],
+      "warnings": [
+        "不保证对方合作；理解不等于同意，拒绝具体策略不取消原有责任。",
+        "存在权力差、威胁或持续强迫时，不以四要素话术替代安全和责任处理。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-149.md",
+    "validation_note_sha256": "6400654a6253c929787ce525e9953cf74f9d41c69ac389b746c8b10ab6298f5f"
+  },
+  {
+    "id": "TM-150",
+    "title": "思维模型150：BATNA——谈判前最该想清楚的，不是怎么谈成，而是谈崩后你转身去哪儿",
+    "short_name": "思维模型150：BATNA——谈判前最该想清楚的，不是怎么谈成，而是谈崩后你转身去哪儿",
+    "path": "references/user-models/TM-150.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060362&idx=1&sn=0aa009ae804c541e40026958c0d4ece2&chksm=beabefb989dc66aff072ce7d65c31ea1df8a23dcc37086a2855fd552bede2930fb63a50a06b0#rd",
+    "source_label": "微信公众号正式发表全文，本轮正常浏览器核对",
+    "captured_at": "2026-10-30",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "4ef364105c1cc277eb0bc66b17c9aba4fdc96b3fcbb1ace62ad76c3094a212bf",
+    "content_sha256": "4ef364105c1cc277eb0bc66b17c9aba4fdc96b3fcbb1ace62ad76c3094a212bf",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-150.md",
+    "search_terms": [
+      "思维模型150：BATNA——谈判前最该想清楚的，不是怎么谈成，而是谈崩后你转身去哪儿"
+    ],
+    "card_sha256": "4dfa86baaa760ddbe0a42f2df55c39f7a67e7ccad3fc4b950b48653f4c4c8ed0",
+    "card_source_sha256": "4ef364105c1cc277eb0bc66b17c9aba4fdc96b3fcbb1ace62ad76c3094a212bf",
+    "card_status": "behavior_checked",
+    "card_revision": 3,
+    "card_registered_at": "2026-10-30T03:35:22.892547+00:00",
+    "card_version": "0.1.1",
+    "card_metadata": {
+      "trigger": "只看报价和心理底线，不清楚谈不成后去哪；退路尚未落实却急着接受或拒绝协议",
+      "source_sections": [
+        "谈不成以后，你真正能选什么？",
+        "我付得起，不等于这值得",
+        "A 报价降到 900 了，该签吗？",
+        "那条退路，会不会只是一个好消息？",
+        "谈之前，先把三个答案写下来",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "BATNA",
+        "最佳替代方案",
+        "谈崩后去哪",
+        "谈判底线",
+        "保留价",
+        "接受边界",
+        "对方已经让价",
+        "退路",
+        "备选快到期",
+        "口头offer",
+        "预算不等于值得"
+      ],
+      "decision_stage": [
+        "比较方案",
+        "协作博弈",
+        "设计行动",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-3.9",
+          "relation": "部分重叠与条件性互补",
+          "reason": "3.9包含真实BATNA并设计进入权和分阶段承诺；150细化协议外行动、预算和接受边界，BATNA不一律具备受保护进入权。"
+        },
+        {
+          "ww_id": "WW-3.5",
+          "relation": "互补",
+          "reason": "用接受边界判断进一步询价/查条件是否改变行动，比较获取和延迟成本后安排停止点。"
+        }
+      ],
+      "warnings": [
+        "口头看好或尚未兑现的机会不等于已确认替代；需核实条件、依赖和失效期限。",
+        "预算、心理期望和保留值不同；不替用户给非金钱价值定价，不保证谈成。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-150.md",
+    "validation_note_sha256": "f543db90d4cc824f4517d73c62c403f7e673be3f3e9553829bc42fb0ab6cae60"
+  },
+  {
+    "id": "TM-151",
+    "title": "思维模型151：5Why分析法——问了五个为什么，为什么还是没找到原因？",
+    "short_name": "思维模型151：5Why分析法——问了五个为什么，为什么还是没找到原因？",
+    "path": "references/user-models/TM-151.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060373&idx=1&sn=ae20040540b0c30d831c5702f0020625&chksm=beabefa689dc66b0536fb4b14b56fdfd35866f3dab298e50bc60d3b5b246e03580f5031cd3c6#rd",
+    "source_label": "微信公众号正式发表全文，本轮正常浏览器核对",
+    "captured_at": "2026-10-30",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "c2ffae8b4e0cc8479cb3f4898991f37f41e95a1e6997fe3a3c1f25fd22690486",
+    "content_sha256": "c2ffae8b4e0cc8479cb3f4898991f37f41e95a1e6997fe3a3c1f25fd22690486",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-151.md",
+    "search_terms": [
+      "思维模型151：5Why分析法——问了五个为什么，为什么还是没找到原因？"
+    ],
+    "card_sha256": "3be29e84f77ceacbecf5234522af53bb93f7307019b5770448a185452cfb1239",
+    "card_source_sha256": "c2ffae8b4e0cc8479cb3f4898991f37f41e95a1e6997fe3a3c1f25fd22690486",
+    "card_status": "behavior_checked",
+    "card_revision": 3,
+    "card_registered_at": "2026-10-30T03:35:23.184094+00:00",
+    "card_version": "0.1.1",
+    "card_metadata": {
+      "trigger": "反复出错却只归结为不认真；问了几个为什么仍无证据，不知道下一步查什么",
+      "source_sections": [
+        "五问问完，你手上多了什么",
+        "反过来流程跑得通，原因就找对了吗？",
+        "追到「这个人不行」，还缺了什么？",
+        "5Why 这么流行，就一定管用吗？",
+        "找到能改的地方，就可以停了吗？",
+        "同一次漏装，还能从别处查起",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "5Why",
+        "五个为什么",
+        "反复出错",
+        "根因分析",
+        "不够认真",
+        "不够自律",
+        "为什么链",
+        "因此链",
+        "逐层证据",
+        "漏装",
+        "流程排查",
+        "原因没找到"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "解释原因",
+        "设计行动",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-3.3",
+          "relation": "部分重叠与互补",
+          "reason": "均要求机制证据；3.3进一步区分中介、共同原因与反馈，支持选可检验干预而非只追最远原因。"
+        },
+        {
+          "ww_id": "WW-6.10",
+          "relation": "条件性互补",
+          "reason": "组织急于责备个人或多层防线失效时扩大时间线和系统调查；5Why单链不足以作问责结论。"
+        }
+      ],
+      "warnings": [
+        "不固定问五次；自洽、问得深或措施可做不能证明原因正确。",
+        "复杂系统及严重事故不能靠5Why单独定因或问责，多画分支也不保证穷尽原因。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-151.md",
+    "validation_note_sha256": "45d0160f429ac589daa735253f2af9b761c7a725f525702f48e7bf53d6449951"
+  },
+  {
+    "id": "TM-152",
+    "title": "思维模型152：OODA环 ——为什么一直在改方案，问题却反复出现？",
+    "short_name": "思维模型152：OODA环 ——为什么一直在改方案，问题却反复出现？",
+    "path": "references/user-models/TM-152.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060385&idx=1&sn=c8f1fe8fe54a22820da943d3672dd625&chksm=beabef9289dc66844f099e8c2e05e823db0906533e00b7eb69343b1c526ce9e61b600fbbd978#rd",
+    "source_label": "微信公众号正式发表全文，本轮正常浏览器核对",
+    "captured_at": "2026-10-30",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "1131e5a0486f9535003e9c32a6e72e10eec186823e44d9f7051ea6e83bf4c15d",
+    "content_sha256": "1131e5a0486f9535003e9c32a6e72e10eec186823e44d9f7051ea6e83bf4c15d",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-152.md",
+    "search_terms": [
+      "思维模型152：OODA环 ——为什么一直在改方案，问题却反复出现？"
+    ],
+    "card_sha256": "a6256ddac05519a7487d56311d36bf0c541f7635a87ab97b44f65485fb2c1273",
+    "card_source_sha256": "1131e5a0486f9535003e9c32a6e72e10eec186823e44d9f7051ea6e83bf4c15d",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-30T03:30:21.629267+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "对照新信号检查旧理解，设计有权限且代价可承受的行动，把结果真正送回下一次判断",
+      "source_sections": [
+        "新消息进来了，你是怎样理解它的？",
+        "决定做一件事，也是在检验一个判断",
+        "换一个解释，就算想明白了吗？",
+        "每个人都更新了，团队为什么还是乱？",
+        "下次遇到新情况，先问这五句",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "OODA环",
+        "观察定向决策行动",
+        "判断过期",
+        "旧解释",
+        "只改动作",
+        "方案反复改",
+        "新信息",
+        "反馈延迟",
+        "见效时间",
+        "维持原判断",
+        "地图更新",
+        "解释没更新",
+        "团队不同版本"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "解释原因",
+        "设计行动",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-3.16",
+          "relation": "同机制、高度重叠",
+          "reason": "同为观察、定向、决策、行动及反馈；本工具突出旧判断与新信号对照、维持原判断分支、反馈延迟和共同版本。合用只运行一轮，不把两个来源算成独立证据。"
+        },
+        {
+          "ww_id": "WW-6.9",
+          "relation": "条件性互补",
+          "reason": "多方各自更新但不能共同协调时，先核对同一版证据和方案，再按需要建立可见的收到、异议与承诺状态；公开一致不证明判断真实，也不强迫表态。"
+        }
+      ],
+      "warnings": [
+        "不是盲目追求反应速度或每轮必改判断；证据支持原判断时继续。",
+        "动作未执行、执行偏离、效果尚未出现和判断错误须分开；单次改善不确证原因。",
+        "变化速度、信息延迟与见效时间分别核对，不把频繁查看当新增证据。",
+        "历史对抗故事不是授权；不以试验之名欺骗、转嫁代价或越权行动。",
+        "行动本身可以有履约和照护价值，不要求每个动作都创造新知识。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-152.md",
+    "validation_note_sha256": "e91f778f8455bde60fbcbfad85f8186ba23dd01d48b5df2495fcfcdbae37a4e7"
+  },
+  {
+    "id": "TM-153",
+    "title": "思维模型153：约束满足 ——每件事都做好了安排，为什么凑到一起就是无法办成？",
+    "short_name": "思维模型153：约束满足 ——每件事都做好了安排，为什么凑到一起就是无法办成？",
+    "path": "references/user-models/TM-153.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060395&idx=1&sn=4fdd6ea271d0a6c6e3d5d83916b49976&chksm=beabef9889dc668ee1f9cb2807d1ad410ff9089cbd660f051851ac9ac0a01e358d318ee0aa59#rd",
+    "source_label": "微信公众号正式发表全文，本轮正常浏览器核对",
+    "captured_at": "2026-10-30",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "1e95d1f2782fb3450aba8e1b35cf67fae92e083ba28766dbf2e200e6c715ccd6",
+    "content_sha256": "1e95d1f2782fb3450aba8e1b35cf67fae92e083ba28766dbf2e200e6c715ccd6",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-153.md",
+    "search_terms": [
+      "思维模型153：约束满足 ——每件事都做好了安排，为什么凑到一起就是无法办成？"
+    ],
+    "card_sha256": "dfc6b9ccab1db76250d424a20d0b15cdaa9411b085eac6575cd35961939d7833",
+    "card_source_sha256": "1e95d1f2782fb3450aba8e1b35cf67fae92e083ba28766dbf2e200e6c715ccd6",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-30T03:30:21.926447+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "把变量、选项和共同硬条件放入同一份安排，区分可行、已证明无解与尚未判定，并定位获授权才可调整的条件",
+      "source_sections": [
+        "每个人都没错，为什么就是凑不到一起",
+        "硬条件，和可以商量的偏好",
+        "「还没找到」和「确实没有」，不能混为一谈",
+        "一条路走不通，退回去时要把删掉的选择还回来",
+        "两两都能配合，为什么三个一起还是不行",
+        "下一次卡住，可以按这个顺序检查",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "约束满足",
+        "CSP",
+        "变量",
+        "取值域",
+        "硬约束",
+        "软约束",
+        "可行解",
+        "证明无解",
+        "尚未判定",
+        "回溯恢复选项",
+        "同时成立",
+        "同一份完整安排",
+        "共同空闲时间",
+        "排班冲突",
+        "资源冲突",
+        "最少剩余值",
+        "最少限制值",
+        "前向检查"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "比较方案",
+        "设计行动"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-6.9",
+          "relation": "条件性互补",
+          "reason": "约束满足验证同一安排能否成立；共同知识帮助参与者看见同一版本与确认状态。大家点头不证明安排可行，可行也不等于各方已承诺。"
+        },
+        {
+          "ww_id": "WW-3.10",
+          "relation": "部分重叠且问题不同",
+          "reason": "都关注依赖和资源；153寻找同时满足硬条件的完整安排，3.10的约束杠杆分析吞吐瓶颈。不能因中文都有约束就把可行性和瓶颈优化混为一题。"
+        }
+      ],
+      "warnings": [
+        "局部或两两可行不代表同一份完整安排可行。",
+        "试过少数失败方案或求解超时只说明未找到，不证明无解。",
+        "硬约束更改须由有权者确认；无权或不能更改时可暂缓任务。",
+        "回溯须恢复仅因已撤假设删去的选项，不恢复被真实硬条件排除的选项。",
+        "可行不等于最优，偏好和风险不能被随意抹掉。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-153.md",
+    "validation_note_sha256": "3be7c1aea7c78dd01dcafebf64185defa5a19a83b3f1f4f2505c84a72681352d"
+  },
+  {
+    "id": "TM-154",
+    "title": "思维模型154：手段—目的分析 ——目标很清楚，为什么还是不知道下一步做什么？",
+    "short_name": "思维模型154：手段—目的分析 ——目标很清楚，为什么还是不知道下一步做什么？",
+    "path": "references/user-models/TM-154.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060406&idx=1&sn=3bcd74b0caed7e7df5b00e1f7530a267&chksm=beabef8589dc669300908d81af58bc38ef1e03bfa853ec9586912a71b748ffbd3be4f0e9c262#rd",
+    "source_label": "微信公众号正式发表全文，本轮正常浏览器核对",
+    "captured_at": "2026-10-30",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "bc5c32d755522c9fef7aaa4832240166356b4b9b8374cdb523ca65eb26f1ef45",
+    "content_sha256": "bc5c32d755522c9fef7aaa4832240166356b4b9b8374cdb523ca65eb26f1ef45",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-154.md",
+    "search_terms": [
+      "思维模型154：手段—目的分析 ——目标很清楚，为什么还是不知道下一步做什么？"
+    ],
+    "card_sha256": "da58d15664f3e7538a99cb10ce04a02205ca708a30e90e8531f1cec317bc944c",
+    "card_source_sha256": "bc5c32d755522c9fef7aaa4832240166356b4b9b8374cdb523ca65eb26f1ef45",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-30T03:30:22.215457+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "从目标与现状差距选择动作，将未满足的动作前提变为子目标，补齐后返回，并防止手段替代目标或破坏后续条件",
+      "source_sections": [
+        "知道该做什么，却不知道这一步为什么做不了",
+        "图画不出来，卡在三张表的算法不一样",
+        "一次只盯一个目标，为什么会卡死",
+        "每个小目标都做成了，事情为什么反而做死了",
+        "转接器找了很久，最初要干什么已经忘了",
+        "事做完了，本事却没长在自己身上",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "手段目的分析",
+        "手段—目的分析",
+        "means ends analysis",
+        "目标清楚下一步",
+        "前提条件",
+        "子目标",
+        "看差找招补缺返回",
+        "清单越拆越长",
+        "补条件",
+        "手段替代目的",
+        "共用资源",
+        "目标相互干扰",
+        "返回上层目标"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "设计行动",
+        "学习执行",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-8.3",
+          "relation": "条件性互补",
+          "reason": "154在目标清楚时由差距寻找动作及前提；8.3从现有构件寻找能留下新构件的一步。未来路径不明时可扩充候选，但不把探索结果虚构为既定目标已达成。"
+        },
+        {
+          "ww_id": "WW-4.1",
+          "relation": "条件性互补",
+          "reason": "找到了操作路径不等于形成可迁移知识；新手在追目标时过载，可用范例和逐步撤去支架补上条件、关系与迁移检查。"
+        },
+        {
+          "ww_id": "WW-5.5",
+          "relation": "适用前提不同，可按阶段切换",
+          "reason": "154目标已相对明确并检查可用动作；5.5适用于目标与市场未定、从现有手段探索。不能替用户捏造固定目标，也不能把缺执行条件误当目标必须放弃。"
+        }
+      ],
+      "warnings": [
+        "子目标来自所选动作未满足前提，不是把清单随意拆细。",
+        "补齐条件后必须返回原动作并验收；准备不算目标完成。",
+        "缩小一处差距可能消耗共同资源或破坏别的前提，局部进展不等于整体可达。",
+        "路径不通先返回上层目标重选，不把手段强升格为目的。",
+        "不保证最优或必有解，目标是否值得追须另判断，学习迁移需另检查。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-154.md",
+    "validation_note_sha256": "1ac6a40a4befc96809a94b62747109ef1f9c5b2264c2728d7e7fc205d567f2d8"
+  },
+  {
+    "id": "TM-155",
+    "title": "思维模型155：关键路径法 ——华罗庚的泡茶法，戳破职场最大幻觉：你提前3天交活，项目为什么一天没提前？",
+    "short_name": "思维模型155：关键路径法 ——华罗庚的泡茶法，戳破职场最大幻觉：你提前3天交活，项目为什么一天没提前？",
+    "path": "references/user-models/TM-155.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060422&idx=1&sn=c60641a51758ee5301da67e3e23f8594&chksm=beabef7589dc666333bce73d9342e88caf0100a661e550584f8e459ec08dd80c0151557d208a#rd",
+    "source_label": "微信公众号正式发表全文，本轮正常浏览器核对",
+    "captured_at": "2026-10-30",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "c8c83bba7b54db1f11246f6d514fd84dafecef117cd83c0141547952377ad35c",
+    "content_sha256": "c8c83bba7b54db1f11246f6d514fd84dafecef117cd83c0141547952377ad35c",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-155.md",
+    "search_terms": [
+      "思维模型155：关键路径法 ——华罗庚的泡茶法，戳破职场最大幻觉：你提前3天交活，项目为什么一天没提前？"
+    ],
+    "card_sha256": "2158761b4d37944088e5572c1d4d5189ab9621b751fea1503c208b4bd313e674",
+    "card_source_sha256": "c8c83bba7b54db1f11246f6d514fd84dafecef117cd83c0141547952377ad35c",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-10-30T03:30:22.488877+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "在明确的任务、工期与依赖假设下计算完工下限和共享浮时，检查资源可行性，选择真正改变总工期的调整并重算",
+      "source_sections": [
+        "为什么有人加班有用，有人加班没用",
+        "一件七件事的小事，为什么算出来是十天不是八天",
+        "省到后来，再使劲儿，也一天都省不出来",
+        "算出来的日期，不等于你能答应的日期",
+        "这套办法最容易被人用错的两处",
+        "你手上那张表，是算出来的还是抄来的",
+        "模型档案卡"
+      ],
+      "search_terms": [
+        "关键路径法",
+        "CPM",
+        "统筹法",
+        "工期下限",
+        "任务依赖",
+        "最早开始",
+        "最晚开始",
+        "总浮时",
+        "共享余量",
+        "多条关键路径",
+        "资源冲突",
+        "资源受限排程",
+        "赶工重算",
+        "交付日期不动",
+        "提前完成没用",
+        "PERT不保证日期"
+      ],
+      "decision_stage": [
+        "解释原因",
+        "比较方案",
+        "设计行动",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-3.10",
+          "relation": "部分重叠、条件性互补",
+          "reason": "两者都先看依赖和系统结果；155按时长网络求完成下限及关键路径，3.10还处理吞吐、前置准备与循环耦合。最长工期路径不等于产能瓶颈，不能混用指标。"
+        },
+        {
+          "ww_id": "WW-3.14",
+          "relation": "条件性互补",
+          "reason": "155计算已给假设下的网络工期，参考类预测用相似已结束项目校准耗时与承诺；缺可靠样本时保留区间，不虚构高置信交付日期。"
+        }
+      ],
+      "warnings": [
+        "基本计算需明确依赖、时长和日历，资源不能冲突；冲突未处理的结果只是条件下限。",
+        "要识别所有关键路径；只缩短一条不一定提前项目，调整后必须重算。",
+        "同一路径的总浮时共享，不能把各任务浮时相加分配。",
+        "关键指影响工期，不等于价值最高；安全与验收不能因非关键被删。",
+        "不确定时长可作情景假设，但CPM与PERT都不能保证交付日或凭三点估算制造可靠概率。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-155.md",
+    "validation_note_sha256": "2f91648cc8051f353cc011aa2710dbdf1a3b0c10e37f6c5c4b91dfcb327d7884"
   }
 ]

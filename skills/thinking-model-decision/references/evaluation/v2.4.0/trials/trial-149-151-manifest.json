@@ -1,0 +1,349 @@
+{
+  "run_type": "independent_simulated_execution",
+  "scope": "TM-149 through TM-151; six supplied requests only",
+  "format_override": "Markdown explicitly required by parent task",
+  "generated_at": "2026-10-30T10:52:12.176428+08:00",
+  "skill_root": "maintenance-workspace/staged-repo/skills/thinking-model-decision",
+  "cases": [
+    {
+      "id": "TM-149-fit",
+      "kind": "适用",
+      "input_path": "maintenance-workspace/drafts/TM-149/cases.json",
+      "output_path": "TM-149-fit.md",
+      "output_sha256": "4a35c0e34be17c70d128dbb56797ddbd759c957047f447730d2467b7fbff4bdc",
+      "response_characters": 1476,
+      "tool_id": "TM-149",
+      "invocation_status_observed": "registered_current",
+      "resources": [
+        {
+          "path": "../../../../SKILL.md",
+          "scope": "完整读取；用户指定 Markdown 覆盖默认 HTML 输出。"
+        },
+        {
+          "path": "../../../../references/toolbox-orchestration.md",
+          "scope": "完整读取；工具工位、依赖与统一资源安排。"
+        },
+        {
+          "path": "../../../../references/tool-runtime.md",
+          "scope": "完整读取；运行机制与证据状态要求。"
+        },
+        {
+          "path": "../../../../references/decision-report.md",
+          "scope": "完整读取；自包含回答与行动要求。"
+        },
+        {
+          "path": "../../../../references/second-order-check.md",
+          "scope": "完整读取；按需要检查后续反应，不额外假定终局。"
+        },
+        {
+          "path": "../../../../references/tool-catalog.md",
+          "scope": "仅检索并读取 TM-149、150、151 对应目录行。"
+        },
+        {
+          "path": "../../../../references/tools/TM-149.md",
+          "scope": "完整读取；实际运行文件。"
+        },
+        {
+          "path": "../../../../references/cards/TM-149.md",
+          "scope": "完整读取；机制及边界。"
+        },
+        {
+          "path": "../../../../references/user-models/TM-149.md",
+          "scope": "读取归档原文；TM-149 分段补读，TM-150、TM-151 阅读完整正文。"
+        },
+        {
+          "path": "../../../../scripts/tool_runtime.py",
+          "scope": "实际执行 show TM-149；输出 registered_current、来源指纹一致，未读取其列出的审阅文件。"
+        }
+      ],
+      "external_sources": [],
+      "actual_execution": "Mechanism applied to supplied input; independent readable answer saved; no evaluation verdict"
+    },
+    {
+      "id": "TM-149-misuse",
+      "kind": "易误用",
+      "input_path": "maintenance-workspace/drafts/TM-149/cases.json",
+      "output_path": "TM-149-misuse.md",
+      "output_sha256": "82c1d20789fd5c578ccae14c8f60acdcfa4ba9a237e50d2eb0c5220fca7d658c",
+      "response_characters": 1238,
+      "tool_id": "TM-149",
+      "invocation_status_observed": "registered_current",
+      "resources": [
+        {
+          "path": "../../../../SKILL.md",
+          "scope": "完整读取；用户指定 Markdown 覆盖默认 HTML 输出。"
+        },
+        {
+          "path": "../../../../references/toolbox-orchestration.md",
+          "scope": "完整读取；工具工位、依赖与统一资源安排。"
+        },
+        {
+          "path": "../../../../references/tool-runtime.md",
+          "scope": "完整读取；运行机制与证据状态要求。"
+        },
+        {
+          "path": "../../../../references/decision-report.md",
+          "scope": "完整读取；自包含回答与行动要求。"
+        },
+        {
+          "path": "../../../../references/second-order-check.md",
+          "scope": "完整读取；按需要检查后续反应，不额外假定终局。"
+        },
+        {
+          "path": "../../../../references/tool-catalog.md",
+          "scope": "仅检索并读取 TM-149、150、151 对应目录行。"
+        },
+        {
+          "path": "../../../../references/tools/TM-149.md",
+          "scope": "完整读取；实际运行文件。"
+        },
+        {
+          "path": "../../../../references/cards/TM-149.md",
+          "scope": "完整读取；机制及边界。"
+        },
+        {
+          "path": "../../../../references/user-models/TM-149.md",
+          "scope": "读取归档原文；TM-149 分段补读，TM-150、TM-151 阅读完整正文。"
+        },
+        {
+          "path": "../../../../scripts/tool_runtime.py",
+          "scope": "实际执行 show TM-149；输出 registered_current、来源指纹一致，未读取其列出的审阅文件。"
+        }
+      ],
+      "external_sources": [],
+      "actual_execution": "Mechanism applied to supplied input; independent readable answer saved; no evaluation verdict"
+    },
+    {
+      "id": "TM-150-fit",
+      "kind": "适用",
+      "input_path": "maintenance-workspace/drafts/TM-150/cases.json",
+      "output_path": "TM-150-fit.md",
+      "output_sha256": "3e52cc670b7b92d8fa3daa88a406a5f91e7379766fe85bab2720457bc8091e17",
+      "response_characters": 1548,
+      "tool_id": "TM-150",
+      "invocation_status_observed": "registered_current",
+      "resources": [
+        {
+          "path": "../../../../SKILL.md",
+          "scope": "完整读取；用户指定 Markdown 覆盖默认 HTML 输出。"
+        },
+        {
+          "path": "../../../../references/toolbox-orchestration.md",
+          "scope": "完整读取；工具工位、依赖与统一资源安排。"
+        },
+        {
+          "path": "../../../../references/tool-runtime.md",
+          "scope": "完整读取；运行机制与证据状态要求。"
+        },
+        {
+          "path": "../../../../references/decision-report.md",
+          "scope": "完整读取；自包含回答与行动要求。"
+        },
+        {
+          "path": "../../../../references/second-order-check.md",
+          "scope": "完整读取；按需要检查后续反应，不额外假定终局。"
+        },
+        {
+          "path": "../../../../references/tool-catalog.md",
+          "scope": "仅检索并读取 TM-149、150、151 对应目录行。"
+        },
+        {
+          "path": "../../../../references/tools/TM-150.md",
+          "scope": "完整读取；实际运行文件。"
+        },
+        {
+          "path": "../../../../references/cards/TM-150.md",
+          "scope": "完整读取；机制及边界。"
+        },
+        {
+          "path": "../../../../references/user-models/TM-150.md",
+          "scope": "读取归档原文；TM-149 分段补读，TM-150、TM-151 阅读完整正文。"
+        },
+        {
+          "path": "../../../../scripts/tool_runtime.py",
+          "scope": "实际执行 show TM-150；输出 registered_current、来源指纹一致，未读取其列出的审阅文件。"
+        }
+      ],
+      "external_sources": [],
+      "actual_execution": "Mechanism applied to supplied input; independent readable answer saved; no evaluation verdict"
+    },
+    {
+      "id": "TM-150-misuse",
+      "kind": "易误用",
+      "input_path": "maintenance-workspace/drafts/TM-150/cases.json",
+      "output_path": "TM-150-misuse.md",
+      "output_sha256": "c338bc6f21580c83a7ca036597a86fa839a037981c7f7991ccfedaac159ce8a3",
+      "response_characters": 1431,
+      "tool_id": "TM-150",
+      "invocation_status_observed": "registered_current",
+      "resources": [
+        {
+          "path": "../../../../SKILL.md",
+          "scope": "完整读取；用户指定 Markdown 覆盖默认 HTML 输出。"
+        },
+        {
+          "path": "../../../../references/toolbox-orchestration.md",
+          "scope": "完整读取；工具工位、依赖与统一资源安排。"
+        },
+        {
+          "path": "../../../../references/tool-runtime.md",
+          "scope": "完整读取；运行机制与证据状态要求。"
+        },
+        {
+          "path": "../../../../references/decision-report.md",
+          "scope": "完整读取；自包含回答与行动要求。"
+        },
+        {
+          "path": "../../../../references/second-order-check.md",
+          "scope": "完整读取；按需要检查后续反应，不额外假定终局。"
+        },
+        {
+          "path": "../../../../references/tool-catalog.md",
+          "scope": "仅检索并读取 TM-149、150、151 对应目录行。"
+        },
+        {
+          "path": "../../../../references/tools/TM-150.md",
+          "scope": "完整读取；实际运行文件。"
+        },
+        {
+          "path": "../../../../references/cards/TM-150.md",
+          "scope": "完整读取；机制及边界。"
+        },
+        {
+          "path": "../../../../references/user-models/TM-150.md",
+          "scope": "读取归档原文；TM-149 分段补读，TM-150、TM-151 阅读完整正文。"
+        },
+        {
+          "path": "../../../../scripts/tool_runtime.py",
+          "scope": "实际执行 show TM-150；输出 registered_current、来源指纹一致，未读取其列出的审阅文件。"
+        }
+      ],
+      "external_sources": [],
+      "actual_execution": "Mechanism applied to supplied input; independent readable answer saved; no evaluation verdict"
+    },
+    {
+      "id": "TM-151-fit",
+      "kind": "适用",
+      "input_path": "maintenance-workspace/drafts/TM-151/cases.json",
+      "output_path": "TM-151-fit.md",
+      "output_sha256": "f0af1b9eda12d229ac492a7876c1e0b5e32dd79a6afc76c5d575e0a7b6e80b96",
+      "response_characters": 1795,
+      "tool_id": "TM-151",
+      "invocation_status_observed": "registered_current",
+      "resources": [
+        {
+          "path": "../../../../SKILL.md",
+          "scope": "完整读取；用户指定 Markdown 覆盖默认 HTML 输出。"
+        },
+        {
+          "path": "../../../../references/toolbox-orchestration.md",
+          "scope": "完整读取；工具工位、依赖与统一资源安排。"
+        },
+        {
+          "path": "../../../../references/tool-runtime.md",
+          "scope": "完整读取；运行机制与证据状态要求。"
+        },
+        {
+          "path": "../../../../references/decision-report.md",
+          "scope": "完整读取；自包含回答与行动要求。"
+        },
+        {
+          "path": "../../../../references/second-order-check.md",
+          "scope": "完整读取；按需要检查后续反应，不额外假定终局。"
+        },
+        {
+          "path": "../../../../references/tool-catalog.md",
+          "scope": "仅检索并读取 TM-149、150、151 对应目录行。"
+        },
+        {
+          "path": "../../../../references/tools/TM-151.md",
+          "scope": "完整读取；实际运行文件。"
+        },
+        {
+          "path": "../../../../references/cards/TM-151.md",
+          "scope": "完整读取；机制及边界。"
+        },
+        {
+          "path": "../../../../references/user-models/TM-151.md",
+          "scope": "读取归档原文；TM-149 分段补读，TM-150、TM-151 阅读完整正文。"
+        },
+        {
+          "path": "../../../../scripts/tool_runtime.py",
+          "scope": "实际执行 show TM-151；输出 registered_current、来源指纹一致，未读取其列出的审阅文件。"
+        }
+      ],
+      "external_sources": [],
+      "actual_execution": "Mechanism applied to supplied input; independent readable answer saved; no evaluation verdict"
+    },
+    {
+      "id": "TM-151-misuse",
+      "kind": "易误用",
+      "input_path": "maintenance-workspace/drafts/TM-151/cases.json",
+      "output_path": "TM-151-misuse.md",
+      "output_sha256": "fa5dd67bfb9f503c8911accdf89ee152c78df8f6a5e69c3c4f6cfe5fd397a427",
+      "response_characters": 1815,
+      "tool_id": "TM-151",
+      "invocation_status_observed": "registered_current",
+      "resources": [
+        {
+          "path": "../../../../SKILL.md",
+          "scope": "完整读取；用户指定 Markdown 覆盖默认 HTML 输出。"
+        },
+        {
+          "path": "../../../../references/toolbox-orchestration.md",
+          "scope": "完整读取；工具工位、依赖与统一资源安排。"
+        },
+        {
+          "path": "../../../../references/tool-runtime.md",
+          "scope": "完整读取；运行机制与证据状态要求。"
+        },
+        {
+          "path": "../../../../references/decision-report.md",
+          "scope": "完整读取；自包含回答与行动要求。"
+        },
+        {
+          "path": "../../../../references/second-order-check.md",
+          "scope": "完整读取；按需要检查后续反应，不额外假定终局。"
+        },
+        {
+          "path": "../../../../references/tool-catalog.md",
+          "scope": "仅检索并读取 TM-149、150、151 对应目录行。"
+        },
+        {
+          "path": "../../../../references/tools/TM-151.md",
+          "scope": "完整读取；实际运行文件。"
+        },
+        {
+          "path": "../../../../references/cards/TM-151.md",
+          "scope": "完整读取；机制及边界。"
+        },
+        {
+          "path": "../../../../references/user-models/TM-151.md",
+          "scope": "读取归档原文；TM-149 分段补读，TM-150、TM-151 阅读完整正文。"
+        },
+        {
+          "path": "../../../../scripts/tool_runtime.py",
+          "scope": "实际执行 show TM-151；输出 registered_current、来源指纹一致，未读取其列出的审阅文件。"
+        }
+      ],
+      "external_sources": [
+        {
+          "url": "https://www.hse.gov.uk/quarries/education/topic7.htm",
+          "scope": "网页正文读取，支持一般调查顺序。"
+        },
+        {
+          "url": "https://www.hse.gov.uk/pubns/hsg245.pdf",
+          "scope": "读取搜索结果与打开返回的工作册开篇及步骤说明；未声称读完88页。"
+        }
+      ],
+      "actual_execution": "Mechanism applied to supplied input; independent readable answer saved; no evaluation verdict"
+    }
+  ],
+  "not_performed": [
+    "No external messages, bookings, payments, personnel actions, incident handling or publication",
+    "No formal skill directory edits",
+    "No private case files read",
+    "No validation reviews or expected answers read"
+  ],
+  "status_scope": "Answers generated and saved; no grading or real-world efficacy claim"
+}

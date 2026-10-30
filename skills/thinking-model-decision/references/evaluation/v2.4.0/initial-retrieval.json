@@ -1,0 +1,1176 @@
+{
+  "scope": "Current source/index integrity and lexical retrieval only; no suitability probability or real-world validation",
+  "checks": [
+    {
+      "name": "library_validate",
+      "exit_code": 0,
+      "output": {
+        "ok": true,
+        "partial_fixture_mode": false,
+        "version": "2.4.0",
+        "revision": 108,
+        "counts": {
+          "user_models": 155,
+          "wan_tools": 100,
+          "cards": 155,
+          "card_statuses": {
+            "source_reviewed": 127,
+            "sample_reviewed": 8,
+            "behavior_checked": 20
+          },
+          "content_statuses": {
+            "source_archived": 155,
+            "existing_skill_snapshot": 100
+          }
+        },
+        "needs_review": [],
+        "errors": [],
+        "warnings": [],
+        "provenance_note": "source_sha256 保存原来源指纹；未提供 source_path 的原始来源不在包内，不能重算验证。可携带正文、HTML、卡片及验证记录按各自哈希核验。"
+      }
+    },
+    {
+      "name": "tool_runtime_validate",
+      "exit_code": 0,
+      "output": {
+        "ok": true,
+        "errors": [],
+        "scope": "Structural and fingerprint checks only; not behavioral proof"
+      }
+    },
+    {
+      "name": "library_search",
+      "query": "心理灵活性",
+      "expected_candidate": "TM-146",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-146",
+        "TM-139",
+        "TM-013",
+        "TM-014",
+        "TM-023",
+        "TM-063",
+        "TM-079",
+        "TM-150"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "等不紧张再开始",
+      "expected_candidate": "TM-146",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-146",
+        "TM-138",
+        "TM-028",
+        "TM-134",
+        "TM-016",
+        "TM-019",
+        "TM-020",
+        "TM-023"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "带着紧张行动",
+      "expected_candidate": "TM-146",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-146",
+        "TM-123",
+        "TM-033",
+        "TM-056",
+        "TM-087",
+        "TM-141",
+        "TM-022",
+        "TM-098"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "价值聚焦思维",
+      "expected_candidate": "TM-147",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-147",
+        "TM-138",
+        "TM-062",
+        "TM-048",
+        "TM-057",
+        "TM-146",
+        "TM-148",
+        "TM-021"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "根本目标",
+      "expected_candidate": "TM-147",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-147",
+        "TM-154",
+        "WW-9.2",
+        "TM-008",
+        "TM-010",
+        "TM-012",
+        "TM-013",
+        "TM-015"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "目标遗漏",
+      "expected_candidate": "TM-147",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-154",
+        "WW-9.2",
+        "TM-147",
+        "TM-047",
+        "TM-050",
+        "TM-051",
+        "TM-054",
+        "TM-056"
+      ],
+      "candidate_found": true,
+      "rank": 3
+    },
+    {
+      "name": "library_search",
+      "query": "加权评分法",
+      "expected_candidate": "TM-148",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-148",
+        "TM-141",
+        "TM-005",
+        "TM-057",
+        "TM-071",
+        "TM-079"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "权重",
+      "expected_candidate": "TM-148",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-148",
+        "TM-024",
+        "TM-043",
+        "TM-052",
+        "TM-053",
+        "TM-054",
+        "TM-070",
+        "TM-071"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "排名翻转",
+      "expected_candidate": "TM-148",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-148",
+        "TM-050",
+        "TM-069",
+        "TM-133",
+        "TM-074",
+        "TM-105",
+        "TM-122",
+        "WW-2.4"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "非暴力沟通",
+      "expected_candidate": "TM-149",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-149",
+        "WW-6.2",
+        "WW-6.6"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "一开口就吵起来",
+      "expected_candidate": "TM-149",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-149",
+        "TM-119",
+        "TM-135",
+        "TM-028",
+        "TM-030",
+        "TM-033",
+        "TM-037",
+        "TM-045"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "需要和策略",
+      "expected_candidate": "TM-149",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-149",
+        "TM-005",
+        "TM-028",
+        "TM-047",
+        "TM-124",
+        "TM-004",
+        "TM-008",
+        "TM-010"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "BATNA",
+      "expected_candidate": "TM-150",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-150",
+        "WW-3.9",
+        "WW-2.1"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "谈不成怎么办",
+      "expected_candidate": "TM-150",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-150",
+        "TM-015",
+        "TM-028",
+        "TM-051",
+        "TM-105",
+        "TM-109",
+        "TM-111",
+        "TM-118"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "退路",
+      "expected_candidate": "TM-150",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-150",
+        "WW-3.9",
+        "TM-033",
+        "TM-058",
+        "TM-063",
+        "TM-077",
+        "WW-6.9"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "5Why",
+      "expected_candidate": "TM-151",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-151",
+        "TM-152"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "根因",
+      "expected_candidate": "TM-151",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-151",
+        "TM-036",
+        "TM-086",
+        "TM-101",
+        "TM-130"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "为什么反复发生",
+      "expected_candidate": "TM-151",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-151",
+        "TM-152",
+        "TM-144",
+        "TM-146",
+        "TM-147",
+        "TM-145",
+        "TM-148",
+        "TM-149"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "OODA",
+      "expected_candidate": "TM-152",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-152",
+        "WW-3.16"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "旧解释",
+      "expected_candidate": "TM-152",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-128",
+        "TM-152",
+        "TM-145",
+        "TM-050",
+        "WW-4.4",
+        "TM-038",
+        "TM-131",
+        "TM-136"
+      ],
+      "candidate_found": true,
+      "rank": 2
+    },
+    {
+      "name": "library_search",
+      "query": "方案一直改",
+      "expected_candidate": "TM-152",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-152",
+        "TM-112",
+        "TM-017",
+        "TM-036",
+        "TM-047",
+        "TM-061",
+        "TM-143",
+        "TM-147"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "约束满足",
+      "expected_candidate": "TM-153",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-153",
+        "WW-1.4",
+        "WW-6.7",
+        "WW-9.5",
+        "TM-057",
+        "TM-059",
+        "TM-060",
+        "TM-064"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "安排不开",
+      "expected_candidate": "TM-153",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-153",
+        "TM-121",
+        "TM-017",
+        "TM-028",
+        "TM-033",
+        "TM-099",
+        "TM-117",
+        "TM-123"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "硬条件冲突",
+      "expected_candidate": "TM-153",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-076",
+        "TM-153",
+        "TM-020",
+        "TM-022",
+        "TM-028",
+        "TM-038",
+        "TM-049",
+        "TM-050"
+      ],
+      "candidate_found": true,
+      "rank": 2
+    },
+    {
+      "name": "library_search",
+      "query": "手段—目的分析",
+      "expected_candidate": "TM-154",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-154",
+        "TM-147",
+        "TM-102",
+        "WW-7.6",
+        "TM-016",
+        "TM-018",
+        "TM-027",
+        "TM-095"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "目标清楚但不知道下一步",
+      "expected_candidate": "TM-154",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-154",
+        "TM-138",
+        "TM-150",
+        "TM-065",
+        "TM-125",
+        "TM-151",
+        "WW-9.2",
+        "TM-002"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "动作前提",
+      "expected_candidate": "TM-154",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-154",
+        "TM-004",
+        "TM-011",
+        "TM-012",
+        "TM-019",
+        "TM-022",
+        "TM-029",
+        "TM-030"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "关键路径法",
+      "expected_candidate": "TM-155",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-155",
+        "TM-007",
+        "TM-137",
+        "WW-8.7",
+        "TM-021",
+        "TM-022",
+        "TM-023",
+        "TM-026"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "交付日期不动",
+      "expected_candidate": "TM-155",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-155",
+        "TM-019",
+        "TM-025",
+        "TM-074",
+        "TM-085",
+        "TM-086",
+        "TM-088",
+        "TM-101"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "共享余量",
+      "expected_candidate": "TM-155",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-155",
+        "WW-6.14",
+        "WW-6.5"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "奥卡姆剃刀",
+      "expected_candidate": "TM-145",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-145"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "情绪ABC",
+      "expected_candidate": "TM-144",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-144"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "两个选项都不理想",
+      "expected_candidate": "TM-143",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-143",
+        "TM-144",
+        "TM-022",
+        "TM-018",
+        "TM-021",
+        "TM-057",
+        "TM-058",
+        "TM-062"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "可逆决策",
+      "expected_candidate": "TM-077",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-077",
+        "TM-068",
+        "TM-063",
+        "TM-076",
+        "TM-030",
+        "TM-046",
+        "TM-051",
+        "TM-054"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "OODA",
+      "expected_candidate": "WW-3.16",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-152",
+        "WW-3.16"
+      ],
+      "candidate_found": true,
+      "rank": 2
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "心理灵活性",
+      "expected_candidate": "TM-146",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-146",
+        "TM-013",
+        "TM-139",
+        "TM-079",
+        "WW-4.9"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "等不紧张再开始",
+      "expected_candidate": "TM-146",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-146",
+        "TM-123",
+        "TM-144",
+        "TM-047",
+        "WW-5.2",
+        "WW-5.5",
+        "WW-6.14",
+        "WW-9.4"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "带着紧张行动",
+      "expected_candidate": "TM-146",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-146",
+        "TM-152",
+        "TM-012",
+        "TM-113",
+        "TM-006",
+        "TM-011",
+        "TM-016",
+        "TM-029"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "价值聚焦思维",
+      "expected_candidate": "TM-147",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-147",
+        "TM-138",
+        "TM-021",
+        "TM-035",
+        "TM-041",
+        "TM-048",
+        "TM-052",
+        "TM-057"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "根本目标",
+      "expected_candidate": "TM-147",
+      "exit_code": 0,
+      "returned_ids": [
+        "WW-9.2",
+        "TM-074",
+        "TM-147",
+        "TM-154",
+        "TM-073",
+        "TM-040",
+        "TM-045",
+        "TM-047"
+      ],
+      "candidate_found": true,
+      "rank": 3
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "目标遗漏",
+      "expected_candidate": "TM-147",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-147",
+        "WW-9.2",
+        "TM-074",
+        "TM-154",
+        "TM-073",
+        "TM-103",
+        "TM-040",
+        "TM-045"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "加权评分法",
+      "expected_candidate": "TM-148",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-148",
+        "TM-141",
+        "TM-057"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "权重",
+      "expected_candidate": "TM-148",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-148"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "排名翻转",
+      "expected_candidate": "TM-148",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-069",
+        "TM-122",
+        "TM-148",
+        "TM-105",
+        "WW-2.4",
+        "WW-6.1",
+        "WW-6.13"
+      ],
+      "candidate_found": true,
+      "rank": 3
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "非暴力沟通",
+      "expected_candidate": "TM-149",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-149",
+        "WW-6.2",
+        "WW-6.6"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "一开口就吵起来",
+      "expected_candidate": "TM-149",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-149",
+        "TM-032",
+        "TM-116",
+        "TM-129",
+        "TM-140",
+        "TM-080",
+        "TM-139",
+        "WW-9.10"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "需要和策略",
+      "expected_candidate": "TM-149",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-149",
+        "TM-090",
+        "TM-131",
+        "TM-143",
+        "WW-6.11",
+        "TM-015",
+        "WW-1.2",
+        "WW-1.5"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "BATNA",
+      "expected_candidate": "TM-150",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-150"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "谈不成怎么办",
+      "expected_candidate": "TM-150",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-095",
+        "TM-123",
+        "TM-153",
+        "TM-036",
+        "TM-045",
+        "TM-050",
+        "TM-059",
+        "TM-097"
+      ],
+      "candidate_found": false,
+      "rank": null
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "退路",
+      "expected_candidate": "TM-150",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-077",
+        "TM-150",
+        "WW-3.9"
+      ],
+      "candidate_found": true,
+      "rank": 2
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "5Why",
+      "expected_candidate": "TM-151",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-151"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "根因",
+      "expected_candidate": "TM-151",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-151"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "为什么反复发生",
+      "expected_candidate": "TM-151",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-151",
+        "TM-011",
+        "TM-062",
+        "TM-064",
+        "TM-071",
+        "TM-086",
+        "TM-127",
+        "WW-3.10"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "OODA",
+      "expected_candidate": "TM-152",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-152",
+        "WW-3.16"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "旧解释",
+      "expected_candidate": "TM-152",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-128",
+        "WW-4.4",
+        "TM-018",
+        "TM-050",
+        "TM-107",
+        "TM-131",
+        "TM-145",
+        "TM-038"
+      ],
+      "candidate_found": false,
+      "rank": null
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "方案一直改",
+      "expected_candidate": "TM-152",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-152",
+        "TM-061",
+        "TM-102",
+        "TM-143",
+        "TM-147",
+        "TM-007",
+        "TM-022",
+        "TM-046"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "约束满足",
+      "expected_candidate": "TM-153",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-153",
+        "WW-1.4",
+        "WW-6.7",
+        "WW-9.5",
+        "TM-148",
+        "WW-100",
+        "TM-013",
+        "TM-085"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "安排不开",
+      "expected_candidate": "TM-153",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-094",
+        "TM-032",
+        "TM-077",
+        "TM-080",
+        "TM-095",
+        "TM-098",
+        "TM-106",
+        "TM-109"
+      ],
+      "candidate_found": false,
+      "rank": null
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "硬条件冲突",
+      "expected_candidate": "TM-153",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-153",
+        "TM-143",
+        "TM-154",
+        "TM-059",
+        "TM-002",
+        "TM-016",
+        "TM-029",
+        "TM-030"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "手段—目的分析",
+      "expected_candidate": "TM-154",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-154",
+        "TM-147",
+        "TM-151",
+        "TM-102",
+        "TM-050",
+        "TM-105",
+        "WW-8.6",
+        "TM-047"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "目标清楚但不知道下一步",
+      "expected_candidate": "TM-154",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-154",
+        "TM-147",
+        "TM-125",
+        "TM-026",
+        "TM-103",
+        "TM-111",
+        "TM-149",
+        "WW-9.2"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "动作前提",
+      "expected_candidate": "TM-154",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-154",
+        "TM-126",
+        "TM-127",
+        "TM-132",
+        "TM-145",
+        "TM-152",
+        "TM-146",
+        "TM-047"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "关键路径法",
+      "expected_candidate": "TM-155",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-155",
+        "TM-007",
+        "WW-8.7",
+        "TM-095",
+        "TM-090",
+        "TM-147",
+        "TM-024",
+        "TM-046"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "交付日期不动",
+      "expected_candidate": "TM-155",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-155",
+        "TM-020",
+        "TM-109",
+        "TM-007",
+        "TM-114",
+        "TM-130",
+        "TM-143",
+        "WW-2.2"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "共享余量",
+      "expected_candidate": "TM-155",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-058",
+        "TM-108",
+        "TM-155",
+        "WW-6.14",
+        "WW-6.5"
+      ],
+      "candidate_found": true,
+      "rank": 3
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "奥卡姆剃刀",
+      "expected_candidate": "TM-145",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-145"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "情绪ABC",
+      "expected_candidate": "TM-144",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-144",
+        "WW-1.1",
+        "WW-1.6",
+        "WW-6.14"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "两个选项都不理想",
+      "expected_candidate": "TM-143",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-143",
+        "TM-022",
+        "TM-138",
+        "TM-002",
+        "TM-037",
+        "TM-112",
+        "TM-144",
+        "TM-147"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "可逆决策",
+      "expected_candidate": "TM-077",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-077",
+        "TM-068",
+        "TM-036",
+        "TM-063",
+        "TM-130",
+        "WW-7.2",
+        "WW-9.1"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "OODA",
+      "expected_candidate": "WW-3.16",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-152",
+        "WW-3.16"
+      ],
+      "candidate_found": true,
+      "rank": 2
+    }
+  ],
+  "ok": false
+}

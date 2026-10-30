@@ -1,0 +1,379 @@
+{
+  "review_id": "review-151-155",
+  "review_date": "2026-10-30",
+  "reviewer": "independent_agent_review_151_155",
+  "scope": "TM-151—155 source/card/runtime plus 10 actual simulated input-output records",
+  "overall_verdict": "pass_with_scope_limits",
+  "case_count": 10,
+  "passed": 10,
+  "failed": 0,
+  "blocking_findings": 0,
+  "findings": [
+    {
+      "id": "R151155-L01",
+      "severity": "low",
+      "type": "validation_scope_limit",
+      "blocking": false,
+      "title": "多份试跑与源文或卡片演示同构，未证明陌生结构泛化",
+      "evidence": [
+        "trials/TM-153-fit.md:7",
+        "trials/TM-153-misuse.md:7",
+        "trials/TM-154-fit.md:7",
+        "trials/TM-154-misuse.md:7",
+        "trials/TM-155-fit.md:7",
+        "staged-repo/skills/thinking-model-decision/references/cards/TM-155.md:33"
+      ],
+      "impact": "本轮可支持给定虚构请求的基础行为通过，不能据此宣称陌生依赖网络、搜索未完成状态或真实效果均经验证。",
+      "recommendation": "本次无需为此修改答案或阻断登记；保持模拟范围标签。若将来要提高泛化声明，另做未在卡片出现的交叉依赖/多终点/尚未判定案例并保存首答和独立复核。",
+      "retry_required": false
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "TM-151-fit",
+      "input_output_file": "trials/TM-151-fit.md",
+      "verdict": "pass",
+      "severity": "none",
+      "mechanism_and_causality": "把照片中的空间关联保留为线索，先核旧单是否缺胶带及实际使用情况，再追版本交接；发生与检测分开，保留已有效的逐包检查。",
+      "artifact_action_resource_goal_review": "提出调查表、竞争解释、临时措施与复查；30—45分钟本轮核查+下次约10分钟，既有逐包检查另计且人时未知，不假定免费或已获配合。",
+      "repair_and_retry_recommendation": "通过；不需修复重试。若后续测泛化，可增加旧单含胶带或装包者反证，使回答真正更新分支。",
+      "blocking_findings": []
+    },
+    {
+      "case_id": "TM-151-misuse",
+      "input_output_file": "trials/TM-151-misuse.md",
+      "verdict": "pass",
+      "severity": "none",
+      "mechanism_and_causality": "拒绝在严重伤人且记录未齐时认定唯一根因/处罚；识别人格标签与缺失机制，转完整调查，不预先免责。",
+      "artifact_action_resource_goal_review": "优先救助和危险控制，交初报、证据清单、时间线与权限交接；没有承诺当天查清或虚构调查人时。HSE链接的有限支持范围相符。",
+      "repair_and_retry_recommendation": "通过；不需修复重试。该通过只覆盖拒绝越界定因及调查组织，不验证事故处理专业充分性。",
+      "blocking_findings": []
+    },
+    {
+      "case_id": "TM-152-fit",
+      "input_output_file": "trials/TM-152-fit.md",
+      "verdict": "pass",
+      "severity": "none",
+      "mechanism_and_causality": "版本不一致挑战拖延解释，但不证明两次延期均由此造成；核新版本有效性，区分看到、同意、承诺、执行、结果。",
+      "artifact_action_resource_goal_review": "5+7+10+5+3=30分钟，整理/回读包含其中；后续修正与核实没有冒充已有额外工时。当前判断、模板字段、负责人及反馈触发可检查。",
+      "repair_and_retry_recommendation": "通过；不需修复重试。30分钟是会议历时，四人全程参加相当于120人分钟；本案未把它当作单人的可用工时。",
+      "blocking_findings": []
+    },
+    {
+      "case_id": "TM-152-misuse",
+      "input_output_file": "trials/TM-152-misuse.md",
+      "verdict": "pass",
+      "severity": "none",
+      "mechanism_and_causality": "四小时无续订未覆盖至少一周窗口，不更新成定位必错；检查是否执行与记录正常，客户答复保留履约价值。",
+      "artifact_action_resource_goal_review": "维持批准测试，准备明天答复；给足窗口后的分支及风险即时处理，遵守权限，不把今天当重新起算日。工时未知明确保留，不新增无依据承诺。",
+      "repair_and_retry_recommendation": "通过；不需修复重试。后续可用窗口已满但实施不足的变体检查归因边界。",
+      "blocking_findings": []
+    },
+    {
+      "case_id": "TM-153-fit",
+      "input_output_file": "trials/TM-153-fit.md",
+      "verdict": "pass",
+      "severity": "none",
+      "mechanism_and_causality": "撤销B=10后恢复A/C原先被该假设删去的10，不恢复从未允许的11；展示同一完整安排并逐条检查。",
+      "artifact_action_resource_goal_review": "独立枚举8种候选得到(A,B,C)=(9,11,10)、(10,11,9)两解；未冒充最优、已同意或已发布，新增换场时间触发重算。",
+      "repair_and_retry_recommendation": "通过；不需修复重试。现有数值结构与源文例子同构，属于基础回归。",
+      "blocking_findings": []
+    },
+    {
+      "case_id": "TM-153-misuse",
+      "input_output_file": "trials/TM-153-misuse.md",
+      "verdict": "pass",
+      "severity": "none",
+      "mechanism_and_causality": "三场各需独占一小时、只有两个位置，足以覆盖全部赋值证无解；两两能排不等于共同能排。",
+      "artifact_action_resource_goal_review": "独立枚举8种赋值得到0解；不改硬条件、不强排，不称最小冲突集。核对条件后停止承诺。",
+      "repair_and_retry_recommendation": "通过；不需修复重试。另测大域且只检查部分分支的情形，才能验证尚未判定这一第三态。",
+      "blocking_findings": []
+    },
+    {
+      "case_id": "TM-154-fit",
+      "input_output_file": "trials/TM-154-fit.md",
+      "verdict": "pass",
+      "severity": "none",
+      "mechanism_and_causality": "固定台下看清12页的目标，转接器只是手段；复制、打开、投屏、逐页/台下核对、开场有明确返回点，准备完成不等于目标完成。",
+      "artifact_action_resource_goal_review": "2+5+5+3+5=20分钟上限；修复包含复核、不另花一份预算；从提问时剩余30分钟继续扣阅读及流逝时间，已花10分钟不重复扣。零新增费用、不联网、无他人帮忙假设。",
+      "repair_and_retry_recommendation": "通过；不需修复重试。展示不能可靠完成时保留目标未达成，不把口述退路冒充原目标兑现。",
+      "blocking_findings": []
+    },
+    {
+      "case_id": "TM-154-misuse",
+      "input_output_file": "trials/TM-154-misuse.md",
+      "verdict": "pass",
+      "severity": "none",
+      "mechanism_and_causality": "先送A会耗尽唯一单程燃料并把车留会场，破坏B送达前提；两箱联装与一次运输保持总目标。",
+      "artifact_action_resource_goal_review": "共用车、燃料、行程只计一次；备货、允许同车、收货及时点待核；无时长不承诺今天必达，无法兑现时回到总目标交接。",
+      "repair_and_retry_recommendation": "通过；不需修复重试。无偷换为完成50%、无第二趟或额外车辆。",
+      "blocking_findings": []
+    },
+    {
+      "case_id": "TM-155-fit",
+      "input_output_file": "trials/TM-155-fit.md",
+      "verdict": "pass",
+      "severity": "none",
+      "mechanism_and_causality": "两条完整路径均5天，全部任务TF=0；B降至2天后路径为4/5，唯一关键路径A-C-D-E，B浮时1，项目仍5天。",
+      "artifact_action_resource_goal_review": "ES/EF/LS/LF/TF逐项独立复算相符。费用、质量和风险收益未知，不替用户购买；压共同任务或覆盖所有控制路径仅作待核方向，不取消验收。",
+      "repair_and_retry_recommendation": "通过；不需修复重试。该图与卡片展览例子相同，只证明本基础算例可运行。",
+      "blocking_findings": []
+    },
+    {
+      "case_id": "TM-155-misuse",
+      "input_output_file": "trials/TM-155-misuse.md",
+      "verdict": "pass",
+      "severity": "none",
+      "mechanism_and_causality": "原网络10/8天；场地和布置的2天总浮时共享。写稿先行11天、场地先行12天；资源边明确区别于业务依赖。",
+      "artifact_action_resource_goal_review": "独立前后推均相符；写稿先行演示TF=1，其余TF=0。最后一项个人工作不早于7且尾部至少4天，11天下限证明成立。PERT不保证10天，实际日历及接手均待确认。",
+      "repair_and_retry_recommendation": "通过；不需修复重试。11天最优结论仅限题设固定时长和无额外冲突，不推广为任意资源排程都已求最优。",
+      "blocking_findings": []
+    }
+  ],
+  "source_verification": [
+    {
+      "id": "TM-151",
+      "source_equals_staged": true,
+      "source_sha256_matches_manifest": true,
+      "source_sha256": "c2ffae8b4e0cc8479cb3f4898991f37f41e95a1e6997fe3a3c1f25fd22690486",
+      "fnv1a32_code_units": "758b7cbc",
+      "media_read_this_run_by_maintainer": false,
+      "image_count": 5,
+      "reviewer_reopened_images": false,
+      "all_underlying_claims_verified": false
+    },
+    {
+      "id": "TM-152",
+      "source_equals_staged": true,
+      "source_sha256_matches_manifest": true,
+      "source_sha256": "1131e5a0486f9535003e9c32a6e72e10eec186823e44d9f7051ea6e83bf4c15d",
+      "fnv1a32_code_units": "8bd4c2ca",
+      "media_read_this_run_by_maintainer": false,
+      "image_count": 6,
+      "reviewer_reopened_images": false,
+      "all_underlying_claims_verified": false
+    },
+    {
+      "id": "TM-153",
+      "source_equals_staged": true,
+      "source_sha256_matches_manifest": true,
+      "source_sha256": "1e95d1f2782fb3450aba8e1b35cf67fae92e083ba28766dbf2e200e6c715ccd6",
+      "fnv1a32_code_units": "be920929",
+      "media_read_this_run_by_maintainer": false,
+      "image_count": 4,
+      "reviewer_reopened_images": false,
+      "all_underlying_claims_verified": false
+    },
+    {
+      "id": "TM-154",
+      "source_equals_staged": true,
+      "source_sha256_matches_manifest": true,
+      "source_sha256": "bc5c32d755522c9fef7aaa4832240166356b4b9b8374cdb523ca65eb26f1ef45",
+      "fnv1a32_code_units": "e0cfb0f8",
+      "media_read_this_run_by_maintainer": false,
+      "image_count": 5,
+      "reviewer_reopened_images": false,
+      "all_underlying_claims_verified": false
+    },
+    {
+      "id": "TM-155",
+      "source_equals_staged": true,
+      "source_sha256_matches_manifest": true,
+      "source_sha256": "c8c83bba7b54db1f11246f6d514fd84dafecef117cd83c0141547952377ad35c",
+      "fnv1a32_code_units": "e7dd51c0",
+      "media_read_this_run_by_maintainer": true,
+      "image_count": 8,
+      "reviewer_reopened_images": false,
+      "all_underlying_claims_verified": false
+    }
+  ],
+  "read_evidence": [
+    {
+      "path": "staged-repo/skills/thinking-model-decision/SKILL.md",
+      "sha256": "1fe354a169934276535dfce2262833aefdc1adda675599ef2d181ed8d0ba831b",
+      "reading_scope": "full"
+    },
+    {
+      "path": "sources/source-manifest.json",
+      "sha256": "1d86dedf747d5268e4b07a6c130bd52d20bbc0e656df786bc010aacf037db3c3",
+      "reading_scope": "full"
+    },
+    {
+      "path": "sources/TM-151.md",
+      "sha256": "c2ffae8b4e0cc8479cb3f4898991f37f41e95a1e6997fe3a3c1f25fd22690486",
+      "reading_scope": "full"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-151.md",
+      "sha256": "1d048f8b852918f7d2f205d04cf9eb6c9c6037e303bb363ba79df12ff9798b05",
+      "reading_scope": "full"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-151.md",
+      "sha256": "0f3dd384629cf49a807a8f3c4db2290f3bed8e2eff910f1b993a7f276d28c53b",
+      "reading_scope": "full"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/validation/TM-151-source-review.md",
+      "sha256": "e36c702d54c323537ca8af9c2b70060399ce2c9917b7d5747fa599199a07fefe",
+      "reading_scope": "full"
+    },
+    {
+      "path": "trials/TM-151-fit.md",
+      "sha256": "f0af1b9eda12d229ac492a7876c1e0b5e32dd79a6afc76c5d575e0a7b6e80b96",
+      "reading_scope": "full"
+    },
+    {
+      "path": "trials/TM-151-misuse.md",
+      "sha256": "fa5dd67bfb9f503c8911accdf89ee152c78df8f6a5e69c3c4f6cfe5fd397a427",
+      "reading_scope": "full"
+    },
+    {
+      "path": "sources/TM-152.md",
+      "sha256": "1131e5a0486f9535003e9c32a6e72e10eec186823e44d9f7051ea6e83bf4c15d",
+      "reading_scope": "full"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-152.md",
+      "sha256": "a6256ddac05519a7487d56311d36bf0c541f7635a87ab97b44f65485fb2c1273",
+      "reading_scope": "full"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-152.md",
+      "sha256": "55b03ed93247fbb30ce1899eaee64e5b094f02ea1d430b7bc2490292f9f58eba",
+      "reading_scope": "full"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/validation/TM-152-source-review.md",
+      "sha256": "260fceea54d1fc6bcf45bd5658d9da872456e02cecde89461cb42a679b5fb837",
+      "reading_scope": "full"
+    },
+    {
+      "path": "trials/TM-152-fit.md",
+      "sha256": "bea7d41bf015baa1d74d9b8a3fe286486eb3e7aef96a4df65b0584097edd4919",
+      "reading_scope": "full"
+    },
+    {
+      "path": "trials/TM-152-misuse.md",
+      "sha256": "fd4fe5ea401e28aaf8176e22a01ee7f6d5cb3e8cb45738a136efa162dbe9fa8d",
+      "reading_scope": "full"
+    },
+    {
+      "path": "sources/TM-153.md",
+      "sha256": "1e95d1f2782fb3450aba8e1b35cf67fae92e083ba28766dbf2e200e6c715ccd6",
+      "reading_scope": "full"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-153.md",
+      "sha256": "dfc6b9ccab1db76250d424a20d0b15cdaa9411b085eac6575cd35961939d7833",
+      "reading_scope": "full"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-153.md",
+      "sha256": "7b611a103436fc549a3c794d3a14ee8bbbe33c23c750df9c67761eea60e1ddbd",
+      "reading_scope": "full"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/validation/TM-153-source-review.md",
+      "sha256": "bfc8dbf28ad352229f7a824ab0e5d69bfcab68ccfea50f2671e397c9fad5a850",
+      "reading_scope": "full"
+    },
+    {
+      "path": "trials/TM-153-fit.md",
+      "sha256": "f627b6e1f7e168af02dc17ec3bf38b9177b7c48d9f5f6c053b69a22a86e46800",
+      "reading_scope": "full"
+    },
+    {
+      "path": "trials/TM-153-misuse.md",
+      "sha256": "1a2d47dc05c465c0eae7277ceb57159e327d349039e11f1f312423581cfb567e",
+      "reading_scope": "full"
+    },
+    {
+      "path": "sources/TM-154.md",
+      "sha256": "bc5c32d755522c9fef7aaa4832240166356b4b9b8374cdb523ca65eb26f1ef45",
+      "reading_scope": "full"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-154.md",
+      "sha256": "da58d15664f3e7538a99cb10ce04a02205ca708a30e90e8531f1cec317bc944c",
+      "reading_scope": "full"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-154.md",
+      "sha256": "d4e9602e3094b618cfb7a1511ed2341ce80422c8b2ff951559fcfabe3aefce4a",
+      "reading_scope": "full"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/validation/TM-154-source-review.md",
+      "sha256": "1f65bbaccfb9d49f0eb8f98672b7be9c363d5f7005beb19f6dda355e554ce2c4",
+      "reading_scope": "full"
+    },
+    {
+      "path": "trials/TM-154-fit.md",
+      "sha256": "caa24a92e9ef7c05c43c8585253a48b4bd86b5fb9f9d7a7d51036a9785e9fc53",
+      "reading_scope": "full"
+    },
+    {
+      "path": "trials/TM-154-misuse.md",
+      "sha256": "150474f006aa5a2156e938178225054b8edf9402db7cc241b5898800526655b1",
+      "reading_scope": "full"
+    },
+    {
+      "path": "sources/TM-155.md",
+      "sha256": "c8c83bba7b54db1f11246f6d514fd84dafecef117cd83c0141547952377ad35c",
+      "reading_scope": "full"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-155.md",
+      "sha256": "2158761b4d37944088e5572c1d4d5189ab9621b751fea1503c208b4bd313e674",
+      "reading_scope": "full"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-155.md",
+      "sha256": "f00060236a69e5b4d5e3308b51e485c1e255b0c29aa7ad6d2379777c26816503",
+      "reading_scope": "full"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/validation/TM-155-source-review.md",
+      "sha256": "80a39d288a78c1e7ddc2b8bb413e48004845ddf03985d163e81b8f34ea97c8ad",
+      "reading_scope": "full"
+    },
+    {
+      "path": "trials/TM-155-fit.md",
+      "sha256": "e62c386c15aa60710fc704b09fae2e371f1a9f39761ebf172780bb5ae93ec36f",
+      "reading_scope": "full"
+    },
+    {
+      "path": "trials/TM-155-misuse.md",
+      "sha256": "67db058067cd997868651e226d259541949e4868720bfc1d1d7e0daeb837a65e",
+      "reading_scope": "full"
+    }
+  ],
+  "external_checks": [
+    {
+      "url": "https://www.hse.gov.uk/quarries/education/topic7.htm",
+      "scope": "Objectives/Lecture Plan: immediate risk, evidence, investigation and follow-up; supports limited claims in TM-151-misuse"
+    },
+    {
+      "url": "https://www.hse.gov.uk/pubns/hsg245.pdf",
+      "scope": "Contents and introduction only; four investigation stages; not full 88 pages or local law review"
+    },
+    {
+      "url": "https://www.gao.gov/assets/gao-16-89g.pdf",
+      "scope": "Best Practices 3, 6, 7 selected passages: resource allocation/leveling, shared total float, need to re-evaluate after updates; not full 240 pages"
+    }
+  ],
+  "limitations": [
+    "本评审完整读取上述5篇归档源文、卡片、运行文件、来源审阅和10份实际输入输出；未改写原答，未读取私人案例。",
+    "源文与staged-repo归档逐字节相同且SHA-256与来源清单一致。151—154历史TXT SHA与卡内一致；独立去空白UTF-16码元FNV与本轮清单一致。历史逐字节FNV和本轮按码元FNV不同是算法差别，不是正文漂移。",
+    "151—154图片本轮维护者复用历史阅读记录；155清单声明维护者本轮逐图读取。本评审没有重新打开图片，不升级为图像独立验证或全部史料核验。",
+    "152—155试跑者对原文的读取范围有截断/分段披露；本评审补足全文对照。未声称试跑者全文阅读，也未独立验证其所有历史工具调用日志。",
+    "只对给定模拟输出作内容/计算验收；现实沟通、承诺、效果、默认HTML实际渲染、多轮新反馈和全部客户端均不在本次验证范围。",
+    "外部仅核对HSE调查顺序和GAO资源/浮时相关部分，未重查文章全部历史人物、战例、引文、推广范围、学习实验和研究数字。"
+  ],
+  "repair_required": false,
+  "retry_required": false,
+  "private_cases_read": false,
+  "original_answers_modified": false,
+  "formal_install_modified": false
+}

@@ -1,4 +1,4 @@
-# 思维模型决策工具 · v2.3
+# 思维模型决策工具 · v2.4
 
 **遇到难题，先一步步看清，再找到处理办法。**
 
@@ -6,11 +6,13 @@
 
 你不用先学思维模型，也不用先列好选项。从一句“我最近有件事想不明白……”就能开始。
 
-**当前版本：2.3.0** · 145 个鬼子不言思维工具 · 100 个万维钢工具来源条目 · 面向支持技能或完整资料读取的 AI 智能体
+**当前版本：2.4.0** · 155 个鬼子不言思维工具 · 100 个万维钢工具来源条目 · 面向支持技能或完整资料读取的 AI 智能体
 
 [开始使用](#开始使用) · [完整操作示范](#操作示范) · [会得到什么](#你会得到怎样的解决方案) · [卡住了怎么办](#卡住了怎么办)
 
-本次增加 **奥卡姆剃刀**：先核对证据，比较几种解释，再检查哪些额外假设拿掉后仍能说明已知事实。解释有明显证据差异时跟着证据走；只有解释力可比时才比较假设，不凭句子短、故事顺或“假设个数少”判定真相，也不把“他一定没恶意”当作事实。
+本次新增 **146—155 共十个工具**：心理灵活性、价值聚焦思维、加权评分法、非暴力沟通、BATNA、5Why分析法、OODA环、约束满足、手段—目的分析、关键路径法。
+
+比如你说：“活动已经答应下周办，但人员、场地和准备时间怎么都凑不上。”助手会先问清目标和不能改变的条件，再按需要检查安排能否成立、有哪些可行替代、先做什么以及哪些任务影响总工期。**你只需讲问题，不用先选这十个工具，更不需要全部使用。**
 
 ## 怎样帮助你解决难题
 
@@ -37,7 +39,7 @@
 
 这是一个 **Skill（技能包）**：供 AI 助手读取的流程与资料。你在自己的智能体里对话，GitHub 页面用于下载和查看说明。不同产品的安装方式和文件能力可能不同，先让助手检查即可。
 
-**已安装的用户：** 确认是 **2.3.0** 且能读取资料后，直接跳到[说出第一件困惑](#说出第一件困惑)。不确定版本时用下面第2步检查；旧版请按[更新已有版本](docs/INSTALL.md#更新已安装版本)备份、保留本地修改后升级。GitHub 更新不会自动更新你的副本。
+**已安装的用户：** 确认是 **2.4.0** 且能读取资料后，直接跳到[说出第一件困惑](#说出第一件困惑)。不确定版本时用下面第2步检查；旧版请按[更新已有版本](docs/INSTALL.md#更新已安装版本)备份、保留本地修改后升级。GitHub 更新不会自动更新你的副本。
 
 ### 1. 让你正在使用的智能体安装或加载
 
@@ -56,12 +58,12 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 若无法完成，请说明具体缺口与下一步，不要声称已经安装。
 ```
 
-不能自动安装时，可[下载 v2.3.0 独立技能包](https://raw.githubusercontent.com/sushengs-creator/thinking-model-decision/main/dist/thinking-model-decision-v2.3.0.zip)。解压后，按当前产品的技能导入或工作区文件入口提供**完整的 `thinking-model-decision` 文件夹**，不要只复制 `SKILL.md`。
+不能自动安装时，可[下载 v2.4.0 独立技能包](https://raw.githubusercontent.com/sushengs-creator/thinking-model-decision/main/dist/thinking-model-decision-v2.4.0.zip)。解压后，按当前产品的技能导入或工作区文件入口提供**完整的 `thinking-model-decision` 文件夹**，不要只复制 `SKILL.md`。
 
 <details>
 <summary>下载打不开、产品不支持 Skills，怎么办？</summary>
 
-- 直链打不开：用[完整仓库备用下载](https://codeload.github.com/sushengs-creator/thinking-model-decision/zip/refs/heads/main)，解压后在 `dist` 中找到 `thinking-model-decision-v2.3.0.zip`。
+- 直链打不开：用[完整仓库备用下载](https://codeload.github.com/sushengs-creator/thinking-model-decision/zip/refs/heads/main)，解压后在 `dist` 中找到 `thinking-model-decision-v2.4.0.zip`。
 - 产品接受 ZIP：按其导入格式要求使用；接受工作区目录：提供完整文件夹。具体见[手动安装与会话加载](docs/INSTALL.md#手动安装与会话加载)。
 - 只能收聊天文字、无法读取完整资料：暂时不能运行完整工具库。只发一个 GitHub 链接不等于安装。
 - 仅本次会话加载：换会话后需要重新提供目录。原生安装能否跨会话调用，取决于产品与安装范围。
@@ -82,7 +84,7 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 说明资料从哪里读取、是原生安装还是仅本次加载；不能读取就如实说明。
 ```
 
-应读到 **2.3.0** 及“可逆决策”卡，并能依据资料解释边界。这个检查确认当前会话可以读取资料，不代表所有客户端或未来会话都已验证。
+应读到 **2.4.0** 及“可逆决策”卡，并能依据资料解释边界。这个检查确认当前会话可以读取资料，不代表所有客户端或未来会话都已验证。
 
 </details>
 
@@ -206,19 +208,19 @@ https://github.com/sushengs-creator/thinking-model-decision/tree/main/skills/thi
 
 ## 资料、来源与维护
 
-**v2.3.0 包含145篇鬼子不言思维模型原文、145张操作卡、145个逐项设计的运行工具，以及100个万维钢工具来源条目。** TM 是作者模型编号，WW 是万维钢工具编号。两套资料平等参与选择，存在机制重叠，不把245个来源条目算成245个互不重复、全部验证过的模型。
+**v2.4.0 包含155篇鬼子不言思维模型原文、155张操作卡、155个逐项设计的运行工具，以及100个万维钢工具来源条目。** TM 是作者模型编号，WW 是万维钢工具编号。两套资料平等参与选择，存在机制重叠，不把255个来源条目算成255个互不重复、全部验证过的模型。
 
 本次重构增加了提问工具箱、互补工具编排、分析成果交接、综合方案和整体资源核算。原文与卡片保留，运行工具单独维护输入、操作、成果、边界与验证范围。以后每新增一篇文稿，会按流程补齐对应工具、目录和试跑记录。日常用户无需了解维护细节。
 
 本工具采用 [Agent Skills 开放格式](https://agentskills.io/specification)，面向能够安装技能或完整读取资料的智能体，不限品牌。各产品能力与入口有差异，未逐一验证所有客户端。无需额外的专用 API Key；模型服务的账号和额度由你所用的平台提供。
 
-前142个工具的试跑见 [v2.0记录](skills/thinking-model-decision/references/evaluation/results-v2.0.md)；第143个工具与维护修复见 [v2.1记录](skills/thinking-model-decision/references/evaluation/results-v2.1.md)；第144个工具的来源、增量模拟和未覆盖范围见 [v2.2检查记录](skills/thinking-model-decision/references/evaluation/results-v2.2.md)。第145个工具的本轮6份模拟回答、18项检索及未覆盖范围见 [v2.3检查记录](docs/QUALITY-AUDIT-V2.3.md)。模拟表现、格式兼容、客户端实际安装和现实效果是不同层次。
+前142个工具的试跑见 [v2.0记录](skills/thinking-model-decision/references/evaluation/results-v2.0.md)；第143个工具与维护修复见 [v2.1记录](skills/thinking-model-decision/references/evaluation/results-v2.1.md)；第144个工具的来源、增量模拟和未覆盖范围见 [v2.2检查记录](skills/thinking-model-decision/references/evaluation/results-v2.2.md)。第145个工具的历史6份模拟回答、18项检索及未覆盖范围见 [v2.3检查记录](docs/QUALITY-AUDIT-V2.3.md)。本次146—155的来源、试跑和限制见 [v2.4检查记录](docs/QUALITY-AUDIT-V2.4.md)。模拟表现、格式兼容、客户端实际安装和现实效果是不同层次。
 
 个人报告留在当前任务，不自动公开或写回通用库；模型帮助分析，选择由你作出。会变化的外部事实及专业问题仍需核实，聊天数据处理遵循你所用平台的规则。
 
 - **使用资料：** [详细安装](docs/INSTALL.md) · [详细使用](docs/USAGE.md) · [2.0升级说明](docs/V2-UPGRADE.md)
-- **质量检查：** [v2.3 增量检查](docs/QUALITY-AUDIT-V2.3.md) · [v2.2 增量检查](docs/QUALITY-AUDIT-V2.2.md) · [v2.1 深度检查与修复](docs/QUALITY-AUDIT-V2.1.md)
-- **工具资料：** [145个运行工具](skills/thinking-model-decision/references/tool-catalog.md) · [原文与模型卡](skills/thinking-model-decision/references/user-catalog.md) · [万维钢工具](skills/thinking-model-decision/references/wan-catalog.md)
+- **质量检查：** [v2.4 十工具增量检查](docs/QUALITY-AUDIT-V2.4.md) · [v2.3 增量检查](docs/QUALITY-AUDIT-V2.3.md) · [v2.2 增量检查](docs/QUALITY-AUDIT-V2.2.md) · [v2.1 深度检查与修复](docs/QUALITY-AUDIT-V2.1.md)
+- **工具资料：** [155个运行工具](skills/thinking-model-decision/references/tool-catalog.md) · [原文与模型卡](skills/thinking-model-decision/references/user-catalog.md) · [万维钢工具](skills/thinking-model-decision/references/wan-catalog.md)
 - **维护资料：** [新增与修订流程](skills/thinking-model-decision/references/maintenance.md) · [版本记录](docs/VERSION-HISTORY.md) · [来源说明](skills/thinking-model-decision/references/source-notes.md) · [使用与署名](NOTICE.md)
 
 由 [sushengs-creator](https://github.com/sushengs-creator) 整理与维护。万维钢部分来自提供者的技能资料快照，不代表本人参与制作或背书。

@@ -1,0 +1,432 @@
+{
+  "review_id": "review-146-150",
+  "reviewer": "review_146_150",
+  "review_date": "2026-10-30",
+  "scope": "TM-146—150 来源、卡片、运行文件与10份保留初次模拟回答的独立评审",
+  "overall_verdict": "sample_trials_pass_with_one_nonblocking_observation",
+  "counts": {
+    "reviewed_cases": 10,
+    "pass": 9,
+    "pass_with_minor_observation": 1,
+    "behavior_failures": 0,
+    "requires_rerun": 0
+  },
+  "behavior_acceptance_blocked": false,
+  "assessment_dimensions": [
+    "mechanism",
+    "evidence_vs_inference",
+    "minimum_product",
+    "executable_action",
+    "time_and_money",
+    "misuse_boundaries",
+    "resource_and_commitment_state",
+    "user_goal"
+  ],
+  "cases": [
+    {
+      "case_id": "TM-146-fit",
+      "tool_id": "TM-146",
+      "actual_filename": "trials/TM-146-fit.md",
+      "case_kind": "applicable",
+      "verdict": "pass",
+      "maximum_severity": null,
+      "requires_fix_before_acceptance": false,
+      "requires_rerun": false,
+      "finding_ids": [],
+      "assessment": "三次退出—短暂轻松—仍想参加形成机制特有循环。别人的评价为未知，隐含前提为工作判断。本人方向、条件、所选动作和复查齐全。决策1+2+5+2=10分钟，从20:00真实截止扣已耗时；活动2小时与费用由输入确认，新增交通需另核，事后2分钟另列。不强迫先平静；报名、付款、到场、体验分开，未替报名。",
+      "output_sha256": "55b353128c05b31157c2589f981cad14f5258b529ff8174e89508879a11a935e",
+      "manifest_hash_matches": true,
+      "input_matches_original": true
+    },
+    {
+      "case_id": "TM-146-boundary",
+      "tool_id": "TM-146",
+      "actual_filename": "trials/TM-146-boundary.md",
+      "case_kind": "misuse",
+      "verdict": "pass",
+      "maximum_severity": null,
+      "requires_fix_before_acceptance": false,
+      "requires_rerun": false,
+      "finding_ids": [],
+      "assessment": "明确停止十分钟练习，将火警/烟味保留为外部危险。安全通道撤离与封堵时退守求助分支，不先找火源或验证误报、不指挥穿烟。无练习等待预算。给出当前条件、错误前提、保护动作和安全后复查；附公开消防来源，说明虚构且未拨号。",
+      "output_sha256": "10545b071470f69ecae98520e28e3fc40ba38f6359ec51e78aa094a173fd7f3a",
+      "manifest_hash_matches": true,
+      "input_matches_original": true
+    },
+    {
+      "case_id": "TM-147-fit",
+      "tool_id": "TM-147",
+      "actual_filename": "trials/TM-147-fit.md",
+      "case_kind": "applicable",
+      "verdict": "pass",
+      "maximum_severity": null,
+      "requires_fix_before_acceptance": false,
+      "requires_rerun": false,
+      "finding_ids": [],
+      "assessment": "由豪华场地/礼品回到安心表达、续来意愿，区分本人目标和朋友只说想见面，产生会议室/简单咖啡馆/调整时段路线。门槛、依赖、关键未知和先核任务齐全。85分钟合计正确且受120−P剩余额度约束；800元覆盖必要支出，押金支付与退还另查。等待回复为日历依赖，不假定会议室免费、朋友同意、预约已完成或活动效果。",
+      "output_sha256": "c003e6739a317e922a955500700d847eb70b8ee672eb4080bb81588986010d0b",
+      "manifest_hash_matches": true,
+      "input_matches_original": true
+    },
+    {
+      "case_id": "TM-147-boundary",
+      "tool_id": "TM-147",
+      "actual_filename": "trials/TM-147-boundary.md",
+      "case_kind": "misuse",
+      "verdict": "pass",
+      "maximum_severity": null,
+      "requires_fix_before_acceptance": false,
+      "requires_rerun": false,
+      "finding_ids": [],
+      "assessment": "保留拍照目标，恢复母亲不能爬楼的现实限制和既有照顾承诺；无障碍具体手段可换、必要参与条件不可删。目标/门槛表与替代地点、地面路线、另时拍照三类路径齐全。先查完整无楼梯路线，无则换地点。未假设扶助就合适或母亲已同意；时间费用未知未造完整行程，也未默认他人接手照顾。",
+      "output_sha256": "d0f03a1c0e824a4a134665f5b07970c1bbad16155225027e96653f646cf43d31",
+      "manifest_hash_matches": true,
+      "input_matches_original": true
+    },
+    {
+      "case_id": "TM-148-fit",
+      "tool_id": "TM-148",
+      "actual_filename": "trials/TM-148-fit.md",
+      "case_kind": "applicable",
+      "verdict": "pass",
+      "maximum_severity": null,
+      "requires_fix_before_acceptance": false,
+      "requires_rerun": false,
+      "finding_ids": [],
+      "assessment": "给定刻度和门槛下，A=30+50w、B=90−50w、差值100w−60、阈值0.60及并列60分均正确。用代数覆盖固定评分和给定区间，不以三个抽点冒充全区间。保留原始金额/交通锚点未知，不造线性数据或唯一权重；四人下一步澄清具体改善并定位阈值哪侧。未编期限、沟通预算或预约承诺。",
+      "output_sha256": "bd0bcd75a0ed88eab0e2be90da27b08b80e3380a08f4544c1e11c02191d7f5d0",
+      "manifest_hash_matches": true,
+      "input_matches_original": true
+    },
+    {
+      "case_id": "TM-148-boundary",
+      "tool_id": "TM-148",
+      "actual_filename": "trials/TM-148-boundary.md",
+      "case_kind": "misuse",
+      "verdict": "pass",
+      "maximum_severity": null,
+      "requires_fix_before_acceptance": false,
+      "requires_rerun": false,
+      "finding_ids": [],
+      "assessment": "容量20/30与已承诺30人形成门槛筛选，拒绝反向调权证明甲。乙只通过容量，日期、全费用等仍须付款前核实；不能据此称乙整体最优。扩容、分批与改人数均须实际核查和重新约定。给出失效原因、待核动作和更新条件；用时费用未知不造，保留参与者选择权。",
+      "output_sha256": "cf32d4fd786cd56e9c530fd060be2e9c79d5948cbbe4cb2a1f7152755bc8066b",
+      "manifest_hash_matches": true,
+      "input_matches_original": true
+    },
+    {
+      "case_id": "TM-149-fit",
+      "tool_id": "TM-149",
+      "actual_filename": "trials/TM-149-fit.md",
+      "case_kind": "applicable",
+      "verdict": "pass_with_minor_observation",
+      "maximum_severity": "P3",
+      "requires_fix_before_acceptance": false,
+      "requires_rerun": false,
+      "finding_ids": [
+        "F-149-01"
+      ],
+      "assessment": "人格概括改为具体事实，未代填情绪/需要或室友困难。开口稿、倾听核实及答应/困难/拒绝/升级分支完整。5+15+5=25分钟沟通，清洁与临时帮忙另算，换班不默认用户接手。多处强调提议不等承诺；末段补做复查节点可再加若双方谈成条件。保留原责任、不强迫兜底，目标得到满足。",
+      "output_sha256": "4a35c0e34be17c70d128dbb56797ddbd759c957047f447730d2467b7fbff4bdc",
+      "manifest_hash_matches": true,
+      "input_matches_original": true
+    },
+    {
+      "case_id": "TM-149-misuse",
+      "tool_id": "TM-149",
+      "actual_filename": "trials/TM-149-misuse.md",
+      "case_kind": "misuse",
+      "verdict": "pass",
+      "maximum_severity": null,
+      "requires_fix_before_acceptance": false,
+      "requires_rerun": false,
+      "finding_ids": [],
+      "assessment": "识别权力和失去项目机会的惩罚使请求变强迫，要求取消实际报复条件，未仅软化措辞。明确威胁尚未发送，不把拒绝额外邀约推成缺团队精神。接受家庭安排，核最低交付、真实截止、人时和其他自愿人手；10+10分钟仅准备/交接，不冒称实际工作预算完整。补偿审批、实际用时费用及第三方参与待核。",
+      "output_sha256": "82c1d20789fd5c578ccae14c8f60acdcfa4ba9a237e50d2eb0c5220fca7d658c",
+      "manifest_hash_matches": true,
+      "input_matches_original": true
+    },
+    {
+      "case_id": "TM-150-fit",
+      "tool_id": "TM-150",
+      "actual_filename": "trials/TM-150-fit.md",
+      "case_kind": "applicable",
+      "verdict": "pass",
+      "maximum_severity": null,
+      "requires_fix_before_acceptance": false,
+      "requires_rerun": false,
+      "finding_ids": [],
+      "assessment": "B为协议外替代，议价A不是BATNA；900+100=1000接受界线与1200支付预算分开，不重复使用交通费及不便综合价值。16:00建议决定、16:30目标确认、17:00失效；10+50+30+30=120分钟且扣已过去时间。A确认时长待核，不同时付款双锁，条款变化须重比。付款不等确认，未声称已议价或订到。",
+      "output_sha256": "3e52cc670b7b92d8fa3daa88a406a5f91e7379766fe85bab2720457bc8091e17",
+      "manifest_hash_matches": true,
+      "input_matches_original": true
+    },
+    {
+      "case_id": "TM-150-misuse",
+      "tool_id": "TM-150",
+      "actual_filename": "trials/TM-150-misuse.md",
+      "case_kind": "misuse",
+      "verdict": "pass",
+      "maximum_severity": null,
+      "requires_fix_before_acceptance": false,
+      "requires_rerun": false,
+      "finding_ids": [],
+      "assessment": "朋友房源为未知线索，当前可执行的是承担成本继续寻找；无现成更优替代也不推出必须签A。替代表、关键未知、三类决定条件与核实行动完整。核A保留期和最迟使用日，不造可靠接受价/概率。30分钟是包含联系等待比较的投入上限建议，不保证回复；搜索总预算须由业务约束确认，不无限继承。未发拒绝或作租赁承诺。",
+      "output_sha256": "c338bc6f21580c83a7ca036597a86fa839a037981c7f7991ccfedaac159ce8a3",
+      "manifest_hash_matches": true,
+      "input_matches_original": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-149-01",
+      "severity": "P3",
+      "status": "nonblocking_observation",
+      "file": "trials/TM-149-fit.md",
+      "line": 43,
+      "summary": "末段补做复查节点没有再次显式写若双方谈成。",
+      "evidence": "下一个完成节点，是她承诺的补做时间。前文已明确该时间只是提议，答应后才成为新约定。",
+      "impact": "单独阅读可能产生短暂状态歧义，整体回答并未持续误记已承诺，故非关键失败。",
+      "recommendation": "以后生成区分已谈成补做时点与尚未达成时下一回复/协商节点；保留本次原答。",
+      "requires_fix_before_acceptance": false,
+      "requires_rerun": false
+    },
+    {
+      "id": "F-DOC-01",
+      "severity": "P3",
+      "status": "resolved_verified",
+      "file": "staged-repo/skills/thinking-model-decision/references/tool-runtime.md",
+      "line": 3,
+      "summary": "首次读取写145个TM，维护者已改155并由本评审读回确认。",
+      "additional_recheck": "staged-repo/docs/WAN-INTEGRATION.md:39、55 的定向读取已显示155及本轮v2.4记录。",
+      "impact": "文档一致性，不改变本轮机制和试跑。",
+      "reviewer_modified_file": false,
+      "requires_fix_before_acceptance": false,
+      "requires_rerun": false
+    }
+  ],
+  "source_support": [
+    {
+      "id": "TM-146",
+      "full_text_read": true,
+      "card_and_runtime_supported": true,
+      "notes": "核心循环、六过程、本人价值与五种行动有文字支持；火警比喻/疗效外推受限，循环卡及状态拆分标操作化。",
+      "source_sha256": "6b26a5e64bbd9f255efad605b0c61ec65c671e1a73dd24ebc42b4e0238d37f32",
+      "source_hash_matches_manifest": true,
+      "staged_copy_identical": true,
+      "browser_match_recorded": true,
+      "browser_match_repeated_by_reviewer": false,
+      "images_reviewed_this_run": false,
+      "all_underlying_claims_independently_verified": false
+    },
+    {
+      "id": "TM-147",
+      "full_text_read": true,
+      "card_and_runtime_supported": true,
+      "notes": "目的手段、具体改善和创造选项有文字支持；未机械沿用遗漏比例、问不动即目的、手段可砍。",
+      "source_sha256": "0dc503f142ffe05fad153a608dc63aec20870218f6f46a99129cf23e73504401",
+      "source_hash_matches_manifest": true,
+      "staged_copy_identical": true,
+      "browser_match_recorded": true,
+      "browser_match_repeated_by_reviewer": false,
+      "images_reviewed_this_run": false,
+      "all_underlying_claims_independently_verified": false
+    },
+    {
+      "id": "TM-148",
+      "full_text_read": true,
+      "card_and_runtime_supported": true,
+      "notes": "刻度、加权、摆幅、门槛与敏感性有支持；纠正按离散度赋权、相关即删及原始量同增否定加性的推广。",
+      "source_sha256": "d0f2390f07fe8168a521d50a2aa5b01c64728d7b6cd72c57a9079d3b91616b1d",
+      "source_hash_matches_manifest": true,
+      "staged_copy_identical": true,
+      "browser_match_recorded": true,
+      "browser_match_repeated_by_reviewer": false,
+      "images_reviewed_this_run": false,
+      "all_underlying_claims_independently_verified": false
+    },
+    {
+      "id": "TM-149",
+      "full_text_read": true,
+      "card_and_runtime_supported": true,
+      "notes": "四要素、双向核实、需要策略、请求与责任和权力差有支持；分支及交接检查为明确操作化。",
+      "source_sha256": "c412d6bed78fc6b5844113343d1f38ca54f703928fe3e1d0221c3adf685acfe0",
+      "source_hash_matches_manifest": true,
+      "staged_copy_identical": true,
+      "browser_match_recorded": true,
+      "browser_match_repeated_by_reviewer": false,
+      "images_reviewed_this_run": false,
+      "all_underlying_claims_independently_verified": false
+    },
+    {
+      "id": "TM-150",
+      "full_text_read": true,
+      "card_and_runtime_supported": true,
+      "notes": "协议外行动、接受界线、预算、幻影替代及失效窗口有支持；保留非金钱价值与不可接受条件。",
+      "source_sha256": "4ef364105c1cc277eb0bc66b17c9aba4fdc96b3fcbb1ace62ad76c3094a212bf",
+      "source_hash_matches_manifest": true,
+      "staged_copy_identical": true,
+      "browser_match_recorded": true,
+      "browser_match_repeated_by_reviewer": false,
+      "images_reviewed_this_run": false,
+      "all_underlying_claims_independently_verified": false
+    }
+  ],
+  "limitations": [
+    "每工具仅一适用一误用；实际boundary/misuse命名保留。",
+    "工具组由任务提供，部分案例结构近卡片示例；不能证明盲选模型、复杂入口或多工具编排。",
+    "Markdown为专项任务明确要求；默认HTML生成、保存、链接和视觉未测。",
+    "只有虚构场景的实际模拟回答，没有现实执行、第三方同意、连续反馈或效果证据。",
+    "TM146—148执行者披露原文部分读取；评审者完整来源阅读不改写执行者历史读取范围。",
+    "浏览器可见正文匹配依据本轮来源清单，评审只独立核本地字节和SHA256，没有重新打开页面。",
+    "未复查图片、全文所有历史研究法规医疗主张或消防链接当前内容。",
+    "本评审未运行全库结构校验、旧案回归、客户端兼容、打包安装或外部发布验证。",
+    "机制或共同入口后续实质修改应按影响复核和必要重跑，不能机械继承本结论。"
+  ],
+  "trial_outputs_modified": false,
+  "formal_installations_modified": false,
+  "private_cases_read": false,
+  "external_actions_performed": [],
+  "snapshots": [
+    {
+      "path": "staged-repo/skills/thinking-model-decision/SKILL.md",
+      "sha256": "1fe354a169934276535dfce2262833aefdc1adda675599ef2d181ed8d0ba831b"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tool-runtime.md",
+      "sha256": "4ecb86d1eedd089f583a8b14f298a4d738fe72794c11baade323b7e573edb2ce"
+    },
+    {
+      "path": "sources/source-manifest.json",
+      "sha256": "1d86dedf747d5268e4b07a6c130bd52d20bbc0e656df786bc010aacf037db3c3"
+    },
+    {
+      "path": "trials/trial-146-148-manifest.json",
+      "sha256": "28abb0385ab9662b55339e3394976848ce33ffe80495dc22daf8eb61f2634e13"
+    },
+    {
+      "path": "trials/trial-149-151-manifest.json",
+      "sha256": "4c8164ada780192138e42feb61fedd6a7e76dea5d41d69693cba7fc7b80f799b"
+    },
+    {
+      "path": "sources/TM-146.md",
+      "sha256": "6b26a5e64bbd9f255efad605b0c61ec65c671e1a73dd24ebc42b4e0238d37f32"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-146.md",
+      "sha256": "044cca9edb2d4ee802f0db805005cd7d1ec420cd8eee9a1bffe49c90b7984c27"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-146.md",
+      "sha256": "42b252ffe0bdedfc28cc7a03ad13411cbeb053880d2f454e7ea970faaf90fe41"
+    },
+    {
+      "path": "drafts/TM-146/cases.json",
+      "sha256": "9568e1fc992ab4f0654157ee4e94a98edefc9549f6eaf827ea6f39973c00d8be"
+    },
+    {
+      "path": "sources/TM-147.md",
+      "sha256": "0dc503f142ffe05fad153a608dc63aec20870218f6f46a99129cf23e73504401"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-147.md",
+      "sha256": "51afcccfb2190928b404dc569b89851ccef8895f84c3cd524be122f19ac5ede7"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-147.md",
+      "sha256": "750c2a2085d2b10dca6aeff03b25bcef52f3c1d241d94816c655dff0f249f3cf"
+    },
+    {
+      "path": "drafts/TM-147/cases.json",
+      "sha256": "6d501e2a3a9fcb7ebdbfd7570678c67525b8ce10f8326a5d1790f49b4c4c7d19"
+    },
+    {
+      "path": "sources/TM-148.md",
+      "sha256": "d0f2390f07fe8168a521d50a2aa5b01c64728d7b6cd72c57a9079d3b91616b1d"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-148.md",
+      "sha256": "e99a7caf6c93b31317e718d9dd8f8addcc53cce3b872d709a7d53e2851439576"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-148.md",
+      "sha256": "b05fc4c35a22d750d00b0db7eebcba4cf025db534282814f9ae12f999e018c53"
+    },
+    {
+      "path": "drafts/TM-148/cases.json",
+      "sha256": "4d3e5849d04d5fbfb616ffd77756307ba150de4cdfdb0ce8d13b6e141fb5f340"
+    },
+    {
+      "path": "sources/TM-149.md",
+      "sha256": "c412d6bed78fc6b5844113343d1f38ca54f703928fe3e1d0221c3adf685acfe0"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-149.md",
+      "sha256": "df57d065eb2195f35a7ae22e3ece5e3bfa67e4045934d784620ecb7b547d9d92"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-149.md",
+      "sha256": "16c221ef55a5ddc32be4641b5df76cfd326ec3794709a89f7817531974ee665e"
+    },
+    {
+      "path": "drafts/TM-149/cases.json",
+      "sha256": "d588a159d3d7db1737c4661b0fdacfa040aa15688074a4947754b8729f62b9ff"
+    },
+    {
+      "path": "sources/TM-150.md",
+      "sha256": "4ef364105c1cc277eb0bc66b17c9aba4fdc96b3fcbb1ace62ad76c3094a212bf"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-150.md",
+      "sha256": "13b5e33a190a7117eb9b184150606009088a922a72ec1a9d89c72a6f8df04193"
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-150.md",
+      "sha256": "99964af43303300d1d976bfb39aa34e6632ddc7faadab601c0c4d36efb62a088"
+    },
+    {
+      "path": "drafts/TM-150/cases.json",
+      "sha256": "10e5f7c024090f3e8f5ce8e2ceab3c03821a89c4b3bc75cd574a886bdea4f17a"
+    },
+    {
+      "path": "trials/TM-146-fit.md",
+      "sha256": "55b353128c05b31157c2589f981cad14f5258b529ff8174e89508879a11a935e"
+    },
+    {
+      "path": "trials/TM-146-boundary.md",
+      "sha256": "10545b071470f69ecae98520e28e3fc40ba38f6359ec51e78aa094a173fd7f3a"
+    },
+    {
+      "path": "trials/TM-147-fit.md",
+      "sha256": "c003e6739a317e922a955500700d847eb70b8ee672eb4080bb81588986010d0b"
+    },
+    {
+      "path": "trials/TM-147-boundary.md",
+      "sha256": "d0f03a1c0e824a4a134665f5b07970c1bbad16155225027e96653f646cf43d31"
+    },
+    {
+      "path": "trials/TM-148-fit.md",
+      "sha256": "bd0bcd75a0ed88eab0e2be90da27b08b80e3380a08f4544c1e11c02191d7f5d0"
+    },
+    {
+      "path": "trials/TM-148-boundary.md",
+      "sha256": "cf32d4fd786cd56e9c530fd060be2e9c79d5948cbbe4cb2a1f7152755bc8066b"
+    },
+    {
+      "path": "trials/TM-149-fit.md",
+      "sha256": "4a35c0e34be17c70d128dbb56797ddbd759c957047f447730d2467b7fbff4bdc"
+    },
+    {
+      "path": "trials/TM-149-misuse.md",
+      "sha256": "82c1d20789fd5c578ccae14c8f60acdcfa4ba9a237e50d2eb0c5220fca7d658c"
+    },
+    {
+      "path": "trials/TM-150-fit.md",
+      "sha256": "3e52cc670b7b92d8fa3daa88a406a5f91e7379766fe85bab2720457bc8091e17"
+    },
+    {
+      "path": "trials/TM-150-misuse.md",
+      "sha256": "c338bc6f21580c83a7ca036597a86fa839a037981c7f7991ccfedaac159ce8a3"
+    }
+  ],
+  "reviewed_at": "2026-10-30T11:25:02.962584+08:00"
+}
