@@ -1,0 +1,175 @@
+{
+  "review_id": "TM-156-complete-entry-review",
+  "reviewed_at": "2026-11-01T05:25:56.704673+00:00",
+  "reviewer": "daily_baseline_1101",
+  "reviewer_role": "Independent of source/card/runtime, cases and executor responses; peripheral release docs and baseline work only. Full original answers inspected, then independent exact computation from user input; no response or skill edited.",
+  "verdict": "passed_with_explicit_validation_limits",
+  "passed_cases": 2,
+  "blocking_failures": [],
+  "required_changes": [],
+  "manifest_sha256": "fb718f759f5ed88f54c488512d4d47acf473b5e54dc2bf78ee8daa3cf5e685ff",
+  "input_file_sha256": "ed0aa697f747e65170e1c25f108ebee3771cae6890699a657ec2ed2534b6f92b",
+  "original_hash_checks": [
+    {
+      "path": "../trials/entry-staged-choice.md",
+      "expected_sha256": "a59543dddc8f24e58c027bac8619a0089429598ef4a6ba034dfac09c9cb4fa6d",
+      "actual_sha256": "a59543dddc8f24e58c027bac8619a0089429598ef4a6ba034dfac09c9cb4fa6d",
+      "hash_match": true,
+      "actual_bytes": 5794,
+      "bytes_match": true
+    },
+    {
+      "path": "../trials/entry-staged-choice.html",
+      "expected_sha256": "115466423b06b2e6fd65a7671990df393736cb18b6928bad3e9dc1304dd614b2",
+      "actual_sha256": "115466423b06b2e6fd65a7671990df393736cb18b6928bad3e9dc1304dd614b2",
+      "hash_match": true,
+      "actual_bytes": 19958,
+      "bytes_match": true
+    },
+    {
+      "path": "../trials/entry-first-turn.md",
+      "expected_sha256": "911e9716a0d43edf056f6855cda186c9330706eeee252854a8756e6c5025d988",
+      "actual_sha256": "911e9716a0d43edf056f6855cda186c9330706eeee252854a8756e6c5025d988",
+      "hash_match": true,
+      "actual_bytes": 1784,
+      "bytes_match": true
+    }
+  ],
+  "full_requests_match": {
+    "entry-staged-choice": true,
+    "entry-first-turn": true
+  },
+  "source_card_runtime_current_sha256": {
+    "staged-repo/skills/thinking-model-decision/references/user-models/TM-156.md": "0be6c097db29472cb2723c57d80f512961961e2e5ed686ddcfb5c85ad06b8c6b",
+    "staged-repo/skills/thinking-model-decision/references/cards/TM-156.md": "86516249e7c962af371f937a448f082727b68aeb1f105f29e80ce6ff95360947",
+    "staged-repo/skills/thinking-model-decision/references/tools/TM-156.md": "55eb7989c2040f92c171ae0b3a81c679a476e86bcee9fcf8ede78a2aaf91232d"
+  },
+  "source_card_runtime_match_pretrial_and_local_review": true,
+  "source_card_runtime_resource_read_time_hashes_recorded_by_executor": false,
+  "case_reviews": [
+    {
+      "id": "entry-staged-choice",
+      "verdict": "pass",
+      "checks": [
+        {
+          "criterion": "工具适配与真实产物",
+          "result": "pass",
+          "reason": "TM-156负责信息时序、后验、条件策略、成本/红线和倒推。WW-3.5核对信息价值且明确合并重叠机制；目录候选未冒称已运行。题设排除干预和其他等待损失，未堆叠无贡献模型。",
+          "evidence_excerpt": "实际采用TM-156决策树"
+        },
+        {
+          "criterion": "完整策略与非预知",
+          "result": "pass",
+          "reason": "现在只有先验，15:30前取信号、17:00前行动、真实热度后见。同一信号同一动作；不偷偷按未来热度行动。",
+          "evidence_excerpt": "这里不能写成“知道高热度才办”"
+        },
+        {
+          "criterion": "概率及分支倒推",
+          "result": "pass",
+          "reason": "联合30/15/10/45、信号45/55、后验2/3与2/11；局部3333.33及−545.45；25%阈值；好办差停。",
+          "evidence_excerpt": "报差后=10%÷55%=2/11"
+        },
+        {
+          "criterion": "完整成本与当前建议",
+          "result": "pass",
+          "reason": "举办成本已在6000/−2000内，新增500+200恰扣一次。停止仍亏700；四规则800/500/−700/−1000，整体直接1200胜出。",
+          "evidence_excerpt": "四种收到信号后的固定规则也可检查"
+        },
+        {
+          "criterion": "价值与边界",
+          "result": "pass",
+          "reason": "毛策略1500、毛信息价值300、净信息价值−400；全成本300打平，固定人工200时信号报价100打平；EVPI1200仅纯信息上限。",
+          "evidence_excerpt": "保持其他条件不变，完整信息成本低于300元才严格优于直接办"
+        },
+        {
+          "criterion": "全风险与硬红线",
+          "result": "pass",
+          "reason": "最终分布30%5300、15%−2700、55%−700；亏损概率70%vs60%、至少2000亏损15%vs60%、最坏2700vs2000、突破3500均0，未泛称更安全。",
+          "evidence_excerpt": "不能笼统说买信号更安全"
+        },
+        {
+          "criterion": "120分钟合计与时序",
+          "result": "pass",
+          "reason": "推荐10+20+10=40、演练10+40+20+20+10=100，均含阅读/核对/沟通/记录；扣已用t，已完成项不重扣。12点购买、15:30信号、17点确认；若晚到报告最迟16:20读，最迟16:40确认。",
+          "evidence_excerpt": "今日剩余额度就是120−t，不能重新当作120分钟"
+        },
+        {
+          "criterion": "延迟/费用既成后的重算",
+          "result": "pass",
+          "reason": "买信号前过12点即失效；若费用已付且无可用信号，回到先验选直接，EV500且最坏2700；未保留错误1200。",
+          "evidence_excerpt": "完整期望变为500元，最大损失2700元"
+        },
+        {
+          "criterion": "实施/反馈/状态",
+          "result": "pass",
+          "reason": "清楚负责人、20分钟必要确认、完成记录、成本/概率/损失/时序/干预变化重算；未来复盘不偷占当天预算；模拟建议不冒称执行。",
+          "evidence_excerpt": "购买、确认举办、执行及实际结果均未发生"
+        },
+        {
+          "criterion": "HTML交付",
+          "result": "pass",
+          "reason": "实际文件完整存在、UTF-8、自包含、导航/本地路径有效、无脚本或外部资产、响应式/打印CSS具备；首屏结论/动作/条件清晰且最终回复链接到实物。视觉检查明确未做。",
+          "evidence_excerpt": "本轮未进行浏览器视觉预览"
+        }
+      ]
+    },
+    {
+      "id": "entry-first-turn",
+      "verdict": "pass",
+      "actual_response": "好，我们一步一步来，不急着下结论。你不用一次把所有事情都讲清楚。\n\n**最近哪一件具体的事，让你开始觉得越想越乱？**",
+      "checks": [
+        {
+          "criterion": "单个主要问题",
+          "result": "pass",
+          "reason": "只问最近一件具体事件；一个问号不夹带独立目标、约束或答案问题。"
+        },
+        {
+          "criterion": "等待真实回答",
+          "result": "pass",
+          "reason": "未替答、未推断事件或成因、未承接摄影案例背景；未给最终方案或生成HTML。"
+        },
+        {
+          "criterion": "当前澄清适配",
+          "result": "pass",
+          "reason": "用户只求逐步理清；先定位具体情境符合入口，无具体模型使用声明。"
+        }
+      ]
+    }
+  ],
+  "arithmetic_file": "entry-arithmetic.json",
+  "static_html_checks": {
+    "utf8_decoded": true,
+    "doctype_present": true,
+    "lang": "zh-CN",
+    "main_count": 1,
+    "html_count": 1,
+    "body_count": 1,
+    "charset_utf8": true,
+    "viewport_present": true,
+    "internal_style_count": 1,
+    "details_count": 3,
+    "script_count": 0,
+    "event_handler_attributes": [],
+    "src_and_link_assets": [],
+    "css_url_dependencies": [],
+    "print_css_present": true,
+    "narrow_screen_css_present": true,
+    "table_scroll_css_present": true,
+    "duplicate_ids": [],
+    "missing_fragment_targets": [],
+    "missing_local_link_targets": [],
+    "local_link_count": 4,
+    "suspected_template_placeholders": [],
+    "full_request_preserved": true,
+    "browser_visual_preview_performed": false,
+    "visual_limits": "No desktop/narrow-screen/print rendering or interaction checked. CSS presence does not establish rendered layout correctness."
+  },
+  "limits": [
+    "Only two actual simulated entry cases in the same executor context, not two isolated sessions or all-client tests.",
+    "No browser desktop/mobile/print visual preview; only static HTML and link checks.",
+    "Current source/card/runtime bytes match earlier independent review snapshots; executor recorded paths rather than read-time hashes, so exact loaded historical bytes cannot be reconstructed beyond this evidence.",
+    "Timing is a fictional 11:00 scenario, not an assertion of the real clock. Actual reading/communication/analysis time remains to be deducted by the user.",
+    "Local source links are valid at review time; maintainer must relocate and recheck them if copying reports into public validation directories.",
+    "No real supplier contact, payment, purchase, event confirmation or observed business result verified; no general guarantee from these simulations."
+  ]
+}

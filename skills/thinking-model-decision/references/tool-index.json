@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "version": "2.4.0",
-  "scope": "143 runtime tools; source checking, recorded trials, reviewed trials and real outcomes are distinct.",
+  "version": "2.5.0",
+  "scope": "156 runtime tools; source checking, recorded trials, reviewed trials and real outcomes are distinct.",
   "tools": [
     {
       "id": "TM-001",
@@ -5167,6 +5167,50 @@
       "card_sha256": "2158761b4d37944088e5572c1d4d5189ab9621b751fea1503c208b4bd313e674",
       "runtime_path": "references/tools/TM-155.md",
       "runtime_sha256": "f00060236a69e5b4d5e3308b51e485c1e255b0c29aa7ad6d2379777c26816503"
+    },
+    {
+      "id": "TM-156",
+      "name": "决策树",
+      "task": "把分阶段行动、信息到达和不确定后果展开成完整策略，核对条件概率与全路径代价，再决定当前及各信号下怎样行动",
+      "roles": [
+        "澄清",
+        "证据",
+        "约束",
+        "选项",
+        "取舍",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "方案打分清楚还是选错",
+        "先测试还是直接做",
+        "信号出来再决定",
+        "测试费值不值",
+        "测完怎么办",
+        "概率能不能倒过来",
+        "期望收益最高但赔不起",
+        "调查结果来得太晚",
+        "怎样定继续和停止条件"
+      ],
+      "output": "按信息顺序的决策树或分支表、条件概率与全路径账、可行性及倒推记录、分信号行动规则和重算条件",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.5.0/trials/TM-156-fit.md",
+        "references/evaluation/v2.5.0/trials/TM-156-misuse.md"
+      ],
+      "review_records": [
+        "references/evaluation/v2.5.0/reviews/tool-review.md",
+        "references/evaluation/v2.5.0/reviews/entry-review.md"
+      ],
+      "source_review_records": [
+        "references/validation/TM-156-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-156.md",
+      "source_sha256": "0be6c097db29472cb2723c57d80f512961961e2e5ed686ddcfb5c85ad06b8c6b",
+      "card_path": "references/cards/TM-156.md",
+      "card_sha256": "86516249e7c962af371f937a448f082727b68aeb1f105f29e80ce6ff95360947",
+      "runtime_path": "references/tools/TM-156.md",
+      "runtime_sha256": "55eb7989c2040f92c171ae0b3a81c679a476e86bcee9fcf8ede78a2aaf91232d"
     }
   ]
 }

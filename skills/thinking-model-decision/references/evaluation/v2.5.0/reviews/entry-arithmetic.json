@@ -1,0 +1,382 @@
+{
+  "method": "Exact Fraction arithmetic and all four deterministic signal policies independently enumerated from the user request.",
+  "joints": {
+    "high_positive": {
+      "fraction": "3/10",
+      "decimal": 0.3
+    },
+    "low_positive": {
+      "fraction": "3/20",
+      "decimal": 0.15
+    },
+    "high_negative": {
+      "fraction": "1/10",
+      "decimal": 0.1
+    },
+    "low_negative": {
+      "fraction": "9/20",
+      "decimal": 0.45
+    }
+  },
+  "signal_positive_probability": {
+    "fraction": "9/20",
+    "decimal": 0.45
+  },
+  "signal_negative_probability": {
+    "fraction": "11/20",
+    "decimal": 0.55
+  },
+  "posterior_high_positive": {
+    "fraction": "2/3",
+    "decimal": 0.6666666666666666
+  },
+  "posterior_high_negative": {
+    "fraction": "2/11",
+    "decimal": 0.18181818181818182
+  },
+  "host_after_positive_continuation_ev": {
+    "fraction": "10000/3",
+    "decimal": 3333.3333333333335
+  },
+  "host_after_negative_continuation_ev": {
+    "fraction": "-6000/11",
+    "decimal": -545.4545454545455
+  },
+  "posterior_host_threshold": {
+    "fraction": "1/4",
+    "decimal": 0.25
+  },
+  "direct_ev": {
+    "fraction": "1200",
+    "decimal": 1200.0
+  },
+  "no_host_ev": {
+    "fraction": "0",
+    "decimal": 0.0
+  },
+  "gross_signal_strategy_ev": {
+    "fraction": "1500",
+    "decimal": 1500.0
+  },
+  "net_signal_strategy_ev": {
+    "fraction": "800",
+    "decimal": 800.0
+  },
+  "gross_information_value": {
+    "fraction": "300",
+    "decimal": 300.0
+  },
+  "net_information_value": {
+    "fraction": "-400",
+    "decimal": -400.0
+  },
+  "total_cost_ev_tie": {
+    "fraction": "300",
+    "decimal": 300.0
+  },
+  "quote_ev_tie_with_labor_200": {
+    "fraction": "100",
+    "decimal": 100.0
+  },
+  "total_cost_loss_cap": {
+    "fraction": "1500",
+    "decimal": 1500.0
+  },
+  "perfect_information_value": {
+    "fraction": "1200",
+    "decimal": 1200.0
+  },
+  "policies": {
+    "stop/stop": {
+      "expected_net": {
+        "fraction": "-700",
+        "decimal": -700.0
+      },
+      "maximum_loss": {
+        "fraction": "700",
+        "decimal": 700.0
+      },
+      "loss_probability": {
+        "fraction": "1",
+        "decimal": 1.0
+      },
+      "loss_at_least_2000_probability": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "breach_3500_probability": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "joint_outcomes": [
+        {
+          "probability": {
+            "fraction": "3/10",
+            "decimal": 0.3
+          },
+          "net": {
+            "fraction": "-700",
+            "decimal": -700.0
+          }
+        },
+        {
+          "probability": {
+            "fraction": "3/20",
+            "decimal": 0.15
+          },
+          "net": {
+            "fraction": "-700",
+            "decimal": -700.0
+          }
+        },
+        {
+          "probability": {
+            "fraction": "1/10",
+            "decimal": 0.1
+          },
+          "net": {
+            "fraction": "-700",
+            "decimal": -700.0
+          }
+        },
+        {
+          "probability": {
+            "fraction": "9/20",
+            "decimal": 0.45
+          },
+          "net": {
+            "fraction": "-700",
+            "decimal": -700.0
+          }
+        }
+      ]
+    },
+    "stop/host": {
+      "expected_net": {
+        "fraction": "-1000",
+        "decimal": -1000.0
+      },
+      "maximum_loss": {
+        "fraction": "2700",
+        "decimal": 2700.0
+      },
+      "loss_probability": {
+        "fraction": "9/10",
+        "decimal": 0.9
+      },
+      "loss_at_least_2000_probability": {
+        "fraction": "9/20",
+        "decimal": 0.45
+      },
+      "breach_3500_probability": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "joint_outcomes": [
+        {
+          "probability": {
+            "fraction": "3/10",
+            "decimal": 0.3
+          },
+          "net": {
+            "fraction": "-700",
+            "decimal": -700.0
+          }
+        },
+        {
+          "probability": {
+            "fraction": "3/20",
+            "decimal": 0.15
+          },
+          "net": {
+            "fraction": "-700",
+            "decimal": -700.0
+          }
+        },
+        {
+          "probability": {
+            "fraction": "1/10",
+            "decimal": 0.1
+          },
+          "net": {
+            "fraction": "5300",
+            "decimal": 5300.0
+          }
+        },
+        {
+          "probability": {
+            "fraction": "9/20",
+            "decimal": 0.45
+          },
+          "net": {
+            "fraction": "-2700",
+            "decimal": -2700.0
+          }
+        }
+      ]
+    },
+    "host/stop": {
+      "expected_net": {
+        "fraction": "800",
+        "decimal": 800.0
+      },
+      "maximum_loss": {
+        "fraction": "2700",
+        "decimal": 2700.0
+      },
+      "loss_probability": {
+        "fraction": "7/10",
+        "decimal": 0.7
+      },
+      "loss_at_least_2000_probability": {
+        "fraction": "3/20",
+        "decimal": 0.15
+      },
+      "breach_3500_probability": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "joint_outcomes": [
+        {
+          "probability": {
+            "fraction": "3/10",
+            "decimal": 0.3
+          },
+          "net": {
+            "fraction": "5300",
+            "decimal": 5300.0
+          }
+        },
+        {
+          "probability": {
+            "fraction": "3/20",
+            "decimal": 0.15
+          },
+          "net": {
+            "fraction": "-2700",
+            "decimal": -2700.0
+          }
+        },
+        {
+          "probability": {
+            "fraction": "1/10",
+            "decimal": 0.1
+          },
+          "net": {
+            "fraction": "-700",
+            "decimal": -700.0
+          }
+        },
+        {
+          "probability": {
+            "fraction": "9/20",
+            "decimal": 0.45
+          },
+          "net": {
+            "fraction": "-700",
+            "decimal": -700.0
+          }
+        }
+      ]
+    },
+    "host/host": {
+      "expected_net": {
+        "fraction": "500",
+        "decimal": 500.0
+      },
+      "maximum_loss": {
+        "fraction": "2700",
+        "decimal": 2700.0
+      },
+      "loss_probability": {
+        "fraction": "3/5",
+        "decimal": 0.6
+      },
+      "loss_at_least_2000_probability": {
+        "fraction": "3/5",
+        "decimal": 0.6
+      },
+      "breach_3500_probability": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "joint_outcomes": [
+        {
+          "probability": {
+            "fraction": "3/10",
+            "decimal": 0.3
+          },
+          "net": {
+            "fraction": "5300",
+            "decimal": 5300.0
+          }
+        },
+        {
+          "probability": {
+            "fraction": "3/20",
+            "decimal": 0.15
+          },
+          "net": {
+            "fraction": "-2700",
+            "decimal": -2700.0
+          }
+        },
+        {
+          "probability": {
+            "fraction": "1/10",
+            "decimal": 0.1
+          },
+          "net": {
+            "fraction": "5300",
+            "decimal": 5300.0
+          }
+        },
+        {
+          "probability": {
+            "fraction": "9/20",
+            "decimal": 0.45
+          },
+          "net": {
+            "fraction": "-2700",
+            "decimal": -2700.0
+          }
+        }
+      ]
+    }
+  },
+  "direct_risk": {
+    "loss_probability": {
+      "fraction": "3/5",
+      "decimal": 0.6
+    },
+    "loss_at_least_2000_probability": {
+      "fraction": "3/5",
+      "decimal": 0.6
+    },
+    "maximum_loss": {
+      "fraction": "2000",
+      "decimal": 2000.0
+    },
+    "breach_3500_probability": {
+      "fraction": "0",
+      "decimal": 0.0
+    }
+  },
+  "paid_but_no_usable_signal_direct_ev": {
+    "fraction": "500",
+    "decimal": 500.0
+  },
+  "resources": {
+    "request_minimum_signal_minutes": 80,
+    "recommended_including_overhead_minutes": 40,
+    "signal_example_including_overhead_minutes": 100,
+    "recommended_slack_minutes": 80,
+    "signal_slack_minutes": 20,
+    "buy_cutoff": "12:00",
+    "report_promised_by": "15:30",
+    "decision_cutoff": "17:00",
+    "latest_report_read_start_if_late": "16:20",
+    "latest_confirmation_start": "16:40",
+    "rule": "Actual already-used time t reduces the shared 120-minute budget; completed tasks not charged twice; infeasible plans must be shortened or rejected."
+  }
+}

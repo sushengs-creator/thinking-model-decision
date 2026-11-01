@@ -1,0 +1,537 @@
+{
+  "reviewer_arithmetic_only_not_execution": true,
+  "source_article_example": {
+    "joint": {
+      "+S": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "+F": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "-S": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "-F": {
+        "exact": "2/5",
+        "decimal": 0.4
+      }
+    },
+    "signal_probability": {
+      "+": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "-": {
+        "exact": "1/2",
+        "decimal": 0.5
+      }
+    },
+    "posterior_success": {
+      "+": {
+        "exact": "4/5",
+        "decimal": 0.8
+      },
+      "-": {
+        "exact": "1/5",
+        "decimal": 0.2
+      }
+    },
+    "conditional_act_value_before_sunk_test_cost": {
+      "+": {
+        "exact": "5600",
+        "decimal": 5600.0
+      },
+      "-": {
+        "exact": "-1600",
+        "decimal": -1600.0
+      }
+    },
+    "no_test": {
+      "stop": 0,
+      "act": {
+        "exact": "2000",
+        "decimal": 2000.0
+      },
+      "best": {
+        "exact": "2000",
+        "decimal": 2000.0
+      }
+    },
+    "strategies": [
+      {
+        "policy": {
+          "+": "stop",
+          "-": "stop"
+        },
+        "expected": {
+          "exact": "-500",
+          "decimal": -500.0
+        },
+        "worst_loss": 500,
+        "loss_probability": {
+          "exact": "1",
+          "decimal": 1.0
+        },
+        "outcomes": [
+          {
+            "net": -500,
+            "probability": {
+              "exact": "1",
+              "decimal": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "policy": {
+          "+": "stop",
+          "-": "act"
+        },
+        "expected": {
+          "exact": "-1300",
+          "decimal": -1300.0
+        },
+        "worst_loss": 4500,
+        "loss_probability": {
+          "exact": "9/10",
+          "decimal": 0.9
+        },
+        "outcomes": [
+          {
+            "net": 7500,
+            "probability": {
+              "exact": "1/10",
+              "decimal": 0.1
+            }
+          },
+          {
+            "net": -500,
+            "probability": {
+              "exact": "1/2",
+              "decimal": 0.5
+            }
+          },
+          {
+            "net": -4500,
+            "probability": {
+              "exact": "2/5",
+              "decimal": 0.4
+            }
+          }
+        ]
+      },
+      {
+        "policy": {
+          "+": "act",
+          "-": "stop"
+        },
+        "expected": {
+          "exact": "2300",
+          "decimal": 2300.0
+        },
+        "worst_loss": 4500,
+        "loss_probability": {
+          "exact": "3/5",
+          "decimal": 0.6
+        },
+        "outcomes": [
+          {
+            "net": 7500,
+            "probability": {
+              "exact": "2/5",
+              "decimal": 0.4
+            }
+          },
+          {
+            "net": -500,
+            "probability": {
+              "exact": "1/2",
+              "decimal": 0.5
+            }
+          },
+          {
+            "net": -4500,
+            "probability": {
+              "exact": "1/10",
+              "decimal": 0.1
+            }
+          }
+        ]
+      },
+      {
+        "policy": {
+          "+": "act",
+          "-": "act"
+        },
+        "expected": {
+          "exact": "1500",
+          "decimal": 1500.0
+        },
+        "worst_loss": 4500,
+        "loss_probability": {
+          "exact": "1/2",
+          "decimal": 0.5
+        },
+        "outcomes": [
+          {
+            "net": 7500,
+            "probability": {
+              "exact": "1/2",
+              "decimal": 0.5
+            }
+          },
+          {
+            "net": -4500,
+            "probability": {
+              "exact": "1/2",
+              "decimal": 0.5
+            }
+          }
+        ]
+      }
+    ],
+    "best_strategy": {
+      "policy": {
+        "+": "act",
+        "-": "stop"
+      },
+      "expected": {
+        "exact": "2300",
+        "decimal": 2300.0
+      },
+      "worst_loss": 4500,
+      "loss_probability": {
+        "exact": "3/5",
+        "decimal": 0.6
+      },
+      "outcomes": [
+        {
+          "net": 7500,
+          "probability": {
+            "exact": "2/5",
+            "decimal": 0.4
+          }
+        },
+        {
+          "net": -500,
+          "probability": {
+            "exact": "1/2",
+            "decimal": 0.5
+          }
+        },
+        {
+          "net": -4500,
+          "probability": {
+            "exact": "1/10",
+            "decimal": 0.1
+          }
+        }
+      ]
+    },
+    "gross_information_value": {
+      "exact": "800",
+      "decimal": 800.0
+    },
+    "net_information_increment": {
+      "exact": "300",
+      "decimal": 300.0
+    },
+    "perfect_information_value": {
+      "exact": "2000",
+      "decimal": 2000.0
+    }
+  },
+  "fit_request_recomputation": {
+    "joint": {
+      "+S": {
+        "exact": "27/100",
+        "decimal": 0.27
+      },
+      "+F": {
+        "exact": "7/50",
+        "decimal": 0.14
+      },
+      "-S": {
+        "exact": "3/100",
+        "decimal": 0.03
+      },
+      "-F": {
+        "exact": "14/25",
+        "decimal": 0.56
+      }
+    },
+    "signal_probability": {
+      "+": {
+        "exact": "41/100",
+        "decimal": 0.41
+      },
+      "-": {
+        "exact": "59/100",
+        "decimal": 0.59
+      }
+    },
+    "posterior_success": {
+      "+": {
+        "exact": "27/41",
+        "decimal": 0.6585365853658537
+      },
+      "-": {
+        "exact": "3/59",
+        "decimal": 0.05084745762711865
+      }
+    },
+    "conditional_act_value_before_sunk_test_cost": {
+      "+": {
+        "exact": "201000/41",
+        "decimal": 4902.4390243902435
+      },
+      "-": {
+        "exact": "-141000/59",
+        "decimal": -2389.830508474576
+      }
+    },
+    "no_test": {
+      "stop": 0,
+      "act": {
+        "exact": "600",
+        "decimal": 600.0
+      },
+      "best": {
+        "exact": "600",
+        "decimal": 600.0
+      }
+    },
+    "strategies": [
+      {
+        "policy": {
+          "+": "stop",
+          "-": "stop"
+        },
+        "expected": {
+          "exact": "-600",
+          "decimal": -600.0
+        },
+        "worst_loss": 600,
+        "loss_probability": {
+          "exact": "1",
+          "decimal": 1.0
+        },
+        "outcomes": [
+          {
+            "net": -600,
+            "probability": {
+              "exact": "1",
+              "decimal": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "policy": {
+          "+": "stop",
+          "-": "act"
+        },
+        "expected": {
+          "exact": "-2010",
+          "decimal": -2010.0
+        },
+        "worst_loss": 3600,
+        "loss_probability": {
+          "exact": "97/100",
+          "decimal": 0.97
+        },
+        "outcomes": [
+          {
+            "net": 8400,
+            "probability": {
+              "exact": "3/100",
+              "decimal": 0.03
+            }
+          },
+          {
+            "net": -600,
+            "probability": {
+              "exact": "41/100",
+              "decimal": 0.41
+            }
+          },
+          {
+            "net": -3600,
+            "probability": {
+              "exact": "14/25",
+              "decimal": 0.56
+            }
+          }
+        ]
+      },
+      {
+        "policy": {
+          "+": "act",
+          "-": "stop"
+        },
+        "expected": {
+          "exact": "1410",
+          "decimal": 1410.0
+        },
+        "worst_loss": 3600,
+        "loss_probability": {
+          "exact": "73/100",
+          "decimal": 0.73
+        },
+        "outcomes": [
+          {
+            "net": 8400,
+            "probability": {
+              "exact": "27/100",
+              "decimal": 0.27
+            }
+          },
+          {
+            "net": -600,
+            "probability": {
+              "exact": "59/100",
+              "decimal": 0.59
+            }
+          },
+          {
+            "net": -3600,
+            "probability": {
+              "exact": "7/50",
+              "decimal": 0.14
+            }
+          }
+        ]
+      },
+      {
+        "policy": {
+          "+": "act",
+          "-": "act"
+        },
+        "expected": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "worst_loss": 3600,
+        "loss_probability": {
+          "exact": "7/10",
+          "decimal": 0.7
+        },
+        "outcomes": [
+          {
+            "net": 8400,
+            "probability": {
+              "exact": "3/10",
+              "decimal": 0.3
+            }
+          },
+          {
+            "net": -3600,
+            "probability": {
+              "exact": "7/10",
+              "decimal": 0.7
+            }
+          }
+        ]
+      }
+    ],
+    "best_strategy": {
+      "policy": {
+        "+": "act",
+        "-": "stop"
+      },
+      "expected": {
+        "exact": "1410",
+        "decimal": 1410.0
+      },
+      "worst_loss": 3600,
+      "loss_probability": {
+        "exact": "73/100",
+        "decimal": 0.73
+      },
+      "outcomes": [
+        {
+          "net": 8400,
+          "probability": {
+            "exact": "27/100",
+            "decimal": 0.27
+          }
+        },
+        {
+          "net": -600,
+          "probability": {
+            "exact": "59/100",
+            "decimal": 0.59
+          }
+        },
+        {
+          "net": -3600,
+          "probability": {
+            "exact": "7/50",
+            "decimal": 0.14
+          }
+        }
+      ]
+    },
+    "gross_information_value": {
+      "exact": "1410",
+      "decimal": 1410.0
+    },
+    "net_information_increment": {
+      "exact": "810",
+      "decimal": 810.0
+    },
+    "perfect_information_value": {
+      "exact": "2100",
+      "decimal": 2100.0
+    },
+    "cost_caps": {
+      "expected_value_break_even_total_cost": 1410,
+      "hard_loss_bound_total_cost": 1000,
+      "actual_acceptable_total_cost_at_most": 1000,
+      "report_fee_cap_given_fixed_150_labor": 850,
+      "strictly_better_net_at_hard_cost_cap": 1010,
+      "additional_budget_above_current_600": 400
+    },
+    "risk_comparison_at_cost_600": {
+      "no_test": {
+        "loss_probability": {
+          "exact": "7/10",
+          "decimal": 0.7
+        },
+        "loss_at_least_3000_probability": {
+          "exact": "7/10",
+          "decimal": 0.7
+        },
+        "worst_loss": 3000,
+        "breach_4000_probability": 0
+      },
+      "test_then_condition": {
+        "loss_probability": {
+          "exact": "73/100",
+          "decimal": 0.73
+        },
+        "loss_at_least_3000_probability": {
+          "exact": "7/50",
+          "decimal": 0.14
+        },
+        "worst_loss": 3600,
+        "breach_4000_probability": 0
+      },
+      "conclusion": "Lower probability of loss >=3000 only; higher any-loss probability and worse maximum loss. Both obey the 4000 hard bound."
+    }
+  },
+  "misuse_request": {
+    "available_hours_at_request": 2,
+    "information_after_irreversible_commitment": true,
+    "prior_and_signal_likelihoods_missing": true,
+    "original_order_worst_loss": 5000,
+    "hard_loss_bound": 1000,
+    "order_exceeds_hard_bound_even_without_test": true,
+    "report_cost": 200,
+    "report_also_intervenes_on_demand": "unknown effect; cannot classify total benefit as pure information value",
+    "default_by_deadline": "Do not commit to original order; small order only conditional on confirmed terms and cumulative loss <=1000; do not fabricate probabilities."
+  }
+}

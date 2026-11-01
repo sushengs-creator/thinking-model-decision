@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-01",
+  "purpose": "Public portability only. Original files remain in maintenance workspace; manifests and review hashes refer to original bytes. Use this map for public-copy hashes. No answer was rewritten after review.",
+  "files": [
+    {
+      "public_path": "trials/TM-156-fit.md",
+      "original_sha256": "bd6b01ce1be2260ce1ca39c2ef44538413d2f69b8efd8cd99e9eeaf0bd30e2c1",
+      "public_sha256": "a82b520c8359b351db67732b8dd1bd8a9f1749a270d72b272cf89825fe4c678b",
+      "only_changes": "Replace local absolute resource paths with portable relative paths or maintenance-workspace labels; all prose, inputs, numeric results, verdicts and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/TM-156-misuse.md",
+      "original_sha256": "c8aab6e9cdf694696764774c456cb1b913933062ff294fcee16bb00d180b2206",
+      "public_sha256": "69cb90cb3d3b4db5f6adf868a6ed76478fb909d88cae6bd7adf396e233a553e7",
+      "only_changes": "Replace local absolute resource paths with portable relative paths or maintenance-workspace labels; all prose, inputs, numeric results, verdicts and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/entry-first-turn.md",
+      "original_sha256": "911e9716a0d43edf056f6855cda186c9330706eeee252854a8756e6c5025d988",
+      "public_sha256": "f983a3f7a9e8915a38c258e042bac4351734e2ee9d622b2ff04f9a7657de89ed",
+      "only_changes": "Replace local absolute resource paths with portable relative paths or maintenance-workspace labels; all prose, inputs, numeric results, verdicts and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/entry-staged-choice.html",
+      "original_sha256": "115466423b06b2e6fd65a7671990df393736cb18b6928bad3e9dc1304dd614b2",
+      "public_sha256": "03d700ba3c56bf4254af264db1f732c20b2f7dc0681226c479f0cf88561e50ca",
+      "only_changes": "Replace local absolute resource paths with portable relative paths or maintenance-workspace labels; all prose, inputs, numeric results, verdicts and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/entry-staged-choice.md",
+      "original_sha256": "a59543dddc8f24e58c027bac8619a0089429598ef4a6ba034dfac09c9cb4fa6d",
+      "public_sha256": "060169b32e067f34860a6f7be53f6321f8c0f3455ed8dba4cd197e62a7cabdba",
+      "only_changes": "Replace local absolute resource paths with portable relative paths or maintenance-workspace labels; all prose, inputs, numeric results, verdicts and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/entry-trials-manifest.json",
+      "original_sha256": "fb718f759f5ed88f54c488512d4d47acf473b5e54dc2bf78ee8daa3cf5e685ff",
+      "public_sha256": "ac0969fc5cd2cfd63d8f4a06a5cba0295a4db2a7a616bd44eaec23cad8726958",
+      "only_changes": "Replace local absolute resource paths with portable relative paths or maintenance-workspace labels; all prose, inputs, numeric results, verdicts and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/tool-trials-manifest.json",
+      "original_sha256": "92d1a3b3a629bf0deec8b350561340cd0e1dad6885a04642ae8e9538b9c63570",
+      "public_sha256": "8ea54209f3c49d828a6b2690af2269ea76ae87b4264ee5d4b4dea261051976ff",
+      "only_changes": "Replace local absolute resource paths with portable relative paths or maintenance-workspace labels; all prose, inputs, numeric results, verdicts and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/arithmetic156.json",
+      "original_sha256": "1eb2b51ea863e78346932c56d2f72d9b58f7311a2ebeb0e8ead055f5309a9ef9",
+      "public_sha256": "1eb2b51ea863e78346932c56d2f72d9b58f7311a2ebeb0e8ead055f5309a9ef9",
+      "only_changes": "Replace local absolute resource paths with portable relative paths or maintenance-workspace labels; all prose, inputs, numeric results, verdicts and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/entry-arithmetic.json",
+      "original_sha256": "cbb7ae259301fe2fbe22b9482bfcd7ea5f6cfd63e86c0a4e2d43a33b5ba448ba",
+      "public_sha256": "cbb7ae259301fe2fbe22b9482bfcd7ea5f6cfd63e86c0a4e2d43a33b5ba448ba",
+      "only_changes": "Replace local absolute resource paths with portable relative paths or maintenance-workspace labels; all prose, inputs, numeric results, verdicts and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/entry-review.json",
+      "original_sha256": "f80ddab20c37d073bca9ba0468a3a7d331d15b5cd07081d2535eb0b0570c74db",
+      "public_sha256": "d8f2737bfb344b292152df38b5ced00df1dd19b7f2581724ccda61d1dc57851c",
+      "only_changes": "Replace local absolute resource paths with portable relative paths or maintenance-workspace labels; all prose, inputs, numeric results, verdicts and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/entry-review.md",
+      "original_sha256": "c4f76a582016cdc357cee8fda545969b39a86a436e3ace1b3da311f7f72fe49d",
+      "public_sha256": "c4f76a582016cdc357cee8fda545969b39a86a436e3ace1b3da311f7f72fe49d",
+      "only_changes": "Replace local absolute resource paths with portable relative paths or maintenance-workspace labels; all prose, inputs, numeric results, verdicts and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-and-cases-review.json",
+      "original_sha256": "10e500d898d006e53d20132c64f20ef4bceb32c539c5866ece7615a36a3b156f",
+      "public_sha256": "10e500d898d006e53d20132c64f20ef4bceb32c539c5866ece7615a36a3b156f",
+      "only_changes": "Replace local absolute resource paths with portable relative paths or maintenance-workspace labels; all prose, inputs, numeric results, verdicts and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-and-cases-review.md",
+      "original_sha256": "834d5834636783fd55834d61061fae7167a75ac4151f8a93628112c4428591fe",
+      "public_sha256": "834d5834636783fd55834d61061fae7167a75ac4151f8a93628112c4428591fe",
+      "only_changes": "Replace local absolute resource paths with portable relative paths or maintenance-workspace labels; all prose, inputs, numeric results, verdicts and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/tool-review.json",
+      "original_sha256": "c19915b0b6562e9a961f71450e5acc23d3e5dfc764bf8ddf9c0c22997dec5278",
+      "public_sha256": "c19915b0b6562e9a961f71450e5acc23d3e5dfc764bf8ddf9c0c22997dec5278",
+      "only_changes": "Replace local absolute resource paths with portable relative paths or maintenance-workspace labels; all prose, inputs, numeric results, verdicts and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/tool-review.md",
+      "original_sha256": "f59ce4dc59950c1ebfd35285570b8972138fbe6f6f5d0597400c9dc2ef126235",
+      "public_sha256": "f59ce4dc59950c1ebfd35285570b8972138fbe6f6f5d0597400c9dc2ef126235",
+      "only_changes": "Replace local absolute resource paths with portable relative paths or maintenance-workspace labels; all prose, inputs, numeric results, verdicts and original recorded hashes retained."
+    }
+  ]
+}

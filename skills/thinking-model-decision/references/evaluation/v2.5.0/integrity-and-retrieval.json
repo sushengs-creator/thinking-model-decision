@@ -1,0 +1,458 @@
+{
+  "scope": "Current source/index integrity and lexical retrieval only; no suitability probability or real-world validation",
+  "checks": [
+    {
+      "name": "library_validate",
+      "exit_code": 0,
+      "output": {
+        "ok": true,
+        "partial_fixture_mode": false,
+        "version": "2.5.0",
+        "revision": 142,
+        "counts": {
+          "user_models": 156,
+          "wan_tools": 100,
+          "cards": 156,
+          "card_statuses": {
+            "source_reviewed": 117,
+            "sample_reviewed": 8,
+            "behavior_checked": 31
+          },
+          "content_statuses": {
+            "source_archived": 156,
+            "existing_skill_snapshot": 100
+          }
+        },
+        "needs_review": [],
+        "errors": [],
+        "warnings": [],
+        "provenance_note": "source_sha256 保存原来源指纹；未提供 source_path 的原始来源不在包内，不能重算验证。可携带正文、HTML、卡片及验证记录按各自哈希核验。"
+      }
+    },
+    {
+      "name": "tool_runtime_validate",
+      "exit_code": 0,
+      "output": {
+        "ok": true,
+        "errors": [],
+        "scope": "Structural and fingerprint checks only; not behavioral proof"
+      }
+    },
+    {
+      "name": "library_search",
+      "query": "决策树",
+      "expected_candidate": "TM-156",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-156",
+        "TM-068",
+        "TM-077",
+        "TM-091",
+        "TM-002",
+        "TM-031",
+        "TM-032",
+        "TM-035"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "先测试还是直接做",
+      "expected_candidate": "TM-156",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-156",
+        "TM-151",
+        "TM-154",
+        "TM-026",
+        "TM-029",
+        "TM-038",
+        "TM-075",
+        "TM-082"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "测完怎么办",
+      "expected_candidate": "TM-156",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-156",
+        "TM-150",
+        "TM-001",
+        "TM-005",
+        "TM-010",
+        "TM-012",
+        "TM-013",
+        "TM-015"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "测试费值不值",
+      "expected_candidate": "TM-156",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-156",
+        "TM-028",
+        "TM-041",
+        "TM-046",
+        "TM-062",
+        "TM-063",
+        "TM-087",
+        "TM-124"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "期望收益最高但赔不起",
+      "expected_candidate": "TM-156",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-156",
+        "TM-057",
+        "TM-138",
+        "TM-078",
+        "TM-058",
+        "TM-062",
+        "TM-079",
+        "TM-097"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "信号出来再决定",
+      "expected_candidate": "TM-156",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-122",
+        "TM-156",
+        "TM-072",
+        "TM-032",
+        "TM-052",
+        "TM-058",
+        "TM-062",
+        "TM-069"
+      ],
+      "candidate_found": true,
+      "rank": 2
+    },
+    {
+      "name": "library_search",
+      "query": "贝叶斯更新",
+      "expected_candidate": "TM-054",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-054",
+        "WW-3.4",
+        "TM-104",
+        "WW-3.15",
+        "WW-3.12",
+        "TM-152",
+        "TM-002",
+        "TM-018"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "信息价值",
+      "expected_candidate": "TM-062",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-062",
+        "WW-3.5",
+        "TM-156",
+        "TM-138",
+        "TM-076",
+        "TM-147",
+        "TM-097",
+        "TM-007"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "加权评分法",
+      "expected_candidate": "TM-148",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-148",
+        "TM-141",
+        "TM-005",
+        "TM-057",
+        "TM-071",
+        "TM-079"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "关键路径法",
+      "expected_candidate": "TM-155",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-155",
+        "TM-007",
+        "TM-137",
+        "WW-8.7",
+        "TM-021",
+        "TM-022",
+        "TM-023",
+        "TM-026"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "贝叶斯先验",
+      "expected_candidate": "WW-3.4",
+      "exit_code": 0,
+      "returned_ids": [
+        "WW-3.4",
+        "TM-054",
+        "TM-156",
+        "TM-104",
+        "WW-3.12",
+        "WW-3.15"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "信息价值",
+      "expected_candidate": "WW-3.5",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-062",
+        "WW-3.5",
+        "TM-156",
+        "TM-138",
+        "TM-076",
+        "TM-147",
+        "TM-097",
+        "TM-007"
+      ],
+      "candidate_found": true,
+      "rank": 2
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "决策树",
+      "expected_candidate": "TM-156",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-156",
+        "TM-068",
+        "TM-077",
+        "TM-036",
+        "TM-063",
+        "TM-130",
+        "WW-7.2",
+        "WW-9.1"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "先测试还是直接做",
+      "expected_candidate": "TM-156",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-156",
+        "TM-012",
+        "TM-047",
+        "TM-066",
+        "TM-089",
+        "TM-099",
+        "TM-101",
+        "TM-107"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "测完怎么办",
+      "expected_candidate": "TM-156",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-156",
+        "TM-095",
+        "TM-123",
+        "TM-150",
+        "TM-036",
+        "TM-045",
+        "TM-050",
+        "TM-059"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "测试费值不值",
+      "expected_candidate": "TM-156",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-156",
+        "TM-062",
+        "TM-105",
+        "TM-138",
+        "TM-065",
+        "TM-145",
+        "WW-3.5",
+        "WW-6.1"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "期望收益最高但赔不起",
+      "expected_candidate": "TM-156",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-156",
+        "TM-148",
+        "TM-057",
+        "TM-078",
+        "TM-138",
+        "TM-116",
+        "TM-129",
+        "TM-135"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "信号出来再决定",
+      "expected_candidate": "TM-156",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-156",
+        "TM-072",
+        "TM-122",
+        "WW-2.4",
+        "WW-4.8",
+        "TM-077",
+        "TM-142",
+        "TM-133"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "贝叶斯更新",
+      "expected_candidate": "TM-054",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-054",
+        "WW-3.4",
+        "TM-048",
+        "TM-068",
+        "TM-145"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "信息价值",
+      "expected_candidate": "TM-062",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-062",
+        "WW-3.5",
+        "TM-097",
+        "TM-138",
+        "TM-147",
+        "TM-009",
+        "TM-152",
+        "WW-3.1"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "加权评分法",
+      "expected_candidate": "TM-148",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-148",
+        "TM-141",
+        "TM-057"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "关键路径法",
+      "expected_candidate": "TM-155",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-155",
+        "TM-007",
+        "WW-8.7",
+        "TM-095",
+        "TM-090",
+        "TM-147",
+        "TM-024",
+        "TM-046"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "贝叶斯先验",
+      "expected_candidate": "WW-3.4",
+      "exit_code": 0,
+      "returned_ids": [
+        "WW-3.4",
+        "TM-054",
+        "TM-148"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "信息价值",
+      "expected_candidate": "WW-3.5",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-062",
+        "WW-3.5",
+        "TM-097",
+        "TM-138",
+        "TM-147",
+        "TM-009",
+        "TM-152",
+        "WW-3.1"
+      ],
+      "candidate_found": true,
+      "rank": 2
+    }
+  ],
+  "ok": true
+}

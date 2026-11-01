@@ -1,0 +1,194 @@
+{
+  "review_id": "TM-156-tool-behavior-review",
+  "reviewed_at": "2026-11-01T05:23:08.521528+00:00",
+  "reviewer": "daily_baseline_1101",
+  "reviewer_role": "Independent from source/card/runtime/request and response authors; source/request recomputation completed before reading raw responses; previously edited peripheral release docs.",
+  "verdict": "passed_with_minor_wording_note",
+  "passed_cases": 2,
+  "blocking_failures": [],
+  "findings": [
+    {
+      "id": "TM156-P3-TIME-WORD",
+      "severity": "P3",
+      "blocking": false,
+      "case_id": "TM-156-misuse",
+      "evidence": {
+        "line": 36,
+        "text": "报告不能改变今晚的承诺，所以它作为“明晚信息供今晚签单使用”的纯信息决策价值为 0。它可能另有未来学习价值，发券也可能产生营销效果，但这些都没有现成数据支持，不能拿来填补本单的亏损红线。这里“明晚信息”仅指晚于今晚截止的信息；题设实际交付时间是明天中午。"
+      },
+      "description": "One sentence calls the late report 明晚信息, then explicitly corrects it to the specified 明天中午 in the same paragraph. Other chronology, actions and table use tomorrow noon correctly.",
+      "effect": "Wording awkwardness only; does not change feasibility or deadline decision.",
+      "action": "Preserve original; no required rerun. Future writing should use 晚到的信息 or 明天中午的报告 consistently."
+    }
+  ],
+  "manifest_sha256": "92d1a3b3a629bf0deec8b350561340cd0e1dad6885a04642ae8e9538b9c63570",
+  "manifest_trial_hashes_match": true,
+  "full_requests_match_cases": true,
+  "current_source_card_runtime_hashes_match_pretrial_source_review": true,
+  "source_card_runtime_sha256": {
+    "staged-repo/skills/thinking-model-decision/references/user-models/TM-156.md": "0be6c097db29472cb2723c57d80f512961961e2e5ed686ddcfb5c85ad06b8c6b",
+    "staged-repo/skills/thinking-model-decision/references/cards/TM-156.md": "86516249e7c962af371f937a448f082727b68aeb1f105f29e80ce6ff95360947",
+    "staged-repo/skills/thinking-model-decision/references/tools/TM-156.md": "55eb7989c2040f92c171ae0b3a81c679a476e86bcee9fcf8ede78a2aaf91232d"
+  },
+  "original_answer_files_unchanged": {
+    "TM-156-fit": "bd6b01ce1be2260ce1ca39c2ef44538413d2f69b8efd8cd99e9eeaf0bd30e2c1",
+    "TM-156-misuse": "c8aab6e9cdf694696764774c456cb1b913933062ff294fcee16bb00d180b2206"
+  },
+  "case_reviews": [
+    {
+      "id": "TM-156-fit",
+      "verdict": "pass",
+      "checks": [
+        {
+          "criterion": "信息顺序与条件策略",
+          "result": "pass",
+          "reason": "先取信号、再选择加印/停止、后见销量；明确报忧中的漏报3%无法被提前识别。",
+          "evidence": {
+            "line": 53,
+            "text": "表中每个初始方案各自形成一组分支，不能把不同初始方案的概率加在一起。报忧停止的 59% 也包含旺需求但漏报的 3%；你当时看不到真实需求，不能在这 3% 中另行偷偷加印。"
+          }
+        },
+        {
+          "criterion": "先验与后验",
+          "result": "pass",
+          "reason": "联合27/14/3/56，信号41/59，后验27/41与3/59；未倒用90%。",
+          "evidence": {
+            "line": 27,
+            "text": "因此，报喜之后旺需求的概率为 27%÷41%＝**27/41，约 65.85%**，弱需求为 14/41，约 34.15%；报忧之后旺需求的概率为 3%÷59%＝**3/59，约 5.08%**，弱需求为 56/59，约 94.92%。90% 是“旺需求时报告报喜”的概率，不能倒过来当成“报喜后旺需求”的概率。"
+          }
+        },
+        {
+          "criterion": "节点倒推",
+          "result": "pass",
+          "reason": "加印临界后验25%；报喜后4902.44，报忧后−2389.83，动作分别加印/停止。",
+          "evidence": {
+            "line": 33,
+            "text": "只要 q 大于 25%，它就高于不加印的后续收益 0；等于 25% 时打平。这里 9000 和 −3000 已扣过加印及销售费用，不能再重复扣一遍。"
+          }
+        },
+        {
+          "criterion": "费用和完整路径",
+          "result": "pass",
+          "reason": "600费用恰扣一次；不行动仍亏600。最终分布27%8400、14%−3600、59%−600，与期望1410一致。",
+          "evidence": {
+            "line": 61,
+            "text": "按完整终点复算也是 `0.27×8400＋0.14×(−3600)＋0.59×(−600)`＝1410 元。调研比直接加印多 810 元期望净收益。若买了报告却不论喜忧都加印，行动没有利用信息，期望净收益会变为 600−600＝0 元。"
+          }
+        },
+        {
+          "criterion": "策略可行性与推荐",
+          "result": "pass",
+          "reason": "比较0、600、1410；最坏3600≤4000；推荐受题设和期望评价约束，不保证实得。",
+          "evidence": {
+            "line": 13,
+            "text": "在题设条件下，建议现在选择“先调研，报喜后加印，报忧后不加印”。整套策略的期望净收益为 **1410 元**，高于直接加印的 600 元；最坏损失为 3600 元，没有突破你整次决定最多亏 4000 元的红线。这里的 1410 元是概率加权后的比较值，不是这次一定赚到的钱。"
+          }
+        },
+        {
+          "criterion": "信息价值与成本阈值",
+          "result": "pass",
+          "reason": "毛信息价值1410；金额打平成本1410，但累计硬红线限制总成本≤1000；人工150已含，报告价≤850；超过1000不把受限策略继续当可行冠军。",
+          "evidence": {
+            "line": 68,
+            "text": "因此，适用于你这条硬红线的实际总成本上限是 **1000 元**，不是 1410 元。若人工固定 150 元且没有其他新增代价，报告本身的价格最多为 **850 元**。当前总成本 600 元，还剩 400 元可承受空间；这只是上限，不是建议额外花掉的预算。成本到 1000 元时，调研方案期望净收益仍为 1010 元，比直接加印多 410 元，但最坏损失已经触及 4000 元。"
+          }
+        },
+        {
+          "criterion": "风险指标",
+          "result": "pass",
+          "reason": "任意亏损73%对70%，亏损至少3000为14%对70%，最坏3600对3000，突破4000均0。安全结论限定指标。",
+          "evidence": {
+            "line": 81,
+            "text": "所以，调研显著减少了“亏损至少 3000 元”的机会，期望净收益也更高；但它增加了小额亏损的机会，并使最坏损失增加 600 元。不能笼统说它在所有意义上更安全。若首要目标是完全不亏，不加印、不调研的 0 元基准才符合该目标；本题按你给出的红线和期望净收益标准选择调研策略。"
+          }
+        },
+        {
+          "criterion": "可执行下一步与更新",
+          "result": "pass",
+          "reason": "按及时信号动作，成本/时点/性能/先验/盈亏改变即重算；建议与购买或结果区分。",
+          "evidence": {
+            "line": 83,
+            "text": "你现在可采用的规则是：在题设费用和截止前交付条件成立时，选择这份总成本 600 元的报告；收到报喜就加印，收到报忧就停止并承担 600 元总成本。执行前保留这份规则和费用口径，收到报告时按实际信号走，不因已经花了调研费而强行加印。总费用、报告时点、报告性能、先验或加印盈亏任何一项改变，都应先重算；尤其不能让新增费用把整条路径推过 4000 元。这里交付的是建议，没有发生购买、付款、下单或销售结果。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "TM-156-misuse",
+      "verdict": "pass_with_minor_wording_note",
+      "checks": [
+        {
+          "criterion": "硬红线先于期望",
+          "result": "pass",
+          "reason": "原单坏结果5000>1000直接排除，不靠虚构胜率选冠军。",
+          "evidence": {
+            "line": 13,
+            "text": "今晚先不签这笔不可退的大单，也不为今晚的签单决定购买这份明天才出的报告。大单已知可能亏 5000 元，超过你明确的 1000 元硬上限；这个结论不需要编一个热销概率才能成立。100 份小单目前只是待询价的可能路线，还不能列成已经可买的替代方案。"
+          }
+        },
+        {
+          "criterion": "非预知与晚到信号",
+          "result": "pass",
+          "reason": "20点承诺不可逆，明天中午报告及下周销量都不能提前使用；未知状态共享同一动作。",
+          "evidence": {
+            "line": 9,
+            "text": "完全虚构，不发消息不付款。现在18:00，我得在今晚20:00前决定是否签一笔不可退的社区市集订货单；签后不能取消或改变数量，销售结果下周才知道。卖得好净赚6000元，卖得差净亏5000元，我明确最多只能承担1000元损失。目前不知道卖得好的基准率。调研公司收200元，报告明天中午才出，只说‘准确率80%’，没有给不同销量状态下报喜报忧的数据，而且调研会发优惠券宣传，可能改变实际需求，影响还不清楚。同事想把树画成‘先知道最终热销才签单’，删掉滞销分支，用80%×6000−200说这方案值得。我也可以询问100份小单，但价格和退改条件还未拿到。请检查这套算法，给今晚可执行的处理办法；不要为了算出冠军替我编概率，也别把尚未确认的小单当作已能购买。"
+          }
+        },
+        {
+          "criterion": "不能删除坏分支",
+          "result": "pass",
+          "reason": "保留6000/−5000；用符号11000p−5000表达缺数，不将80%当先验/后验。",
+          "evidence": {
+            "line": 22,
+            "text": "4. `80%×6000−200＝4600` 不是本题成立的期望净收益：它既错误使用 80%，又漏掉亏损分支。若只用符号 p 表示热销概率，且完全不考虑调研对市场的影响，直接签单的式子应是 `p×6000＋(1−p)×(−5000)＝11000p−5000`。p 现在未知，不能给出数值冠军；即使后来能算出正期望，亏 5000 元这一分支仍不符合你的红线。"
+          }
+        },
+        {
+          "criterion": "成本与干预",
+          "result": "pass",
+          "reason": "停止仍可能损失200；5800/−5200明确仅是原盈亏不变的条件演算；发券影响另核，不套纯信息净值。",
+          "evidence": {
+            "line": 38,
+            "text": "200 元必须按整条路线计入：如果买报告后不签单，已付的 200 元不会因为停止而回来，发券等是否还有额外费用仍未知。若为了检查同事的算法，暂时保留大单原先的＋6000/−5000 元两档并另扣报告费，则终点应为＋5800/−5200 元；这只是“原盈亏保持不变”的条件计算，不能冒充发券干预后的已核实收益。原始大单 −5000 元已经足以排除，追加调研费不能修复它。"
+          }
+        },
+        {
+          "criterion": "不确定小单与当前基准",
+          "result": "pass",
+          "reason": "小单需报价、退改、库存回收及完整费用确认，数量减少不等于已可承受；条件不齐截止前不承诺。",
+          "evidence": {
+            "line": 46,
+            "text": "| 19:00—19:30 | 若资料及时齐全，计算小单在最坏可发生情况下的整次净损失；任何已付调研费、准备费、沟通费、优惠券支出等都合并一次 | 只有能核实不超过 1000 元，才进入可考虑候选；数量降为 100 份本身不证明风险可承受 |"
+          }
+        },
+        {
+          "criterion": "截止与合计资源",
+          "result": "pass",
+          "reason": "18–20共120分钟建议窗口；明确扣除阅读、分析、沟通已用时间，未把推荐时点当现实已执行；费用合并一次。",
+          "evidence": {
+            "line": 40,
+            "text": "**今晚的处理顺序可以这样安排。** 这是按题设 18:00 倒排的建议日程；实际开始时应先看时间，已经用于阅读、分析、沟通的时间须从 20:00 前的余额里扣掉，不能重新计满两小时。"
+          }
+        },
+        {
+          "criterion": "提议与执行状态",
+          "result": "pass",
+          "reason": "没有发送询价或购买；小单/延期/兜底均待确认，未虚构对方答复。",
+          "evidence": {
+            "line": 49,
+            "text": "小单的最坏净损失可以按实际条件核对：不可退的货款、物流、摊位、准备和其他支出，减去在该最坏情况下有可靠依据的退款或回收金额；不要把“预计能卖掉”当成保底回收。已有支出也要并入 1000 元上限。例如如果此前已经支付了题设的 200 元报告费，其他部分最多只能再占用 800 元的损失额度；本次并未支付，所以这只是条件说明。现在没有报价，不能给小单填一个确定成本或退款值。"
+          }
+        }
+      ]
+    }
+  ],
+  "arithmetic_basis": "arithmetic156.json, prepared before raw answers were read; exact fractions and four conditional policies independently enumerated.",
+  "scope": "Two actual local simulated Markdown answers; same executor context; not full-entry/HTML/client validation or real-world effectiveness.",
+  "limits": [
+    "Executor manifest records resource paths, not resource hashes at read-time. Current source/card/runtime bytes match the earlier source review snapshot; exact historical loaded bytes cannot be independently reconstructed beyond that evidence.",
+    "Synthetic two-state/two-signal cases; first case shares general structure with source teaching example but changes prior, likelihoods, split costs and adds active loss-cap threshold.",
+    "No outside contacts/payments/purchases were part of the task or recorded. No actual business outcomes verified.",
+    "Entry HTML and first-turn regression are reviewed separately."
+  ]
+}

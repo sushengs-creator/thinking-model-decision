@@ -1,0 +1,138 @@
+{
+  "review_id": "TM-156-source-and-cases-review",
+  "reviewed_at": "2026-11-01T05:20:48.386597+00:00",
+  "reviewer": "daily_baseline_1101",
+  "independence": "Reviewer did not author source/card/runtime/test requests; previously edited release documentation and checked baselines. Review focus was available.",
+  "verdict": "source_and_request_review_passed_with_limits",
+  "release_ready": false,
+  "reason_not_release_ready": "Actual executor responses and independent behavior review still required; this review does not verify release/package/client installation.",
+  "source_text_checks": {
+    "normalized_body_equal": true,
+    "table_count": 2,
+    "utf16_nonwhitespace_code_units": 7123,
+    "fnv1a32_code_units": "31873c52",
+    "source_locator_count": 12,
+    "reviewer_reopened_live_browser": false,
+    "reviewer_independently_viewed_images": false,
+    "media_status": "Main maintainer records 11 images viewed; this reviewer checked text and manifest only."
+  },
+  "checks": [
+    {
+      "id": "SOURCE-TEXT",
+      "pass": true,
+      "evidence": "All original-body text equals captured visible body after removing Markdown table delimiters and whitespace; two tables match manifest row/cell order."
+    },
+    {
+      "id": "SOURCE-FINGERPRINT",
+      "pass": true,
+      "evidence": "7123 UTF-16 code units; FNV-1a32 31873c52; raw-body and source Markdown SHA-256 match current source manifest."
+    },
+    {
+      "id": "SOURCE-LOCATORS",
+      "pass": true,
+      "evidence": "All 12 routing source-section locators occur literally in captured body."
+    },
+    {
+      "id": "MODEL-IDENTITY",
+      "pass": true,
+      "evidence": "Card/runtime distinguish decision-tree analysis from machine-learning decision trees, and do not claim all static comparisons need a tree."
+    },
+    {
+      "id": "INFORMATION-TIMING",
+      "pass": true,
+      "evidence": "Information must be available before the affected irreversible decision; indistinguishable states require same action; signal branches preserve later feasible actions."
+    },
+    {
+      "id": "PROBABILITY",
+      "pass": true,
+      "evidence": "Conditional probabilities, mutually exclusive/exhaustive branches, Bayes direction, denominator-zero and unsupported-input boundaries are explicit."
+    },
+    {
+      "id": "COSTS",
+      "pass": true,
+      "evidence": "Whole-path costs include stop-after-test fees and cumulative loss; local removal of shared sunk costs is not confused with disappearance from total strategy costs."
+    },
+    {
+      "id": "CONSTRAINTS",
+      "pass": true,
+      "evidence": "Complete strategy must satisfy hard constraints; remove/re-design infeasible action, not its adverse chance branch; no invented utility function."
+    },
+    {
+      "id": "ROLLBACK",
+      "pass": true,
+      "evidence": "Chance nodes weighted by conditional probability, decision nodes choose among feasible actions under explicit criterion; expected amount is not guaranteed outcome."
+    },
+    {
+      "id": "INFORMATION-VALUE",
+      "pass": true,
+      "evidence": "Compare with best no-information action; avoid double counting information; account for delay/costs; intervention effects not mislabeled as pure information value."
+    },
+    {
+      "id": "RISK-METRICS",
+      "pass": true,
+      "evidence": "Separate probability of any loss, threshold loss, and worst-case loss; financial mean cannot compensate hard limits."
+    },
+    {
+      "id": "SENSITIVITY-STOP",
+      "pass": true,
+      "evidence": "Input changes trigger recomputation; missing probabilities permit structure and evidence gathering, not manufactured champion; stop when late/unsupported/unnecessary."
+    },
+    {
+      "id": "SOURCE-EDITORIAL-BOUNDARY",
+      "pass": true,
+      "evidence": "Bayes formula, equal-information check, aggregate constraints and fictional demo labeled as operationalization; historical and NASA claims not treated as verified current parameters."
+    },
+    {
+      "id": "RELATIONS",
+      "pass": true,
+      "evidence": "WW-3.4/3.5 and TM-054/062/148 read; source-supported complement/overlap, no probability-weight confusion or duplicated information benefit."
+    },
+    {
+      "id": "SOURCE-ARITHMETIC",
+      "pass": true,
+      "evidence": "Original example: direct2000, test2300, gross VOI800, net300, EVPI2000, cost tie800; loss probability60%, threshold>=4000 loss10%, max4500; non-symmetric prior20% yields posterior50%; film mean3200万元."
+    },
+    {
+      "id": "REQUEST-FIT",
+      "pass": true,
+      "evidence": "Well-posed reliable synthetic inputs; independently enumerate four signal policies. Best current conditional policy has net1410 and maxloss3600. Financial cost tie1410 but hard-cost ceiling1000, so actual cap1000 total/850 report if labor150 fixed."
+    },
+    {
+      "id": "REQUEST-MISUSE",
+      "pass": true,
+      "evidence": "2-hour request window; tomorrow signal cannot inform irreversible tonight order, unknown prior/likelihoods, adverse5000 exceeds hard1000, intervention effect unknown; smaller order remains unconfirmed option."
+    },
+    {
+      "id": "NO-BEHAVIOR-CERTIFICATION",
+      "pass": true,
+      "evidence": "Two requests and review_focus inspected for readiness; no executor output read or assessed by this report; behavior remains pending."
+    }
+  ],
+  "blocking_failures": [],
+  "nonblocking_findings": [],
+  "input_sha256": {
+    "staged-repo/skills/thinking-model-decision/references/user-models/TM-156.md": "0be6c097db29472cb2723c57d80f512961961e2e5ed686ddcfb5c85ad06b8c6b",
+    "staged-repo/skills/thinking-model-decision/references/cards/TM-156.md": "86516249e7c962af371f937a448f082727b68aeb1f105f29e80ce6ff95360947",
+    "staged-repo/skills/thinking-model-decision/references/tools/TM-156.md": "55eb7989c2040f92c171ae0b3a81c679a476e86bcee9fcf8ede78a2aaf91232d",
+    "staged-repo/skills/thinking-model-decision/references/validation/TM-156-source-review.md": "781d4375597e2dd54d58682236ae0cce1c1fbcfdefcb106929abdcee47fdd11d",
+    "drafts/TM-156/cases.json": "982b5e7c5b95805b3931e389cc3d0bb183305bb63c9d282e3e937229058f16a7",
+    "drafts/TM-156/routing.json": "de544d8a6474b178472557f71cd6da6763491993cd425af02148dd132cbf7e4d",
+    "sources/source-manifest.json": "670f53be4a34cbbd548a230782766f128079c81e96428363a06c895a84da9cfe",
+    "sources/156/body.txt": "7c226529afe8d23a6acf0c4e90d33af533684e696f2199478769e41dad40766e",
+    "staged-repo/skills/thinking-model-decision/references/wan-tools/WW-3.4.md": "757dc1295ed463c7b27b8b6080218f51e8ea6a1f751d0f1fd9bd1fca39a152c8",
+    "staged-repo/skills/thinking-model-decision/references/wan-tools/WW-3.5.md": "03441b42221aad7183fb542291559faab956a03bbf7d350eafc701748958afa6",
+    "staged-repo/skills/thinking-model-decision/references/tools/TM-054.md": "8681264ad956b191f64381aedaaa4c4e5c09f1bdfa9af1b384e4fe5c53b616cc",
+    "staged-repo/skills/thinking-model-decision/references/tools/TM-062.md": "6d1f23d7285a9e44a9dc2d3f494fc9e38aab2a90e3b64e5873a32db133e54d35",
+    "staged-repo/skills/thinking-model-decision/references/tools/TM-148.md": "b05fc4c35a22d750d00b0db7eebcba4cf025db534282814f9ae12f999e018c53"
+  },
+  "arithmetic_receipt": "arithmetic156.json",
+  "arithmetic_receipt_sha256": "1eb2b51ea863e78346932c56d2f72d9b58f7311a2ebeb0e8ead055f5309a9ef9",
+  "trial_status": "requests_reviewed_only; outputs_not_yet_reviewed; no_behavior_pass_claim",
+  "limits": [
+    "No new browser capture by this reviewer; exact local captured-body comparison performed.",
+    "Historical attribution and NASA claims not independently researched; retained explicit boundaries.",
+    "No media pixel review by this reviewer.",
+    "Synthetic request recomputation is reviewer arithmetic, not an executed agent response or real-world result.",
+    "Requires later raw-output review, package integrity and target readbacks for release completion."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "created_date": "2026-11-01",
+  "role": "independent complete-entry executor; no self-assessment verdict",
+  "skill_root": "../../../..",
+  "input_file": "../entry-inputs.json",
+  "context": {
+    "case_count": 2,
+    "same_context": true,
+    "execution_order": [
+      "entry-staged-choice",
+      "entry-first-turn"
+    ],
+    "other_trial_draft_review_bodies_read": false,
+    "historical_record_paths_seen_only_as_show_metadata": true
+  },
+  "files": [
+    {
+      "path": "../trials/entry-staged-choice.md",
+      "sha256": "a59543dddc8f24e58c027bac8619a0089429598ef4a6ba034dfac09c9cb4fa6d",
+      "bytes": 5794
+    },
+    {
+      "path": "../trials/entry-staged-choice.html",
+      "sha256": "115466423b06b2e6fd65a7671990df393736cb18b6928bad3e9dc1304dd614b2",
+      "bytes": 19958
+    },
+    {
+      "path": "../trials/entry-first-turn.md",
+      "sha256": "911e9716a0d43edf056f6855cda186c9330706eeee252854a8756e6c5025d988",
+      "bytes": 1784
+    }
+  ],
+  "cases": [
+    {
+      "id": "entry-staged-choice",
+      "actual_read_resources": [
+        "../entry-inputs.json",
+        "../../../../SKILL.md",
+        "../../../../references/toolbox-orchestration.md",
+        "../../../../references/decision-routing.md",
+        "../../../../references/tool-catalog.md",
+        "../../../../references/wan-catalog.md",
+        "../../../../references/tool-runtime.md",
+        "../../../../references/decision-report.md",
+        "../../../../references/html-action-plan.md",
+        "../../../../references/tools/TM-156.md",
+        "../../../../references/cards/TM-156.md",
+        "../../../../references/user-models/TM-156.md",
+        "../../../../references/wan-tools/WW-3.5.md"
+      ],
+      "resource_scope_notes": "Catalog and routing bulk output partly truncated; relevant rows were then read using rg. TM-156 runtime/card/source and WW-3.5 fully read. No trial/draft/review body read.",
+      "commands_invoked": [
+        "../../../../scripts/tool_runtime.py show TM-156",
+        "../../../../scripts/tool_runtime.py show TM-062",
+        "../../../../scripts/tool_runtime.py show WW-3.5",
+        "Python fractions arithmetic recalculation"
+      ],
+      "selected_tool": "TM-156",
+      "overlapping_method_read": "WW-3.5; not counted as independent evidence",
+      "limitations": [
+        "Fictional inputs accepted as stipulated",
+        "No external communications or payment",
+        "No browser visual preview",
+        "Local source links need relocation by maintainer if artifacts move"
+      ],
+      "artifact_observations": {
+        "utf8_decoded": true,
+        "main_count": 1,
+        "viewport_present": true,
+        "details_count": 3,
+        "script_count": 0,
+        "src_urls": [],
+        "stylesheet_link_count": 0,
+        "print_css_present": true,
+        "unresolved_local_source_links": [],
+        "unresolved_fragment_links": [],
+        "visual_preview_performed": false
+      }
+    },
+    {
+      "id": "entry-first-turn",
+      "actual_read_resources": [
+        "../entry-inputs.json",
+        "../../../../SKILL.md",
+        "../../../../references/guided-dialogue.md",
+        "../../../../references/questioning-toolkit.md"
+      ],
+      "reuse": "SKILL.md and input already read in same context",
+      "limitations": [
+        "One opening question only",
+        "No simulated user response",
+        "No HTML required at single clarification turn"
+      ]
+    }
+  ],
+  "generation_note": "Direct Python execution of the UTF-8 builder unexpectedly reported a source decoding error; file bytes decoded as UTF-8 and execution via compile(read_text(encoding=utf-8)) generated the artifacts. Builder is not a delivered report."
+}

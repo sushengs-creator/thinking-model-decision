@@ -1,0 +1,92 @@
+{
+  "captured_date": "2026-11-01",
+  "count": 1,
+  "old_body_reread_scope": [],
+  "old_body_limit": "TM-001—155正文未重读；只比对合集目录元数据。",
+  "records": [
+    {
+      "id": "TM-156",
+      "title": "思维模型156：决策树——三个方案打分表发给领导，他都夸思路清楚，为什么三个月后还是赔了？",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060441&idx=1&sn=400e4baee151ce709f3367edd3d16197&chksm=beabef6a89dc667c1f459f2e51ca64305a5305029449c3784291432962a9062986519d5fbb4d#rd",
+      "msgid": "2650060441",
+      "itemidx": "1",
+      "published_at_page_display": "2026-10-31T23:56:00+08:00",
+      "album_create_time": "1793462123",
+      "album_time_china": "2026-10-31T23:55:23+08:00",
+      "captured_at": "2026-11-01T04:35:26.088Z",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 7123,
+      "fnv1a32_code_units": "31873c52",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "7c226529afe8d23a6acf0c4e90d33af533684e696f2199478769e41dad40766e",
+      "source_sha256": "0be6c097db29472cb2723c57d80f512961961e2e5ed686ddcfb5c85ad06b8c6b",
+      "table_count": 2,
+      "tables": [
+        {
+          "rows": [
+            [
+              "如果正式举办",
+              "测试积极",
+              "测试消极",
+              "合计"
+            ],
+            [
+              "会成功",
+              "40",
+              "10",
+              "50"
+            ],
+            [
+              "会失败",
+              "10",
+              "40",
+              "50"
+            ],
+            [
+              "合计",
+              "50",
+              "50",
+              "100"
+            ]
+          ],
+          "text": "如果正式举办\n\t\n测试积极\n\t\n测试消极\n\t\n合计\n\n\n会成功\n\t\n40\n\t\n10\n\t\n50\n\n\n会失败\n\t\n10\n\t\n40\n\t\n50\n\n\n合计\n\t\n50\n\t\n50\n\t\n100"
+        },
+        {
+          "rows": [
+            [
+              "实际走到的情况",
+              "从测试前看，发生概率",
+              "最终净收益"
+            ],
+            [
+              "信号积极，办了且成功",
+              "50% × 80%＝40%",
+              "7500元"
+            ],
+            [
+              "信号积极，办了却失败",
+              "50% × 20%＝10%",
+              "−4500元"
+            ],
+            [
+              "信号消极，决定不办",
+              "50%",
+              "−500元"
+            ]
+          ],
+          "text": "实际走到的情况\n\t\n从测试前看，发生概率\n\t\n最终净收益\n\n\n信号积极，办了且成功\n\t\n50% × 80%＝40%\n\t\n7500元\n\n\n信号积极，办了却失败\n\t\n50% × 20%＝10%\n\t\n−4500元\n\n\n信号消极，决定不办\n\t\n50%\n\t\n−500元"
+        }
+      ],
+      "image_count": 11,
+      "media_read_this_run": true,
+      "media_scope": "11幅图片本轮已逐张查看；本包保留文字和审阅摘要，原图仅留维护工作区。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": false,
+      "historical_capture_date": null,
+      "historical_media_scope": null,
+      "historical_fingerprint_algorithm": null,
+      "historical_fnv1a32_utf16le_bytes": null
+    }
+  ]
+}

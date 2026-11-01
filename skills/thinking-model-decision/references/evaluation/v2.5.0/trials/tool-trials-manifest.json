@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-11-01T05:19:44.662123+00:00",
+  "execution_context": "agent_task:/root/tm156_tool_trials",
+  "same_execution_context": true,
+  "case_count": 2,
+  "role": "independent simulated executor; not reviewer",
+  "input_read_scope": "Only id and request fields were exposed and used.",
+  "resource_reads": [
+    "../trial-inputs.json",
+    "../../../../SKILL.md",
+    "../../../../references/user-models/TM-156.md",
+    "../../../../references/cards/TM-156.md",
+    "../../../../references/tools/TM-156.md",
+    "../../../../references/toolbox-orchestration.md",
+    "../../../../references/tool-runtime.md"
+  ],
+  "external_actions_performed": [],
+  "limitations": [
+    "Two cases were run in one execution context; not separate fresh contexts.",
+    "Fictional inputs accepted as assumptions; no real supplier, report, purchase or sales verification.",
+    "Markdown was explicitly requested for this local trial; no HTML artifact created.",
+    "No scoring, pass verdict, evaluator notes or revised replacement answer produced.",
+    "No drafts/cases.json, source-review, evaluation criteria or other trial outputs were read."
+  ],
+  "trials": [
+    {
+      "id": "TM-156-fit",
+      "path": "../trials/TM-156-fit.md",
+      "sha256": "bd6b01ce1be2260ce1ca39c2ef44538413d2f69b8efd8cd99e9eeaf0bd30e2c1",
+      "read_resource_paths": [
+        "../trial-inputs.json",
+        "../../../../SKILL.md",
+        "../../../../references/user-models/TM-156.md",
+        "../../../../references/cards/TM-156.md",
+        "../../../../references/tools/TM-156.md",
+        "../../../../references/toolbox-orchestration.md",
+        "../../../../references/tool-runtime.md"
+      ],
+      "answer_state": "original simulated response"
+    },
+    {
+      "id": "TM-156-misuse",
+      "path": "../trials/TM-156-misuse.md",
+      "sha256": "c8aab6e9cdf694696764774c456cb1b913933062ff294fcee16bb00d180b2206",
+      "read_resource_paths": [
+        "../trial-inputs.json",
+        "../../../../SKILL.md",
+        "../../../../references/user-models/TM-156.md",
+        "../../../../references/cards/TM-156.md",
+        "../../../../references/tools/TM-156.md",
+        "../../../../references/toolbox-orchestration.md",
+        "../../../../references/tool-runtime.md"
+      ],
+      "answer_state": "original simulated response"
+    }
+  ]
+}
