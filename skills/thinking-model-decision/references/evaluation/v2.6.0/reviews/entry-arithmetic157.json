@@ -1,0 +1,189 @@
+{
+  "reviewed_at": "2026-11-02T01:27:57.030782+00:00",
+  "basis": "Independent reconstruction from full entry-inputs.json; Python Fraction recurrences and 90-step rational bisection. Not derived from executor calculations summary.",
+  "input_sha256": "ff163b5a50cd23934dbf61b7c24537a98f2270ca454cd56e00a4741262d7591f",
+  "r": "3/4",
+  "q": "3/20",
+  "initial": [
+    720,
+    480
+  ],
+  "N": 1200,
+  "horizon": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "excludes_t0": true,
+  "plans": {
+    "none": {
+      "active_t0_to_t4": [
+        "720",
+        "612",
+        "2736/5",
+        "12708/25",
+        "60624/125"
+      ],
+      "active_decimal": [
+        720.0,
+        612.0,
+        547.2,
+        508.32,
+        484.992
+      ],
+      "inactive_decimal": [
+        480.0,
+        588.0,
+        652.8,
+        691.68,
+        715.008
+      ],
+      "sum_t1_to_t4_exact": "269064/125",
+      "sum_t1_to_t4": 2152.512,
+      "increment_person_weeks": 0.0,
+      "fee": 0,
+      "net": 0.0,
+      "implementation_minutes": 0,
+      "review_minutes": 20,
+      "decision_record_minutes": 10,
+      "total_minutes": 30,
+      "slack_minutes": 90,
+      "money_remaining": 90
+    },
+    "A": {
+      "active_t0_to_t4": [
+        "720",
+        "648",
+        "3006/5",
+        "28539/50",
+        "551007/1000"
+      ],
+      "active_decimal": [
+        720.0,
+        648.0,
+        601.2,
+        570.78,
+        551.007
+      ],
+      "inactive_decimal": [
+        480.0,
+        552.0,
+        598.8,
+        629.22,
+        648.993
+      ],
+      "sum_t1_to_t4_exact": "2370987/1000",
+      "sum_t1_to_t4": 2370.987,
+      "increment_person_weeks": 218.475,
+      "fee": 80,
+      "net": 138.475,
+      "implementation_minutes": 90,
+      "review_minutes": 20,
+      "decision_record_minutes": 10,
+      "total_minutes": 120,
+      "slack_minutes": 0,
+      "money_remaining": 10
+    },
+    "B": {
+      "active_t0_to_t4": [
+        "720",
+        "684",
+        "2952/5",
+        "13356/25",
+        "62568/125"
+      ],
+      "active_decimal": [
+        720.0,
+        684.0,
+        590.4,
+        534.24,
+        500.544
+      ],
+      "inactive_decimal": [
+        480.0,
+        516.0,
+        609.6,
+        665.76,
+        699.456
+      ],
+      "sum_t1_to_t4_exact": "288648/125",
+      "sum_t1_to_t4": 2309.184,
+      "increment_person_weeks": 156.672,
+      "fee": 30,
+      "net": 126.672,
+      "implementation_minutes": 75,
+      "review_minutes": 20,
+      "decision_record_minutes": 10,
+      "total_minutes": 105,
+      "slack_minutes": 15,
+      "money_remaining": 60
+    }
+  },
+  "A_minus_B_net": 11.803,
+  "B_extra_active_by_week": [
+    72.0,
+    43.2,
+    25.92,
+    15.552
+  ],
+  "thresholds": {
+    "A_r_tie_B": {
+      "lower": 0.7974249994550106,
+      "upper": 0.7974249994550106,
+      "iterations": 90,
+      "lower_exact": "493582167576240076308418623/618970019642690137449562112",
+      "upper_exact": "987164335152480152616837247/1237940039285380274899124224",
+      "lower_value_minus_target": -2.7556399351963538e-24,
+      "upper_value_minus_target": 9.373701549269716e-25
+    },
+    "B_first_q_tie_A": {
+      "lower": 0.3113003599877451,
+      "upper": 0.3113003599877451,
+      "iterations": 90,
+      "lower_exact": "385371179872782188498224517/1237940039285380274899124224",
+      "upper_exact": "192685589936391094249112259/618970019642690137449562112",
+      "lower_value_minus_target": -4.4006008587821075e-25,
+      "upper_value_minus_target": 4.036641389258775e-25
+    },
+    "unit_value_A_B_tie": 0.8090222157500445,
+    "A_r_break_even": {
+      "lower": 0.7689059469308958,
+      "upper": 0.7689059469308958,
+      "iterations": 90,
+      "lower_exact": "951859458150395549008157561/1237940039285380274899124224",
+      "upper_exact": "475929729075197774504078781/618970019642690137449562112",
+      "lower_value_minus_target": -1.3827178743214218e-24,
+      "upper_value_minus_target": 2.10195384811516e-24
+    },
+    "B_first_q_break_even": {
+      "lower": 0.17872242647058822,
+      "upper": 0.17872242647058822,
+      "iterations": 90,
+      "lower_exact": "221247647646178487549756163/1237940039285380274899124224",
+      "upper_exact": "55311911911544621887439041/309485009821345068724781056",
+      "lower_value_minus_target": -9.926167350636332e-27,
+      "upper_value_minus_target": 8.337980574534519e-25
+    },
+    "unit_value_B_none_break_even": 0.19148284313725492
+  },
+  "sensitivity_nets": {
+    "A_r_079": 92.9815552,
+    "A_r_078": 48.4036192,
+    "B_first_q_025": 74.448,
+    "no_improvement_fees_paid_A": -80,
+    "no_improvement_fees_paid_B": -30,
+    "none": 0
+  },
+  "time": {
+    "10_to_16_clock_minutes": 360,
+    "decision_only_latest_start": "15:30",
+    "optional_all_work_by_16_A_latest_start": "14:00",
+    "optional_all_work_by_16_B_latest_start": "14:15",
+    "implementation_by_16_user_requirement": false,
+    "additional_unaccounted_h_A_max": 0,
+    "additional_unaccounted_h_B_max": 15,
+    "additional_unaccounted_h_none_max": 90,
+    "monitoring_free_outside_budget": false
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "fit": {
+    "method": "Independent exact-rational computation from request counts and duration; review_focus inspected as reviewer but not used as arithmetic authority.",
+    "row_denominators": [
+      480,
+      320
+    ],
+    "P_baseline": [
+      [
+        {
+          "fraction": "3/4",
+          "decimal": 0.75
+        },
+        {
+          "fraction": "1/4",
+          "decimal": 0.25
+        }
+      ],
+      [
+        {
+          "fraction": "1/10",
+          "decimal": 0.1
+        },
+        {
+          "fraction": "9/10",
+          "decimal": 0.9
+        }
+      ]
+    ],
+    "N": 800,
+    "week0_active": 480,
+    "weeks_0_to_4": {
+      "baseline": [
+        {
+          "fraction": "480",
+          "decimal": 480.0
+        },
+        {
+          "fraction": "392",
+          "decimal": 392.0
+        },
+        {
+          "fraction": "1674/5",
+          "decimal": 334.8
+        },
+        {
+          "fraction": "14881/50",
+          "decimal": 297.62
+        },
+        {
+          "fraction": "273453/1000",
+          "decimal": 273.453
+        }
+      ],
+      "A": [
+        {
+          "fraction": "480",
+          "decimal": 480.0
+        },
+        {
+          "fraction": "416",
+          "decimal": 416.0
+        },
+        {
+          "fraction": "1856/5",
+          "decimal": 371.2
+        },
+        {
+          "fraction": "8496/25",
+          "decimal": 339.84
+        },
+        {
+          "fraction": "39736/125",
+          "decimal": 317.888
+        }
+      ],
+      "B": [
+        {
+          "fraction": "480",
+          "decimal": 480.0
+        },
+        {
+          "fraction": "424",
+          "decimal": 424.0
+        },
+        {
+          "fraction": "1778/5",
+          "decimal": 355.6
+        },
+        {
+          "fraction": "15557/50",
+          "decimal": 311.14
+        },
+        {
+          "fraction": "282241/1000",
+          "decimal": 282.241
+        }
+      ]
+    },
+    "cumulative_weeks_1_to_4": {
+      "baseline": {
+        "fraction": "1297873/1000",
+        "decimal": 1297.873
+      },
+      "A": {
+        "fraction": "180616/125",
+        "decimal": 1444.928
+      },
+      "B": {
+        "fraction": "1372981/1000",
+        "decimal": 1372.981
+      }
+    },
+    "incremental_person_weeks": {
+      "baseline": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "A": {
+        "fraction": "29411/200",
+        "decimal": 147.055
+      },
+      "B": {
+        "fraction": "18777/250",
+        "decimal": 75.108
+      }
+    },
+    "incremental_gross_business_value": {
+      "baseline": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "A": {
+        "fraction": "29411/100",
+        "decimal": 294.11
+      },
+      "B": {
+        "fraction": "18777/125",
+        "decimal": 150.216
+      }
+    },
+    "full_once_cost": {
+      "baseline": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "A": {
+        "fraction": "160",
+        "decimal": 160.0
+      },
+      "B": {
+        "fraction": "60",
+        "decimal": 60.0
+      }
+    },
+    "net_incremental_value": {
+      "baseline": {
+        "fraction": "0",
+        "decimal": 0.0
+      },
+      "A": {
+        "fraction": "13411/100",
+        "decimal": 134.11
+      },
+      "B": {
+        "fraction": "11277/125",
+        "decimal": 90.216
+      }
+    },
+    "A_net_advantage_over_B": {
+      "fraction": "21947/500",
+      "decimal": 43.894
+    },
+    "budget": 180,
+    "mutually_exclusive": true,
+    "costs_feasible": {
+      "baseline": true,
+      "A": true,
+      "B": true
+    },
+    "best_under_supplied_assumptions": "A",
+    "unspent_budget_after_A": 20,
+    "planning_probability_status": "Scenario assumptions only; six weeks consistent records and no clear subgroup difference do not establish Markov property or causal intervention effectiveness.",
+    "post_week4": {
+      "baseline_or_B_if_baseline_keeps_holding_limit": {
+        "fraction": "1600/7",
+        "decimal": 228.57142857142858
+      },
+      "A": "Only transitions 1-4 specified. Beyond-week4 matrix is unknown. If restored to baseline, same 1600/7 limit; if additionally assumed permanent A, 800/3. Neither continuation is established by four-week effect specification.",
+      "A_if_explicitly_permanent_limit": {
+        "fraction": "800/3",
+        "decimal": 266.6666666666667
+      }
+    },
+    "action_constraints": [
+      "Do not combine A and B or treat leftover 20 as authorization for unpriced tests.",
+      "Recommendation conditional on effect/cost assumptions; first check feasible execution and measurement in the existing full-cost plan, then compare each week with predictions.",
+      "No payment or real intervention executed by this analysis; expected fractional people are not an actual-count guarantee."
+    ]
+  },
+  "misuse": {
+    "known_active_sets": {
+      "each_count": 200,
+      "intersection": 140,
+      "prior_only": 60,
+      "latest_only": 60,
+      "union": 260,
+      "observed_overlap_ratio": {
+        "fraction": "7/10",
+        "decimal": 0.7
+      }
+    },
+    "cannot_infer": [
+      "Complete comparable cohort from current registration count 600 while entries/deletions occur.",
+      "Number starting inactive and observable next period, or portion of latest-only60 that is returning rather than new.",
+      "Full transition table or main-platform exact week8 count. 60/600=.1 is arithmetic, not the conditional return rate; 60/400=.15 is also unjustified here.",
+      "Causal effect or persistent20% return from one-week uncontrolled campaign with changed subgroup composition."
+    ],
+    "toy": {
+      "P": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "week_0_to_8": [
+        {
+          "fraction": "60",
+          "decimal": 60.0
+        },
+        {
+          "fraction": "40",
+          "decimal": 40.0
+        },
+        {
+          "fraction": "60",
+          "decimal": 60.0
+        },
+        {
+          "fraction": "40",
+          "decimal": 40.0
+        },
+        {
+          "fraction": "60",
+          "decimal": 60.0
+        },
+        {
+          "fraction": "40",
+          "decimal": 40.0
+        },
+        {
+          "fraction": "60",
+          "decimal": 60.0
+        },
+        {
+          "fraction": "40",
+          "decimal": 40.0
+        },
+        {
+          "fraction": "60",
+          "decimal": 60.0
+        }
+      ],
+      "week8": 60,
+      "stationary": [
+        0.5,
+        0.5
+      ],
+      "from_50_already_stationary": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50
+      ],
+      "nonstationary_start_converges": false,
+      "finite_period_predictions_valid": true
+    },
+    "data_priority": "One ID-level joined ledger anchored at a documented start date: complete roster, entry/deletion/observation flags, adjacent-week activity, activity-definition and timestamp, plus campaign and inactivity-duration attributes if available. Unknown/absent records distinguished from genuinely inactive.",
+    "resource_constraint": "45 minutes total today including reading/reasoning/record checking/recording; subtract time already spent; no new marketing spending. First export/join one bounded ledger, surface unavailable fields rather than promise completion.",
+    "behavior_review_requirements": [
+      "Distinguish stable total from identity retention without predicting inevitable collapse.",
+      "Keep main platform uncertainty separate from the fully specified toy chain.",
+      "Give a concrete bounded data action and stopping/deliverable checks, not generic collect-more-data."
+    ]
+  }
+}

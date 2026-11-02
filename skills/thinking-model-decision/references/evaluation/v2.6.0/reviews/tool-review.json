@@ -1,0 +1,288 @@
+{
+  "review_id": "TM-157-local-tool-behavior-review",
+  "reviewed_at": "2026-11-02T01:24:07.059396+00:00",
+  "reviewer": "daily_baseline_1101",
+  "independence": "Not author of source/card/runtime/requests or execution answers. Independent request arithmetic existed before responses were read; no expected conclusions supplied to executor.",
+  "verdict": "passed_with_nonblocking_wording_note",
+  "passed_cases": 2,
+  "blocking_failures": [],
+  "required_changes": [],
+  "findings": [
+    {
+      "id": "TM157-P3-TIME-SCOPE",
+      "severity": "P3",
+      "blocking": false,
+      "case_id": "TM-157-misuse",
+      "evidence": {
+        "line": 78,
+        "excerpt": "如果今天已有整理耗时，应先从45分钟额度中扣除，压缩导出整理范围，保留最后的核对与结果记录。若历史名册无法在预算内恢复，当天就交付缺口清单，明确需要“第一周开始时完整在册账号快照或可重建它的注册／注销时间戳”，并记录应由哪个数据负责人协助；负责人未确定就标为待确认，不假装已经有人接手。"
+      },
+      "description": "The user specifically gave 45 minutes for record整理. The answer budgets all record work, communication and review within 45 and deducts prior record-work time. It does not explicitly name earlier report-reading or analysis time in that deduction.",
+      "effect": "No demonstrated violation of the supplied record-work budget. If 45 minutes is intended to cover the whole conversation/work session, the accounting sentence should explicitly include reading and analysis.",
+      "action": "Nonblocking wording improvement for future use; preserve this actual original answer. Do not silently claim explicit reading-time accounting or rewrite the response after review."
+    }
+  ],
+  "manifest_path": "../trials/tool-trials-manifest.json",
+  "manifest_sha256": "08f3e51c3716b50b6dac84758314da3ab6a0cf09c6d7c559f5cc323b0581d5c9",
+  "input_sha256": "16d3471db854dbed108096fb03d3d350f9696f8bb03a2dcc02a452dc598d51a0",
+  "original_answers": [
+    {
+      "id": "TM-157-fit",
+      "path": "../trials/TM-157-fit.md",
+      "sha256": "344bd00c87abcebe5dbe888eed0793833f73c6a14c0ecde3b311d7cda7f40351",
+      "answer_sha256": "e1072d353dd53e9874d074daa2933ea03dbd328577e8b0502862f53d8223299a",
+      "request_sha256": "7e1a718b8a3903fc4262b869e7ab60bfd3afe46a05e08601b90ece8aac2bd69f",
+      "checks": {
+        "full_file_sha_match": true,
+        "bytes_match": true,
+        "request_exact_match_to_input": true,
+        "request_exact_match_to_authored_case": true,
+        "request_sha_match": true,
+        "answer_sha_match": true
+      }
+    },
+    {
+      "id": "TM-157-misuse",
+      "path": "../trials/TM-157-misuse.md",
+      "sha256": "4b2ecc31b42abd59978dafa77bae96684e277d31a3d0c09126fca94cacc81d26",
+      "answer_sha256": "d7c2cfee0ce3e20a56b48ac8a0a2dd6911b99b3a6f68ada6e3cc039d674d4884",
+      "request_sha256": "6271e55c72fa1093372e9741401495f8e7af25c86d53a306cb853c62ff00d84b",
+      "checks": {
+        "full_file_sha_match": true,
+        "bytes_match": true,
+        "request_exact_match_to_input": true,
+        "request_exact_match_to_authored_case": true,
+        "request_sha_match": true,
+        "answer_sha_match": true
+      }
+    }
+  ],
+  "source_card_runtime_sha256": {
+    "sources/TM-157.md": "4e2af3cd9f2c8204d37e7d5bbb0433070830cdf51a995410a7c9a49207f82d04",
+    "drafts/TM-157/card.md": "4a130339c55456ea00a18a1c19edda68afa2937baf4ab38020fdefec5f207958",
+    "drafts/TM-157/tool.md": "5eebbb0780ed8b4b301c3565e34fd75db6ed7487a158ab8f42be0f992f6676e3"
+  },
+  "source_card_runtime_match_prior_source_review": true,
+  "resource_hash_checks": [
+    {
+      "path": "../../../../SKILL.md",
+      "current_sha256": "5eb74ff6f91a884b9b4fe72b267f3f88e535af2e0c3c44b055597d2214be44e6",
+      "matches_manifest_time_hash": true
+    },
+    {
+      "path": "../../../../references/tool-runtime.md",
+      "current_sha256": "57a13e389b39a00855cf27aeb58802b326af1399bc0b144ce400c8b6efde7785",
+      "matches_manifest_time_hash": true
+    },
+    {
+      "path": "../../../../references/toolbox-orchestration.md",
+      "current_sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "matches_manifest_time_hash": true
+    },
+    {
+      "path": "../../../../references/decision-report.md",
+      "current_sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "matches_manifest_time_hash": true
+    },
+    {
+      "path": "../../../../references/tools/TM-157.md",
+      "current_sha256": "5eebbb0780ed8b4b301c3565e34fd75db6ed7487a158ab8f42be0f992f6676e3",
+      "matches_manifest_time_hash": true
+    },
+    {
+      "path": "../../../../references/cards/TM-157.md",
+      "current_sha256": "4a130339c55456ea00a18a1c19edda68afa2937baf4ab38020fdefec5f207958",
+      "matches_manifest_time_hash": true
+    },
+    {
+      "path": "../../../../references/user-models/TM-157.md",
+      "current_sha256": "4e2af3cd9f2c8204d37e7d5bbb0433070830cdf51a995410a7c9a49207f82d04",
+      "matches_manifest_time_hash": true
+    }
+  ],
+  "case_reviews": [
+    {
+      "id": "TM-157-fit",
+      "verdict": "pass",
+      "checks": [
+        {
+          "criterion": "行分母、状态与队列",
+          "result": "pass",
+          "reason": "r=360/480=.75，q=32/320=.1；固定800、活跃定义及不活跃非永久流失均明确。",
+          "evidence": {
+            "line": 27,
+            "excerpt": "| 活跃 | 360／480＝75% | 120／480＝25% | 480 |"
+          }
+        },
+        {
+          "criterion": "逐期转移与期限",
+          "result": "pass",
+          "reason": "三个方案共用480起点，各自滚动；B仅第1步20%，第2步回10%，没有错误永久延续。",
+          "evidence": {
+            "line": 40,
+            "excerpt": "A的四次转移均用留存80%、回流10%；B仅第一次用留存75%、回流20%，第二次开始恢复75%和10%。例如B第二周是 `424×75%＋376×10%＝355.6`，不能继续沿用20%的回流率。"
+          }
+        },
+        {
+          "criterion": "有限期算术",
+          "result": "pass",
+          "reason": "四周全部活跃/不活跃及总数核对，与独立 Fraction 基准一致：基线末273.453、A317.888、B282.241。",
+          "evidence": {
+            "line": 38,
+            "excerpt": "| 第4周 | 273.453／526.547 | 317.888／482.112 | 282.241／517.759 |"
+          }
+        },
+        {
+          "criterion": "累计与净值口径",
+          "result": "pass",
+          "reason": "不含第0周、人周非独立用户；累计1297.873/1444.928/1372.981；A净134.110，B净90.216；单位价值非已到账收入。",
+          "evidence": {
+            "line": 47,
+            "excerpt": "| A | 1444.928 | 147.055 | 294.110元 | 160元 | 134.110元 |"
+          }
+        },
+        {
+          "criterion": "当前方案与硬预算",
+          "result": "pass",
+          "reason": "按四周净增量条件选A，160≤180，费用包括人员材料且只扣一次；A/B互斥，余20不擅自另支。",
+          "evidence": {
+            "line": 62,
+            "excerpt": "确认能够按完整160元安排执行后，按本轮目标采用A；A、B不叠加，剩余20元不预先安排用途。若需要另加支出才可完成，必须先重算完整费用并守住180元总上限；如果80%或四周持续性没有足够依据，就把A保留为条件方案，不承诺134.11元收益。"
+          }
+        },
+        {
+          "criterion": "目标时窗与长期",
+          "result": "pass",
+          "reason": "首周B高8但A累计/净值更高；B长期回基线1600/7；A只指定4步，后续恢复/永续均明确额外条件，不扩展160方案收益。",
+          "evidence": {
+            "line": 56,
+            "excerpt": "A目前只被假设在前四次转移有效，不能据此承诺其后的长期水平。若第5次起也恢复基线，A同样最终趋近约228.57人；只有额外假设80%留存和10%回流长期持续，才会趋近约266.67人。后一个情景的持续效果和后续费用均未给出，不能拿它扩展本轮160元方案的价值。"
+          }
+        },
+        {
+          "criterion": "假设与实证边界",
+          "result": "pass",
+          "reason": "六周口径一致不等于概率稳定，无显著分层差异不证明历史无用；规划改率非已证干预效果。",
+          "evidence": {
+            "line": 58,
+            "excerpt": "完整队列和六周一致的活跃口径支持这次有限期计算，但口径没变不等于转移概率没变；“按停用时长暂未看到明确差异”也不足以证明历史信息完全无用。基线跨周可沿用，以及A、B的改善幅度和持续时间，仍是需要校准的假设。"
+          }
+        },
+        {
+          "criterion": "行动、复查与真实状态",
+          "result": "pass",
+          "reason": "先固定名册与口径、核A四周安排和全费用，责任人未定先确认；每周和第4周复查。最终实际与预测差异不直接归因A；无付款。",
+          "evidence": {
+            "line": 64,
+            "excerpt": "每周结束，用这800人的实际四格计数更新留存和回流，并对照人数与累计人周。单周偏差先检查样本波动与记录；若持续偏离、活动提前结束，或停用时长分组出现有意义的差异，就重估余下周次，不继续硬套旧表。第四周统一结算实际累计人周和完整费用；实际因果增量仍需可比参照，不能把与模型基线的差额直接称为A造成的收益。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "TM-157-misuse",
+      "verdict": "pass",
+      "checks": [
+        {
+          "criterion": "可算事实与不可识别量",
+          "result": "pass",
+          "reason": "交集140、各独有60、并260、重叠70%正确；140不是长期核心，新增/注销/缺测去向未编。",
+          "evidence": {
+            "line": 32,
+            "excerpt": "| 至少一周活跃的账号 | 200＋200－140＝260 | 两张活跃名单的并集，并非完整队列 |"
+          }
+        },
+        {
+          "criterion": "回流分母与缺数",
+          "result": "pass",
+          "reason": "60/600是除法而非条件率；连600−200=400也不能补救，队列/时间/分子须对齐。",
+          "evidence": {
+            "line": 37,
+            "excerpt": "`60÷600＝10%` 虽然算术没错，**却不是这里的回流率**。回流率应为“同一队列中，前一周不活跃、后一周活跃的老账号数”，除以“该队列前一周不活跃的账号数”。目前分子60混有新增的可能，分母又用了最新全体注册数，时间与状态均不对齐。不能改用`600－200＝400`就补救，因为600不是已经对齐的前一周完整队列，两周都没出现者及账号进出尚未核清。"
+          }
+        },
+        {
+          "criterion": "不夸大轮换风险",
+          "result": "pass",
+          "reason": "总量同不等于同人，轮换也不等于平台恶化；没有反向制造必然崩塌。",
+          "evidence": {
+            "line": 35,
+            "excerpt": "因此，70%的除法本身成立；问题在于把一次观察直接当作可沿用八周的转移率，并且把剩下30%全部解释成同一种“不活跃”状态。完整两状态模型还必须处理注销和缺测。两周总数相同，也只说明数量相同：已经看到60个账号离开活跃名单、另60个进入，不能说同一批核心用户一直稳定；140人也只是连续两周出现，不能据此认定长期核心用户。人员轮换本身同样不能证明平台必然恶化。"
+          }
+        },
+        {
+          "criterion": "临时活动与因果",
+          "result": "pass",
+          "reason": "不将一次20%永久外推；无对照且分层结构变动不足归因，状态信息与跨期稳定性分开检查。",
+          "evidence": {
+            "line": 44,
+            "excerpt": "- 没有对照组，且短期、长期停用人群占比改变，不能断言20%由活动造成。即使两类人各自回流率都没变，混合比例变化也可能改变总体回流率；季节、自然回流及其他同期变化也可能解释结果。"
+          }
+        },
+        {
+          "criterion": "周期反例的正确使用",
+          "result": "pass",
+          "reason": "玩具矩阵互换、60↔40，第8周偶数仍60；50/50为平稳初态但当前不收敛；时间平均50不等于每周50，有限期仍有效。",
+          "evidence": {
+            "line": 64,
+            "excerpt": "之后偶数周60人、奇数周40人，一直交替。50%确实是平稳比例：如果初始正好50／50，再交换仍为50／50。但当前60／40不会趋近它。这条链周期为2，平稳分布存在不代表从任意起点逐周收敛。每连续两周的平均到场人数是50，也不等于每周最后都会有50人到场。这里是确定性玩具规则，因此60与40是按设定确定的计数，与主平台的概率期望预测不同。"
+          }
+        },
+        {
+          "criterion": "不承诺缺数的八周期望",
+          "result": "pass",
+          "reason": "主平台缺率与开放队列不能承诺八周，不借玩具参数；取得一张表也非自动全平台长期预测。",
+          "evidence": {
+            "line": 21,
+            "excerpt": "**现在不足以承诺主平台八周后的活跃人数。** 今天最有用的工作，是把“第一周起始账号名册＋两周活跃记录＋新增、注销和缺测标记”合成一张逐账号对账表，先补全转移分母。45分钟内可以完成或明确卡在哪里，无须投入新的营销费用。"
+          }
+        },
+        {
+          "criterion": "45分钟具体整理动作",
+          "result": "pass",
+          "reason": "5+15+15+5+5=45，沟通确认/复查记录在内；既有整理耗时扣除，超时交明确缺口而非保证补齐；无新增营销费。",
+          "evidence": {
+            "line": 78,
+            "excerpt": "如果今天已有整理耗时，应先从45分钟额度中扣除，压缩导出整理范围，保留最后的核对与结果记录。若历史名册无法在预算内恢复，当天就交付缺口清单，明确需要“第一周开始时完整在册账号快照或可重建它的注册／注销时间戳”，并记录应由哪个数据负责人协助；负责人未确定就标为待确认，不假装已经有人接手。"
+          }
+        },
+        {
+          "criterion": "可交付数据与状态",
+          "result": "pass",
+          "reason": "先获取一张ID级完整起始名册+两周活跃+注册注销缺测，分层字段有则附；责任人待确认，不假装已导出或有人接手。",
+          "evidence": {
+            "line": 78,
+            "excerpt": "如果今天已有整理耗时，应先从45分钟额度中扣除，压缩导出整理范围，保留最后的核对与结果记录。若历史名册无法在预算内恢复，当天就交付缺口清单，明确需要“第一周开始时完整在册账号快照或可重建它的注册／注销时间戳”，并记录应由哪个数据负责人协助；负责人未确定就标为待确认，不假装已经有人接手。"
+          }
+        }
+      ]
+    }
+  ],
+  "arithmetic_basis": {
+    "path": "cases-arithmetic157.json",
+    "sha256": "f43df7a215d980cacfb4415c6f0831d4cd55617a8e61f49aa980639af61ee40b",
+    "created_before_answers_read": true,
+    "independent_method": "Fraction counts/recurrences/cumulative values and deterministic periodic chain, not executor summary alone."
+  },
+  "execution_scope": {
+    "case_count": 2,
+    "same_executor": true,
+    "same_context": true,
+    "sequential_answers": true,
+    "order": [
+      "TM-157-fit",
+      "TM-157-misuse"
+    ],
+    "both_requests_visible_before_first_answer": true,
+    "first_answer_saved_before_second_answer_composed": true,
+    "contexts_independently_isolated": false
+  },
+  "scope": "Two actual simulated local Markdown responses with preserved full request, output and independent substantive review; no full-entry or HTML assertion.",
+  "limits": [
+    "Both cases share one executor/context; both requests visible at initial read, first answer saved before second. Not isolated runs.",
+    "Resource hashes were recorded at manifest creation, not at each file read. Current bytes match that snapshot and prior independent source review; do not claim stronger temporal reconstruction.",
+    "Only fictional request facts, no real platform records, causal treatment effects or realized outcomes verified.",
+    "No full-library behavior or cross-client tests. HTML explicitly waived in both local requests; full entry is reviewed separately.",
+    "Raw answers preserved including the P3 scope wording; no edits to source/card/runtime or published/install targets."
+  ]
+}

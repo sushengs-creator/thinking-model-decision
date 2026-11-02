@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "version": "2.5.0",
-  "scope": "156 runtime tools; source checking, recorded trials, reviewed trials and real outcomes are distinct.",
+  "version": "2.6.0",
+  "scope": "157 runtime tools; source checking, recorded trials, reviewed trials and real outcomes are distinct.",
   "tools": [
     {
       "id": "TM-001",
@@ -5211,6 +5211,66 @@
       "card_sha256": "86516249e7c962af371f937a448f082727b68aeb1f105f29e80ce6ff95360947",
       "runtime_path": "references/tools/TM-156.md",
       "runtime_sha256": "55eb7989c2040f92c171ae0b3a81c679a476e86bcee9fcf8ede78a2aaf91232d"
+    },
+    {
+      "id": "TM-157",
+      "name": "马尔科夫链",
+      "task": "把同一批对象的逐期状态去向估成条件转移表，核查状态与时间假设，比较指定期限内的分布和行动情景",
+      "roles": [
+        "澄清",
+        "证据",
+        "解释",
+        "约束",
+        "选项",
+        "取舍",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "马尔科夫链",
+        "状态转移",
+        "活跃人数一直掉",
+        "用户会不会最后都流失",
+        "总数没变人一直换",
+        "留存还是召回",
+        "留存和回流",
+        "转移概率",
+        "转移矩阵",
+        "行分母",
+        "一周活动不能一直算",
+        "长期稳定比例",
+        "平稳分布",
+        "累计活跃人周",
+        "固定用户队列",
+        "预测下一周活跃",
+        "同一批用户",
+        "历史信息有用",
+        "概率随时间变化",
+        "马尔可夫链",
+        "活跃总数下降",
+        "活跃人数不变",
+        "用户流失预测",
+        "召回只做一周"
+      ],
+      "output": "队列与状态说明、转移计数/概率及未知项、假设核查、有限期基线与方案、同口径成本比较及下一期校准行动",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.6.0/trials/TM-157-fit.md",
+        "references/evaluation/v2.6.0/trials/TM-157-misuse.md"
+      ],
+      "review_records": [
+        "references/evaluation/v2.6.0/reviews/tool-review.md",
+        "references/evaluation/v2.6.0/reviews/entry-review.md"
+      ],
+      "source_review_records": [
+        "references/validation/TM-157-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-157.md",
+      "source_sha256": "4e2af3cd9f2c8204d37e7d5bbb0433070830cdf51a995410a7c9a49207f82d04",
+      "card_path": "references/cards/TM-157.md",
+      "card_sha256": "4a130339c55456ea00a18a1c19edda68afa2937baf4ab38020fdefec5f207958",
+      "runtime_path": "references/tools/TM-157.md",
+      "runtime_sha256": "5eebbb0780ed8b4b301c3565e34fd75db6ed7487a158ab8f42be0f992f6676e3"
     }
   ]
 }

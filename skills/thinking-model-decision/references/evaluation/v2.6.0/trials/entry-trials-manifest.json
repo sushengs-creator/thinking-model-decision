@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "kind": "independent_entry_execution",
+  "agent_task": "/root/tm157_entry_trials",
+  "created_at_utc": "2026-11-02T01:22:12.609174+00:00",
+  "finished_writing_at_utc": "2026-11-02T01:22:28.192838+00:00",
+  "first_clock_observation_at_utc": "2026-11-02T01:19:41.585818+00:00",
+  "exact_start_time_recorded": false,
+  "scenario_clock": {
+    "from_user": "2026-11-02 10:00 Asia/Shanghai",
+    "decision_deadline": "2026-11-02 16:00 Asia/Shanghai",
+    "note": "用户设定的情景时钟，与实际生成时刻分开记录"
+  },
+  "input": {
+    "path": "../entry-inputs.json",
+    "sha256": "ff163b5a50cd23934dbf61b7c24537a98f2270ca454cd56e00a4741262d7591f"
+  },
+  "context": {
+    "both_cases_same_context": true,
+    "same_context_as_author_or_reviewer": false,
+    "note": "独立子代理执行，收到父代理任务说明；本次未参与技能编写或评审，未读取作者预期、草稿、评审正文、其他答卷或私人评分案例。第2案可见第1案，不能称两案上下文隔离。"
+  },
+  "cases": [
+    {
+      "id": "entry-state-choice",
+      "request_sha256_utf8": "b7393a4115e3e8887da96c049e6632ffd34b8c60ddeaf0193799d1cbb2a6d712",
+      "actual_reply_sha256_utf8": "ff68c6ce0f02007413a16bd5d52d0d241831075e64abc9bfa4300969f72cc780",
+      "outputs": [
+        "../trials/entry-state-choice.md",
+        "../trials/entry-state-choice.html"
+      ],
+      "resources": [
+        "../../../../SKILL.md",
+        "../../../../references/toolbox-orchestration.md",
+        "../../../../references/decision-routing.md",
+        "../../../../references/tool-runtime.md",
+        "../../../../references/decision-report.md",
+        "../../../../references/html-action-plan.md",
+        "../../../../references/tool-catalog.md",
+        "../../../../references/wan-catalog.md",
+        "../../../../references/tools/TM-157.md",
+        "../../../../references/cards/TM-157.md",
+        "../../../../references/user-models/TM-157.md",
+        "../../../../references/tools/TM-153.md",
+        "../../../../references/cards/TM-153.md",
+        "../../../../references/tools/TM-105.md",
+        "../../../../references/cards/TM-105.md",
+        "../../../../references/user-models/TM-105.md",
+        "../../../../references/second-order-check.md",
+        "../../../../references/tool-index.json",
+        "../../../../references/user-models/TM-153.md"
+      ],
+      "executed_tools": [
+        "TM-157",
+        "TM-153",
+        "TM-105"
+      ]
+    },
+    {
+      "id": "entry-first-turn",
+      "request_sha256_utf8": "8b27916261c9812ad571515f3f26c04816d9259df1319ab5f444a7185f6835b4",
+      "actual_reply_sha256_utf8": "0a6c3270274d0c8950cee8929a438e41f555f6a9ffd4be925168843f530748dd",
+      "outputs": [
+        "../trials/entry-first-turn.md"
+      ],
+      "resources": [
+        "../../../../SKILL.md",
+        "../../../../references/guided-dialogue.md",
+        "../../../../references/questioning-toolkit.md"
+      ],
+      "executed_tools": [],
+      "stop": "等待真实用户对第一问作答"
+    }
+  ],
+  "resources": [
+    {
+      "path": "../../../../SKILL.md",
+      "sha256": "5eb74ff6f91a884b9b4fe72b267f3f88e535af2e0c3c44b055597d2214be44e6",
+      "read_scope": "全文；两案入口"
+    },
+    {
+      "path": "../../../../references/toolbox-orchestration.md",
+      "sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "read_scope": "全文；第1案工具编排"
+    },
+    {
+      "path": "../../../../references/decision-routing.md",
+      "sha256": "caec14f0dbefb52a40db5b1e11bf53fa2cc3cbc62419ce70285de45b3c898099",
+      "read_scope": "导航内容，首次输出部分被截断，另读末尾；第1案候选路由"
+    },
+    {
+      "path": "../../../../references/tool-runtime.md",
+      "sha256": "57a13e389b39a00855cf27aeb58802b326af1399bc0b144ce400c8b6efde7785",
+      "read_scope": "全文；第1案运行协议"
+    },
+    {
+      "path": "../../../../references/decision-report.md",
+      "sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "read_scope": "全文；第1案报告规范"
+    },
+    {
+      "path": "../../../../references/html-action-plan.md",
+      "sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef",
+      "read_scope": "全文；第1案交付规则"
+    },
+    {
+      "path": "../../../../references/guided-dialogue.md",
+      "sha256": "7700f109b08a913fcecf6a8ce26083f00376cc2f32863e7e9225e4ee47bb012a",
+      "read_scope": "全文；第2案逐轮对话"
+    },
+    {
+      "path": "../../../../references/questioning-toolkit.md",
+      "sha256": "4c4435666732c7d48a602866c0c0f17cb3f6fb2676d088093052620a849c80f6",
+      "read_scope": "全文；第2案澄清机制候选；未声称运行表中具体工具"
+    },
+    {
+      "path": "../../../../references/tool-catalog.md",
+      "sha256": "a012a746df10bc2dfeebbf7f901c2367cabc9f0d9ffcfe2fbde6313f14edb7a5",
+      "read_scope": "检索 TM-105、TM-153、TM-157 条目"
+    },
+    {
+      "path": "../../../../references/wan-catalog.md",
+      "sha256": "b1200e2d0f7f81decf41f20353ed9ab17ba82abcaa2574accc31990673f3e4c9",
+      "read_scope": "检索 WW-1.4 条目；未读取或运行该工具正文"
+    },
+    {
+      "path": "../../../../references/tools/TM-157.md",
+      "sha256": "5eebbb0780ed8b4b301c3565e34fd75db6ed7487a158ab8f42be0f992f6676e3",
+      "read_scope": "全文；第1案实际使用"
+    },
+    {
+      "path": "../../../../references/cards/TM-157.md",
+      "sha256": "4a130339c55456ea00a18a1c19edda68afa2937baf4ab38020fdefec5f207958",
+      "read_scope": "全文；第1案实际使用"
+    },
+    {
+      "path": "../../../../references/user-models/TM-157.md",
+      "sha256": "4e2af3cd9f2c8204d37e7d5bbb0433070830cdf51a995410a7c9a49207f82d04",
+      "read_scope": "全文，另补读末尾85行以覆盖被截断片段；第1案公式与边界"
+    },
+    {
+      "path": "../../../../references/tools/TM-153.md",
+      "sha256": "7b611a103436fc549a3c794d3a14ee8bbbe33c23c750df9c67761eea60e1ddbd",
+      "read_scope": "全文；第1案实际使用"
+    },
+    {
+      "path": "../../../../references/cards/TM-153.md",
+      "sha256": "dfc6b9ccab1db76250d424a20d0b15cdaa9411b085eac6575cd35961939d7833",
+      "read_scope": "全文；第1案实际使用"
+    },
+    {
+      "path": "../../../../references/tools/TM-105.md",
+      "sha256": "f0ce53e8f5ab7c2099c5c1d023d211dbbd4151a334824c8086e3253a04f14d84",
+      "read_scope": "全文；第1案实际使用"
+    },
+    {
+      "path": "../../../../references/cards/TM-105.md",
+      "sha256": "2512c95df17d3adaee5345ad19c0748981f1b06e3b018fd8b68badf623d8b9c1",
+      "read_scope": "全文；第1案实际使用"
+    },
+    {
+      "path": "../../../../references/user-models/TM-105.md",
+      "sha256": "f83b64c43d9c8920c523a393b377b4a7a50d458a8fba871e6277e7b1f724937e",
+      "read_scope": "全文；第1案敏感性方法"
+    },
+    {
+      "path": "../../../../references/second-order-check.md",
+      "sha256": "733f5ff5ce00c02ec94ef7a82da36b9520472031193fc461eca2bb4f30cbfe8f",
+      "read_scope": "全文；第1案时间延续与竞争情景边界"
+    },
+    {
+      "path": "../../../../references/tool-index.json",
+      "sha256": "4ef22d7d6a01cb28f17cc23d7b2fa78e01e535826cfdd58eb89f4d9d3c749164",
+      "read_scope": "读取 TM-105、TM-153、TM-157 登记项并核对 source/card/runtime 文件 SHA；登记中的历史记录路径未打开"
+    },
+    {
+      "path": "../../../../references/user-models/TM-153.md",
+      "sha256": "1e95d1f2782fb3450aba8e1b35cf67fae92e083ba28766dbf2e200e6c715ccd6",
+      "read_scope": "仅读取文件字节计算 SHA-256 与索引比对，未阅读原文内容"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "../trials/entry-state-choice.md",
+      "sha256": "6f280f6e39fdee2cb9da05d3564cfd7833cf4fb1e7e056bcf9ef7e6ca54e77aa",
+      "bytes": 18219
+    },
+    {
+      "path": "../trials/entry-state-choice.html",
+      "sha256": "1232b26deb6dc980b853de5e907b11d8ae3d4bfc47d4d66bc9c92373a437beb4",
+      "bytes": 16362
+    },
+    {
+      "path": "../trials/entry-first-turn.md",
+      "sha256": "82436fc796bfcd53d675fba57942b2b2d255f21d455ac619c6ac05f6016bd30b",
+      "bytes": 1190
+    }
+  ],
+  "calculations": {
+    "method": "Python Fraction精确有理数递推；Decimal复核敏感性情景；临界留存率二分求根",
+    "baseline_person_weeks": "2152.512",
+    "A_person_weeks": "2370.987",
+    "B_person_weeks": "2309.184",
+    "A_net": "138.475",
+    "B_net": "126.672",
+    "A_minus_B": "11.803"
+  },
+  "checks_performed": [
+    "对TM-105、TM-153、TM-157的source/card/runtime文件SHA与索引登记逐项比较",
+    "Python精确数值演算和情景演算",
+    "输出文件存在且UTF-8读回完成",
+    "HTMLParser静态读取：1个标题、7张表、UTF-8声明、无script/link/iframe/src或CSS url外部依赖",
+    "HTML包含内嵌响应式样式与打印样式，正文无折叠内容；未验证实际渲染",
+    "Markdown中交付HTML链接对应文件存在",
+    "首轮回复仅一个主要问句",
+    "输出与资源哈希读回相符"
+  ],
+  "not_verified": [
+    "浏览器桌面布局",
+    "浏览器窄屏布局",
+    "打印预览或实际打印",
+    "现实名单与历史概率",
+    "改善措施的真实因果效果",
+    "用户接受或执行承诺",
+    "用户真实当前剩余工时",
+    "外部网页、来源图片与原文历史主张",
+    "技能在其他客户端的行为",
+    "本次结果的独立评审"
+  ],
+  "external_actions_performed": false,
+  "skill_modified": false,
+  "answer_revised_from_review": false,
+  "manifest_self_hash_note": "不在清单内保存自身文件哈希，避免循环依赖；可由接收方对本JSON整文件计算SHA-256。",
+  "resource_hash_capture_note": "资源文件SHA在产物写入时采集，并在静态检查时重新读回比对；不是历史上每一次读取瞬间的快照。"
+}

@@ -1,0 +1,189 @@
+{
+  "captured_date": "2026-11-02",
+  "count": 1,
+  "old_body_reread_scope": [],
+  "old_body_limit": "TM-001—156正文未重读；只比对合集目录元数据。",
+  "records": [
+    {
+      "id": "TM-157",
+      "title": "思维模型157：马尔科夫链 ——1000个用户，八周之后为什么只剩250个？",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060461&idx=1&sn=baf8e0f24f421724935d7ebacc4d2756&chksm=beabef5e89dc66486f26b7154e23812a6c56d4b0e1c49325218e85b1aefa42e1d5cbc44e82f9#rd",
+      "msgid": "2650060461",
+      "itemidx": "1",
+      "published_at_page_display": "2026-11-01T15:07:00+08:00",
+      "album_create_time": "1793516761",
+      "album_time_china": "2026-11-01T15:06:01+08:00",
+      "captured_at": "2026-11-02T01:02:55.655Z",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 7236,
+      "fnv1a32_code_units": "2ac1354a",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "c9d7e62c326184e06fd99511619b26b32b30398153b056edba4917ec7d59be35",
+      "source_sha256": "4e2af3cd9f2c8204d37e7d5bbb0433070830cdf51a995410a7c9a49207f82d04",
+      "table_count": 5,
+      "tables": [
+        {
+          "rows": [
+            [
+              "当前状态",
+              "下周活跃",
+              "下周不活跃"
+            ],
+            [
+              "本周活跃",
+              "70%",
+              "30%"
+            ],
+            [
+              "本周不活跃",
+              "10%",
+              "90%"
+            ]
+          ],
+          "text": "当前状态\n\t\n下周活跃\n\t\n下周不活跃\n\n\n本周活跃\n\t\n70%\n\t\n30%\n\n\n本周不活跃\n\t\n10%\n\t\n90%"
+        },
+        {
+          "rows": [
+            [
+              "时间",
+              "预期活跃人数",
+              "占这1000人的比例"
+            ],
+            [
+              "第0周",
+              "600",
+              "60.0%"
+            ],
+            [
+              "第1周",
+              "460",
+              "46.0%"
+            ],
+            [
+              "第2周",
+              "376",
+              "37.6%"
+            ],
+            [
+              "第4周",
+              "295.36",
+              "29.5%"
+            ],
+            [
+              "第8周",
+              "255.88",
+              "25.6%"
+            ],
+            [
+              "长期极限",
+              "250",
+              "25.0%"
+            ]
+          ],
+          "text": "时间\n\t\n预期活跃人数\n\t\n占这1000人的比例\n\n\n第0周\n\t\n600\n\t\n60.0%\n\n\n第1周\n\t\n460\n\t\n46.0%\n\n\n第2周\n\t\n376\n\t\n37.6%\n\n\n第4周\n\t\n295.36\n\t\n29.5%\n\n\n第8周\n\t\n255.88\n\t\n25.6%\n\n\n长期极限\n\t\n250\n\t\n25.0%"
+        },
+        {
+          "rows": [
+            [
+              "时间",
+              "基线",
+              "方案A：提高留存",
+              "方案B：提高回流"
+            ],
+            [
+              "第1周",
+              "460",
+              "520",
+              "500"
+            ],
+            [
+              "第2周",
+              "376",
+              "464",
+              "450"
+            ],
+            [
+              "第3周",
+              "325.60",
+              "424.80",
+              "425.00"
+            ],
+            [
+              "第4周",
+              "295.36",
+              "397.36",
+              "412.50"
+            ],
+            [
+              "第8周",
+              "255.88",
+              "348.71",
+              "400.78"
+            ],
+            [
+              "长期活跃比例",
+              "25.0%",
+              "33.3%",
+              "40.0%"
+            ]
+          ],
+          "text": "时间\n\t\n基线\n\t\n方案A：提高留存\n\t\n方案B：提高回流\n\n\n第1周\n\t\n460\n\t\n520\n\t\n500\n\n\n第2周\n\t\n376\n\t\n464\n\t\n450\n\n\n第3周\n\t\n325.60\n\t\n424.80\n\t\n425.00\n\n\n第4周\n\t\n295.36\n\t\n397.36\n\t\n412.50\n\n\n第8周\n\t\n255.88\n\t\n348.71\n\t\n400.78\n\n\n长期活跃比例\n\t\n25.0%\n\t\n33.3%\n\t\n40.0%"
+        },
+        {
+          "rows": [
+            [
+              "方案",
+              "第1—4周累计活跃人周"
+            ],
+            [
+              "基线",
+              "1456.96"
+            ],
+            [
+              "A",
+              "1806.16"
+            ],
+            [
+              "B",
+              "1787.50"
+            ]
+          ],
+          "text": "方案\n\t\n第1—4周累计活跃人周\n\n\n基线\n\t\n1456.96\n\n\nA\n\t\n1806.16\n\n\nB\n\t\n1787.50"
+        },
+        {
+          "rows": [
+            [
+              "本周状态",
+              "下周用过",
+              "下周没用过",
+              "本周合计"
+            ],
+            [
+              "本周用过",
+              "420",
+              "180",
+              "600"
+            ],
+            [
+              "本周没用过",
+              "40",
+              "360",
+              "400"
+            ]
+          ],
+          "text": "本周状态\n\t\n下周用过\n\t\n下周没用过\n\t\n本周合计\n\n\n本周用过\n\t\n420\n\t\n180\n\t\n600\n\n\n本周没用过\n\t\n40\n\t\n360\n\t\n400"
+        }
+      ],
+      "image_count": 15,
+      "media_read_this_run": true,
+      "media_scope": "15幅图片本轮已逐张查看；本包保留文字和审阅摘要，原图仅留维护工作区。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": false,
+      "historical_capture_date": null,
+      "historical_media_scope": null,
+      "historical_fingerprint_algorithm": null,
+      "historical_fnv1a32_utf16le_bytes": null
+    }
+  ]
+}

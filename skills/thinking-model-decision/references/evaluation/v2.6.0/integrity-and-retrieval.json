@@ -1,0 +1,440 @@
+{
+  "scope": "Current source/index integrity and lexical retrieval only; no suitability probability or real-world validation",
+  "checks": [
+    {
+      "name": "library_validate",
+      "exit_code": 0,
+      "output": {
+        "ok": true,
+        "partial_fixture_mode": false,
+        "version": "2.6.0",
+        "revision": 147,
+        "counts": {
+          "user_models": 157,
+          "wan_tools": 100,
+          "cards": 157,
+          "card_statuses": {
+            "source_reviewed": 117,
+            "sample_reviewed": 8,
+            "behavior_checked": 32
+          },
+          "content_statuses": {
+            "source_archived": 157,
+            "existing_skill_snapshot": 100
+          }
+        },
+        "needs_review": [],
+        "errors": [],
+        "warnings": [],
+        "provenance_note": "source_sha256 保存原来源指纹；未提供 source_path 的原始来源不在包内，不能重算验证。可携带正文、HTML、卡片及验证记录按各自哈希核验。"
+      }
+    },
+    {
+      "name": "tool_runtime_validate",
+      "exit_code": 0,
+      "output": {
+        "ok": true,
+        "errors": [],
+        "scope": "Structural and fingerprint checks only; not behavioral proof"
+      }
+    },
+    {
+      "name": "library_search",
+      "query": "马尔科夫链",
+      "expected_candidate": "TM-157",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-157",
+        "TM-118"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "总数稳定但人一直在换",
+      "expected_candidate": "TM-157",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-152",
+        "TM-157",
+        "TM-038",
+        "TM-040",
+        "TM-041",
+        "TM-043",
+        "TM-090",
+        "TM-108"
+      ],
+      "candidate_found": true,
+      "rank": 2
+    },
+    {
+      "name": "library_search",
+      "query": "留存还是召回",
+      "expected_candidate": "TM-157",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-157",
+        "TM-156",
+        "TM-151",
+        "TM-154",
+        "TM-127",
+        "TM-133",
+        "TM-137",
+        "TM-114"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "一周活动能推八周吗",
+      "expected_candidate": "TM-157",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-157",
+        "TM-051",
+        "TM-056",
+        "TM-073",
+        "TM-090",
+        "TM-125",
+        "TM-134",
+        "TM-049"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "累计活跃人周",
+      "expected_candidate": "TM-157",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-157",
+        "TM-049",
+        "TM-054",
+        "TM-082",
+        "TM-089",
+        "TM-090",
+        "TM-103",
+        "TM-067"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "只有活跃名单",
+      "expected_candidate": "TM-157",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-157",
+        "TM-073",
+        "TM-085",
+        "TM-093",
+        "TM-015",
+        "TM-049",
+        "TM-050",
+        "TM-054"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "反事实因果",
+      "expected_candidate": "TM-056",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-056",
+        "WW-3.3",
+        "TM-018",
+        "TM-019",
+        "TM-001",
+        "TM-003",
+        "TM-004",
+        "TM-007"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "复杂适应系统",
+      "expected_candidate": "TM-092",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-092",
+        "TM-129",
+        "TM-095",
+        "WW-6.10",
+        "WW-8.8",
+        "TM-039",
+        "TM-045",
+        "TM-060"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "决策树",
+      "expected_candidate": "TM-156",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-156",
+        "TM-068",
+        "TM-077",
+        "TM-091",
+        "TM-002",
+        "TM-031",
+        "TM-032",
+        "TM-035"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "关键路径法",
+      "expected_candidate": "TM-155",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-155",
+        "TM-007",
+        "TM-137",
+        "WW-8.7",
+        "TM-021",
+        "TM-022",
+        "TM-023",
+        "TM-026"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "颗粒度",
+      "expected_candidate": "WW-3.3",
+      "exit_code": 0,
+      "returned_ids": [
+        "WW-3.3",
+        "TM-014",
+        "WW-7.6"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "library_search",
+      "query": "反馈回路",
+      "expected_candidate": "WW-8.4",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-083",
+        "WW-8.4",
+        "TM-051",
+        "TM-082",
+        "TM-086",
+        "TM-087",
+        "TM-092",
+        "TM-094"
+      ],
+      "candidate_found": true,
+      "rank": 2
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "马尔科夫链",
+      "expected_candidate": "TM-157",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-157"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "总数稳定但人一直在换",
+      "expected_candidate": "TM-157",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-157",
+        "TM-152",
+        "WW-6.12",
+        "TM-007",
+        "TM-022",
+        "TM-046",
+        "TM-102",
+        "TM-143"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "留存还是召回",
+      "expected_candidate": "TM-157",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-157",
+        "TM-012",
+        "TM-047",
+        "TM-066",
+        "TM-089",
+        "TM-099",
+        "TM-101",
+        "TM-107"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "一周活动能推八周吗",
+      "expected_candidate": "TM-157",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-157",
+        "TM-024",
+        "TM-056",
+        "TM-096",
+        "TM-124",
+        "TM-115",
+        "WW-4.4"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "累计活跃人周",
+      "expected_candidate": "TM-157",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-157",
+        "TM-004"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "只有活跃名单",
+      "expected_candidate": "TM-157",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-004",
+        "TM-157",
+        "TM-076",
+        "WW-3.3"
+      ],
+      "candidate_found": true,
+      "rank": 2
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "反事实因果",
+      "expected_candidate": "TM-056",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-056",
+        "WW-3.3",
+        "TM-018",
+        "WW-1.1",
+        "TM-041",
+        "TM-097",
+        "TM-149",
+        "TM-151"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "复杂适应系统",
+      "expected_candidate": "TM-092",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-092",
+        "WW-6.10",
+        "WW-8.8",
+        "TM-095",
+        "TM-129",
+        "TM-145",
+        "TM-007",
+        "TM-022"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "决策树",
+      "expected_candidate": "TM-156",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-156",
+        "TM-068",
+        "TM-077",
+        "TM-036",
+        "TM-063",
+        "TM-130",
+        "WW-7.2",
+        "WW-9.1"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "关键路径法",
+      "expected_candidate": "TM-155",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-155",
+        "TM-007",
+        "WW-8.7",
+        "TM-095",
+        "TM-090",
+        "TM-147",
+        "TM-024",
+        "TM-046"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "颗粒度",
+      "expected_candidate": "WW-3.3",
+      "exit_code": 0,
+      "returned_ids": [
+        "WW-3.3",
+        "WW-7.6"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "name": "tool_runtime_search",
+      "query": "反馈回路",
+      "expected_candidate": "WW-8.4",
+      "exit_code": 0,
+      "returned_ids": [
+        "TM-083",
+        "WW-8.4",
+        "TM-133",
+        "TM-124",
+        "TM-152",
+        "TM-006",
+        "TM-011",
+        "TM-017"
+      ],
+      "candidate_found": true,
+      "rank": 2
+    }
+  ],
+  "ok": true
+}

@@ -1,0 +1,473 @@
+{
+  "review_id": "TM-157-full-entry-behavior-review",
+  "reviewed_at": "2026-11-02T01:27:57.051019+00:00",
+  "reviewer": "daily_baseline_1101",
+  "independence": "Not author of source/card/runtime/input or raw execution answers. Independent Fraction recurrence and thresholds from supplied input; read raw response and HTML, not executor summary as proof.",
+  "verdict": "passed_with_nonblocking_wording_note",
+  "passed_cases": 2,
+  "blocking_failures": [],
+  "required_changes": [],
+  "findings": [
+    {
+      "id": "TM157-P3-LATE-REVIEW-ALLOCATION",
+      "severity": "P3",
+      "blocking": false,
+      "case_id": "entry-state-choice",
+      "evidence": {
+        "line": 95,
+        "excerpt": "可选择在核对和留档之后直接实施；若希望连实施也在今天16:00前做完，A整段120分钟最晚14:00开始，B整段105分钟最晚14:15开始。用户明确要求的是16:00前决定，实施完成时限不能被误写成用户已经提出的硬要求。若收到报告时已晚于15:30，应立即缩短核对或改为保守决定，以真实剩余时间为准，不能沿用已经无法完成的30分钟排程。"
+      },
+      "description": "Late-arrival counterfactual says shorten review or choose conservatively. The user allotted 20 minutes review plus 10 record; reducing that amount needs an explicit user-approved revision, not an automatic assumption. The supplied current 10:00 case has ample clock time and the current plan preserves all 30 minutes.",
+      "action": "Preserve original; improve future wording to declare the original decision deadline infeasible under unchanged 20+10 after15:30, then ask to change timing/scope. No rerun required for current fictional inputs."
+    }
+  ],
+  "manifest_path": "../trials/entry-trials-manifest.json",
+  "manifest_sha256": "55938787ddfc1945be3e0788db23a9e2d94851cece3078b1628c29261f2246f8",
+  "input_sha256": "ff163b5a50cd23934dbf61b7c24537a98f2270ca454cd56e00a4741262d7591f",
+  "input_manifest_match": true,
+  "outputs": [
+    {
+      "path": "../trials/entry-state-choice.md",
+      "sha256": "6f280f6e39fdee2cb9da05d3564cfd7833cf4fb1e7e056bcf9ef7e6ca54e77aa",
+      "bytes": 18219,
+      "checks": {
+        "sha256_match": true,
+        "bytes_match": true
+      }
+    },
+    {
+      "path": "../trials/entry-state-choice.html",
+      "sha256": "1232b26deb6dc980b853de5e907b11d8ae3d4bfc47d4d66bc9c92373a437beb4",
+      "bytes": 16362,
+      "checks": {
+        "sha256_match": true,
+        "bytes_match": true
+      }
+    },
+    {
+      "path": "../trials/entry-first-turn.md",
+      "sha256": "82436fc796bfcd53d675fba57942b2b2d255f21d455ac619c6ac05f6016bd30b",
+      "bytes": 1190,
+      "checks": {
+        "sha256_match": true,
+        "bytes_match": true
+      }
+    }
+  ],
+  "request_reply_checks": [
+    {
+      "path": "../trials/entry-state-choice.md",
+      "request_sha256": "b7393a4115e3e8887da96c049e6632ffd34b8c60ddeaf0193799d1cbb2a6d712",
+      "reply_sha256": "ff68c6ce0f02007413a16bd5d52d0d241831075e64abc9bfa4300969f72cc780",
+      "checks": {
+        "request_matches_input": true,
+        "request_hash_matches_manifest": true,
+        "reply_hash_matches_manifest": true
+      }
+    },
+    {
+      "path": "../trials/entry-first-turn.md",
+      "request_sha256": "8b27916261c9812ad571515f3f26c04816d9259df1319ab5f444a7185f6835b4",
+      "reply_sha256": "0a6c3270274d0c8950cee8929a438e41f555f6a9ffd4be925168843f530748dd",
+      "checks": {
+        "request_matches_input": true,
+        "request_hash_matches_manifest": true,
+        "reply_hash_matches_manifest": true
+      }
+    }
+  ],
+  "resource_hash_checks": [
+    {
+      "path": "../../../../SKILL.md",
+      "current_sha256": "5eb74ff6f91a884b9b4fe72b267f3f88e535af2e0c3c44b055597d2214be44e6",
+      "manifest_sha256": "5eb74ff6f91a884b9b4fe72b267f3f88e535af2e0c3c44b055597d2214be44e6",
+      "match": true,
+      "execution_read_scope": "全文；两案入口"
+    },
+    {
+      "path": "../../../../references/toolbox-orchestration.md",
+      "current_sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "manifest_sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "match": true,
+      "execution_read_scope": "全文；第1案工具编排"
+    },
+    {
+      "path": "../../../../references/decision-routing.md",
+      "current_sha256": "caec14f0dbefb52a40db5b1e11bf53fa2cc3cbc62419ce70285de45b3c898099",
+      "manifest_sha256": "caec14f0dbefb52a40db5b1e11bf53fa2cc3cbc62419ce70285de45b3c898099",
+      "match": true,
+      "execution_read_scope": "导航内容，首次输出部分被截断，另读末尾；第1案候选路由"
+    },
+    {
+      "path": "../../../../references/tool-runtime.md",
+      "current_sha256": "57a13e389b39a00855cf27aeb58802b326af1399bc0b144ce400c8b6efde7785",
+      "manifest_sha256": "57a13e389b39a00855cf27aeb58802b326af1399bc0b144ce400c8b6efde7785",
+      "match": true,
+      "execution_read_scope": "全文；第1案运行协议"
+    },
+    {
+      "path": "../../../../references/decision-report.md",
+      "current_sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "manifest_sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "match": true,
+      "execution_read_scope": "全文；第1案报告规范"
+    },
+    {
+      "path": "../../../../references/html-action-plan.md",
+      "current_sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef",
+      "manifest_sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef",
+      "match": true,
+      "execution_read_scope": "全文；第1案交付规则"
+    },
+    {
+      "path": "../../../../references/guided-dialogue.md",
+      "current_sha256": "7700f109b08a913fcecf6a8ce26083f00376cc2f32863e7e9225e4ee47bb012a",
+      "manifest_sha256": "7700f109b08a913fcecf6a8ce26083f00376cc2f32863e7e9225e4ee47bb012a",
+      "match": true,
+      "execution_read_scope": "全文；第2案逐轮对话"
+    },
+    {
+      "path": "../../../../references/questioning-toolkit.md",
+      "current_sha256": "4c4435666732c7d48a602866c0c0f17cb3f6fb2676d088093052620a849c80f6",
+      "manifest_sha256": "4c4435666732c7d48a602866c0c0f17cb3f6fb2676d088093052620a849c80f6",
+      "match": true,
+      "execution_read_scope": "全文；第2案澄清机制候选；未声称运行表中具体工具"
+    },
+    {
+      "path": "../../../../references/tool-catalog.md",
+      "current_sha256": "a012a746df10bc2dfeebbf7f901c2367cabc9f0d9ffcfe2fbde6313f14edb7a5",
+      "manifest_sha256": "a012a746df10bc2dfeebbf7f901c2367cabc9f0d9ffcfe2fbde6313f14edb7a5",
+      "match": true,
+      "execution_read_scope": "检索 TM-105、TM-153、TM-157 条目"
+    },
+    {
+      "path": "../../../../references/wan-catalog.md",
+      "current_sha256": "b1200e2d0f7f81decf41f20353ed9ab17ba82abcaa2574accc31990673f3e4c9",
+      "manifest_sha256": "b1200e2d0f7f81decf41f20353ed9ab17ba82abcaa2574accc31990673f3e4c9",
+      "match": true,
+      "execution_read_scope": "检索 WW-1.4 条目；未读取或运行该工具正文"
+    },
+    {
+      "path": "../../../../references/tools/TM-157.md",
+      "current_sha256": "5eebbb0780ed8b4b301c3565e34fd75db6ed7487a158ab8f42be0f992f6676e3",
+      "manifest_sha256": "5eebbb0780ed8b4b301c3565e34fd75db6ed7487a158ab8f42be0f992f6676e3",
+      "match": true,
+      "execution_read_scope": "全文；第1案实际使用"
+    },
+    {
+      "path": "../../../../references/cards/TM-157.md",
+      "current_sha256": "4a130339c55456ea00a18a1c19edda68afa2937baf4ab38020fdefec5f207958",
+      "manifest_sha256": "4a130339c55456ea00a18a1c19edda68afa2937baf4ab38020fdefec5f207958",
+      "match": true,
+      "execution_read_scope": "全文；第1案实际使用"
+    },
+    {
+      "path": "../../../../references/user-models/TM-157.md",
+      "current_sha256": "4e2af3cd9f2c8204d37e7d5bbb0433070830cdf51a995410a7c9a49207f82d04",
+      "manifest_sha256": "4e2af3cd9f2c8204d37e7d5bbb0433070830cdf51a995410a7c9a49207f82d04",
+      "match": true,
+      "execution_read_scope": "全文，另补读末尾85行以覆盖被截断片段；第1案公式与边界"
+    },
+    {
+      "path": "../../../../references/tools/TM-153.md",
+      "current_sha256": "7b611a103436fc549a3c794d3a14ee8bbbe33c23c750df9c67761eea60e1ddbd",
+      "manifest_sha256": "7b611a103436fc549a3c794d3a14ee8bbbe33c23c750df9c67761eea60e1ddbd",
+      "match": true,
+      "execution_read_scope": "全文；第1案实际使用"
+    },
+    {
+      "path": "../../../../references/cards/TM-153.md",
+      "current_sha256": "dfc6b9ccab1db76250d424a20d0b15cdaa9411b085eac6575cd35961939d7833",
+      "manifest_sha256": "dfc6b9ccab1db76250d424a20d0b15cdaa9411b085eac6575cd35961939d7833",
+      "match": true,
+      "execution_read_scope": "全文；第1案实际使用"
+    },
+    {
+      "path": "../../../../references/tools/TM-105.md",
+      "current_sha256": "f0ce53e8f5ab7c2099c5c1d023d211dbbd4151a334824c8086e3253a04f14d84",
+      "manifest_sha256": "f0ce53e8f5ab7c2099c5c1d023d211dbbd4151a334824c8086e3253a04f14d84",
+      "match": true,
+      "execution_read_scope": "全文；第1案实际使用"
+    },
+    {
+      "path": "../../../../references/cards/TM-105.md",
+      "current_sha256": "2512c95df17d3adaee5345ad19c0748981f1b06e3b018fd8b68badf623d8b9c1",
+      "manifest_sha256": "2512c95df17d3adaee5345ad19c0748981f1b06e3b018fd8b68badf623d8b9c1",
+      "match": true,
+      "execution_read_scope": "全文；第1案实际使用"
+    },
+    {
+      "path": "../../../../references/user-models/TM-105.md",
+      "current_sha256": "f83b64c43d9c8920c523a393b377b4a7a50d458a8fba871e6277e7b1f724937e",
+      "manifest_sha256": "f83b64c43d9c8920c523a393b377b4a7a50d458a8fba871e6277e7b1f724937e",
+      "match": true,
+      "execution_read_scope": "全文；第1案敏感性方法"
+    },
+    {
+      "path": "../../../../references/second-order-check.md",
+      "current_sha256": "733f5ff5ce00c02ec94ef7a82da36b9520472031193fc461eca2bb4f30cbfe8f",
+      "manifest_sha256": "733f5ff5ce00c02ec94ef7a82da36b9520472031193fc461eca2bb4f30cbfe8f",
+      "match": true,
+      "execution_read_scope": "全文；第1案时间延续与竞争情景边界"
+    },
+    {
+      "path": "../../../../references/tool-index.json",
+      "current_sha256": "4ef22d7d6a01cb28f17cc23d7b2fa78e01e535826cfdd58eb89f4d9d3c749164",
+      "manifest_sha256": "4ef22d7d6a01cb28f17cc23d7b2fa78e01e535826cfdd58eb89f4d9d3c749164",
+      "match": true,
+      "execution_read_scope": "读取 TM-105、TM-153、TM-157 登记项并核对 source/card/runtime 文件 SHA；登记中的历史记录路径未打开"
+    },
+    {
+      "path": "../../../../references/user-models/TM-153.md",
+      "current_sha256": "1e95d1f2782fb3450aba8e1b35cf67fae92e083ba28766dbf2e200e6c715ccd6",
+      "manifest_sha256": "1e95d1f2782fb3450aba8e1b35cf67fae92e083ba28766dbf2e200e6c715ccd6",
+      "match": true,
+      "execution_read_scope": "仅读取文件字节计算 SHA-256 与索引比对，未阅读原文内容"
+    }
+  ],
+  "source_card_runtime_sha256": {
+    "sources/TM-157.md": "4e2af3cd9f2c8204d37e7d5bbb0433070830cdf51a995410a7c9a49207f82d04",
+    "drafts/TM-157/card.md": "4a130339c55456ea00a18a1c19edda68afa2937baf4ab38020fdefec5f207958",
+    "drafts/TM-157/tool.md": "5eebbb0780ed8b4b301c3565e34fd75db6ed7487a158ab8f42be0f992f6676e3"
+  },
+  "stage_source_card_runtime_sha256": {
+    "source": "4e2af3cd9f2c8204d37e7d5bbb0433070830cdf51a995410a7c9a49207f82d04",
+    "card": "4a130339c55456ea00a18a1c19edda68afa2937baf4ab38020fdefec5f207958",
+    "runtime": "5eebbb0780ed8b4b301c3565e34fd75db6ed7487a158ab8f42be0f992f6676e3"
+  },
+  "core_matches_prior_source_review": true,
+  "arithmetic_artifact": {
+    "path": "entry-arithmetic157.json",
+    "sha256": "1dcdb56bf6c68d8dccf80ece187fd1221d1221e34f411157d8640f5f3aa8bab8"
+  },
+  "numeric_table_checks": {
+    "four_week_table_matches_exact_recurrence": true,
+    "sums": true,
+    "increment_table": true,
+    "net_table": true,
+    "total_time_table": true
+  },
+  "cases": [
+    {
+      "id": "entry-state-choice",
+      "verdict": "pass",
+      "checks": [
+        {
+          "criterion": "可答时直接分析",
+          "result": "pass",
+          "reason": "用户已给比较域、目标、数据、资源与期限，直接交HTML，没有重复问已知信息。",
+          "evidence": {
+            "line": 21,
+            "excerpt": "### 当前建议：有条件选择 A"
+          }
+        },
+        {
+          "criterion": "条件概率与状态定义",
+          "result": "pass",
+          "reason": "540/720=.75，72/480=.15；1200封闭队列、周状态、初始720/480明确。",
+          "evidence": {
+            "line": 41,
+            "excerpt": "| 活跃 | 540 ÷ 720 = 75% | 180 ÷ 720 = 25% | 720 |"
+          }
+        },
+        {
+          "criterion": "一次性B与四周累计",
+          "result": "pass",
+          "reason": "第1周B用30%、后续15%；状态分布效应继续但不冒称率持续。三个方案各自递推；不含第0周，不转移到第8周或稳态目标。",
+          "evidence": {
+            "line": 65,
+            "excerpt": "B第1周额外带来72个预期活跃人数；恢复基线后，额外活跃并未立即归零，而是逐周乘以0.75−0.15=0.60，成为43.2、25.92、15.552。合计156.672人周。这个延续来自状态分布的变化，不能把它写成后3周仍在使用30%回流率。A持续4周的改善则累计增加218.475人周。"
+          }
+        },
+        {
+          "criterion": "全部成本与风险",
+          "result": "pass",
+          "reason": "一次费用各扣80/30，已扣服务成本不重扣；改善为待证情景，情景落空为-80/-30且不行动0，无虚构成功概率。",
+          "evidence": {
+            "line": 33,
+            "excerpt": "用户提供的事实口径：历史基线来自多期完整名单，留存计数为540/720，回流计数为72/480。此处接受这些输入作演算，未独立核实原始名单。用户给定的价值口径：每人周1元已经扣掉日常服务变动成本，只再扣方案费用，不能重复扣同一笔服务成本。"
+          }
+        },
+        {
+          "criterion": "总资源而非实施局部",
+          "result": "pass",
+          "reason": "A90+20+10=120，B75+20+10=105，none30；限额90元、互斥；h额外时间A仅0、B≤15；新取数/复盘不得免费加入。",
+          "evidence": {
+            "line": 83,
+            "excerpt": "若你已经在本任务上花了尚未计入的工时h分钟，须再从120中扣除：A只有h=0时仍能容纳既定三项工作；B要求h不超过15分钟。助手生成报告的机器耗时不能擅自当成本人工时，但等待会减少距16:00的实际钟表时间。"
+          }
+        },
+        {
+          "criterion": "决定期限与实施期限",
+          "result": "pass",
+          "reason": "10到16为360；核对+留档最晚15:30；14:00/14:15仅是可选全部当日完成，不把它们升级为用户硬要求。",
+          "evidence": {
+            "line": 95,
+            "excerpt": "可选择在核对和留档之后直接实施；若希望连实施也在今天16:00前做完，A整段120分钟最晚14:00开始，B整段105分钟最晚14:15开始。用户明确要求的是16:00前决定，实施完成时限不能被误写成用户已经提出的硬要求。若收到报告时已晚于15:30，应立即缩短核对或改为保守决定，以真实剩余时间为准，不能沿用已经无法完成的30分钟排程。"
+          }
+        },
+        {
+          "criterion": "行动与承诺分离",
+          "result": "pass",
+          "reason": "本人为可实施者但尚未接受，核20/留档10后条件选择；不虚构能保证80%的活动，启动延误改变首周窗口须重算。",
+          "evidence": {
+            "line": 25,
+            "excerpt": "第一步：用已预留的20分钟核对报告，重点核对A的90分钟是否确实覆盖全部实施工作、80元是否为全部额外费用，以及80%留存持续4周是否仍是你愿意用于此次选择的情景。核对完成后用10分钟作出并留档决定；本人是否接受实施仍由你决定。"
+          }
+        },
+        {
+          "criterion": "工具箱实际贡献",
+          "result": "pass",
+          "reason": "TM157给轨迹和累计，TM153限制可行域及全过程时间，TM105产阈值/联合情景；工具有产物并改变选择，非罗列标签。",
+          "evidence": {
+            "line": 139,
+            "excerpt": "| TM-105 敏感性分析：何时结论翻转 | 单项阈值、联合情景与优先核对项 | 将11.803元的小幅领先保留为有条件建议，而不宣称A无条件最好。 |"
+          }
+        },
+        {
+          "criterion": "敏感性算术",
+          "result": "pass",
+          "reason": "A/B相等r79.7425%、q31.1300%、价值0.8090；单方案零界r76.8906%、q17.8722%；79/78/25情景净值全部独立算对。",
+          "evidence": {
+            "line": 112,
+            "excerpt": "补充损益边界：如果单独判断是否比不行动好，在其余条件不变时，A需要4周留存高于约76.8906%；B需要首周回流高于约17.8722%。跨过自己的盈亏平衡线只表示胜过不行动，仍要与另一个可行方案比较。"
+          }
+        },
+        {
+          "criterion": "非因果与时间齐次边界",
+          "result": "pass",
+          "reason": "分层历史与跨周环境分开核查，前后差不直接归因，临时率不永久延续，单次偏离不武断判错。",
+          "evidence": {
+            "line": 127,
+            "excerpt": "分别检查两项前提：第一，同样“不活跃”的人，停用时长不同是否仍具有不同回流表现；同样“活跃”的人，历史频次是否仍影响下一周。第二，各周环境或活动是否改变了转移率。前者关系到状态是否记住了必要历史，后者关系到能否沿用同一张表。现有题面没有分层原始记录，尚未验证任何一项。"
+          }
+        },
+        {
+          "criterion": "停止/更新条件与已发生成本",
+          "result": "pass",
+          "reason": "新进退出缺测/状态定义先修正，偏离和层差暂停旧表；费用支出后不假装可退，以未来可改变增量判断。",
+          "evidence": {
+            "line": 131,
+            "excerpt": "一次费用一旦支出就属于已发生成本，不能在下一周假装退回。那时是否追加动作，应比较剩余周的可改变收益和新增成本；本报告没有授权追加投入、换方案叠加或对外发送任何消息。"
+          }
+        },
+        {
+          "criterion": "交付状态诚实",
+          "result": "pass",
+          "reason": "HTML真实存在，MD链接指向它；未声称实施、真实效果、视觉/打印验证或其他Agent通过。",
+          "evidence": {
+            "line": 15,
+            "excerpt": "本轮未做浏览器视觉或打印预览。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "entry-first-turn",
+      "verdict": "pass",
+      "checks": {
+        "one_main_question": true,
+        "asks_specific_observation": true,
+        "no_premature_tool_or_diagnosis": true,
+        "does_not_answer_for_user": true,
+        "no_html_or_final_report": true
+      },
+      "evidence": "我们先从一个具体片段说起，不急着判断哪里出了问题。\n\n最近哪一次观察，让你在“数字没怎么变”的情况下，觉得有些不对劲？"
+    }
+  ],
+  "html": {
+    "path": "../trials/entry-state-choice.html",
+    "sha256": "1232b26deb6dc980b853de5e907b11d8ae3d4bfc47d4d66bc9c92373a437beb4",
+    "static_checks": {
+      "doctype": true,
+      "lang_zh": true,
+      "utf8": true,
+      "viewport": true,
+      "one_title_h1_main": true,
+      "seven_tables": true,
+      "balanced_tags": true,
+      "no_script_iframe_form_link": true,
+      "no_events_or_src": true,
+      "no_css_url": true,
+      "no_hidden_details": true,
+      "responsive_css_present": true,
+      "print_css_present": true,
+      "actual_reply_html_link_resolves": true,
+      "markdown_report_paragraphs_cells_present": true,
+      "source_text_locators_exist": true
+    },
+    "tag_counts": {
+      "html": 1,
+      "head": 1,
+      "meta": 2,
+      "title": 1,
+      "style": 1,
+      "body": 1,
+      "main": 1,
+      "h1": 1,
+      "p": 26,
+      "h2": 9,
+      "div": 7,
+      "table": 7,
+      "thead": 7,
+      "tr": 40,
+      "th": 24,
+      "tbody": 7,
+      "td": 114,
+      "pre": 1
+    },
+    "source_locator_type": "Tool IDs and readable relative paths; not clickable HTML hyperlinks. Valid actual files.",
+    "source_text_locators": [
+      {
+        "locator": "references/cards/TM-105.md",
+        "exists": true
+      },
+      {
+        "locator": "references/cards/TM-153.md",
+        "exists": true
+      },
+      {
+        "locator": "references/cards/TM-157.md",
+        "exists": true
+      },
+      {
+        "locator": "references/tools/TM-105.md",
+        "exists": true
+      },
+      {
+        "locator": "references/tools/TM-153.md",
+        "exists": true
+      },
+      {
+        "locator": "references/tools/TM-157.md",
+        "exists": true
+      },
+      {
+        "locator": "references/user-models/TM-105.md",
+        "exists": true
+      },
+      {
+        "locator": "references/user-models/TM-157.md",
+        "exists": true
+      }
+    ],
+    "href_count": 0,
+    "visual_review": false,
+    "print_preview": false,
+    "report_content_matches_markdown": true
+  },
+  "context": {
+    "both_cases_same_context": true,
+    "same_context_as_author_or_reviewer": false,
+    "note": "独立子代理执行，收到父代理任务说明；本次未参与技能编写或评审，未读取作者预期、草稿、评审正文、其他答卷或私人评分案例。第2案可见第1案，不能称两案上下文隔离。"
+  },
+  "limits": [
+    "Two entries executed by the same independent executor/context. Second could see first; not two isolated sessions.",
+    "Resource hashes represent manifest-production snapshot, not every historical read instant. Current bytes match snapshot unless explicitly listed above.",
+    "Only fictional numerical inputs reviewed. No real platform records, causal intervention effects or user commitment verified.",
+    "HTML static/content checks only. No browser desktop/narrow/print preview, client compatibility, accessibility conformance or real printing claim.",
+    "Source images not viewed by this reviewer. External historical claims not reverified during entry review.",
+    "Current arithmetic/behavior review does not establish publication, installation or all-library behavior validation.",
+    "No raw answers, skill files, private cases/criteria or official targets modified."
+  ]
+}

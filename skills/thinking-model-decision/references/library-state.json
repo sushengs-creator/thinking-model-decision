@@ -1,10 +1,10 @@
 {
-  "version": "2.5.0",
-  "revision": 142,
-  "updated_at": "2026-11-01T05:26:50.949836+00:00",
-  "user_models": 156,
+  "version": "2.6.0",
+  "revision": 147,
+  "updated_at": "2026-11-02T01:29:19.939365+00:00",
+  "user_models": 157,
   "wan_tools": 100,
-  "sample_cards": 39,
+  "sample_cards": 40,
   "sample_card_ids": [
     "TM-054",
     "TM-062",
@@ -44,7 +44,8 @@
     "TM-153",
     "TM-154",
     "TM-155",
-    "TM-156"
+    "TM-156",
+    "TM-157"
   ],
   "behavior_trial_scope": {
     "v0_1_full_entry_cases": [
@@ -68,7 +69,7 @@
     "tested_at_revision": 2,
     "tested_version": "1.0.0"
   },
-  "change": "Add TM-156 decision tree source, reviewed card/runtime and conditional-action routing; fix two lexical misses and stale current tool scope; preserve prior knowledge and validation history.",
+  "change": "Add reviewed TM-157 Markov chain source/card/runtime and state-transition routing; fix one lexical miss; preserve existing knowledge and historical validation.",
   "validation": {
     "tested_at_revision": 2,
     "official_skill_structure": "passed",
@@ -81,12 +82,12 @@
     "sandbox_manuscript_update": "passed",
     "tested_version": "1.0.0"
   },
-  "total_cards": 156,
+  "total_cards": 157,
   "source_reviewed_cards": 117,
   "card_status_counts": {
     "source_reviewed": 117,
     "sample_reviewed": 8,
-    "behavior_checked": 31
+    "behavior_checked": 32
   },
   "needs_review": [],
   "release_validation_history": {
@@ -435,6 +436,28 @@
       "initial_lexical_misses": 3,
       "initial_misses_fixed": true,
       "html_visual_preview": "blocked_by_browser_local_file_URL_policy_not_bypassed",
+      "all_models_retested_this_release": false,
+      "real_world_outcomes_validated": false,
+      "cross_client_compatibility_tested": false,
+      "deployment": "verify_each_target_with_separate_readback_receipts"
+    },
+    "2.5.0": {
+      "status": "passed_with_limits",
+      "version": "2.5.0",
+      "revision": 142,
+      "valid_for_current_revision": false,
+      "scope": "TM-156 increment; 2 local tool responses, 1 full entry HTML report and 1 first-turn regression; no all-library behavior rerun",
+      "evidence": "references/evaluation/results-v2.5.md",
+      "official_skill_structure": "passed",
+      "library_integrity": "passed",
+      "runtime_integrity": "passed",
+      "actual_simulated_responses": 4,
+      "independent_execution_contexts": 2,
+      "html_reports": 1,
+      "lexical_retrieval_checks": 24,
+      "initial_lexical_misses": 2,
+      "initial_misses_fixed": true,
+      "html_visual_preview": "not_performed",
       "all_models_retested_this_release": false,
       "real_world_outcomes_validated": false,
       "cross_client_compatibility_tested": false,
@@ -791,10 +814,11 @@
       "TM-153",
       "TM-154",
       "TM-155",
-      "TM-156"
+      "TM-156",
+      "TM-157"
     ],
-    "migrated_count": 156,
-    "total_user_models": 156,
+    "migrated_count": 157,
+    "total_user_models": 157,
     "remaining_not_migrated": 0
   },
   "preview_validation_history": {
@@ -822,11 +846,11 @@
   },
   "release_validation": {
     "status": "passed_with_limits",
-    "version": "2.5.0",
-    "revision": 142,
+    "version": "2.6.0",
+    "revision": 147,
     "valid_for_current_revision": true,
-    "scope": "TM-156 increment; 2 local tool responses, 1 full entry HTML report and 1 first-turn regression; no all-library behavior rerun",
-    "evidence": "references/evaluation/results-v2.5.md",
+    "scope": "TM-157 increment; 2 local tool answers, 1 full entry HTML report and 1 first-turn regression; not all-library behavior rerun",
+    "evidence": "references/evaluation/results-v2.6.md",
     "official_skill_structure": "passed",
     "library_integrity": "passed",
     "runtime_integrity": "passed",
@@ -834,12 +858,12 @@
     "independent_execution_contexts": 2,
     "html_reports": 1,
     "lexical_retrieval_checks": 24,
-    "initial_lexical_misses": 2,
+    "initial_lexical_misses": 1,
     "initial_misses_fixed": true,
     "html_visual_preview": "not_performed",
     "all_models_retested_this_release": false,
     "real_world_outcomes_validated": false,
     "cross_client_compatibility_tested": false,
-    "deployment": "verify_each_target_with_separate_readback_receipts"
+    "deployment": "Verify each target in separate readback receipts"
   }
 }

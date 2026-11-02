@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-11-02T01:20:51.414088+00:00",
+  "executor_task": "/root/tm157_tool_trials",
+  "scope": "TM-157 local simulated execution, no evaluation",
+  "input_path": "../trial-inputs.json",
+  "input_fields_exposed_to_executor": [
+    "id",
+    "request"
+  ],
+  "execution_mode": {
+    "case_count": 2,
+    "same_executor": true,
+    "same_context": true,
+    "sequential_answers": true,
+    "order": [
+      "TM-157-fit",
+      "TM-157-misuse"
+    ],
+    "both_requests_visible_before_first_answer": true,
+    "first_answer_saved_before_second_answer_composed": true,
+    "contexts_independently_isolated": false
+  },
+  "artifacts": [
+    {
+      "id": "TM-157-fit",
+      "order": 1,
+      "path": "../trials/TM-157-fit.md",
+      "sha256": "344bd00c87abcebe5dbe888eed0793833f73c6a14c0ecde3b311d7cda7f40351",
+      "bytes": 8552,
+      "saved_at_utc": "2026-11-02T01:19:29.663953+00:00",
+      "request_utf8_sha256": "7e1a718b8a3903fc4262b869e7ab60bfd3afe46a05e08601b90ece8aac2bd69f",
+      "actual_answer_utf8_sha256": "e1072d353dd53e9874d074daa2933ea03dbd328577e8b0502862f53d8223299a",
+      "request_preserved_exactly": true,
+      "output_format": "Markdown",
+      "resource_content_paths": [
+        "../../../../SKILL.md",
+        "../../../../references/tool-runtime.md",
+        "../../../../references/toolbox-orchestration.md",
+        "../../../../references/decision-report.md",
+        "../../../../references/tools/TM-157.md",
+        "../../../../references/cards/TM-157.md",
+        "../../../../references/user-models/TM-157.md"
+      ],
+      "same_context": true,
+      "revised_after_initial_save": false
+    },
+    {
+      "id": "TM-157-misuse",
+      "order": 2,
+      "path": "../trials/TM-157-misuse.md",
+      "sha256": "4b2ecc31b42abd59978dafa77bae96684e277d31a3d0c09126fca94cacc81d26",
+      "bytes": 11256,
+      "saved_at_utc": "2026-11-02T01:20:33.963936+00:00",
+      "request_utf8_sha256": "6271e55c72fa1093372e9741401495f8e7af25c86d53a306cb853c62ff00d84b",
+      "actual_answer_utf8_sha256": "d7c2cfee0ce3e20a56b48ac8a0a2dd6911b99b3a6f68ada6e3cc039d674d4884",
+      "request_preserved_exactly": true,
+      "output_format": "Markdown",
+      "resource_content_paths": [
+        "../../../../SKILL.md",
+        "../../../../references/tool-runtime.md",
+        "../../../../references/toolbox-orchestration.md",
+        "../../../../references/decision-report.md",
+        "../../../../references/tools/TM-157.md",
+        "../../../../references/cards/TM-157.md",
+        "../../../../references/user-models/TM-157.md"
+      ],
+      "same_context": true,
+      "revised_after_initial_save": false
+    }
+  ],
+  "resource_contents_read": [
+    {
+      "path": "../../../../SKILL.md",
+      "sha256_observed_at_manifest": "5eb74ff6f91a884b9b4fe72b267f3f88e535af2e0c3c44b055597d2214be44e6"
+    },
+    {
+      "path": "../../../../references/tool-runtime.md",
+      "sha256_observed_at_manifest": "57a13e389b39a00855cf27aeb58802b326af1399bc0b144ce400c8b6efde7785"
+    },
+    {
+      "path": "../../../../references/toolbox-orchestration.md",
+      "sha256_observed_at_manifest": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9"
+    },
+    {
+      "path": "../../../../references/decision-report.md",
+      "sha256_observed_at_manifest": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478"
+    },
+    {
+      "path": "../../../../references/tools/TM-157.md",
+      "sha256_observed_at_manifest": "5eebbb0780ed8b4b301c3565e34fd75db6ed7487a158ab8f42be0f992f6676e3"
+    },
+    {
+      "path": "../../../../references/cards/TM-157.md",
+      "sha256_observed_at_manifest": "4a130339c55456ea00a18a1c19edda68afa2937baf4ab38020fdefec5f207958"
+    },
+    {
+      "path": "../../../../references/user-models/TM-157.md",
+      "sha256_observed_at_manifest": "4e2af3cd9f2c8204d37e7d5bbb0433070830cdf51a995410a7c9a49207f82d04"
+    }
+  ],
+  "tools_used": [
+    {
+      "tool": "exec_command",
+      "purpose": "Read requested skill resources, project id/request fields, run TM-157 lookup and local arithmetic, save requested artifacts"
+    },
+    {
+      "tool": "clock.curr_time",
+      "observed_utc": "2026-11-02 01:18:47 UTC"
+    },
+    {
+      "command": "python3 ../../../../scripts/tool_runtime.py show TM-157",
+      "purpose": "Obtain runtime/card/source paths and registration state",
+      "internal_file_reads_traced": false
+    },
+    {
+      "tool": "Python Decimal",
+      "purpose": "Compute four-week expectations, cumulative person-weeks, incremental value and cost for TM-157-fit"
+    }
+  ],
+  "boundaries": {
+    "external_communications": false,
+    "external_payments": false,
+    "external_marketing_actions": false,
+    "network_browsing": false,
+    "skill_modifications": false,
+    "self_evaluation_or_pass_claim": false,
+    "review_conclusions_written": false,
+    "read_drafts": false,
+    "read_review_focus": false,
+    "read_reviews": false,
+    "read_other_executor_answers": false,
+    "read_private_evaluation_cases": false,
+    "read_private_criteria": false,
+    "read_expected_conclusions": false,
+    "initial_inventory_note": "Initial rg --files inventory listed SKILL.md paths in staging/workspace; only the assigned staged skill content was opened.",
+    "lookup_note": "show TM-157 output included review record paths; those records were not opened.",
+    "real_world_evidence_limit": "Case facts are supplied request data; no real platform records, interventions, causal effects or actual outcomes were independently observed.",
+    "format_limit": "Markdown requested and delivered; no HTML produced.",
+    "resource_hash_note": "Resource hashes were captured at manifest creation; actual read paths are separately listed."
+  }
+}

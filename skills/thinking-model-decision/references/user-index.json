@@ -9010,5 +9010,97 @@
     },
     "validation_note_path": "references/validation-notes/TM-156.md",
     "validation_note_sha256": "8ff027341d719d5975aa078e70b2333c9e0b38919d38bed9f9c2560671895f37"
+  },
+  {
+    "id": "TM-157",
+    "title": "思维模型157：马尔科夫链 ——1000个用户，八周之后为什么只剩250个？",
+    "short_name": "思维模型157：马尔科夫链 ——1000个用户，八周之后为什么只剩250个？",
+    "path": "references/user-models/TM-157.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060461&idx=1&sn=baf8e0f24f421724935d7ebacc4d2756&chksm=beabef5e89dc66486f26b7154e23812a6c56d4b0e1c49325218e85b1aefa42e1d5cbc44e82f9#rd",
+    "source_label": "微信公众号正式发表全文，本轮正常浏览器核对",
+    "captured_at": "2026-11-02",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "4e2af3cd9f2c8204d37e7d5bbb0433070830cdf51a995410a7c9a49207f82d04",
+    "content_sha256": "4e2af3cd9f2c8204d37e7d5bbb0433070830cdf51a995410a7c9a49207f82d04",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-157.md",
+    "search_terms": [
+      "思维模型157：马尔科夫链 ——1000个用户，八周之后为什么只剩250个？"
+    ],
+    "card_sha256": "4a130339c55456ea00a18a1c19edda68afa2937baf4ab38020fdefec5f207958",
+    "card_source_sha256": "4e2af3cd9f2c8204d37e7d5bbb0433070830cdf51a995410a7c9a49207f82d04",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-11-02T01:29:19.849300+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "活跃人数一直下降或总数稳定却不清楚谁留谁走；需要按逐期状态变化比较留存、回流和有限期方案",
+      "source_sections": [
+        "只看这周来没来，真的够用吗？",
+        "要往下算，先把这三样东西写清楚",
+        "换成“前四周总共活跃多少”，答案又变了",
+        "都叫“不活跃”，他们真是一类人吗？",
+        "状态定对了，这张表还能用多久？",
+        "先固定一批人，再数清四种去向"
+      ],
+      "search_terms": [
+        "马尔科夫链",
+        "状态转移",
+        "活跃人数一直掉",
+        "用户会不会最后都流失",
+        "总数没变人一直换",
+        "留存还是召回",
+        "留存和回流",
+        "转移概率",
+        "转移矩阵",
+        "行分母",
+        "一周活动不能一直算",
+        "长期稳定比例",
+        "平稳分布",
+        "累计活跃人周",
+        "固定用户队列",
+        "预测下一周活跃",
+        "同一批用户",
+        "历史信息有用",
+        "概率随时间变化",
+        "马尔可夫链",
+        "活跃总数下降",
+        "活跃人数不变",
+        "用户流失预测",
+        "召回只做一周",
+        "只有活跃名单"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "检查偏差",
+        "预测判断",
+        "比较方案",
+        "设计行动",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-3.3",
+          "relation": "互补",
+          "reason": "先确定服务当前决定的状态颗粒度并检查可能干预的机制，再用条件转移表推演分布；转移关系不能直接充当因果箭头。"
+        },
+        {
+          "ww_id": "WW-8.4",
+          "relation": "互补",
+          "reason": "转移模型提供逐期预测与实际偏差，反馈工具把行动、测量和调整串起；概率递推并不自动证明反馈或干预效果。"
+        }
+      ],
+      "warnings": [
+        "当前状态包含足够历史信息与每期同一概率表是两个假设，须分别检查。",
+        "队列不闭合、关键行样本为零或样本过少时保留未知；不能用总注册人数替代同行分母。",
+        "平稳分布存在不等于任意初态收敛，有限不可约非周期是常见充分条件而非所有链的必要条件。",
+        "累计人周不是去重人数；一次性概率变化不能自动延长；描述性情景不是措施已有效的因果证据。",
+        "人员轮换本身不能推出必然坍塌或无风险。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-157.md",
+    "validation_note_sha256": "59a421a01f1316e2362e56bff99050d68a2069a9135e7b69eb89aa114481a0fb"
   }
 ]

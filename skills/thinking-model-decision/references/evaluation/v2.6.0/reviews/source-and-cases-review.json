@@ -1,0 +1,583 @@
+{
+  "review_id": "TM-157-source-card-runtime-and-cases-review",
+  "reviewed_at": "2026-11-02T01:15:29.108902+00:00",
+  "reviewer": "daily_baseline_1101",
+  "independence": "Did not author source/card/runtime/routing/cases or execution outputs. Reviewer independently audited prior baseline and original arithmetic. review_focus read only as reviewer and not transmitted to executors.",
+  "verdict": "source_and_request_review_passed_with_limits",
+  "blocking_failures": [],
+  "required_changes": [],
+  "source_card_runtime_sha256": {
+    "sources/TM-157.md": "4e2af3cd9f2c8204d37e7d5bbb0433070830cdf51a995410a7c9a49207f82d04",
+    "drafts/TM-157/card.md": "4a130339c55456ea00a18a1c19edda68afa2937baf4ab38020fdefec5f207958",
+    "drafts/TM-157/tool.md": "5eebbb0780ed8b4b301c3565e34fd75db6ed7487a158ab8f42be0f992f6676e3"
+  },
+  "input_sha256": {
+    "maintenance-workspace/sources/TM-157.md": "4e2af3cd9f2c8204d37e7d5bbb0433070830cdf51a995410a7c9a49207f82d04",
+    "maintenance-workspace/sources/157/body.txt": "c9d7e62c326184e06fd99511619b26b32b30398153b056edba4917ec7d59be35",
+    "maintenance-workspace/sources/157/browser-capture.json": "d7b9b3a15d1d9c4686bec477592933516c726529a3bd139367101a636c774549",
+    "maintenance-workspace/sources/source-manifest.json": "8e32e9a652d0f7ad2115a0619f479e0ab0564517d60951cf7b98c33626001d89",
+    "maintenance-workspace/sources/157/media-manifest.json": "406f9b83fa3e21316f6fa6e31a63255c2ffd02dca48485eb80a3651b9320ca35",
+    "maintenance-workspace/sources/157/media-review.md": "30afa186220fe8a44b258aa76e498a54239271cf4cf4810bc19686f1c80c34f2",
+    "maintenance-workspace/drafts/TM-157/card.md": "4a130339c55456ea00a18a1c19edda68afa2937baf4ab38020fdefec5f207958",
+    "maintenance-workspace/drafts/TM-157/tool.md": "5eebbb0780ed8b4b301c3565e34fd75db6ed7487a158ab8f42be0f992f6676e3",
+    "maintenance-workspace/drafts/TM-157/source-review.md": "5748276fe195bc90ef87fe9c66cf54e58ad0fc02436deb97317019140f89aa56",
+    "maintenance-workspace/drafts/TM-157/routing.json": "4de5c9aad63b82c114f6acd5a522a3b322a9b51e0392623e7b66903aa72738a6",
+    "maintenance-workspace/drafts/TM-157/runtime-metadata.json": "1589051275b13ca4c2fa001e3a085675d4c5cfb93e9f10db5aa84f664888f7c6",
+    "maintenance-workspace/drafts/TM-157/cases.json": "8f5fae58207a6f99fd07f6db6f95da473a33a5053bc348cf2476892c0f8a37f7",
+    "../../../../references/wan-tools/WW-3.3.md": "5425dbb23486cabcf040c4208e285c22543f128d9cddde9f92972475379113b4",
+    "../../../../references/wan-tools/WW-8.4.md": "3ce3b7e296d14baa5f1e51f6e2be8ab58ed41c8511e2b69bff7aef5910941b90",
+    "../../../../references/tools/TM-056.md": "99ef356027022e3442013ca5a691c74a9574c37b46fa6cbbb41a2960059ea76f",
+    "../../../../references/tools/TM-092.md": "7d43f9d0563a573aeab0bcf200acdae67c76c4a55bf01cb742e452926ad663f3",
+    "../../../../references/tools/TM-156.md": "55eb7989c2040f92c171ae0b3a81c679a476e86bcee9fcf8ede78a2aaf91232d"
+  },
+  "source_preservation": {
+    "body_exact_after_table_and_whitespace_normalization": true,
+    "table_rows_cells_order_preserved": true,
+    "tables": 5,
+    "original_arithmetic_reused": "source-arithmetic157.json",
+    "body_unchanged_since_arithmetic_review": true,
+    "browser_capture_hash_changed_after_media_metadata_update": false,
+    "title": "思维模型157：马尔科夫链 ——1000个用户，八周之后为什么只剩250个？",
+    "page_published_at": "2026-11-01T15:07:00+08:00",
+    "album_time": "2026-11-01T15:06:01+08:00",
+    "utf16_units": 7236,
+    "fnv1a32": "2ac1354a",
+    "original_source_not_rewritten": true
+  },
+  "mechanism_review": [
+    {
+      "criterion": "State scope and data validity",
+      "verdict": "pass",
+      "reason": "Complete fixed roster, mutual exclusivity/coverage, entry/deletion/missing data distinguished; open population explicitly separated.",
+      "card_excerpt": "新增、注销、失访不能混成原有群体内转移",
+      "runtime_excerpt": "新入、注销、失访及定义变动另记"
+    },
+    {
+      "criterion": "Rows, denominators, zero samples",
+      "verdict": "pass",
+      "reason": "Counts divided by departure row total; zero-row unknown; observed zero cell not impossibility; row sum1 and conservation.",
+      "card_excerpt": "C_i = 0",
+      "runtime_excerpt": "某格观察到0不证明事件不可能"
+    },
+    {
+      "criterion": "Markov versus homogeneity",
+      "verdict": "pass",
+      "reason": "State sufficiency versus time constancy separately tested; small samples do not establish/overturn assumptions.",
+      "card_excerpt": "这不是同一个检验",
+      "runtime_excerpt": "核两个不同假设"
+    },
+    {
+      "criterion": "Finite horizon and matrix orientation",
+      "verdict": "pass",
+      "reason": "Row vector nP_t, P^t only fixed rates, separate rollout per common initial point.",
+      "card_excerpt": "n_(t+1) = n_t P_t",
+      "runtime_excerpt": "n_(t+1)=n_t P_t"
+    },
+    {
+      "criterion": "Temporary effects",
+      "verdict": "pass",
+      "reason": "One-week change affects only first step; otherwise restore appropriate matrix, no permanent extrapolation.",
+      "card_excerpt": "一项改善只持续一周，就只改那一步",
+      "runtime_excerpt": "一周改善只用于那一步"
+    },
+    {
+      "criterion": "Metrics and units",
+      "verdict": "pass",
+      "reason": "Endpoint versus person-weeks versus distinct users; initial period specified, fractions expected values.",
+      "card_excerpt": "累计活跃人周不等于去重人数",
+      "runtime_excerpt": "累计量是否包含起始期须说清"
+    },
+    {
+      "criterion": "Stationary versus convergence",
+      "verdict": "pass",
+      "reason": "piP=pi is invariance not global attraction; finite irreducible aperiodic sufficient, not generally necessary.",
+      "card_excerpt": "它的存在不自动说明任何起点都会趋近它",
+      "runtime_excerpt": "常用充分条件"
+    },
+    {
+      "criterion": "Degenerate and periodic boundaries",
+      "verdict": "pass",
+      "reason": "Zero denominator cannot apply formula; periodic swap can oscillate with stationary50; finite predictions still usable; >2states full matrix.",
+      "card_excerpt": "除特殊起点外会交替摆动",
+      "runtime_excerpt": "不满足时检查可达闭类、吸收或周期"
+    },
+    {
+      "criterion": "Turnover rhetoric restricted",
+      "verdict": "pass",
+      "reason": "Turnover neither evidence of no risk nor inevitable collapse; investigate usage/cost/conditions.",
+      "card_excerpt": "不能反过来断言人员轮换必然导致崩塌",
+      "runtime_excerpt": "轮换本身既不证明无风险，也不证明必然崩塌"
+    },
+    {
+      "criterion": "Causal effectiveness and MDP",
+      "verdict": "pass",
+      "reason": "Scenario probabilities not treatment effects; ordinary chain does not produce optimal control/action policy.",
+      "card_excerpt": "普通马尔科夫链并不自动成为马尔科夫决策过程",
+      "runtime_excerpt": "描述性转移表冒充最优控制"
+    },
+    {
+      "criterion": "Costs and feasible execution",
+      "verdict": "pass",
+      "reason": "Full-horizon cost/time constraints and reliable unit value before monetization; owners/verification/state separate.",
+      "card_excerpt": "只有已有可信单位价值时才换算净收益",
+      "runtime_excerpt": "全周期费用、执行时间及约束"
+    },
+    {
+      "criterion": "Stop and recalibrate",
+      "verdict": "pass",
+      "reason": "Unknown key rows stop exact forecasts, still repair data; persistent deviations trigger review, one error not automatic failure.",
+      "card_excerpt": "暂停依赖该表的精确外推",
+      "runtime_excerpt": "单次偏离不自动证明失效"
+    }
+  ],
+  "relations_review": [
+    {
+      "id": "WW-3.3",
+      "result": "pass",
+      "basis": "Snapshot explicitly ties granularity to current decision and requires causal intervention/mediator evidence. Draft calls this complementary and does not turn a transition into a causal arrow."
+    },
+    {
+      "id": "WW-8.4",
+      "result": "pass",
+      "basis": "Snapshot describes action/measurement/deviation/adjustment and delay. Draft uses periodic prediction checks as input, not claiming stochastic recurrence proves causal feedback."
+    },
+    {
+      "id": "TM-056",
+      "result": "pass",
+      "basis": "Runtime distinguishes pre/post observations from justified counterfactual causal inference; matching handoff for campaign attribution."
+    },
+    {
+      "id": "TM-092",
+      "result": "pass",
+      "basis": "Runtime requires adaptive participant responses, not merely complex data; draft conditional handoff applies only when people learn/respond to rules."
+    },
+    {
+      "id": "TM-156",
+      "result": "pass",
+      "basis": "Runtime handles staged irreversible choices and information availability; draft routes one-off or state-dependent action decisions without equating ordinary chain and optimal policy."
+    }
+  ],
+  "original_boundary_findings_closed_in_tool": [
+    "S157-01",
+    "S157-02",
+    "S157-03",
+    "S157-05"
+  ],
+  "title_rounding_note": "Published title mentions 250 around week8; body gives 255.88 then long-run250. Draft does not copy title as a precise finite-time claim or promise convergence.",
+  "cases_review": [
+    {
+      "id": "TM-157-fit",
+      "status": "request_has_sufficient_inputs_for_conditional_calculation",
+      "arithmetic": {
+        "method": "Independent exact-rational computation from request counts and duration; review_focus inspected as reviewer but not used as arithmetic authority.",
+        "row_denominators": [
+          480,
+          320
+        ],
+        "P_baseline": [
+          [
+            {
+              "fraction": "3/4",
+              "decimal": 0.75
+            },
+            {
+              "fraction": "1/4",
+              "decimal": 0.25
+            }
+          ],
+          [
+            {
+              "fraction": "1/10",
+              "decimal": 0.1
+            },
+            {
+              "fraction": "9/10",
+              "decimal": 0.9
+            }
+          ]
+        ],
+        "N": 800,
+        "week0_active": 480,
+        "weeks_0_to_4": {
+          "baseline": [
+            {
+              "fraction": "480",
+              "decimal": 480.0
+            },
+            {
+              "fraction": "392",
+              "decimal": 392.0
+            },
+            {
+              "fraction": "1674/5",
+              "decimal": 334.8
+            },
+            {
+              "fraction": "14881/50",
+              "decimal": 297.62
+            },
+            {
+              "fraction": "273453/1000",
+              "decimal": 273.453
+            }
+          ],
+          "A": [
+            {
+              "fraction": "480",
+              "decimal": 480.0
+            },
+            {
+              "fraction": "416",
+              "decimal": 416.0
+            },
+            {
+              "fraction": "1856/5",
+              "decimal": 371.2
+            },
+            {
+              "fraction": "8496/25",
+              "decimal": 339.84
+            },
+            {
+              "fraction": "39736/125",
+              "decimal": 317.888
+            }
+          ],
+          "B": [
+            {
+              "fraction": "480",
+              "decimal": 480.0
+            },
+            {
+              "fraction": "424",
+              "decimal": 424.0
+            },
+            {
+              "fraction": "1778/5",
+              "decimal": 355.6
+            },
+            {
+              "fraction": "15557/50",
+              "decimal": 311.14
+            },
+            {
+              "fraction": "282241/1000",
+              "decimal": 282.241
+            }
+          ]
+        },
+        "cumulative_weeks_1_to_4": {
+          "baseline": {
+            "fraction": "1297873/1000",
+            "decimal": 1297.873
+          },
+          "A": {
+            "fraction": "180616/125",
+            "decimal": 1444.928
+          },
+          "B": {
+            "fraction": "1372981/1000",
+            "decimal": 1372.981
+          }
+        },
+        "incremental_person_weeks": {
+          "baseline": {
+            "fraction": "0",
+            "decimal": 0.0
+          },
+          "A": {
+            "fraction": "29411/200",
+            "decimal": 147.055
+          },
+          "B": {
+            "fraction": "18777/250",
+            "decimal": 75.108
+          }
+        },
+        "incremental_gross_business_value": {
+          "baseline": {
+            "fraction": "0",
+            "decimal": 0.0
+          },
+          "A": {
+            "fraction": "29411/100",
+            "decimal": 294.11
+          },
+          "B": {
+            "fraction": "18777/125",
+            "decimal": 150.216
+          }
+        },
+        "full_once_cost": {
+          "baseline": {
+            "fraction": "0",
+            "decimal": 0.0
+          },
+          "A": {
+            "fraction": "160",
+            "decimal": 160.0
+          },
+          "B": {
+            "fraction": "60",
+            "decimal": 60.0
+          }
+        },
+        "net_incremental_value": {
+          "baseline": {
+            "fraction": "0",
+            "decimal": 0.0
+          },
+          "A": {
+            "fraction": "13411/100",
+            "decimal": 134.11
+          },
+          "B": {
+            "fraction": "11277/125",
+            "decimal": 90.216
+          }
+        },
+        "A_net_advantage_over_B": {
+          "fraction": "21947/500",
+          "decimal": 43.894
+        },
+        "budget": 180,
+        "mutually_exclusive": true,
+        "costs_feasible": {
+          "baseline": true,
+          "A": true,
+          "B": true
+        },
+        "best_under_supplied_assumptions": "A",
+        "unspent_budget_after_A": 20,
+        "planning_probability_status": "Scenario assumptions only; six weeks consistent records and no clear subgroup difference do not establish Markov property or causal intervention effectiveness.",
+        "post_week4": {
+          "baseline_or_B_if_baseline_keeps_holding_limit": {
+            "fraction": "1600/7",
+            "decimal": 228.57142857142858
+          },
+          "A": "Only transitions 1-4 specified. Beyond-week4 matrix is unknown. If restored to baseline, same 1600/7 limit; if additionally assumed permanent A, 800/3. Neither continuation is established by four-week effect specification.",
+          "A_if_explicitly_permanent_limit": {
+            "fraction": "800/3",
+            "decimal": 266.6666666666667
+          }
+        },
+        "action_constraints": [
+          "Do not combine A and B or treat leftover 20 as authorization for unpriced tests.",
+          "Recommendation conditional on effect/cost assumptions; first check feasible execution and measurement in the existing full-cost plan, then compare each week with predictions.",
+          "No payment or real intervention executed by this analysis; expected fractional people are not an actual-count guarantee."
+        ]
+      }
+    },
+    {
+      "id": "TM-157-misuse",
+      "status": "request_supports_data-gap_and_periodic-counterexample_review",
+      "arithmetic": {
+        "known_active_sets": {
+          "each_count": 200,
+          "intersection": 140,
+          "prior_only": 60,
+          "latest_only": 60,
+          "union": 260,
+          "observed_overlap_ratio": {
+            "fraction": "7/10",
+            "decimal": 0.7
+          }
+        },
+        "cannot_infer": [
+          "Complete comparable cohort from current registration count 600 while entries/deletions occur.",
+          "Number starting inactive and observable next period, or portion of latest-only60 that is returning rather than new.",
+          "Full transition table or main-platform exact week8 count. 60/600=.1 is arithmetic, not the conditional return rate; 60/400=.15 is also unjustified here.",
+          "Causal effect or persistent20% return from one-week uncontrolled campaign with changed subgroup composition."
+        ],
+        "toy": {
+          "P": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "week_0_to_8": [
+            {
+              "fraction": "60",
+              "decimal": 60.0
+            },
+            {
+              "fraction": "40",
+              "decimal": 40.0
+            },
+            {
+              "fraction": "60",
+              "decimal": 60.0
+            },
+            {
+              "fraction": "40",
+              "decimal": 40.0
+            },
+            {
+              "fraction": "60",
+              "decimal": 60.0
+            },
+            {
+              "fraction": "40",
+              "decimal": 40.0
+            },
+            {
+              "fraction": "60",
+              "decimal": 60.0
+            },
+            {
+              "fraction": "40",
+              "decimal": 40.0
+            },
+            {
+              "fraction": "60",
+              "decimal": 60.0
+            }
+          ],
+          "week8": 60,
+          "stationary": [
+            0.5,
+            0.5
+          ],
+          "from_50_already_stationary": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "nonstationary_start_converges": false,
+          "finite_period_predictions_valid": true
+        },
+        "data_priority": "One ID-level joined ledger anchored at a documented start date: complete roster, entry/deletion/observation flags, adjacent-week activity, activity-definition and timestamp, plus campaign and inactivity-duration attributes if available. Unknown/absent records distinguished from genuinely inactive.",
+        "resource_constraint": "45 minutes total today including reading/reasoning/record checking/recording; subtract time already spent; no new marketing spending. First export/join one bounded ledger, surface unavailable fields rather than promise completion.",
+        "behavior_review_requirements": [
+          "Distinguish stable total from identity retention without predicting inevitable collapse.",
+          "Keep main platform uncertainty separate from the fully specified toy chain.",
+          "Give a concrete bounded data action and stopping/deliverable checks, not generic collect-more-data."
+        ]
+      }
+    }
+  ],
+  "media_review": {
+    "main_agent_record_read": true,
+    "main_agent_reports_visual_reviewed": true,
+    "independent_reviewer_images_viewed": 0,
+    "byte_checks": [
+      {
+        "index": 0,
+        "filename": "image-00.png",
+        "byte_hash_matches": true,
+        "independent_visual_view": false
+      },
+      {
+        "index": 1,
+        "filename": "image-01.png",
+        "byte_hash_matches": true,
+        "independent_visual_view": false
+      },
+      {
+        "index": 2,
+        "filename": "image-02.png",
+        "byte_hash_matches": true,
+        "independent_visual_view": false
+      },
+      {
+        "index": 3,
+        "filename": "image-03.png",
+        "byte_hash_matches": true,
+        "independent_visual_view": false
+      },
+      {
+        "index": 4,
+        "filename": "image-04.png",
+        "byte_hash_matches": true,
+        "independent_visual_view": false
+      },
+      {
+        "index": 5,
+        "filename": "image-05.png",
+        "byte_hash_matches": true,
+        "independent_visual_view": false
+      },
+      {
+        "index": 6,
+        "filename": "image-06.png",
+        "byte_hash_matches": true,
+        "independent_visual_view": false
+      },
+      {
+        "index": 7,
+        "filename": "image-07.png",
+        "byte_hash_matches": true,
+        "independent_visual_view": false
+      },
+      {
+        "index": 8,
+        "filename": "image-08.png",
+        "byte_hash_matches": true,
+        "independent_visual_view": false
+      },
+      {
+        "index": 9,
+        "filename": "image-09.png",
+        "byte_hash_matches": true,
+        "independent_visual_view": false
+      },
+      {
+        "index": 10,
+        "filename": "image-10.png",
+        "byte_hash_matches": true,
+        "independent_visual_view": false
+      },
+      {
+        "index": 11,
+        "filename": "image-11.png",
+        "byte_hash_matches": true,
+        "independent_visual_view": false
+      },
+      {
+        "index": 12,
+        "filename": "image-12.png",
+        "byte_hash_matches": true,
+        "independent_visual_view": false
+      },
+      {
+        "index": 13,
+        "filename": "image-13.png",
+        "byte_hash_matches": true,
+        "independent_visual_view": false
+      },
+      {
+        "index": 14,
+        "filename": "image-14.png",
+        "byte_hash_matches": true,
+        "independent_visual_view": false
+      }
+    ],
+    "content_limit": "This reviewer read the 15-item primary-agent visual review and verified files/hashes, not image content by viewing."
+  },
+  "external_primary_source": {
+    "url": "https://courses.csail.mit.edu/6.856/current/Notes/n25-markov-chains.html",
+    "live_read_during_source_arithmetic_review": true,
+    "scope": "Matrix orientation, stationary definition and finite irreducible aperiodic sufficient theorem; counterexamples independently constructed."
+  },
+  "behavior_test_status": "not_started_in_this_review",
+  "ready_for_independent_execution": true,
+  "release_ready": false,
+  "limits": [
+    "No execution responses were available or assessed; cases plus correct expectations do not count as behavioral success.",
+    "Source file normalization/table preservation and mechanisms verified; no all-history/BIS/PageRank/author-course fact audit.",
+    "No independent image visual review; 15 original file byte checks and primary-agent visual notes only.",
+    "Draft-relative links are checked against intended installed schema and existing linked resources; final staged/package link checks remain required.",
+    "No private cases or criteria contents read; no public/installed skill files modified."
+  ]
+}

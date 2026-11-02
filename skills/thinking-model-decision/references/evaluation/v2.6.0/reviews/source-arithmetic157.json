@@ -1,0 +1,589 @@
+{
+  "review_id": "TM-157-original-arithmetic-and-boundaries",
+  "reviewed_at": "2026-11-02T01:07:25.242775+00:00",
+  "status": "original_numeric_examples_passed; card/runtime pending",
+  "input_provenance": {
+    "body_sha256": "c9d7e62c326184e06fd99511619b26b32b30398153b056edba4917ec7d59be35",
+    "browser_capture_sha256": "d7b9b3a15d1d9c4686bec477592933516c726529a3bd139367101a636c774549",
+    "body_matches_capture": true,
+    "nonwhitespace_utf16_units": 7236,
+    "fnv1a32_code_units": "2ac1354a",
+    "title": "思维模型157：马尔科夫链 ——1000个用户，八周之后为什么只剩250个？",
+    "metadata": "原创 鬼子不言 鬼子不言\n 2026年11月1日 15:07 山东",
+    "captured_at": "2026-11-02T01:02:55.655Z"
+  },
+  "method": "Exact rational recurrences, independent table-cell comparison, matrix counterexamples; no random simulation and no operational intervention.",
+  "recurrence": "n[t+1] = stay*n[t] + return*(N-n[t]); homogeneous closed two-state n[t]=n_star+(stay-return)^t*(n[0]-n_star)",
+  "table_reviews": [
+    {
+      "table": 1,
+      "verdict": "pass",
+      "checked": "Transition orientation and 70+30=100, 10+90=100; same-state moves included."
+    },
+    {
+      "table": 2,
+      "verdict": "pass",
+      "checked": "Weeks 0,1,2,4,8 and limit values; all displayed decimal rounding and proportions recalculated."
+    },
+    {
+      "table": 3,
+      "verdict": "pass",
+      "checked": "Three separate trajectories from common 600/400 start; five finite weeks and three long-run ratios."
+    },
+    {
+      "table": 4,
+      "verdict": "pass",
+      "checked": "Sum weeks 1–4 only, no week 0; repeated active person-weeks, not distinct users."
+    },
+    {
+      "table": 5,
+      "verdict": "pass",
+      "checked": "600/400 row denominators recover table 1; next column totals 460/540; all 1000 included including 360 inactive both weeks."
+    }
+  ],
+  "series_by_week_0_to_8": {
+    "baseline": [
+      {
+        "fraction": "600",
+        "decimal": 600.0
+      },
+      {
+        "fraction": "460",
+        "decimal": 460.0
+      },
+      {
+        "fraction": "376",
+        "decimal": 376.0
+      },
+      {
+        "fraction": "1628/5",
+        "decimal": 325.6
+      },
+      {
+        "fraction": "7384/25",
+        "decimal": 295.36
+      },
+      {
+        "fraction": "34652/125",
+        "decimal": 277.216
+      },
+      {
+        "fraction": "166456/625",
+        "decimal": 266.3296
+      },
+      {
+        "fraction": "811868/3125",
+        "decimal": 259.79776
+      },
+      {
+        "fraction": "3998104/15625",
+        "decimal": 255.878656
+      }
+    ],
+    "A": [
+      {
+        "fraction": "600",
+        "decimal": 600.0
+      },
+      {
+        "fraction": "520",
+        "decimal": 520.0
+      },
+      {
+        "fraction": "464",
+        "decimal": 464.0
+      },
+      {
+        "fraction": "2124/5",
+        "decimal": 424.8
+      },
+      {
+        "fraction": "9934/25",
+        "decimal": 397.36
+      },
+      {
+        "fraction": "47269/125",
+        "decimal": 378.152
+      },
+      {
+        "fraction": "455883/1250",
+        "decimal": 364.7064
+      },
+      {
+        "fraction": "4441181/12500",
+        "decimal": 355.29448
+      },
+      {
+        "fraction": "43588267/125000",
+        "decimal": 348.706136
+      }
+    ],
+    "B": [
+      {
+        "fraction": "600",
+        "decimal": 600.0
+      },
+      {
+        "fraction": "500",
+        "decimal": 500.0
+      },
+      {
+        "fraction": "450",
+        "decimal": 450.0
+      },
+      {
+        "fraction": "425",
+        "decimal": 425.0
+      },
+      {
+        "fraction": "825/2",
+        "decimal": 412.5
+      },
+      {
+        "fraction": "1625/4",
+        "decimal": 406.25
+      },
+      {
+        "fraction": "3225/8",
+        "decimal": 403.125
+      },
+      {
+        "fraction": "6425/16",
+        "decimal": 401.5625
+      },
+      {
+        "fraction": "12825/32",
+        "decimal": 400.78125
+      }
+    ]
+  },
+  "stationary_active_fraction": {
+    "baseline": {
+      "fraction": "1/4",
+      "decimal": 0.25
+    },
+    "A": {
+      "fraction": "1/3",
+      "decimal": 0.3333333333333333
+    },
+    "B": {
+      "fraction": "2/5",
+      "decimal": 0.4
+    }
+  },
+  "cumulative_weeks_1_to_4": {
+    "baseline": {
+      "fraction": "36424/25",
+      "decimal": 1456.96
+    },
+    "A": {
+      "fraction": "45154/25",
+      "decimal": 1806.16
+    },
+    "B": {
+      "fraction": "3575/2",
+      "decimal": 1787.5
+    }
+  },
+  "A_minus_B_first_four_person_weeks": {
+    "fraction": "933/50",
+    "decimal": 18.66
+  },
+  "B_minus_A_week3": {
+    "fraction": "1/5",
+    "decimal": 0.2
+  },
+  "B_minus_A_week8": {
+    "fraction": "26037557/500000",
+    "decimal": 52.075114
+  },
+  "baseline_low_start_200": [
+    {
+      "fraction": "200",
+      "decimal": 200.0
+    },
+    {
+      "fraction": "220",
+      "decimal": 220.0
+    },
+    {
+      "fraction": "232",
+      "decimal": 232.0
+    },
+    {
+      "fraction": "1196/5",
+      "decimal": 239.2
+    },
+    {
+      "fraction": "6088/25",
+      "decimal": 243.52
+    },
+    {
+      "fraction": "30764/125",
+      "decimal": 246.112
+    },
+    {
+      "fraction": "154792/625",
+      "decimal": 247.6672
+    },
+    {
+      "fraction": "776876/3125",
+      "decimal": 248.60032
+    },
+    {
+      "fraction": "3893128/15625",
+      "decimal": 249.160192
+    }
+  ],
+  "stationary_flows": {
+    "active_stays": {
+      "fraction": "175",
+      "decimal": 175.0
+    },
+    "active_to_inactive": {
+      "fraction": "75",
+      "decimal": 75.0
+    },
+    "inactive_to_active": {
+      "fraction": "75",
+      "decimal": 75.0
+    }
+  },
+  "reading_example": {
+    "stationary_reading": {
+      "fraction": "1/5",
+      "decimal": 0.2
+    },
+    "each_stationary_flow": {
+      "fraction": "2/25",
+      "decimal": 0.08
+    }
+  },
+  "relative_improvements": {
+    "retention_70_to_80": {
+      "fraction": "1/7",
+      "decimal": 0.14285714285714285
+    },
+    "return_10_to_20": {
+      "fraction": "1",
+      "decimal": 1.0
+    }
+  },
+  "mixture_example": {
+    "equal_mix": {
+      "fraction": "11/100",
+      "decimal": 0.11
+    },
+    "one_tenth_recent": {
+      "fraction": "19/500",
+      "decimal": 0.038
+    }
+  },
+  "fair_gambler_ruin": {
+    "start": 100,
+    "lower": 0,
+    "upper": 200,
+    "hit_upper_probability": {
+      "fraction": "1/2",
+      "decimal": 0.5
+    },
+    "hit_lower_probability": {
+      "fraction": "1/2",
+      "decimal": 0.5
+    },
+    "conditions": "Fair independent +/-1 steps, stop on boundaries; finite interval."
+  },
+  "time_varying_one_week_B_only": {
+    "kind": "Reviewer-added illustration, not numeric claim in original",
+    "week_0_to_8": [
+      {
+        "fraction": "600",
+        "decimal": 600.0
+      },
+      {
+        "fraction": "500",
+        "decimal": 500.0
+      },
+      {
+        "fraction": "400",
+        "decimal": 400.0
+      },
+      {
+        "fraction": "340",
+        "decimal": 340.0
+      },
+      {
+        "fraction": "304",
+        "decimal": 304.0
+      },
+      {
+        "fraction": "1412/5",
+        "decimal": 282.4
+      },
+      {
+        "fraction": "6736/25",
+        "decimal": 269.44
+      },
+      {
+        "fraction": "32708/125",
+        "decimal": 261.664
+      },
+      {
+        "fraction": "160624/625",
+        "decimal": 256.9984
+      }
+    ],
+    "weeks_1_to_4_sum": {
+      "fraction": "1544",
+      "decimal": 1544.0
+    },
+    "rule": "P_B for first transition only, then P_baseline; never extend a one-week campaign to permanent 20% return."
+  },
+  "denominator_examples": {
+    "valid_return_rate": {
+      "fraction": "1/10",
+      "decimal": 0.1
+    },
+    "incorrect_all_cohort_denominator": {
+      "fraction": "1/25",
+      "decimal": 0.04
+    },
+    "incorrect_union_of_two_active_lists": {
+      "fraction": "1",
+      "decimal": 1.0
+    },
+    "union_only_visible_count": {
+      "fraction": "640",
+      "decimal": 640.0
+    },
+    "unobserved_both_inactive": {
+      "fraction": "360",
+      "decimal": 360.0
+    }
+  },
+  "zero_departure_row": "No estimate from zero observations; keep unknown, not probability 0.",
+  "counterexamples": {
+    "periodic_swap": {
+      "P": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "from_600": [
+        {
+          "fraction": "600",
+          "decimal": 600.0
+        },
+        {
+          "fraction": "400",
+          "decimal": 400.0
+        },
+        {
+          "fraction": "600",
+          "decimal": 600.0
+        },
+        {
+          "fraction": "400",
+          "decimal": 400.0
+        },
+        {
+          "fraction": "600",
+          "decimal": 600.0
+        },
+        {
+          "fraction": "400",
+          "decimal": 400.0
+        },
+        {
+          "fraction": "600",
+          "decimal": 600.0
+        }
+      ],
+      "from_500": [
+        {
+          "fraction": "500",
+          "decimal": 500.0
+        },
+        {
+          "fraction": "500",
+          "decimal": 500.0
+        },
+        {
+          "fraction": "500",
+          "decimal": 500.0
+        },
+        {
+          "fraction": "500",
+          "decimal": 500.0
+        },
+        {
+          "fraction": "500",
+          "decimal": 500.0
+        },
+        {
+          "fraction": "500",
+          "decimal": 500.0
+        },
+        {
+          "fraction": "500",
+          "decimal": 500.0
+        }
+      ],
+      "stationary_active": {
+        "fraction": "1/2",
+        "decimal": 0.5
+      },
+      "interpretation": "Unique stationary distribution exists, but nonstationary start oscillates; starting at stationary remains stationary. Finite-horizon predictions remain valid."
+    },
+    "reducible_single_absorbing_class": {
+      "P": [
+        [
+          1,
+          0
+        ],
+        [
+          0.2,
+          0.8
+        ]
+      ],
+      "from_600": [
+        {
+          "fraction": "600",
+          "decimal": 600.0
+        },
+        {
+          "fraction": "680",
+          "decimal": 680.0
+        },
+        {
+          "fraction": "744",
+          "decimal": 744.0
+        },
+        {
+          "fraction": "3976/5",
+          "decimal": 795.2
+        },
+        {
+          "fraction": "20904/25",
+          "decimal": 836.16
+        },
+        {
+          "fraction": "108616/125",
+          "decimal": 868.928
+        },
+        {
+          "fraction": "559464/625",
+          "decimal": 895.1424
+        }
+      ],
+      "limit_active": {
+        "fraction": "1000",
+        "decimal": 1000.0
+      },
+      "interpretation": "Reducible, but every initial distribution converges to active absorption. Irreducibility is not generally necessary for one attracting limit."
+    },
+    "identity_two_absorbing_states": {
+      "P": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "from_600": [
+        {
+          "fraction": "600",
+          "decimal": 600.0
+        },
+        {
+          "fraction": "600",
+          "decimal": 600.0
+        },
+        {
+          "fraction": "600",
+          "decimal": 600.0
+        },
+        {
+          "fraction": "600",
+          "decimal": 600.0
+        }
+      ],
+      "from_200": [
+        {
+          "fraction": "200",
+          "decimal": 200.0
+        },
+        {
+          "fraction": "200",
+          "decimal": 200.0
+        },
+        {
+          "fraction": "200",
+          "decimal": 200.0
+        },
+        {
+          "fraction": "200",
+          "decimal": 200.0
+        }
+      ],
+      "interpretation": "alpha+beta=0, stationary formula 0/0 invalid; every initial mixture remains stationary, no common unique answer."
+    }
+  },
+  "two_state_limit_condition": {
+    "assumptions": "Finite, closed, time-homogeneous two-state chain; alpha=active-to-inactive, beta=inactive-to-active; both in [0,1].",
+    "stationary_formula": "pi_active=beta/(alpha+beta), only when alpha+beta>0",
+    "all_initial_distributions_converge_to_unique_common_limit": "0 < alpha+beta < 2; follows directly from error multiplier 1-alpha-beta.",
+    "exceptions": "alpha+beta=0 identity with every mixture stationary; alpha+beta=2 deterministic swapping with stationary (1/2,1/2), other starts oscillate."
+  },
+  "source_boundary_findings": [
+    {
+      "id": "S157-01",
+      "severity_if_unqualified_in_runtime": "blocking",
+      "topic": "Fixed probabilities are homogeneous-model restriction",
+      "required": "Distinguish Markov property from time homogeneity, allow x[t+1]=x[t]P[t]; do not present fixed probabilities or convergence as general definition."
+    },
+    {
+      "id": "S157-02",
+      "severity_if_unqualified_in_runtime": "blocking",
+      "topic": "Convergence sufficient versus necessary",
+      "required": "Finite irreducible aperiodic is sufficient for unique stationary convergence from every initial state. Do not assert all non-irreducible or periodic chains are useless; distinguish stationary existence/uniqueness, attraction, and finite-time prediction."
+    },
+    {
+      "id": "S157-03",
+      "severity_if_unqualified_in_runtime": "blocking",
+      "topic": "Turnover does not entail aggregate instability or deterioration",
+      "required": "Use membership churn as a measurement prompt; cost, replenishment, use cycle and future transition evidence determine action. Do not repeat closing rhetoric as factual inevitable decline."
+    },
+    {
+      "id": "S157-04",
+      "severity_if_unqualified_in_runtime": "nonblocking_source_wording",
+      "topic": "Finite week versus long-run limit",
+      "required": "Title rounds to 250; week 8 actually 255.878656. Treat 250 as asymptotic expected active count, not exact week-8 realization or finite-time stopping."
+    },
+    {
+      "id": "S157-05",
+      "severity_if_unqualified_in_runtime": "blocking",
+      "topic": "Scenario, causal intervention and objectives",
+      "required": "Hypothesized probability change predicts a conditional trajectory, not evidence a campaign can achieve it. Fix metric/horizon/duration/cost before ranking; MDP or causal evaluation is separate."
+    }
+  ],
+  "external_primary_source": {
+    "url": "https://courses.csail.mit.edu/6.856/current/Notes/n25-markov-chains.html",
+    "read_live_this_review": true,
+    "used_scope": "Row-stochastic transition matrices, xP update, piP=pi, finite irreducible aperiodic sufficient theorem. Reviewer independently constructs counterexamples; no claim the note states every counterexample."
+  },
+  "limitations": [
+    "15 images listed in capture but this reviewer has not viewed them; no visual/media verification claimed.",
+    "Original article source bytes preserved; this is interpretation boundary review, not rewriting the published source.",
+    "Historical Markov/PageRank/BIS anecdotes and course attribution not fully independently researched; not promoted to verified operational parameters.",
+    "Card/runtime not yet available at review time; no card consistency or behavior trial approval claimed."
+  ]
+}

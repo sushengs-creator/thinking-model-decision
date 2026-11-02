@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-02",
+  "purpose": "Public portability only. Original files remain in maintenance workspace; original manifest hashes refer to execution-time bytes. No answer rewritten after review.",
+  "files": [
+    {
+      "public_path": "trials/TM-157-fit.md",
+      "original_sha256": "344bd00c87abcebe5dbe888eed0793833f73c6a14c0ecde3b311d7cda7f40351",
+      "public_sha256": "82674d7bc4a9d861749ddcc022c494376f4ab16de5d626152e9835e598a959b8",
+      "only_changes": "Local absolute resource paths replaced with relative locators or maintenance-workspace labels; all input/answer/review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/TM-157-misuse.md",
+      "original_sha256": "4b2ecc31b42abd59978dafa77bae96684e277d31a3d0c09126fca94cacc81d26",
+      "public_sha256": "d7072c8d2e280491e6933da8f0055401f816594db9b9ab51cf3302437104a3a9",
+      "only_changes": "Local absolute resource paths replaced with relative locators or maintenance-workspace labels; all input/answer/review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/entry-first-turn.md",
+      "original_sha256": "82436fc796bfcd53d675fba57942b2b2d255f21d455ac619c6ac05f6016bd30b",
+      "public_sha256": "c3f7ffa82be2fb5563fab00f3ec17507d2689c7c57440db22fab21929870dae6",
+      "only_changes": "Local absolute resource paths replaced with relative locators or maintenance-workspace labels; all input/answer/review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/entry-state-choice.html",
+      "original_sha256": "1232b26deb6dc980b853de5e907b11d8ae3d4bfc47d4d66bc9c92373a437beb4",
+      "public_sha256": "a13d77533154770661bdf2814fd046f911de36424a35a8e0075a23ca14a03439",
+      "only_changes": "Local absolute resource paths replaced with relative locators or maintenance-workspace labels; all input/answer/review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/entry-state-choice.md",
+      "original_sha256": "6f280f6e39fdee2cb9da05d3564cfd7833cf4fb1e7e056bcf9ef7e6ca54e77aa",
+      "public_sha256": "d37e2b248853cd4d0a7d0dc5a5b121a0f1f5b93aeea6670c3c5da142e15caba1",
+      "only_changes": "Local absolute resource paths replaced with relative locators or maintenance-workspace labels; all input/answer/review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/entry-trials-manifest.json",
+      "original_sha256": "55938787ddfc1945be3e0788db23a9e2d94851cece3078b1628c29261f2246f8",
+      "public_sha256": "ebe32a63e3ee93c725401842c0becf9a5ae9eed46e7f0f132b74f258729104cd",
+      "only_changes": "Local absolute resource paths replaced with relative locators or maintenance-workspace labels; all input/answer/review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/cases-arithmetic157.json",
+      "original_sha256": "f43df7a215d980cacfb4415c6f0831d4cd55617a8e61f49aa980639af61ee40b",
+      "public_sha256": "f43df7a215d980cacfb4415c6f0831d4cd55617a8e61f49aa980639af61ee40b",
+      "only_changes": "Local absolute resource paths replaced with relative locators or maintenance-workspace labels; all input/answer/review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/entry-arithmetic157.json",
+      "original_sha256": "1dcdb56bf6c68d8dccf80ece187fd1221d1221e34f411157d8640f5f3aa8bab8",
+      "public_sha256": "1dcdb56bf6c68d8dccf80ece187fd1221d1221e34f411157d8640f5f3aa8bab8",
+      "only_changes": "Local absolute resource paths replaced with relative locators or maintenance-workspace labels; all input/answer/review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/entry-review.json",
+      "original_sha256": "275a4ee4faba0fee96407990980ce97ce0a2c223cce31118278db1e94693fb2f",
+      "public_sha256": "a75a069888b3bdc9c58156538ebd63010046f10ae8abcb5074f9f3dd49ebb30e",
+      "only_changes": "Local absolute resource paths replaced with relative locators or maintenance-workspace labels; all input/answer/review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/entry-review.md",
+      "original_sha256": "d345d7c13040e2ce0fab74a171c132d863e68cc407b939e745877243e1516bf9",
+      "public_sha256": "d345d7c13040e2ce0fab74a171c132d863e68cc407b939e745877243e1516bf9",
+      "only_changes": "Local absolute resource paths replaced with relative locators or maintenance-workspace labels; all input/answer/review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-and-cases-review.json",
+      "original_sha256": "7052a52fe500eb303119de2d9a876d498050283e09ef5a1c89e5a2bd4b7fb73e",
+      "public_sha256": "3487d4d742e141cb18fe3c1dd04af6f0239a4ba8e3e49c3118b19daa54d5505d",
+      "only_changes": "Local absolute resource paths replaced with relative locators or maintenance-workspace labels; all input/answer/review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-and-cases-review.md",
+      "original_sha256": "3f75e22c5183eb9c45276aadf2983f0720e493c83f7ca9760cfa89f863b23546",
+      "public_sha256": "3f75e22c5183eb9c45276aadf2983f0720e493c83f7ca9760cfa89f863b23546",
+      "only_changes": "Local absolute resource paths replaced with relative locators or maintenance-workspace labels; all input/answer/review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-arithmetic157.json",
+      "original_sha256": "54d5f89ca52a2c98839609f7281c4721d73df8a9784aae9978b4a19dfc7121fd",
+      "public_sha256": "54d5f89ca52a2c98839609f7281c4721d73df8a9784aae9978b4a19dfc7121fd",
+      "only_changes": "Local absolute resource paths replaced with relative locators or maintenance-workspace labels; all input/answer/review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-arithmetic157.md",
+      "original_sha256": "b507af55ac855fdd566580aab43b60d9904bcc54b5b1e507e56731db2ba7cb6c",
+      "public_sha256": "b507af55ac855fdd566580aab43b60d9904bcc54b5b1e507e56731db2ba7cb6c",
+      "only_changes": "Local absolute resource paths replaced with relative locators or maintenance-workspace labels; all input/answer/review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/tool-review.json",
+      "original_sha256": "fa3255432a67b9d3cd6ff820599d109132196f0f8bb1498e3e3bcf5ef1f4b599",
+      "public_sha256": "871e0e536666200cd9186baabe97fed0742c9ff3cc1c698f2ce185693af51533",
+      "only_changes": "Local absolute resource paths replaced with relative locators or maintenance-workspace labels; all input/answer/review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/tool-review.md",
+      "original_sha256": "7c27b68fcad84ab924b4bff6ca5dc764ceff14a2d32ad624e619de3b3387c36a",
+      "public_sha256": "7c27b68fcad84ab924b4bff6ca5dc764ceff14a2d32ad624e619de3b3387c36a",
+      "only_changes": "Local absolute resource paths replaced with relative locators or maintenance-workspace labels; all input/answer/review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/tool-trials-manifest.json",
+      "original_sha256": "08f3e51c3716b50b6dac84758314da3ab6a0cf09c6d7c559f5cc323b0581d5c9",
+      "public_sha256": "cdffe5a9bbe2a81a6ada45fb383ded662d69f73ebd23923be5efcbe21b762840",
+      "only_changes": "Local absolute resource paths replaced with relative locators or maintenance-workspace labels; all input/answer/review prose and original recorded hashes retained."
+    }
+  ]
+}
