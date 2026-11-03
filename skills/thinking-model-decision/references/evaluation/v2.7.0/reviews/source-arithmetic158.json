@@ -1,0 +1,509 @@
+{
+  "method": "Independent exact rational calculations, not author/runtime draft or response expectations.",
+  "baseline": {
+    "lambda_per_hour": {
+      "exact": "4",
+      "decimal": 4.0
+    },
+    "mu_per_hour": {
+      "exact": "5",
+      "decimal": 5.0
+    },
+    "rho": {
+      "exact": "4/5",
+      "decimal": 0.8
+    },
+    "Wq_minutes": {
+      "exact": "48",
+      "decimal": 48.0
+    },
+    "service_minutes": {
+      "exact": "12",
+      "decimal": 12.0
+    },
+    "W_minutes": {
+      "exact": "60",
+      "decimal": 60.0
+    },
+    "Lq": {
+      "exact": "16/5",
+      "decimal": 3.2
+    },
+    "L": {
+      "exact": "4",
+      "decimal": 4.0
+    },
+    "busy_servers": {
+      "exact": "4/5",
+      "decimal": 0.8
+    }
+  },
+  "source_table_rows": [
+    {
+      "source_cells": [
+        "2.5 份",
+        "50%",
+        "12 分钟",
+        "24 分钟"
+      ],
+      "recomputed": {
+        "lambda_per_hour": {
+          "exact": "5/2",
+          "decimal": 2.5
+        },
+        "mu_per_hour": {
+          "exact": "5",
+          "decimal": 5.0
+        },
+        "rho": {
+          "exact": "1/2",
+          "decimal": 0.5
+        },
+        "Wq_minutes": {
+          "exact": "12",
+          "decimal": 12.0
+        },
+        "service_minutes": {
+          "exact": "12",
+          "decimal": 12.0
+        },
+        "W_minutes": {
+          "exact": "24",
+          "decimal": 24.0
+        },
+        "Lq": {
+          "exact": "1/2",
+          "decimal": 0.5
+        },
+        "L": {
+          "exact": "1",
+          "decimal": 1.0
+        },
+        "busy_servers": {
+          "exact": "1/2",
+          "decimal": 0.5
+        }
+      },
+      "all_cells_match": true
+    },
+    {
+      "source_cells": [
+        "4 份",
+        "80%",
+        "48 分钟",
+        "60 分钟"
+      ],
+      "recomputed": {
+        "lambda_per_hour": {
+          "exact": "4",
+          "decimal": 4.0
+        },
+        "mu_per_hour": {
+          "exact": "5",
+          "decimal": 5.0
+        },
+        "rho": {
+          "exact": "4/5",
+          "decimal": 0.8
+        },
+        "Wq_minutes": {
+          "exact": "48",
+          "decimal": 48.0
+        },
+        "service_minutes": {
+          "exact": "12",
+          "decimal": 12.0
+        },
+        "W_minutes": {
+          "exact": "60",
+          "decimal": 60.0
+        },
+        "Lq": {
+          "exact": "16/5",
+          "decimal": 3.2
+        },
+        "L": {
+          "exact": "4",
+          "decimal": 4.0
+        },
+        "busy_servers": {
+          "exact": "4/5",
+          "decimal": 0.8
+        }
+      },
+      "all_cells_match": true
+    },
+    {
+      "source_cells": [
+        "4.5 份",
+        "90%",
+        "108 分钟",
+        "120 分钟"
+      ],
+      "recomputed": {
+        "lambda_per_hour": {
+          "exact": "9/2",
+          "decimal": 4.5
+        },
+        "mu_per_hour": {
+          "exact": "5",
+          "decimal": 5.0
+        },
+        "rho": {
+          "exact": "9/10",
+          "decimal": 0.9
+        },
+        "Wq_minutes": {
+          "exact": "108",
+          "decimal": 108.0
+        },
+        "service_minutes": {
+          "exact": "12",
+          "decimal": 12.0
+        },
+        "W_minutes": {
+          "exact": "120",
+          "decimal": 120.0
+        },
+        "Lq": {
+          "exact": "81/10",
+          "decimal": 8.1
+        },
+        "L": {
+          "exact": "9",
+          "decimal": 9.0
+        },
+        "busy_servers": {
+          "exact": "9/10",
+          "decimal": 0.9
+        }
+      },
+      "all_cells_match": true
+    },
+    {
+      "source_cells": [
+        "4.75 份",
+        "95%",
+        "228 分钟",
+        "240 分钟"
+      ],
+      "recomputed": {
+        "lambda_per_hour": {
+          "exact": "19/4",
+          "decimal": 4.75
+        },
+        "mu_per_hour": {
+          "exact": "5",
+          "decimal": 5.0
+        },
+        "rho": {
+          "exact": "19/20",
+          "decimal": 0.95
+        },
+        "Wq_minutes": {
+          "exact": "228",
+          "decimal": 228.0
+        },
+        "service_minutes": {
+          "exact": "12",
+          "decimal": 12.0
+        },
+        "W_minutes": {
+          "exact": "240",
+          "decimal": 240.0
+        },
+        "Lq": {
+          "exact": "361/20",
+          "decimal": 18.05
+        },
+        "L": {
+          "exact": "19",
+          "decimal": 19.0
+        },
+        "busy_servers": {
+          "exact": "19/20",
+          "decimal": 0.95
+        }
+      },
+      "all_cells_match": true
+    }
+  ],
+  "lambda_reduced_3": {
+    "lambda_per_hour": {
+      "exact": "3",
+      "decimal": 3.0
+    },
+    "mu_per_hour": {
+      "exact": "5",
+      "decimal": 5.0
+    },
+    "rho": {
+      "exact": "3/5",
+      "decimal": 0.6
+    },
+    "Wq_minutes": {
+      "exact": "18",
+      "decimal": 18.0
+    },
+    "service_minutes": {
+      "exact": "12",
+      "decimal": 12.0
+    },
+    "W_minutes": {
+      "exact": "30",
+      "decimal": 30.0
+    },
+    "Lq": {
+      "exact": "9/10",
+      "decimal": 0.9
+    },
+    "L": {
+      "exact": "3/2",
+      "decimal": 1.5
+    },
+    "busy_servers": {
+      "exact": "3/5",
+      "decimal": 0.6
+    }
+  },
+  "lambda_growth_4_to_4_5": {
+    "exact": "1/8",
+    "decimal": 0.125
+  },
+  "Wq_growth_48_to_108": {
+    "exact": "5/4",
+    "decimal": 1.25
+  },
+  "lambda_growth_4_5_to_4_75": {
+    "exact": "1/18",
+    "decimal": 0.05555555555555555
+  },
+  "Wq_growth_108_to_228": {
+    "exact": "10/9",
+    "decimal": 1.1111111111111112
+  },
+  "M_D_1_lambda4_service12": {
+    "rho": {
+      "exact": "4/5",
+      "decimal": 0.8
+    },
+    "E_S2_hours2": {
+      "exact": "1/25",
+      "decimal": 0.04
+    },
+    "Wq_minutes": {
+      "exact": "24",
+      "decimal": 24.0
+    },
+    "W_minutes": {
+      "exact": "36",
+      "decimal": 36.0
+    },
+    "Lq": {
+      "exact": "8/5",
+      "decimal": 1.6
+    },
+    "L": {
+      "exact": "12/5",
+      "decimal": 2.4
+    }
+  },
+  "reduction_48_to_18_minutes": 30,
+  "reduction_percent": {
+    "exact": "5/8",
+    "decimal": 0.625
+  },
+  "same_speed_second_server_shared_queue": {
+    "lambda": {
+      "exact": "4",
+      "decimal": 4.0
+    },
+    "mu_per_server": {
+      "exact": "5",
+      "decimal": 5.0
+    },
+    "servers": 2,
+    "rho_per_server": {
+      "exact": "2/5",
+      "decimal": 0.4
+    },
+    "p0": {
+      "exact": "3/7",
+      "decimal": 0.42857142857142855
+    },
+    "Pwait": {
+      "exact": "8/35",
+      "decimal": 0.22857142857142856
+    },
+    "Wq_minutes": {
+      "exact": "16/7",
+      "decimal": 2.2857142857142856
+    },
+    "service_minutes": {
+      "exact": "12",
+      "decimal": 12.0
+    },
+    "W_minutes": {
+      "exact": "100/7",
+      "decimal": 14.285714285714286
+    },
+    "Lq": {
+      "exact": "16/105",
+      "decimal": 0.1523809523809524
+    },
+    "L": {
+      "exact": "20/21",
+      "decimal": 0.9523809523809523
+    }
+  },
+  "two_independent_equal_poisson_split_queues": {
+    "lambda_per_hour": {
+      "exact": "2",
+      "decimal": 2.0
+    },
+    "mu_per_hour": {
+      "exact": "5",
+      "decimal": 5.0
+    },
+    "rho": {
+      "exact": "2/5",
+      "decimal": 0.4
+    },
+    "Wq_minutes": {
+      "exact": "8",
+      "decimal": 8.0
+    },
+    "service_minutes": {
+      "exact": "12",
+      "decimal": 12.0
+    },
+    "W_minutes": {
+      "exact": "20",
+      "decimal": 20.0
+    },
+    "Lq": {
+      "exact": "4/15",
+      "decimal": 0.26666666666666666
+    },
+    "L": {
+      "exact": "2/3",
+      "decimal": 0.6666666666666666
+    },
+    "busy_servers": {
+      "exact": "2/5",
+      "decimal": 0.4
+    }
+  },
+  "single_faster_server_mu10": {
+    "lambda_per_hour": {
+      "exact": "4",
+      "decimal": 4.0
+    },
+    "mu_per_hour": {
+      "exact": "10",
+      "decimal": 10.0
+    },
+    "rho": {
+      "exact": "2/5",
+      "decimal": 0.4
+    },
+    "Wq_minutes": {
+      "exact": "4",
+      "decimal": 4.0
+    },
+    "service_minutes": {
+      "exact": "6",
+      "decimal": 6.0
+    },
+    "W_minutes": {
+      "exact": "10",
+      "decimal": 10.0
+    },
+    "Lq": {
+      "exact": "4/15",
+      "decimal": 0.26666666666666666
+    },
+    "L": {
+      "exact": "2/3",
+      "decimal": 0.6666666666666666
+    },
+    "busy_servers": {
+      "exact": "2/5",
+      "decimal": 0.4
+    }
+  },
+  "service_speed_mu6": {
+    "lambda_per_hour": {
+      "exact": "4",
+      "decimal": 4.0
+    },
+    "mu_per_hour": {
+      "exact": "6",
+      "decimal": 6.0
+    },
+    "rho": {
+      "exact": "2/3",
+      "decimal": 0.6666666666666666
+    },
+    "Wq_minutes": {
+      "exact": "20",
+      "decimal": 20.0
+    },
+    "service_minutes": {
+      "exact": "10",
+      "decimal": 10.0
+    },
+    "W_minutes": {
+      "exact": "30",
+      "decimal": 30.0
+    },
+    "Lq": {
+      "exact": "4/3",
+      "decimal": 1.3333333333333333
+    },
+    "L": {
+      "exact": "2",
+      "decimal": 2.0
+    },
+    "busy_servers": {
+      "exact": "2/3",
+      "decimal": 0.6666666666666666
+    }
+  },
+  "D_D_1_every15_service12_from_empty_wait": 0,
+  "observation_09_00_09_40_09_52": {
+    "wait_minutes": 40,
+    "service_minutes": 12,
+    "sojourn_minutes": 52
+  },
+  "airport_addition_only": {
+    "before": 8,
+    "after": 8,
+    "total_saved": 0,
+    "independent_historical_verification": false
+  },
+  "randomness_counterexample": {
+    "arrival_intervals_minutes": "IID Uniform[14,16]",
+    "service_minutes": "IID Uniform[11,13], independent of arrival intervals",
+    "mean_arrival_interval": 15,
+    "mean_service": 12,
+    "lambda_per_hour": 4,
+    "mu_per_hour": 5,
+    "proof": "Starting empty, every service finishes before the next arrival because 13 < 14; induction gives Wq=0 on every path despite both distributions having positive variance."
+  },
+  "downstream_counterexample": {
+    "construction": "Arrivals every15min, empty tandem. Stage1 service12min, stage2 service3min. Speed stage1 to6min; stage2 unchanged.",
+    "stage1_utilization_before": 0.8,
+    "stage2_utilization_before": 0.2,
+    "sojourn_before_minutes": 15,
+    "sojourn_after_minutes": 9,
+    "queue_wait_both_stages_before_and_after": 0,
+    "proof": "Stage2 can finish3min before the next stage1 departure15min later; increased speed shortens end-to-end duration rather than inevitably shifting backlog."
+  },
+  "critical_scope_counterexample": {
+    "model": "D/D/1, from empty, interarrival time=service time=12min",
+    "rho": 1,
+    "Wq_minutes": 0,
+    "note": "Demonstrates rho<1 is not a universal necessary condition for every deterministic sample path; it remains required by the M/M/1 stationary formulas reviewed here."
+  }
+}

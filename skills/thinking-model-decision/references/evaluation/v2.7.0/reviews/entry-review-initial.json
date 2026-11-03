@@ -1,0 +1,384 @@
+{
+  "review_id": "TM-158-entry-behavior-review-initial",
+  "reviewed_at": "2026-11-03T01:36:42.838584+00:00",
+  "reviewer": "daily_baseline_1101",
+  "independence": "Not author or entry executor; read exact inputs and original outputs, independently solved arithmetic and inspected actual HTML. Author review_focus was not used as behavior evidence.",
+  "verdict": "passed_with_limits",
+  "blocking_failures": [],
+  "observations": [
+    {
+      "id": "TM158-ENTRY-P3-ROUNDING",
+      "severity": "P3",
+      "blocking": false,
+      "evidence": "Threshold table writes mu>=7.854 and service<=6.67 without explicit approximation; exact values are 7.854101966... and20/3=6.666666... respectively. At rounded-down mu7.854 the ideal W is about20.000939min; at service6.67 it is about20.03003min.",
+      "assessment": "Negotiation-only display and exact formula/mu>=9 plus explicit equality/no-margin warning make this nonblocking for the present do-not-buy decision; not a verified operating specification.",
+      "suggestion": "For future response generation write ≈ for displays, retain exact formula or conservatively round operational caps (e.g.6.66min), and use verified margin. Do not rewrite this raw answer."
+    }
+  ],
+  "cases": [
+    {
+      "id": "entry-queue-choice",
+      "verdict": "passed_with_limits"
+    },
+    {
+      "id": "entry-first-turn",
+      "verdict": "passed_with_limits"
+    }
+  ],
+  "raw_manifest": {
+    "path": "../trials/entry-trials-manifest.json",
+    "sha256": "1230c350b6017cb27fa90303fce55da611f92ec522ea84354a6af238747f33e4",
+    "execution_context": {
+      "agent_task": "/root/tm158_entry_trials",
+      "independent_executor_context": true,
+      "same_execution_context_for_both_requests": true,
+      "order": [
+        "entry-queue-choice",
+        "entry-first-turn"
+      ],
+      "isolation_note": "The two inputs were processed sequentially in this same agent context. The first response and its resource readings remained visible during the second. This is not represented as two context-isolated trials.",
+      "prohibited_materials_not_read": [
+        "drafts",
+        "reviews",
+        "other trial answers",
+        "historical evaluation answers",
+        "expected evaluation criteria"
+      ],
+      "external_actions": "Read-only public reference browsing; no purchases, external messages, submissions, or publications."
+    },
+    "timing": {
+      "first_recorded_at_utc": "2026-11-03T01:24:10.444Z",
+      "first_recorded_at_note": "Recorded after reading the original inputs, SKILL and initial reference batch; actual execution started earlier. Not a precise turn-start timestamp.",
+      "first_response_saved_at_utc": "2026-11-03T01:28:35.413Z",
+      "second_request_phase_recorded_at_utc": "2026-11-03T01:30:05.265Z",
+      "second_response_saved_at_utc": "2026-11-03T01:30:31.420Z",
+      "static_readback_at_utc": "2026-11-03T01:31:11.337Z",
+      "manifest_created_at_utc": "2026-11-03T01:32:22.540419+00:00"
+    }
+  },
+  "provenance_checks": [
+    {
+      "name": "input_file_hash_bytes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_request_entry-queue-choice",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_request_entry-first-turn",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_output_entry-queue-choice.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_output_entry-queue-choice.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_output_entry-first-turn.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_source_matches_initial_review",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_card_matches_initial_review",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_runtime_matches_initial_review",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "html_complete_and_self_contained",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "execution_resource_comparison": [
+    {
+      "relative_path": "SKILL.md",
+      "execution_manifest_sha256": "4d0a817b7fe32f947e19d5a8dcfb161898d3b0c6e8656c8f4085b2c5db45aa56",
+      "current_sha256": "4d0a817b7fe32f947e19d5a8dcfb161898d3b0c6e8656c8f4085b2c5db45aa56",
+      "current_matches": true,
+      "execution_bytes": 11235,
+      "current_bytes": 11235
+    },
+    {
+      "relative_path": "references/toolbox-orchestration.md",
+      "execution_manifest_sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "current_sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "current_matches": true,
+      "execution_bytes": 4180,
+      "current_bytes": 4180
+    },
+    {
+      "relative_path": "references/decision-routing.md",
+      "execution_manifest_sha256": "caec14f0dbefb52a40db5b1e11bf53fa2cc3cbc62419ce70285de45b3c898099",
+      "current_sha256": "caec14f0dbefb52a40db5b1e11bf53fa2cc3cbc62419ce70285de45b3c898099",
+      "current_matches": true,
+      "execution_bytes": 17598,
+      "current_bytes": 17598
+    },
+    {
+      "relative_path": "references/tool-catalog.md",
+      "execution_manifest_sha256": "572bcb0686bbbab49cb10dc8a3d7a2bfcbe137704608dfac55bc8bc15f19fa48",
+      "current_sha256": "572bcb0686bbbab49cb10dc8a3d7a2bfcbe137704608dfac55bc8bc15f19fa48",
+      "current_matches": true,
+      "execution_bytes": 29339,
+      "current_bytes": 29339
+    },
+    {
+      "relative_path": "references/wan-catalog.md",
+      "execution_manifest_sha256": "a675779fc7de2e8216fe66fd6f0b8de4636c3c064e852f749f39f45d8a2970de",
+      "current_sha256": "a675779fc7de2e8216fe66fd6f0b8de4636c3c064e852f749f39f45d8a2970de",
+      "current_matches": true,
+      "execution_bytes": 11623,
+      "current_bytes": 11623
+    },
+    {
+      "relative_path": "references/tool-runtime.md",
+      "execution_manifest_sha256": "20afe75cab192b7bca71c7bb0e4d88f21fb56742480abdc05ccd7b0c05527a01",
+      "current_sha256": "20afe75cab192b7bca71c7bb0e4d88f21fb56742480abdc05ccd7b0c05527a01",
+      "current_matches": true,
+      "execution_bytes": 6170,
+      "current_bytes": 6170
+    },
+    {
+      "relative_path": "references/decision-report.md",
+      "execution_manifest_sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "current_sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "current_matches": true,
+      "execution_bytes": 6761,
+      "current_bytes": 6761
+    },
+    {
+      "relative_path": "references/html-action-plan.md",
+      "execution_manifest_sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef",
+      "current_sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef",
+      "current_matches": true,
+      "execution_bytes": 3225,
+      "current_bytes": 3225
+    },
+    {
+      "relative_path": "scripts/tool_runtime.py",
+      "execution_manifest_sha256": "e32e96783d2b9509e5c5dec4a91142da2817641e6e39f9f1de997086dc298fdb",
+      "current_sha256": "e32e96783d2b9509e5c5dec4a91142da2817641e6e39f9f1de997086dc298fdb",
+      "current_matches": true,
+      "execution_bytes": 14002,
+      "current_bytes": 14002
+    },
+    {
+      "relative_path": "references/tools/TM-158.md",
+      "execution_manifest_sha256": "e2656304600c70ea8859cf87d4d9ed86eacda4c742b6a9421b04a629bbc3ddc6",
+      "current_sha256": "602ad0a3d5ad9371d784b0b437df0dd2a9ebaf958ff2f090e86d889bfcba8804",
+      "current_matches": false,
+      "execution_bytes": 4934,
+      "current_bytes": 5317
+    },
+    {
+      "relative_path": "references/cards/TM-158.md",
+      "execution_manifest_sha256": "9c29a9be8132eb9386873da192b39bf8946bbc6eec7cf3a599d39188ae4466ec",
+      "current_sha256": "9c29a9be8132eb9386873da192b39bf8946bbc6eec7cf3a599d39188ae4466ec",
+      "current_matches": true,
+      "execution_bytes": 9076,
+      "current_bytes": 9076
+    },
+    {
+      "relative_path": "references/user-models/TM-158.md",
+      "execution_manifest_sha256": "a10441464b533bc20c19c0b146cd87b6f6cab24bd22500d481d7579b40cbc08f",
+      "current_sha256": "a10441464b533bc20c19c0b146cd87b6f6cab24bd22500d481d7579b40cbc08f",
+      "current_matches": true,
+      "execution_bytes": 22208,
+      "current_bytes": 22208
+    },
+    {
+      "relative_path": "references/wan-tools/WW-1.4.md",
+      "execution_manifest_sha256": "c64f13288b22fbf2ab5fb85ea09d9e8bc784837c9f45260480d2edea208865e6",
+      "current_sha256": "c64f13288b22fbf2ab5fb85ea09d9e8bc784837c9f45260480d2edea208865e6",
+      "current_matches": true,
+      "execution_bytes": 2331,
+      "current_bytes": 2331
+    },
+    {
+      "relative_path": "references/wan-tools/WW-3.5.md",
+      "execution_manifest_sha256": "03441b42221aad7183fb542291559faab956a03bbf7d350eafc701748958afa6",
+      "current_sha256": "03441b42221aad7183fb542291559faab956a03bbf7d350eafc701748958afa6",
+      "current_matches": true,
+      "execution_bytes": 2213,
+      "current_bytes": 2213
+    },
+    {
+      "relative_path": "references/second-order-check.md",
+      "execution_manifest_sha256": "733f5ff5ce00c02ec94ef7a82da36b9520472031193fc461eca2bb4f30cbfe8f",
+      "current_sha256": "733f5ff5ce00c02ec94ef7a82da36b9520472031193fc461eca2bb4f30cbfe8f",
+      "current_matches": true,
+      "execution_bytes": 3220,
+      "current_bytes": 3220
+    },
+    {
+      "relative_path": "references/tool-index.json",
+      "execution_manifest_sha256": "d01625c1ac5243421720b181f89bbec1564b26e093b43def829ae5b75098ab0c",
+      "current_sha256": "aa24414da38fdd651fa6664ac845e404e3556e42f91cd10fae6beccda2561acd",
+      "current_matches": false,
+      "execution_bytes": 194442,
+      "current_bytes": 194442
+    },
+    {
+      "relative_path": "references/user-index.json",
+      "execution_manifest_sha256": "2c83c61df9b3078934a3d18d38963ce6fedfc22a219ae90b8cf269fb2f3f3c6e",
+      "current_sha256": "2c83c61df9b3078934a3d18d38963ce6fedfc22a219ae90b8cf269fb2f3f3c6e",
+      "current_matches": true,
+      "execution_bytes": 432666,
+      "current_bytes": 432666
+    },
+    {
+      "relative_path": "references/guided-dialogue.md",
+      "execution_manifest_sha256": "7700f109b08a913fcecf6a8ce26083f00376cc2f32863e7e9225e4ee47bb012a",
+      "current_sha256": "7700f109b08a913fcecf6a8ce26083f00376cc2f32863e7e9225e4ee47bb012a",
+      "current_matches": true,
+      "execution_bytes": 7143,
+      "current_bytes": 7143
+    },
+    {
+      "relative_path": "references/questioning-toolkit.md",
+      "execution_manifest_sha256": "4c4435666732c7d48a602866c0c0f17cb3f6fb2676d088093052620a849c80f6",
+      "current_sha256": "4c4435666732c7d48a602866c0c0f17cb3f6fb2676d088093052620a849c80f6",
+      "current_matches": true,
+      "execution_bytes": 3814,
+      "current_bytes": 3814
+    }
+  ],
+  "current_version_limit": "Runtime was deliberately repaired by parent after execution (e2656304... ->602ad0a3...) and tool-index was re-registered. The comparison records both expected drift items. This review passes only the exact earlier manifest-bound entry behavior. It is not evidence of executing the repaired runtime. Preserve original answers; current-version retest/registration remains parent responsibility.",
+  "actual_assessment": [
+    {
+      "criterion": "入口按困难选组合、非指定工具执行",
+      "passed": true,
+      "evidence": "User names no tool. Actual TM-158 computes invalid/stable branches; WW-1.4 filters hard constraints; WW-3.5 limits information collection and names actions that can change. Read both WW texts independently; mechanisms match."
+    },
+    {
+      "criterion": "关键队列算术与边界",
+      "passed": true,
+      "evidence": "Baseline/B rho1 no finite stationary means; A rho.75,Wq22.5,W30,L3,Lq2.25 independently reproduced. B half-wait rejected; no per-item guarantee, monotone-growth claim, or direct multi-server rate merging."
+    },
+    {
+      "criterion": "目标、费用、候选可行性",
+      "passed": true,
+      "evidence": "Original target is mean20 before cost; neither candidate feasible. Rejects both despite budget; A+B excluded by mutual exclusivity and320>250. No made-up wages/ROI or unauthorized procurement."
+    },
+    {
+      "criterion": "新条件阈值与协商",
+      "passed": true,
+      "evidence": "Exact thresholds independently solved in entry-arithmetic158.json; proposals distinguished from current A/B, verified quality, price, staffing, or user approval. Display rounding is noted separately."
+    },
+    {
+      "criterion": "完整时间与延迟资源",
+      "passed": true,
+      "evidence": "55 current includes sunk15+read10+existing-check20+decision10; conditional A75/B70. Explicit unlisted delta and residual deadline, no new90min window, no recurring budget assumed. Timing uses original task-duration slots, not a claim about aggregated multi-person labor."
+    },
+    {
+      "criterion": "未知、质量、模型失效、停止条件",
+      "passed": true,
+      "evidence": "No fabricated actual arrivals/backlog. Same-window conservation, external wait, quality/rework, source of uncertainty, stop exact arithmetic when assumptions fail, short check not proving stationarity, and stop information collection at allotted20 are all present."
+    },
+    {
+      "criterion": "首轮引导而非替答",
+      "passed": true,
+      "evidence": "One main prompt on recent concrete task received/start/finish times, rough answer allowed and unfinished branch accepted. No invented user answer, capacity claim, diagnosis or premature HTML."
+    },
+    {
+      "criterion": "HTML实际交付",
+      "passed": true,
+      "evidence": "Existing UTF8 file read in full; substantive decisions/table math/budget/source locators match Markdown. Inline CSS with narrow overflow/print rules; no network-loaded assets/scripts. Visual preview not performed, as accurately disclosed by executor."
+    }
+  ],
+  "arithmetic_artifact": "entry-arithmetic158.json",
+  "html_static": {
+    "scope": "Static parser/content inspection only; no rendered desktop/narrow/print verification by this reviewer.",
+    "utf8": true,
+    "lang_zh": true,
+    "tables": 4,
+    "external_loading_elements": [],
+    "source_hyperlinks": [
+      "https://ocw.mit.edu/courses/2-854-introduction-to-manufacturing-systems-fall-2016/927056a1af54772a587fd84ad4951e71_MIT2_854F16_Mm1Queue.pdf",
+      "https://www.mathworks.com/help/simevents/ug/m-d-1-queuing-system.html"
+    ],
+    "source_text_locators": [
+      {
+        "path": "references/tools/TM-158.md",
+        "exists_at_skill_root": true
+      },
+      {
+        "path": "references/cards/TM-158.md",
+        "exists_at_skill_root": true
+      },
+      {
+        "path": "references/user-models/TM-158.md",
+        "exists_at_skill_root": true
+      },
+      {
+        "path": "references/wan-tools/WW-1.4.md",
+        "exists_at_skill_root": true
+      },
+      {
+        "path": "references/wan-tools/WW-3.5.md",
+        "exists_at_skill_root": true
+      }
+    ],
+    "embedded_css": true,
+    "responsive_css": true,
+    "print_css": true,
+    "viewport": true,
+    "horizontal_table_overflow": true,
+    "script_count": 0,
+    "inline_event_handlers": [],
+    "style_external_urls": [],
+    "machine_paths_present": false,
+    "body_complete_checks": {
+      "今天先不选 A 或 B": true,
+      "没有可用的有限稳态平均等待": true,
+      "55 分钟": true,
+      "75 分钟": true,
+      "70 分钟": true,
+      "90 分钟": true,
+      "7.854": true,
+      "7.639": true,
+      "WW-1.4": true,
+      "WW-3.5": true,
+      "同事配合待协商": true,
+      "当前交付状态仅为分析与建议": true
+    }
+  },
+  "primary_source_review": {
+    "read_live_on": "2026-11-03",
+    "MIT_url": "https://ocw.mit.edu/courses/2-854-introduction-to-manufacturing-systems-fall-2016/927056a1af54772a587fd84ad4951e71_MIT2_854F16_Mm1Queue.pdf",
+    "MIT_scope": "Parsed PDF text page1 formula/definition and lambda<mu condition, not image-render verification.",
+    "MathWorks_url": "https://www.mathworks.com/help/simevents/ug/m-d-1-queuing-system.html",
+    "MathWorks_scope": "Official parsed text M/D/1 Poisson/constant service and half corresponding M/M/1 waiting relation; stability boundary additionally independently established with MIT/Stanford earlier source review.",
+    "independent_numeric_derivation": true,
+    "remote_raw_byte_hash_obtained": false,
+    "executor_web_json_sha_claim_not_recomputed": "Manifest supplies a JSON response hash but raw web response not in artifact set; no claim to independently verify that hash."
+  },
+  "limits": [
+    "Both entry requests were actually executed sequentially in one executor context, not two isolated contexts.",
+    "Static HTML review only; no desktop/narrow/print visual claim.",
+    "Initial local misuse failure remains blocking overall maintenance until corrected runtime has an actual passing retest; this entry pass does not cancel it.",
+    "No real-world effect, approval, purchase, installation, publication, 158-tool full-behavior coverage, or general agent compatibility claim.",
+    "No private cases/criteria or unrelated skill contents read."
+  ],
+  "raw_answers_modified": false,
+  "release_ready": false
+}

@@ -1,0 +1,353 @@
+{
+  "review_id": "TM-158-source-and-cases-independent-review",
+  "reviewed_at": "2026-11-03T01:18:23.019999+00:00",
+  "reviewer": "daily_baseline_1101",
+  "independence": "Source-first mathematical review completed before author drafts were read. Did not author source/card/runtime/cases or any executor answers.",
+  "verdict": "source_and_request_review_passed_with_limits",
+  "ready_for_behavior_execution": true,
+  "release_ready": false,
+  "blocking_findings": [],
+  "required_changes": [],
+  "source_card_runtime_sha256": {
+    "sources/TM-158.md": "a10441464b533bc20c19c0b146cd87b6f6cab24bd22500d481d7579b40cbc08f",
+    "drafts/TM-158/card.md": "9c29a9be8132eb9386873da192b39bf8946bbc6eec7cf3a599d39188ae4466ec",
+    "drafts/TM-158/tool.md": "e2656304600c70ea8859cf87d4d9ed86eacda4c742b6a9421b04a629bbc3ddc6"
+  },
+  "author_six_files_sha256": {
+    "source-review.md": "a3b3bab8ac84a248996129ebe901fa63af5b412d8627f4e2baa664f17fdb4211",
+    "card.md": "9c29a9be8132eb9386873da192b39bf8946bbc6eec7cf3a599d39188ae4466ec",
+    "tool.md": "e2656304600c70ea8859cf87d4d9ed86eacda4c742b6a9421b04a629bbc3ddc6",
+    "runtime-metadata.json": "a81dc4f6d3fb91f72493034ef16cf150545759fd785e8a3aad089314880fbd9a",
+    "cases.json": "d0454b2e0e31b4fbd303c42ac21e6e6d85b71b49f6f94685450538b5e4ddd897",
+    "routing.json": "f544624dce1e13e3e24d04a1abf4eb4bdfff48178768a997c321df793fafc1ab"
+  },
+  "source_checks": {
+    "source_sha_manifest": true,
+    "body_sha_manifest": true,
+    "recorded_fingerprint": true,
+    "old_bodies_not_reread": true,
+    "one_table": true,
+    "complete_body_preserved": true,
+    "source_section_locators_valid": true
+  },
+  "source_first_review": {
+    "path": "source-review-independent.json",
+    "sha256": "a30fafbf18e1d208fbe9cb138000731dbfd0305610b6873a42c0622ede04b6d2",
+    "source_errors_resolved_in_derived_material": true,
+    "source_original_preserved": true
+  },
+  "mechanism_checks": [
+    {
+      "criterion": "三段时间与完整边界",
+      "result": "pass",
+      "reason": "单件记录只支持该件，暂停/返工与服务分开，入口外和全流程保留。",
+      "evidence": {
+        "file": "drafts/TM-158/card.md",
+        "line": 9,
+        "excerpt": "三个时刻只能描述该件，不能证明长期规律。涉及暂停、交接、返工时另记各段，不能把开工到完成全算成服务时间。想算精确等待，还需要到达与服务时长的分布、独立性和稳定性依据；只有两个平均数时先给观察方案与条件情景。"
+      }
+    },
+    {
+      "criterion": "能力与吞吐/工时",
+      "result": "pass",
+      "reason": "日历与可用服务时间分开；多台/班次/插单不能由平均mu修复。",
+      "evidence": {
+        "file": "drafts/TM-158/tool.md",
+        "line": 13,
+        "excerpt": "**区分需求、能力和已完成。** λ是该边界的到达率，μ是单台可用且有活时的能力，两者统一时间单位；1/μ是平均服务时长。实际完成率不是能力，日历工时不自动全可用于服务。休假、开会、批量、优先级或打断即使折算了平均能力，也不自动变成连续服务。多台要问共用还是分开排队、工作是否能并行和有无技能限制。"
+      }
+    },
+    {
+      "criterion": "分布与稳态适配",
+      "result": "pass",
+      "reason": "标准M/M/1独立泊松/指数、单台、队列规则、参数稳定及lambda<mu被列明；短期不冒稳态。",
+      "evidence": {
+        "file": "drafts/TM-158/tool.md",
+        "line": 15,
+        "excerpt": "**选计算分支。** 有依据采用稳定M/M/1时，须明确单台、齐次泊松到达/独立指数间隔、独立同分布指数服务、到达与服务独立、先到先服务、有活即做、无限容量与顾客源、无中断/批量和参数稳定，并检查λ<μ。只有平均每小时来几件、每件多久，不能证明这些条件。“随机”也不等于指数分布。短期启动或每日关门的瞬态不等于稳态；不匹配时停止精确套数，转逐件记录、适合结构的模型或模拟，不停止解决问题。"
+      }
+    },
+    {
+      "criterion": "四量及流率",
+      "result": "pass",
+      "reason": "Wq/W与Lq/L清楚，Little用同边界有效流率而非mu或瞬时队长。",
+      "evidence": {
+        "file": "drafts/TM-158/tool.md",
+        "line": 17,
+        "excerpt": "**成立时算清四个量。** ρ=λ/μ；Wq=ρ/((1−ρ)μ)是平均排队等待，W=Wq+1/μ是平均总停留，L=λW是系统平均件数，Lq=λWq才是纯等候件数。时间单位换算后标清，不把平均值当每件截止承诺。Little关系须用同边界、同统计口径的有效流率及可用长期平均；不能用任意时点积压或最大能力替代。若服务改成固定时长而同样λ、μ及M/D/1其余条件保持，则Wq=ρ/(2(1−ρ)μ)；减半只是这对模型的对比，不是模板改良的保证。"
+      }
+    },
+    {
+      "criterion": "不稳定与失配",
+      "result": "pass",
+      "reason": "拒负等待有限稳态承诺，转守恒账；有限容量/确定性等机制另判。",
+      "evidence": {
+        "file": "drafts/TM-158/tool.md",
+        "line": 19,
+        "excerpt": "**λ>=μ时查积压。** 本工具的无限容量稳态平均公式不适用，等号也不能套；不得输出负等待或有限承诺。用实际到达、完成和退出算净增，结合未完年龄、可用能力、需求峰值安排减负/扩容/优先处理。有限容量或拒绝可能让队内人数不再增长，却把代价转成外排或流失；另计真实需求和结果。其他到达/服务机制须另判，不把这个条件泛化为所有排队系统；随机波动下积压也不一定每刻单调增。"
+      }
+    },
+    {
+      "criterion": "48减18修正",
+      "result": "pass",
+      "reason": "18是减进件情景的结果，不是省时；原文未改，派生运行显式纠错。",
+      "evidence": {
+        "file": "drafts/TM-158/tool.md",
+        "line": 31,
+        "excerpt": "[原文](../user-models/TM-158.md) · [原卡](../cards/TM-158.md) · [来源审阅](../validation/TM-158-source-review.md)。进件、能力、波动、全程等待和观测建议来自原文；公式记法、精确前提、失配分支与停止规则为操作化。原文的加人48→18分钟不能当通用预测，48−18=30而非18；前段提速并不必然将队伍推到后段。来源审阅不等于实际试跑，状态分别登记。"
+      }
+    },
+    {
+      "criterion": "多台不合并",
+      "result": "pass",
+      "reason": "不承接无条件增员到18分钟，检查排队结构。",
+      "evidence": {
+        "file": "drafts/TM-158/tool.md",
+        "line": 21,
+        "excerpt": "**按目标比较干预。** 对基线与各方案注明改变的是λ、μ、波动还是服务结构，措施能做到的证据、持续期、全程指标和总成本。提速可能同时减少服务与等待；加人不能把两台合成一台代入。减少重复进件须确认需求仍被解决；可比性、外部等候、拒绝/弃队、尾部超时、质量返工都要检查。真实时间和感受分报，不因投诉变少认定处理提速。明确资源上限、执行及复盘费用与人员时间，未给时间价值不编收益；参数情景和实际有效分开。"
+      }
+    },
+    {
+      "criterion": "提速不只影响服务",
+      "result": "pass",
+      "reason": "隔离原文末段过强断言，不排除有效提速。",
+      "evidence": {
+        "file": "drafts/TM-158/tool.md",
+        "line": 21,
+        "excerpt": "**按目标比较干预。** 对基线与各方案注明改变的是λ、μ、波动还是服务结构，措施能做到的证据、持续期、全程指标和总成本。提速可能同时减少服务与等待；加人不能把两台合成一台代入。减少重复进件须确认需求仍被解决；可比性、外部等候、拒绝/弃队、尾部超时、质量返工都要检查。真实时间和感受分报，不因投诉变少认定处理提速。明确资源上限、执行及复盘费用与人员时间，未给时间价值不编收益；参数情景和实际有效分开。"
+      }
+    },
+    {
+      "criterion": "下游不是必堵",
+      "result": "pass",
+      "reason": "关联TM085围绕整体目标，保留承接条件而非必然推队。",
+      "evidence": {
+        "file": "drafts/TM-158/card.md",
+        "line": 40,
+        "excerpt": "要找哪个环节限制整体产出，可接[TM-085 瓶颈效应](TM-085.md)；要决定多少余量可承受，可接[TM-058 安全边际](TM-058.md)；要判断改善是否由措施导致，可接[TM-056 反事实因果模型](TM-056.md)。不把“最忙的人”直接认定为瓶颈，不预设前段提速一定把队伍推给后段。"
+      }
+    },
+    {
+      "criterion": "随机不必然等待",
+      "result": "pass",
+      "reason": "原文绝对化不作为定理继承；不能随机即MM1或每人必等。",
+      "evidence": {
+        "file": "drafts/TM-158/source-review.md",
+        "line": 19,
+        "excerpt": "1. “有随机性就排队消不掉”不作为无条件定理，更不能推成每个任务必等。具体到达/服务支持范围、调度、容量与初态仍重要；两个平均数及“来得没规律”不足以认定指数分布。"
+      }
+    },
+    {
+      "criterion": "降波动减半限定",
+      "result": "pass",
+      "reason": "仅同lambda/mu下M/M/1→M/D/1，模板效果未知；总停留不必减半。",
+      "evidence": {
+        "file": "drafts/TM-158/tool.md",
+        "line": 17,
+        "excerpt": "**成立时算清四个量。** ρ=λ/μ；Wq=ρ/((1−ρ)μ)是平均排队等待，W=Wq+1/μ是平均总停留，L=λW是系统平均件数，Lq=λWq才是纯等候件数。时间单位换算后标清，不把平均值当每件截止承诺。Little关系须用同边界、同统计口径的有效流率及可用长期平均；不能用任意时点积压或最大能力替代。若服务改成固定时长而同样λ、μ及M/D/1其余条件保持，则Wq=ρ/(2(1−ρ)μ)；减半只是这对模型的对比，不是模板改良的保证。"
+      }
+    },
+    {
+      "criterion": "实际终点/体验/公平",
+      "result": "pass",
+      "reason": "全程需求解决量/外部等候/尾部/拒绝/质量并查，不能只降投诉或表内积压。",
+      "evidence": {
+        "file": "drafts/TM-158/tool.md",
+        "line": 21,
+        "excerpt": "**按目标比较干预。** 对基线与各方案注明改变的是λ、μ、波动还是服务结构，措施能做到的证据、持续期、全程指标和总成本。提速可能同时减少服务与等待；加人不能把两台合成一台代入。减少重复进件须确认需求仍被解决；可比性、外部等候、拒绝/弃队、尾部超时、质量返工都要检查。真实时间和感受分报，不因投诉变少认定处理提速。明确资源上限、执行及复盘费用与人员时间，未给时间价值不编收益；参数情景和实际有效分开。"
+      }
+    },
+    {
+      "criterion": "资源与操作停止",
+      "result": "pass",
+      "reason": "最小观察有具体缺口，停止复杂度；未给时间价值不编净收益。",
+      "evidence": {
+        "file": "drafts/TM-158/tool.md",
+        "line": 21,
+        "excerpt": "**按目标比较干预。** 对基线与各方案注明改变的是λ、μ、波动还是服务结构，措施能做到的证据、持续期、全程指标和总成本。提速可能同时减少服务与等待；加人不能把两台合成一台代入。减少重复进件须确认需求仍被解决；可比性、外部等候、拒绝/弃队、尾部超时、质量返工都要检查。真实时间和感受分报，不因投诉变少认定处理提速。明确资源上限、执行及复盘费用与人员时间，未给时间价值不编收益；参数情景和实际有效分开。"
+      }
+    },
+    {
+      "criterion": "验证状态不越级",
+      "result": "pass",
+      "reason": "来源审阅≠试跑，source_checked+空trial/review登记一致，虚构演示标明未实际执行。",
+      "evidence": {
+        "file": "drafts/TM-158/source-review.md",
+        "line": 31,
+        "excerpt": "这些核对不证明现实流程满足前提，也未全面考证埃尔朗历史、肯德尔年代、机场故事和心理学概括。卡内数字演示是教学推演；cases.json是尚未执行的虚构请求，实际模拟及独立评审须另存后才能升级状态。"
+      }
+    }
+  ],
+  "related_resources": [
+    {
+      "path": "../../../../references/wan-tools/WW-3.3.md",
+      "sha256": "5425dbb23486cabcf040c4208e285c22543f128d9cddde9f92972475379113b4",
+      "read_scope": "full text"
+    },
+    {
+      "path": "../../../../references/wan-tools/WW-8.4.md",
+      "sha256": "3ce3b7e296d14baa5f1e51f6e2be8ab58ed41c8511e2b69bff7aef5910941b90",
+      "read_scope": "full text"
+    },
+    {
+      "path": "../../../../references/cards/TM-085.md",
+      "sha256": "9d12b904658290849365ee8eb7a50a6737eb2b4af6f14bf2d646f2c97cb7de82",
+      "read_scope": "full text"
+    },
+    {
+      "path": "../../../../references/cards/TM-058.md",
+      "sha256": "c69d4054c51bd2d48a6dfb2d281679916471cc8a1c0ac6691bac2190afad9e6a",
+      "read_scope": "full text"
+    },
+    {
+      "path": "../../../../references/tools/TM-056.md",
+      "sha256": "99ef356027022e3442013ca5a691c74a9574c37b46fa6cbbb41a2960059ea76f",
+      "read_scope": "full text"
+    }
+  ],
+  "relation_checks": {
+    "ww_ids_exist": true,
+    "WW_3_3_mechanism_complement": true,
+    "WW_8_4_feedback_complement": true,
+    "not_double_counted_as_independent_evidence": true,
+    "TM_085_not_busyness_label": true,
+    "TM_058_no_universal_safe_utilization": true,
+    "TM_056_no_before_after_causal_guarantee": true,
+    "read_before_call_required": true
+  },
+  "metadata_and_status_checks": {
+    "runtime_source_checked": true,
+    "no_trials_claimed": true,
+    "signals_match_routing": true,
+    "id_and_name": true,
+    "cases_are_two_not_executed": true
+  },
+  "case_review": {
+    "fit": "Self-consistent fullyspecified conditional steady-state comparison; B satisfies totalmean≤20 at lower cost and leaves resource slack. All proposed review_focus math verified independently.",
+    "misuse": "Self-consistent challenge to collapsed servers/distribution and availability assumptions. Ledger closes60, inside net30, knownpending78, capacityscenario64/day. External historic flow remains unknown.45min includes reading explicitly.",
+    "review_focus_scope": "Author proposed test focus, not expected ground truth or executed outcome. Not shared with executors.",
+    "arithmetic_path": "cases-arithmetic158.json",
+    "arithmetic_sha256": "94b4455b721335260519e787616d01f72c2467d125f2f13f222bfdbd4b493cf1"
+  },
+  "media": {
+    "parent_review_path": "maintenance-workspace/sources/158/media-review.md",
+    "parent_review_sha256": "cd47551ccbd935b91a7a96d7d3040eab8ccfe063d89977cf8db328fd51e955b6",
+    "manifest_sha256": "2977bc9579f06157036ff0fe59a77abac061a900e09b27e20ccbab5563007679",
+    "manifest_entries": 18,
+    "byte_checks": [
+      {
+        "file": "image-00.png",
+        "bytes_match": true,
+        "sha_match": true
+      },
+      {
+        "file": "image-01.png",
+        "bytes_match": true,
+        "sha_match": true
+      },
+      {
+        "file": "image-02.png",
+        "bytes_match": true,
+        "sha_match": true
+      },
+      {
+        "file": "image-03.png",
+        "bytes_match": true,
+        "sha_match": true
+      },
+      {
+        "file": "image-04.png",
+        "bytes_match": true,
+        "sha_match": true
+      },
+      {
+        "file": "image-05.png",
+        "bytes_match": true,
+        "sha_match": true
+      },
+      {
+        "file": "image-06.png",
+        "bytes_match": true,
+        "sha_match": true
+      },
+      {
+        "file": "image-07.png",
+        "bytes_match": true,
+        "sha_match": true
+      },
+      {
+        "file": "image-08.png",
+        "bytes_match": true,
+        "sha_match": true
+      },
+      {
+        "file": "image-09.png",
+        "bytes_match": true,
+        "sha_match": true
+      },
+      {
+        "file": "image-10.png",
+        "bytes_match": true,
+        "sha_match": true
+      },
+      {
+        "file": "image-11.png",
+        "bytes_match": true,
+        "sha_match": true
+      },
+      {
+        "file": "image-12.png",
+        "bytes_match": true,
+        "sha_match": true
+      },
+      {
+        "file": "image-13.png",
+        "bytes_match": true,
+        "sha_match": true
+      },
+      {
+        "file": "image-14.png",
+        "bytes_match": true,
+        "sha_match": true
+      },
+      {
+        "file": "image-15.png",
+        "bytes_match": true,
+        "sha_match": true
+      },
+      {
+        "file": "image-16.png",
+        "bytes_match": true,
+        "sha_match": true
+      },
+      {
+        "file": "image-17.png",
+        "bytes_match": true,
+        "sha_match": true
+      }
+    ],
+    "all_bytes_match": true,
+    "images_visually_viewed_by_this_reviewer": 0,
+    "reviewer_read_parent_media_summary": true
+  },
+  "notes": [
+    {
+      "id": "S158-KNOWN-PENDING-SCOPE",
+      "blocking": false,
+      "text": "78 is the known inside60 plus known outside18 still waiting at the given snapshot, not a complete count of every unresolved demand or all-boundary daily net growth. Withdrawal6 is not automatically completion; outside initial/exit data remain unknown."
+    },
+    {
+      "id": "S158-AVERAGE-CAPACITY-SCOPE",
+      "blocking": false,
+      "text": "64/day is a conditional capacity calculation from8staff-hours and7.5min focused average, not measured guaranteed throughput or exact availability timeline. Demand/capacity1.5 is load pressure, not physically150% busy-time proportion."
+    }
+  ],
+  "limits": [
+    "No behavior execution passed here; trial_requests are authored fictional inputs only.",
+    "Images viewed by parent separately, this reviewer checked18image hashes and summary, not visual content.",
+    "Core arithmetic corroborated with independent official university sources in previous source review. Author own official links not separately reopened in this draft pass.",
+    "Historical source/airport/psychology claims not fully independently established.",
+    "No full-library retest, real-world effect or all-Agent installation claim.",
+    "No source/draft/formal skill/private cases/criteria mutation."
+  ]
+}

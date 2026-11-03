@@ -1,10 +1,10 @@
 {
-  "version": "2.6.0",
-  "revision": 147,
-  "updated_at": "2026-11-02T01:29:19.939365+00:00",
-  "user_models": 157,
+  "version": "2.7.0",
+  "revision": 153,
+  "updated_at": "2026-11-03T01:49:03.555687+00:00",
+  "user_models": 158,
   "wan_tools": 100,
-  "sample_cards": 40,
+  "sample_cards": 41,
   "sample_card_ids": [
     "TM-054",
     "TM-062",
@@ -45,7 +45,8 @@
     "TM-154",
     "TM-155",
     "TM-156",
-    "TM-157"
+    "TM-157",
+    "TM-158"
   ],
   "behavior_trial_scope": {
     "v0_1_full_entry_cases": [
@@ -69,7 +70,7 @@
     "tested_at_revision": 2,
     "tested_version": "1.0.0"
   },
-  "change": "Add reviewed TM-157 Markov chain source/card/runtime and state-transition routing; fix one lexical miss; preserve existing knowledge and historical validation.",
+  "change": "Add TM-158 queueing model source/card/runtime and routing; fix observed stock-vs-flow time-window error and rerun local/entry scenarios; preserve prior public knowledge and private local files.",
   "validation": {
     "tested_at_revision": 2,
     "official_skill_structure": "passed",
@@ -82,12 +83,12 @@
     "sandbox_manuscript_update": "passed",
     "tested_version": "1.0.0"
   },
-  "total_cards": 157,
+  "total_cards": 158,
   "source_reviewed_cards": 117,
   "card_status_counts": {
     "source_reviewed": 117,
     "sample_reviewed": 8,
-    "behavior_checked": 32
+    "behavior_checked": 33
   },
   "needs_review": [],
   "release_validation_history": {
@@ -462,6 +463,28 @@
       "real_world_outcomes_validated": false,
       "cross_client_compatibility_tested": false,
       "deployment": "verify_each_target_with_separate_readback_receipts"
+    },
+    "2.6.0": {
+      "status": "passed_with_limits",
+      "version": "2.6.0",
+      "revision": 147,
+      "valid_for_current_revision": false,
+      "scope": "TM-157 increment; 2 local tool answers, 1 full entry HTML report and 1 first-turn regression; not all-library behavior rerun",
+      "evidence": "references/evaluation/results-v2.6.md",
+      "official_skill_structure": "passed",
+      "library_integrity": "passed",
+      "runtime_integrity": "passed",
+      "actual_simulated_responses": 4,
+      "independent_execution_contexts": 2,
+      "html_reports": 1,
+      "lexical_retrieval_checks": 24,
+      "initial_lexical_misses": 1,
+      "initial_misses_fixed": true,
+      "html_visual_preview": "not_performed",
+      "all_models_retested_this_release": false,
+      "real_world_outcomes_validated": false,
+      "cross_client_compatibility_tested": false,
+      "deployment": "Verify each target in separate readback receipts"
     }
   },
   "workflow_validation": {
@@ -815,10 +838,11 @@
       "TM-154",
       "TM-155",
       "TM-156",
-      "TM-157"
+      "TM-157",
+      "TM-158"
     ],
-    "migrated_count": 157,
-    "total_user_models": 157,
+    "migrated_count": 158,
+    "total_user_models": 158,
     "remaining_not_migrated": 0
   },
   "preview_validation_history": {
@@ -846,24 +870,27 @@
   },
   "release_validation": {
     "status": "passed_with_limits",
-    "version": "2.6.0",
-    "revision": 147,
+    "version": "2.7.0",
+    "revision": 153,
     "valid_for_current_revision": true,
-    "scope": "TM-157 increment; 2 local tool answers, 1 full entry HTML report and 1 first-turn regression; not all-library behavior rerun",
-    "evidence": "references/evaluation/results-v2.6.md",
+    "scope": "TM-158 increment; 4 distinct requests, each actually run before and after a runtime fix; not all-library behavior rerun",
+    "evidence": "references/evaluation/results-v2.7.md",
     "official_skill_structure": "passed",
     "library_integrity": "passed",
     "runtime_integrity": "passed",
-    "actual_simulated_responses": 4,
-    "independent_execution_contexts": 2,
-    "html_reports": 1,
+    "actual_simulated_responses": 8,
+    "independent_execution_contexts": 4,
+    "current_runtime_responses_reviewed": 4,
+    "historical_failed_responses": 1,
+    "historical_failures_closed_by_new_execution": 1,
+    "html_reports": 2,
     "lexical_retrieval_checks": 24,
-    "initial_lexical_misses": 1,
-    "initial_misses_fixed": true,
+    "initial_query_target_mapping_errors": 2,
+    "retrieval_test_scope_note": "Initial test used generic names with wrong expected old-tool IDs; corrected to actual Bottleneck Effect and Margin of Safety names. Old tool contents and retrieval code unchanged. Initial failures retained.",
     "html_visual_preview": "not_performed",
     "all_models_retested_this_release": false,
     "real_world_outcomes_validated": false,
     "cross_client_compatibility_tested": false,
-    "deployment": "Verify each target in separate readback receipts"
+    "deployment": "Separate target, remote tree and package readback receipts required."
   }
 }

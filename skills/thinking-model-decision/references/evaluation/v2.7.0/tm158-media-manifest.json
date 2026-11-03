@@ -1,0 +1,151 @@
+{
+  "captured_at": "2026-11-03T01:08:14.805789+00:00",
+  "images": [
+    {
+      "index": 0,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEveFrNVCaKKrPZ6kQdkx3fygPLx7GiafkFiaicsFCPEWZrYibJ6UdOhYAeLHic6PkT8ZYkXKW2lEZ7O6LZFBiaWH7tndUribnazoO7w8U8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0",
+      "file": "image-00.png",
+      "bytes": 2054895,
+      "sha256": "ed664cca0623e3387e8b2f9260d0345120719936e3877770155d7b35ac0101a2"
+    },
+    {
+      "index": 1,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEvcicP5yxKENnleJ6JctbEgjMhKWopoUJumsTUEicS3SW7EmeU49HmcgqHSMLbzy7N5bArRulu7a3FmEneKhbk0eoiaowYic2hwLcS4/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1",
+      "file": "image-01.png",
+      "bytes": 1056058,
+      "sha256": "a20abdf447eaf1bf83c8acdf24e0fba997d288666bdcafbad7fba3b38b969674"
+    },
+    {
+      "index": 2,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/mmbiz_png/MOiaYc12FEvcrgoOJetQEQRSACls7jRUdTSmOLqbn3zoRNLFxJtpL1uaErV8X4iaqib1GCTgDEIG53gNuUKx5N4XTCRjy8JlRZ5icU5Cl2nGMFE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2",
+      "file": "image-02.png",
+      "bytes": 1017651,
+      "sha256": "56a5e1e426d9eac3414fe18fc2b50526128cf885c5859196228848208da363bf"
+    },
+    {
+      "index": 3,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEvfiaQDBewJuIFpF5TrzkvibtljdhuNFUrbzNnnXRKic6e3EibgttG5iabr11ibXjs3Tq9s7SSURYaicG6uIvK87mhAPBic4ic3L2ZVJvlC8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3",
+      "file": "image-03.png",
+      "bytes": 1004261,
+      "sha256": "b0ee9084ef22e3189353f9f6574036f47f1102819dc54ac6f21a49f5d53653ee"
+    },
+    {
+      "index": 4,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEvdTFIVacU3FrIicsunsUiaCibOrdgETLIyib3kuvp0e1UCCwKgDoWia54icp00ZicPZ6kc7zq9oE0M0eMSIC7ia3wt76RgNgHHesGGEMOI/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4",
+      "file": "image-04.png",
+      "bytes": 1071524,
+      "sha256": "8080aa8d6771e47fa22626eb98e60aff7931341fef0efebc90182be1e6ae7b0c"
+    },
+    {
+      "index": 5,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/mmbiz_png/MOiaYc12FEvd3QlPwxKus1ia8ZialPpmjcYC1lgots641wvt3mUI5icQoZXCPghE8IicZtHkqf4ZbwpJiaICuHhKxAFgTc4XxericTQjN9eYeR2VBA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=5",
+      "file": "image-05.png",
+      "bytes": 1030173,
+      "sha256": "447193aa1cc3fa0ccc60174003409db0996067eccd6f37ff1639c07db52d18d8"
+    },
+    {
+      "index": 6,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/mmbiz_png/MOiaYc12FEvcjzU4zPtarKVXg6rDK1hcNNBoOJ15wBTKbOHVib3AMBcPoMmIC0UqOA4rtmF2eib8DBa2OglXpiax3HMaLxouhnfjYeD3PDibTFtg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=6",
+      "file": "image-06.png",
+      "bytes": 1024404,
+      "sha256": "594924eecdeec91e7d14b637eefd6fd2a1f5bebfbe26ff78e896f3397fa176ac"
+    },
+    {
+      "index": 7,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEvc4ibCrGhO0aOTFgcZDvfOHUtobSUkDyMicFia4MwicFABN2DwEzfr2yzFZlGBEjKRp8dv6Ggk4P5WxFV0mZdib3Rb10kiaCiaNXibM6fM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=7",
+      "file": "image-07.png",
+      "bytes": 1072289,
+      "sha256": "b74e085c9c78f2e569af3946296de24e5bdf141754913afcb069412f187d18bb"
+    },
+    {
+      "index": 8,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEvd7ibSxWMxgof6D9Micmv7tySib8GS7s04A5ibqcI5rnT1xMQbmN7kf0yu2G4NgQsrS7DGp2sZC0UgdJAsoq4362H4OZ7m1ElY54fo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=8",
+      "file": "image-08.png",
+      "bytes": 1055620,
+      "sha256": "d8ee8e9c98a2c7b84237c378037b5bf3b88f4d721cd147dd585da1fda66a70a0"
+    },
+    {
+      "index": 9,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEvdibrlQ50WXvMkboHZEDk8zv62IOjg7Payxv82npmnYTAbgaDPO7JC4lUpKM1ianvZ758ejDiamr7k97PXOd9rqZae05IbsQwemzc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=9",
+      "file": "image-09.png",
+      "bytes": 1057042,
+      "sha256": "4391e7c0898562c22495cdde99c3fb2b71cdb3ff3d257e51f2b12207021934e2"
+    },
+    {
+      "index": 10,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/mmbiz_png/MOiaYc12FEvc5en0DaEeL5mQxfI3Q8fiay4Quxuary9wQGMBJsIHzel17xTTnPz20N6rxEkZzrVKoXF7lrC7bBhoVmGwsY4e2PwjQic0la1jOc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=10",
+      "file": "image-10.png",
+      "bytes": 1040443,
+      "sha256": "266e2124232c986cdfbcc3dc3f3da9a5e0d935770f03cabadd1155e5193eddd6"
+    },
+    {
+      "index": 11,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEvdgvkHyxSRiakMtvbvrbMuiazfx2F9znLY8LEXbHplxSSGibSIkGkSyBVu928iafTuw2JACw4a5gq3uwgIRLth0pVdp3ibCvbrd1wwo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=11",
+      "file": "image-11.png",
+      "bytes": 1064339,
+      "sha256": "347b65b7e8d07c164445a844db7ead9b013c5330f7c488d0a9a38c7fc908254d"
+    },
+    {
+      "index": 12,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/mmbiz_png/MOiaYc12FEvcNe09kpgG3REGMag4BgHKXD6a7oXCjPQuMF3uqFz92IjJqcUeoOdFRsfQ2qBibtUMCibsfhBM514ZDFmxVswuXcAzaP42eG0X10/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=12",
+      "file": "image-12.png",
+      "bytes": 1059311,
+      "sha256": "8590d997378a753fb9b0e0fc180aa092698ccae3befb7e10edbc34a6711a2b8e"
+    },
+    {
+      "index": 13,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEveSriaHRjRpkeibL6kic6jkcoBWGffQRsk23iaFLokqtJbPEXTceoTB5nZV4r8ia0LJG341jBlYG6icbXNSuOA6t5ZFo9tsqnlstplr8/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=13",
+      "file": "image-13.png",
+      "bytes": 1020920,
+      "sha256": "c3eee6a52f9025f9addf66b3865ce38110fa4fb3a9e5cec5ea1b7905357bab0c"
+    },
+    {
+      "index": 14,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEvenvrZ6VOQ8ibNWMYprPjYH2ZDicFK2GoicfKbd95Kdz0KI2ATdH9IAGlM31WcYFoRwMvpTIxFSz26pIAqBpNLGu6XSDpDkbI42Dw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=14",
+      "file": "image-14.png",
+      "bytes": 950565,
+      "sha256": "983ef96e8ba0af6086592a3a2a5b0aacc018466d69e9421f99ea719c6ca0a847"
+    },
+    {
+      "index": 15,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEvcCGoxrib6CQ6vc6wIDq3uahQ4fbtIIRuDjHh0YPHmibXoa4TDybhCpmQlMQ4D7REICaxt5FHY6ianhbsGkING9nfX2DZd4hWs4oA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=15",
+      "file": "image-15.png",
+      "bytes": 1079265,
+      "sha256": "ee74dba99398480349d8edf47e95f6f5e7cdb74893829418dfb5175b451b9e37"
+    },
+    {
+      "index": 16,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/mmbiz_png/MOiaYc12FEveNczYmmxiaWhmXB0ER1bWnicXhyBfkbGDq399S4v8iaTibTOWoK4SI8a8E6iaovibph4Bjr4ia4CmPTJlicceRbpEh40mJFicyeibEwCE2g/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=16",
+      "file": "image-16.png",
+      "bytes": 1056021,
+      "sha256": "1572f6e04eb152b9df7f0c7a6d49c21cda60f5d312904454111ee6790ce8f53c"
+    },
+    {
+      "index": 17,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/mmbiz_png/MOiaYc12FEvcDDCMfwTQvdib34gIUk5OEpp2VJ9XL7ANysuoibmVUIr6j9VJyn4Nt2f4AZxzXyt4AwSuntxYrBmhsyPKLYLx6UeW0hFIo5wS0k/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=17",
+      "file": "image-17.png",
+      "bytes": 998968,
+      "sha256": "9745cc547a1205a22ac942eeadaae9452ef0b1977f2699d270e22bc4bc5ffd3a"
+    }
+  ],
+  "visual_reviewed": true,
+  "visual_review_scope": "Root individually viewed all 18 images via view_image on 2026-11-03; original media kept outside public skill."
+}

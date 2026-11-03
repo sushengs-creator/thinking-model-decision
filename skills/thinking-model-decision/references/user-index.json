@@ -9102,5 +9102,102 @@
     },
     "validation_note_path": "references/validation-notes/TM-157.md",
     "validation_note_sha256": "59a421a01f1316e2362e56bff99050d68a2069a9135e7b69eb89aa114481a0fb"
+  },
+  {
+    "id": "TM-158",
+    "title": "思维模型158：排队模型 ——明明忙得过来，为什么还要排队？",
+    "short_name": "思维模型158：排队模型 ——明明忙得过来，为什么还要排队？",
+    "path": "references/user-models/TM-158.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060484&idx=1&sn=1da1347c2c88de8f06050b8d4d614311&chksm=beabef3789dc66214a8ec9b1c777ad393f15fcf696a89aa36f8dad7bb7be364261bf8a240be7#rd",
+    "source_label": "微信公众号正式发表全文，本轮正常浏览器核对",
+    "captured_at": "2026-11-03",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "a10441464b533bc20c19c0b146cd87b6f6cab24bd22500d481d7579b40cbc08f",
+    "content_sha256": "a10441464b533bc20c19c0b146cd87b6f6cab24bd22500d481d7579b40cbc08f",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-158.md",
+    "search_terms": [
+      "思维模型158：排队模型 ——明明忙得过来，为什么还要排队？"
+    ],
+    "card_sha256": "9c29a9be8132eb9386873da192b39bf8946bbc6eec7cf3a599d39188ae4466ec",
+    "card_source_sha256": "a10441464b533bc20c19c0b146cd87b6f6cab24bd22500d481d7579b40cbc08f",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-11-03T01:49:03.453679+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "平均处理能力有余量却仍排队、待办持续积压，或需比较减重复进件、提高能力与降低波动如何影响全程等待",
+      "source_sections": [
+        "同一份材料，为什么有两种用时？",
+        "每份平均做十二分钟，为什么办完要一小时？",
+        "进件只多了 12.5%，等待怎么多了 125%？",
+        "少进来、快处理、降随机，先动哪一个？",
+        "投诉少了，等待就真的缩短了吗？",
+        "这些分钟数，什么时候不能照搬？",
+        "明天先记下，时间到底花在哪儿"
+      ],
+      "search_terms": [
+        "排队模型",
+        "排队论",
+        "明明忙得过来为什么还排队",
+        "处理很快等待很久",
+        "待办越积越多",
+        "平均有余量",
+        "利用率太高",
+        "进件扎堆",
+        "处理时长忽长忽短",
+        "审批积压",
+        "客服等待",
+        "工单排队",
+        "排队等待和处理时间",
+        "服务能力和完成量",
+        "平均数不能预测等待",
+        "入口外等待",
+        "少进件提能力降波动",
+        "M/M/1",
+        "M/D/1",
+        "多服务台",
+        "不能合并两个人的服务率",
+        "到达率超过服务率",
+        "到达率等于服务率",
+        "队长和在制数",
+        "投诉少了不等于办快了",
+        "减少重复提交",
+        "待办数量变少",
+        "加人还是流程优化"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "解释原因",
+        "预测判断",
+        "比较方案",
+        "设计行动",
+        "系统干预",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-3.3",
+          "relation": "互补",
+          "reason": "将笼统的慢拆成到达、能力、波动和队列规则等可干预机制，再核对措施是否确实改变这些变量；条件等待公式不能替代因果证据。"
+        },
+        {
+          "ww_id": "WW-8.4",
+          "relation": "互补",
+          "reason": "用完整边界追踪入口、在制、完成和延迟，按实际等待及质量反馈调整，避免只减少队内待办而把成本推到入口外。"
+        }
+      ],
+      "warnings": [
+        "只有两个平均数不足以证明M/M/1，名义工时与实际可用工时、服务能力与完成率须分开。",
+        "λ>=μ时不能套本无限容量稳态平均公式；有限容量、退出或其他机制需另判，先看实际进出与积压。",
+        "多台不能把服务率直接相加后塞入单台公式；M/D/1减半只在相同平均参数及特定条件下成立。",
+        "平均等待不是每件时限，须看尾部、未完年龄、外部排队、拒绝、质量与返工。",
+        "原文加人48→18的参数未给且相减笔误，不能继承为通用预测；提速会影响服务和等待，不预设队伍必然转移。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-158.md",
+    "validation_note_sha256": "717c68c8256a5cd571b20c0255386d440faefa028849dbd0bac0e1d1a732326f"
   }
 ]

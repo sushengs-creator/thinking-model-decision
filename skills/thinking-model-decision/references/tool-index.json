@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "version": "2.6.0",
-  "scope": "157 runtime tools; source checking, recorded trials, reviewed trials and real outcomes are distinct.",
+  "version": "2.7.0",
+  "scope": "158 runtime tools; source checking, recorded trials, reviewed trials and real outcomes are distinct.",
   "tools": [
     {
       "id": "TM-001",
@@ -5271,6 +5271,71 @@
       "card_sha256": "4a130339c55456ea00a18a1c19edda68afa2937baf4ab38020fdefec5f207958",
       "runtime_path": "references/tools/TM-157.md",
       "runtime_sha256": "5eebbb0780ed8b4b301c3565e34fd75db6ed7487a158ab8f42be0f992f6676e3"
+    },
+    {
+      "id": "TM-158",
+      "name": "排队模型",
+      "task": "拆分需求到达、服务能力、波动和队列规则，核实模型前提，比较全流程等待与可承受改善方案",
+      "roles": [
+        "澄清",
+        "证据",
+        "解释",
+        "约束",
+        "二阶",
+        "选项",
+        "取舍",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "排队模型",
+        "排队论",
+        "明明忙得过来为什么还排队",
+        "处理很快等待很久",
+        "待办越积越多",
+        "平均有余量",
+        "利用率太高",
+        "进件扎堆",
+        "处理时长忽长忽短",
+        "审批积压",
+        "客服等待",
+        "工单排队",
+        "排队等待和处理时间",
+        "服务能力和完成量",
+        "平均数不能预测等待",
+        "入口外等待",
+        "少进件提能力降波动",
+        "M/M/1",
+        "M/D/1",
+        "多服务台",
+        "不能合并两个人的服务率",
+        "到达率超过服务率",
+        "到达率等于服务率",
+        "队长和在制数",
+        "投诉少了不等于办快了",
+        "减少重复提交",
+        "待办数量变少",
+        "加人还是流程优化"
+      ],
+      "output": "完整队伍边界与时间分解、进出守恒账、可用或失配的模型分支、同口径基线方案比较、资源内行动与重估条件",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.7.0/trials/TM-158-fit-retest.md",
+        "references/evaluation/v2.7.0/trials/TM-158-misuse-retest.md"
+      ],
+      "review_records": [
+        "references/evaluation/v2.7.0/reviews/tool-review.md",
+        "references/evaluation/v2.7.0/reviews/entry-review.md"
+      ],
+      "source_review_records": [
+        "references/validation/TM-158-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-158.md",
+      "source_sha256": "a10441464b533bc20c19c0b146cd87b6f6cab24bd22500d481d7579b40cbc08f",
+      "card_path": "references/cards/TM-158.md",
+      "card_sha256": "9c29a9be8132eb9386873da192b39bf8946bbc6eec7cf3a599d39188ae4466ec",
+      "runtime_path": "references/tools/TM-158.md",
+      "runtime_sha256": "602ad0a3d5ad9371d784b0b437df0dd2a9ebaf958ff2f090e86d889bfcba8804"
     }
   ]
 }

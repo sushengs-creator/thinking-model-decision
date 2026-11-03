@@ -1,0 +1,56 @@
+{
+  "review_id": "TM-158-local-tool-behavior-review-aggregate",
+  "reviewed_at": "2026-11-03T01:45:02.682325+00:00",
+  "reviewer": "daily_baseline_1101",
+  "verdict": "passed_with_limits",
+  "blocking_failures": [],
+  "observations": [],
+  "execution_summary": {
+    "actual_responses": 4,
+    "execution_contexts": 2,
+    "requests_per_context": 2,
+    "initial_passed": 1,
+    "initial_failed": 1,
+    "retest_passed": 2,
+    "retest_failed": 0,
+    "context_isolation": "Retest fresh from initial; within each context two requests sequential and first retained for second."
+  },
+  "initial_review": {
+    "path": "tool-review-initial.json",
+    "sha256": "8b90672ee6eea55b248a447536b116fb114d2797245164b9587b8175cfb05f6f",
+    "verdict": "failed",
+    "historical_blocker": "TM158-BLOCK-STOCK-FLOW-WINDOW"
+  },
+  "retest_review": {
+    "path": "tool-review-retest.json",
+    "sha256": "a3c830256c3fa9aff8934f3b19ae5b43f22a4d82771c3e8d24533579ed52a64c",
+    "verdict": "passed_with_limits"
+  },
+  "historical_blockers": [
+    {
+      "id": "TM158-BLOCK-STOCK-FLOW-WINDOW",
+      "initial_verdict_remains": "failed",
+      "initial_review_sha256": "8b90672ee6eea55b248a447536b116fb114d2797245164b9587b8175cfb05f6f",
+      "initial_answer_sha256": "dd7c8d6e89ed04518ebac13a5f1794dccd7959af61d0062ec2eee8a01781db4e",
+      "new_misuse_answer_sha256": "26733a687aaf24ee52320fbd2d9c8625a362fc2183d7a46a3cfe7c772f9b977a",
+      "status": "closed_by_actual_new_execution",
+      "repair": "Runtime explicitly labels stock versus flow and shared period/boundary before summing; outside pending stock is not yesterday arrivals.",
+      "observed_new_behavior": "Refuses114yesterdaynew andconditionalizes78same-time total. Source/card and originalinput unchanged; new runtime differs.",
+      "initial_answer_rewritten": false
+    }
+  ],
+  "current_core_hashes": {
+    "references/tools/TM-158.md": "602ad0a3d5ad9371d784b0b437df0dd2a9ebaf958ff2f090e86d889bfcba8804",
+    "references/cards/TM-158.md": "9c29a9be8132eb9386873da192b39bf8946bbc6eec7cf3a599d39188ae4466ec",
+    "references/user-models/TM-158.md": "a10441464b533bc20c19c0b146cd87b6f6cab24bd22500d481d7579b40cbc08f"
+  },
+  "raw_response_files": [
+    "../trials/TM-158-fit.md",
+    "../trials/TM-158-misuse.md",
+    "../trials/TM-158-fit-retest.md",
+    "../trials/TM-158-misuse-retest.md"
+  ],
+  "raw_answers_modified": false,
+  "release_ready": false,
+  "scope": "Only exact two local request behaviors under recorded versions; initialfailure preserved, repaired2cases rerun; full-entry/currentpackage checks separate."
+}

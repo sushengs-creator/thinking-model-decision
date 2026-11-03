@@ -1,0 +1,292 @@
+{
+  "review_id": "TM-158-local-tool-behavior-review-initial",
+  "reviewed_at": "2026-11-03T01:30:07.220858+00:00",
+  "reviewer": "daily_baseline_1101",
+  "independence": "Not author/executor. Exact request arithmetic completed before responses; raw outputs read against real inputs, not author review_focus as evidence.",
+  "verdict": "failed",
+  "passed_cases": 1,
+  "failed_cases": 1,
+  "blocking_failures": [
+    {
+      "id": "TM158-BLOCK-STOCK-FLOW-WINDOW",
+      "severity": "P2",
+      "blocking": true,
+      "case_id": "TM-158-misuse",
+      "criterion": "事实/未知与同边界同窗口的存量流量区分",
+      "evidence": {
+        "line": 28,
+        "excerpt": "- 按昨天这批正式录入和被挡住的不同需求合计，已观察到 **114 件**，相当于该 8 小时窗口 **14.25 件/小时**。这不是长期到达率；原来的“平均需求 12 件/小时”需注明统计范围，96÷8 的正式录入口径漏掉了这 18 件。"
+      },
+      "request_evidence": "另有18件因录入限额被挡在系统外，申请人仍在等，这18件不在上述96件里，也没有统计他们开始等的时间。",
+      "actual_unsupported_claim": "Treats all18 externally pending requests as yesterday arrivals, asserts114 observed demand in yesterday8h window and14.25/hour; says96/8 formal entry measure omitted these18.",
+      "why_substantive": "Request supports disjoint current externallywaiting18, but not their entry date or whether all arrived yesterday. This adds an unprovided observation window and turns a pending stock into arrival flow. It is a material invented input for load assessment, not a rounding or style issue, despite other pressure conclusions remaining supported by96 versus64.",
+      "counterexample_consistent_with_request": "All18 may have first requested before yesterday and remained blocked; yesterday96 formal entries can then coexist with current18outside without proving114new arrivals yesterday.",
+      "supported_conclusions": "Known inside60 plus outside18 gives at least78 currentlywaiting/unfinished; inside ledger closes60 with net+30. External initial/new/exit flows and true full-boundary arrival rate remain unknown.",
+      "necessary_correction": "Only if all18 are verified new and distinct in the same yesterday8h window can conditionally say114/8=14.25. Otherwise report unknown external flow/time and do not alter the given12/hour scope without clarification.",
+      "required_next_step": "Preserve raw failure and manifest. Explicitly guard same-window flow versus stock in runtime/card or prompts, then independently rerun misuse and relevant regression. Do not edit raw answer into a pass or claim overall behavior passed now."
+    }
+  ],
+  "observations": [],
+  "required_changes": [
+    "Only if all18 are verified new and distinct in the same yesterday8h window can conditionally say114/8=14.25. Otherwise report unknown external flow/time and do not alter the given12/hour scope without clarification.",
+    "Preserve raw failure and manifest. Explicitly guard same-window flow versus stock in runtime/card or prompts, then independently rerun misuse and relevant regression. Do not edit raw answer into a pass or claim overall behavior passed now."
+  ],
+  "manifest_path": "../trials/tool-trials-manifest.json",
+  "manifest_sha256": "19b698f1ff81d3ee50a53fa88cb234af7395061f187fa293c91711dfd8581a93",
+  "input_file_sha256": "f95572b750356a58e4b69001034bb2e79fee4472d22d86667f6fc62b2c848606",
+  "input_file_manifest_match": true,
+  "original_answers": [
+    {
+      "id": "TM-158-fit",
+      "path": "../trials/TM-158-fit.md",
+      "sha256": "417231acf43a97fe1a2ab65e298cc1c69049e55627f934fa6a91e04fc5c17327",
+      "bytes": 6146,
+      "input_sha256": "f814af7bb7a2cc8498419e6f3376b9f2d20d8b31a1443082448d54f0f9486a15",
+      "checks": {
+        "output_sha_match": true,
+        "output_bytes_match": true,
+        "input_sha_match": true,
+        "input_exact_match": true,
+        "input_exact_match_authored_request": true
+      }
+    },
+    {
+      "id": "TM-158-misuse",
+      "path": "../trials/TM-158-misuse.md",
+      "sha256": "dd7c8d6e89ed04518ebac13a5f1794dccd7959af61d0062ec2eee8a01781db4e",
+      "bytes": 7732,
+      "input_sha256": "5c60a58233844a28d7e00a2bf9998e821a3631058b38ff5ad590cba276aba8cb",
+      "checks": {
+        "output_sha_match": true,
+        "output_bytes_match": true,
+        "input_sha_match": true,
+        "input_exact_match": true,
+        "input_exact_match_authored_request": true
+      }
+    }
+  ],
+  "resources": [
+    {
+      "path": "../../../../SKILL.md",
+      "manifest_sha256": "4d0a817b7fe32f947e19d5a8dcfb161898d3b0c6e8656c8f4085b2c5db45aa56",
+      "current_sha256": "4d0a817b7fe32f947e19d5a8dcfb161898d3b0c6e8656c8f4085b2c5db45aa56",
+      "matches_manifest": true
+    },
+    {
+      "path": "../../../../references/toolbox-orchestration.md",
+      "manifest_sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "current_sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "matches_manifest": true
+    },
+    {
+      "path": "../../../../references/tool-runtime.md",
+      "manifest_sha256": "20afe75cab192b7bca71c7bb0e4d88f21fb56742480abdc05ccd7b0c05527a01",
+      "current_sha256": "20afe75cab192b7bca71c7bb0e4d88f21fb56742480abdc05ccd7b0c05527a01",
+      "matches_manifest": true
+    },
+    {
+      "path": "../../../../references/decision-report.md",
+      "manifest_sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "current_sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "matches_manifest": true
+    },
+    {
+      "path": "../../../../references/html-action-plan.md",
+      "manifest_sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef",
+      "current_sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef",
+      "matches_manifest": true
+    },
+    {
+      "path": "../../../../references/cards/TM-158.md",
+      "manifest_sha256": "9c29a9be8132eb9386873da192b39bf8946bbc6eec7cf3a599d39188ae4466ec",
+      "current_sha256": "9c29a9be8132eb9386873da192b39bf8946bbc6eec7cf3a599d39188ae4466ec",
+      "matches_manifest": true
+    },
+    {
+      "path": "../../../../references/tools/TM-158.md",
+      "manifest_sha256": "e2656304600c70ea8859cf87d4d9ed86eacda4c742b6a9421b04a629bbc3ddc6",
+      "current_sha256": "e2656304600c70ea8859cf87d4d9ed86eacda4c742b6a9421b04a629bbc3ddc6",
+      "matches_manifest": true
+    },
+    {
+      "path": "../../../../references/user-models/TM-158.md",
+      "manifest_sha256": "a10441464b533bc20c19c0b146cd87b6f6cab24bd22500d481d7579b40cbc08f",
+      "current_sha256": "a10441464b533bc20c19c0b146cd87b6f6cab24bd22500d481d7579b40cbc08f",
+      "matches_manifest": true
+    },
+    {
+      "path": "../../../../references/second-order-check.md",
+      "manifest_sha256": "733f5ff5ce00c02ec94ef7a82da36b9520472031193fc461eca2bb4f30cbfe8f",
+      "current_sha256": "733f5ff5ce00c02ec94ef7a82da36b9520472031193fc461eca2bb4f30cbfe8f",
+      "matches_manifest": true
+    }
+  ],
+  "all_current_resource_hashes_match_manifest": true,
+  "execution_core_source_card_runtime_sha256": {
+    "source": "a10441464b533bc20c19c0b146cd87b6f6cab24bd22500d481d7579b40cbc08f",
+    "card": "9c29a9be8132eb9386873da192b39bf8946bbc6eec7cf3a599d39188ae4466ec",
+    "runtime": "e2656304600c70ea8859cf87d4d9ed86eacda4c742b6a9421b04a629bbc3ddc6"
+  },
+  "execution_core_matches_prior_source_review": true,
+  "arithmetic_basis": {
+    "path": "cases-arithmetic158.json",
+    "sha256": "94b4455b721335260519e787616d01f72c2467d125f2f13f222bfdbd4b493cf1",
+    "independent_request_computation": true,
+    "noted_external_flow_unknown_before_trial": true
+  },
+  "cases": [
+    {
+      "id": "TM-158-fit",
+      "verdict": "passed_with_limits",
+      "checks": [
+        {
+          "criterion": "正确三方案计算",
+          "result": "pass",
+          "reason": "全部5量与独立Fraction基准一致：基线rho.75/Wq22.5/W30/L3/Lq2.25；A.6/9/15/1.5/.9；B.75/11.25/18.75/1.875/1.125。",
+          "evidence": {
+            "line": 15,
+            "excerpt": "| 平均总停留 W，分钟 | 30 | 15 | 18.75 |"
+          }
+        },
+        {
+          "criterion": "用户目标排序",
+          "result": "pass",
+          "reason": "保留用户先平均全程≤20再最低费用，B180而非更快A260，未编等待货币价值。",
+          "evidence": {
+            "line": 1,
+            "excerpt": "建议选择 **B 方案**。按你给定的长期稳态假设，B 的平均提交至办完时间为 **18.75 分钟**，达到“不超过 20 分钟”的目标；费用 **180 元**，完整人员投入 **150 分钟**，均在上限内。A 更快，但费用高 80 元。你的选择规则是达标后选费用最低，因此选 B，无需把等待时间折算成钱。"
+          }
+        },
+        {
+          "criterion": "全费用和时间",
+          "result": "pass",
+          "reason": "共同10+20+30记一次，A总180/B150，费用260/180均在300，A零余量、B30，无额外调研。",
+          "evidence": {
+            "line": 32,
+            "excerpt": "| 完整人员投入 | 180 分钟 | 150 分钟 |"
+          }
+        },
+        {
+          "criterion": "减半关系边界",
+          "result": "pass",
+          "reason": "B只排队减半，总停留减37.5%，同时保持服务时间7.5，非全程减半。",
+          "evidence": {
+            "line": 22,
+            "excerpt": "B 保持平均速度，改变服务时长的波动。按本轮条件，它把基线的平均等候从 22.5 分钟降至 11.25 分钟；平均总停留从 30 分钟降至 18.75 分钟，减少 37.5%，并非总时间减半。A 同时缩短服务和等候。"
+          }
+        },
+        {
+          "criterion": "条件平均和现实效果",
+          "result": "pass",
+          "reason": "明确长期稳态，不保证单件/有限样本/第一小时或真实固定服务；质量/需求假设待核。",
+          "evidence": {
+            "line": 39,
+            "excerpt": "它们不能承诺每件 20 分钟内办完、首小时的表现、下月有限样本的均值必然等于理论值，或现场一定能实现固定 7.5 分钟服务。到达仍随机，B 也可能出现长等待。现场若有暂停、返工、插单或服务时长仍波动，需重新判断模型适用性；不能把“采用标准化”直接写成“已达到 M/D/1”。质量与真实需求不变也仍需核对。"
+          }
+        },
+        {
+          "criterion": "行动与后续累计资源",
+          "result": "pass",
+          "reason": "150分钟落地含阅读/判断/配置/培训/复盘，已有设置费用内；后续切A不能抹掉B已付，未付款配置或外沟通。",
+          "evidence": {
+            "line": 49,
+            "excerpt": "如果已有数据支持流程条件、平均总停留达标且质量未恶化，按 B 继续；数据不足时保留“尚未验证”的状态。若均值未达标、服务时长并未固定，或出现质量下降、隐藏需求和额外成本，记录偏离原因并重估，不能继续沿用 18.75 分钟作为现场承诺。也不自动改投 A：B 已花的费用和人员时间必须计入累计预算，再判断任何调整是否可行。剩余 30 分钟不是已分配的新研究任务。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "TM-158-misuse",
+      "verdict": "failed",
+      "checks": [
+        {
+          "criterion": "反对合并服务台",
+          "result": "pass",
+          "reason": "指出两人并行不等一台快机器，班次/插单/未知分布也不成立；不未经核实换M/M/2。",
+          "evidence": {
+            "line": 5,
+            "excerpt": "同事的算式是在错误的系统假设上算对了数：如果真有一台持续可用、每小时处理 16 件且满足其他条件的 M/M/1 服务台，代入确实得到 11.25 分钟。但你们是两名审核员，每人每件平均 7.5 分钟；两人同时工作可以并行审两件，不能视为一台每件平均只需 3.75 分钟的机器。况且两人都只在部分时段可审核，时段不总重合，还有扎堆到达、紧急插单及未知的服务时长分布。即便把平均能力折算出来，也不会恢复单台、持续服务、先来先服务和指数分布等前提。因此不能沿用 M/M/1，也不能未经核实直接换成标准 M/M/2 计算等待。"
+          }
+        },
+        {
+          "criterion": "有效日容量",
+          "result": "pass",
+          "reason": "2人×4h×8=64/day；正式96需求比容量多32；1.5为需求容量比非忙率；仅平均情景，不当上限。",
+          "evidence": {
+            "line": 13,
+            "excerpt": "| 8 人工小时×8 件/小时＝64 件/日 | 按平均服务时长估算的日处理能力；不是每天必达的完成量，也不是随机服务下的绝对上限 |"
+          }
+        },
+        {
+          "criterion": "内部守恒与撤回",
+          "result": "pass",
+          "reason": "30+96−60−6=60，净30，撤回不称解决；一天60完成非mu。",
+          "evidence": {
+            "line": 21,
+            "excerpt": "**30＋96−60−6＝60 件。**"
+          }
+        },
+        {
+          "criterion": "已知快照下界",
+          "result": "pass",
+          "reason": "60内+18外=至少78，未冒称所有未完总量；这一快照计算成立。",
+          "evidence": {
+            "line": 27,
+            "excerpt": "- 当前已知未办完至少为 **60＋18＝78 件**。入口外历史人数未知，不能把 78 当成完整总量。"
+          }
+        },
+        {
+          "criterion": "拒不支持的等待公式",
+          "result": "pass",
+          "reason": "不拿期末积压除流率称Little，不承诺模板或压限额缩短全程。",
+          "evidence": {
+            "line": 31,
+            "excerpt": "这些存量与流量都不足以反推出平均等待。不能用期末 60 件或已知 78 件除以某个到达率，就称为 Little 关系得到的平均等待；这里既没有同边界的长期平均在制数，也没有相应的稳定流率和完整时间记录。已完成件的用时还可能漏掉仍未办完的长单。"
+          }
+        },
+        {
+          "criterion": "45分钟全预算",
+          "result": "pass",
+          "reason": "5+10+8+12+8+2=45，明确阅读和多人各投入，超时扣可选追溯，不承诺补齐历史或分布，不新增人手。",
+          "evidence": {
+            "line": 48,
+            "excerpt": "| 合计 | 含阅读、核对、沟通和收口 | **45** | 不另加配置、培训、全量历史追溯或复盘任务 |"
+          }
+        },
+        {
+          "criterion": "行动和效果不伪造",
+          "result": "pass",
+          "reason": "主管/审核员尚未接受；调整其他会议需授权，未改排班、限额、系统或发消息。",
+          "evidence": {
+            "line": 54,
+            "excerpt": "本答复仅提供核查和动作安排，未修改排班、限额、系统记录或向任何人发送消息。"
+          }
+        },
+        {
+          "criterion": "事实/未知与同边界同窗口的存量流量区分",
+          "result": "fail",
+          "reason": "Request supports disjoint current externallywaiting18, but not their entry date or whether all arrived yesterday. This adds an unprovided observation window and turns a pending stock into arrival flow. It is a material invented input for load assessment, not a rounding or style issue, despite other pressure conclusions remaining supported by96 versus64.",
+          "evidence": {
+            "line": 28,
+            "excerpt": "- 按昨天这批正式录入和被挡住的不同需求合计，已观察到 **114 件**，相当于该 8 小时窗口 **14.25 件/小时**。这不是长期到达率；原来的“平均需求 12 件/小时”需注明统计范围，96÷8 的正式录入口径漏掉了这 18 件。"
+          }
+        }
+      ]
+    }
+  ],
+  "execution_context": {
+    "name": "/root/tm158_tool_trials",
+    "same_context_both_requests": true,
+    "independent_case_contexts": false,
+    "order": [
+      "TM-158-fit",
+      "TM-158-misuse"
+    ]
+  },
+  "limits": [
+    "Two actual Markdown simulations, one context; not isolated cases or full entry.",
+    "Current resource hashes are measured now and execution manifest captures write time, not all historical read moments. Changes during remediation must not be misrepresented as proof of rerun.",
+    "No true operational result, arbitrary queue configurations or cross-client behavior validated.",
+    "Original answers and formal/draft skills unchanged by reviewer. Current failed misuse cannot be registered as passed."
+  ]
+}

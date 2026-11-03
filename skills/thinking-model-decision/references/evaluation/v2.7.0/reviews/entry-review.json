@@ -1,0 +1,72 @@
+{
+  "review_id": "TM-158-entry-behavior-review-aggregate",
+  "reviewed_at": "2026-11-03T01:46:59.411657+00:00",
+  "reviewer": "daily_baseline_1101",
+  "verdict": "passed_with_limits",
+  "blocking_failures": [],
+  "observations": [
+    {
+      "id": "TM158-ENTRY-P3-ROUNDING",
+      "severity": "P3",
+      "blocking": false,
+      "evidence": "Threshold table writes mu>=7.854 and service<=6.67 without explicit approximation; exact values are 7.854101966... and20/3=6.666666... respectively. At rounded-down mu7.854 the ideal W is about20.000939min; at service6.67 it is about20.03003min.",
+      "assessment": "Negotiation-only display and exact formula/mu>=9 plus explicit equality/no-margin warning make this nonblocking for the present do-not-buy decision; not a verified operating specification.",
+      "suggestion": "For future response generation write ≈ for displays, retain exact formula or conservatively round operational caps (e.g.6.66min), and use verified margin. Do not rewrite this raw answer."
+    }
+  ],
+  "execution_summary": {
+    "actual_entry_responses": 4,
+    "entry_execution_contexts": 2,
+    "requests_per_context": 2,
+    "initial_passed": 2,
+    "initial_failed": 0,
+    "retest_passed": 2,
+    "retest_failed": 0,
+    "html_artifacts": 2,
+    "context_isolation": "Eachroundfreshfromtheother;withinroundtwoinputssequential."
+  },
+  "initial_review": {
+    "path": "entry-review-initial.json",
+    "sha256": "2d9aacc3d1041259c6d7cad9803558a46c7822aeab4fb7d637270cbfa284d8ce",
+    "verdict": "passed_with_limits",
+    "binding": "Old runtime e2656304..."
+  },
+  "retest_review": {
+    "path": "entry-review-retest.json",
+    "sha256": "2ad4191b33811860c62568e784b3951c685dde5bb0257898bd888391ce83039c",
+    "verdict": "passed_with_limits",
+    "binding": "Repaired runtime602ad0a3..."
+  },
+  "whole_behavior_history": {
+    "actual_responses": 8,
+    "execution_contexts": 4,
+    "requests_each_context": 2,
+    "initial_tool": {
+      "passed": 1,
+      "failed": 1
+    },
+    "initial_entry": {
+      "passed": 2,
+      "failed": 0
+    },
+    "retest_tool": {
+      "passed": 2,
+      "failed": 0
+    },
+    "retest_entry": {
+      "passed": 2,
+      "failed": 0
+    },
+    "historical_passed": 7,
+    "historical_failed": 1,
+    "historical_failure": "TM158-BLOCK-STOCK-FLOW-WINDOW preserved and closed via actual new tool execution; not rewritten into pass.",
+    "scope_limit": "8responseexecutions,not8distinctscenarios;4distinctrequests repeatedafterrepair."
+  },
+  "current_core_hashes": {
+    "references/tools/TM-158.md": "602ad0a3d5ad9371d784b0b437df0dd2a9ebaf958ff2f090e86d889bfcba8804",
+    "references/cards/TM-158.md": "9c29a9be8132eb9386873da192b39bf8946bbc6eec7cf3a599d39188ae4466ec",
+    "references/user-models/TM-158.md": "a10441464b533bc20c19c0b146cd87b6f6cab24bd22500d481d7579b40cbc08f"
+  },
+  "raw_answers_modified": false,
+  "release_ready": false
+}

@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "purpose": "Two actual sequential entry executions; raw answers preserved without external-review-based rewriting.",
+  "execution_context": {
+    "agent_task": "/root/tm158_entry_trials",
+    "independent_executor_context": true,
+    "same_execution_context_for_both_requests": true,
+    "order": [
+      "entry-queue-choice",
+      "entry-first-turn"
+    ],
+    "isolation_note": "The two inputs were processed sequentially in this same agent context. The first response and its resource readings remained visible during the second. This is not represented as two context-isolated trials.",
+    "prohibited_materials_not_read": [
+      "drafts",
+      "reviews",
+      "other trial answers",
+      "historical evaluation answers",
+      "expected evaluation criteria"
+    ],
+    "external_actions": "Read-only public reference browsing; no purchases, external messages, submissions, or publications."
+  },
+  "timing": {
+    "first_recorded_at_utc": "2026-11-03T01:24:10.444Z",
+    "first_recorded_at_note": "Recorded after reading the original inputs, SKILL and initial reference batch; actual execution started earlier. Not a precise turn-start timestamp.",
+    "first_response_saved_at_utc": "2026-11-03T01:28:35.413Z",
+    "second_request_phase_recorded_at_utc": "2026-11-03T01:30:05.265Z",
+    "second_response_saved_at_utc": "2026-11-03T01:30:31.420Z",
+    "static_readback_at_utc": "2026-11-03T01:31:11.337Z",
+    "manifest_created_at_utc": "2026-11-03T01:32:22.540419+00:00"
+  },
+  "tool_use": [
+    {
+      "request_id": "entry-queue-choice",
+      "selected_tools": [
+        "TM-158",
+        "WW-1.4",
+        "WW-3.5"
+      ],
+      "additional_guidance": [
+        "second-order-check"
+      ],
+      "selection_basis": "Single-server arrival/service assumptions, hard performance/cash/time constraints, and whether available verification can change a present decision."
+    },
+    {
+      "request_id": "entry-first-turn",
+      "selected_tools": [
+        "TM-158"
+      ],
+      "scope": "A single clarification action asking for the timeline of a recent delayed task; no full diagnosis, invented user response, quantitative assumption, or HTML report."
+    }
+  ],
+  "external_sources": {
+    "urls": [
+      "https://ocw.mit.edu/courses/2-854-introduction-to-manufacturing-systems-fall-2016/927056a1af54772a587fd84ad4951e71_MIT2_854F16_Mm1Queue.pdf",
+      "https://www.mathworks.com/help/simevents/ug/m-d-1-queuing-system.html"
+    ],
+    "combined_web_tool_response_sha256": "8335ef333917705c877eefc68404512064ecb990bfdff8510bb61af853ab1086",
+    "hash_scope": "SHA-256 of the UTF-8 JSON serialization of the combined web tool response for the two primary references at provenance capture; not a hash of the remote PDF or HTML source bytes.",
+    "remote_file_byte_hashes_obtained": false
+  },
+  "delivery_checks": {
+    "readback": "Markdown, HTML and first-turn files were read back after writing. HTML was parsed using Python html.parser.",
+    "html_observed": {
+      "utf8": true,
+      "embedded_css": true,
+      "viewport": true,
+      "print_css": true,
+      "external_loading_elements": 0,
+      "source_hyperlinks": 2,
+      "tables": 4
+    },
+    "visual_preview": "not performed",
+    "visual_preview_attempt": "cua.createBrowserTab with a file:// URL was rejected by browser security policy, which allows only http/https. No workaround attempted.",
+    "desktop_layout_visually_verified": false,
+    "narrow_layout_visually_verified": false,
+    "print_render_visually_verified": false,
+    "assessment": "No pass/fail self-assessment of behavioral correctness is recorded."
+  },
+  "answer_revision_policy": "Each answer artifact was written once. No external evaluation feedback was read, and no response was revised from review feedback.",
+  "input_path": "../entry-inputs.json",
+  "skill_root": "../../../..",
+  "input_file": {
+    "path": "../entry-inputs.json",
+    "sha256": "e1f1e34f72b841a7a7d95ca4508d9c73cc1f7a2ddbf3def67e54d9e0b0320c13",
+    "bytes": 1993
+  },
+  "inputs": [
+    {
+      "id": "entry-queue-choice",
+      "original_request": "我负责一个材料审核窗口，大家总抱怨等得久，可平均处理时间并不长。请帮我理清下一步怎么改，直接给我完整解决方案和HTML，不用再问背景。我希望平均从提交到办完不超过20分钟，在满足条件的方案中尽量少花钱；不能把平均值写成每件的保证，也不要替我定人力价值。\n为初步比较，我们暂以长期稳态条件规划：一名审核员持续可用，一条先到先服务队列，无休假、暂停、返工、退出或容量限制，需求源无限；到达是每小时6件的稳定泊松过程，服务时间独立同分布且与到达独立，现为指数服务，平均每件10分钟。现场是否真的符合这些条件仍要核对。候选A购小工具使服务仍为指数，但平均每件7.5分钟；候选B排除重复步骤，使服务时间固定为10分钟，真正的进件不减，其他条件不变。两项互斥，服务效果均是尚待验证的假设。下月工具、材料、实施、复核全包成本A200元，B120元，预算250元；无额外周期成本。今天已经花了15分钟准备这些数据，整个准备和决策任务最多90分钟。余下共同动作：读你的方案10分钟、与同事核对数据及质量条件20分钟、决定并记下实施约定10分钟；A试用设置与核对20分钟，B试用设置与核对15分钟。不要给我再安排未计入的调查或把以后每周预算当作已授权。A、B均不改变现有人员数量。我能接受今天发现候选都不能达到目标，但仍希望知道下一步可协商什么、先做什么。请综合机制、成本、现实不确定性，给方案、实施顺序和重估条件。不要替我购买或通知别人。",
+      "request_utf8_sha256": "da6ec8e6dd189c0cdcb8fe7cd0b2fcec3384dd332c467fea2f67e069f13c7198"
+    },
+    {
+      "id": "entry-first-turn",
+      "original_request": "我们几个同事天天忙，事情还是越堆越多，我不知道是人手不够还是做事方式有问题，帮我理清一下。",
+      "request_utf8_sha256": "41b1ee76d148de7d5900f2077dfe2fef221fbe748f9957949f5e4522e79a42b7"
+    }
+  ],
+  "read_resources": [
+    {
+      "path": "../../../../SKILL.md",
+      "relative_path": "SKILL.md",
+      "sha256": "4d0a817b7fe32f947e19d5a8dcfb161898d3b0c6e8656c8f4085b2c5db45aa56",
+      "bytes": 11235,
+      "read_scope": "Directly read reference content",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../references/toolbox-orchestration.md",
+      "relative_path": "references/toolbox-orchestration.md",
+      "sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "bytes": 4180,
+      "read_scope": "Directly read reference content",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../references/decision-routing.md",
+      "relative_path": "references/decision-routing.md",
+      "sha256": "caec14f0dbefb52a40db5b1e11bf53fa2cc3cbc62419ce70285de45b3c898099",
+      "bytes": 17598,
+      "read_scope": "Directly read reference content",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../references/tool-catalog.md",
+      "relative_path": "references/tool-catalog.md",
+      "sha256": "572bcb0686bbbab49cb10dc8a3d7a2bfcbe137704608dfac55bc8bc15f19fa48",
+      "bytes": 29339,
+      "read_scope": "Catalog reading output was partly truncated; relevant candidate rows were then inspected explicitly with rg",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../references/wan-catalog.md",
+      "relative_path": "references/wan-catalog.md",
+      "sha256": "a675779fc7de2e8216fe66fd6f0b8de4636c3c064e852f749f39f45d8a2970de",
+      "bytes": 11623,
+      "read_scope": "Catalog reading output was partly truncated; relevant candidate rows were then inspected explicitly with rg",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../references/tool-runtime.md",
+      "relative_path": "references/tool-runtime.md",
+      "sha256": "20afe75cab192b7bca71c7bb0e4d88f21fb56742480abdc05ccd7b0c05527a01",
+      "bytes": 6170,
+      "read_scope": "Directly read reference content",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../references/decision-report.md",
+      "relative_path": "references/decision-report.md",
+      "sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "bytes": 6761,
+      "read_scope": "Directly read reference content",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../references/html-action-plan.md",
+      "relative_path": "references/html-action-plan.md",
+      "sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef",
+      "bytes": 3225,
+      "read_scope": "Directly read reference content",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../scripts/tool_runtime.py",
+      "relative_path": "scripts/tool_runtime.py",
+      "sha256": "e32e96783d2b9509e5c5dec4a91142da2817641e6e39f9f1de997086dc298fdb",
+      "bytes": 14002,
+      "read_scope": "Executed show TM-158 and inspected code portions relevant to command reads and hashing",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../references/tools/TM-158.md",
+      "relative_path": "references/tools/TM-158.md",
+      "sha256": "e2656304600c70ea8859cf87d4d9ed86eacda4c742b6a9421b04a629bbc3ddc6",
+      "bytes": 4934,
+      "read_scope": "Directly read reference content",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../references/cards/TM-158.md",
+      "relative_path": "references/cards/TM-158.md",
+      "sha256": "9c29a9be8132eb9386873da192b39bf8946bbc6eec7cf3a599d39188ae4466ec",
+      "bytes": 9076,
+      "read_scope": "Directly read reference content",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../references/user-models/TM-158.md",
+      "relative_path": "references/user-models/TM-158.md",
+      "sha256": "a10441464b533bc20c19c0b146cd87b6f6cab24bd22500d481d7579b40cbc08f",
+      "bytes": 22208,
+      "read_scope": "Directly read reference content",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../references/wan-tools/WW-1.4.md",
+      "relative_path": "references/wan-tools/WW-1.4.md",
+      "sha256": "c64f13288b22fbf2ab5fb85ea09d9e8bc784837c9f45260480d2edea208865e6",
+      "bytes": 2331,
+      "read_scope": "Directly read reference content",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../references/wan-tools/WW-3.5.md",
+      "relative_path": "references/wan-tools/WW-3.5.md",
+      "sha256": "03441b42221aad7183fb542291559faab956a03bbf7d350eafc701748958afa6",
+      "bytes": 2213,
+      "read_scope": "Directly read reference content",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../references/second-order-check.md",
+      "relative_path": "references/second-order-check.md",
+      "sha256": "733f5ff5ce00c02ec94ef7a82da36b9520472031193fc461eca2bb4f30cbfe8f",
+      "bytes": 3220,
+      "read_scope": "Directly read reference content",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../references/tool-index.json",
+      "relative_path": "references/tool-index.json",
+      "sha256": "d01625c1ac5243421720b181f89bbec1564b26e093b43def829ae5b75098ab0c",
+      "bytes": 194442,
+      "read_scope": "Read programmatically by tool_runtime.py show TM-158; only TM-158 selected metadata exposed; no review-file content opened",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../references/user-index.json",
+      "relative_path": "references/user-index.json",
+      "sha256": "2c83c61df9b3078934a3d18d38963ce6fedfc22a219ae90b8cf269fb2f3f3c6e",
+      "bytes": 432666,
+      "read_scope": "Read programmatically by tool_runtime.py show TM-158; only TM-158 selected metadata exposed; no review-file content opened",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../references/guided-dialogue.md",
+      "relative_path": "references/guided-dialogue.md",
+      "sha256": "7700f109b08a913fcecf6a8ce26083f00376cc2f32863e7e9225e4ee47bb012a",
+      "bytes": 7143,
+      "read_scope": "Directly read reference content",
+      "hash_timing": "Captured at manifest creation after resource use"
+    },
+    {
+      "path": "../../../../references/questioning-toolkit.md",
+      "relative_path": "references/questioning-toolkit.md",
+      "sha256": "4c4435666732c7d48a602866c0c0f17cb3f6fb2676d088093052620a849c80f6",
+      "bytes": 3814,
+      "read_scope": "Directly read reference content",
+      "hash_timing": "Captured at manifest creation after resource use"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "../trials/entry-queue-choice.md",
+      "sha256": "7a969c65f96b1820ebbd770dd84356fe4174145e0dbae4a60b67f1270c4a3702",
+      "bytes": 11985
+    },
+    {
+      "path": "../trials/entry-queue-choice.html",
+      "sha256": "b786b76838425cf16187545630a89bd59c2ede1f4591a16be8d969275b21aa43",
+      "bytes": 15388
+    },
+    {
+      "path": "../trials/entry-first-turn.md",
+      "sha256": "545c2bf1dbdc8f0a8c41f1166e6fdf854009530cc3fdda5c0830df9dd09e4134",
+      "bytes": 409
+    }
+  ],
+  "manifest_self_hash_note": "The manifest excludes its own hash to avoid recursive hashing; callers may hash the completed manifest separately."
+}

@@ -1,0 +1,196 @@
+{
+  "review_id": "TM-158-independent-source-review",
+  "reviewed_at": "2026-11-03T01:11:45.340202+00:00",
+  "reviewer": "daily_baseline_1101",
+  "independence": "Read current published body and official primary course material before looking at author six drafts; did not author source/card/runtime or modify article.",
+  "verdict": "source_usable_only_with_explicit_runtime_corrections",
+  "release_gate": "Not a release pass. Source preserved verbatim; derived card/runtime must resolve required boundaries, then be reviewed and behavior-tested.",
+  "source": {
+    "title": "思维模型158：排队模型 ——明明忙得过来，为什么还要排队？",
+    "metadata": "原创 鬼子不言 鬼子不言\n 2026年11月2日 21:50 山东",
+    "capture_path": "maintenance-workspace/sources/158/browser-capture.json",
+    "capture_sha256": "ef4d4fe7814d6990e2319ba64c72b0be43c9a59dfbb7deb45665dd5c25117f87",
+    "body_utf8_sha256": "b87168329f446a6aa9d6bdee76a70163350ed509dcb4e043b7ca8b50ff8c4f26",
+    "nonwhitespace_utf16_units": 6979,
+    "fnv1a32_code_units": "01c086a4",
+    "recorded_fingerprint_matches": true,
+    "table_count": 1,
+    "table_arithmetic_pass": true,
+    "end_checked": "档案卡、这是思维模型系列的第158篇、结尾平均忙得过来不等于每一件不用等",
+    "media_count_in_capture": 18,
+    "images_viewed_by_this_reviewer": 0
+  },
+  "official_sources": [
+    {
+      "id": "MIT-Modiano",
+      "url": "https://web.mit.edu/modiano/6.263PRIVATE/6.263old2/lec8.pdf",
+      "title": "MIT Eytan Modiano, M/G/1 Queues",
+      "access": "Opened full PDF parsed text, pages1–4 and vacation sections; mathematical formulas cross-checked from text.",
+      "supports": "Poisson arrivals, IID services independent of arrivals; Pollaczek–Khinchine E[Wq]=lambda E[S²]/(2(1-rho)); exponential versus fixed service examples and vacation extension."
+    },
+    {
+      "id": "Stanford-EE384X",
+      "url": "https://web.stanford.edu/class/ee384x/EE384X/handouts/H10.pdf",
+      "title": "Stanford EE384X, Queueing Theory",
+      "access": "Opened parsed PDF text, pp7–11 and19–21.",
+      "supports": "M/M/1 Poisson/IID exponential assumptions, lambda<mu stationary regime, queue/system distinction and Little law; M/GI/1 second-moment dependence."
+    },
+    {
+      "id": "MIT-Wu2026",
+      "url": "https://web.mit.edu/1.041/www/lectures/L8-queuing-models-2026sp.pdf",
+      "title": "MIT Cathy Wu, Queuing models, Spring2026",
+      "access": "Opened parsed PDF text, pp8–11,17–20,34–44.",
+      "supports": "Complete queue notation, per-server rate and parallel-server distinction; M/M/1 and M/M/2/c balance equations; finite-capacity blocking and admitted-rate distinction."
+    }
+  ],
+  "mathematical_basis": {
+    "file": "source-arithmetic158.json",
+    "sha256": "873774d6de0d38334e99f12c88688b3609000590e07c43e4796f1eb0c87a36c6"
+  },
+  "findings": [
+    {
+      "id": "S158-01",
+      "severity": "P1",
+      "topic": "算术错误",
+      "source_claim": "等待从四十八分钟降到十八分钟；省下的十八分钟",
+      "assessment": "48−18=30分钟，降幅62.5%。原文原样存档但卡/运行不得写省18。",
+      "required_runtime_boundary": "明示原文校核：少等30分钟，18是改善后的等待，不是节省量。",
+      "basis": "Independent subtraction"
+    },
+    {
+      "id": "S158-02",
+      "severity": "P1",
+      "topic": "加人效果缺条件",
+      "source_claim": "加一个人，等待从四十八分钟降到十八分钟",
+      "assessment": "未给新人速率/并行资格/路由/共队安排，不能推出18；原文前段18来自lambda4→3而不是加人。若附加两同速mu5共队的M/M/2假设，Pwait=8/35、Wq=16/7分钟，总停留100/7分钟。独立两队各lambda2则Wq8；单个mu10快服务台Wq4。",
+      "required_runtime_boundary": "新增服务台后不能把两人直接当单个mu翻倍套M/M/1；缺结构时仅列待核，不承诺分钟或扩招收益。M/M/2数值只能标审阅者额外反例假设。",
+      "basis": "MIT-Wu2026 plus independent birth-death/Erlang-C computation"
+    },
+    {
+      "id": "S158-03",
+      "severity": "P1",
+      "topic": "下游必然积压不成立",
+      "source_claim": "后面本来就闲着，前面通得快一点，东西只是更快地堆到后面",
+      "assessment": "闲置下游并不推出它接不住。必须有释放批量/服务波动/能力不足/调度或阻塞等具体证据；上游改善也可能使全程实质缩短。附有全程15→9分钟而队列仍零的确定性反例。",
+      "required_runtime_boundary": "将“可能转移瓶颈”保留为待查机制，不能判必然或否定上游改善；跟踪全程、各站能力/到达波动/在制/质量，不贬称约束理论原则上无法处理等待或 variability。",
+      "basis": "Independent constructive counterexample; general queue structure"
+    },
+    {
+      "id": "S158-04",
+      "severity": "P1",
+      "topic": "服务速度只影响做的时间过强",
+      "source_claim": "手脚再快，也只能压缩做那一段",
+      "assessment": "同一M/M/1 lambda4，mu从5升6，服务12→10分钟，同时等待48→20、总停留60→30。速度也改变利用率和排队。",
+      "required_runtime_boundary": "说明平均处理能力、到达和变异共同影响等待，不能用反催促叙事排除有效提速。",
+      "basis": "Independent recomputation of MIT/Stanford M/M/1 formula"
+    },
+    {
+      "id": "S158-05",
+      "severity": "P2",
+      "topic": "随机性存在并非必然排队",
+      "source_claim": "只要有一个是随机的，排队就消不掉",
+      "assessment": "有界随机到达间隔均≥14分钟、随机服务均≤13分钟，可在从空系统出发时永远无等待；两者均随机也不必排队。Poisson非零需求且正服务时间的特定模型则通常有正平均等待。",
+      "required_runtime_boundary": "改成波动可能导致排队，不用随机性单独作充分条件，不把一般随机自动等同M/M/1。",
+      "basis": "Independent sample-path induction"
+    },
+    {
+      "id": "S158-06",
+      "severity": "P1",
+      "topic": "模型识别与独立性",
+      "source_claim": "没规律/快慢不定即M/M/1；只有两个平均数",
+      "assessment": "正文虽提指数，但日常“随机”不足验证IID指数与Poisson、相互独立、平稳和队列规则。",
+      "required_runtime_boundary": "区分lambda日历到达率、每服务台实际忙时mu、并行数c、稳定持续时间、容量/拒绝/放弃、排队纪律、暂停/返工；分布未知先实测或给条件情景，不能伪造精确等待。",
+      "basis": "MIT-Modiano; Stanford-EE384X; MIT-Wu2026"
+    },
+    {
+      "id": "S158-07",
+      "severity": "P2",
+      "topic": "负荷门槛范围",
+      "source_claim": "进件追上能力，前面所有数都不能用；积压只会一路往上涨",
+      "assessment": "M/M/1 rho≥1没有可用的有限稳态平均等待，不能算负等待；有限期收支恒等式和实测时长仍可用。正漂移积压有上下波动，不是每时刻单调；临界rho=1也不等价每小时净增长1。有限容量、放弃、限流或D/D/1需各自模型。",
+      "required_runtime_boundary": "按适用模型停止稳态公式，转有限期期初+进入−完成−退出核对并核边界，不给无条件线性预测/人人等待时间；不能宣称整个排队理论失效。",
+      "basis": "Stanford equilibrium plus MIT finite-capacity scope; independent deterministic counterexample"
+    },
+    {
+      "id": "S158-08",
+      "severity": "P2",
+      "topic": "均值/分位数/边界流量",
+      "source_claim": "平均等48、总60；系统队长4",
+      "assessment": "这些是稳态期望非逐件保证；系统总量L4包含Lq3.2和平均忙服务台.8。队长术语若混用易差一项。",
+      "required_runtime_boundary": "显式区分Wq/W/S和Lq/L；报告超时比例/高分位/最老未办，不从均值反推尾部；入口外等待、拒绝/转出/放弃、重复访问与唯一需求单独记。",
+      "basis": "Independent Little-law cross-check; Stanford/MIT notation"
+    },
+    {
+      "id": "S158-09",
+      "severity": "P2",
+      "topic": "降低波动的半效应是条件结论",
+      "source_claim": "M/M/1到M/D/1，等待减半",
+      "assessment": "此处48→24正确：保持Poisson lambda4、服务均值12和单台规则，只把E[S²]从2/25变1/25。现实模板未必固定服务/均值不变；一般G/G/1不能精确照搬PK。M/G/1有限平均等待还要有限服务二阶矩。",
+      "required_runtime_boundary": "写明保持条件，算均值并核变异；不保证标准化就减半，不把降低顾客体验抱怨混成缩短实等。",
+      "basis": "MIT-Modiano PK formula; independent substitution"
+    },
+    {
+      "id": "S158-10",
+      "severity": "P2",
+      "topic": "观察与因果/实施资源",
+      "source_claim": "记录一周、比类似时段后推广",
+      "assessment": "一件记录只能分解该件；一周或前后比较可找线索，不足证明分布/季节稳定或措施因果效果；开会休假不能只把mu均摊成始终可服务就套稳态。",
+      "required_runtime_boundary": "计入读取/判断/沟通/实施/记录/复查完整资源，分阶段支持低成本观察；效果未证要条件分支，完成/拒绝/质量并查，不补造目标成功率。",
+      "basis": "Methodological boundary and source own limitations"
+    },
+    {
+      "id": "S158-11",
+      "severity": "P2",
+      "topic": "体验与真实等待",
+      "source_claim": "机场1+7和6+2均8；抱怨几乎没了",
+      "assessment": "两组加法均8正确，历史细节与效应本轮未独立验证。投诉减少不充分证明等待缩短；不应靠隐瞒/虚报预计时长/增加绕路来伪装指标。",
+      "required_runtime_boundary": "把机场作为原文未独立证实案例，若实际采取进度告知需诚实；分别记录总历时、体验、用户负担/公平。",
+      "basis": "Independent arithmetic; explicit unverified history"
+    },
+    {
+      "id": "S158-12",
+      "severity": "P2",
+      "topic": "阻塞电话与等待电话不同",
+      "source_claim": "算线路数也就算出让多少人等、等多久",
+      "assessment": "电话遇忙可被拒绝/丢失，也可进入等待，两种系统不同；单知道容量或阻塞概率不推出等待时长。",
+      "required_runtime_boundary": "分清Erlang loss与delay、外部需求率与实际获准进入率；不把阻塞消失写成需求/全程等待消失。",
+      "basis": "MIT-Wu2026 finite capacity and admitted arrival rate"
+    },
+    {
+      "id": "S158-13",
+      "severity": "P3",
+      "topic": "历史和引文范围",
+      "source_claim": "埃尔朗1909/1917、肯德尔1951、戴维梅斯特与休斯顿机场",
+      "assessment": "本轮只查数学官方讲义，不对这些史实/身份/精确引文给通过结论；排队记号标准与提出年份是不同核验事项。",
+      "required_runtime_boundary": "原文保留，派生卡若提历史标来源叙述；不新增未经核查断言。",
+      "basis": "Coverage limitation"
+    }
+  ],
+  "critical_findings_for_card_runtime": [
+    "S158-01",
+    "S158-02",
+    "S158-03",
+    "S158-04",
+    "S158-06"
+  ],
+  "unverified": [
+    "18 source images not viewed by this reviewer; parent separately handles media review.",
+    "Erlang/Kendall exact historical dates and primary manuscripts, Maister exact claim/affiliation, Houston airport historical numbers/effects.",
+    "No live operations, interventions or causal effectiveness. No author drafts/behavior answers read in this source-first pass."
+  ],
+  "failed_official_fetches": [
+    {
+      "url": "https://archive.nptel.ac.in/content/storage2/courses/117103017/module3/lec2/1.html",
+      "reason": "Web open timeout; not used as verified detailed mathematical basis"
+    },
+    {
+      "url": "https://www.it.uc3m.es/jahgutie/teoria_redes/tredes.html",
+      "reason": "Web open timeout; used MIT full lecture instead"
+    },
+    {
+      "url": "https://www.mit.edu/course/other/urban_or_book/www/book/chapter4/4.6.html",
+      "reason": "Cache miss; used MIT full lecture instead"
+    }
+  ],
+  "mutations": "Only review artifacts in tmp; original source, six author drafts, formal skill and private cases/criteria untouched."
+}

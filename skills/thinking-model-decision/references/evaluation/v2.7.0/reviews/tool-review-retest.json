@@ -1,0 +1,197 @@
+{
+  "review_id": "TM-158-local-tool-behavior-review-retest",
+  "reviewed_at": "2026-11-03T01:45:02.682325+00:00",
+  "reviewer": "daily_baseline_1101",
+  "independence": "Different from source/tool author and both executors. Exact same raw requests used, no expected answers supplied to new executor per recorded provenance. Both raw retest answers read in full, independently checked against original request and prior independent rational arithmetic.",
+  "verdict": "passed_with_limits",
+  "blocking_failures": [],
+  "observations": [],
+  "manifest": {
+    "path": "../trials/tool-retest-manifest.json",
+    "sha256": "13e8c859ed35b94e87ef3226756d2afe28bc9ff9fe617e7eced37a90edbb37d4",
+    "agent_task": "/root/tm158_tool_retest",
+    "execution": {
+      "same_context_sequential": true,
+      "order": [
+        "TM-158-fit",
+        "TM-158-misuse"
+      ],
+      "both_requests_loaded_before_first_response": true,
+      "second_response_retained_first_request_and_response_context": true,
+      "isolated_contexts": false,
+      "expected_answer_or_review_materials_read": false,
+      "external_actions_performed": false,
+      "notes": "Original requests were answered in array order in one agent context. The fit response was saved before reading second-order-check.md and producing the misuse response. No drafts, reviews, historical evaluations, other trial outputs, or pre-existing manifests were read. File-name discovery via rg --files located TM-158 resources; only content-read resources are fingerprinted below. Output files were reopened for hashes only. Resource hashes were captured at manifest creation, after their content reads."
+    },
+    "manifest_created_at": "2026-11-03T01:42:34.721484+00:00"
+  },
+  "provenance_checks": [
+    {
+      "name": "same_original_input_file",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_request_TM-158-fit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "output_TM-158-fit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_request_TM-158-misuse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "output_TM-158-misuse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "current_resource_SKILL.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "current_resource_references/toolbox-orchestration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "current_resource_references/tool-runtime.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "current_resource_references/decision-report.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "current_resource_references/tools/TM-158.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "current_resource_references/cards/TM-158.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "current_resource_references/user-models/TM-158.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "current_resource_references/second-order-check.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "repaired_runtime_executed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_card_unchanged",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "core_execution_hashes": {
+    "references/tools/TM-158.md": "602ad0a3d5ad9371d784b0b437df0dd2a9ebaf958ff2f090e86d889bfcba8804",
+    "references/cards/TM-158.md": "9c29a9be8132eb9386873da192b39bf8946bbc6eec7cf3a599d39188ae4466ec",
+    "references/user-models/TM-158.md": "a10441464b533bc20c19c0b146cd87b6f6cab24bd22500d481d7579b40cbc08f"
+  },
+  "cases": [
+    {
+      "case_id": "TM-158-fit",
+      "verdict": "passed_with_limits",
+      "checks": [
+        {
+          "criterion": "Five requested measures under three alternatives",
+          "passed": true,
+          "evidence": "All table numbers independently match cases-arithmetic158.json: baseline rho.75/Wq22.5/W30/L3/Lq2.25; A .6/9/15/1.5/.9; B .75/11.25/18.75/1.875/1.125."
+        },
+        {
+          "criterion": "Hard target then cost, whole budget",
+          "passed": true,
+          "evidence": "B meets mean<=20, costs180 vsA260, uses150 of180 person-minutes vsA180. Includes reading10+decision20+review30, configuration/training. No salary conversion; A0 time slack/B30; choice is conditional on supplied hypotheses."
+        },
+        {
+          "criterion": "Stochastic assumptions and measurement",
+          "passed": true,
+          "evidence": "M/M/1 versusM/D/1 correctly distinguished; half applies to waiting only under specific unchanged lambda/mu; neither every-item guarantee nor empty-first-hour output. Unknown field effect/quality; unfinished items retained and new research not silently added."
+        },
+        {
+          "criterion": "Implementation and budget continuation",
+          "passed": true,
+          "evidence": "Configured records already included by original request; training/next-month review within150, stop if assumptions/quality fail. If B spent, A cannot be simply added without counting sunk resources. No actual payment or configuration claimed."
+        }
+      ]
+    },
+    {
+      "case_id": "TM-158-misuse",
+      "verdict": "passed_with_limits",
+      "checks": [
+        {
+          "criterion": "Capacity/flow separated from busy utilization",
+          "passed": true,
+          "evidence": "8/h per busy server;2*4=8person-hours/day;64 conditional nominal dailycapacity;96 demand requires12person-hours ->4hour gap.150% workload ratio explicitly not actual utilization.32/day growth pressure conditional not observed daily net or guaranteed hard capacity."
+        },
+        {
+          "criterion": "Invalid model and waiting promises rejected",
+          "passed": true,
+          "evidence": "Two discontinuous servers cannot be a singleMM1 or automaticallystandardMM2; busycapacity cannot be averaged into a valid continuous model.11.25 is a hypothetical arithmetic result only. No finite wait prediction, no snapshot/throughput use as Little mean."
+        },
+        {
+          "criterion": "Original failure: same-window stock versus flow",
+          "passed": true,
+          "evidence": "Internal30+96-60-6=60/net+30; withdrawals notcompletion. External18 only joins internal60 as78 if same-time/disjoint; otherwise separate. Explicitly refuses96+18=114 yesterday new arrivals and fullboundary netgrowth without external history."
+        },
+        {
+          "criterion": "Countermeasures and evidence limits",
+          "passed": true,
+          "evidence": "Lower cap may push waits outside; exit notcompleted. Template onlyhypothesis with no immediatehalving; unchangedmeanworkload cannot remove4person-hourgap. No addedheadcount, invented overlap or arrivals/distributions."
+        },
+        {
+          "criterion": "Complete45minute plan",
+          "passed": true,
+          "evidence": "5read+8ledger+10roster+10oneexistingrecord+12decision=45. Participation time deducted inside eachslot, overruns reduce later optionalsample ratherthan restart45. Existingrecords only, externalhistorynotbackfilled; futuremanualrecordingneedsnewresources; supervisorresponse/authority notassumed."
+        }
+      ]
+    }
+  ],
+  "independent_arithmetic": {
+    "path": "cases-arithmetic158.json",
+    "sha256": "94b4455b721335260519e787616d01f72c2467d125f2f13f222bfdbd4b493cf1",
+    "scope": "Reused own independently verified same exact input arithmetic; did not replace it with executor summary.",
+    "misuse_time_minutes": 45,
+    "fit_A_time_minutes": 180,
+    "fit_B_time_minutes": 150
+  },
+  "failure_closure": {
+    "id": "TM158-BLOCK-STOCK-FLOW-WINDOW",
+    "initial_verdict_remains": "failed",
+    "initial_review_sha256": "8b90672ee6eea55b248a447536b116fb114d2797245164b9587b8175cfb05f6f",
+    "initial_answer_sha256": "dd7c8d6e89ed04518ebac13a5f1794dccd7959af61d0062ec2eee8a01781db4e",
+    "new_misuse_answer_sha256": "26733a687aaf24ee52320fbd2d9c8625a362fc2183d7a46a3cfe7c772f9b977a",
+    "status": "closed_by_actual_new_execution",
+    "repair": "Runtime explicitly labels stock versus flow and shared period/boundary before summing; outside pending stock is not yesterday arrivals.",
+    "observed_new_behavior": "Refuses114yesterdaynew andconditionalizes78same-time total. Source/card and originalinput unchanged; new runtime differs.",
+    "initial_answer_rewritten": false
+  },
+  "raw_answers_modified": false,
+  "limits": [
+    "Two retest cases ran sequentially within one fresh executor context, not two isolated contexts.",
+    "Including initial trial:4localresponses in2contexts,3passes and1historicalfailure. Do not rewrite history as4passes.",
+    "No real-world effect, external transaction, broad-agent compatibility or full-library behavioral claim.",
+    "Resource fingerprints captured at manifest creation after reads; no claim of per-read instant hashes.",
+    "Current entry regression is separately reviewed; this file alone does not approve release."
+  ],
+  "release_ready": false
+}

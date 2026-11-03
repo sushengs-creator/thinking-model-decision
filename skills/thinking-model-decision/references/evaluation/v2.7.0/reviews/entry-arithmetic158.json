@@ -1,0 +1,92 @@
+{
+  "reviewed_at": "2026-11-03T01:36:42.838584+00:00",
+  "method": "Independent algebra and rational arithmetic on original request; not executor summary.",
+  "baseline": {
+    "lambda": 6,
+    "mu": 6,
+    "rho": 1,
+    "finite_stationary_means": false,
+    "scope": "Specified Poisson arrivals, exponential service, infinite queue; no universal assertion about every other queue."
+  },
+  "A": {
+    "rho": {
+      "exact": "3/4",
+      "decimal": 0.75
+    },
+    "W_minutes": {
+      "exact": "30",
+      "decimal": 30.0
+    },
+    "Wq_minutes": {
+      "exact": "45/2",
+      "decimal": 22.5
+    },
+    "L": {
+      "exact": "3",
+      "decimal": 3.0
+    },
+    "Lq": {
+      "exact": "9/4",
+      "decimal": 2.25
+    }
+  },
+  "B": {
+    "lambda": 6,
+    "mu": 6,
+    "rho": 1,
+    "finite_stationary_means": false,
+    "reason": "Deterministic service does not remove Poisson arrival variability or supply slack; stable M/D/1 half-wait relation cannot be applied at rho=1."
+  },
+  "thresholds": {
+    "MM1_lambda6_target20": {
+      "mu_min": {
+        "exact": "9",
+        "decimal": 9.0
+      },
+      "mean_service_minutes_max": {
+        "exact": "20/3",
+        "decimal": 6.666666666666667
+      },
+      "derivation": "60/(mu-6)<=20 with mu>6 gives mu>=9"
+    },
+    "MD1_lambda6_target20": {
+      "mu_min_expression": "(9+3*sqrt(5))/2",
+      "mu_min_decimal": 7.854101966249685,
+      "service_minutes_max_decimal": 7.639320225002103,
+      "derivation": "60*(1/mu+6/(2*mu*(mu-6)))<=20; mu>6; mu^2-9mu+9>=0"
+    },
+    "MM1_mu8_target20_lambda_max": {
+      "exact": "5",
+      "decimal": 5.0
+    },
+    "MD1_mu6_target20_lambda_max": {
+      "exact": "4",
+      "decimal": 4.0
+    },
+    "target30_A": {
+      "W_minutes": 30,
+      "meets_only_if_user_changes_target": true
+    },
+    "rounding_probe_not_current_action": {
+      "MM1_service_6_67_W_minutes": 20.03003003003003,
+      "MD1_mu7_854_W_minutes": 20.000939475525428
+    }
+  },
+  "budgets": {
+    "cash_cap": 250,
+    "A": 200,
+    "B": 120,
+    "A_plus_B": 320,
+    "mutually_exclusive": true,
+    "current_additional_cash": 0,
+    "current_time_minutes": 55,
+    "A_full_time_minutes": 75,
+    "B_full_time_minutes": 70,
+    "time_cap": 90,
+    "current_slack": 35,
+    "A_slack": 15,
+    "B_slack": 20,
+    "unlisted_elapsed_delta": "Add delta to each full sum; do not restart clock or invent delta=0."
+  },
+  "conclusion": "No given candidate meets original mean20 target. Conditional non-purchase plus bounded existing checks is supported; new thresholds are negotiations, not verified solutions or authorization."
+}

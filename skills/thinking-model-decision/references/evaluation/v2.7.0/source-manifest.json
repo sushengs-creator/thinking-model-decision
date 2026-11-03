@@ -1,0 +1,73 @@
+{
+  "captured_date": "2026-11-03",
+  "count": 1,
+  "old_body_reread_scope": [],
+  "old_body_limit": "TM-001—157正文未重读；只比对合集目录元数据。",
+  "records": [
+    {
+      "id": "TM-158",
+      "title": "思维模型158：排队模型 ——明明忙得过来，为什么还要排队？",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060484&idx=1&sn=1da1347c2c88de8f06050b8d4d614311&chksm=beabef3789dc66214a8ec9b1c777ad393f15fcf696a89aa36f8dad7bb7be364261bf8a240be7#rd",
+      "msgid": "2650060484",
+      "itemidx": "1",
+      "published_at_page_display": "2026-11-02T21:50:00+08:00",
+      "album_create_time": "1793627351",
+      "album_time_china": "2026-11-02T21:49:11+08:00",
+      "captured_at": "2026-11-03T01:06:49.819Z",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 6979,
+      "fnv1a32_code_units": "01c086a4",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "b87168329f446a6aa9d6bdee76a70163350ed509dcb4e043b7ca8b50ff8c4f26",
+      "source_sha256": "a10441464b533bc20c19c0b146cd87b6f6cab24bd22500d481d7579b40cbc08f",
+      "table_count": 1,
+      "tables": [
+        {
+          "rows": [
+            [
+              "每小时平均进来",
+              "利用率",
+              "平均等待",
+              "平均总停留"
+            ],
+            [
+              "2.5 份",
+              "50%",
+              "12 分钟",
+              "24 分钟"
+            ],
+            [
+              "4 份",
+              "80%",
+              "48 分钟",
+              "60 分钟"
+            ],
+            [
+              "4.5 份",
+              "90%",
+              "108 分钟",
+              "120 分钟"
+            ],
+            [
+              "4.75 份",
+              "95%",
+              "228 分钟",
+              "240 分钟"
+            ]
+          ],
+          "text": "每小时平均进来\n\t\n利用率\n\t\n平均等待\n\t\n平均总停留\n\n\n2.5 份\n\t\n50%\n\t\n12 分钟\n\t\n24 分钟\n\n\n4 份\n\t\n80%\n\t\n48 分钟\n\t\n60 分钟\n\n\n4.5 份\n\t\n90%\n\t\n108 分钟\n\t\n120 分钟\n\n\n4.75 份\n\t\n95%\n\t\n228 分钟\n\t\n240 分钟"
+        }
+      ],
+      "image_count": 18,
+      "media_read_this_run": true,
+      "media_scope": "18幅图片本轮已逐张查看；本包保留文字和审阅摘要，原图仅留维护工作区。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": false,
+      "historical_capture_date": null,
+      "historical_media_scope": null,
+      "historical_fingerprint_algorithm": null,
+      "historical_fnv1a32_utf16le_bytes": null
+    }
+  ]
+}

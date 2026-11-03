@@ -1,0 +1,30 @@
+{
+  "reviewed_at": "2026-11-03T01:46:59.411657+00:00",
+  "earlier_independent_arithmetic": {
+    "path": "entry-arithmetic158.json",
+    "sha256": "28700688a0affa8f57bfd4c07d5cb9475e8107c89aad2d8671794e7529f5836f"
+  },
+  "new_presentation_independent_check": {
+    "fixed_service_in_minutes_equation": "W=s+0.1*s^2/(2*(1-0.1*s)), with0<=s<10; W<=20 equivalent s^2-60s+400>=0 inthisrange",
+    "chosen_root_exact": "30-10*sqrt(5)",
+    "chosen_root_minutes": 7.639320225002102,
+    "other_root_invalid_stability": 52.3606797749979,
+    "exponential_service_cap_seconds": 400,
+    "minute_to_hour_consistency": "60/(30-10*sqrt(5))=(9+3*sqrt(5))/2",
+    "rounded_value_explicit_approximation": true
+  },
+  "budgets": {
+    "already_used": 15,
+    "read": 10,
+    "common_check": 20,
+    "decide_record": 10,
+    "current_total": 55,
+    "optional_A_trial": 20,
+    "optional_B_trial": 15,
+    "A_full": 75,
+    "B_full": 70,
+    "cap": 90,
+    "delta_subtracts_remaining_not_new_clock": true
+  },
+  "actual_retest_choice": "No givenoptionmeetsmean20. A30meanonlyqualifiesafterexplicitusergoalchange; baseline/B criticalnofiniteMM1/MD1average. Newconditionalperformanceboundnotnewconfirmedproduct."
+}

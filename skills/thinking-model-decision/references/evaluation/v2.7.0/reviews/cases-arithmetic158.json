@@ -1,0 +1,141 @@
+{
+  "reviewed_at": "2026-11-03T01:18:23.018262+00:00",
+  "basis": "Exact Fraction computations independently reconstructed from requests; review_focus checked afterwards as proposed coverage, never actual output evidence.",
+  "requests_sha256": {
+    "TM-158-fit": "f814af7bb7a2cc8498419e6f3376b9f2d20d8b31a1443082448d54f0f9486a15",
+    "TM-158-misuse": "5c60a58233844a28d7e00a2bf9998e821a3631058b38ff5ad590cba276aba8cb"
+  },
+  "fit": {
+    "baseline": {
+      "rho": 0.75,
+      "Wq_minutes": 22.5,
+      "W_minutes": 30.0,
+      "service_minutes": 7.5,
+      "L": 3.0,
+      "Lq": 2.25,
+      "exact": {
+        "rho": "3/4",
+        "Wq_hours": "3/8",
+        "W_hours": "1/2",
+        "L": "3",
+        "Lq": "9/4"
+      }
+    },
+    "A": {
+      "rho": 0.6,
+      "Wq_minutes": 9.0,
+      "W_minutes": 15.0,
+      "service_minutes": 6.0,
+      "L": 1.5,
+      "Lq": 0.9,
+      "exact": {
+        "rho": "3/5",
+        "Wq_hours": "3/20",
+        "W_hours": "1/4",
+        "L": "3/2",
+        "Lq": "9/10"
+      }
+    },
+    "B": {
+      "rho": 0.75,
+      "Wq_minutes": 11.25,
+      "W_minutes": 18.75,
+      "service_minutes": 7.5,
+      "L": 1.875,
+      "Lq": 1.125,
+      "exact": {
+        "rho": "3/4",
+        "Wq_hours": "3/16",
+        "W_hours": "5/16",
+        "L": "15/8",
+        "Lq": "9/8"
+      }
+    },
+    "goal_mean_total_minutes": 20,
+    "goal_is_not_per_item": true,
+    "cost_cap": 300,
+    "time_cap_minutes": 180,
+    "shared_minutes": 60,
+    "costs": {
+      "A": 260,
+      "B": 180
+    },
+    "total_minutes": {
+      "A": 180,
+      "B": 150
+    },
+    "slack_money": {
+      "A": 40,
+      "B": 120
+    },
+    "slack_time": {
+      "A": 0,
+      "B": 30
+    },
+    "feasible_goal_options": [
+      "A",
+      "B"
+    ],
+    "choice": "B, conditional on specified service distribution and other assumptions; lowest cost among qualifying options.",
+    "difference_fee_A_B": 80,
+    "difference_total_minutes_A_B": 30,
+    "Wq_B_vs_baseline_ratio": 0.5,
+    "W_B_vs_baseline_ratio": 0.625,
+    "no_unprovided_time_value": true,
+    "no_extra_unbudgeted_research_or_payments": true,
+    "notes": [
+      "180/150 total minutes include reading10/decision20/review30 exactly once. Baseline total30 fails goal, bothA15/B18.75 meet goal.",
+      "Comparison concerns long-run scenario, not next first-hour average or per-job maximum.",
+      "No operational intervention verified. Quality and distribution must be reviewed within alreadybudgeted work; unknown estimates cannot be assumed achieved."
+    ]
+  },
+  "misuse": {
+    "full_nominal_merge_arithmetic_only": {
+      "fake_mu16_rho": 0.75,
+      "fake_M_M_1_Wq_minutes": 11.25,
+      "valid_as_actual_prediction": false
+    },
+    "staff_daily_capacity_scenario": {
+      "per_person_busy_rate": 8,
+      "persons": 2,
+      "busy_hours_per_person": 4,
+      "total_staff_hours": 8,
+      "per_person_potential_jobs": 32,
+      "total_potential_jobs": 64,
+      "formal_arrivals": 96,
+      "daily_gap_to_formal_arrivals": 32,
+      "ratio_demand_to_available_capacity": 1.5,
+      "extra_staff_hours_to_process_formal96_at_same_busy_speed": 4,
+      "does_not_establish_actual_clock_utilization_or_effect": true,
+      "no_new_staff_or_changed_hours_assumed": true
+    },
+    "conservation": {
+      "inside_start": 30,
+      "entered": 96,
+      "completed": 60,
+      "withdrawn": 6,
+      "inside_end": 60,
+      "inside_net_change": 30,
+      "withdrawal_is_not_completion": true,
+      "known_external_waiting": 18,
+      "known_inside_plus_external_pending": 78,
+      "all_boundary_net_change": null,
+      "unknowns": [
+        "external initial backlog",
+        "external new flow period and exits",
+        "withdrawn demands resolution",
+        "overlap/timing of available server schedules",
+        "arrival/service distributions and interruptions"
+      ],
+      "pending_scope": "At least78 known still waiting/unfinished at stated snapshot; not a proof of all unresolved demand or total end-to-end net growth."
+    },
+    "calendar_window_hours": 8,
+    "backlog_waiting_prediction": null,
+    "proposal_time_cap45_includes_reading": true,
+    "no_unsupported_11_25_or_halving_guarantees": true,
+    "no_lowering_cap_as_service_improvement": true,
+    "permitted_next_actions": "Bounded time accounting including reading, reconcile ledger and known outside queue, obtain actual roster/time availability, propose reprioritization or meeting changes only for approval; keep missing scope explicit. No mandatory full simulation within45."
+  },
+  "all_review_focus_arithmetic_correct": true,
+  "author_focus_does_not_establish_behavior_pass": true
+}

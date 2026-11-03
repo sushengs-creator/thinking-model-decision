@@ -1,0 +1,262 @@
+{
+  "review_id": "TM-158-entry-behavior-review-retest",
+  "reviewed_at": "2026-11-03T01:46:59.411657+00:00",
+  "reviewer": "daily_baseline_1101",
+  "independence": "Not author or executor; raw input/output fullread and own independent arithmetic. Didnotinferbehaviorfromauthorfocus ortemplatepresence.",
+  "verdict": "passed_with_limits",
+  "blocking_failures": [],
+  "observations": [],
+  "cases": [
+    {
+      "id": "entry-queue-choice",
+      "verdict": "passed_with_limits"
+    },
+    {
+      "id": "entry-first-turn",
+      "verdict": "passed_with_limits"
+    }
+  ],
+  "manifest": {
+    "path": "../trials/entry-retest-manifest.json",
+    "sha256": "82919da2b6fa407f4af32c5e4c4d381b4b46e484fa68bdb6f674489bce65f074",
+    "agent": "/root/tm158_entry_retest",
+    "same_context_sequential_processing": true,
+    "sequence_note": "Both raw requests were loaded together. The first request was analyzed and its Markdown and HTML saved before guided-dialogue/questioning resources were read and the second request response was written. No user answer was simulated for the second request.",
+    "timing_note": "Input and initial skill reads occurred before the first recorded clock; exact start and individual read timestamps were not recorded. Completion timestamps are from the file-writing executions.",
+    "recorded_at": "2026-11-03T09:44:36.943673+08:00"
+  },
+  "provenance_checks": [
+    {
+      "name": "exact_input_file",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "request_entry-queue-choice",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "output_entry-queue-choice-retest.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "output_entry-queue-choice-retest.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "request_entry-first-turn",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "output_entry-first-turn-retest.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resource_SKILL.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resource_references/toolbox-orchestration.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resource_references/tool-runtime.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resource_references/decision-report.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resource_references/html-action-plan.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resource_references/decision-routing.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resource_references/tool-catalog.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resource_references/wan-catalog.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resource_references/tools/TM-158.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resource_references/tools/TM-153.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resource_references/cards/TM-158.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resource_references/user-models/TM-158.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resource_references/cards/TM-153.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resource_references/second-order-check.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resource_references/tool-index.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resource_references/guided-dialogue.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resource_references/questioning-toolkit.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "repaired_runtime",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "html_static_complete",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "core_execution_hashes": {
+    "references/tools/TM-158.md": "602ad0a3d5ad9371d784b0b437df0dd2a9ebaf958ff2f090e86d889bfcba8804",
+    "references/cards/TM-158.md": "9c29a9be8132eb9386873da192b39bf8946bbc6eec7cf3a599d39188ae4466ec",
+    "references/user-models/TM-158.md": "a10441464b533bc20c19c0b146cd87b6f6cab24bd22500d481d7579b40cbc08f"
+  },
+  "behavior_criteria": [
+    {
+      "criterion": "主入口自主工具箱与作用",
+      "passed": true,
+      "evidence": "NeitherinputnamesTM158. ActualanswerusesTM158forqueuefeasibility andTM153forcompleteconstraintfiltering. ReadTM153card/runtimeindependently; nofeasiblewithinlistedchoicescorrectlyseparatedfromrealityhasnosolution."
+    },
+    {
+      "criterion": "队列前提及所有五项数值",
+      "passed": true,
+      "evidence": "Baseline/B rho1withnofinite stationary Wq/W/L/Lq. A mu8 rho.75 Wq22.5 W30 L3 Lq2.25. Meannotperitempromise; variabilityatcriticalnotremediedbyfixedservice. No inventedlivebacklogorcompletiondate."
+    },
+    {
+      "criterion": "精确协商门槛",
+      "passed": true,
+      "evidence": "Exponentialspeedmu>=9means6m40s exact; MDservicecap30-10sqrt5 withexplicit≈7.64, A lambda<=5, fixedmu6lambda<=4 independentlysolved. Exactexpressiontakesprecedenceoverapproximation; no claimedachievedprice/quality or universalcapacitystandard."
+    },
+    {
+      "criterion": "硬条件及方案结论",
+      "passed": true,
+      "evidence": "Preservesgoalbeforecost,250cap,mutualexclusion,nosalaryvaluation; noqualifiedcandidate. Aonlypossibleifuserexplicitlyaccepts30orwidergoal, keypremises/authority/resourceverified; noautobuy."
+    },
+    {
+      "criterion": "90分钟含已用时间与条件步骤",
+      "passed": true,
+      "evidence": "55current/75A/70B includesalreadyused15. delta/remainingclockexplicit;Atrialoptionalbeforefinalrecordandnotautospend. Prioritydropoptionaltrialonoverrun; ifbaseplanstilldoesnotfit, asksusertoadjustscope/deadlinenotcovertlycompressmandatorycheck. Noassumedweeklyresource."
+    },
+    {
+      "criterion": "可执行现实不确定性与后果",
+      "passed": true,
+      "evidence": "Withinexisting20checkwholeboundary/parameters/quality, shorttrialcannotproveIID/stationarymeans; responseauthoritywaits; qualityfailurestopschanges, notallimprovementpresupposedrebound. Requestsnewtimeauthorityifrecording/meetingsgrow."
+    },
+    {
+      "criterion": "首轮单个追问",
+      "passed": true,
+      "evidence": "Oneconcretedelayedunfinishedjob,asksstepsfromhandofftonow. No inventedanswerorrootcause,nofullformorhardtoolpush. NoHTMLneededforclarificationonly."
+    },
+    {
+      "criterion": "HTML静态/来源",
+      "passed": true,
+      "evidence": "4actualtables,textmatchesMD;5validskillrelativeprovenancelocators(nohref). NormrequiresunderstandableID/location,notmandatoryanchor; allpathsverified. Inlineresponsive/printstylesandnoexternalassets. No claim ofvisualpreview."
+    }
+  ],
+  "arithmetic_artifact": "entry-retest-arithmetic158.json",
+  "html_static": {
+    "scope": "Full text and static parser only; no browser/visual rendering performed.",
+    "utf8": true,
+    "tables": 4,
+    "href_links": [],
+    "href_count": 0,
+    "source_locator_text": [
+      {
+        "path": "references/tools/TM-158.md",
+        "exists": true
+      },
+      {
+        "path": "references/cards/TM-158.md",
+        "exists": true
+      },
+      {
+        "path": "references/user-models/TM-158.md",
+        "exists": true
+      },
+      {
+        "path": "references/tools/TM-153.md",
+        "exists": true
+      },
+      {
+        "path": "references/cards/TM-153.md",
+        "exists": true
+      }
+    ],
+    "source_locator_count": 5,
+    "network_loaded_elements": [],
+    "inline_handlers": [],
+    "external_css_assets": [],
+    "viewport": true,
+    "responsive_css": true,
+    "print_css": true,
+    "overflow_tables": true,
+    "machine_path_disclosure": false,
+    "shared_decision_and_math": {
+      "当前两项都不能满足 20 分钟目标": true,
+      "6 分 40 秒": true,
+      "30−10√5≈7.64": true,
+      "55 分钟": true,
+      "75＋Δ 分钟": true,
+      "70＋Δ 分钟": true,
+      "不能偷偷压缩必做核对": true,
+      "TM-153": true,
+      "现场前提和改进效果尚未验证": true,
+      "未进行浏览器视觉预览": true
+    }
+  },
+  "raw_answers_modified": false,
+  "limits": [
+    "Twoentryretestcasessequentiallyexecutedinonefreshcontext;notcase-isolated.",
+    "IndependentHTMLinspectionstaticonly;noscreenshotorprintlayoutverification.",
+    "Noexternallecturebrowsingclaimedbyexecutor;reviewerreliedonearlierverifiedprimaryqueueformulaandindependentderivation.",
+    "Current17read-resourcehashesverifiedatthisreview;manifestdoesnotclaimpreciseindividualreadtimestamps.",
+    "Noactualeffect,purchase,communication,publication,installationorfull-librarybehaviorclaim."
+  ],
+  "release_ready": false
+}
