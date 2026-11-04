@@ -1,0 +1,150 @@
+{
+  "created_at": "2026-11-04T01:24:32.973468+00:00",
+  "input_sha256": "f4a8e56de19151cb4efe207666ea97d546b939c2e9c0c073f3e673718b7f77db",
+  "method": "Independent exact rational enumeration from request fields; author review_focus used only after arithmetic as comparison, not simulated output.",
+  "fit": {
+    "Cu": 60,
+    "Co": 30,
+    "alpha": {
+      "exact": "2/3",
+      "decimal": 0.6666666666666666
+    },
+    "mean_demand": {
+      "exact": "31/5",
+      "decimal": 6.2
+    },
+    "rows": [
+      {
+        "Q": 4,
+        "expected_total": {
+          "exact": "338",
+          "decimal": 338.0
+        },
+        "total_by_D": {
+          "4": 140,
+          "6": 320,
+          "8": 500
+        },
+        "worst_total": 500,
+        "expected_shortage": {
+          "exact": "11/5",
+          "decimal": 2.2
+        },
+        "expected_leftover": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "cycle_service": {
+          "exact": "1/5",
+          "decimal": 0.2
+        },
+        "pooled_unit_coverage": {
+          "exact": "20/31",
+          "decimal": 0.6451612903225806
+        },
+        "cash_feasible": false,
+        "unit_service_feasible": false,
+        "feasible": false
+      },
+      {
+        "Q": 6,
+        "expected_total": {
+          "exact": "254",
+          "decimal": 254.0
+        },
+        "total_by_D": {
+          "4": 200,
+          "6": 200,
+          "8": 380
+        },
+        "worst_total": 380,
+        "expected_shortage": {
+          "exact": "3/5",
+          "decimal": 0.6
+        },
+        "expected_leftover": {
+          "exact": "2/5",
+          "decimal": 0.4
+        },
+        "cycle_service": {
+          "exact": "7/10",
+          "decimal": 0.7
+        },
+        "pooled_unit_coverage": {
+          "exact": "28/31",
+          "decimal": 0.9032258064516129
+        },
+        "cash_feasible": true,
+        "unit_service_feasible": true,
+        "feasible": true
+      },
+      {
+        "Q": 8,
+        "expected_total": {
+          "exact": "260",
+          "decimal": 260.0
+        },
+        "total_by_D": {
+          "4": 260,
+          "6": 260,
+          "8": 260
+        },
+        "worst_total": 260,
+        "expected_shortage": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "expected_leftover": {
+          "exact": "9/5",
+          "decimal": 1.8
+        },
+        "cycle_service": {
+          "exact": "1",
+          "decimal": 1.0
+        },
+        "pooled_unit_coverage": {
+          "exact": "1",
+          "decimal": 1.0
+        },
+        "cash_feasible": true,
+        "unit_service_feasible": true,
+        "feasible": true
+      }
+    ],
+    "chosen_Q": 6,
+    "time_budget": {
+      "total": 40,
+      "already_used": 5,
+      "maximum_all_future": 35,
+      "must_include": [
+        "reading",
+        "checking",
+        "ordering",
+        "recording",
+        "later_review"
+      ]
+    },
+    "known_support_only": true
+  },
+  "misuse": {
+    "observed": {
+      "reserved": 20,
+      "given_out": 20,
+      "events": 10
+    },
+    "deducible_demand": "D >=20 on each observed event, not D=20",
+    "new_policy_distribution": "unknown; cannot justify percentile Q or95% claim",
+    "Cu": 80,
+    "Co": 20,
+    "alpha_unchanged": {
+      "exact": "4/5",
+      "decimal": 0.8
+    },
+    "service_definition": "Must clarify cycle vs pooled units vs ultimate filled including guaranteed emergency",
+    "allowed_quantities": "nonnegative multiples of5; do not select unique optimum without credible distribution and confirmed service metric",
+    "fixed_recourse_valid": true,
+    "remaining_total_minutes": 25,
+    "needed_next_action": "Clarify service metric and obtain decision-relevant confirmed/unmet-demand evidence; return explicit conditional branches and stop at commitment deadline."
+  },
+  "behavior_status": "case design reviewed only; no agent answer executed by reviewer"
+}

@@ -1,0 +1,305 @@
+{
+  "created_at": "2026-11-04T01:28:59.428683+00:00",
+  "method": "Independent exhaustive enumeration of all six complete one-to-one matchings plus deferred-acceptance execution",
+  "applicant_preferences": {
+    "甲": [
+      "A",
+      "B",
+      "C"
+    ],
+    "乙": [
+      "A",
+      "C",
+      "B"
+    ],
+    "丙": [
+      "B",
+      "A",
+      "C"
+    ]
+  },
+  "receiver_preferences": {
+    "A": [
+      "丙",
+      "甲",
+      "乙"
+    ],
+    "B": [
+      "甲",
+      "丙",
+      "乙"
+    ],
+    "C": [
+      "乙",
+      "甲",
+      "丙"
+    ]
+  },
+  "all_complete_matchings": [
+    {
+      "matching": {
+        "甲": "A",
+        "乙": "B",
+        "丙": "C"
+      },
+      "blocking_pairs": [
+        [
+          "乙",
+          "C"
+        ],
+        [
+          "丙",
+          "A"
+        ],
+        [
+          "丙",
+          "B"
+        ]
+      ],
+      "stable": false
+    },
+    {
+      "matching": {
+        "甲": "A",
+        "乙": "C",
+        "丙": "B"
+      },
+      "blocking_pairs": [],
+      "stable": true
+    },
+    {
+      "matching": {
+        "甲": "B",
+        "乙": "A",
+        "丙": "C"
+      },
+      "blocking_pairs": [
+        [
+          "甲",
+          "A"
+        ],
+        [
+          "丙",
+          "A"
+        ]
+      ],
+      "stable": false
+    },
+    {
+      "matching": {
+        "甲": "B",
+        "乙": "C",
+        "丙": "A"
+      },
+      "blocking_pairs": [],
+      "stable": true
+    },
+    {
+      "matching": {
+        "甲": "C",
+        "乙": "A",
+        "丙": "B"
+      },
+      "blocking_pairs": [
+        [
+          "甲",
+          "A"
+        ],
+        [
+          "甲",
+          "B"
+        ]
+      ],
+      "stable": false
+    },
+    {
+      "matching": {
+        "甲": "C",
+        "乙": "B",
+        "丙": "A"
+      },
+      "blocking_pairs": [
+        [
+          "甲",
+          "B"
+        ],
+        [
+          "乙",
+          "C"
+        ],
+        [
+          "丙",
+          "B"
+        ]
+      ],
+      "stable": false
+    }
+  ],
+  "stable_count": 2,
+  "initial_FCFS": {
+    "matching": {
+      "甲": "B",
+      "乙": "A",
+      "丙": "C"
+    },
+    "blocking_pairs": [
+      [
+        "甲",
+        "A"
+      ],
+      [
+        "丙",
+        "A"
+      ]
+    ]
+  },
+  "applicant_proposing": {
+    "matching": {
+      "甲": "A",
+      "乙": "C",
+      "丙": "B"
+    },
+    "events": [
+      {
+        "proposer": "甲",
+        "receiver": "A",
+        "previous_hold": null,
+        "accepted_tentatively": true
+      },
+      {
+        "proposer": "乙",
+        "receiver": "A",
+        "previous_hold": "甲",
+        "accepted_tentatively": false
+      },
+      {
+        "proposer": "乙",
+        "receiver": "C",
+        "previous_hold": null,
+        "accepted_tentatively": true
+      },
+      {
+        "proposer": "丙",
+        "receiver": "B",
+        "previous_hold": null,
+        "accepted_tentatively": true
+      }
+    ]
+  },
+  "receiver_proposing": {
+    "matching": {
+      "丙": "A",
+      "甲": "B",
+      "乙": "C"
+    },
+    "events": [
+      {
+        "proposer": "A",
+        "receiver": "丙",
+        "previous_hold": null,
+        "accepted_tentatively": true
+      },
+      {
+        "proposer": "B",
+        "receiver": "甲",
+        "previous_hold": null,
+        "accepted_tentatively": true
+      },
+      {
+        "proposer": "C",
+        "receiver": "乙",
+        "previous_hold": null,
+        "accepted_tentatively": true
+      }
+    ]
+  },
+  "six_applicant_processing_orders": [
+    {
+      "proposer_order": [
+        "甲",
+        "乙",
+        "丙"
+      ],
+      "result": {
+        "甲": "A",
+        "乙": "C",
+        "丙": "B"
+      }
+    },
+    {
+      "proposer_order": [
+        "甲",
+        "丙",
+        "乙"
+      ],
+      "result": {
+        "甲": "A",
+        "丙": "B",
+        "乙": "C"
+      }
+    },
+    {
+      "proposer_order": [
+        "乙",
+        "甲",
+        "丙"
+      ],
+      "result": {
+        "甲": "A",
+        "乙": "C",
+        "丙": "B"
+      }
+    },
+    {
+      "proposer_order": [
+        "乙",
+        "丙",
+        "甲"
+      ],
+      "result": {
+        "甲": "A",
+        "丙": "B",
+        "乙": "C"
+      }
+    },
+    {
+      "proposer_order": [
+        "丙",
+        "甲",
+        "乙"
+      ],
+      "result": {
+        "丙": "B",
+        "甲": "A",
+        "乙": "C"
+      }
+    },
+    {
+      "proposer_order": [
+        "丙",
+        "乙",
+        "甲"
+      ],
+      "result": {
+        "丙": "B",
+        "甲": "A",
+        "乙": "C"
+      }
+    }
+  ],
+  "all_orders_equal": true,
+  "ranks": {
+    "applicant_proposing": {
+      "甲": 1,
+      "乙": 2,
+      "丙": 1
+    },
+    "receiver_proposing": {
+      "丙": 2,
+      "甲": 2,
+      "乙": 2
+    }
+  },
+  "B_to_A_impossible_proof": "If 乙 is assigned A, 甲 must be elsewhere and strictly prefers A; A strictly prefers 甲 to 乙. Therefore (甲,A) blocks. Receiver preference alone is not sufficient for this conclusion in an arbitrary table.",
+  "scope": "Strict, fixed, complete preferences, all pairs acceptable, one slot each. Enumeration proves only this table; general theorem checked against primary author review."
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-11-04T01:28:59.428683+00:00",
+  "reviewer": "daily_baseline_1101 independent; did not author cards/runtimes or raw trial responses",
+  "model_id": "TM-160",
+  "verdict": "source_reviewed_with_required_runtime_boundaries",
+  "blocking_failures": [],
+  "source_hashes": {
+    "browser_capture_sha256": "3dd7459ea7c525c27cae47c7aa2e913d48bcf0a8397a5f45ace71ed0182cb1fb",
+    "body_utf8_sha256": "6e0ae2919fd54c933152945ab04ef107d0d97c72746068a6fc7616bd801c7c98",
+    "nonwhitespace_utf16_units": 5524,
+    "fnv1a32_code_units": "67a90afa"
+  },
+  "scope": {
+    "read_full_browser_body": true,
+    "html_tables_read": 3,
+    "media_personally_viewed": 0,
+    "media_note": "Root media-manifest records all images viewed; independent reviewer read summaries and checked bytes, not images. See source_archive_binding.",
+    "title": "思维模型160：稳定匹配模型 ——先到先得，为什么会错过双方都更愿意的搭配？",
+    "published_metadata": "原创 鬼子不言 鬼子不言\n 2026年11月4日 07:35 山东",
+    "archive_unmodified": true
+  },
+  "primary_sources": [
+    {
+      "url": "https://stanford.edu/~alroth/papers/GaleandShapley.revised.IJGT.pdf",
+      "scope": "Primary author Roth 2008 review, pp1–6: acceptable partners, blocking, tentative DA, strict proposer-optimal theorem, many-to-one conditions; targeted passages on 1998 NRMP and 2003/2005–06 school timing. Not all 39 pages independently audited."
+    },
+    {
+      "url": "https://www.nrmp.org/intro-to-the-match/how-matching-algorithm-works/",
+      "scope": "Official current step-by-step: mutual ranking, capacity, tentative displacement, finality only after algorithm. Not a proof of guarantees with every real NRMP variation."
+    },
+    {
+      "url": "https://stanford.edu/~alroth/papers/1997_JAMA_EffectsOfTheChange.html",
+      "scope": "Original Roth/Peranson 1997 paper: May1997 vote for1998, simple-market properties and failure of general guarantees with couples/linked positions; algorithm sequencing passage."
+    },
+    {
+      "url": "https://web.stanford.edu/~ashishg/cs261/win21/notes/l5_note.pdf",
+      "scope": "Official Stanford lecture: blocking-pair definition, basic DA and stability proof, application caution. Its reference to a1960 paper is not used for publication year; GS1962 is checked via Roth bibliography."
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2012/press-release/",
+      "scope": "Official Nobel press-release text returned by search confirms 2012 laureates Alvin Roth and Lloyd Shapley. Direct open returned403; search text is the inspected surface, not a claimed successful direct full-page visit."
+    }
+  ],
+  "arithmetic_record": "source-arithmetic160.json",
+  "issues": [
+    {
+      "id": "stable_scope",
+      "severity": "P1_misuse_risk",
+      "finding": "Stability requires individual acceptability and no mutually improving unmatched pair under declared model; does not imply equality, total welfare maximum or everyone first choice."
+    },
+    {
+      "id": "proposing_side",
+      "severity": "P1_misuse_risk",
+      "finding": "Optimality concerns the proposing side across stable matchings for fixed reported strict preferences, not fastest individual outreach."
+    },
+    {
+      "id": "incomplete_lists",
+      "severity": "P1_misuse_risk",
+      "finding": "An omitted/unacceptable partner cannot be forced to fill seats. Stop when unmatched proposers exhaust acceptable options; unmatched can be valid."
+    },
+    {
+      "id": "tentative_commitment",
+      "severity": "P1_misuse_risk",
+      "finding": "DA holds are explicitly tentative; real binding contracts cannot be silently undone by algorithm."
+    },
+    {
+      "id": "ties_couples_quotas",
+      "severity": "P1_misuse_risk",
+      "finding": "Ties, linked quotas, couples or changing preferences require explicit extended assumptions; no blanket existence/optimality guarantee."
+    },
+    {
+      "id": "one_sided_proof",
+      "severity": "P2_source",
+      "finding": "乙 cannot receiveA in this particular stable table because甲 andA block; receiver ranking alone is not a sufficient generic proof."
+    },
+    {
+      "id": "history_scope",
+      "severity": "P3_limit",
+      "finding": "1962,NRMP1997/1998 and school introduction timing partially checked; Japan exactdate and NYC30000to3000 causal attribution not independently fully checked. Prize attribution must name Roth and Shapley, notGale."
+    }
+  ],
+  "behavior_test_status": "not_executed_or_reviewed_here",
+  "limits": [
+    "Source original retained, corrections belong only in reviewed operational layer.",
+    "Source review is not behavioral validation or evidence of real-world effectiveness."
+  ],
+  "source_archive_binding": {
+    "bound_at": "2026-11-04T01:36:47.783823+00:00",
+    "source_markdown_sha256": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+    "source_manifest_sha256": "73d7d35a9ed2a0451b75697a258c5254dd931c28938f0ea6c666086b509b592e",
+    "body_sha256": "6e0ae2919fd54c933152945ab04ef107d0d97c72746068a6fc7616bd801c7c98",
+    "all_markdown_table_cells_match": true,
+    "all_body_characters_match_ignoring_whitespace_and_table_syntax": true,
+    "table_count": 3,
+    "media_manifest_sha256": "e4272cbbdf06f5ab340a968060fa5dad396517be4beea8da0107a32dc1cccf0b",
+    "media_files_hash_checked": 4,
+    "media_personally_viewed": 0,
+    "media_visual_reviewer": "root",
+    "media_visual_scope": "Read root media-manifest visual summaries and verified all archived media byte hashes. This independent reviewer did not visually inspect images. Root reports all14visual inspections; not verification of every underlying external claim."
+  }
+}

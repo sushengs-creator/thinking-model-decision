@@ -1,0 +1,86 @@
+{
+  "checked_at": "2026-11-04T01:41:50.022427+00:00",
+  "literal_request_metric_amendment": {
+    "reason": "Design expected answer and earlier design reviewer used standard fulfilled-demand ratio. Actual input explicitly defines total preordered supply divided by total demand. The executor transparently followed Q/E[D] and also reported the standard min(D,Q) ratio. This is a request-definition ambiguity, not answer arithmetic failure. Prior design review retained; this amendment supersedes metric interpretation only.",
+    "rows": [
+      {
+        "Q": 4,
+        "literal_Q_div_mean": "20/31",
+        "literal_decimal": 0.6451612903225806,
+        "fulfilled_min_div_mean": "20/31",
+        "fulfilled_decimal": 0.6451612903225806
+      },
+      {
+        "Q": 6,
+        "literal_Q_div_mean": "30/31",
+        "literal_decimal": 0.967741935483871,
+        "fulfilled_min_div_mean": "28/31",
+        "fulfilled_decimal": 0.9032258064516129
+      },
+      {
+        "Q": 8,
+        "literal_Q_div_mean": "40/31",
+        "literal_decimal": 1.2903225806451613,
+        "fulfilled_min_div_mean": "1",
+        "fulfilled_decimal": 1.0
+      }
+    ],
+    "choice_same_under_both": 6
+  },
+  "source_records": [
+    "cases-arithmetic159.json",
+    "cases-arithmetic160.json"
+  ],
+  "time_sums": {
+    "159_fit": {
+      "used": 5,
+      "future": [
+        3,
+        5,
+        8,
+        4,
+        7,
+        8
+      ],
+      "total": 40
+    },
+    "159_misuse": {
+      "used": 5,
+      "future": [
+        3,
+        4,
+        5,
+        2,
+        4,
+        2,
+        3,
+        2
+      ],
+      "total": 30
+    },
+    "160_fit": {
+      "organizer": [
+        6,
+        12,
+        7,
+        8,
+        9,
+        3
+      ],
+      "organizer_total": 45,
+      "participants": 24,
+      "collaborator": 10,
+      "all": 79,
+      "role_caps_respected": true,
+      "unallocated11_not_transferable_automatically": true
+    }
+  },
+  "static_embedded_html": {
+    "present_in_160_fit": true,
+    "standalone_file_written_by_executor": false,
+    "scripts": 0,
+    "external_refs": 0,
+    "source_location_text_present": true,
+    "visual_preview_performed": false
+  }
+}

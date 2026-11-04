@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-11-04T01:24:32.973468+00:00",
+  "model_id": "TM-159",
+  "verdict": "passed_with_limits",
+  "blocking_failures": [],
+  "reviewer_independent": true,
+  "hashes": {
+    "draft_files": {
+      "source-review.md": "0dfa85372fc65b55b57182004167d198f5a7198b29e9d5d7f690bfa86fc4a153",
+      "card.md": "31803e2efe03d5bd4bbdbff4ac4d62ebb028b2da86f9504d35a606b975bd2e71",
+      "tool.md": "5aaf845d543c3d26da40f6d62bd0a355dfb548970dad3c47dd00408dce77d579",
+      "runtime-metadata.json": "367739d1299bc0f8ecdbfa3b31add1d8cdecf866a256cc4708e43caf26ce4112",
+      "cases.json": "f4a8e56de19151cb4efe207666ea97d546b939c2e9c0c073f3e673718b7f77db",
+      "routing.json": "66ee998bd0d0beb83cb04829779d78504ca976558ed21d685cf4a065fb27c1ae"
+    },
+    "capture_sha256": "c2abb5a9e78515919fd60468450240ce874a12aad0e05c1e55f2d346926b4e4c",
+    "source_markdown_sha256": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3"
+  },
+  "source_review_record": "source-review-independent159.json",
+  "arithmetic_record": "cases-arithmetic159.json",
+  "checked": [
+    "Full textual source+2tables, all6author draft files, WW-1.4 andWW-3.5 snapshot mechanisms",
+    "Mechanism preserves correct critical fractile, gross vsincremental cost and source-specific corrections",
+    "Fixed emergency allowed, staged discretionary recourse handed off",
+    "Cash hard constraints and distinct service metrics; censored sales; no invented distribution",
+    "Fit and misuse requests internally consistent, exact results independently derived",
+    "Explicit source-vs-editorial distinctions, relative references and appropriately source_checked status without behavioral pass claim"
+  ],
+  "observations": [
+    {
+      "severity": "P3",
+      "finding": "No behavioral result yet; case expected calculations are design review only."
+    },
+    {
+      "severity": "P3",
+      "finding": "Source Markdown now independently rebound and checked for complete text/table preservation; media files hash checked. Root alone performed visual review, as recorded in source_archive_binding."
+    }
+  ],
+  "ready_for_behavior_trials": true,
+  "scope_limits": [
+    "No privatecases/criteria body read",
+    "Media personally viewed0; root separate media review not presumed",
+    "No cards/runtime/raw answers modified",
+    "Primary source verification scoped in independent source report"
+  ],
+  "source_archive_binding": {
+    "bound_at": "2026-11-04T01:36:47.783823+00:00",
+    "source_markdown_sha256": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3",
+    "source_manifest_sha256": "73d7d35a9ed2a0451b75697a258c5254dd931c28938f0ea6c666086b509b592e",
+    "body_sha256": "f0d90acbd1a1b3d3b868af6a02e1647627cd163231101d13319322d019ad3f68",
+    "all_markdown_table_cells_match": true,
+    "all_body_characters_match_ignoring_whitespace_and_table_syntax": true,
+    "table_count": 2,
+    "media_manifest_sha256": "5d972b467bcefbfa92c52a1ebe025cd86578de5e7d336adbd7096087eb04965f",
+    "media_files_hash_checked": 10,
+    "media_personally_viewed": 0,
+    "media_visual_reviewer": "root",
+    "media_visual_scope": "Read root media-manifest visual summaries and verified all archived media byte hashes. This independent reviewer did not visually inspect images. Root reports all14visual inspections; not verification of every underlying external claim."
+  },
+  "draft_hashes_unchanged_at_source_binding": true
+}

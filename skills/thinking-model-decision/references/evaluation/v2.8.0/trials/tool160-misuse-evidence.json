@@ -1,0 +1,150 @@
+{
+  "left": {
+    "甲": [
+      "A"
+    ],
+    "乙": [
+      "A"
+    ],
+    "丙": [
+      "B"
+    ]
+  },
+  "right": {
+    "A": [
+      "乙",
+      "甲"
+    ],
+    "B": [
+      "丙"
+    ]
+  },
+  "initial": {
+    "甲": "A",
+    "丙": "B"
+  },
+  "initial_checks": [
+    {
+      "pair": [
+        "乙",
+        "A"
+      ],
+      "left_current": null,
+      "right_current": "甲",
+      "left_prefers": true,
+      "right_prefers": true,
+      "blocking": true
+    }
+  ],
+  "no_commitments": {
+    "matching": {
+      "乙": "A",
+      "丙": "B"
+    },
+    "log": [
+      {
+        "step": 1,
+        "applicant": "甲",
+        "receiver": "A",
+        "old": null,
+        "kept": "甲",
+        "rejected": null,
+        "queue": [
+          "乙",
+          "丙"
+        ]
+      },
+      {
+        "step": 2,
+        "applicant": "乙",
+        "receiver": "A",
+        "old": "甲",
+        "kept": "乙",
+        "rejected": "甲",
+        "queue": [
+          "丙",
+          "甲"
+        ]
+      },
+      {
+        "step": 3,
+        "applicant": "丙",
+        "receiver": "B",
+        "old": null,
+        "kept": "丙",
+        "rejected": null,
+        "queue": [
+          "甲"
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "pair": [
+          "甲",
+          "A"
+        ],
+        "left_current": null,
+        "right_current": "乙",
+        "left_prefers": true,
+        "right_prefers": false,
+        "blocking": false
+      }
+    ]
+  },
+  "reverse_no_commitments": {
+    "matching": {
+      "乙": "A",
+      "丙": "B"
+    },
+    "log": [
+      {
+        "step": 1,
+        "applicant": "A",
+        "receiver": "乙",
+        "old": null,
+        "kept": "A",
+        "rejected": null,
+        "queue": [
+          "B"
+        ]
+      },
+      {
+        "step": 2,
+        "applicant": "B",
+        "receiver": "丙",
+        "old": null,
+        "kept": "B",
+        "rejected": null,
+        "queue": []
+      }
+    ]
+  },
+  "all_stable_no_commitments": [
+    {
+      "乙": "A",
+      "丙": "B"
+    }
+  ],
+  "locked": {
+    "commitment": {
+      "甲": "A"
+    },
+    "remaining_matching": {
+      "丙": "B"
+    },
+    "remaining_log": [
+      {
+        "step": 1,
+        "applicant": "丙",
+        "receiver": "B",
+        "old": null,
+        "kept": "丙",
+        "rejected": null,
+        "queue": []
+      }
+    ],
+    "remaining_checks": []
+  },
+  "capacity_maximum": 2
+}

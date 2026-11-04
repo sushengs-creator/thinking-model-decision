@@ -1,0 +1,484 @@
+{
+  "version": "2.8.0",
+  "check_date": "2026-11-04",
+  "run_id": "20261104T015044418209Z",
+  "scope": "Current source/index integrity and lexical retrieval only; no suitability probability or real-world validation",
+  "checks": [
+    {
+      "exit_code": 0,
+      "name": "library_validate",
+      "output": {
+        "ok": true,
+        "partial_fixture_mode": false,
+        "version": "2.8.0",
+        "revision": 167,
+        "counts": {
+          "user_models": 160,
+          "wan_tools": 100,
+          "cards": 160,
+          "card_statuses": {
+            "source_reviewed": 117,
+            "sample_reviewed": 8,
+            "behavior_checked": 35
+          },
+          "content_statuses": {
+            "source_archived": 160,
+            "existing_skill_snapshot": 100
+          }
+        },
+        "needs_review": [],
+        "errors": [],
+        "warnings": [],
+        "provenance_note": "source_sha256 保存原来源指纹；未提供 source_path 的原始来源不在包内，不能重算验证。可携带正文、HTML、卡片及验证记录按各自哈希核验。"
+      }
+    },
+    {
+      "exit_code": 0,
+      "name": "tool_runtime_validate",
+      "output": {
+        "ok": true,
+        "errors": [],
+        "scope": "Structural and fingerprint checks only; not behavioral proof"
+      }
+    },
+    {
+      "exit_code": 0,
+      "name": "library_search",
+      "query": "报童模型",
+      "expected_candidate": "TM-159",
+      "returned_ids": [
+        "TM-159",
+        "TM-132",
+        "TM-148",
+        "TM-158",
+        "TM-047",
+        "TM-056",
+        "TM-071",
+        "TM-082"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "library_search",
+      "query": "订多少份",
+      "expected_candidate": "TM-159",
+      "returned_ids": [
+        "TM-159",
+        "TM-084",
+        "TM-051",
+        "TM-054",
+        "TM-077",
+        "WW-3.6"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "library_search",
+      "query": "售罄截断",
+      "expected_candidate": "TM-159",
+      "returned_ids": [
+        "TM-159"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "library_search",
+      "query": "整箱起订",
+      "expected_candidate": "TM-159",
+      "returned_ids": [
+        "TM-159"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "library_search",
+      "query": "稳定匹配模型",
+      "expected_candidate": "TM-160",
+      "returned_ids": [
+        "TM-160",
+        "TM-157",
+        "TM-132",
+        "TM-148",
+        "TM-158",
+        "TM-159",
+        "TM-047",
+        "TM-056"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "library_search",
+      "query": "先到先得",
+      "expected_candidate": "TM-160",
+      "returned_ids": [
+        "TM-160",
+        "TM-129",
+        "TM-158"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "library_search",
+      "query": "阻碍对",
+      "expected_candidate": "TM-160",
+      "returned_ids": [
+        "TM-160"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "library_search",
+      "query": "延迟接受",
+      "expected_candidate": "TM-160",
+      "returned_ids": [
+        "TM-160",
+        "TM-084",
+        "TM-019",
+        "TM-046",
+        "TM-047",
+        "TM-049",
+        "TM-066",
+        "TM-072"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "library_search",
+      "query": "瓶颈效应",
+      "expected_candidate": "TM-085",
+      "returned_ids": [
+        "TM-085",
+        "TM-089",
+        "TM-003",
+        "TM-005",
+        "TM-006",
+        "TM-008",
+        "TM-010",
+        "TM-012"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "library_search",
+      "query": "安全边际",
+      "expected_candidate": "TM-058",
+      "returned_ids": [
+        "TM-058",
+        "TM-052",
+        "TM-060",
+        "TM-065",
+        "TM-139",
+        "WW-2.11",
+        "WW-8.6",
+        "TM-067"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "library_search",
+      "query": "关键路径法",
+      "expected_candidate": "TM-155",
+      "returned_ids": [
+        "TM-155",
+        "TM-007",
+        "TM-137",
+        "WW-8.7",
+        "TM-021",
+        "TM-022",
+        "TM-023",
+        "TM-026"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "library_search",
+      "query": "排队模型",
+      "expected_candidate": "TM-158",
+      "returned_ids": [
+        "TM-158",
+        "TM-132",
+        "TM-148",
+        "TM-159",
+        "TM-027",
+        "TM-047",
+        "TM-056",
+        "TM-071"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "library_search",
+      "query": "颗粒度",
+      "expected_candidate": "WW-3.3",
+      "returned_ids": [
+        "WW-3.3",
+        "TM-014",
+        "WW-7.6"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "library_search",
+      "query": "反馈回路",
+      "expected_candidate": "WW-8.4",
+      "returned_ids": [
+        "TM-083",
+        "WW-8.4",
+        "TM-051",
+        "TM-082",
+        "TM-086",
+        "TM-087",
+        "TM-092",
+        "TM-094"
+      ],
+      "candidate_found": true,
+      "rank": 2
+    },
+    {
+      "exit_code": 0,
+      "name": "tool_runtime_search",
+      "query": "报童模型",
+      "expected_candidate": "TM-159",
+      "returned_ids": [
+        "TM-159",
+        "TM-158",
+        "TM-047",
+        "TM-056",
+        "TM-071",
+        "TM-082",
+        "TM-087",
+        "TM-088"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "tool_runtime_search",
+      "query": "订多少份",
+      "expected_candidate": "TM-159",
+      "returned_ids": [
+        "TM-159",
+        "TM-078",
+        "TM-081",
+        "TM-082",
+        "TM-054",
+        "TM-056",
+        "TM-069",
+        "WW-3.6"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "tool_runtime_search",
+      "query": "售罄截断",
+      "expected_candidate": "TM-159",
+      "returned_ids": [
+        "TM-159"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "tool_runtime_search",
+      "query": "整箱起订",
+      "expected_candidate": "TM-159",
+      "returned_ids": [
+        "TM-159"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "tool_runtime_search",
+      "query": "稳定匹配模型",
+      "expected_candidate": "TM-160",
+      "returned_ids": [
+        "TM-160",
+        "TM-158",
+        "TM-159",
+        "TM-047",
+        "TM-056",
+        "TM-071",
+        "TM-082",
+        "TM-087"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "tool_runtime_search",
+      "query": "先到先得",
+      "expected_candidate": "TM-160",
+      "returned_ids": [
+        "TM-160"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "tool_runtime_search",
+      "query": "阻碍对",
+      "expected_candidate": "TM-160",
+      "returned_ids": [
+        "TM-160",
+        "TM-122"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "tool_runtime_search",
+      "query": "延迟接受",
+      "expected_candidate": "TM-160",
+      "returned_ids": [
+        "TM-160",
+        "TM-084",
+        "TM-143",
+        "TM-150",
+        "TM-033",
+        "TM-050",
+        "TM-078",
+        "TM-117"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "tool_runtime_search",
+      "query": "瓶颈效应",
+      "expected_candidate": "TM-085",
+      "returned_ids": [
+        "TM-085",
+        "TM-003",
+        "TM-005",
+        "TM-006",
+        "TM-008",
+        "TM-010",
+        "TM-012",
+        "TM-014"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "tool_runtime_search",
+      "query": "安全边际",
+      "expected_candidate": "TM-058",
+      "returned_ids": [
+        "TM-058",
+        "TM-065",
+        "TM-139",
+        "WW-2.11",
+        "WW-8.6",
+        "TM-028",
+        "WW-3.8",
+        "WW-7.6"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "tool_runtime_search",
+      "query": "关键路径法",
+      "expected_candidate": "TM-155",
+      "returned_ids": [
+        "TM-155",
+        "TM-007",
+        "WW-8.7",
+        "TM-095",
+        "TM-090",
+        "TM-147",
+        "TM-024",
+        "TM-046"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "tool_runtime_search",
+      "query": "排队模型",
+      "expected_candidate": "TM-158",
+      "returned_ids": [
+        "TM-158",
+        "TM-159",
+        "TM-047",
+        "TM-056",
+        "TM-071",
+        "TM-082",
+        "TM-087",
+        "TM-088"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "tool_runtime_search",
+      "query": "颗粒度",
+      "expected_candidate": "WW-3.3",
+      "returned_ids": [
+        "WW-3.3",
+        "WW-7.6"
+      ],
+      "candidate_found": true,
+      "rank": 1
+    },
+    {
+      "exit_code": 0,
+      "name": "tool_runtime_search",
+      "query": "反馈回路",
+      "expected_candidate": "WW-8.4",
+      "returned_ids": [
+        "TM-083",
+        "WW-8.4",
+        "TM-133",
+        "TM-124",
+        "TM-152",
+        "TM-006",
+        "TM-011",
+        "TM-017"
+      ],
+      "candidate_found": true,
+      "rank": 2
+    }
+  ],
+  "ok": true
+}

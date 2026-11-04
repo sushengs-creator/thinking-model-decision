@@ -1,0 +1,661 @@
+{
+  "left": {
+    "甲": [
+      "A",
+      "C",
+      "D",
+      "B"
+    ],
+    "乙": [
+      "B",
+      "A",
+      "D",
+      "C"
+    ],
+    "丙": [
+      "A",
+      "D",
+      "B",
+      "C"
+    ],
+    "丁": [
+      "B",
+      "D",
+      "A",
+      "C"
+    ]
+  },
+  "right": {
+    "A": [
+      "丁",
+      "乙",
+      "甲",
+      "丙"
+    ],
+    "B": [
+      "丙",
+      "甲",
+      "丁",
+      "乙"
+    ],
+    "C": [
+      "乙",
+      "丁",
+      "丙",
+      "甲"
+    ],
+    "D": [
+      "乙",
+      "甲",
+      "丙",
+      "丁"
+    ]
+  },
+  "initial": {
+    "甲": "A",
+    "乙": "B",
+    "丙": "C",
+    "丁": "D"
+  },
+  "initial_checks": [
+    {
+      "pair": [
+        "甲",
+        "C"
+      ],
+      "left_current": "A",
+      "right_current": "丙",
+      "left_prefers": false,
+      "right_prefers": false,
+      "blocking": false
+    },
+    {
+      "pair": [
+        "甲",
+        "D"
+      ],
+      "left_current": "A",
+      "right_current": "丁",
+      "left_prefers": false,
+      "right_prefers": true,
+      "blocking": false
+    },
+    {
+      "pair": [
+        "甲",
+        "B"
+      ],
+      "left_current": "A",
+      "right_current": "乙",
+      "left_prefers": false,
+      "right_prefers": true,
+      "blocking": false
+    },
+    {
+      "pair": [
+        "乙",
+        "A"
+      ],
+      "left_current": "B",
+      "right_current": "甲",
+      "left_prefers": false,
+      "right_prefers": true,
+      "blocking": false
+    },
+    {
+      "pair": [
+        "乙",
+        "D"
+      ],
+      "left_current": "B",
+      "right_current": "丁",
+      "left_prefers": false,
+      "right_prefers": true,
+      "blocking": false
+    },
+    {
+      "pair": [
+        "乙",
+        "C"
+      ],
+      "left_current": "B",
+      "right_current": "丙",
+      "left_prefers": false,
+      "right_prefers": true,
+      "blocking": false
+    },
+    {
+      "pair": [
+        "丙",
+        "A"
+      ],
+      "left_current": "C",
+      "right_current": "甲",
+      "left_prefers": true,
+      "right_prefers": false,
+      "blocking": false
+    },
+    {
+      "pair": [
+        "丙",
+        "D"
+      ],
+      "left_current": "C",
+      "right_current": "丁",
+      "left_prefers": true,
+      "right_prefers": true,
+      "blocking": true
+    },
+    {
+      "pair": [
+        "丙",
+        "B"
+      ],
+      "left_current": "C",
+      "right_current": "乙",
+      "left_prefers": true,
+      "right_prefers": true,
+      "blocking": true
+    },
+    {
+      "pair": [
+        "丁",
+        "B"
+      ],
+      "left_current": "D",
+      "right_current": "乙",
+      "left_prefers": true,
+      "right_prefers": true,
+      "blocking": true
+    },
+    {
+      "pair": [
+        "丁",
+        "A"
+      ],
+      "left_current": "D",
+      "right_current": "甲",
+      "left_prefers": false,
+      "right_prefers": true,
+      "blocking": false
+    },
+    {
+      "pair": [
+        "丁",
+        "C"
+      ],
+      "left_current": "D",
+      "right_current": "丙",
+      "left_prefers": false,
+      "right_prefers": true,
+      "blocking": false
+    }
+  ],
+  "student_proposing": {
+    "matching": {
+      "乙": "A",
+      "丁": "B",
+      "丙": "D",
+      "甲": "C"
+    },
+    "log": [
+      {
+        "step": 1,
+        "applicant": "甲",
+        "receiver": "A",
+        "old": null,
+        "kept": "甲",
+        "rejected": null,
+        "queue": [
+          "乙",
+          "丙",
+          "丁"
+        ]
+      },
+      {
+        "step": 2,
+        "applicant": "乙",
+        "receiver": "B",
+        "old": null,
+        "kept": "乙",
+        "rejected": null,
+        "queue": [
+          "丙",
+          "丁"
+        ]
+      },
+      {
+        "step": 3,
+        "applicant": "丙",
+        "receiver": "A",
+        "old": "甲",
+        "kept": "甲",
+        "rejected": "丙",
+        "queue": [
+          "丁",
+          "丙"
+        ]
+      },
+      {
+        "step": 4,
+        "applicant": "丁",
+        "receiver": "B",
+        "old": "乙",
+        "kept": "丁",
+        "rejected": "乙",
+        "queue": [
+          "丙",
+          "乙"
+        ]
+      },
+      {
+        "step": 5,
+        "applicant": "丙",
+        "receiver": "D",
+        "old": null,
+        "kept": "丙",
+        "rejected": null,
+        "queue": [
+          "乙"
+        ]
+      },
+      {
+        "step": 6,
+        "applicant": "乙",
+        "receiver": "A",
+        "old": "甲",
+        "kept": "乙",
+        "rejected": "甲",
+        "queue": [
+          "甲"
+        ]
+      },
+      {
+        "step": 7,
+        "applicant": "甲",
+        "receiver": "C",
+        "old": null,
+        "kept": "甲",
+        "rejected": null,
+        "queue": []
+      }
+    ],
+    "checks": [
+      {
+        "pair": [
+          "甲",
+          "A"
+        ],
+        "left_current": "C",
+        "right_current": "乙",
+        "left_prefers": true,
+        "right_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "甲",
+          "D"
+        ],
+        "left_current": "C",
+        "right_current": "丙",
+        "left_prefers": false,
+        "right_prefers": true,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "甲",
+          "B"
+        ],
+        "left_current": "C",
+        "right_current": "丁",
+        "left_prefers": false,
+        "right_prefers": true,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "乙",
+          "B"
+        ],
+        "left_current": "A",
+        "right_current": "丁",
+        "left_prefers": true,
+        "right_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "乙",
+          "D"
+        ],
+        "left_current": "A",
+        "right_current": "丙",
+        "left_prefers": false,
+        "right_prefers": true,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "乙",
+          "C"
+        ],
+        "left_current": "A",
+        "right_current": "甲",
+        "left_prefers": false,
+        "right_prefers": true,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "丙",
+          "A"
+        ],
+        "left_current": "D",
+        "right_current": "乙",
+        "left_prefers": true,
+        "right_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "丙",
+          "B"
+        ],
+        "left_current": "D",
+        "right_current": "丁",
+        "left_prefers": false,
+        "right_prefers": true,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "丙",
+          "C"
+        ],
+        "left_current": "D",
+        "right_current": "甲",
+        "left_prefers": false,
+        "right_prefers": true,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "丁",
+          "D"
+        ],
+        "left_current": "B",
+        "right_current": "丙",
+        "left_prefers": false,
+        "right_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "丁",
+          "A"
+        ],
+        "left_current": "B",
+        "right_current": "乙",
+        "left_prefers": false,
+        "right_prefers": true,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "丁",
+          "C"
+        ],
+        "left_current": "B",
+        "right_current": "甲",
+        "left_prefers": false,
+        "right_prefers": true,
+        "blocking": false
+      }
+    ]
+  },
+  "mentor_proposing": {
+    "matching": {
+      "丁": "A",
+      "丙": "B",
+      "乙": "D",
+      "甲": "C"
+    },
+    "log": [
+      {
+        "step": 1,
+        "applicant": "A",
+        "receiver": "丁",
+        "old": null,
+        "kept": "A",
+        "rejected": null,
+        "queue": [
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      {
+        "step": 2,
+        "applicant": "B",
+        "receiver": "丙",
+        "old": null,
+        "kept": "B",
+        "rejected": null,
+        "queue": [
+          "C",
+          "D"
+        ]
+      },
+      {
+        "step": 3,
+        "applicant": "C",
+        "receiver": "乙",
+        "old": null,
+        "kept": "C",
+        "rejected": null,
+        "queue": [
+          "D"
+        ]
+      },
+      {
+        "step": 4,
+        "applicant": "D",
+        "receiver": "乙",
+        "old": "C",
+        "kept": "D",
+        "rejected": "C",
+        "queue": [
+          "C"
+        ]
+      },
+      {
+        "step": 5,
+        "applicant": "C",
+        "receiver": "丁",
+        "old": "A",
+        "kept": "A",
+        "rejected": "C",
+        "queue": [
+          "C"
+        ]
+      },
+      {
+        "step": 6,
+        "applicant": "C",
+        "receiver": "丙",
+        "old": "B",
+        "kept": "B",
+        "rejected": "C",
+        "queue": [
+          "C"
+        ]
+      },
+      {
+        "step": 7,
+        "applicant": "C",
+        "receiver": "甲",
+        "old": null,
+        "kept": "C",
+        "rejected": null,
+        "queue": []
+      }
+    ],
+    "checks": [
+      {
+        "pair": [
+          "甲",
+          "A"
+        ],
+        "left_current": "C",
+        "right_current": "丁",
+        "left_prefers": true,
+        "right_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "甲",
+          "D"
+        ],
+        "left_current": "C",
+        "right_current": "乙",
+        "left_prefers": false,
+        "right_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "甲",
+          "B"
+        ],
+        "left_current": "C",
+        "right_current": "丙",
+        "left_prefers": false,
+        "right_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "乙",
+          "B"
+        ],
+        "left_current": "D",
+        "right_current": "丙",
+        "left_prefers": true,
+        "right_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "乙",
+          "A"
+        ],
+        "left_current": "D",
+        "right_current": "丁",
+        "left_prefers": true,
+        "right_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "乙",
+          "C"
+        ],
+        "left_current": "D",
+        "right_current": "甲",
+        "left_prefers": false,
+        "right_prefers": true,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "丙",
+          "A"
+        ],
+        "left_current": "B",
+        "right_current": "丁",
+        "left_prefers": true,
+        "right_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "丙",
+          "D"
+        ],
+        "left_current": "B",
+        "right_current": "乙",
+        "left_prefers": true,
+        "right_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "丙",
+          "C"
+        ],
+        "left_current": "B",
+        "right_current": "甲",
+        "left_prefers": false,
+        "right_prefers": true,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "丁",
+          "B"
+        ],
+        "left_current": "A",
+        "right_current": "丙",
+        "left_prefers": true,
+        "right_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "丁",
+          "D"
+        ],
+        "left_current": "A",
+        "right_current": "乙",
+        "left_prefers": true,
+        "right_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": [
+          "丁",
+          "C"
+        ],
+        "left_current": "A",
+        "right_current": "甲",
+        "left_prefers": false,
+        "right_prefers": true,
+        "blocking": false
+      }
+    ]
+  },
+  "all_stable": [
+    {
+      "甲": "C",
+      "乙": "A",
+      "丙": "D",
+      "丁": "B"
+    },
+    {
+      "甲": "C",
+      "乙": "D",
+      "丙": "B",
+      "丁": "A"
+    }
+  ],
+  "budget": {
+    "organizer": 45,
+    "participants": 24,
+    "collaborator": 10,
+    "total": 79,
+    "remaining_total": 11
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "skill_root": "../../../..",
+  "input": {
+    "path": "../inputs/tool-160.json",
+    "sha256": "b1b9fae9cd768549129af42714cc1f924ef6a236c41c55b9c2a29f26ce53d943",
+    "fields_read": [
+      "id",
+      "request"
+    ]
+  },
+  "resources": [
+    {
+      "path": "SKILL.md",
+      "sha256": "cf6ef7f93ed569e33913ac93fa13de329104d4d1675080aca620a4b26654c8cd",
+      "read_scope": "full"
+    },
+    {
+      "path": "references/tools/TM-160.md",
+      "sha256": "33c5c5d132378008721e488e3d40c95b5863701d98232ea38163b7d74956c48c",
+      "read_scope": "full"
+    },
+    {
+      "path": "references/cards/TM-160.md",
+      "sha256": "2863d84959ee0a09143825c0f3281142989b47a98ecb6a368ebb60b05a3ffd16",
+      "read_scope": "full"
+    },
+    {
+      "path": "references/user-models/TM-160.md",
+      "sha256": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+      "read_scope": "full, recovered the initially truncated tail through a subsequent read"
+    },
+    {
+      "path": "references/toolbox-orchestration.md",
+      "sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "read_scope": "full"
+    },
+    {
+      "path": "references/tool-runtime.md",
+      "sha256": "f87ad1e7c8c5051afc8acf85db539779d8f6069dd40e81fd69e24faf6cd06145",
+      "read_scope": "full"
+    },
+    {
+      "path": "references/decision-report.md",
+      "sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "read_scope": "full"
+    },
+    {
+      "path": "references/html-action-plan.md",
+      "sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef",
+      "read_scope": "full"
+    },
+    {
+      "path": "references/model-relations.md",
+      "sha256": "9cb71d4e2058287835db59c0c6507b388af299269c49589b5357dda4be2c640c",
+      "read_scope": "targeted rg search for TM-160 and 稳定匹配; no matching text returned"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "tool160.json",
+      "sha256": "906ca3e96f3acd00fe7fb7b1e671650bbae6c3c2d98691c79a6c134f5d0934ac"
+    },
+    {
+      "path": "tool160-fit-output.txt",
+      "sha256": "ccb518c68df23606335216f907e9b86fd1181b664cc06bdd48df5b081ee79955"
+    },
+    {
+      "path": "tool160-misuse-output.txt",
+      "sha256": "57bde286cc52e0ee6c32e9d0ee3d07bca75ec4b4831ababc1ea4e28c4d167e4b"
+    },
+    {
+      "path": "tool160-calculate.py",
+      "sha256": "dc0cd690d9419042cdb6cc5c74954552b50bf6201945ca6ed7398ab629ed9fb3"
+    },
+    {
+      "path": "tool160-fit-evidence.json",
+      "sha256": "5753c549cc7118b38961dcb94431dc8fbe72bc26446cce3b92fad5b02565d714"
+    },
+    {
+      "path": "tool160-misuse-evidence.json",
+      "sha256": "f00e9f3c4fa470a1590d898444dc1575fc758a8059a3753d73ee75598728f98f"
+    }
+  ],
+  "case_separation": "Each case has a separate untouched output text and separate calculation evidence; tool160.json packages their raw inputs and outputs."
+}

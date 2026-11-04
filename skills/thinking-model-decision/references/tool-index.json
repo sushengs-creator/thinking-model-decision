@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "version": "2.7.0",
-  "scope": "158 runtime tools; source checking, recorded trials, reviewed trials and real outcomes are distinct.",
+  "version": "2.8.0",
+  "scope": "160 runtime tools; source checking, recorded trials, reviewed trials and real outcomes are distinct.",
   "tools": [
     {
       "id": "TM-001",
@@ -5336,6 +5336,95 @@
       "card_sha256": "9c29a9be8132eb9386873da192b39bf8946bbc6eec7cf3a599d39188ae4466ec",
       "runtime_path": "references/tools/TM-158.md",
       "runtime_sha256": "602ad0a3d5ad9371d784b0b437df0dd2a9ebaf958ff2f090e86d889bfcba8804"
+    },
+    {
+      "id": "TM-159",
+      "name": "报童模型",
+      "task": "把不确定需求、多备与少备的增量损失及服务预算条件转换为本轮可执行的准备量和更新条件",
+      "roles": [
+        "澄清",
+        "证据",
+        "约束",
+        "选项",
+        "取舍",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "报童模型",
+        "单周期库存",
+        "订多少份",
+        "备多少货",
+        "多备浪费",
+        "少备不够",
+        "按平均数量",
+        "应急采购",
+        "缺货损失",
+        "剩余回收",
+        "需求预测",
+        "售罄截断",
+        "服务水平",
+        "整箱起订",
+        "订餐数量"
+      ],
+      "output": "需求依据与两边增量账、可行数量的期望成本及服务比较、条件推荐、立即行动和复盘信号",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.8.0/trials/tool159.json",
+        "references/evaluation/v2.8.0/trials/entry.json"
+      ],
+      "review_records": [
+        "references/evaluation/v2.8.0/reviews/tool-review.md",
+        "references/evaluation/v2.8.0/reviews/entry-review.md"
+      ],
+      "source_review_records": [
+        "references/validation/TM-159-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-159.md",
+      "source_sha256": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3",
+      "card_path": "references/cards/TM-159.md",
+      "card_sha256": "31803e2efe03d5bd4bbdbff4ac4d62ebb028b2da86f9504d35a606b975bd2e71",
+      "runtime_path": "references/tools/TM-159.md",
+      "runtime_sha256": "5aaf845d543c3d26da40f6d62bd0a355dfb548970dad3c47dd00408dce77d579"
+    },
+    {
+      "id": "TM-160",
+      "name": "稳定匹配模型",
+      "task": "识别双向选择中的阻碍对，运行并比较暂定后确认的配对程序，形成尊重可接受性与既有承诺的方案",
+      "roles": [
+        "参与者",
+        "约束",
+        "选项",
+        "取舍",
+        "执行"
+      ],
+      "signals": [
+        "名单配满了但有人双方都想换",
+        "先到先得锁住双方更愿意的搭档",
+        "导师和学员都有排序不知道怎样配",
+        "想比较让谁提出申请",
+        "有人落单是否说明安排不稳定",
+        "用延迟接受程序先暂定后确认"
+      ],
+      "output": "前提与承诺范围、阻碍对核查、可复算申请日志、候选配对及落单、申请侧受益比较、公平审查和实施/重算条件",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.8.0/trials/tool160.json",
+        "references/evaluation/v2.8.0/trials/entry.json"
+      ],
+      "review_records": [
+        "references/evaluation/v2.8.0/reviews/tool-review.md",
+        "references/evaluation/v2.8.0/reviews/entry-review.md"
+      ],
+      "source_review_records": [
+        "references/validation/TM-160-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-160.md",
+      "source_sha256": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+      "card_path": "references/cards/TM-160.md",
+      "card_sha256": "2863d84959ee0a09143825c0f3281142989b47a98ecb6a368ebb60b05a3ffd16",
+      "runtime_path": "references/tools/TM-160.md",
+      "runtime_sha256": "33c5c5d132378008721e488e3d40c95b5863701d98232ea38163b7d74956c48c"
     }
   ]
 }

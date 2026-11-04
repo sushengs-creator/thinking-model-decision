@@ -9199,5 +9199,171 @@
     },
     "validation_note_path": "references/validation-notes/TM-158.md",
     "validation_note_sha256": "717c68c8256a5cd571b20c0255386d440faefa028849dbd0bac0e1d1a732326f"
+  },
+  {
+    "id": "TM-159",
+    "title": "思维模型159：报童模型 ——钱大妈“不卖隔夜肉”，备货越多有可能会越亏吗？",
+    "short_name": "思维模型159：报童模型 ——钱大妈“不卖隔夜肉”，备货越多有可能会越亏吗？",
+    "path": "references/user-models/TM-159.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060499&idx=1&sn=2cad7c1df3af26ca50f849d04055645d&chksm=beabef2089dc6636998b206fa871fd05f818d7c7382bb42e5c3237ae1606b99905eee03839a9#rd",
+    "source_label": "微信公众号正式发表全文，本轮正常浏览器核对",
+    "captured_at": "2026-11-04",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3",
+    "content_sha256": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-159.md",
+    "search_terms": [
+      "思维模型159：报童模型 ——钱大妈“不卖隔夜肉”，备货越多有可能会越亏吗？"
+    ],
+    "card_sha256": "31803e2efe03d5bd4bbdbff4ac4d62ebb028b2da86f9504d35a606b975bd2e71",
+    "card_source_sha256": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3",
+    "card_status": "behavior_checked",
+    "card_revision": 2,
+    "card_registered_at": "2026-11-04T01:50:13.637270+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "需求还没揭晓就要订餐、备货或订座；按平均数量怕不够，多备又怕浪费，想判断到底该报多少",
+      "source_sections": [
+        "预计来10个人，为什么不直接订10份？",
+        "第11份值得订，第12份不值得",
+        "提前定数量，都能这样算吗？",
+        "钱大妈每天清货，多备与少备怎么算？",
+        "打折规则变了，原来的备货量还管用吗？",
+        "算出11份，还可能要订12份",
+        "这个概率，你从哪儿弄来",
+        "下次报数，先把这几笔账写下来"
+      ],
+      "search_terms": [
+        "报童模型",
+        "单周期库存",
+        "订多少份",
+        "备多少货",
+        "多备浪费",
+        "少备不够",
+        "按平均数量",
+        "应急采购",
+        "缺货损失",
+        "剩余回收",
+        "需求预测",
+        "售罄截断",
+        "服务水平",
+        "整箱起订",
+        "订餐数量"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "预测判断",
+        "比较方案",
+        "设计行动",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-1.4",
+          "relation": "互补",
+          "reason": "先确认现金、容量、时间和服务红线形成可行集合，再在集合内比较准备量的期望代价；硬约束不会被经济平均值抵消。"
+        },
+        {
+          "ww_id": "WW-3.5",
+          "relation": "互补",
+          "reason": "核实人数或应急报价前，判断不同信息会不会改变准备量及是否值得耗时；信息价值不替代需求估计，也不能在缺概率时编造收益。"
+        }
+      ],
+      "warnings": [
+        "需求预测量与最优准备量不同；售价、退订和补救政策改变时核条件需求与增量成本。",
+        "售罄销量是被供给上限截断的观察，不能直接当完整需求。",
+        "固定应急100元、正常采购20元时少备增量损失为80元，避免与采购成本重复计算。",
+        "经济分位门槛、一次不短缺概率和按总份数覆盖率是三种指标。",
+        "整箱、预算、服务及容量约束须检查允许数量的完整成本，不机械四舍五入。",
+        "固定且必然执行的应急可以纳入单次模型；可选择的多阶段补货须展开策略。",
+        "原文新闻、历史及实验概括未全部独立核实，不能据此保证现实效果。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-159.md",
+    "validation_note_sha256": "ff484f054f470b5efad689054ee7eaface33c1e098ad16e38094d95782ce5c77"
+  },
+  {
+    "id": "TM-160",
+    "title": "思维模型160：稳定匹配模型 ——先到先得，为什么会错过双方都更愿意的搭配？",
+    "short_name": "思维模型160：稳定匹配模型 ——先到先得，为什么会错过双方都更愿意的搭配？",
+    "path": "references/user-models/TM-160.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060508&idx=1&sn=19c6e5078852a8ec9f5b7a079cffafd9&chksm=beabef2f89dc6639ee22fc65ee51d22ca6fc7dceeeff07d559697d38b4db5512a100f84766a7#rd",
+    "source_label": "微信公众号正式发表全文，本轮正常浏览器核对",
+    "captured_at": "2026-11-04",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+    "content_sha256": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-160.md",
+    "search_terms": [
+      "思维模型160：稳定匹配模型 ——先到先得，为什么会错过双方都更愿意的搭配？"
+    ],
+    "card_sha256": "2863d84959ee0a09143825c0f3281142989b47a98ecb6a368ebb60b05a3ffd16",
+    "card_source_sha256": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+    "card_status": "behavior_checked",
+    "card_revision": 3,
+    "card_registered_at": "2026-11-04T01:50:13.935345+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "双方都能选择的导师、学习搭档或志愿者配对已排满，却有双方更愿意换；先到先得过早锁定，或要比较由哪一侧申请的程序",
+      "source_sections": [
+        "有人不满意，就算安排不稳定吗？",
+        "先暂定，再确认，怎样让双方有机会比较？",
+        "都是稳定结果，为什么换一方申请就不一样？",
+        "没有阻碍对，为什么仍不等于公平？",
+        "下次做配对，先把哪几件事问清楚？"
+      ],
+      "search_terms": [
+        "双方选择",
+        "配对",
+        "导师结对",
+        "学习搭档",
+        "志愿者配对",
+        "先到先得",
+        "互相想换",
+        "阻碍对",
+        "暂定",
+        "延迟接受",
+        "申请方",
+        "接收方",
+        "稳定匹配",
+        "落单",
+        "不可接受",
+        "公开程序",
+        "私人排序"
+      ],
+      "decision_stage": [
+        "比较方案",
+        "设计行动",
+        "协作博弈",
+        "系统干预"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-6.3",
+          "relation": "互补",
+          "reason": "激励相容审查自利响应、私人信息和可信承诺；稳定匹配检查给定排序下的阻碍对，不能从稳定性推出所有人真实申报。"
+        },
+        {
+          "ww_id": "WW-6.9",
+          "relation": "互补",
+          "reason": "使暂定/确认规则、异议渠道为各方共同知晓；公开程序不等于公开个人排名，也不应用来胁迫接受。"
+        }
+      ],
+      "warnings": [
+        "有限固定两侧一对一、固定严格偏好；并列、配额、多对一或组合依赖须另判保证。",
+        "配对须双方可接受；名单耗尽可落单，不得强制配满。",
+        "申请方最优只限稳定集合，不是现实先联系者占优。",
+        "稳定不等于公平、总福利最大或真实行为预测，不能据此推翻正式承诺。",
+        "私人排序仅必要人员处理；高风险实际配对需适用制度和专业审查。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-160.md",
+    "validation_note_sha256": "e8ea95c024cf9476020f77870e542d9da72a9c3d0aa871f5eb74b0dcbd90abfa"
   }
 ]

@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-11-04T01:32:35.907508+00:00",
+  "ok": false,
+  "scope": "source Markdown readback before source binding",
+  "model_id": "TM-160",
+  "source_sha256": "ecdbe3f8d1fe0107b2d300dbf7dfe3b51e5a3dae106b1589431b3c5d992550b0",
+  "failure": "Two source HTML preference tables are adjacent Markdown table blocks without blank separation. Parser will merge header/separator of second into first. Text preserved but three tables not semantically separate.",
+  "requested_fix": "Insert blank boundary between distinct table blocks during conversion; regenerate source and manifest hash. No source changes made by reviewer.",
+  "affected_lines": [
+    61,
+    62
+  ],
+  "TM159_binding_completed": true
+}

@@ -1,0 +1,34 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>订餐数量行动计划</title><style>body{font-family:system-ui,-apple-system,"PingFang SC",sans-serif;margin:0;background:#f2f5f4;color:#19312c;line-height:1.75}main{max-width:960px;margin:auto;padding:24px}h1{font-size:30px;line-height:1.35}h2{font-size:21px;margin-top:30px}.lead{background:#e1f2ea;border-left:5px solid #25745a;padding:18px;border-radius:8px}.meta{color:#526960;font-size:14px}.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}td,th{border:1px solid #c7d8d0;padding:9px;text-align:left;vertical-align:top}th{background:#e8efeb}a{color:#176e58}code{white-space:normal}li{margin:8px 0}.note{border-left:3px solid #ac924d;padding-left:14px}@media(max-width:520px){main{padding:16px}h1{font-size:25px}table{font-size:14px}}@media print{body{background:white;color:black}main{max-width:none;padding:0}.scroll{overflow:visible}table{min-width:0;font-size:10pt}tr{break-inside:avoid}h2{break-after:avoid}.lead{background:white;border:1px solid black}a{color:black}}</style></head><body><main><p class="meta">虚构执行 · 初版 · 2026-11-04 · 本报告未产生真实订餐、联系或活动效果</p>
+<h1>这次预订 10 份：先守每场现金上限，再比较平均费用</h1>
+<div class="lead"><strong>建议预订 10 份，支付 200 元。</strong>这是 6、8、10 份中，唯一同时满足“预订覆盖长期总需求至少 85%”和“每场现金不超过 240 元”的数量。第一步：由你查看下表确认预算依据，再自行下单。方案依赖人数只可能为 6、8、10，以及所述价格和费用条件仍成立。</div>
+<h2>先把这次问题放在同一张账上</h2>
+<p>这里要决定的是明天中午的预订数量。需求分布、价格和约束均来自你的陈述，未另作外部核实。20 次同类活动中，6 人、8 人、10 人分别为 4、10、6 场；本次条件没有明显变化，暂以 20%、50%、30% 作为计算分布。它们是有限样本频率，不是对明天或未来永远不变的保证。</p>
+<p>预订每份 20 元，无回收；短缺保证以 60 元一份补齐，无其他费用。允许数量只有 6、8、10。服务指标已经明确是<strong>按长期总份数汇总的预订覆盖率</strong>，无需重复询问。每场 240 元是<strong>包含应急的总现金上限</strong>，不能用平均支出替代。</p>
+<h2>计算结果与备选</h2>
+<p>每场支出：<code>C(Q,D)=20Q+60×max(D−Q,0)</code>。平均需求 <code>E[D]=6×0.2+8×0.5+10×0.3=8.2</code> 份。</p>
+<div class="scroll"><table><thead><tr><th>预订</th><th>来 6 / 8 / 10 人时支出</th><th>期望支出</th><th>平均短缺 / 剩余</th><th>预订份数覆盖</th><th>无需应急概率</th><th>硬条件结果</th></tr></thead><tbody>
+<tr><td>6 份</td><td>120 / 240 / 360 元</td><td>252 元</td><td>2.2 / 0 份</td><td>6÷8.2 = 73.17%</td><td>20%</td><td>覆盖和现金均不通过</td></tr>
+<tr><td>8 份</td><td>160 / 160 / 280 元</td><td>196 元</td><td>0.6 / 0.4 份</td><td>7.6÷8.2 = 92.68%</td><td>70%</td><td>覆盖通过；来 10 人时超支 40 元</td></tr>
+<tr><td><strong>10 份</strong></td><td><strong>200 / 200 / 200 元</strong></td><td><strong>200 元</strong></td><td>0 / 1.8 份</td><td>8.2÷8.2 = 100%</td><td>100%</td><td><strong>两项均通过，现金余量 40 元</strong></td></tr>
+</tbody></table></div>
+<p>以 20 场参考记录核算，需求合计 <code>4×6+10×8+6×10=164</code> 份。预订 8 份能覆盖 <code>4×6+10×8+6×8=152</code> 份，所以份数覆盖为 152/164，而不是 14/20 场的 70%。保证应急补齐意味着最终人人有饭；它不能把预订覆盖不足变成达标。</p>
+<p>若只追求期望费用最低，8 份是经济候选。多订一份无用，增量损失为 20 元；少订一份需要应急，相对提前订好净多花 <code>60−20=40</code> 元。分位门槛 <code>40/(40+20)=2/3≈66.67%</code>，累计概率从 6 份的 20% 跳到 8 份的 70%，所以无约束经济量为 8。这个 66.67% 既不是无需应急的 70%，也不是份数覆盖的 92.68%。</p>
+<p><strong>约束把最终选择改为 10 份。</strong>它的期望费用比 8 份多 4 元，平均剩余比 8 份多 1.4 份，但消除了本分布内的补餐和超支。6 份既更贵又不满足约束，不宜选择。</p>
+<h2>工具怎样影响了决定</h2>
+<ul><li><strong>TM-159 报童模型：</strong>将需求分布与多备、少备增量代价转换为经济候选 8 份，并逐个允许数量复算完整费用与服务指标。</li><li><strong>WW-1.4 硬约束：</strong>把 240 元逐场现金限制与 85% 份数覆盖设为不可抵消的门槛，筛出唯一可行量 10 份；把已用时间、报告阅读和自行下单放进同一截止窗口。</li></ul>
+<p>固定且保证执行的补餐已计入支出，没有新增补餐决策，因此仍可使用本次准备量模型。无需再叠加另一套同义的成本模型。</p>
+<h2>今天怎样完成，明天怎样留记录</h2>
+<p>你给出的原窗口是 25 分钟，其中取数已用 5 分钟，收到请求时余额是 <strong>20 分钟</strong>。本次模拟记录计时起点为 2026-11-04T09:38:27.624314+08:00；到报告写入前，实际处理已过 <strong>2.3 分钟</strong>。首次读取到计时启动的耗时未精确留痕，另保守扣 1 分钟。按此口径，现在最多还可分配 <strong>16.7 分钟</strong>，之后等待和阅读继续消耗它，不能再按 25 分钟重新安排。</p>
+<div class="scroll"><table><thead><tr><th>顺序与负责人</th><th>建议用时 / 触发</th><th>动作、依赖与完成标志</th></tr></thead><tbody>
+<tr><td>1 · 你</td><td>读报告首屏与比较表，2 分钟内</td><td>检查 10 份、200 元及 8 份的 280 元超限情景；无需重查已提供的概率。</td></tr>
+<tr><td>2 · 你</td><td>随后核对 1 分钟、下单 2 分钟</td><td>核对实际订单总额 200 元和数量 10；条件未变则自行提交。收到正确数量、时间及付款回执，才算预订完成。</td></tr>
+<tr><td>3 · 你</td><td>截止前记录 1 分钟</td><td>保存“选 10 是因每场现金上限；经济候选为 8”的依据与订单回执。剩余时间作为下单操作缓冲，不再扩张比较。</td></tr>
+<tr><td>4 · 你或已分工的现场负责人</td><td>明天活动结束，建议总计 2 分钟；需另有这段时间</td><td>用 1 分钟记实际人数、剩余、应急及总费用，再用 1 分钟检查是否有分布或报价变化。它发生在明天，不能偷算进今天下单前的余额。</td></tr>
+</tbody></table></div>
+<p>今天从原窗口起算，合计为 <code>已取数5 + 已处理2.3 + 保守载入1 + 阅读2 + 核对1 + 下单2 + 记录1 = 14.3 分钟</code>，相对 25 分钟留下约 <strong>10.7 分钟</strong>缓冲。明天另需建议 2 分钟，完整安排总计约 <strong>16.3 分钟</strong>，不是声称已获额外时间。实际阅读或等待更长，缓冲按等量减少；临近截止直接看首屏并自行下单，保留回执后补记理由。</p>
+<h2>何时改变方案</h2>
+<p>在需求仍限于 6、8、10、原价格不变且每场上限 240 元时，仅改变这些人数的概率，10 份仍是唯一能守住所有情景预算的允许数量。历史概率失准可能改变平均浪费的估计，但不会让 8 份在 10 人场景的 280 元自动变合规。</p>
+<ul><li>若有权者明确把现金上限提高到至少 280 元，保持当前分布与服务要求时，8 份可以重新成为最低期望费用的方案。当前没有这种授权。</li><li>若应急单价真实降到 40 元且仍保证补齐，8 份的最坏支出降为 240 元，期望费用为 184 元，可以重新比较。当前 60 元报价不能自行改写。</li><li>若人数可能超过 10、出现额外费用或订单价格改变，先核新情景总支出，不能继续沿用“固定 200 元且够用”的结论。若在新约束下没有允许量可行，需由有权者改变约束；不能私自超支。</li><li>一次剩饭不说明本次选择错误。下次结合可比记录重算需求、价格及服务口径，不因单次结果直接加减份数。</li></ul>
+<h2>来源和状态</h2>
+<p>计算输入：本次虚构请求。方法：<a href="../../../../references/tools/TM-159.md">TM-159 报童模型运行文件</a>、<a href="../../../../references/cards/TM-159.md">模型卡</a>及<a href="../../../../references/user-models/TM-159.md">原文（增量代价及服务口径部分）</a>；<a href="../../../../references/wan-tools/WW-1.4.md">WW-1.4 硬约束</a>。运行索引将两项 TM 来源标为 source_checked，不等于现实效果已验证。未用原文门店新闻或研究叙述支持本次决定。</p>
+<p class="note">当前状态：建议与 HTML 已生成；用户决定、下单、收到回执、活动执行与效果均未发生或未核实。本次仅为虚构执行。</p></main></body></html>

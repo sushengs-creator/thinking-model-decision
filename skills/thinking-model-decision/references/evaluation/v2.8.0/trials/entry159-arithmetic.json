@@ -1,0 +1,47 @@
+[
+  {
+    "q": 6,
+    "cash_by_d": [
+      120,
+      240,
+      360
+    ],
+    "expected_cash": "252",
+    "expected_short": "11/5",
+    "expected_left": "0",
+    "preorder_cover": "30/41",
+    "no_shortage_probability": "1/5",
+    "service_pass": false,
+    "cash_pass": false
+  },
+  {
+    "q": 8,
+    "cash_by_d": [
+      160,
+      160,
+      280
+    ],
+    "expected_cash": "196",
+    "expected_short": "3/5",
+    "expected_left": "2/5",
+    "preorder_cover": "38/41",
+    "no_shortage_probability": "7/10",
+    "service_pass": true,
+    "cash_pass": false
+  },
+  {
+    "q": 10,
+    "cash_by_d": [
+      200,
+      200,
+      200
+    ],
+    "expected_cash": "200",
+    "expected_short": "0",
+    "expected_left": "9/5",
+    "preorder_cover": "1",
+    "no_shortage_probability": "1",
+    "service_pass": true,
+    "cash_pass": true
+  }
+]

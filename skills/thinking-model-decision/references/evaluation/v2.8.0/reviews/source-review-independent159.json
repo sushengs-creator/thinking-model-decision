@@ -1,0 +1,94 @@
+{
+  "created_at": "2026-11-04T01:28:59.428683+00:00",
+  "reviewer": "daily_baseline_1101 independent; did not author cards/runtimes or raw trial responses",
+  "model_id": "TM-159",
+  "verdict": "source_reviewed_with_required_runtime_boundaries",
+  "blocking_failures": [],
+  "source_hashes": {
+    "browser_capture_sha256": "c2abb5a9e78515919fd60468450240ce874a12aad0e05c1e55f2d346926b4e4c",
+    "body_utf8_sha256": "f0d90acbd1a1b3d3b868af6a02e1647627cd163231101d13319322d019ad3f68",
+    "nonwhitespace_utf16_units": 6710,
+    "fnv1a32_code_units": "b0ec5c42"
+  },
+  "scope": {
+    "read_full_browser_body": true,
+    "html_tables_read": 2,
+    "media_personally_viewed": 0,
+    "media_note": "Root media-manifest records all images viewed; independent reviewer read summaries and checked bytes, not images. See source_archive_binding.",
+    "title": "思维模型159：报童模型 ——钱大妈“不卖隔夜肉”，备货越多有可能会越亏吗？",
+    "published_metadata": "原创 鬼子不言 鬼子不言\n 2026年11月3日 17:34 山东",
+    "archive_unmodified": true
+  },
+  "primary_sources": [
+    {
+      "url": "https://ocw.mit.edu/courses/15-772j-d-lab-supply-chains-fall-2014/6952be57b43aa185119c6f114908bcc5_MIT15_772JF14_Newsboy.pdf",
+      "scope": "MIT primary course notes: assumptions, incremental marginal comparison, overage/underage, CDF lower quantile; read pages1–7 extracted text. The note also uses the upper-tail complementary ratio, which must not be confused with CDF alpha."
+    },
+    {
+      "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Cachon_schweitzer_ms.pdf",
+      "scope": "Original 2000 paper abstract, introductory experimental pattern and model definition pp404–406. Supports the specified experiments, not all managers or all sectors. Full experimental/reanalysis replication not performed."
+    }
+  ],
+  "arithmetic_record": "source-arithmetic159.json",
+  "issues": [
+    {
+      "id": "ratio_drift",
+      "severity": "P1_source",
+      "finding": "Only demand changes makes80%wrong contradicts earlier correct statement. Keep original; runtime must keep alpha fixed if Cu/Co fixed and recompute Q from changed distribution."
+    },
+    {
+      "id": "forecast_recourse",
+      "severity": "P1_source",
+      "finding": "Can forecast or replenish does not categorically exclude model. Uncertainty after forecasting remains; fixed guaranteed emergency is compatible with the article objective."
+    },
+    {
+      "id": "discrete_median",
+      "severity": "P2_source",
+      "finding": "Symmetric costs imply a median, not exactly50%strictly each side. Original table has .3/.4/.3 around10."
+    },
+    {
+      "id": "service_metrics",
+      "severity": "P1_misuse_risk",
+      "finding": "Economic alpha=.8, cycle service=.9 and pooled unit fill=.99 atQ11 are different. Any service or cash redline is a separate constraint."
+    },
+    {
+      "id": "strict_monotonicity",
+      "severity": "P2_source",
+      "finding": "Larger cost asymmetry changes target quantile under fixed distribution; discrete order quantity can remain unchanged."
+    },
+    {
+      "id": "cost_objective",
+      "severity": "P1_misuse_risk",
+      "finding": "Emergency100 is gross cash; underage80 is incremental. Do not double count. Expectedcost230 is not cashmaximum320."
+    },
+    {
+      "id": "policy_demand",
+      "severity": "P2_source",
+      "finding": "Policy changes may alter demand but do not logically force a change. Re-estimate conditional distribution without manufacturing evidence."
+    },
+    {
+      "id": "research_history_scope",
+      "severity": "P3_limit",
+      "finding": "Store news/history verbatim with provenance; do not upgrade broad most errors or individual bias claims to verified facts."
+    }
+  ],
+  "behavior_test_status": "not_executed_or_reviewed_here",
+  "limits": [
+    "Source original retained, corrections belong only in reviewed operational layer.",
+    "Source review is not behavioral validation or evidence of real-world effectiveness."
+  ],
+  "source_archive_binding": {
+    "bound_at": "2026-11-04T01:36:47.783823+00:00",
+    "source_markdown_sha256": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3",
+    "source_manifest_sha256": "73d7d35a9ed2a0451b75697a258c5254dd931c28938f0ea6c666086b509b592e",
+    "body_sha256": "f0d90acbd1a1b3d3b868af6a02e1647627cd163231101d13319322d019ad3f68",
+    "all_markdown_table_cells_match": true,
+    "all_body_characters_match_ignoring_whitespace_and_table_syntax": true,
+    "table_count": 2,
+    "media_manifest_sha256": "5d972b467bcefbfa92c52a1ebe025cd86578de5e7d336adbd7096087eb04965f",
+    "media_files_hash_checked": 10,
+    "media_personally_viewed": 0,
+    "media_visual_reviewer": "root",
+    "media_visual_scope": "Read root media-manifest visual summaries and verified all archived media byte hashes. This independent reviewer did not visually inspect images. Root reports all14visual inspections; not verification of every underlying external claim."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "captured_date": "2026-11-04",
+  "count": 2,
+  "old_body_reread_scope": [],
+  "old_body_limit": "TM-001—158正文未重读；只比对合集目录元数据。",
+  "records": [
+    {
+      "id": "TM-159",
+      "title": "思维模型159：报童模型 ——钱大妈“不卖隔夜肉”，备货越多有可能会越亏吗？",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060499&idx=1&sn=2cad7c1df3af26ca50f849d04055645d&chksm=beabef2089dc6636998b206fa871fd05f818d7c7382bb42e5c3237ae1606b99905eee03839a9#rd",
+      "msgid": "2650060499",
+      "itemidx": "1",
+      "published_at_page_display": "2026-11-03T17:34:00+08:00",
+      "album_create_time": "1793698407",
+      "album_time_china": "2026-11-03T17:33:27+08:00",
+      "captured_at": "2026-11-04T01:11:52.898Z",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 6710,
+      "fnv1a32_code_units": "b0ec5c42",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "f0d90acbd1a1b3d3b868af6a02e1647627cd163231101d13319322d019ad3f68",
+      "source_sha256": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3",
+      "table_count": 2,
+      "tables": [
+        {
+          "rows": [
+            [
+              "到场人数",
+              "概率"
+            ],
+            [
+              "8 人",
+              "10%"
+            ],
+            [
+              "9 人",
+              "20%"
+            ],
+            [
+              "10 人",
+              "40%"
+            ],
+            [
+              "11 人",
+              "20%"
+            ],
+            [
+              "12 人",
+              "10%"
+            ]
+          ],
+          "text": "到场人数\n\t\n概率\n\n\n8 人\n\t\n10%\n\n\n9 人\n\t\n20%\n\n\n10 人\n\t\n40%\n\n\n11 人\n\t\n20%\n\n\n12 人\n\t\n10%"
+        },
+        {
+          "rows": [
+            [
+              "提前订餐数量",
+              "预订费",
+              "平均补餐费",
+              "平均花费"
+            ],
+            [
+              "8 份",
+              "160 元",
+              "200 元",
+              "360 元"
+            ],
+            [
+              "9 份",
+              "180 元",
+              "110 元",
+              "290 元"
+            ],
+            [
+              "10 份",
+              "200 元",
+              "40 元",
+              "240 元"
+            ],
+            [
+              "11 份",
+              "220 元",
+              "10 元",
+              "230 元"
+            ],
+            [
+              "12 份",
+              "240 元",
+              "0 元",
+              "240 元"
+            ]
+          ],
+          "text": "提前订餐数量\n\t\n预订费\n\t\n平均补餐费\n\t\n平均花费\n\n\n8 份\n\t\n160 元\n\t\n200 元\n\t\n360 元\n\n\n9 份\n\t\n180 元\n\t\n110 元\n\t\n290 元\n\n\n10 份\n\t\n200 元\n\t\n40 元\n\t\n240 元\n\n\n11 份\n\t\n220 元\n\t\n10 元\n\t\n230 元\n\n\n12 份\n\t\n240 元\n\t\n0 元\n\t\n240 元"
+        }
+      ],
+      "image_count": 10,
+      "media_read_this_run": true,
+      "media_scope": "10幅图片本轮已逐张查看；本包保留文字和审阅摘要，原图仅留维护工作区。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": false,
+      "historical_capture_date": null,
+      "historical_media_scope": null,
+      "historical_fingerprint_algorithm": null,
+      "historical_fnv1a32_utf16le_bytes": null
+    },
+    {
+      "id": "TM-160",
+      "title": "思维模型160：稳定匹配模型 ——先到先得，为什么会错过双方都更愿意的搭配？",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060508&idx=1&sn=19c6e5078852a8ec9f5b7a079cffafd9&chksm=beabef2f89dc6639ee22fc65ee51d22ca6fc7dceeeff07d559697d38b4db5512a100f84766a7#rd",
+      "msgid": "2650060508",
+      "itemidx": "1",
+      "published_at_page_display": "2026-11-04T07:35:00+08:00",
+      "album_create_time": "1793748900",
+      "album_time_china": "2026-11-04T07:35:00+08:00",
+      "captured_at": "2026-11-04T01:14:57.110Z",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 5524,
+      "fnv1a32_code_units": "67a90afa",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "6e0ae2919fd54c933152945ab04ef107d0d97c72746068a6fc7616bd801c7c98",
+      "source_sha256": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+      "table_count": 3,
+      "tables": [
+        {
+          "rows": [
+            [
+              "新手",
+              "希望选择的老手"
+            ],
+            [
+              "甲",
+              "A → B → C"
+            ],
+            [
+              "乙",
+              "A → C → B"
+            ],
+            [
+              "丙",
+              "B → A → C"
+            ]
+          ],
+          "text": "新手\n\t\n希望选择的老手\n\n\n甲\n\t\nA → B → C\n\n\n乙\n\t\nA → C → B\n\n\n丙\n\t\nB → A → C"
+        },
+        {
+          "rows": [
+            [
+              "老手",
+              "希望选择的新手"
+            ],
+            [
+              "A",
+              "丙 → 甲 → 乙"
+            ],
+            [
+              "B",
+              "甲 → 丙 → 乙"
+            ],
+            [
+              "C",
+              "乙 → 甲 → 丙"
+            ]
+          ],
+          "text": "老手\n\t\n希望选择的新手\n\n\nA\n\t\n丙 → 甲 → 乙\n\n\nB\n\t\n甲 → 丙 → 乙\n\n\nC\n\t\n乙 → 甲 → 丙"
+        },
+        {
+          "rows": [
+            [
+              "谁提出申请",
+              "甲的结果",
+              "乙的结果",
+              "丙的结果"
+            ],
+            [
+              "新手提出申请",
+              "A，第一志愿",
+              "C，第二志愿",
+              "B，第一志愿"
+            ],
+            [
+              "老手提出申请",
+              "B，第二志愿",
+              "C，第二志愿",
+              "A，第二志愿"
+            ]
+          ],
+          "text": "谁提出申请\n\t\n甲的结果\n\t\n乙的结果\n\t\n丙的结果\n\n\n新手提出申请\n\t\nA，第一志愿\n\t\nC，第二志愿\n\t\nB，第一志愿\n\n\n老手提出申请\n\t\nB，第二志愿\n\t\nC，第二志愿\n\t\nA，第二志愿"
+        }
+      ],
+      "image_count": 4,
+      "media_read_this_run": true,
+      "media_scope": "4幅图片本轮已逐张查看；本包保留文字和审阅摘要，原图仅留维护工作区。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": false,
+      "historical_capture_date": null,
+      "historical_media_scope": null,
+      "historical_fingerprint_algorithm": null,
+      "historical_fnv1a32_utf16le_bytes": null
+    }
+  ]
+}

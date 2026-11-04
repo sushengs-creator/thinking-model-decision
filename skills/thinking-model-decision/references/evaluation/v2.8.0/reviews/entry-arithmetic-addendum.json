@@ -1,0 +1,32 @@
+{
+  "entry159_alternative_emergency40": {
+    "Q8_worst": 240,
+    "Q8_expected": "184",
+    "cash_limit_for_Q8_under60": 280
+  },
+  "time": {
+    "raw_saved_at": "2026-11-04T09:40:44.537741+08:00",
+    "elapsed_from_recorded_start_minutes": 2.28189045,
+    "unlogged_initial_read_reserve_minutes": 1,
+    "remaining_at_generation_minutes": 16.718123666445415,
+    "future_today_minutes": 6,
+    "today_total_with_recorded_and_reserved": 14.28189045,
+    "tomorrow_review_extra_minutes": 2,
+    "tomorrow_resource_condition": "Explicitly a separate suggested allocation, not hidden in today countdown or confirmed availability.",
+    "caveat": "Timing is snapshot at this raw answer save; not a fresh live countdown at later publication. Initial one-minute reserve is disclosed estimate, not measured guarantee."
+  },
+  "entry160_resource": {
+    "already12": 12,
+    "organizer18": 18,
+    "disputes6": 6,
+    "all_additional_member_minutes4": 4,
+    "total": 40,
+    "seven_people_sixminute_meeting": 42,
+    "stop_when_confirmation_exceeds_remaining": true
+  },
+  "entry_first_question": {
+    "question_marks": 1,
+    "html_not_generated": true,
+    "no_answers_fabricated": true
+  }
+}

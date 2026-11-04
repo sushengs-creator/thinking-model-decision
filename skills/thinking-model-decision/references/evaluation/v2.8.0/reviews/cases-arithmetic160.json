@@ -1,0 +1,823 @@
+{
+  "created_at": "2026-11-04T01:28:39.951183+00:00",
+  "method": "Independently implemented DA, all24complete matching enumeration for fit; all partial feasible matchings for misuse. Requests parsed directly; design expectations not treated as actual output.",
+  "input_sha256": "09e902a0f678c41b9b1476e0ff1698605392c8f66fec73681c88e2b9612e0f80",
+  "fit": {
+    "preferences": {
+      "applicants": {
+        "甲": [
+          "A",
+          "C",
+          "D",
+          "B"
+        ],
+        "乙": [
+          "B",
+          "A",
+          "D",
+          "C"
+        ],
+        "丙": [
+          "A",
+          "D",
+          "B",
+          "C"
+        ],
+        "丁": [
+          "B",
+          "D",
+          "A",
+          "C"
+        ]
+      },
+      "receivers": {
+        "A": [
+          "丁",
+          "乙",
+          "甲",
+          "丙"
+        ],
+        "B": [
+          "丙",
+          "甲",
+          "丁",
+          "乙"
+        ],
+        "C": [
+          "乙",
+          "丁",
+          "丙",
+          "甲"
+        ],
+        "D": [
+          "乙",
+          "甲",
+          "丙",
+          "丁"
+        ]
+      }
+    },
+    "initial": {
+      "matching": {
+        "甲": "A",
+        "乙": "B",
+        "丙": "C",
+        "丁": "D"
+      },
+      "blocking_pairs": [
+        [
+          "丙",
+          "B"
+        ],
+        [
+          "丙",
+          "D"
+        ],
+        [
+          "丁",
+          "B"
+        ]
+      ]
+    },
+    "applicant_proposing": {
+      "matching": {
+        "乙": "A",
+        "丁": "B",
+        "丙": "D",
+        "甲": "C"
+      },
+      "log": [
+        {
+          "applicant": "甲",
+          "receiver": "A",
+          "old": null,
+          "hold": "甲",
+          "rejected": null
+        },
+        {
+          "applicant": "乙",
+          "receiver": "B",
+          "old": null,
+          "hold": "乙",
+          "rejected": null
+        },
+        {
+          "applicant": "丙",
+          "receiver": "A",
+          "old": "甲",
+          "hold": "甲",
+          "rejected": "丙"
+        },
+        {
+          "applicant": "丙",
+          "receiver": "D",
+          "old": null,
+          "hold": "丙",
+          "rejected": null
+        },
+        {
+          "applicant": "丁",
+          "receiver": "B",
+          "old": "乙",
+          "hold": "丁",
+          "rejected": "乙"
+        },
+        {
+          "applicant": "乙",
+          "receiver": "A",
+          "old": "甲",
+          "hold": "乙",
+          "rejected": "甲"
+        },
+        {
+          "applicant": "甲",
+          "receiver": "C",
+          "old": null,
+          "hold": "甲",
+          "rejected": null
+        }
+      ],
+      "ranks": {
+        "applicants": {
+          "乙": 2,
+          "丁": 1,
+          "丙": 2,
+          "甲": 2
+        },
+        "receivers": {
+          "A": 2,
+          "B": 3,
+          "D": 3,
+          "C": 4
+        }
+      },
+      "blocking_pairs": []
+    },
+    "receiver_proposing": {
+      "matching": {
+        "丁": "A",
+        "丙": "B",
+        "乙": "D",
+        "甲": "C"
+      },
+      "log": [
+        {
+          "applicant": "A",
+          "receiver": "丁",
+          "old": null,
+          "hold": "A",
+          "rejected": null
+        },
+        {
+          "applicant": "B",
+          "receiver": "丙",
+          "old": null,
+          "hold": "B",
+          "rejected": null
+        },
+        {
+          "applicant": "C",
+          "receiver": "乙",
+          "old": null,
+          "hold": "C",
+          "rejected": null
+        },
+        {
+          "applicant": "D",
+          "receiver": "乙",
+          "old": "C",
+          "hold": "D",
+          "rejected": "C"
+        },
+        {
+          "applicant": "C",
+          "receiver": "丁",
+          "old": "A",
+          "hold": "A",
+          "rejected": "C"
+        },
+        {
+          "applicant": "C",
+          "receiver": "丙",
+          "old": "B",
+          "hold": "B",
+          "rejected": "C"
+        },
+        {
+          "applicant": "C",
+          "receiver": "甲",
+          "old": null,
+          "hold": "C",
+          "rejected": null
+        }
+      ],
+      "ranks": {
+        "applicants": {
+          "丁": 3,
+          "丙": 3,
+          "乙": 3,
+          "甲": 2
+        },
+        "receivers": {
+          "A": 1,
+          "B": 1,
+          "D": 1,
+          "C": 4
+        }
+      },
+      "blocking_pairs": []
+    },
+    "all24": [
+      {
+        "matching": {
+          "甲": "A",
+          "乙": "B",
+          "丙": "C",
+          "丁": "D"
+        },
+        "blocking_pairs": [
+          [
+            "丙",
+            "B"
+          ],
+          [
+            "丙",
+            "D"
+          ],
+          [
+            "丁",
+            "B"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "A",
+          "乙": "B",
+          "丙": "D",
+          "丁": "C"
+        },
+        "blocking_pairs": [
+          [
+            "丁",
+            "A"
+          ],
+          [
+            "丁",
+            "B"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "A",
+          "乙": "C",
+          "丙": "B",
+          "丁": "D"
+        },
+        "blocking_pairs": [
+          [
+            "乙",
+            "A"
+          ],
+          [
+            "乙",
+            "D"
+          ],
+          [
+            "丙",
+            "D"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "A",
+          "乙": "C",
+          "丙": "D",
+          "丁": "B"
+        },
+        "blocking_pairs": [
+          [
+            "乙",
+            "A"
+          ],
+          [
+            "乙",
+            "D"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "A",
+          "乙": "D",
+          "丙": "B",
+          "丁": "C"
+        },
+        "blocking_pairs": [
+          [
+            "乙",
+            "A"
+          ],
+          [
+            "丁",
+            "A"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "A",
+          "乙": "D",
+          "丙": "C",
+          "丁": "B"
+        },
+        "blocking_pairs": [
+          [
+            "乙",
+            "A"
+          ],
+          [
+            "丙",
+            "B"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "B",
+          "乙": "A",
+          "丙": "C",
+          "丁": "D"
+        },
+        "blocking_pairs": [
+          [
+            "甲",
+            "D"
+          ],
+          [
+            "丙",
+            "B"
+          ],
+          [
+            "丙",
+            "D"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "B",
+          "乙": "A",
+          "丙": "D",
+          "丁": "C"
+        },
+        "blocking_pairs": [
+          [
+            "甲",
+            "D"
+          ],
+          [
+            "丁",
+            "A"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "B",
+          "乙": "C",
+          "丙": "A",
+          "丁": "D"
+        },
+        "blocking_pairs": [
+          [
+            "甲",
+            "A"
+          ],
+          [
+            "甲",
+            "D"
+          ],
+          [
+            "乙",
+            "A"
+          ],
+          [
+            "乙",
+            "D"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "B",
+          "乙": "C",
+          "丙": "D",
+          "丁": "A"
+        },
+        "blocking_pairs": [
+          [
+            "甲",
+            "D"
+          ],
+          [
+            "乙",
+            "D"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "B",
+          "乙": "D",
+          "丙": "A",
+          "丁": "C"
+        },
+        "blocking_pairs": [
+          [
+            "甲",
+            "A"
+          ],
+          [
+            "乙",
+            "A"
+          ],
+          [
+            "丁",
+            "A"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "B",
+          "乙": "D",
+          "丙": "C",
+          "丁": "A"
+        },
+        "blocking_pairs": [
+          [
+            "丙",
+            "B"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "C",
+          "乙": "A",
+          "丙": "B",
+          "丁": "D"
+        },
+        "blocking_pairs": [
+          [
+            "丙",
+            "D"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "C",
+          "乙": "A",
+          "丙": "D",
+          "丁": "B"
+        },
+        "blocking_pairs": [],
+        "stable": true
+      },
+      {
+        "matching": {
+          "甲": "C",
+          "乙": "B",
+          "丙": "A",
+          "丁": "D"
+        },
+        "blocking_pairs": [
+          [
+            "甲",
+            "A"
+          ],
+          [
+            "丁",
+            "B"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "C",
+          "乙": "B",
+          "丙": "D",
+          "丁": "A"
+        },
+        "blocking_pairs": [
+          [
+            "丁",
+            "B"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "C",
+          "乙": "D",
+          "丙": "A",
+          "丁": "B"
+        },
+        "blocking_pairs": [
+          [
+            "甲",
+            "A"
+          ],
+          [
+            "乙",
+            "A"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "C",
+          "乙": "D",
+          "丙": "B",
+          "丁": "A"
+        },
+        "blocking_pairs": [],
+        "stable": true
+      },
+      {
+        "matching": {
+          "甲": "D",
+          "乙": "A",
+          "丙": "B",
+          "丁": "C"
+        },
+        "blocking_pairs": [
+          [
+            "丁",
+            "A"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "D",
+          "乙": "A",
+          "丙": "C",
+          "丁": "B"
+        },
+        "blocking_pairs": [
+          [
+            "丙",
+            "B"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "D",
+          "乙": "B",
+          "丙": "A",
+          "丁": "C"
+        },
+        "blocking_pairs": [
+          [
+            "甲",
+            "A"
+          ],
+          [
+            "丁",
+            "A"
+          ],
+          [
+            "丁",
+            "B"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "D",
+          "乙": "B",
+          "丙": "C",
+          "丁": "A"
+        },
+        "blocking_pairs": [
+          [
+            "丙",
+            "B"
+          ],
+          [
+            "丁",
+            "B"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "D",
+          "乙": "C",
+          "丙": "A",
+          "丁": "B"
+        },
+        "blocking_pairs": [
+          [
+            "甲",
+            "A"
+          ],
+          [
+            "乙",
+            "A"
+          ],
+          [
+            "乙",
+            "D"
+          ]
+        ],
+        "stable": false
+      },
+      {
+        "matching": {
+          "甲": "D",
+          "乙": "C",
+          "丙": "B",
+          "丁": "A"
+        },
+        "blocking_pairs": [
+          [
+            "乙",
+            "D"
+          ]
+        ],
+        "stable": false
+      }
+    ],
+    "stable_count": 2,
+    "recommended": "applicant-proposing under explicitly stated learner-first among stable arrangements goal; not both-side Pareto improvement or fairness proof",
+    "resource_bounds": {
+      "total_person_minutes": 90,
+      "eight_participant_confirmations": 24,
+      "organizer_cap": 45,
+      "other_collaboration_cap": 10,
+      "sum_caps": 79,
+      "remaining_slack": 11,
+      "conditions": "All organizer reading/calculation/review/drafting work must fit45; all8confirmations Friday3each. Additional meetings or follow-up cannot be added outside90."
+    }
+  },
+  "misuse": {
+    "original": {
+      "甲": "A",
+      "丙": "B"
+    },
+    "original_blocking_pairs": [
+      [
+        "乙",
+        "A"
+      ]
+    ],
+    "counterfactual_no_binding_commitment": {
+      "result": {
+        "乙": "A",
+        "丙": "B"
+      },
+      "log": [
+        {
+          "applicant": "甲",
+          "receiver": "A",
+          "old": null,
+          "hold": "甲",
+          "rejected": null
+        },
+        {
+          "applicant": "乙",
+          "receiver": "A",
+          "old": "甲",
+          "hold": "乙",
+          "rejected": "甲"
+        },
+        {
+          "applicant": "丙",
+          "receiver": "B",
+          "old": null,
+          "hold": "丙",
+          "rejected": null
+        }
+      ],
+      "unmatched": [
+        "甲"
+      ],
+      "all_acceptable_partial_matchings": [
+        {
+          "matching": {},
+          "blocking_pairs": [
+            [
+              "甲",
+              "A"
+            ],
+            [
+              "乙",
+              "A"
+            ],
+            [
+              "丙",
+              "B"
+            ]
+          ],
+          "stable": false
+        },
+        {
+          "matching": {
+            "丙": "B"
+          },
+          "blocking_pairs": [
+            [
+              "甲",
+              "A"
+            ],
+            [
+              "乙",
+              "A"
+            ]
+          ],
+          "stable": false
+        },
+        {
+          "matching": {
+            "乙": "A"
+          },
+          "blocking_pairs": [
+            [
+              "丙",
+              "B"
+            ]
+          ],
+          "stable": false
+        },
+        {
+          "matching": {
+            "乙": "A",
+            "丙": "B"
+          },
+          "blocking_pairs": [],
+          "stable": true
+        },
+        {
+          "matching": {
+            "甲": "A"
+          },
+          "blocking_pairs": [
+            [
+              "乙",
+              "A"
+            ],
+            [
+              "丙",
+              "B"
+            ]
+          ],
+          "stable": false
+        },
+        {
+          "matching": {
+            "甲": "A",
+            "丙": "B"
+          },
+          "blocking_pairs": [
+            [
+              "乙",
+              "A"
+            ]
+          ],
+          "stable": false
+        }
+      ]
+    },
+    "current_feasible_implementation": "Keep existing binding甲A;丙B may be confirmed with consent;乙unmatched. Cannot assign甲B or invent3rdseat. Offer consent-based alternatives/next-cycle options; no contacting authorized.",
+    "global_stability_claim": "Original preferences still have乙A blocking desire; locking commitment produces a constrained feasible arrangement, not original global stability.",
+    "resource": "No numeric budget supplied; use stated finite next-action estimates rather than invent fixed deadline or already-approved outreach."
+  },
+  "behavior_status": "design_and_mechanism_review_only"
+}

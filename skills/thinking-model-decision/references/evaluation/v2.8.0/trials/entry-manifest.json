@@ -1,0 +1,341 @@
+{
+  "run_started_at": "2026-11-04T09:38:27.624314+08:00",
+  "run_started_unix": 1793756307.624644,
+  "resources": [
+    {
+      "path": "../inputs/entry.json",
+      "sha256": "d5a6866b3544fadb16a8acd2afc7d4cbdb0cecceaf685c3f5b027f76008c5e7a",
+      "read_ranges": [
+        [
+          1,
+          14
+        ]
+      ],
+      "read_mode": "full"
+    },
+    {
+      "path": "../../../../SKILL.md",
+      "sha256": "cf6ef7f93ed569e33913ac93fa13de329104d4d1675080aca620a4b26654c8cd",
+      "read_ranges": [
+        [
+          1,
+          82
+        ]
+      ],
+      "read_mode": "full"
+    },
+    {
+      "path": "../../../../references/toolbox-orchestration.md",
+      "sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "read_ranges": [
+        [
+          1,
+          41
+        ]
+      ],
+      "read_mode": "full"
+    },
+    {
+      "path": "../../../../references/decision-routing.md",
+      "sha256": "caec14f0dbefb52a40db5b1e11bf53fa2cc3cbc62419ce70285de45b3c898099",
+      "read_ranges": [
+        [
+          1,
+          69
+        ]
+      ],
+      "read_mode": "full"
+    },
+    {
+      "path": "../../../../references/tool-runtime.md",
+      "sha256": "f87ad1e7c8c5051afc8acf85db539779d8f6069dd40e81fd69e24faf6cd06145",
+      "read_ranges": [
+        [
+          1,
+          48
+        ]
+      ],
+      "read_mode": "full"
+    },
+    {
+      "path": "../../../../references/tool-catalog.md",
+      "sha256": "be995f9f412886518cad5646f7ff999c92f10e2e14dda2a56e16b5a158930f3e",
+      "read_ranges": [
+        [
+          1,
+          124
+        ]
+      ],
+      "read_mode": "visible range before combined output truncation"
+    },
+    {
+      "path": "../../../../references/wan-catalog.md",
+      "sha256": "ad133531796c64e8dda463b76b6f26a2ae8b8589954fdbd4a9ac4e34a1e0c8a3",
+      "read_ranges": [
+        [
+          45,
+          157
+        ]
+      ],
+      "read_mode": "visible range after combined output truncation"
+    },
+    {
+      "path": "../../../../references/decision-report.md",
+      "sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "read_ranges": [
+        [
+          1,
+          41
+        ]
+      ],
+      "read_mode": "full"
+    },
+    {
+      "path": "../../../../references/html-action-plan.md",
+      "sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef",
+      "read_ranges": [
+        [
+          1,
+          22
+        ]
+      ],
+      "read_mode": "full"
+    },
+    {
+      "path": "../../../../references/tool-catalog.md",
+      "sha256": "be995f9f412886518cad5646f7ff999c92f10e2e14dda2a56e16b5a158930f3e",
+      "read_ranges": [
+        [
+          145,
+          168
+        ]
+      ],
+      "read_mode": "range"
+    },
+    {
+      "path": "../../../../references/wan-catalog.md",
+      "sha256": "ad133531796c64e8dda463b76b6f26a2ae8b8589954fdbd4a9ac4e34a1e0c8a3",
+      "read_ranges": [
+        [
+          1,
+          44
+        ]
+      ],
+      "read_mode": "range"
+    },
+    {
+      "path": "../../../../references/tools/TM-159.md",
+      "sha256": "5aaf845d543c3d26da40f6d62bd0a355dfb548970dad3c47dd00408dce77d579",
+      "read_ranges": [
+        [
+          1,
+          33
+        ]
+      ],
+      "read_mode": "full"
+    },
+    {
+      "path": "../../../../references/cards/TM-159.md",
+      "sha256": "31803e2efe03d5bd4bbdbff4ac4d62ebb028b2da86f9504d35a606b975bd2e71",
+      "read_ranges": [
+        [
+          1,
+          49
+        ]
+      ],
+      "read_mode": "full"
+    },
+    {
+      "path": "../../../../references/user-models/TM-159.md",
+      "sha256": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3",
+      "read_ranges": [
+        [
+          1,
+          304
+        ]
+      ],
+      "read_mode": "full"
+    },
+    {
+      "path": "../../../../references/wan-tools/WW-1.4.md",
+      "sha256": "c64f13288b22fbf2ab5fb85ea09d9e8bc784837c9f45260480d2edea208865e6",
+      "read_ranges": [
+        [
+          1,
+          28
+        ]
+      ],
+      "read_mode": "full"
+    },
+    {
+      "path": "../../../../references/tool-index.json",
+      "sha256": "c64f04cac2d5c9aed87d969ddd340fec2f3a7802cc91d7c0f075eb5795be826d",
+      "read_ranges": [
+        [
+          5340,
+          5384
+        ],
+        [
+          5384,
+          5417
+        ]
+      ],
+      "read_mode": "selected entries"
+    },
+    {
+      "path": "../../../../references/tools/TM-160.md",
+      "sha256": "33c5c5d132378008721e488e3d40c95b5863701d98232ea38163b7d74956c48c",
+      "read_ranges": [
+        [
+          1,
+          38
+        ]
+      ],
+      "read_mode": "full"
+    },
+    {
+      "path": "../../../../references/cards/TM-160.md",
+      "sha256": "2863d84959ee0a09143825c0f3281142989b47a98ecb6a368ebb60b05a3ffd16",
+      "read_ranges": [
+        [
+          1,
+          49
+        ]
+      ],
+      "read_mode": "full"
+    },
+    {
+      "path": "../../../../references/user-models/TM-160.md",
+      "sha256": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+      "read_ranges": [
+        [
+          1,
+          239
+        ]
+      ],
+      "read_mode": "full"
+    },
+    {
+      "path": "../../../../references/guided-dialogue.md",
+      "sha256": "7700f109b08a913fcecf6a8ce26083f00376cc2f32863e7e9225e4ee47bb012a",
+      "read_ranges": [
+        [
+          1,
+          66
+        ]
+      ],
+      "read_mode": "full"
+    },
+    {
+      "path": "../../../../references/questioning-toolkit.md",
+      "sha256": "4c4435666732c7d48a602866c0c0f17cb3f6fb2676d088093052620a849c80f6",
+      "read_ranges": [
+        [
+          1,
+          24
+        ]
+      ],
+      "read_mode": "full"
+    }
+  ],
+  "notes": [
+    "Read-only skill entry simulation. No drafts, reviews, or other agents trials were read.",
+    "All three cases are fictional. Saved dialogue outputs are first authored outputs and are not post-reviewed rewrites.",
+    "The first combined catalog output was truncated; manifest lists only visibly read ranges, plus subsequent explicit range reads."
+  ],
+  "case_resource_map": {
+    "entry159-plan": [
+      "SKILL.md",
+      "references/toolbox-orchestration.md",
+      "references/decision-routing.md",
+      "references/tool-runtime.md",
+      "references/tool-catalog.md",
+      "references/wan-catalog.md",
+      "references/decision-report.md",
+      "references/html-action-plan.md",
+      "references/tools/TM-159.md",
+      "references/cards/TM-159.md",
+      "references/user-models/TM-159.md",
+      "references/wan-tools/WW-1.4.md",
+      "references/tool-index.json"
+    ],
+    "entry160-plan": [
+      "SKILL.md",
+      "references/toolbox-orchestration.md",
+      "references/decision-routing.md",
+      "references/tool-runtime.md",
+      "references/tool-catalog.md",
+      "references/wan-catalog.md",
+      "references/decision-report.md",
+      "references/html-action-plan.md",
+      "references/tools/TM-160.md",
+      "references/cards/TM-160.md",
+      "references/user-models/TM-160.md",
+      "references/wan-tools/WW-1.4.md",
+      "references/tool-index.json"
+    ],
+    "entry-first-question": [
+      "SKILL.md",
+      "references/guided-dialogue.md",
+      "references/questioning-toolkit.md",
+      "references/tools/TM-159.md",
+      "references/cards/TM-159.md"
+    ]
+  },
+  "delivery_checks": [
+    {
+      "path": "../trials/entry159-plan.html",
+      "bytes": 9229,
+      "utf8_readback": true,
+      "has_html_head_body": true,
+      "ends_with_html_close": true,
+      "local_links_checked": 4,
+      "broken_local_links": [],
+      "visual_preview": "not completed: CUA browser URL policy rejected file protocol; no workaround attempted"
+    },
+    {
+      "path": "../trials/entry160-plan.html",
+      "bytes": 14888,
+      "utf8_readback": true,
+      "has_html_head_body": true,
+      "ends_with_html_close": true,
+      "local_links_checked": 4,
+      "broken_local_links": [],
+      "visual_preview": "not completed: CUA browser URL policy rejected file protocol; no workaround attempted"
+    }
+  ],
+  "completed_at": "2026-11-04T09:44:39.253934+08:00",
+  "outputs": [
+    {
+      "path": "../trials/entry.json",
+      "sha256": "21a422b512faaee007e3424b2b6a5ac5b7b1cb349db1847030f9a778b4ee05e6",
+      "bytes": 4890
+    },
+    {
+      "path": "../trials/entry159-plan.html",
+      "sha256": "4f6d48d38a9747ca818d29565a7383ed17fc61c8d635c24e777844350594ab1b",
+      "bytes": 9229
+    },
+    {
+      "path": "../trials/entry160-plan.html",
+      "sha256": "1ce2559e752c296018c083a4a8e0f3d67e6761782efd6cf3200f6025c04c818c",
+      "bytes": 14888
+    },
+    {
+      "path": "../trials/entry159-arithmetic.json",
+      "sha256": "3ec193136e7ff748834a5d5872225e5b7c147d40f202d39c4772173e78a2a8e9",
+      "bytes": 841
+    },
+    {
+      "path": "../trials/entry160-arithmetic.json",
+      "sha256": "3d0996da8d1eb64f11b02088eee90e1ed504ba60e02830d69b278611f36c70e5",
+      "bytes": 4825
+    }
+  ],
+  "auxiliary_code": [
+    {
+      "path": "maintenance-workspace/entry160-arithmetic.py",
+      "purpose": "independent computation of proposal logs and all unpaired checks"
+    }
+  ]
+}

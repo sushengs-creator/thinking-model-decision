@@ -1,0 +1,368 @@
+{
+  "reviewed_at": "2026-11-04T01:47:47.087409+00:00",
+  "verdict": "passed_with_limits",
+  "blocking_failures": [],
+  "cases": [
+    {
+      "id": "entry159-plan",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "UsesTM159forloss/quantitycomparisonandWW1.4forcash/service/timeconstraint,withactualoutputsnotmodelnamepile.",
+        "Independentexpectedcost252/196/200,worst360/280/200andfulfilledcoverage30/41,38/41,1confirmQ10uniquefeasible;Q8economicbutcashfails.",
+        "Thresholdsbudget280orrealemergencyprice40correct,known-demand-supportconditionmaintained.",
+        "No repeatedquestions;limited20samplefrequenciesnotguaranteedstationarytruth.",
+        "HTMLexistsanddialoguelinksit;timealready5andmeasured~2.3plusdisclosed1reserve deducted,reading/order/recordfit;tomorrow2minresourceexplicitlyseparate.",
+        "Noactualoutreach/orderclaim;clearnextstep,receiptdoneconditionandstop/recomputeconditions."
+      ],
+      "limits": [
+        "Countdownaccurateasrecordedatrawgeneration,notupdatedatlaterevidencepublication;unloggedreadreserveestimated.",
+        "StaticHTMLchecks,notvisualrendering."
+      ]
+    },
+    {
+      "id": "entry160-plan",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "Independentall6enumerationconfirmssoleinitialblockingpair乙B;new-memberDA4proposals甲A乙B丙C,old-memberDA3甲C乙A丙B,twostableoutcomes.",
+        "Fullsixunpairedchecksandranktablescorrect;programpriorityunknownretainedasvaluequestion,notchosenbyagent.",
+        "12already+18organizer+6dispute+4allothers=40;otherpeopleandlaterconfirmationcounted,42person-minutemeetingexamplecorrect;resourceoverrunstopsatcandidate.",
+        "Consent/privacy/temporaryandconfirmedstateskept;stable≠fair/cardinalwelfare, nofakeagreement.",
+        "HTMLindependentfilewithdialoguelink,sourceIDsandvalidlinks;actualregisteredtoolandWWreadpermanifest."
+      ],
+      "limits": [
+        "4sharedpersonminutesdoesnotguaranteeeveryoneconfirms;answerexplicitlyconditionalandhalts.",
+        "Noactualparticipantoutcomesorvisualpreview."
+      ]
+    },
+    {
+      "id": "entry-first-question",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "Oneplain-languagequestionaboutconsequenceofshortage,anchoredinrecentactivity.",
+        "Doesnotreplaceunknownwithassumptions,pretendfullmodelrun,generateprematurereportoranswerforuser."
+      ],
+      "limits": [
+        "Singlefirst-turntest;no multi-roundprogressiontested."
+      ]
+    }
+  ],
+  "scope": {
+    "actual_responses": 3,
+    "execution_contexts": 1,
+    "context_relation": "Three cases sequential within one new entry executor context, distinct from two tool contexts; parent confirmed.",
+    "html_reports": 2,
+    "reviewer_independent": true,
+    "original_inputs_exact_match": true,
+    "author_expected_answers_used_as_execution_evidence": false,
+    "no_raw_answers_modified": true,
+    "private_cases_or_criteria_read": false,
+    "realworld_effect_validation": false,
+    "cross_client_validation": false,
+    "html_visual_validation": false
+  },
+  "resource_and_output_checks": [
+    {
+      "path": "inputs/entry.json",
+      "claimed_sha256": "d5a6866b3544fadb16a8acd2afc7d4cbdb0cecceaf685c3f5b027f76008c5e7a",
+      "current_sha256": "d5a6866b3544fadb16a8acd2afc7d4cbdb0cecceaf685c3f5b027f76008c5e7a",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/SKILL.md",
+      "claimed_sha256": "cf6ef7f93ed569e33913ac93fa13de329104d4d1675080aca620a4b26654c8cd",
+      "current_sha256": "cf6ef7f93ed569e33913ac93fa13de329104d4d1675080aca620a4b26654c8cd",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/toolbox-orchestration.md",
+      "claimed_sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "current_sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/decision-routing.md",
+      "claimed_sha256": "caec14f0dbefb52a40db5b1e11bf53fa2cc3cbc62419ce70285de45b3c898099",
+      "current_sha256": "caec14f0dbefb52a40db5b1e11bf53fa2cc3cbc62419ce70285de45b3c898099",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tool-runtime.md",
+      "claimed_sha256": "f87ad1e7c8c5051afc8acf85db539779d8f6069dd40e81fd69e24faf6cd06145",
+      "current_sha256": "f87ad1e7c8c5051afc8acf85db539779d8f6069dd40e81fd69e24faf6cd06145",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tool-catalog.md",
+      "claimed_sha256": "be995f9f412886518cad5646f7ff999c92f10e2e14dda2a56e16b5a158930f3e",
+      "current_sha256": "be995f9f412886518cad5646f7ff999c92f10e2e14dda2a56e16b5a158930f3e",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/wan-catalog.md",
+      "claimed_sha256": "ad133531796c64e8dda463b76b6f26a2ae8b8589954fdbd4a9ac4e34a1e0c8a3",
+      "current_sha256": "ad133531796c64e8dda463b76b6f26a2ae8b8589954fdbd4a9ac4e34a1e0c8a3",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/decision-report.md",
+      "claimed_sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "current_sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/html-action-plan.md",
+      "claimed_sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef",
+      "current_sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tool-catalog.md",
+      "claimed_sha256": "be995f9f412886518cad5646f7ff999c92f10e2e14dda2a56e16b5a158930f3e",
+      "current_sha256": "be995f9f412886518cad5646f7ff999c92f10e2e14dda2a56e16b5a158930f3e",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/wan-catalog.md",
+      "claimed_sha256": "ad133531796c64e8dda463b76b6f26a2ae8b8589954fdbd4a9ac4e34a1e0c8a3",
+      "current_sha256": "ad133531796c64e8dda463b76b6f26a2ae8b8589954fdbd4a9ac4e34a1e0c8a3",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-159.md",
+      "claimed_sha256": "5aaf845d543c3d26da40f6d62bd0a355dfb548970dad3c47dd00408dce77d579",
+      "current_sha256": "5aaf845d543c3d26da40f6d62bd0a355dfb548970dad3c47dd00408dce77d579",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-159.md",
+      "claimed_sha256": "31803e2efe03d5bd4bbdbff4ac4d62ebb028b2da86f9504d35a606b975bd2e71",
+      "current_sha256": "31803e2efe03d5bd4bbdbff4ac4d62ebb028b2da86f9504d35a606b975bd2e71",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/user-models/TM-159.md",
+      "claimed_sha256": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3",
+      "current_sha256": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/wan-tools/WW-1.4.md",
+      "claimed_sha256": "c64f13288b22fbf2ab5fb85ea09d9e8bc784837c9f45260480d2edea208865e6",
+      "current_sha256": "c64f13288b22fbf2ab5fb85ea09d9e8bc784837c9f45260480d2edea208865e6",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tool-index.json",
+      "claimed_sha256": "c64f04cac2d5c9aed87d969ddd340fec2f3a7802cc91d7c0f075eb5795be826d",
+      "current_sha256": "a29580505037e0b192aba303b7858d7c2c4d28337ba401ea601b6aef44918cfe",
+      "direct_match": false,
+      "execution_hash_verified_in_backup": "runtime-backups/runtime-20261104T014258241314Z/tool-index.json",
+      "difference": [
+        [
+          "/tools/159/signals",
+          [
+            "名单配满了但有人双方都想换",
+            "先到先得锁住双方更愿意的搭档",
+            "导师和学员都有排序不知道怎样配",
+            "想比较让谁提出申请",
+            "有人落单是否说明安排不稳定"
+          ],
+          [
+            "名单配满了但有人双方都想换",
+            "先到先得锁住双方更愿意的搭档",
+            "导师和学员都有排序不知道怎样配",
+            "想比较让谁提出申请",
+            "有人落单是否说明安排不稳定",
+            "用延迟接受程序先暂定后确认"
+          ]
+        ]
+      ]
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-160.md",
+      "claimed_sha256": "33c5c5d132378008721e488e3d40c95b5863701d98232ea38163b7d74956c48c",
+      "current_sha256": "33c5c5d132378008721e488e3d40c95b5863701d98232ea38163b7d74956c48c",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-160.md",
+      "claimed_sha256": "2863d84959ee0a09143825c0f3281142989b47a98ecb6a368ebb60b05a3ffd16",
+      "current_sha256": "2863d84959ee0a09143825c0f3281142989b47a98ecb6a368ebb60b05a3ffd16",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/user-models/TM-160.md",
+      "claimed_sha256": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+      "current_sha256": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/guided-dialogue.md",
+      "claimed_sha256": "7700f109b08a913fcecf6a8ce26083f00376cc2f32863e7e9225e4ee47bb012a",
+      "current_sha256": "7700f109b08a913fcecf6a8ce26083f00376cc2f32863e7e9225e4ee47bb012a",
+      "direct_match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/questioning-toolkit.md",
+      "claimed_sha256": "4c4435666732c7d48a602866c0c0f17cb3f6fb2676d088093052620a849c80f6",
+      "current_sha256": "4c4435666732c7d48a602866c0c0f17cb3f6fb2676d088093052620a849c80f6",
+      "direct_match": true
+    },
+    {
+      "path": "trials/entry.json",
+      "claimed_sha256": "21a422b512faaee007e3424b2b6a5ac5b7b1cb349db1847030f9a778b4ee05e6",
+      "current_sha256": "21a422b512faaee007e3424b2b6a5ac5b7b1cb349db1847030f9a778b4ee05e6",
+      "direct_match": true
+    },
+    {
+      "path": "trials/entry159-plan.html",
+      "claimed_sha256": "4f6d48d38a9747ca818d29565a7383ed17fc61c8d635c24e777844350594ab1b",
+      "current_sha256": "4f6d48d38a9747ca818d29565a7383ed17fc61c8d635c24e777844350594ab1b",
+      "direct_match": true
+    },
+    {
+      "path": "trials/entry160-plan.html",
+      "claimed_sha256": "1ce2559e752c296018c083a4a8e0f3d67e6761782efd6cf3200f6025c04c818c",
+      "current_sha256": "1ce2559e752c296018c083a4a8e0f3d67e6761782efd6cf3200f6025c04c818c",
+      "direct_match": true
+    },
+    {
+      "path": "trials/entry159-arithmetic.json",
+      "claimed_sha256": "3ec193136e7ff748834a5d5872225e5b7c147d40f202d39c4772173e78a2a8e9",
+      "current_sha256": "3ec193136e7ff748834a5d5872225e5b7c147d40f202d39c4772173e78a2a8e9",
+      "direct_match": true
+    },
+    {
+      "path": "trials/entry160-arithmetic.json",
+      "claimed_sha256": "3d0996da8d1eb64f11b02088eee90e1ed504ba60e02830d69b278611f36c70e5",
+      "current_sha256": "3d0996da8d1eb64f11b02088eee90e1ed504ba60e02830d69b278611f36c70e5",
+      "direct_match": true
+    }
+  ],
+  "metadata_delta": [
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tool-index.json",
+      "claimed_sha256": "c64f04cac2d5c9aed87d969ddd340fec2f3a7802cc91d7c0f075eb5795be826d",
+      "current_sha256": "a29580505037e0b192aba303b7858d7c2c4d28337ba401ea601b6aef44918cfe",
+      "direct_match": false,
+      "execution_hash_verified_in_backup": "runtime-backups/runtime-20261104T014258241314Z/tool-index.json",
+      "difference": [
+        [
+          "/tools/159/signals",
+          [
+            "名单配满了但有人双方都想换",
+            "先到先得锁住双方更愿意的搭档",
+            "导师和学员都有排序不知道怎样配",
+            "想比较让谁提出申请",
+            "有人落单是否说明安排不稳定"
+          ],
+          [
+            "名单配满了但有人双方都想换",
+            "先到先得锁住双方更愿意的搭档",
+            "导师和学员都有排序不知道怎样配",
+            "想比较让谁提出申请",
+            "有人落单是否说明安排不稳定",
+            "用延迟接受程序先暂定后确认"
+          ]
+        ]
+      ]
+    }
+  ],
+  "html_checks": [
+    {
+      "path": "trials/entry159-plan.html",
+      "sha256": "4f6d48d38a9747ca818d29565a7383ed17fc61c8d635c24e777844350594ab1b",
+      "utf8_readback": true,
+      "tables": 2,
+      "headings": 7,
+      "source_links": [
+        {
+          "href": "../../../../references/tools/TM-159.md",
+          "resolved_relative_to_work_root": "staged-repo/skills/thinking-model-decision/references/tools/TM-159.md",
+          "sha256": "5aaf845d543c3d26da40f6d62bd0a355dfb548970dad3c47dd00408dce77d579"
+        },
+        {
+          "href": "../../../../references/cards/TM-159.md",
+          "resolved_relative_to_work_root": "staged-repo/skills/thinking-model-decision/references/cards/TM-159.md",
+          "sha256": "31803e2efe03d5bd4bbdbff4ac4d62ebb028b2da86f9504d35a606b975bd2e71"
+        },
+        {
+          "href": "../../../../references/user-models/TM-159.md",
+          "resolved_relative_to_work_root": "staged-repo/skills/thinking-model-decision/references/user-models/TM-159.md",
+          "sha256": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3"
+        },
+        {
+          "href": "../../../../references/wan-tools/WW-1.4.md",
+          "resolved_relative_to_work_root": "staged-repo/skills/thinking-model-decision/references/wan-tools/WW-1.4.md",
+          "sha256": "c64f13288b22fbf2ab5fb85ea09d9e8bc784837c9f45260480d2edea208865e6"
+        }
+      ],
+      "scripts_or_external_dependencies": false,
+      "offline_responsive_print_rules_present": true,
+      "visual_review_by_this_reviewer": false,
+      "executor_preview": "not completed: CUA browser URL policy rejected file protocol; no workaround attempted"
+    },
+    {
+      "path": "trials/entry160-plan.html",
+      "sha256": "1ce2559e752c296018c083a4a8e0f3d67e6761782efd6cf3200f6025c04c818c",
+      "utf8_readback": true,
+      "tables": 9,
+      "headings": 11,
+      "source_links": [
+        {
+          "href": "../../../../references/tools/TM-160.md",
+          "resolved_relative_to_work_root": "staged-repo/skills/thinking-model-decision/references/tools/TM-160.md",
+          "sha256": "33c5c5d132378008721e488e3d40c95b5863701d98232ea38163b7d74956c48c"
+        },
+        {
+          "href": "../../../../references/cards/TM-160.md",
+          "resolved_relative_to_work_root": "staged-repo/skills/thinking-model-decision/references/cards/TM-160.md",
+          "sha256": "2863d84959ee0a09143825c0f3281142989b47a98ecb6a368ebb60b05a3ffd16"
+        },
+        {
+          "href": "../../../../references/user-models/TM-160.md",
+          "resolved_relative_to_work_root": "staged-repo/skills/thinking-model-decision/references/user-models/TM-160.md",
+          "sha256": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c"
+        },
+        {
+          "href": "../../../../references/wan-tools/WW-1.4.md",
+          "resolved_relative_to_work_root": "staged-repo/skills/thinking-model-decision/references/wan-tools/WW-1.4.md",
+          "sha256": "c64f13288b22fbf2ab5fb85ea09d9e8bc784837c9f45260480d2edea208865e6"
+        }
+      ],
+      "scripts_or_external_dependencies": false,
+      "offline_responsive_print_rules_present": true,
+      "visual_review_by_this_reviewer": false,
+      "executor_preview": "not completed: CUA browser URL policy rejected file protocol; no workaround attempted"
+    }
+  ],
+  "arithmetic_records": [
+    "entry-arithmetic.json",
+    "entry-arithmetic-addendum.json"
+  ],
+  "observations": [
+    {
+      "severity": "P3_scope",
+      "finding": "BrowserfileURLpolicyblockedexecutorvisualpreview. Offline/print/responsivecodeandcontentcheckedstaticallyonly;do not claimdesktop/narrowviewportvisualpassed."
+    },
+    {
+      "severity": "P3_timing",
+      "finding": "First countdown usesactualrecordedprocessinganddisclosedone-minutereserve;initialreadnotmeasured. Reporttimeissavedresponseinstant,notongoingfreshdeadline."
+    },
+    {
+      "severity": "P3_binding",
+      "finding": "ExecutionindexSHAverifiedinbackup;currentdiffonlyTM160additionaldelayed-acceptancesignal;allsource/card/runtimehashesunchanged. Thisdoesnotretroactivelyclaiminitialretrievalpassed."
+    }
+  ],
+  "manifest_hash": "2f152e409bc69ed0eee4064a2ed3d3de1575bc96bcd45fa7f39c370d223cfdd3",
+  "manifest_completed_at": "2026-11-04T09:44:39.253934+08:00",
+  "artifact_sha256": {
+    "trials/entry.json": "21a422b512faaee007e3424b2b6a5ac5b7b1cb349db1847030f9a778b4ee05e6",
+    "trials/entry159-plan.html": "4f6d48d38a9747ca818d29565a7383ed17fc61c8d635c24e777844350594ab1b",
+    "trials/entry160-plan.html": "1ce2559e752c296018c083a4a8e0f3d67e6761782efd6cf3200f6025c04c818c"
+  },
+  "retained_failures": [
+    "source-archive-binding-initial.json;fixedbindingsource-archive-bindings.json",
+    "Initialruntime delayed-acceptanceretrievalmissretainedbyroot;30/30laterretestmustremainseparate."
+  ]
+}

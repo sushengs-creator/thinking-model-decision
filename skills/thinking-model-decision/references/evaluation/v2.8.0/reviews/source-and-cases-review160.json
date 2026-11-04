@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-11-04T01:28:39.951183+00:00",
+  "model_id": "TM-160",
+  "verdict": "passed_with_limits",
+  "blocking_failures": [],
+  "reviewer_independent": true,
+  "hashes": {
+    "draft_files": {
+      "source-review.md": "6f9e17e152a517c916347bc15feefb1aced939100ceb2e8c0c6879c98a6010d1",
+      "card.md": "2863d84959ee0a09143825c0f3281142989b47a98ecb6a368ebb60b05a3ffd16",
+      "tool.md": "33c5c5d132378008721e488e3d40c95b5863701d98232ea38163b7d74956c48c",
+      "runtime-metadata.json": "ec8862e657b9701c647a52e54d875f8e20b48aabc0575bfb774a50c3a0df7efd",
+      "cases.json": "09e902a0f678c41b9b1476e0ff1698605392c8f66fec73681c88e2b9612e0f80",
+      "routing.json": "a1b913408a74257f4c06115744a26e7dacfde1a0cfa31d5cd4ab7d46381d78c4"
+    },
+    "capture_sha256": "3dd7459ea7c525c27cae47c7aa2e913d48bcf0a8397a5f45ace71ed0182cb1fb",
+    "source_markdown_sha256": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c"
+  },
+  "source_review_record": "source-review-independent160.json",
+  "arithmetic_record": "cases-arithmetic160.json",
+  "checked": [
+    "Full source body and3HTMLtables; all6drafts; bothWW-6.3/6.9 snapshots",
+    "Stable definition includes mutual acceptable pairs and complete blocking checks; incomplete lists can terminate unmatched",
+    "Tentative rejection/holding/termination and strict proposer-optimal scope consistent with checked primary theoretical sources",
+    "Existing commitments treated separately; constrained residual arrangement not claimed globally stable; no forced unacceptable pairs",
+    "Private preferences, consent and user authorization preserved; ordinal ranks not invented cardinal welfare",
+    "Both cases internally consistent; exact allocations,blockingpairs,logs and resources independently checked"
+  ],
+  "observations": [
+    {
+      "severity": "P3",
+      "finding": "Card proof sentence about a rejection already holding someone better should be read only for mutually acceptable proposals; unacceptable proposals can be rejected with an empty slot. Runtime step2 explicitly rejects unacceptable, so no operational blocker."
+    },
+    {
+      "severity": "P3",
+      "finding": "No actual behavioral trial assessed; case design only. Metadata source_checked appropriately does not claim performance."
+    },
+    {
+      "severity": "P3",
+      "finding": "Source Markdown now independently rebound and checked for complete text/table preservation; media files hash checked. Root alone performed visual review, as recorded in source_archive_binding."
+    }
+  ],
+  "ready_for_behavior_trials": true,
+  "scope_limits": [
+    "No author drafts or responses altered",
+    "No private evaluation files parsed",
+    "History verification is limited to independent source report; original1962scan not falsely claimed fully read"
+  ],
+  "source_archive_binding": {
+    "bound_at": "2026-11-04T01:36:47.783823+00:00",
+    "source_markdown_sha256": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+    "source_manifest_sha256": "73d7d35a9ed2a0451b75697a258c5254dd931c28938f0ea6c666086b509b592e",
+    "body_sha256": "6e0ae2919fd54c933152945ab04ef107d0d97c72746068a6fc7616bd801c7c98",
+    "all_markdown_table_cells_match": true,
+    "all_body_characters_match_ignoring_whitespace_and_table_syntax": true,
+    "table_count": 3,
+    "media_manifest_sha256": "e4272cbbdf06f5ab340a968060fa5dad396517be4beea8da0107a32dc1cccf0b",
+    "media_files_hash_checked": 4,
+    "media_personally_viewed": 0,
+    "media_visual_reviewer": "root",
+    "media_visual_scope": "Read root media-manifest visual summaries and verified all archived media byte hashes. This independent reviewer did not visually inspect images. Root reports all14visual inspections; not verification of every underlying external claim."
+  },
+  "draft_hashes_unchanged_at_source_binding": true
+}

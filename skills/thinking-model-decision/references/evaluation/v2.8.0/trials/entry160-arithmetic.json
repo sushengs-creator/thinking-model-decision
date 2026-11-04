@@ -1,0 +1,264 @@
+{
+  "preferences": {
+    "new": {
+      "甲": [
+        "A",
+        "B",
+        "C"
+      ],
+      "乙": [
+        "B",
+        "C",
+        "A"
+      ],
+      "丙": [
+        "A",
+        "C",
+        "B"
+      ]
+    },
+    "old": {
+      "A": [
+        "乙",
+        "甲",
+        "丙"
+      ],
+      "B": [
+        "丙",
+        "乙",
+        "甲"
+      ],
+      "C": [
+        "甲",
+        "丙",
+        "乙"
+      ]
+    }
+  },
+  "current": {
+    "甲": "B",
+    "乙": "A",
+    "丙": "C"
+  },
+  "current_checks": [
+    {
+      "pair": "甲A",
+      "new_prefers": true,
+      "old_prefers": false,
+      "blocking": false
+    },
+    {
+      "pair": "甲C",
+      "new_prefers": false,
+      "old_prefers": true,
+      "blocking": false
+    },
+    {
+      "pair": "乙B",
+      "new_prefers": true,
+      "old_prefers": true,
+      "blocking": true
+    },
+    {
+      "pair": "乙C",
+      "new_prefers": true,
+      "old_prefers": false,
+      "blocking": false
+    },
+    {
+      "pair": "丙A",
+      "new_prefers": true,
+      "old_prefers": false,
+      "blocking": false
+    },
+    {
+      "pair": "丙B",
+      "new_prefers": false,
+      "old_prefers": true,
+      "blocking": false
+    }
+  ],
+  "new_proposing": {
+    "matching": {
+      "甲": "A",
+      "乙": "B",
+      "丙": "C"
+    },
+    "log": [
+      {
+        "proposal": "甲→A",
+        "previous_tentative": null,
+        "retained": "甲",
+        "rejected": null,
+        "waiting": [
+          "乙",
+          "丙"
+        ],
+        "tentative": {
+          "A": "甲"
+        }
+      },
+      {
+        "proposal": "乙→B",
+        "previous_tentative": null,
+        "retained": "乙",
+        "rejected": null,
+        "waiting": [
+          "丙"
+        ],
+        "tentative": {
+          "A": "甲",
+          "B": "乙"
+        }
+      },
+      {
+        "proposal": "丙→A",
+        "previous_tentative": "甲",
+        "retained": "甲",
+        "rejected": "丙",
+        "waiting": [
+          "丙"
+        ],
+        "tentative": {
+          "A": "甲",
+          "B": "乙"
+        }
+      },
+      {
+        "proposal": "丙→C",
+        "previous_tentative": null,
+        "retained": "丙",
+        "rejected": null,
+        "waiting": [],
+        "tentative": {
+          "A": "甲",
+          "B": "乙",
+          "C": "丙"
+        }
+      }
+    ],
+    "checks": [
+      {
+        "pair": "甲B",
+        "new_prefers": false,
+        "old_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": "甲C",
+        "new_prefers": false,
+        "old_prefers": true,
+        "blocking": false
+      },
+      {
+        "pair": "乙A",
+        "new_prefers": false,
+        "old_prefers": true,
+        "blocking": false
+      },
+      {
+        "pair": "乙C",
+        "new_prefers": false,
+        "old_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": "丙A",
+        "new_prefers": true,
+        "old_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": "丙B",
+        "new_prefers": false,
+        "old_prefers": true,
+        "blocking": false
+      }
+    ]
+  },
+  "old_proposing": {
+    "matching": {
+      "乙": "A",
+      "丙": "B",
+      "甲": "C"
+    },
+    "log": [
+      {
+        "proposal": "A→乙",
+        "previous_tentative": null,
+        "retained": "A",
+        "rejected": null,
+        "waiting": [
+          "B",
+          "C"
+        ],
+        "tentative": {
+          "乙": "A"
+        }
+      },
+      {
+        "proposal": "B→丙",
+        "previous_tentative": null,
+        "retained": "B",
+        "rejected": null,
+        "waiting": [
+          "C"
+        ],
+        "tentative": {
+          "乙": "A",
+          "丙": "B"
+        }
+      },
+      {
+        "proposal": "C→甲",
+        "previous_tentative": null,
+        "retained": "C",
+        "rejected": null,
+        "waiting": [],
+        "tentative": {
+          "乙": "A",
+          "丙": "B",
+          "甲": "C"
+        }
+      }
+    ],
+    "checks": [
+      {
+        "pair": "甲A",
+        "new_prefers": true,
+        "old_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": "甲B",
+        "new_prefers": true,
+        "old_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": "乙B",
+        "new_prefers": true,
+        "old_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": "乙C",
+        "new_prefers": true,
+        "old_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": "丙A",
+        "new_prefers": true,
+        "old_prefers": false,
+        "blocking": false
+      },
+      {
+        "pair": "丙C",
+        "new_prefers": true,
+        "old_prefers": false,
+        "blocking": false
+      }
+    ]
+  }
+}

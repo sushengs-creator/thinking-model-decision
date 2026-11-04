@@ -1,0 +1,46 @@
+{
+  "captured_at": "2026-11-04T01:18:08.387131+00:00",
+  "images": [
+    {
+      "index": 0,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEvdUmRXEC0c21Pb9Io8lv52zv1HAq8bAa9U5HkrN70MDrWv1ucMvgnDEtN9KXg6SRAVvcJ2VicbpibIB8ibvibib2EuNUQZMpRJyITPA/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0",
+      "file": "image-00.png",
+      "bytes": 2196400,
+      "sha256": "6f7d516932e0686b7fd1e20fd9ddb4848e349e1dc747b557f9e0fd4399c0921b"
+    },
+    {
+      "index": 1,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEvd3zURejFBxtPNoyRQylpVp2Ow2g3aCjiaia0gR16yGuu84YrI37iaPNicjXUI4ZdJvt6NFmnibRgJX4iaemHzhTZmBXdqAmIHWo4PEc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1",
+      "file": "image-01.png",
+      "bytes": 1062680,
+      "sha256": "f44d8d9ea9f75d45cefefe4d8894619a8ac86495691592c4374c25d37e85cb63"
+    },
+    {
+      "index": 2,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEvf4dq1MjL8QT69kyJapmnEKNPS3qdo7GoVqbQYs9ms272JqAibI5l3YKAMiblJ5UU74Fkh9IwnJOsryUOtXtd5v5K8QXtF7xu458/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2",
+      "file": "image-02.png",
+      "bytes": 1053227,
+      "sha256": "f7a04fdb7290ab16b1e2be1d15beff1e5c5edeae18b9c0a7bc738a0048e8183b"
+    },
+    {
+      "index": 3,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEveIK4icuWMf2ibW6r8w9PYWCO0q6LSficUNW9sRocBUibQVrXZDoP8DX7gkWq3c5yXkdAtiaRyegeQ5SAzKI87Eqjjb1AxWKbIS4Uvc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3",
+      "file": "image-03.png",
+      "bytes": 1120238,
+      "sha256": "3dbb171bc06ee803dccb8f491bffb4062a8f93704dc11dda769922bf21cce5b8"
+    }
+  ],
+  "visual_reviewed": true,
+  "visual_review_date": "2026-11-04",
+  "visual_review_scope": "All captured article images viewed by root; embedded illustrative values checked against visible text and tables. Not verification of every external factual claim.",
+  "visual_review_notes": [
+    "00知识图定义、延迟接受、申请方向与公平边界一致",
+    "01甲A及丙A是不同阻碍对，不是让A同时配两人",
+    "02先暂定后确认，甲A乙C丙B；暂定不等于录取",
+    "03方向改变为甲B乙C丙A，稳定不等于公平；提出方最优仅比较稳定集合"
+  ]
+}

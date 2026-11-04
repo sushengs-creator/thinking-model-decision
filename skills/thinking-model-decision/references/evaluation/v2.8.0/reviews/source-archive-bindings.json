@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-11-04T01:36:47.783823+00:00",
+  "ok": true,
+  "records": [
+    {
+      "id": "TM-159",
+      "bound_at": "2026-11-04T01:36:47.783823+00:00",
+      "source_markdown_sha256": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3",
+      "source_manifest_sha256": "73d7d35a9ed2a0451b75697a258c5254dd931c28938f0ea6c666086b509b592e",
+      "body_sha256": "f0d90acbd1a1b3d3b868af6a02e1647627cd163231101d13319322d019ad3f68",
+      "all_markdown_table_cells_match": true,
+      "all_body_characters_match_ignoring_whitespace_and_table_syntax": true,
+      "table_count": 2,
+      "media_manifest_sha256": "5d972b467bcefbfa92c52a1ebe025cd86578de5e7d336adbd7096087eb04965f",
+      "media_files_hash_checked": 10,
+      "media_personally_viewed": 0,
+      "media_visual_reviewer": "root",
+      "media_visual_scope": "Read root media-manifest visual summaries and verified all archived media byte hashes. This independent reviewer did not visually inspect images. Root reports all14visual inspections; not verification of every underlying external claim."
+    },
+    {
+      "id": "TM-160",
+      "bound_at": "2026-11-04T01:36:47.783823+00:00",
+      "source_markdown_sha256": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+      "source_manifest_sha256": "73d7d35a9ed2a0451b75697a258c5254dd931c28938f0ea6c666086b509b592e",
+      "body_sha256": "6e0ae2919fd54c933152945ab04ef107d0d97c72746068a6fc7616bd801c7c98",
+      "all_markdown_table_cells_match": true,
+      "all_body_characters_match_ignoring_whitespace_and_table_syntax": true,
+      "table_count": 3,
+      "media_manifest_sha256": "e4272cbbdf06f5ab340a968060fa5dad396517be4beea8da0107a32dc1cccf0b",
+      "media_files_hash_checked": 4,
+      "media_personally_viewed": 0,
+      "media_visual_reviewer": "root",
+      "media_visual_scope": "Read root media-manifest visual summaries and verified all archived media byte hashes. This independent reviewer did not visually inspect images. Root reports all14visual inspections; not verification of every underlying external claim."
+    }
+  ]
+}

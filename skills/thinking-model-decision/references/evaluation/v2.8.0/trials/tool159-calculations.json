@@ -1,0 +1,96 @@
+{
+  "status": "fictional_one_off_simulation_no_real_world_effect_guarantee",
+  "case1": {
+    "expected_demand": 6.2,
+    "Cu": 60,
+    "Co": 30,
+    "critical_ratio": 0.6666666666666666,
+    "rows": [
+      {
+        "Q": 4,
+        "cash_by_demand": {
+          "4": 140,
+          "6": 320,
+          "8": 500
+        },
+        "expected_cash": 338.0,
+        "worst_cash": 500,
+        "no_emergency_probability": 0.2,
+        "user_defined_supply_to_demand_ratio": 0.6451612903225806,
+        "fulfilled_demand_ratio_for_distinction_only": 0.6451612903225806,
+        "cash_limit_pass": false,
+        "user_defined_coverage_limit_pass": false
+      },
+      {
+        "Q": 6,
+        "cash_by_demand": {
+          "4": 200,
+          "6": 200,
+          "8": 380
+        },
+        "expected_cash": 254.0,
+        "worst_cash": 380,
+        "no_emergency_probability": 0.7,
+        "user_defined_supply_to_demand_ratio": 0.967741935483871,
+        "fulfilled_demand_ratio_for_distinction_only": 0.9032258064516129,
+        "cash_limit_pass": true,
+        "user_defined_coverage_limit_pass": true
+      },
+      {
+        "Q": 8,
+        "cash_by_demand": {
+          "4": 260,
+          "6": 260,
+          "8": 260
+        },
+        "expected_cash": 260.0,
+        "worst_cash": 260,
+        "no_emergency_probability": 1.0,
+        "user_defined_supply_to_demand_ratio": 1.2903225806451613,
+        "fulfilled_demand_ratio_for_distinction_only": 1.0,
+        "cash_limit_pass": true,
+        "user_defined_coverage_limit_pass": true
+      }
+    ],
+    "time_minutes": {
+      "already_spent": 5,
+      "read": 3,
+      "verify": 5,
+      "order": 8,
+      "record": 4,
+      "later_review": 7,
+      "buffer": 8,
+      "total": 40
+    }
+  },
+  "case2": {
+    "Cu": 80,
+    "Co": 20,
+    "critical_ratio": 0.8,
+    "illustrative_deterministic_scenarios_not_estimates": [
+      {
+        "demand": 20,
+        "Q20_cost": 400,
+        "Q25_cost": 500
+      },
+      {
+        "demand": 25,
+        "Q20_cost": 900,
+        "Q25_cost": 500
+      }
+    ],
+    "Q25_minus_Q20_cost_expression": "100 - 100 * E[min(max(D-20,0),5)]",
+    "time_minutes": {
+      "already_spent": 5,
+      "read": 3,
+      "ask_boss": 4,
+      "confirm_current_list": 5,
+      "calculate_and_decide": 2,
+      "order": 4,
+      "record": 2,
+      "later_review": 3,
+      "buffer": 2,
+      "total": 30
+    }
+  }
+}

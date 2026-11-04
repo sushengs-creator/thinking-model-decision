@@ -1,0 +1,215 @@
+{
+  "input_file": "inputs/entry.json",
+  "method": "Independent exact-fraction cost enumeration and DA/all6matchings from original inputs; executed before reading entry raw answers",
+  "entry159": {
+    "mean": "41/5",
+    "Cu": 40,
+    "Co": 20,
+    "alpha": "2/3",
+    "rows": [
+      {
+        "Q": 6,
+        "cash_by_D": {
+          "6": 120,
+          "8": 240,
+          "10": 360
+        },
+        "expected_cost": 252.0,
+        "worst": 360,
+        "cycle_service": 0.2,
+        "fulfilled_units": "6",
+        "coverage": "30/41",
+        "supply_ratio": "30/41",
+        "feasible_worst240": false
+      },
+      {
+        "Q": 8,
+        "cash_by_D": {
+          "6": 160,
+          "8": 160,
+          "10": 280
+        },
+        "expected_cost": 196.0,
+        "worst": 280,
+        "cycle_service": 0.7,
+        "fulfilled_units": "38/5",
+        "coverage": "38/41",
+        "supply_ratio": "40/41",
+        "feasible_worst240": false
+      },
+      {
+        "Q": 10,
+        "cash_by_D": {
+          "6": 200,
+          "8": 200,
+          "10": 200
+        },
+        "expected_cost": 200.0,
+        "worst": 200,
+        "cycle_service": 1.0,
+        "fulfilled_units": "41/5",
+        "coverage": "1",
+        "supply_ratio": "50/41",
+        "feasible_worst240": true
+      }
+    ],
+    "expected_min_Q": 8,
+    "constrained_Q": 10,
+    "time": {
+      "initial_window25_already_used5_remaining20": true,
+      "actual_reply_elapsed_must_be_deducted": true,
+      "later_review_budget_not_given": "Do not add later work into current20-minute countdown without separate stated estimate and contingent resource."
+    }
+  },
+  "entry160": {
+    "initial": {
+      "甲": "B",
+      "乙": "A",
+      "丙": "C"
+    },
+    "initial_blocking_pairs": [
+      [
+        "乙",
+        "B"
+      ]
+    ],
+    "applicant_result": {
+      "甲": "A",
+      "乙": "B",
+      "丙": "C"
+    },
+    "applicant_log": [
+      {
+        "p": "甲",
+        "w": "A",
+        "previous": null,
+        "held": "甲"
+      },
+      {
+        "p": "乙",
+        "w": "B",
+        "previous": null,
+        "held": "乙"
+      },
+      {
+        "p": "丙",
+        "w": "A",
+        "previous": "甲",
+        "held": "甲"
+      },
+      {
+        "p": "丙",
+        "w": "C",
+        "previous": null,
+        "held": "丙"
+      }
+    ],
+    "reverse_result": {
+      "乙": "A",
+      "丙": "B",
+      "甲": "C"
+    },
+    "reverse_log": [
+      {
+        "p": "A",
+        "w": "乙",
+        "previous": null,
+        "held": "A"
+      },
+      {
+        "p": "B",
+        "w": "丙",
+        "previous": null,
+        "held": "B"
+      },
+      {
+        "p": "C",
+        "w": "甲",
+        "previous": null,
+        "held": "C"
+      }
+    ],
+    "all_matchings": [
+      {
+        "matching": {
+          "甲": "A",
+          "乙": "B",
+          "丙": "C"
+        },
+        "blocking_pairs": []
+      },
+      {
+        "matching": {
+          "甲": "A",
+          "乙": "C",
+          "丙": "B"
+        },
+        "blocking_pairs": [
+          [
+            "丙",
+            "C"
+          ]
+        ]
+      },
+      {
+        "matching": {
+          "甲": "B",
+          "乙": "A",
+          "丙": "C"
+        },
+        "blocking_pairs": [
+          [
+            "乙",
+            "B"
+          ]
+        ]
+      },
+      {
+        "matching": {
+          "甲": "B",
+          "乙": "C",
+          "丙": "A"
+        },
+        "blocking_pairs": [
+          [
+            "甲",
+            "A"
+          ],
+          [
+            "乙",
+            "B"
+          ]
+        ]
+      },
+      {
+        "matching": {
+          "甲": "C",
+          "乙": "A",
+          "丙": "B"
+        },
+        "blocking_pairs": []
+      },
+      {
+        "matching": {
+          "甲": "C",
+          "乙": "B",
+          "丙": "A"
+        },
+        "blocking_pairs": [
+          [
+            "甲",
+            "A"
+          ]
+        ]
+      }
+    ],
+    "resource": {
+      "already": 12,
+      "organizer_max": 18,
+      "disputes": 6,
+      "total_allocated": 36,
+      "remaining_under_total40": 4,
+      "issue": "18-minute organizer cap cannot silently reuse4slack;6-personsecondconfirmation requires countedpeopleminutes and authorization;program priority unknown requires conditionalrecommendation"
+    }
+  }
+}

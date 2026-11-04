@@ -1,0 +1,881 @@
+{
+  "created_at": "2026-11-04T01:28:59.428683+00:00",
+  "method": "Independent exact rational enumeration, not author expected outputs",
+  "distribution": {
+    "8": {
+      "exact": "1/10",
+      "decimal": 0.1
+    },
+    "9": {
+      "exact": "1/5",
+      "decimal": 0.2
+    },
+    "10": {
+      "exact": "2/5",
+      "decimal": 0.4
+    },
+    "11": {
+      "exact": "1/5",
+      "decimal": 0.2
+    },
+    "12": {
+      "exact": "1/10",
+      "decimal": 0.1
+    }
+  },
+  "mean": 10,
+  "underage": 80,
+  "overage": 20,
+  "alpha": {
+    "exact": "4/5",
+    "decimal": 0.8
+  },
+  "original_table": [
+    {
+      "Q": 8,
+      "expected_total": {
+        "exact": "360",
+        "decimal": 360.0
+      },
+      "total_by_D": {
+        "8": 160,
+        "9": 260,
+        "10": 360,
+        "11": 460,
+        "12": 560
+      },
+      "worst_total": 560,
+      "expected_shortage": {
+        "exact": "2",
+        "decimal": 2.0
+      },
+      "expected_leftover": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "cycle_service": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "pooled_unit_coverage": {
+        "exact": "4/5",
+        "decimal": 0.8
+      }
+    },
+    {
+      "Q": 9,
+      "expected_total": {
+        "exact": "290",
+        "decimal": 290.0
+      },
+      "total_by_D": {
+        "8": 180,
+        "9": 180,
+        "10": 280,
+        "11": 380,
+        "12": 480
+      },
+      "worst_total": 480,
+      "expected_shortage": {
+        "exact": "11/10",
+        "decimal": 1.1
+      },
+      "expected_leftover": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "cycle_service": {
+        "exact": "3/10",
+        "decimal": 0.3
+      },
+      "pooled_unit_coverage": {
+        "exact": "89/100",
+        "decimal": 0.89
+      }
+    },
+    {
+      "Q": 10,
+      "expected_total": {
+        "exact": "240",
+        "decimal": 240.0
+      },
+      "total_by_D": {
+        "8": 200,
+        "9": 200,
+        "10": 200,
+        "11": 300,
+        "12": 400
+      },
+      "worst_total": 400,
+      "expected_shortage": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_leftover": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "cycle_service": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "pooled_unit_coverage": {
+        "exact": "24/25",
+        "decimal": 0.96
+      }
+    },
+    {
+      "Q": 11,
+      "expected_total": {
+        "exact": "230",
+        "decimal": 230.0
+      },
+      "total_by_D": {
+        "8": 220,
+        "9": 220,
+        "10": 220,
+        "11": 220,
+        "12": 320
+      },
+      "worst_total": 320,
+      "expected_shortage": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_leftover": {
+        "exact": "11/10",
+        "decimal": 1.1
+      },
+      "cycle_service": {
+        "exact": "9/10",
+        "decimal": 0.9
+      },
+      "pooled_unit_coverage": {
+        "exact": "99/100",
+        "decimal": 0.99
+      }
+    },
+    {
+      "Q": 12,
+      "expected_total": {
+        "exact": "240",
+        "decimal": 240.0
+      },
+      "total_by_D": {
+        "8": 240,
+        "9": 240,
+        "10": 240,
+        "11": 240,
+        "12": 240
+      },
+      "worst_total": 240,
+      "expected_shortage": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_leftover": {
+        "exact": "2",
+        "decimal": 2.0
+      },
+      "cycle_service": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "pooled_unit_coverage": {
+        "exact": "1",
+        "decimal": 1.0
+      }
+    }
+  ],
+  "enumerated_Q_0_to_14": [
+    {
+      "Q": 0,
+      "expected_total": {
+        "exact": "1000",
+        "decimal": 1000.0
+      },
+      "total_by_D": {
+        "8": 800,
+        "9": 900,
+        "10": 1000,
+        "11": 1100,
+        "12": 1200
+      },
+      "worst_total": 1200,
+      "expected_shortage": {
+        "exact": "10",
+        "decimal": 10.0
+      },
+      "expected_leftover": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "cycle_service": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "pooled_unit_coverage": {
+        "exact": "0",
+        "decimal": 0.0
+      }
+    },
+    {
+      "Q": 1,
+      "expected_total": {
+        "exact": "920",
+        "decimal": 920.0
+      },
+      "total_by_D": {
+        "8": 720,
+        "9": 820,
+        "10": 920,
+        "11": 1020,
+        "12": 1120
+      },
+      "worst_total": 1120,
+      "expected_shortage": {
+        "exact": "9",
+        "decimal": 9.0
+      },
+      "expected_leftover": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "cycle_service": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "pooled_unit_coverage": {
+        "exact": "1/10",
+        "decimal": 0.1
+      }
+    },
+    {
+      "Q": 2,
+      "expected_total": {
+        "exact": "840",
+        "decimal": 840.0
+      },
+      "total_by_D": {
+        "8": 640,
+        "9": 740,
+        "10": 840,
+        "11": 940,
+        "12": 1040
+      },
+      "worst_total": 1040,
+      "expected_shortage": {
+        "exact": "8",
+        "decimal": 8.0
+      },
+      "expected_leftover": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "cycle_service": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "pooled_unit_coverage": {
+        "exact": "1/5",
+        "decimal": 0.2
+      }
+    },
+    {
+      "Q": 3,
+      "expected_total": {
+        "exact": "760",
+        "decimal": 760.0
+      },
+      "total_by_D": {
+        "8": 560,
+        "9": 660,
+        "10": 760,
+        "11": 860,
+        "12": 960
+      },
+      "worst_total": 960,
+      "expected_shortage": {
+        "exact": "7",
+        "decimal": 7.0
+      },
+      "expected_leftover": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "cycle_service": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "pooled_unit_coverage": {
+        "exact": "3/10",
+        "decimal": 0.3
+      }
+    },
+    {
+      "Q": 4,
+      "expected_total": {
+        "exact": "680",
+        "decimal": 680.0
+      },
+      "total_by_D": {
+        "8": 480,
+        "9": 580,
+        "10": 680,
+        "11": 780,
+        "12": 880
+      },
+      "worst_total": 880,
+      "expected_shortage": {
+        "exact": "6",
+        "decimal": 6.0
+      },
+      "expected_leftover": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "cycle_service": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "pooled_unit_coverage": {
+        "exact": "2/5",
+        "decimal": 0.4
+      }
+    },
+    {
+      "Q": 5,
+      "expected_total": {
+        "exact": "600",
+        "decimal": 600.0
+      },
+      "total_by_D": {
+        "8": 400,
+        "9": 500,
+        "10": 600,
+        "11": 700,
+        "12": 800
+      },
+      "worst_total": 800,
+      "expected_shortage": {
+        "exact": "5",
+        "decimal": 5.0
+      },
+      "expected_leftover": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "cycle_service": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "pooled_unit_coverage": {
+        "exact": "1/2",
+        "decimal": 0.5
+      }
+    },
+    {
+      "Q": 6,
+      "expected_total": {
+        "exact": "520",
+        "decimal": 520.0
+      },
+      "total_by_D": {
+        "8": 320,
+        "9": 420,
+        "10": 520,
+        "11": 620,
+        "12": 720
+      },
+      "worst_total": 720,
+      "expected_shortage": {
+        "exact": "4",
+        "decimal": 4.0
+      },
+      "expected_leftover": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "cycle_service": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "pooled_unit_coverage": {
+        "exact": "3/5",
+        "decimal": 0.6
+      }
+    },
+    {
+      "Q": 7,
+      "expected_total": {
+        "exact": "440",
+        "decimal": 440.0
+      },
+      "total_by_D": {
+        "8": 240,
+        "9": 340,
+        "10": 440,
+        "11": 540,
+        "12": 640
+      },
+      "worst_total": 640,
+      "expected_shortage": {
+        "exact": "3",
+        "decimal": 3.0
+      },
+      "expected_leftover": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "cycle_service": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "pooled_unit_coverage": {
+        "exact": "7/10",
+        "decimal": 0.7
+      }
+    },
+    {
+      "Q": 8,
+      "expected_total": {
+        "exact": "360",
+        "decimal": 360.0
+      },
+      "total_by_D": {
+        "8": 160,
+        "9": 260,
+        "10": 360,
+        "11": 460,
+        "12": 560
+      },
+      "worst_total": 560,
+      "expected_shortage": {
+        "exact": "2",
+        "decimal": 2.0
+      },
+      "expected_leftover": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "cycle_service": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "pooled_unit_coverage": {
+        "exact": "4/5",
+        "decimal": 0.8
+      }
+    },
+    {
+      "Q": 9,
+      "expected_total": {
+        "exact": "290",
+        "decimal": 290.0
+      },
+      "total_by_D": {
+        "8": 180,
+        "9": 180,
+        "10": 280,
+        "11": 380,
+        "12": 480
+      },
+      "worst_total": 480,
+      "expected_shortage": {
+        "exact": "11/10",
+        "decimal": 1.1
+      },
+      "expected_leftover": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "cycle_service": {
+        "exact": "3/10",
+        "decimal": 0.3
+      },
+      "pooled_unit_coverage": {
+        "exact": "89/100",
+        "decimal": 0.89
+      }
+    },
+    {
+      "Q": 10,
+      "expected_total": {
+        "exact": "240",
+        "decimal": 240.0
+      },
+      "total_by_D": {
+        "8": 200,
+        "9": 200,
+        "10": 200,
+        "11": 300,
+        "12": 400
+      },
+      "worst_total": 400,
+      "expected_shortage": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "expected_leftover": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "cycle_service": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "pooled_unit_coverage": {
+        "exact": "24/25",
+        "decimal": 0.96
+      }
+    },
+    {
+      "Q": 11,
+      "expected_total": {
+        "exact": "230",
+        "decimal": 230.0
+      },
+      "total_by_D": {
+        "8": 220,
+        "9": 220,
+        "10": 220,
+        "11": 220,
+        "12": 320
+      },
+      "worst_total": 320,
+      "expected_shortage": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "expected_leftover": {
+        "exact": "11/10",
+        "decimal": 1.1
+      },
+      "cycle_service": {
+        "exact": "9/10",
+        "decimal": 0.9
+      },
+      "pooled_unit_coverage": {
+        "exact": "99/100",
+        "decimal": 0.99
+      }
+    },
+    {
+      "Q": 12,
+      "expected_total": {
+        "exact": "240",
+        "decimal": 240.0
+      },
+      "total_by_D": {
+        "8": 240,
+        "9": 240,
+        "10": 240,
+        "11": 240,
+        "12": 240
+      },
+      "worst_total": 240,
+      "expected_shortage": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_leftover": {
+        "exact": "2",
+        "decimal": 2.0
+      },
+      "cycle_service": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "pooled_unit_coverage": {
+        "exact": "1",
+        "decimal": 1.0
+      }
+    },
+    {
+      "Q": 13,
+      "expected_total": {
+        "exact": "260",
+        "decimal": 260.0
+      },
+      "total_by_D": {
+        "8": 260,
+        "9": 260,
+        "10": 260,
+        "11": 260,
+        "12": 260
+      },
+      "worst_total": 260,
+      "expected_shortage": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_leftover": {
+        "exact": "3",
+        "decimal": 3.0
+      },
+      "cycle_service": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "pooled_unit_coverage": {
+        "exact": "1",
+        "decimal": 1.0
+      }
+    },
+    {
+      "Q": 14,
+      "expected_total": {
+        "exact": "280",
+        "decimal": 280.0
+      },
+      "total_by_D": {
+        "8": 280,
+        "9": 280,
+        "10": 280,
+        "11": 280,
+        "12": 280
+      },
+      "worst_total": 280,
+      "expected_shortage": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected_leftover": {
+        "exact": "4",
+        "decimal": 4.0
+      },
+      "cycle_service": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "pooled_unit_coverage": {
+        "exact": "1",
+        "decimal": 1.0
+      }
+    }
+  ],
+  "minimum_Q": 11,
+  "next_unit_expected_savings": {
+    "10_to_11": 10,
+    "11_to_12": -10
+  },
+  "retail": {
+    "c": 20,
+    "p": 30,
+    "s": 5,
+    "Cu": 10,
+    "Co": 15,
+    "alpha": {
+      "exact": "2/5",
+      "decimal": 0.4
+    }
+  },
+  "emergency40": {
+    "Cu": 20,
+    "Co": 20,
+    "alpha": {
+      "exact": "1/2",
+      "decimal": 0.5
+    },
+    "optimalQ": 10,
+    "table": [
+      {
+        "Q": 8,
+        "expected_total": {
+          "exact": "240",
+          "decimal": 240.0
+        },
+        "total_by_D": {
+          "8": 160,
+          "9": 200,
+          "10": 240,
+          "11": 280,
+          "12": 320
+        },
+        "worst_total": 320,
+        "expected_shortage": {
+          "exact": "2",
+          "decimal": 2.0
+        },
+        "expected_leftover": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "cycle_service": {
+          "exact": "1/10",
+          "decimal": 0.1
+        },
+        "pooled_unit_coverage": {
+          "exact": "4/5",
+          "decimal": 0.8
+        }
+      },
+      {
+        "Q": 9,
+        "expected_total": {
+          "exact": "224",
+          "decimal": 224.0
+        },
+        "total_by_D": {
+          "8": 180,
+          "9": 180,
+          "10": 220,
+          "11": 260,
+          "12": 300
+        },
+        "worst_total": 300,
+        "expected_shortage": {
+          "exact": "11/10",
+          "decimal": 1.1
+        },
+        "expected_leftover": {
+          "exact": "1/10",
+          "decimal": 0.1
+        },
+        "cycle_service": {
+          "exact": "3/10",
+          "decimal": 0.3
+        },
+        "pooled_unit_coverage": {
+          "exact": "89/100",
+          "decimal": 0.89
+        }
+      },
+      {
+        "Q": 10,
+        "expected_total": {
+          "exact": "216",
+          "decimal": 216.0
+        },
+        "total_by_D": {
+          "8": 200,
+          "9": 200,
+          "10": 200,
+          "11": 240,
+          "12": 280
+        },
+        "worst_total": 280,
+        "expected_shortage": {
+          "exact": "2/5",
+          "decimal": 0.4
+        },
+        "expected_leftover": {
+          "exact": "2/5",
+          "decimal": 0.4
+        },
+        "cycle_service": {
+          "exact": "7/10",
+          "decimal": 0.7
+        },
+        "pooled_unit_coverage": {
+          "exact": "24/25",
+          "decimal": 0.96
+        }
+      },
+      {
+        "Q": 11,
+        "expected_total": {
+          "exact": "224",
+          "decimal": 224.0
+        },
+        "total_by_D": {
+          "8": 220,
+          "9": 220,
+          "10": 220,
+          "11": 220,
+          "12": 260
+        },
+        "worst_total": 260,
+        "expected_shortage": {
+          "exact": "1/10",
+          "decimal": 0.1
+        },
+        "expected_leftover": {
+          "exact": "11/10",
+          "decimal": 1.1
+        },
+        "cycle_service": {
+          "exact": "9/10",
+          "decimal": 0.9
+        },
+        "pooled_unit_coverage": {
+          "exact": "99/100",
+          "decimal": 0.99
+        }
+      },
+      {
+        "Q": 12,
+        "expected_total": {
+          "exact": "240",
+          "decimal": 240.0
+        },
+        "total_by_D": {
+          "8": 240,
+          "9": 240,
+          "10": 240,
+          "11": 240,
+          "12": 240
+        },
+        "worst_total": 240,
+        "expected_shortage": {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        "expected_leftover": {
+          "exact": "2",
+          "decimal": 2.0
+        },
+        "cycle_service": {
+          "exact": "1",
+          "decimal": 1.0
+        },
+        "pooled_unit_coverage": {
+          "exact": "1",
+          "decimal": 1.0
+        }
+      }
+    ]
+  },
+  "discrete_median": {
+    "median": 10,
+    "P_less": {
+      "exact": "3/10",
+      "decimal": 0.3
+    },
+    "P_equal": {
+      "exact": "2/5",
+      "decimal": 0.4
+    },
+    "P_greater": {
+      "exact": "3/10",
+      "decimal": 0.3
+    },
+    "P_le": {
+      "exact": "7/10",
+      "decimal": 0.7
+    },
+    "correction": "A discrete median need not split probability exactly in half."
+  },
+  "demand_shift_plus2": {
+    "alpha_unchanged": {
+      "exact": "4/5",
+      "decimal": 0.8
+    },
+    "new_Q": 13,
+    "explanation": "Unchanged unit loss costs fix alpha; only corresponding demand quantile changes."
+  },
+  "service_and_cash": {
+    "cycle_95pct_Q": 12,
+    "Q11_cycle": {
+      "exact": "9/10",
+      "decimal": 0.9
+    },
+    "Q11_pooled_coverage": {
+      "exact": "99/100",
+      "decimal": 0.99
+    },
+    "Q11_at_D12_total": 320,
+    "Q12_total": 240
+  },
+  "fixed_recourse": "The fixed guaranteed emergency option is already in the exact single-decision objective; discretionary staged recourse requires strategy expansion."
+}

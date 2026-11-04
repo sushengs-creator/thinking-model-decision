@@ -1,0 +1,378 @@
+{
+  "reviewed_at": "2026-11-04T01:41:50.022427+00:00",
+  "verdict": "passed_with_limits",
+  "blocking_failures": [],
+  "cases": [
+    {
+      "id": "tm159-fit",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "All three expected and supportwise worst total costs correct including fixed20;Q6 chosen among feasible allowed quantities.",
+        "Economic alpha2/3,cycle service70%,and literal supply ratio30/31 correctly distinguished; conventional fulfillment28/31 also disclosed.",
+        "Cash200prepay+180emergency=380≤420,first action order6before actualdeadline,receipt completion and input-change conditions clear.",
+        "Total40includes5spent,reading/checking/order/record/laterreview/buffer; no duplicate budget."
+      ],
+      "limitations": [
+        "Metric label and draft review expectation differ from literal request; recorded dual calculation, not penalized."
+      ]
+    },
+    {
+      "id": "tm159-misuse",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "Censored20meansD≥20,notexact20;no fabricated distribution or95%guarantee.",
+        "Cu80Co20alpha80%unchanged by demand alone;service metric and emergency-final100%distinguished.",
+        "DemonstrationD20/25andcosts400/500,900/500are explicitlynotforecasts;incremental five-unit threshold E[extra covered]>1 correct.",
+        "Action asks the two decision-relevant gaps and preserves unresolved branch/authorizeddecision;no silent permission from noresponse.",
+        "Total30includes5used;25future includesreading/contact/order/record/future review,stopatdeadline."
+      ],
+      "limitations": [
+        "No uniqueQwithout evidence is appropriate; no realoutreach orpurchase tested."
+      ]
+    },
+    {
+      "id": "TM-160-fit",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "Allthree initialblockingpairs correct;14totalproposals logs valid and both finalmatchings fullychecked.",
+        "Preference comparisons including losers versusoriginal andproposer-side choice match independentlyenumerated outcomes.",
+        "Stable≠fair/welfare/truthfulness/real-worlddurability;no authorization overreach orprivaterankingbroadcast.",
+        "Budget45+24+10=79≤90androle-specificcaps honored;Friday2026-11-06correct;alreadyusedtime deducted.",
+        "EmbeddedHTMLcontent matches result/resource/conditions and uses readable sourceID/path;staticcheckedonly."
+      ],
+      "limitations": [
+        "Tool-level rawanswer includesHTMLsource,not savedstandalonefile;fullentrydelivery assessed separately."
+      ]
+    },
+    {
+      "id": "TM-160-misuse",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "Mutuallyacceptableedges andcapacitymax2correct;current乙Ablockingpair remains despitecommitment.",
+        "CounterfactualDA3proposals yields乙A丙B甲unmatched,uniquestable fororiginalunboundtable;checkedindependently.",
+        "Realimplementation preserves甲A,onlyconditional丙Bconfirmation,乙unmatched;residualconstraintnotclaimedoriginalglobalstability.",
+        "No forcedunacceptable pairing, fabricatedslot, unilateralrelease orcontact;clear internalstatefirststep andupdate/stopconditions."
+      ],
+      "limitations": [
+        "No exact budget wasprovided; answer givescurrentaction andtriggers butnotestimatedduration.",
+        "NoHTMLinthisrawanswer;mechanism-onlyscope,notdefaultfullentryHTMLvalidation."
+      ]
+    }
+  ],
+  "scope": {
+    "responses": 4,
+    "execution_contexts": 2,
+    "context_grouping": {
+      "tool159": [
+        "tm159-fit",
+        "tm159-misuse"
+      ],
+      "tool160": [
+        "TM-160-fit",
+        "TM-160-misuse"
+      ]
+    },
+    "context_evidence": "Parent confirmed each tool executor started a new context and processed its two cases in shared context; separate files do not imply independent case contexts.",
+    "reviewer_role": "Independent reviewer did not author draft cards/tools or execute rawanswers.",
+    "input_equality": "All4rawinputstrings equal inputsfiles anddesignrequestfields;review_focus not in executioninputs.",
+    "full_entry_or_cross_client_validation": false,
+    "realworld_effects": false,
+    "html_visual_preview": false,
+    "explicit_executor_task_scope": {
+      "159": "请求没要求HTML则允许本次工具级文字结果；总入口另测HTML",
+      "160": "工具级可文字输出，总入口另测HTML",
+      "evidence": "Parent confirmed actual executor task instructions on2026-11-04 after review scope inquiry."
+    }
+  },
+  "resource_and_artifact_checks": [
+    {
+      "path": "inputs/tool-159.json",
+      "label": "original_input",
+      "expected": "6e3ac58072d7d59774ae88ed430601a4d5e5ed5975cd24be0599daa557c2840b",
+      "actual": "6e3ac58072d7d59774ae88ed430601a4d5e5ed5975cd24be0599daa557c2840b",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/SKILL.md",
+      "label": "execution_resource",
+      "expected": "cf6ef7f93ed569e33913ac93fa13de329104d4d1675080aca620a4b26654c8cd",
+      "actual": "cf6ef7f93ed569e33913ac93fa13de329104d4d1675080aca620a4b26654c8cd",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-159.md",
+      "label": "execution_resource",
+      "expected": "5aaf845d543c3d26da40f6d62bd0a355dfb548970dad3c47dd00408dce77d579",
+      "actual": "5aaf845d543c3d26da40f6d62bd0a355dfb548970dad3c47dd00408dce77d579",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-159.md",
+      "label": "execution_resource",
+      "expected": "31803e2efe03d5bd4bbdbff4ac4d62ebb028b2da86f9504d35a606b975bd2e71",
+      "actual": "31803e2efe03d5bd4bbdbff4ac4d62ebb028b2da86f9504d35a606b975bd2e71",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/user-models/TM-159.md",
+      "label": "execution_resource",
+      "expected": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3",
+      "actual": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/toolbox-orchestration.md",
+      "label": "execution_resource",
+      "expected": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "actual": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tool-runtime.md",
+      "label": "execution_resource",
+      "expected": "f87ad1e7c8c5051afc8acf85db539779d8f6069dd40e81fd69e24faf6cd06145",
+      "actual": "f87ad1e7c8c5051afc8acf85db539779d8f6069dd40e81fd69e24faf6cd06145",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/wan-tools/WW-1.4.md",
+      "label": "execution_resource",
+      "expected": "c64f13288b22fbf2ab5fb85ea09d9e8bc784837c9f45260480d2edea208865e6",
+      "actual": "c64f13288b22fbf2ab5fb85ea09d9e8bc784837c9f45260480d2edea208865e6",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/wan-tools/WW-3.5.md",
+      "label": "execution_resource",
+      "expected": "03441b42221aad7183fb542291559faab956a03bbf7d350eafc701748958afa6",
+      "actual": "03441b42221aad7183fb542291559faab956a03bbf7d350eafc701748958afa6",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/decision-report.md",
+      "label": "execution_resource",
+      "expected": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "actual": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "match": true
+    },
+    {
+      "path": "trials/tool159-calculations.py",
+      "label": "raw_output_or_calculation",
+      "expected": "d4e08f1fe8e90f0ca9a19347a76f906b726c35e72347c7a896a2ee3590c615af",
+      "actual": "d4e08f1fe8e90f0ca9a19347a76f906b726c35e72347c7a896a2ee3590c615af",
+      "match": true
+    },
+    {
+      "path": "trials/tool159-calculations.json",
+      "label": "raw_output_or_calculation",
+      "expected": "fe0ced9a2cbee05d0ef96ef4f71175bae98c7d4e877e49bd29475d13ed9765de",
+      "actual": "fe0ced9a2cbee05d0ef96ef4f71175bae98c7d4e877e49bd29475d13ed9765de",
+      "match": true
+    },
+    {
+      "path": "trials/tool159.json",
+      "label": "raw_output_or_calculation",
+      "expected": "91f21e562918f39e60b63901775154df8e925ea6ec2fa3d914e5b73140d4872f",
+      "actual": "91f21e562918f39e60b63901775154df8e925ea6ec2fa3d914e5b73140d4872f",
+      "match": true
+    },
+    {
+      "path": "inputs/tool-160.json",
+      "label": "original_input",
+      "expected": "b1b9fae9cd768549129af42714cc1f924ef6a236c41c55b9c2a29f26ce53d943",
+      "actual": "b1b9fae9cd768549129af42714cc1f924ef6a236c41c55b9c2a29f26ce53d943",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/SKILL.md",
+      "label": "execution_resource",
+      "expected": "cf6ef7f93ed569e33913ac93fa13de329104d4d1675080aca620a4b26654c8cd",
+      "actual": "cf6ef7f93ed569e33913ac93fa13de329104d4d1675080aca620a4b26654c8cd",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-160.md",
+      "label": "execution_resource",
+      "expected": "33c5c5d132378008721e488e3d40c95b5863701d98232ea38163b7d74956c48c",
+      "actual": "33c5c5d132378008721e488e3d40c95b5863701d98232ea38163b7d74956c48c",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-160.md",
+      "label": "execution_resource",
+      "expected": "2863d84959ee0a09143825c0f3281142989b47a98ecb6a368ebb60b05a3ffd16",
+      "actual": "2863d84959ee0a09143825c0f3281142989b47a98ecb6a368ebb60b05a3ffd16",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/user-models/TM-160.md",
+      "label": "execution_resource",
+      "expected": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+      "actual": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/toolbox-orchestration.md",
+      "label": "execution_resource",
+      "expected": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "actual": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tool-runtime.md",
+      "label": "execution_resource",
+      "expected": "f87ad1e7c8c5051afc8acf85db539779d8f6069dd40e81fd69e24faf6cd06145",
+      "actual": "f87ad1e7c8c5051afc8acf85db539779d8f6069dd40e81fd69e24faf6cd06145",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/decision-report.md",
+      "label": "execution_resource",
+      "expected": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "actual": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/html-action-plan.md",
+      "label": "execution_resource",
+      "expected": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef",
+      "actual": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/model-relations.md",
+      "label": "execution_resource",
+      "expected": "9cb71d4e2058287835db59c0c6507b388af299269c49589b5357dda4be2c640c",
+      "actual": "9cb71d4e2058287835db59c0c6507b388af299269c49589b5357dda4be2c640c",
+      "match": true
+    },
+    {
+      "path": "trials/tool160.json",
+      "label": "raw_output_or_calculation",
+      "expected": "906ca3e96f3acd00fe7fb7b1e671650bbae6c3c2d98691c79a6c134f5d0934ac",
+      "actual": "906ca3e96f3acd00fe7fb7b1e671650bbae6c3c2d98691c79a6c134f5d0934ac",
+      "match": true
+    },
+    {
+      "path": "trials/tool160-fit-output.txt",
+      "label": "raw_output_or_calculation",
+      "expected": "ccb518c68df23606335216f907e9b86fd1181b664cc06bdd48df5b081ee79955",
+      "actual": "ccb518c68df23606335216f907e9b86fd1181b664cc06bdd48df5b081ee79955",
+      "match": true
+    },
+    {
+      "path": "trials/tool160-misuse-output.txt",
+      "label": "raw_output_or_calculation",
+      "expected": "57bde286cc52e0ee6c32e9d0ee3d07bca75ec4b4831ababc1ea4e28c4d167e4b",
+      "actual": "57bde286cc52e0ee6c32e9d0ee3d07bca75ec4b4831ababc1ea4e28c4d167e4b",
+      "match": true
+    },
+    {
+      "path": "trials/tool160-calculate.py",
+      "label": "raw_output_or_calculation",
+      "expected": "dc0cd690d9419042cdb6cc5c74954552b50bf6201945ca6ed7398ab629ed9fb3",
+      "actual": "dc0cd690d9419042cdb6cc5c74954552b50bf6201945ca6ed7398ab629ed9fb3",
+      "match": true
+    },
+    {
+      "path": "trials/tool160-fit-evidence.json",
+      "label": "raw_output_or_calculation",
+      "expected": "5753c549cc7118b38961dcb94431dc8fbe72bc26446cce3b92fad5b02565d714",
+      "actual": "5753c549cc7118b38961dcb94431dc8fbe72bc26446cce3b92fad5b02565d714",
+      "match": true
+    },
+    {
+      "path": "trials/tool160-misuse-evidence.json",
+      "label": "raw_output_or_calculation",
+      "expected": "f00e9f3c4fa470a1590d898444dc1575fc758a8059a3753d73ee75598728f98f",
+      "actual": "f00e9f3c4fa470a1590d898444dc1575fc758a8059a3753d73ee75598728f98f",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/user-models/TM-159.md",
+      "label": "source_registered_binding",
+      "expected": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3",
+      "actual": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-159.md",
+      "label": "card_registered_binding",
+      "expected": "31803e2efe03d5bd4bbdbff4ac4d62ebb028b2da86f9504d35a606b975bd2e71",
+      "actual": "31803e2efe03d5bd4bbdbff4ac4d62ebb028b2da86f9504d35a606b975bd2e71",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-159.md",
+      "label": "runtime_registered_binding",
+      "expected": "5aaf845d543c3d26da40f6d62bd0a355dfb548970dad3c47dd00408dce77d579",
+      "actual": "5aaf845d543c3d26da40f6d62bd0a355dfb548970dad3c47dd00408dce77d579",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/user-models/TM-160.md",
+      "label": "source_registered_binding",
+      "expected": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+      "actual": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/cards/TM-160.md",
+      "label": "card_registered_binding",
+      "expected": "2863d84959ee0a09143825c0f3281142989b47a98ecb6a368ebb60b05a3ffd16",
+      "actual": "2863d84959ee0a09143825c0f3281142989b47a98ecb6a368ebb60b05a3ffd16",
+      "match": true
+    },
+    {
+      "path": "staged-repo/skills/thinking-model-decision/references/tools/TM-160.md",
+      "label": "runtime_registered_binding",
+      "expected": "33c5c5d132378008721e488e3d40c95b5863701d98232ea38163b7d74956c48c",
+      "actual": "33c5c5d132378008721e488e3d40c95b5863701d98232ea38163b7d74956c48c",
+      "match": true
+    }
+  ],
+  "registered_bindings": [
+    {
+      "id": "TM-159",
+      "source_sha256": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3",
+      "card_sha256": "31803e2efe03d5bd4bbdbff4ac4d62ebb028b2da86f9504d35a606b975bd2e71",
+      "runtime_sha256": "5aaf845d543c3d26da40f6d62bd0a355dfb548970dad3c47dd00408dce77d579"
+    },
+    {
+      "id": "TM-160",
+      "source_sha256": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+      "card_sha256": "2863d84959ee0a09143825c0f3281142989b47a98ecb6a368ebb60b05a3ffd16",
+      "runtime_sha256": "33c5c5d132378008721e488e3d40c95b5863701d98232ea38163b7d74956c48c"
+    }
+  ],
+  "arithmetic_record": "tool-arithmetic-and-format.json",
+  "observations": [
+    {
+      "severity": "P3_design",
+      "finding": "TM159fit literalQ/E[D]vsstandardmin(D,Q)/E[D]definition mismatch with design expectation; honest alternative definition and same choice prevent material failure. Future request should name actual fulfilled units if that is intended."
+    },
+    {
+      "severity": "P3_scope",
+      "finding": "Local160fit providesHTMLsource,misuseplainanalysis; do not count either as standalone fullentryHTMLdelivery. Review actual entry separately."
+    },
+    {
+      "severity": "P3_specificity",
+      "finding": "160misuse could include a suggested short timebox, but lack of fixedtimebudget does not justify inventing one and currentaction/stopconditions exist."
+    }
+  ],
+  "raw_answer_preservation": {
+    "modified": false,
+    "hashes": {
+      "trials/tool159.json": "91f21e562918f39e60b63901775154df8e925ea6ec2fa3d914e5b73140d4872f",
+      "trials/tool160.json": "906ca3e96f3acd00fe7fb7b1e671650bbae6c3c2d98691c79a6c134f5d0934ac"
+    }
+  },
+  "source_table_fix": {
+    "initial_failure_retained": "source-archive-binding-initial.json",
+    "fixed_readback": "source-archive-bindings.json",
+    "source159_unchanged": true,
+    "source160_now_hash": "6ceee1c2d643e89af6ab4fc1e8ab4798e2cab798fa8493f5bab86f2130c45c0c",
+    "trial160_reads_current_fixed_source": true,
+    "fix_scope": "Blank line separates independent preference tables; original prose and tablecells unchanged."
+  }
+}

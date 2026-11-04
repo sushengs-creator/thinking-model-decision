@@ -1,0 +1,86 @@
+{
+  "scope": "虚构一次性工具级模拟；两条请求分别作答；未读其他试跑、drafts、reviews或测试期待；未自评、未改技能；无现实效果保证；未外发或真实采购。",
+  "skill_root": "../../../..",
+  "input": {
+    "relative_path": "inputs/tool-159.json",
+    "sha256": "6e3ac58072d7d59774ae88ed430601a4d5e5ed5975cd24be0599daa557c2840b"
+  },
+  "resources": [
+    {
+      "relative_path": "SKILL.md",
+      "sha256": "cf6ef7f93ed569e33913ac93fa13de329104d4d1675080aca620a4b26654c8cd"
+    },
+    {
+      "relative_path": "references/tools/TM-159.md",
+      "sha256": "5aaf845d543c3d26da40f6d62bd0a355dfb548970dad3c47dd00408dce77d579"
+    },
+    {
+      "relative_path": "references/cards/TM-159.md",
+      "sha256": "31803e2efe03d5bd4bbdbff4ac4d62ebb028b2da86f9504d35a606b975bd2e71"
+    },
+    {
+      "relative_path": "references/user-models/TM-159.md",
+      "sha256": "2bf344d2472eeee74f535f1a8cf705123fa69e43f921e0dbf8663592fdb4afd3",
+      "read_scope": "读取正文，工具结果曾截断；另完整读取125至245行，涵盖公式边界、需求变化、服务口径和售罄截断。"
+    },
+    {
+      "relative_path": "references/toolbox-orchestration.md",
+      "sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9"
+    },
+    {
+      "relative_path": "references/tool-runtime.md",
+      "sha256": "f87ad1e7c8c5051afc8acf85db539779d8f6069dd40e81fd69e24faf6cd06145"
+    },
+    {
+      "relative_path": "references/wan-tools/WW-1.4.md",
+      "sha256": "c64f13288b22fbf2ab5fb85ea09d9e8bc784837c9f45260480d2edea208865e6"
+    },
+    {
+      "relative_path": "references/wan-tools/WW-3.5.md",
+      "sha256": "03441b42221aad7183fb542291559faab956a03bbf7d350eafc701748958afa6"
+    },
+    {
+      "relative_path": "references/decision-report.md",
+      "sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478"
+    }
+  ],
+  "case_resources": {
+    "tm159-fit": [
+      "SKILL.md",
+      "references/tools/TM-159.md",
+      "references/cards/TM-159.md",
+      "references/user-models/TM-159.md",
+      "references/toolbox-orchestration.md",
+      "references/tool-runtime.md",
+      "references/wan-tools/WW-1.4.md",
+      "references/decision-report.md"
+    ],
+    "tm159-misuse": [
+      "SKILL.md",
+      "references/tools/TM-159.md",
+      "references/cards/TM-159.md",
+      "references/user-models/TM-159.md",
+      "references/toolbox-orchestration.md",
+      "references/tool-runtime.md",
+      "references/wan-tools/WW-1.4.md",
+      "references/wan-tools/WW-3.5.md",
+      "references/decision-report.md"
+    ]
+  },
+  "calculations": [
+    {
+      "relative_path": "trials/tool159-calculations.py",
+      "sha256": "d4e08f1fe8e90f0ca9a19347a76f906b726c35e72347c7a896a2ee3590c615af"
+    },
+    {
+      "relative_path": "trials/tool159-calculations.json",
+      "sha256": "fe0ced9a2cbee05d0ef96ef4f71175bae98c7d4e877e49bd29475d13ed9765de"
+    }
+  ],
+  "output": {
+    "relative_path": "trials/tool159.json",
+    "sha256": "91f21e562918f39e60b63901775154df8e925ea6ec2fa3d914e5b73140d4872f"
+  },
+  "output_format": "Markdown；用户两次都明确要求，不生成HTML。",
+  "output_preservation": "output字段为该模拟情境首次作答的原始输出，保存后未作修改。"
+}

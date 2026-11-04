@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-04",
+  "purpose": "Public portability only. Original files and calculation scripts remain in maintenance workspace. JSON contains complete raw answers and calculation results. Execution-time hashes are not transformed publication hashes. No answer rewritten after review.",
+  "files": [
+    {
+      "public_path": "trials/entry-manifest.json",
+      "original_sha256": "2f152e409bc69ed0eee4064a2ed3d3de1575bc96bcd45fa7f39c370d223cfdd3",
+      "public_sha256": "c823e971d7e0fccf7acbe430c872fdade9e9cf83c8752d250282bd191ddaf309",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/entry.json",
+      "original_sha256": "21a422b512faaee007e3424b2b6a5ac5b7b1cb349db1847030f9a778b4ee05e6",
+      "public_sha256": "14975f54b7c7a7c142640b43338aa9ab1d14aacc4a5e11bd4f5fb900c4ebd1a0",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/entry159-arithmetic.json",
+      "original_sha256": "3ec193136e7ff748834a5d5872225e5b7c147d40f202d39c4772173e78a2a8e9",
+      "public_sha256": "3ec193136e7ff748834a5d5872225e5b7c147d40f202d39c4772173e78a2a8e9",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/entry159-plan.html",
+      "original_sha256": "4f6d48d38a9747ca818d29565a7383ed17fc61c8d635c24e777844350594ab1b",
+      "public_sha256": "ab00ebcb8c3c262fa9ead0a316ff38e12be739041747069fe90f60fdd630ee93",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/entry160-arithmetic.json",
+      "original_sha256": "3d0996da8d1eb64f11b02088eee90e1ed504ba60e02830d69b278611f36c70e5",
+      "public_sha256": "3d0996da8d1eb64f11b02088eee90e1ed504ba60e02830d69b278611f36c70e5",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/entry160-plan.html",
+      "original_sha256": "1ce2559e752c296018c083a4a8e0f3d67e6761782efd6cf3200f6025c04c818c",
+      "public_sha256": "3a327cbec3ca7093e3267b83692cfc009cf7cbde15d7901dd015615ffe82df8a",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/tool159-calculations.json",
+      "original_sha256": "fe0ced9a2cbee05d0ef96ef4f71175bae98c7d4e877e49bd29475d13ed9765de",
+      "public_sha256": "fe0ced9a2cbee05d0ef96ef4f71175bae98c7d4e877e49bd29475d13ed9765de",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/tool159-manifest.json",
+      "original_sha256": "a9e86976b4967be4de752b9a8a2754fe71ac464f33be4da274194211e82c0c91",
+      "public_sha256": "f09d7f0bdcab0a76957b80f342200fb42dd82c74675f5f2e27e2fbb77ace5672",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/tool159.json",
+      "original_sha256": "91f21e562918f39e60b63901775154df8e925ea6ec2fa3d914e5b73140d4872f",
+      "public_sha256": "91f21e562918f39e60b63901775154df8e925ea6ec2fa3d914e5b73140d4872f",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/tool160-fit-evidence.json",
+      "original_sha256": "5753c549cc7118b38961dcb94431dc8fbe72bc26446cce3b92fad5b02565d714",
+      "public_sha256": "5753c549cc7118b38961dcb94431dc8fbe72bc26446cce3b92fad5b02565d714",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/tool160-manifest.json",
+      "original_sha256": "d80bd07e6caa5b7f89651778ea28720037b7a441870054f1e3b576307c4179ce",
+      "public_sha256": "f8b7a3af4b804198a03fe2fcad31bed62b301defee530d1de5fce66097c18409",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/tool160-misuse-evidence.json",
+      "original_sha256": "f00e9f3c4fa470a1590d898444dc1575fc758a8059a3753d73ee75598728f98f",
+      "public_sha256": "f00e9f3c4fa470a1590d898444dc1575fc758a8059a3753d73ee75598728f98f",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "trials/tool160.json",
+      "original_sha256": "906ca3e96f3acd00fe7fb7b1e671650bbae6c3c2d98691c79a6c134f5d0934ac",
+      "public_sha256": "906ca3e96f3acd00fe7fb7b1e671650bbae6c3c2d98691c79a6c134f5d0934ac",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/cases-arithmetic159.json",
+      "original_sha256": "7d1d5f24239b1348d8a12ea14fbafa96af46dedf8a05e8aadba012dea8158099",
+      "public_sha256": "7d1d5f24239b1348d8a12ea14fbafa96af46dedf8a05e8aadba012dea8158099",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/cases-arithmetic160.json",
+      "original_sha256": "2c850a2d510a83d376e104db7182cf5d49c9466f6e55d09e9afc355a1c719729",
+      "public_sha256": "2c850a2d510a83d376e104db7182cf5d49c9466f6e55d09e9afc355a1c719729",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/entry-arithmetic-addendum.json",
+      "original_sha256": "5307213d8582e8a219ffec36e80f68561881b146758599f5ee3864c5e1e93a40",
+      "public_sha256": "5307213d8582e8a219ffec36e80f68561881b146758599f5ee3864c5e1e93a40",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/entry-arithmetic.json",
+      "original_sha256": "4f381de41eba4a9c90ef570c382ed1d1b7d6de9f0f53aa4e2f8b51a87f33b594",
+      "public_sha256": "4f381de41eba4a9c90ef570c382ed1d1b7d6de9f0f53aa4e2f8b51a87f33b594",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/entry-review.json",
+      "original_sha256": "2ebfaf5574f3bfd79f3b0836fcecccf2df6a37af753f508575469c8f3e236269",
+      "public_sha256": "276e41ff26782cb728747e7f64f01c10463228d0cea9d12b3a8f930313fccfa5",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/entry-review.md",
+      "original_sha256": "386a29db688a36959a6870a02e9cf92e512699bdad6a3fc97d35b11b7d14d4c3",
+      "public_sha256": "386a29db688a36959a6870a02e9cf92e512699bdad6a3fc97d35b11b7d14d4c3",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-and-cases-review159.json",
+      "original_sha256": "cf3dd8a89f0cce1ececf9cb4b8451fb46c38cc6d453bade9a3215d6b1a99cd94",
+      "public_sha256": "cf3dd8a89f0cce1ececf9cb4b8451fb46c38cc6d453bade9a3215d6b1a99cd94",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-and-cases-review159.md",
+      "original_sha256": "a8caa8ec669a94c6ae9c73a661fd60f07c8f4df4fdec7d62bd4a54e50b857aa0",
+      "public_sha256": "a8caa8ec669a94c6ae9c73a661fd60f07c8f4df4fdec7d62bd4a54e50b857aa0",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-and-cases-review160.json",
+      "original_sha256": "09eeab681b6626659c8a62c7109187b0d918975d8576c71e271d2d3d525fbc78",
+      "public_sha256": "09eeab681b6626659c8a62c7109187b0d918975d8576c71e271d2d3d525fbc78",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-and-cases-review160.md",
+      "original_sha256": "fe4660eaa7df7ca72bf617ad9291244c5d8f7a0669d33927e846f0de68b6ea18",
+      "public_sha256": "fe4660eaa7df7ca72bf617ad9291244c5d8f7a0669d33927e846f0de68b6ea18",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-archive-binding-initial.json",
+      "original_sha256": "d489d4b3831320f31aaae93ae1fe949833af9f8d9e625d1d8bd8c60d9ec765f7",
+      "public_sha256": "d489d4b3831320f31aaae93ae1fe949833af9f8d9e625d1d8bd8c60d9ec765f7",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-archive-bindings.json",
+      "original_sha256": "2256cdefbc5c2f0e086f773c4adfb9af46e5d7cff9892a6168543d71accbaecf",
+      "public_sha256": "2256cdefbc5c2f0e086f773c4adfb9af46e5d7cff9892a6168543d71accbaecf",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-arithmetic159.json",
+      "original_sha256": "baf4443d1d8c81ec5b949aee56d8cd18d1ec2572da41b5d29ed6c657b4ffa8ee",
+      "public_sha256": "baf4443d1d8c81ec5b949aee56d8cd18d1ec2572da41b5d29ed6c657b4ffa8ee",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-arithmetic160.json",
+      "original_sha256": "6ecfedf2b0b8663180fda7f7589ec29b7b39de51b614610fee579cb9ea719868",
+      "public_sha256": "6ecfedf2b0b8663180fda7f7589ec29b7b39de51b614610fee579cb9ea719868",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-review-independent159.json",
+      "original_sha256": "52546e3b97406f715bff1ab13d7d606399ad2eb04407da4ee90308c54f852f20",
+      "public_sha256": "52546e3b97406f715bff1ab13d7d606399ad2eb04407da4ee90308c54f852f20",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-review-independent159.md",
+      "original_sha256": "f476c0f10be0dc9c6f9b4992d2b84c078f7cc88982349b3fdf5f1678b37c78c0",
+      "public_sha256": "f476c0f10be0dc9c6f9b4992d2b84c078f7cc88982349b3fdf5f1678b37c78c0",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-review-independent160.json",
+      "original_sha256": "2248ff41dbec7590cf23b75c8cbcbac46b648f090f798e12c836f4eeb5342ec4",
+      "public_sha256": "2248ff41dbec7590cf23b75c8cbcbac46b648f090f798e12c836f4eeb5342ec4",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/source-review-independent160.md",
+      "original_sha256": "e4a311e761018d6051a42fcc5ea93817dfa2038aef6f586c7cf1ac056f7614c2",
+      "public_sha256": "e4a311e761018d6051a42fcc5ea93817dfa2038aef6f586c7cf1ac056f7614c2",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/tool-arithmetic-and-format.json",
+      "original_sha256": "3644862cca96beb20e6e614f86607b97bc217434b2970f76f07236b65aba028b",
+      "public_sha256": "3644862cca96beb20e6e614f86607b97bc217434b2970f76f07236b65aba028b",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/tool-review.json",
+      "original_sha256": "9463c1653ad28f6909b7289e0b02601a6a0f12539b400d7bdc10c30187859674",
+      "public_sha256": "9463c1653ad28f6909b7289e0b02601a6a0f12539b400d7bdc10c30187859674",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "reviews/tool-review.md",
+      "original_sha256": "9045251f5c4dd3959b6a062f83e7a34ee3476d30193e6f1ad0d0b92f0efff1eb",
+      "public_sha256": "9045251f5c4dd3959b6a062f83e7a34ee3476d30193e6f1ad0d0b92f0efff1eb",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "inputs/entry.json",
+      "original_sha256": "d5a6866b3544fadb16a8acd2afc7d4cbdb0cecceaf685c3f5b027f76008c5e7a",
+      "public_sha256": "d5a6866b3544fadb16a8acd2afc7d4cbdb0cecceaf685c3f5b027f76008c5e7a",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "inputs/tool-159.json",
+      "original_sha256": "6e3ac58072d7d59774ae88ed430601a4d5e5ed5975cd24be0599daa557c2840b",
+      "public_sha256": "6e3ac58072d7d59774ae88ed430601a4d5e5ed5975cd24be0599daa557c2840b",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    },
+    {
+      "public_path": "inputs/tool-160.json",
+      "original_sha256": "b1b9fae9cd768549129af42714cc1f924ef6a236c41c55b9c2a29f26ce53d943",
+      "public_sha256": "b1b9fae9cd768549129af42714cc1f924ef6a236c41c55b9c2a29f26ce53d943",
+      "only_changes": "Resource paths relocated; request, answer, review prose and original recorded hashes retained."
+    }
+  ]
+}
