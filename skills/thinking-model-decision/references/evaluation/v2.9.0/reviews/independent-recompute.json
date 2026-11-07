@@ -1,0 +1,569 @@
+{
+  "ok": true,
+  "reviewer": "pipeline_1106 independent reviewer; not model/case/trial author",
+  "registered_bindings": [
+    {
+      "id": "TM-161",
+      "source_sha256": "8d83199017754d9d29b9cc619943b9013df7a76688e45a1b944ea8fdf42ddff8",
+      "card_sha256": "3ee90cd898f332e63130a63e565f7ebce0f256327e85442f950d7d8ea909ca55",
+      "runtime_sha256": "a81e5d233d65e7fcab1d682f9bcb50d0df11ed5e2327db7686fb5d16b6ed92bf"
+    },
+    {
+      "id": "TM-162",
+      "source_sha256": "84b16850c30d51ead1875e635dfaea9a978edea5e582710162344b3282181577",
+      "card_sha256": "6e1ecf12a8cef553caa4b252ce54ff3c2017bdc5095cc92baed45c06e9e2cc47",
+      "runtime_sha256": "684509179b1e7f9d40e0a85a8419adcd86c6bfe51111093548659c0de9630d34"
+    }
+  ],
+  "source_checks": [
+    {
+      "id": "TM-161",
+      "body_utf16_units": 6381,
+      "body_fnv1a32": "a0a41b13",
+      "body_and_table_cells_match": true,
+      "table_count": 2,
+      "media_hashes_checked": 4,
+      "independent_media_visual_review": false,
+      "root_media_notes_read": true
+    },
+    {
+      "id": "TM-162",
+      "body_utf16_units": 5469,
+      "body_fnv1a32": "2afaff2c",
+      "body_and_table_cells_match": true,
+      "table_count": 2,
+      "media_hashes_checked": 4,
+      "independent_media_visual_review": false,
+      "root_media_notes_read": true
+    }
+  ],
+  "original_requests_verified": [
+    "tm161-fit",
+    "tm161-misuse",
+    "TM-162-fit",
+    "TM-162-misuse",
+    "entry161-plan",
+    "entry162-plan",
+    "entry-clarification"
+  ],
+  "resource_bindings": [
+    {
+      "trial": "tool161",
+      "path": "SKILL.md",
+      "matches_current": true
+    },
+    {
+      "trial": "tool161",
+      "path": "references/tools/TM-161.md",
+      "matches_current": true
+    },
+    {
+      "trial": "tool161",
+      "path": "references/cards/TM-161.md",
+      "matches_current": true
+    },
+    {
+      "trial": "tool161",
+      "path": "references/user-models/TM-161.md",
+      "matches_current": true
+    },
+    {
+      "trial": "tool161",
+      "path": "references/toolbox-orchestration.md",
+      "matches_current": true
+    },
+    {
+      "trial": "tool161",
+      "path": "references/tool-runtime.md",
+      "matches_current": true
+    },
+    {
+      "trial": "tool161",
+      "path": "references/decision-report.md",
+      "matches_current": true
+    },
+    {
+      "trial": "tool161",
+      "path": "references/second-order-check.md",
+      "matches_current": true
+    },
+    {
+      "trial": "tool161",
+      "path": "references/html-action-plan.md",
+      "matches_current": true
+    },
+    {
+      "trial": "tool162",
+      "path": "SKILL.md",
+      "matches_current": true
+    },
+    {
+      "trial": "tool162",
+      "path": "references/tools/TM-162.md",
+      "matches_current": true
+    },
+    {
+      "trial": "tool162",
+      "path": "references/cards/TM-162.md",
+      "matches_current": true
+    },
+    {
+      "trial": "tool162",
+      "path": "references/user-models/TM-162.md",
+      "matches_current": true
+    },
+    {
+      "trial": "tool162",
+      "path": "references/toolbox-orchestration.md",
+      "matches_current": true
+    },
+    {
+      "trial": "tool162",
+      "path": "references/tool-runtime.md",
+      "matches_current": true
+    },
+    {
+      "trial": "tool162",
+      "path": "references/decision-report.md",
+      "matches_current": true
+    },
+    {
+      "trial": "tool162",
+      "path": "references/html-action-plan.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "SKILL.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/guided-dialogue.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/questioning-toolkit.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/toolbox-orchestration.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/decision-routing.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/tool-catalog.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/wan-catalog.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/tool-runtime.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/second-order-check.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/decision-report.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/html-action-plan.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/tools/TM-161.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/cards/TM-161.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/tools/TM-162.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/cards/TM-162.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/tools/TM-142.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/cards/TM-142.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/wan-tools/WW-6.12.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/wan-tools/WW-9.7.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/user-models/TM-161.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/user-models/TM-162.md",
+      "matches_current": true
+    },
+    {
+      "trial": "entry",
+      "path": "references/tool-index.json",
+      "matches_current": true
+    }
+  ],
+  "calculations": {
+    "tool161_fit": {
+      "A_B_C_totals": [
+        30,
+        48,
+        52
+      ],
+      "C_distribution_p12": [
+        50,
+        2
+      ],
+      "C_cost9_total": 47,
+      "C_cost9_distribution_p12": [
+        45,
+        2
+      ],
+      "strict_p_interval_cost4": [
+        10,
+        14
+      ],
+      "p_interval_cost9_empty": true,
+      "cost_threshold": 8,
+      "time_budget": 35
+    },
+    "tool162_fit": {
+      "enumerated_allocations": 75,
+      "all_strict_improvements_Ax_Ay_Atime_Btime_capacity": [
+        [
+          3,
+          3,
+          75,
+          168,
+          false
+        ],
+        [
+          4,
+          0,
+          75,
+          148,
+          true
+        ]
+      ],
+      "recommended_total_person_minutes": 223,
+      "time_saved": 25,
+      "finish": "11:28",
+      "calendar_minutes_earlier": 22
+    },
+    "tool162_misuse": {
+      "enumerated_allocations_each": 75,
+      "current_strict_feasible": [],
+      "all_to_A": [
+        159,
+        8
+      ],
+      "new_strict_feasible_Ax_Ay_Atime_Btime": [
+        [
+          0,
+          11,
+          72,
+          104
+        ],
+        [
+          1,
+          9,
+          75,
+          113
+        ]
+      ],
+      "new_baseline": [
+        78,
+        114
+      ],
+      "new_best": [
+        72,
+        104
+      ],
+      "new_full_specialization": [
+        99,
+        68
+      ],
+      "current_unspent_capacity_before_unvalidated_trial": [
+        2,
+        4
+      ]
+    },
+    "entry161": {
+      "totals": [
+        80,
+        90,
+        94
+      ],
+      "S_distribution": [
+        93,
+        1
+      ],
+      "S_cost13_total": 87,
+      "S_cost13_distribution": [
+        86,
+        1
+      ],
+      "cost_threshold": 10,
+      "fixed_p9_organizer_strict_threshold": 9,
+      "budget": 25,
+      "organizer_vs_P": -27
+    },
+    "entry162": {
+      "all21_allocations_Ax_Ay_Atime_Btime_capacity_strict": [
+        [
+          0,
+          0,
+          2,
+          183,
+          false,
+          false
+        ],
+        [
+          0,
+          1,
+          12,
+          168,
+          false,
+          false
+        ],
+        [
+          0,
+          2,
+          22,
+          153,
+          false,
+          false
+        ],
+        [
+          0,
+          3,
+          32,
+          138,
+          false,
+          false
+        ],
+        [
+          0,
+          4,
+          42,
+          123,
+          false,
+          false
+        ],
+        [
+          0,
+          5,
+          52,
+          108,
+          false,
+          false
+        ],
+        [
+          0,
+          6,
+          62,
+          93,
+          false,
+          false
+        ],
+        [
+          1,
+          0,
+          22,
+          138,
+          false,
+          false
+        ],
+        [
+          1,
+          1,
+          32,
+          123,
+          false,
+          false
+        ],
+        [
+          1,
+          2,
+          42,
+          108,
+          false,
+          false
+        ],
+        [
+          1,
+          3,
+          50,
+          90,
+          false,
+          false
+        ],
+        [
+          1,
+          4,
+          62,
+          78,
+          false,
+          false
+        ],
+        [
+          1,
+          5,
+          72,
+          63,
+          false,
+          false
+        ],
+        [
+          1,
+          6,
+          82,
+          48,
+          false,
+          false
+        ],
+        [
+          2,
+          0,
+          42,
+          93,
+          false,
+          false
+        ],
+        [
+          2,
+          1,
+          52,
+          78,
+          true,
+          false
+        ],
+        [
+          2,
+          2,
+          62,
+          63,
+          false,
+          false
+        ],
+        [
+          2,
+          3,
+          72,
+          48,
+          false,
+          false
+        ],
+        [
+          2,
+          4,
+          82,
+          33,
+          false,
+          false
+        ],
+        [
+          2,
+          5,
+          92,
+          18,
+          false,
+          false
+        ],
+        [
+          2,
+          6,
+          102,
+          3,
+          false,
+          false
+        ]
+      ],
+      "current_strict_feasible": [],
+      "only_capacity_candidate": [
+        52,
+        78
+      ],
+      "net_savings": [
+        -2,
+        12
+      ],
+      "newA_X_threshold_strict": 18
+    }
+  },
+  "html_checks": [
+    {
+      "file": "trial162-fit.html",
+      "sha256": "e1141568712273ea00773f35ca168e17d09112218d276d1cc2ded0cbe89f294e",
+      "local_reference_count": 3,
+      "static_structure_and_references_passed": true,
+      "visual_checked": false
+    },
+    {
+      "file": "trial162-misuse.html",
+      "sha256": "4df81c36abd55fe1ab090244173bab0a1df5c4c56c45e16ebf49e98288952790",
+      "local_reference_count": 3,
+      "static_structure_and_references_passed": true,
+      "visual_checked": false
+    },
+    {
+      "file": "entry161-plan.html",
+      "sha256": "5cf44dbd88cdc6f5c48c12842348b9bb7e397bceea7857ac1927b91a12a51e59",
+      "local_reference_count": 4,
+      "static_structure_and_references_passed": true,
+      "visual_checked": false
+    },
+    {
+      "file": "entry162-plan.html",
+      "sha256": "b5d4d6ee1e8c350e2ee8d3b4c9c52833847d4eac209972ec3d63bd41de513327",
+      "local_reference_count": 3,
+      "static_structure_and_references_passed": true,
+      "visual_checked": false
+    }
+  ],
+  "limits": [
+    "Media SHA and root notes checked, without independent image viewing.",
+    "HTML content and static links checked, without browser visual checks.",
+    "No historical/policy claim audit or real-world effect validation."
+  ]
+}

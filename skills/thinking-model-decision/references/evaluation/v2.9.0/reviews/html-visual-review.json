@@ -1,0 +1,11 @@
+{
+  "status": "not_completed_browser_local_file_policy",
+  "date": "2026-11-06",
+  "scope": [
+    "entry161-plan.html",
+    "entry162-plan.html",
+    "trial162-fit.html",
+    "trial162-misuse.html"
+  ],
+  "detail": "执行者报告本地文件浏览器预览被策略阻止；本文没有将静态内容检查写成视觉验证。独立评审已阅读实际HTML内容，静态结构及打包链接另审。"
+}

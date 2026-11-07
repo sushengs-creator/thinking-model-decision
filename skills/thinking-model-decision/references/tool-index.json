@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "2.8.0",
+  "version": "2.9.0",
   "scope": "160 runtime tools; source checking, recorded trials, reviewed trials and real outcomes are distinct.",
   "tools": [
     {
@@ -5425,6 +5425,106 @@
       "card_sha256": "2863d84959ee0a09143825c0f3281142989b47a98ecb6a368ebb60b05a3ffd16",
       "runtime_path": "references/tools/TM-160.md",
       "runtime_sha256": "33c5c5d132378008721e488e3d40c95b5863701d98232ea38163b7d74956c48c"
+    },
+    {
+      "id": "TM-161",
+      "name": "外部性",
+      "task": "找出未进入选择的第三方得失，在权利与预算内比较真实增量总账、执行成本和分担同意条件，形成可实施的治理安排",
+      "roles": [
+        "澄清",
+        "证据",
+        "解释",
+        "约束",
+        "参与者",
+        "选项",
+        "取舍",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "外部性",
+        "隔壁睡不着",
+        "噪声扰民",
+        "污染损害",
+        "成本别人承担",
+        "收益自己拿",
+        "共享资料没人维护",
+        "免费搭便车",
+        "公共资源过度使用",
+        "内部化",
+        "补偿分担",
+        "协调成本",
+        "交易成本",
+        "边际损害",
+        "规则没人执行",
+        "共同出资",
+        "纠正性收费",
+        "权限同意"
+      ],
+      "output": "未覆盖影响账本、合法可行方案的真实总账及执行成本比较、资金分担与同意条件、立即行动和复查触发条件",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.9.0/trials/tool161-results.json",
+        "references/evaluation/v2.9.0/trials/entry-results.json"
+      ],
+      "review_records": [
+        "references/evaluation/v2.9.0/reviews/tool-review.json",
+        "references/evaluation/v2.9.0/reviews/entry-review.json"
+      ],
+      "source_review_records": [
+        "references/validation/TM-161-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-161.md",
+      "source_sha256": "8d83199017754d9d29b9cc619943b9013df7a76688e45a1b944ea8fdf42ddff8",
+      "card_path": "references/cards/TM-161.md",
+      "card_sha256": "3ee90cd898f332e63130a63e565f7ebce0f256327e85442f950d7d8ea909ca55",
+      "runtime_path": "references/tools/TM-161.md",
+      "runtime_sha256": "a81e5d233d65e7fcab1d682f9bcb50d0df11ed5e2327db7686fb5d16b6ed92bf"
+    },
+    {
+      "id": "TM-162",
+      "name": "比较优势",
+      "task": "比较两方两任务的机会成本，筛选符合真实需求、逐人目标、容量与意愿的交换数量，分开总人时和完工时间",
+      "roles": [
+        "澄清",
+        "约束",
+        "参与者",
+        "选项",
+        "取舍",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "两件事都比别人快是不是应该全部我来",
+        "什么都会所以所有活都压给我",
+        "他样样都慢分给他还能双方省时吗",
+        "家务和任务要怎么交换才都划算",
+        "合计省时间但有人反而更累",
+        "交接和返工把分工收益吃掉了",
+        "交换比例合适但需求数量不够",
+        "机会成本比值一样还能靠分工省时吗",
+        "换设备以后比较优势方向变了",
+        "总人时减少不代表同时更早完工"
+      ],
+      "output": "带单位的机会成本与候选方向、真实交换数量、逐人新旧工时和净收益、容量/质量/日程/意愿检查，以及实施和重算条件",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.9.0/trials/tool162-results.json",
+        "references/evaluation/v2.9.0/trials/entry-results.json"
+      ],
+      "review_records": [
+        "references/evaluation/v2.9.0/reviews/tool-review.json",
+        "references/evaluation/v2.9.0/reviews/entry-review.json"
+      ],
+      "source_review_records": [
+        "references/validation/TM-162-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-162.md",
+      "source_sha256": "84b16850c30d51ead1875e635dfaea9a978edea5e582710162344b3282181577",
+      "card_path": "references/cards/TM-162.md",
+      "card_sha256": "6e1ecf12a8cef553caa4b252ce54ff3c2017bdc5095cc92baed45c06e9e2cc47",
+      "runtime_path": "references/tools/TM-162.md",
+      "runtime_sha256": "684509179b1e7f9d40e0a85a8419adcd86c6bfe51111093548659c0de9630d34"
     }
   ]
 }

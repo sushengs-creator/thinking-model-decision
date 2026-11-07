@@ -1,0 +1,24 @@
+{
+  "reports": [
+    {
+      "file": "../trials/entry161-plan.html",
+      "bytes": 13527,
+      "sha256": "5cf44dbd88cdc6f5c48c12842348b9bb7e397bceea7857ac1927b91a12a51e59",
+      "source_links_verified": 4,
+      "text_characters": 5210,
+      "visual_preview": "blocked_file_url_policy"
+    },
+    {
+      "file": "../trials/entry162-plan.html",
+      "bytes": 13389,
+      "sha256": "b5d4d6ee1e8c350e2ee8d3b4c9c52833847d4eac209972ec3d63bd41de513327",
+      "source_links_verified": 3,
+      "text_characters": 5562,
+      "visual_preview": "blocked_file_url_policy"
+    }
+  ],
+  "verbatim_requests": true,
+  "resource_hashes_match": true,
+  "external_actions_performed": false,
+  "clarification_questions": 1
+}

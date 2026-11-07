@@ -1,0 +1,193 @@
+{
+  "captured_date": "2026-11-06",
+  "count": 2,
+  "old_body_reread_scope": [],
+  "old_body_limit": "TM-001—160正文未重读；只比对合集目录元数据。",
+  "records": [
+    {
+      "id": "TM-161",
+      "title": "思维模型161：外部性 ——你算的是自己的账，为什么最后却是别人在承受代价？",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060529&idx=2&sn=90cec7e42114bd3a90898cbf055acad9&chksm=beabef0289dc66148e0a18eb87bcdc1e4535f4215fe927388dca99e5dc91aa61652caa67192b#rd",
+      "msgid": "2650060529",
+      "itemidx": "2",
+      "published_at_page_display": "2026-11-05T07:35:00+08:00",
+      "album_create_time": "1793835300",
+      "album_time_china": "2026-11-05T07:35:00+08:00",
+      "captured_at": "2026-11-06T01:11:45.956Z",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "browser_surface": "built-in browser",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 6381,
+      "fnv1a32_code_units": "a0a41b13",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "cf6de3cf5d8d2ef2e296fdf548bd85ec0ea004b71512a51f8a2ea481adae0d56",
+      "source_sha256": "8d83199017754d9d29b9cc619943b9013df7a76688e45a1b944ea8fdf42ddff8",
+      "table_count": 2,
+      "tables": [
+        {
+          "rows": [
+            [
+              "生产几批",
+              "厂里净收益",
+              "居民损失",
+              "两方合计净收益"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "70",
+              "20",
+              "50"
+            ],
+            [
+              "2",
+              "120",
+              "40",
+              "80"
+            ],
+            [
+              "3",
+              "150",
+              "60",
+              "90"
+            ],
+            [
+              "4",
+              "160",
+              "80",
+              "80"
+            ],
+            [
+              "5",
+              "150",
+              "100",
+              "50"
+            ]
+          ],
+          "text": "生产几批\n\t\n厂里净收益\n\t\n居民损失\n\t\n两方合计净收益\n\n\n0\n\t\n0\n\t\n0\n\t\n0\n\n\n1\n\t\n70\n\t\n20\n\t\n50\n\n\n2\n\t\n120\n\t\n40\n\t\n80\n\n\n3\n\t\n150\n\t\n60\n\t90\n\n4\n\t160\t\n80\n\t\n80\n\n\n5\n\t\n150\n\t\n100\n\t\n50"
+        },
+        {
+          "rows": [
+            [
+              "方案",
+              "自己的净收益",
+              "邻居的净影响",
+              "两方合计"
+            ],
+            [
+              "A：晚上直接洗",
+              "30",
+              "−50",
+              "−20"
+            ],
+            [
+              "B：改到白天洗",
+              "30−15＝15",
+              "0",
+              "15"
+            ],
+            [
+              "C：晚上采取有效隔振措施",
+              "30−8＝22",
+              "−5",
+              "17"
+            ],
+            [
+              "D：取消本次洗衣",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "text": "方案\n\t\n自己的净收益\n\t\n邻居的净影响\n\t\n两方合计\n\n\nA：晚上直接洗\n\t\n30\n\t\n−50\n\t\n−20\n\n\nB：改到白天洗\n\t\n30−15＝15\n\t\n0\n\t\n15\n\n\nC：晚上采取有效隔振措施\n\t\n30−8＝22\n\t\n−5\n\t17\n\nD：取消本次洗衣\n\t\n0\n\t\n0\n\t\n0"
+        }
+      ],
+      "image_count": 4,
+      "media_read_this_run": true,
+      "media_scope": "4幅图片本轮已逐张查看；本包保留文字和审阅摘要，原图仅留维护工作区。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": false
+    },
+    {
+      "id": "TM-162",
+      "title": "思维模型162：比较优势 ——你样样都比他快比他好，为什么还值得把活儿分给他来做？",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060551&idx=2&sn=bb5bcfb4557c99e18eef8a3ca0ee765d&chksm=beabeef489dc67e2bee5f413eec877c00dc99cf2492a0088b112d8a3c0be3074034cd4bc994b#rd",
+      "msgid": "2650060551",
+      "itemidx": "2",
+      "published_at_page_display": "2026-11-06T07:35:00+08:00",
+      "album_create_time": "1793921700",
+      "album_time_china": "2026-11-06T07:35:00+08:00",
+      "captured_at": "2026-11-06T01:14:35.508Z",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "browser_surface": "built-in browser",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 5469,
+      "fnv1a32_code_units": "2afaff2c",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "6991c6c7b59d14004e2a4c6af8dde099a9cd8a5a141d135bc300ebf4b6c24f1d",
+      "source_sha256": "84b16850c30d51ead1875e635dfaea9a978edea5e582710162344b3282181577",
+      "table_count": 2,
+      "tables": [
+        {
+          "rows": [
+            [
+              "完成一份或一件",
+              "甲",
+              "乙"
+            ],
+            [
+              "做便当",
+              "20 分钟",
+              "60 分钟"
+            ],
+            [
+              "熨衬衫",
+              "10 分钟",
+              "20 分钟"
+            ]
+          ],
+          "text": "完成一份或一件\n\t\n甲\n\t\n乙\n\n\n做便当\n\t\n20 分钟\n\t\n60 分钟\n\n\n熨衬衫\n\t\n10 分钟\n\t\n20 分钟"
+        },
+        {
+          "rows": [
+            [
+              "安排",
+              "甲的劳动时间",
+              "乙的劳动时间",
+              "合计"
+            ],
+            [
+              "各做各的",
+              "90 分钟",
+              "220 分钟",
+              "310 分钟"
+            ],
+            [
+              "全交给甲",
+              "180 分钟",
+              "0 分钟",
+              "180 分钟"
+            ],
+            [
+              "甲做便当，乙熨衬衫",
+              "80 分钟",
+              "200 分钟",
+              "280 分钟"
+            ]
+          ],
+          "text": "安排\n\t\n甲的劳动时间\n\t\n乙的劳动时间\n\t\n合计\n\n\n各做各的\n\t\n90 分钟\n\t\n220 分钟\n\t\n310 分钟\n\n\n全交给甲\n\t\n180 分钟\n\t\n0 分钟\n\t\n180 分钟\n\n\n甲做便当，乙熨衬衫\n\t\n80 分钟\n\t\n200 分钟\n\t280 分钟"
+        }
+      ],
+      "image_count": 4,
+      "media_read_this_run": true,
+      "media_scope": "4幅图片本轮已逐张查看；本包保留文字和审阅摘要，原图仅留维护工作区。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": false
+    }
+  ]
+}

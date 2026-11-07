@@ -1,0 +1,44 @@
+{
+  "captured_at": "2026-11-06T01:12:33.001818+00:00",
+  "images": [
+    {
+      "index": 0,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEvcy9BhWe5qSiaAenrHK13ZF0UdEl3dEicEzlYDY7Nff7tmoj575pPpDbCBCJgMZv1P8NCHh4xkcVMS07m2wPer2bnksmO7JsibdUM/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0",
+      "file": "image-00.png",
+      "bytes": 2106310,
+      "sha256": "acba2dded3a9f5021644501b5ed26c829f06767f73433143b1b96b88e7d47e91"
+    },
+    {
+      "index": 1,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/mmbiz_png/MOiaYc12FEvccXYfI6RL2t7AQYD9WU9I3emqicRp5PIq7bibqIsxxxHv0cjWEcARMzjUcWUOB6OMhO5SAB2Of52KHTzj4l8tOoQgdbQticjiaUxc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1",
+      "file": "image-01.png",
+      "bytes": 1019599,
+      "sha256": "887745b7058f086d16ae74a6b7410b486dd4d3bc1acd69ef6463e64668da39b4"
+    },
+    {
+      "index": 2,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEvcfBaGicYmLH2FJg0GQ5CAsItAJ9IsnXVzYAvw2fPXdwpXyXxqE6ARueUK9YabrsGwOTiaxoGicHvD1nOq9pk9cDFZwhx1D0x9ZEo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2",
+      "file": "image-02.png",
+      "bytes": 925561,
+      "sha256": "3cae52ad1fdbec817a60e9dd5afac0cde7200c427a9e022bf44f542056339ccf"
+    },
+    {
+      "index": 3,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEveg7bvkb7jV6XRLB7B4AoLmbawGfibTcTXHN8OVwlDb9LQ0dW0gLRqalDdaNczfP6IkkIC55Aup5XSnQLfn4R8KV8PjXv0x7V64/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3",
+      "file": "image-03.png",
+      "bytes": 1044611,
+      "sha256": "e4415b097420adbcfad377b3b1b941ca9749ce2357b7612f50d11dc78064ee5b"
+    }
+  ],
+  "visual_reviewed": true,
+  "reviewer": "root",
+  "reviewed_at": "2026-11-06",
+  "review_notes": [
+    "四张均已逐张查看：封面档案图、洗衣机与邻居双账图、减产第四批增量-10+20=10、支付6前后总额17不变。",
+    "配图与正文机制一致；补偿图明确合法与双方同意，物理干扰仍存在。"
+  ]
+}

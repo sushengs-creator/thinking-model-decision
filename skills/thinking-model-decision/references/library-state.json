@@ -1,10 +1,10 @@
 {
-  "version": "2.8.0",
-  "revision": 167,
-  "updated_at": "2026-11-04T01:50:14.059218+00:00",
-  "user_models": 160,
+  "version": "2.9.0",
+  "revision": 179,
+  "updated_at": "2026-11-06T02:06:34.704198+00:00",
+  "user_models": 162,
   "wan_tools": 100,
-  "sample_cards": 43,
+  "sample_cards": 45,
   "sample_card_ids": [
     "TM-054",
     "TM-062",
@@ -48,7 +48,9 @@
     "TM-157",
     "TM-158",
     "TM-159",
-    "TM-160"
+    "TM-160",
+    "TM-161",
+    "TM-162"
   ],
   "behavior_trial_scope": {
     "v0_1_full_entry_cases": [
@@ -72,7 +74,7 @@
     "tested_at_revision": 2,
     "tested_version": "1.0.0"
   },
-  "change": "Add TM-159 newsvendor and TM-160 stable matching sources/cards/runtime/routing; retain corrected table-format and delayed-acceptance retrieval failures; seven actual responses across three execution contexts independently reviewed with limits.",
+  "change": "Add TM-161, TM-162 published sources/cards/runtime/routing; actual simulations independently reviewed; limits and deployment verification remain separate.",
   "validation": {
     "tested_at_revision": 2,
     "official_skill_structure": "passed",
@@ -85,12 +87,12 @@
     "sandbox_manuscript_update": "passed",
     "tested_version": "1.0.0"
   },
-  "total_cards": 160,
+  "total_cards": 162,
   "source_reviewed_cards": 117,
   "card_status_counts": {
     "source_reviewed": 117,
     "sample_reviewed": 8,
-    "behavior_checked": 35
+    "behavior_checked": 37
   },
   "needs_review": [],
   "release_validation_history": {
@@ -512,6 +514,64 @@
       "real_world_outcomes_validated": false,
       "cross_client_compatibility_tested": false,
       "deployment": "Separate target, remote tree and package readback receipts required."
+    },
+    "2.8.0": {
+      "status": "passed_with_limits",
+      "version": "2.8.0",
+      "revision": 167,
+      "valid_for_current_revision": false,
+      "scope": "TM-159/TM-160 increment: four local mechanism responses and three entry responses; 28 lexical searches and two integrity checks; no full-library behavior rerun",
+      "evidence": "references/evaluation/results-v2.8.md",
+      "official_skill_structure": "passed",
+      "library_integrity": "passed",
+      "runtime_integrity": "passed",
+      "actual_simulated_responses": 7,
+      "execution_contexts": 3,
+      "context_grouping": {
+        "tool159": 2,
+        "tool160": 2,
+        "entry": 3
+      },
+      "independent_response_review": "passed_with_limits",
+      "reviewed_local_responses": 4,
+      "reviewed_entry_responses": 3,
+      "behavior_failures_observed": 0,
+      "design_metric_ambiguity_disclosed": true,
+      "standalone_html_reports": 2,
+      "html_static_checks": "passed",
+      "html_visual_preview": "not_performed_browser_file_url_policy",
+      "lexical_retrieval_checks": 28,
+      "structural_checks_in_retrieval_run": 2,
+      "initial_checks_passed": 29,
+      "initial_checks_failed": 1,
+      "initial_runtime_retrieval_miss": "延迟接受 -> TM-160",
+      "retrieval_fix": "Added one TM-160 runtime signal; all 30 checks rerun and passed. Retrieval algorithms and old tools unchanged.",
+      "source_archive_format_failure": "Two adjacent TM-160 preference tables lacked a blank line; repaired and rebound. Body code-unit fingerprint and table cells unchanged.",
+      "album_pages": 17,
+      "unique_album_entries": 162,
+      "numbered_models": 160,
+      "unnumbered_album_entries": 2,
+      "old_body_reread_ids": [],
+      "old_metadata_unchanged_range": "TM-001—TM-158",
+      "source_media_scope": {
+        "TM-159": {
+          "tables": 2,
+          "images": 10
+        },
+        "TM-160": {
+          "tables": 3,
+          "images": 4
+        }
+      },
+      "all_models_retested_this_release": false,
+      "real_world_outcomes_validated": false,
+      "cross_client_compatibility_tested": false,
+      "package_and_deployment": "Not asserted here. ZIP audit, GitHub readback and each authorized local target require separate receipts.",
+      "review_records": [
+        "references/evaluation/v2.8.0/reviews/tool-review.json",
+        "references/evaluation/v2.8.0/reviews/entry-review.json"
+      ],
+      "integrity_retrieval_record": "references/evaluation/v2.8.0/integrity-and-retrieval.json"
     }
   },
   "workflow_validation": {
@@ -868,10 +928,12 @@
       "TM-157",
       "TM-158",
       "TM-159",
-      "TM-160"
+      "TM-160",
+      "TM-161",
+      "TM-162"
     ],
-    "migrated_count": 160,
-    "total_user_models": 160,
+    "migrated_count": 162,
+    "total_user_models": 162,
     "remaining_not_migrated": 0
   },
   "preview_validation_history": {
@@ -899,60 +961,60 @@
   },
   "release_validation": {
     "status": "passed_with_limits",
-    "version": "2.8.0",
-    "revision": 167,
+    "version": "2.9.0",
+    "revision": 179,
     "valid_for_current_revision": true,
-    "scope": "TM-159/TM-160 increment: four local mechanism responses and three entry responses; 28 lexical searches and two integrity checks; no full-library behavior rerun",
-    "evidence": "references/evaluation/results-v2.8.md",
+    "scope": "TM-161,TM-162 increment: actual tool/entry simulations and configured integrity/retrieval checks; not full-library behavior validation",
+    "evidence": "references/evaluation/results-v2.9.md",
     "official_skill_structure": "passed",
     "library_integrity": "passed",
     "runtime_integrity": "passed",
+    "evidence_bundle_revision": 177,
+    "post_bundle_recall_metadata_repair": true,
     "actual_simulated_responses": 7,
     "execution_contexts": 3,
     "context_grouping": {
-      "tool159": 2,
-      "tool160": 2,
-      "entry": 3
+      "/root/entry_1106": 3,
+      "/root/trial161_1106": 2,
+      "/root/trial162_1106": 2
     },
     "independent_response_review": "passed_with_limits",
     "reviewed_local_responses": 4,
     "reviewed_entry_responses": 3,
-    "behavior_failures_observed": 0,
-    "design_metric_ambiguity_disclosed": true,
-    "standalone_html_reports": 2,
-    "html_static_checks": "passed",
-    "html_visual_preview": "not_performed_browser_file_url_policy",
+    "standalone_html_reports": 4,
+    "entry_html_reports": 2,
+    "tool_html_reports": 2,
+    "html_static_checks": "checked separately by final release audit",
+    "html_visual_preview": "not_completed_browser_local_file_policy",
     "lexical_retrieval_checks": 28,
     "structural_checks_in_retrieval_run": 2,
-    "initial_checks_passed": 29,
-    "initial_checks_failed": 1,
-    "initial_runtime_retrieval_miss": "延迟接受 -> TM-160",
-    "retrieval_fix": "Added one TM-160 runtime signal; all 30 checks rerun and passed. Retrieval algorithms and old tools unchanged.",
-    "source_archive_format_failure": "Two adjacent TM-160 preference tables lacked a blank line; repaired and rebound. Body code-unit fingerprint and table cells unchanged.",
+    "failed_retrieval_attempts_preserved": 1,
     "album_pages": 17,
-    "unique_album_entries": 162,
-    "numbered_models": 160,
+    "unique_album_entries": 164,
+    "numbered_models": 162,
     "unnumbered_album_entries": 2,
     "old_body_reread_ids": [],
-    "old_metadata_unchanged_range": "TM-001—TM-158",
+    "old_metadata_unchanged_count": 160,
     "source_media_scope": {
-      "TM-159": {
+      "TM-161": {
         "tables": 2,
-        "images": 10
+        "images": 4,
+        "media_read_this_run": true
       },
-      "TM-160": {
-        "tables": 3,
-        "images": 4
+      "TM-162": {
+        "tables": 2,
+        "images": 4,
+        "media_read_this_run": true
       }
     },
     "all_models_retested_this_release": false,
     "real_world_outcomes_validated": false,
     "cross_client_compatibility_tested": false,
-    "package_and_deployment": "Not asserted here. ZIP audit, GitHub readback and each authorized local target require separate receipts.",
+    "package_and_deployment": "Separate ZIP audit, remote commit/download readback and each authorized local target receipts required; not asserted by this report",
     "review_records": [
-      "references/evaluation/v2.8.0/reviews/tool-review.json",
-      "references/evaluation/v2.8.0/reviews/entry-review.json"
+      "references/evaluation/v2.9.0/reviews/tool-review.json",
+      "references/evaluation/v2.9.0/reviews/entry-review.json"
     ],
-    "integrity_retrieval_record": "references/evaluation/v2.8.0/integrity-and-retrieval.json"
+    "integrity_retrieval_record": "references/evaluation/v2.9.0/integrity-and-retrieval.json"
   }
 }

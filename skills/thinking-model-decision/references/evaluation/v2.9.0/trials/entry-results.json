@@ -1,0 +1,122 @@
+{
+  "execution_context_id": "/root/entry_1106",
+  "requests": [
+    {
+      "id": "entry161-plan",
+      "kind": "entry",
+      "model_ids": [
+        "TM-161"
+      ],
+      "request": "请用思维模型决策工具，帮我们做一个虚构社区共享设备的决定并输出HTML行动方案。事实已够，请直接分析。周末活动用设备做50件作品，每场给主办者的净价值是120个效用单位（已扣共同成本）。现方案P在傍晚使用，给相邻阅读室造成40单位干扰，社区现行约定允许；R改在午间，主办净价值90、对阅读室影响0，已可执行；S加装屏障，主办净价值108、阅读室干扰8，安装核查另耗6单位由主办方承担，尚未计入108。只比较这两个已确认受影响的群体，数字是双方接受的教学假设。S只有阅读室负责人真实同意并通过设备核查后可用，尚未同意。主办方提议补偿阅读室9单位，同事说这会把S总收益提高9单位，所以应直接开工。我想找到可实施且不会替别人做主的安排。还需考虑今后每周合作，不能因一次最优把人际关系搞坏。本次讨论、联系、记录和事后一轮复查共25分钟，其中整理信息已用4分钟，不能另开预算外持续任务。请给方案依据、各方账和行动顺序；并说明如果核查新增实际成本从6变为13，应该怎么改。不要替我们发送通知、付钱或安排活动。",
+      "answer": "建议先以已可执行的 R 为当前保底；S 只有取得阅读室负责人真实同意、通过设备核查且不突破剩余 21 分钟总预算，才可采用。\n\nP、R、S 的两方合计分别是 80、90、94。S 补偿 9 后，主办方得 93、阅读室得 1，合计仍是 94；补偿不新增总收益。双方相对 R 都严格改善的区间为 8 < 补偿 < 12，但相对现状 P，主办方仍少得 27，需要本人接受。\n\n若新增实际成本从 6 变成 13，S 总账降至 87，应转为 R；调补偿数不能弥补这笔真实损失。报告含影响账、各方分配、每周合作的条件分支，以及含已用 4 分钟和事后一次复查的 25 分钟完整预算。\n\n[打开 HTML 行动方案](../trials/entry161-plan.html)。以上是虚构练习中的建议，未发送通知、付款或安排活动。\n\n文件内容和计算已核对；浏览器安全策略禁止预览本地文件，尚未完成桌面、窄屏和打印的视觉检查。",
+      "html_file": "../trials/entry161-plan.html"
+    },
+    {
+      "id": "entry162-plan",
+      "kind": "entry",
+      "model_ids": [
+        "TM-162"
+      ],
+      "request": "请用思维模型决策工具给出HTML方案，帮两位志愿者安排明天的任务。这是虚构练习，请直接分析现有信息。甲乙各自负责1份节目单X和3张指示牌Y，同等质量、单位时间固定且任务可独立并行。甲做X需20分钟、Y需10；乙做X需45分钟、Y需15。若互相代做，甲所有交接和核查增加2分钟，乙增加3分钟，没有其他成本、等待或共同设备。都只允许完整件，不能增加需求，也不付费。甲最多52分钟、乙最多85分钟，二人明天09:00同时开工，10:25前需要全部交付。双方愿意互助但要求各自严格比自做少花时间，具体方案待看。有人提议甲全部包办，有人说乙两样都慢所以没用，也有人说既然甲相对适合X，就应让乙做所有Y。请比较真实可行方案，给逐人净节省、完成时刻、明确的实施步骤和改判条件，不替任何人发送消息。",
+      "answer": "现有条件下没有让双方都严格省时、又满足容量与截止时间的整数分工。\n\n唯一满足两人容量的数量安排是甲做 2X + 1Y、乙做 5Y：计入交接核查后分别为 52、78 分钟，在 09:52、10:18 完成。甲比自做多花 2 分钟，乙省 12 分钟，因此目前不能直接实施。甲全包会超载；让乙做所有 Y 则需 93 分钟，乙更累且晚交付。\n\n第一步是让双方审阅这笔逐人账。只有甲真实接受调整“严格省时”条件、乙也接受具体安排，52 / 78 分钟方案才成立；条件保持不变，就应明确无解。报告包含全部 21 种数量分配的排除依据、条件成立后的实施顺序，以及哪些变化才值得重算。\n\n[打开 HTML 方案](../trials/entry162-plan.html)。未替任何人发送消息或派活。\n\n文件内容和计算已核对；浏览器安全策略禁止预览本地文件，尚未完成桌面、窄屏和打印的视觉检查。",
+      "html_file": "../trials/entry162-plan.html"
+    },
+    {
+      "id": "entry-clarification",
+      "kind": "clarification",
+      "model_ids": [],
+      "request": "用思维模型决策工具帮我理一理：大家一遇到问题就找我，我越来越烦。我也不太清楚到底想让工作少一点，还是想离开。先陪我慢慢理清楚，别一下子给我方案。",
+      "answer": "好，我们慢慢来。大家一有问题就找你，这种反复被需要的状态，已经让你越来越烦了。现在还分不清是想少承担一点，还是想离开，可以先把这个不确定留着。\n\n最近一次让你明显觉得“又来找我了，真烦”的，是一件什么事？"
+    }
+  ],
+  "resource_bindings": [
+    {
+      "path": "SKILL.md",
+      "sha256": "cf6ef7f93ed569e33913ac93fa13de329104d4d1675080aca620a4b26654c8cd"
+    },
+    {
+      "path": "references/guided-dialogue.md",
+      "sha256": "7700f109b08a913fcecf6a8ce26083f00376cc2f32863e7e9225e4ee47bb012a"
+    },
+    {
+      "path": "references/questioning-toolkit.md",
+      "sha256": "4c4435666732c7d48a602866c0c0f17cb3f6fb2676d088093052620a849c80f6"
+    },
+    {
+      "path": "references/toolbox-orchestration.md",
+      "sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9"
+    },
+    {
+      "path": "references/decision-routing.md",
+      "sha256": "caec14f0dbefb52a40db5b1e11bf53fa2cc3cbc62419ce70285de45b3c898099"
+    },
+    {
+      "path": "references/tool-catalog.md",
+      "sha256": "ce115b93a9de45047e3bb4438cced1da3e2b836885c3cbe0fd0ff0e317e2d66d"
+    },
+    {
+      "path": "references/wan-catalog.md",
+      "sha256": "ad133531796c64e8dda463b76b6f26a2ae8b8589954fdbd4a9ac4e34a1e0c8a3"
+    },
+    {
+      "path": "references/tool-runtime.md",
+      "sha256": "f87ad1e7c8c5051afc8acf85db539779d8f6069dd40e81fd69e24faf6cd06145"
+    },
+    {
+      "path": "references/second-order-check.md",
+      "sha256": "733f5ff5ce00c02ec94ef7a82da36b9520472031193fc461eca2bb4f30cbfe8f"
+    },
+    {
+      "path": "references/decision-report.md",
+      "sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478"
+    },
+    {
+      "path": "references/html-action-plan.md",
+      "sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef"
+    },
+    {
+      "path": "references/tools/TM-161.md",
+      "sha256": "a81e5d233d65e7fcab1d682f9bcb50d0df11ed5e2327db7686fb5d16b6ed92bf"
+    },
+    {
+      "path": "references/cards/TM-161.md",
+      "sha256": "3ee90cd898f332e63130a63e565f7ebce0f256327e85442f950d7d8ea909ca55"
+    },
+    {
+      "path": "references/tools/TM-162.md",
+      "sha256": "684509179b1e7f9d40e0a85a8419adcd86c6bfe51111093548659c0de9630d34"
+    },
+    {
+      "path": "references/cards/TM-162.md",
+      "sha256": "6e1ecf12a8cef553caa4b252ce54ff3c2017bdc5095cc92baed45c06e9e2cc47"
+    },
+    {
+      "path": "references/tools/TM-142.md",
+      "sha256": "0be1ae498c7ba3cfcbc55c8527f68268d1fc54ca2d6fbdba2ead443123bc6ded"
+    },
+    {
+      "path": "references/cards/TM-142.md",
+      "sha256": "a076e86838f8a482a9001a2914d5fbfb9933d131296b8e517d296bccb0cdc3d6"
+    },
+    {
+      "path": "references/wan-tools/WW-6.12.md",
+      "sha256": "573beaa3d97df672ca0c0c9fb4188c2d0a68ead86500bcd1f146be08c6a27d6a"
+    },
+    {
+      "path": "references/wan-tools/WW-9.7.md",
+      "sha256": "ac16db91b6e64d3568f35bfe967a08f1e81f7fe109abae6fab7da8980a2afa19"
+    },
+    {
+      "path": "references/user-models/TM-161.md",
+      "sha256": "8d83199017754d9d29b9cc619943b9013df7a76688e45a1b944ea8fdf42ddff8"
+    },
+    {
+      "path": "references/user-models/TM-162.md",
+      "sha256": "84b16850c30d51ead1875e635dfaea9a978edea5e582710162344b3282181577"
+    },
+    {
+      "path": "references/tool-index.json",
+      "sha256": "2e20bf617449c643fd83a709ea6006c82bfa152a022355d96ac59ec489d3f212"
+    }
+  ]
+}

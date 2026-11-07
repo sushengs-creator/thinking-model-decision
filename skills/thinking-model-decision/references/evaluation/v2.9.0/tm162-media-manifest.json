@@ -1,0 +1,44 @@
+{
+  "captured_at": "2026-11-06T01:15:36.764103+00:00",
+  "images": [
+    {
+      "index": 0,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/mmbiz_png/MOiaYc12FEvcYq4UNAicaNZlKwquWczaEicfhSQmfyvAtHaCNxuEIVCChZvAIfKBvnFtEBFr2ymJaZ6rtwfZia5fGBukfkcA5E0GPibL3tfbsQ5A/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0",
+      "file": "image-00.png",
+      "bytes": 2299626,
+      "sha256": "75acf3682038ea1ed592a3b88039fdcc2a62b7e512a6a7dc17681d96d93166cb"
+    },
+    {
+      "index": 1,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEvdViaf4cO1l3B7qcAk4KuzSMIgANAboCgUic8ictrKAibYUDicWE38fo29bibm9NGFZ1Le5AuuGNLCtnpRevhMA9Qe1EeUD6te4EdsZY/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1",
+      "file": "image-01.png",
+      "bytes": 1076434,
+      "sha256": "706550461e5c3f537334cccc06bdd5466cb2253db30c615cb6ce302f42f970ae"
+    },
+    {
+      "index": 2,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/mmbiz_png/MOiaYc12FEvekB2rib3Gs5PfAVrYia7E9qRmpxibu0yfbvktScUiaRCZddRadbkEGYuP5zRZK1dK6EULPKic7YL0ubyuP3HGzSOlN7cXwTX7un3ao/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2",
+      "file": "image-02.png",
+      "bytes": 1015555,
+      "sha256": "9acbdb656019100626c97cb12b69609b4b408d9d6cecae9b05da52b5883d2aee"
+    },
+    {
+      "index": 3,
+      "alt": "图片",
+      "url": "https://mmbiz.qpic.cn/sz_mmbiz_png/MOiaYc12FEvcs2qLkRIJYA6DyAwybPq3a5INZOb7G4iaVqYrjxk8dRXRFnSmeWAnJgOPo94dqZFmPWCx89G2O0UNuegYuVywuy2kUfT70TOQw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3",
+      "file": "image-03.png",
+      "bytes": 1083881,
+      "sha256": "9688014808560079b766c6fa920b3798cc13879c6ce4070d675d55fbc10ee610"
+    }
+  ],
+  "visual_reviewed": true,
+  "reviewer": "root",
+  "reviewed_at": "2026-11-06",
+  "review_notes": [
+    "四张逐张目视：概念与双比率、90/220与全甲180/0和分工80/200、2对3及1/2对1/3机会成本、交接4/8和12/8对逐人净节省影响。",
+    "图文一致，含教学假设、同等质量、不能用合计替代逐人净收益等限制。"
+  ]
+}

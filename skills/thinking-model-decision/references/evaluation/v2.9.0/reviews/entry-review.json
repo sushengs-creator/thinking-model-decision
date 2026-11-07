@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-06",
+  "reviewer": "/root/pipeline_1106",
+  "independence": "Reviewer prepared maintenance plumbing but did not author either model/card/runtime, either case design, or any actual tool/entry response. Synthetic pipeline fixtures were excluded from this review.",
+  "verdict": "passed_with_limits",
+  "blocking_failures": [],
+  "registered_bindings": [
+    {
+      "id": "TM-161",
+      "source_sha256": "8d83199017754d9d29b9cc619943b9013df7a76688e45a1b944ea8fdf42ddff8",
+      "card_sha256": "3ee90cd898f332e63130a63e565f7ebce0f256327e85442f950d7d8ea909ca55",
+      "runtime_sha256": "a81e5d233d65e7fcab1d682f9bcb50d0df11ed5e2327db7686fb5d16b6ed92bf"
+    },
+    {
+      "id": "TM-162",
+      "source_sha256": "84b16850c30d51ead1875e635dfaea9a978edea5e582710162344b3282181577",
+      "card_sha256": "6e1ecf12a8cef553caa4b252ce54ff3c2017bdc5095cc92baed45c06e9e2cc47",
+      "runtime_sha256": "684509179b1e7f9d40e0a85a8419adcd86c6bfe51111093548659c0de9630d34"
+    }
+  ],
+  "independent_calculation_record": "independent-recompute.json",
+  "limitations": [
+    "Fictional simulated inputs and deterministic arithmetic only; no real-world outcomes or full-library behavior regression.",
+    "Article media bytes and root visual-review notes checked; reviewer did not independently view eight article images.",
+    "All four HTML contents and local references were read and parsed; reviewer did not perform browser visual validation.",
+    "Historical, policy and empirical claims in source articles were not independently revalidated. Derived recommendations do not depend on those claims."
+  ],
+  "scope": {
+    "actual_responses": 3,
+    "execution_contexts": 1,
+    "contexts": [
+      "/root/entry_1106"
+    ],
+    "standalone_html_reports": 2,
+    "clarification_only_responses": 1,
+    "html_visual_validation": false
+  },
+  "raw_artifact_sha256": {
+    "entry-results.json": "5c000564454f866407584ffd661dd10933c0b923c72a967b12c880e52a58cf93",
+    "entry161-plan.html": "5cf44dbd88cdc6f5c48c12842348b9bb7e397bceea7857ac1927b91a12a51e59",
+    "entry162-plan.html": "b5d4d6ee1e8c350e2ee8d3b4c9c52833847d4eac209972ec3d63bd41de513327"
+  },
+  "cases": [
+    {
+      "id": "entry161-plan",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "未提示工具名，采用TM-161真实总账/分配分析及WW-6.12合作预期检查；机制分工明确，没有重复堆砌工具。",
+        "P/R/S合计80/90/94，补偿9分配93/1；以R为基准严格区间8<p<12。特别指出相对合法现状P，主办者少得27，不能把R基准双赢冒称现状每人受益。",
+        "成本13时S总账87、补偿后86/1，互利区间空；总成本门槛10与固定补偿9门槛9分开。",
+        "25分钟包括已用4及3/8/2/3/5后续环节，未知设备安装时长不保证在额度内完成；无法确认、拒绝或技术不通过即转R。若已错过午间，不承诺能即时切换。",
+        "每周合作通过本次适用范围、真实拒绝、兑现和竞争情景解释；不创建每周自动任务或假称长期效果。独立HTML和对话短答一致。"
+      ],
+      "limitations": [
+        "以两方共同教学估值为范围，不是现实法律、报价或效果核验。R的建议仍以主办者真实价值选择为前提；S从未被标为已获接受。",
+        "HTML内容与静态路径已核，实际视觉渲染另查。"
+      ]
+    },
+    {
+      "id": "entry162-plan",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "未提示工具名，TM-162完成机会成本、完整数量枚举、逐人目标、容量与时刻的一体分析；没有为工具数量而增加同义模型。",
+        "独立枚举21种产量分配，唯一容量候选甲2X1Y/乙5Y=52/78，甲净省−2、乙+12；原条件下严格双方省时确实无解。",
+        "全交甲102/3超甲容量，全专业化42/93超乙容量且乙更累，原自做50/90也不是按时可行后备。",
+        "候选完成09:52/10:18，总省10人分钟而日历提前12；不以合计掩盖甲损失，真实接受调整目标才可执行，原约束不变就停止。",
+        "协商若超题给2/3开销先重算，甲52已无容量余量；降低非负交接成本或只延长时限不创造严格互利，甲X耗时t<18的条件阈值正确。"
+      ],
+      "limitations": [
+        "已给固定效率、同质、独立并行且无其他成本；候选需当事人主动改变接受条件，报告没有替其同意。HTML视觉另查。"
+      ]
+    },
+    {
+      "id": "entry-clarification",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "先接住烦恼与目标未定，不把离开或减少工作预设成正确目标。",
+        "只追问最近一次具体事件，一个主要问题；未代答、强推工具名或提前生成方案/HTML。"
+      ],
+      "limitations": [
+        "只验证一个首轮澄清响应，未完整重跑多轮访谈。"
+      ]
+    }
+  ]
+}

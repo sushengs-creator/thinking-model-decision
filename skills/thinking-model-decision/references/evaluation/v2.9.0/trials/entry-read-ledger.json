@@ -1,0 +1,90 @@
+[
+  {
+    "path": "SKILL.md",
+    "sha256": "cf6ef7f93ed569e33913ac93fa13de329104d4d1675080aca620a4b26654c8cd"
+  },
+  {
+    "path": "references/guided-dialogue.md",
+    "sha256": "7700f109b08a913fcecf6a8ce26083f00376cc2f32863e7e9225e4ee47bb012a"
+  },
+  {
+    "path": "references/questioning-toolkit.md",
+    "sha256": "4c4435666732c7d48a602866c0c0f17cb3f6fb2676d088093052620a849c80f6"
+  },
+  {
+    "path": "references/toolbox-orchestration.md",
+    "sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9"
+  },
+  {
+    "path": "references/decision-routing.md",
+    "sha256": "caec14f0dbefb52a40db5b1e11bf53fa2cc3cbc62419ce70285de45b3c898099"
+  },
+  {
+    "path": "references/tool-catalog.md",
+    "sha256": "ce115b93a9de45047e3bb4438cced1da3e2b836885c3cbe0fd0ff0e317e2d66d"
+  },
+  {
+    "path": "references/wan-catalog.md",
+    "sha256": "ad133531796c64e8dda463b76b6f26a2ae8b8589954fdbd4a9ac4e34a1e0c8a3"
+  },
+  {
+    "path": "references/tool-runtime.md",
+    "sha256": "f87ad1e7c8c5051afc8acf85db539779d8f6069dd40e81fd69e24faf6cd06145"
+  },
+  {
+    "path": "references/second-order-check.md",
+    "sha256": "733f5ff5ce00c02ec94ef7a82da36b9520472031193fc461eca2bb4f30cbfe8f"
+  },
+  {
+    "path": "references/decision-report.md",
+    "sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478"
+  },
+  {
+    "path": "references/html-action-plan.md",
+    "sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef"
+  },
+  {
+    "path": "references/tools/TM-161.md",
+    "sha256": "a81e5d233d65e7fcab1d682f9bcb50d0df11ed5e2327db7686fb5d16b6ed92bf"
+  },
+  {
+    "path": "references/cards/TM-161.md",
+    "sha256": "3ee90cd898f332e63130a63e565f7ebce0f256327e85442f950d7d8ea909ca55"
+  },
+  {
+    "path": "references/tools/TM-162.md",
+    "sha256": "684509179b1e7f9d40e0a85a8419adcd86c6bfe51111093548659c0de9630d34"
+  },
+  {
+    "path": "references/cards/TM-162.md",
+    "sha256": "6e1ecf12a8cef553caa4b252ce54ff3c2017bdc5095cc92baed45c06e9e2cc47"
+  },
+  {
+    "path": "references/tools/TM-142.md",
+    "sha256": "0be1ae498c7ba3cfcbc55c8527f68268d1fc54ca2d6fbdba2ead443123bc6ded"
+  },
+  {
+    "path": "references/cards/TM-142.md",
+    "sha256": "a076e86838f8a482a9001a2914d5fbfb9933d131296b8e517d296bccb0cdc3d6"
+  },
+  {
+    "path": "references/wan-tools/WW-6.12.md",
+    "sha256": "573beaa3d97df672ca0c0c9fb4188c2d0a68ead86500bcd1f146be08c6a27d6a"
+  },
+  {
+    "path": "references/wan-tools/WW-9.7.md",
+    "sha256": "ac16db91b6e64d3568f35bfe967a08f1e81f7fe109abae6fab7da8980a2afa19"
+  },
+  {
+    "path": "references/user-models/TM-161.md",
+    "sha256": "8d83199017754d9d29b9cc619943b9013df7a76688e45a1b944ea8fdf42ddff8"
+  },
+  {
+    "path": "references/user-models/TM-162.md",
+    "sha256": "84b16850c30d51ead1875e635dfaea9a978edea5e582710162344b3282181577"
+  },
+  {
+    "path": "references/tool-index.json",
+    "sha256": "2e20bf617449c643fd83a709ea6006c82bfa152a022355d96ac59ec489d3f212"
+  }
+]

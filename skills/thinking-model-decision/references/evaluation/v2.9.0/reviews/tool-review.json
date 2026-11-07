@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-06",
+  "reviewer": "/root/pipeline_1106",
+  "independence": "Reviewer prepared maintenance plumbing but did not author either model/card/runtime, either case design, or any actual tool/entry response. Synthetic pipeline fixtures were excluded from this review.",
+  "verdict": "passed_with_limits",
+  "blocking_failures": [],
+  "registered_bindings": [
+    {
+      "id": "TM-161",
+      "source_sha256": "8d83199017754d9d29b9cc619943b9013df7a76688e45a1b944ea8fdf42ddff8",
+      "card_sha256": "3ee90cd898f332e63130a63e565f7ebce0f256327e85442f950d7d8ea909ca55",
+      "runtime_sha256": "a81e5d233d65e7fcab1d682f9bcb50d0df11ed5e2327db7686fb5d16b6ed92bf"
+    },
+    {
+      "id": "TM-162",
+      "source_sha256": "84b16850c30d51ead1875e635dfaea9a978edea5e582710162344b3282181577",
+      "card_sha256": "6e1ecf12a8cef553caa4b252ce54ff3c2017bdc5095cc92baed45c06e9e2cc47",
+      "runtime_sha256": "684509179b1e7f9d40e0a85a8419adcd86c6bfe51111093548659c0de9630d34"
+    }
+  ],
+  "independent_calculation_record": "independent-recompute.json",
+  "limitations": [
+    "Fictional simulated inputs and deterministic arithmetic only; no real-world outcomes or full-library behavior regression.",
+    "Article media bytes and root visual-review notes checked; reviewer did not independently view eight article images.",
+    "All four HTML contents and local references were read and parsed; reviewer did not perform browser visual validation.",
+    "Historical, policy and empirical claims in source articles were not independently revalidated. Derived recommendations do not depend on those claims."
+  ],
+  "scope": {
+    "actual_responses": 4,
+    "execution_contexts": 2,
+    "contexts": [
+      "/root/trial161_1106",
+      "/root/trial162_1106"
+    ],
+    "standalone_html_reports": 2,
+    "markdown_responses_explicitly_requested": 2,
+    "source_models": [
+      161,
+      162
+    ]
+  },
+  "raw_artifact_sha256": {
+    "tool161-results.json": "6339a34424cbdb521bce5ef72247682506229f30e324f5737f68c76c50e2ad9a",
+    "tool162-results.json": "32ca0a6a3c91f91d63297f96ed89854ee8a07525650a3ad2535f6ca72492bc28",
+    "trial162-fit.html": "e1141568712273ea00773f35ca168e17d09112218d276d1cc2ded0cbe89f294e",
+    "trial162-misuse.html": "4df81c36abd55fe1ab090244173bab0a1df5c4c56c45e16ebf49e98288952790"
+  },
+  "cases": [
+    {
+      "id": "tm161-fit",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "A/B/C真实总账30/48/52；A违反既定协议先排除，B已可执行，C仍待测量合格及邻室书面同意。",
+        "补偿12后的分配50/2，总和仍52；双方相对B严格改善需10<p<14。落实成本9时C合计47、分配45/2，p≥10与p≤9不兼容，正确回B。",
+        "总账成本阈值8与固定补偿12下作坊严格获益阈值6分开；已发生费用另计实际总账，不把沉没成本拿来继续推动C。",
+        "35分钟预算5+8+12+3+5+2核算正确，阅读和事后复查均含在内；测量耗时未知时用条件分支，不假定一定完成。",
+        "用户明确要Markdown，文字交付与输入一致，不据未写HTML判失败。"
+      ],
+      "limitations": [
+        "题设的两方估值、权限及成本均为教学假设。C只是附条件建议，未完成同意、技术核查或实施。"
+      ]
+    },
+    {
+      "id": "tm161-misuse",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "区分普通价格竞争利润变化与待补账的真实第三方影响，拒绝把估计800直接转成每节课补偿。",
+        "承认付费月更合同已覆盖且已履行，访客潜在收益未量化，不由免费阅读推出日更不足或强制收费。",
+        "收费转账抵消，新增维护、收款与执行是真成本；当前精力只够月更，无额外预算和权限，保持履约而不新增义务。",
+        "给出可用沟通稿、授权边界和有资源者收集缺口的条件步骤，提出通知、实际授权、收费、交付和效果分开。"
+      ],
+      "limitations": [
+        "没有提供额外工作预算，回答把补证限在现有流程或交有资源者，不代表这些额外评估已启动。未独立核实任何现实合同或法律。"
+      ]
+    },
+    {
+      "id": "TM-162-fit",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "独立枚举75种产量分配，严格互利仅甲3X3Y/乙1X11Y（75/168）与甲4X/乙14Y（75/148）；前者乙超155，后者唯一可行。",
+        "机会成本3Y/X与5Y/X、基线78/170和候选75/148正确，乙自做基线超时未被假称可行后备。",
+        "推荐交换2X换7Y，净省3/22，共25人分钟；同起点独立并行的完成时刻10:15/11:28，整体提前22分钟，不混同人时。",
+        "说明、核查及上传全部含3/8，未增加会议或预算外复查；固定甲协作<6，乙容量要求协作≤15，容量与净收益分别检查。",
+        "保存独立HTML，本文与HTML内容吻合；未代发通知或派活。"
+      ],
+      "limitations": [
+        "独立并行、固定效率和全部协作成本已给定，真实等待/返工或撤回同意会使既有时刻失效。HTML未由评审者视觉预览。"
+      ]
+    },
+    {
+      "id": "TM-162-misuse",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "当前比例相同，独立枚举75种分配无严格双方省时解；自做78/156可行，全甲159/8虽总量少但甲更累且超限，判断正确。",
+        "新技术保持为待验证假设，重建基线78/114；分段疲劳逐件算，全部专业化99/68不满足甲容量。",
+        "新情景独立枚举75种分配恰有甲1X9Y=75/乙3X5Y=113及甲11Y=72/乙4X3Y=104；后一方案逐人更好，分别净省6/10。",
+        "区分技术改善42人分钟与交换改善16，未在无起点/依赖信息时编造完工钟点。",
+        "提出现有需求内的小样验证、同质验收、实际新增成本扣减及双方接受条件，未把工具当已验证；保存独立HTML。"
+      ],
+      "limitations": [
+        "当前技术下原任务仅剩甲2、乙4分钟容量；原答没有直接列这两个数，但明确未知试验成本不可当0且必须扣实际剩余预算。新方案的6/10净节省是验证成功后的条件门槛，不能作为验证前可预支额度。故通过限于条件分析，不能据此立即启动未预算试验。",
+        "试验规模、失败耗时和效果稳定性仍未知；少量合格样件不是全部4X都能稳定15分钟的证据。HTML未由评审者视觉预览。"
+      ]
+    }
+  ]
+}

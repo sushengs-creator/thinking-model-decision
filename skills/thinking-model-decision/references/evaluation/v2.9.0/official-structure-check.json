@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "stdout": "Skill is valid!\n",
+  "stderr": "",
+  "date": "2026-11-07",
+  "scope": "Official skill frontmatter and scaffold validator; not behavior verification"
+}
