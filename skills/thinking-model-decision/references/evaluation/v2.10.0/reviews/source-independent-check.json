@@ -1,0 +1,195 @@
+{
+  "checked_at_utc": "2026-11-07T12:59:29.136294+00:00",
+  "id": "TM-163",
+  "ok": true,
+  "errors": [],
+  "checks": {
+    "single_source_record_163": true,
+    "one_original_body_block": true,
+    "body_txt_exact_capture": true,
+    "original_body_normalized_exact": true,
+    "capture_fingerprint_recomputed": true,
+    "archive_fingerprint_matches_capture": true,
+    "manifest_fingerprint_matches": true,
+    "body_sha256_matches_manifest": true,
+    "source_sha256_matches_manifest": true,
+    "one_table_count_matches": true,
+    "table_cells_exact": true,
+    "manifest_tables_match_capture": true,
+    "title_matches_source_manifest_heading": true,
+    "capture_and_manifest_url_exact": true,
+    "author_present": true,
+    "page_display_time_preserved": true,
+    "capture_time_preserved": true,
+    "opening_retained": true,
+    "ending_retained_exact": true,
+    "archive_card_present_once": true,
+    "album_complete165_and163": true,
+    "album_head_tail_and_dedup": true,
+    "album_single_163_identity": true,
+    "album_title_and_timestamp": true,
+    "old001_162_metadata_unchanged": true,
+    "old_bodies_scope_empty": true,
+    "image_counts_and_indexes": true,
+    "image_0_url_size_hash_png": true,
+    "image_1_url_size_hash_png": true,
+    "image_2_url_size_hash_png": true,
+    "image_3_url_size_hash_png": true,
+    "root_visual_review_recorded": true,
+    "input_files_stable_during_check": true
+  },
+  "scope": "Independent read-only integrity and coverage comparison of provided normal-browser capture, archived body/Markdown, source/media manifests and complete album metadata. No browser operations, source edits or formal-skill writes.",
+  "input_files": {
+    "capture": {
+      "path": "sources/163/browser-capture.json",
+      "sha256": "4c202be48307ad35f5b5646e34f2238c45fb4ad5040fdea4504add5b4abbe68f"
+    },
+    "body": {
+      "path": "sources/163/body.txt",
+      "sha256": "97aa961083153e19e8a15f59ecf8e575b2c1c82eb8d2824f53c14195ced301f0"
+    },
+    "source": {
+      "path": "sources/TM-163.md",
+      "sha256": "ed77d48cee90851627f4cf859acd1ed59047e83a4cded0a78c1408e198aa5db4"
+    },
+    "source_manifest": {
+      "path": "sources/source-manifest.json",
+      "sha256": "cb3285414177dbec3b0bcede8de2e9fe92e3e2c153a6922d64817d23becdc101"
+    },
+    "media_manifest": {
+      "path": "sources/163/media-manifest.json",
+      "sha256": "bf09d07f6bce59a7476029bf47bc2aa24357108c651f91c013527c59e41401c6"
+    },
+    "album_manifest": {
+      "path": "album/album-manifest.json",
+      "sha256": "fee19f10e4b4024457f916f29f2e46f91fc0131a1df7c70f4d2222fa44a94df4"
+    }
+  },
+  "body_lengths": {
+    "python_unicode_codepoints": 7955,
+    "raw_utf16_code_units": 7956,
+    "nonwhitespace_utf16_units": 7608,
+    "fnv1a32_code_units": "9f9dcbd2",
+    "note": "Browser JS String.length=7956 is UTF-16 code units; Python len=7955 differs because the leading pin emoji occupies two UTF-16 units."
+  },
+  "table_check": {
+    "count": 1,
+    "rows_including_header": [
+      4
+    ],
+    "column_counts": [
+      [
+        4,
+        4,
+        4,
+        4
+      ]
+    ],
+    "method": "Removed only Markdown table delimiters and separator row; full remaining body compared after ECMAScript-whitespace removal, plus exact cell-array comparison."
+  },
+  "title": "思维模型163：把背包扔过墙 ——计划总落空，除了下决心，还能做什么？",
+  "dates": {
+    "page_display": "2026-11-07T15:59:00+08:00",
+    "album": "2026-11-07T15:58:14+08:00",
+    "difference_seconds": 46,
+    "interpretation": "Both timestamps retained separately; page shows 15:59 while album records 15:58:14. No silent unification."
+  },
+  "article_identity": {
+    "msgid": "2650060566",
+    "itemidx": "2",
+    "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060566&idx=2&sn=f27f7f67059eb6d60da790f4929a0344&chksm=beabeee589dc67f3053ed2bf38d709a987876ba3fea126719d8ffea945a061d11923d081cb79#rd"
+  },
+  "coverage": {
+    "body_beginning": true,
+    "body_end": true,
+    "archive_card": true,
+    "table_count": 1,
+    "media_count": 4,
+    "independent_visual_review": false,
+    "primary_maintainer_visual_review": true,
+    "visual_review_attribution": "Root reports personally viewing each of the four images; this independent reviewer checked image URL/hash/size/PNG metadata and the four textual review notes, and did not reopen the images."
+  },
+  "image_checks": [
+    {
+      "index": 0,
+      "file": "image-00.png",
+      "url_matches_capture": true,
+      "bytes": 2365705,
+      "bytes_match": true,
+      "sha256_matches": true,
+      "png_signature": true,
+      "intrinsic_dimensions": [
+        1024,
+        1536
+      ],
+      "rendered_dimensions": [
+        641,
+        962
+      ]
+    },
+    {
+      "index": 1,
+      "file": "image-01.png",
+      "url_matches_capture": true,
+      "bytes": 1101046,
+      "bytes_match": true,
+      "sha256_matches": true,
+      "png_signature": true,
+      "intrinsic_dimensions": [
+        1080,
+        720
+      ],
+      "rendered_dimensions": [
+        641,
+        427
+      ]
+    },
+    {
+      "index": 2,
+      "file": "image-02.png",
+      "url_matches_capture": true,
+      "bytes": 1089654,
+      "bytes_match": true,
+      "sha256_matches": true,
+      "png_signature": true,
+      "intrinsic_dimensions": [
+        1080,
+        720
+      ],
+      "rendered_dimensions": [
+        641,
+        427
+      ]
+    },
+    {
+      "index": 3,
+      "file": "image-03.png",
+      "url_matches_capture": true,
+      "bytes": 1098191,
+      "bytes_match": true,
+      "sha256_matches": true,
+      "png_signature": true,
+      "intrinsic_dimensions": [
+        1080,
+        720
+      ],
+      "rendered_dimensions": [
+        641,
+        427
+      ]
+    }
+  ],
+  "album_scope": {
+    "pages": 17,
+    "total_entries": 165,
+    "numbered_models": 163,
+    "old_metadata_unchanged": 162,
+    "old_body_reread_ids": []
+  },
+  "limits": [
+    "Equivalence to the supplied capture does not independently prove every underlying historical, research or causal claim.",
+    "Primary maintainer browser acquisition and image viewing are recorded with attribution; this reviewer did not repeat browser or visual capture.",
+    "Unchanged old directory metadata does not establish unchanged old article bodies.",
+    "No actual tool behavior trial or publication status is inferred from this source check."
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-07",
+  "reviewed_at_utc": "2026-11-07T13:09:48.415747+00:00",
+  "reviewer": "/root/baseline_1105",
+  "independence": "Reviewer did not author TM-163 card/runtime or execute either answer. Reviewer previously performed independent source-integrity checking; reviewed the completed raw answers and design criteria without feedback to executor.",
+  "verdict": "passed_with_limits",
+  "blocking_failures": [],
+  "limitations": [
+    "仅覆盖该组两个虚构请求；两个回答来自同一个执行上下文，不等于两次互相独立的执行。",
+    "预算是回答提出的上限安排，没有实测阅读、设置、软件兼容、练习或退款处理的实际耗时。",
+    "没有真实启用限制、支付、代发消息、退款到账、真人效果或长期习惯证据；本评审也不验证原文全部外部研究主张。"
+  ],
+  "cases": [
+    {
+      "id": "tm163-fit",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "目标与情境：依据用户认可的演示目标、现成材料、此前正确演示和两次晚间偏离，提出有限试用；明确白天能力不保证夜间状态，保留疲劳等解释，未贴懒惰标签。",
+        "真实覆盖：手机限制须在6分钟设置和3分钟测试中实际验证；电话、产品/资料和录制必要功能保留。平板移开和关闭视频页只增摩擦，不冒称屏蔽全部入口；未验证电脑限制时不乱装软件或断网，失败则退回普通练习安排。",
+        "预算逐项复算：已用8+阅读4+设置6+测试3+入口/恢复1+练习及质量自查40+记录2+朋友确认2+最终复查/发送4=70人分钟。剩余62中固定后续51、附加11，全部在同一额度；没有额外基线训练或无限续期。明确这是无余量上限，超时须扣已耗并减/停，不能无条件保留全部任务。",
+        "职责与质量：朋友仅按已同意的2分钟确认收件，未被变成裁判、密码保管人或收款人。由本人在练习20分钟内对照两核心操作和适用对象核查可播放约4分钟文件；空话和收件均不等于合格。若这些活动实际不能装入额度，原答的预算不足分支要求缩减/停止。",
+        "金钱与来源限定：拒绝新押金/费用，120元无论选择都不退不作为继续理由。4/7及罚4明写教学假设，不测个人偏好、不换算罚款、不保证行动；未继承原文的条件编号错误、未核实撤稿状态或纯理论必然有效说法。",
+        "三层反馈：分别检查规则实际运行/绕开/误挡、开始与合格成果、成本和负担后的净效果。规则执行但无练习时保留替代入口、任务困难、疲劳和代价仍不足等解释；没有自动加罚，也没有先验排除力度。前后两个晚间只供局部反馈，不宣称因果成功率。",
+        "期限与状态：两次20分钟窗口、结束解除、周五确认后结束检查；紧急事项、必要通信受阻、目标/身体实质变化、预算不够可暂停重评，临时冲动按原约定。用提议/未启用/未发送表述，遵从用户Markdown且不追加访谈或HTML。"
+      ],
+      "limitations": [
+        "平板和网页只得到有限摩擦处理，原答已披露残留入口；这一候选不是已验证的全入口封锁。",
+        "练习、录制与质量自查合计40分钟是方案内配置，实际是否够用须按原答超预算分支处理，不能倒称已测通过。"
+      ],
+      "raw_request_sha256": "1f26a8b995259da3db4c21167df620fd538debdf51b989cb821542bbac03b9a2",
+      "raw_answer_sha256": "581cb649b427107828dad59039cd00c0003fcdbe265731ee995759ddd7a9ef9f"
+    },
+    {
+      "id": "tm163-misuse",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "范围识别：按明确动机把1800元归为课程购买和折扣，未把预付当自愿自我约束；把客户喊价识别为面向他人的策略承诺。300元有条件返还属于仍能改变未来后果的安排，但不保证目标仍值得或可行。",
+        "分支复算：退出可退180但待申请/处理/到账；合格可退300但需至少360分钟；不申请且达不了标为0。当前60分钟比360缺300分钟（5小时），旧展示取消且用户不再认可，不能把完成路径当当前可行。1800元各分支都不退，不驱动继续。",
+        "退款比较：退出较未达标可少损失180，退出押金仍损失120；全额返300相对退出只多120。返还是收回本金，不作新增利润。原答同时保留仍合法可用的课程资料和未明确未来用途，未要求丢弃或无成本无限整理。",
+        "拒绝升级：不接受新增3000元生活备用金、永久封死退出和靠惩罚创造能力的建议；没有代用户收付款、申请退课或否定全部未来学习价值。",
+        "今日动作与预算：在今天期限前本人申请已提出的180方案、保存条款和真实回执，分别追踪已申请、接受回执、到账；条款未列时间方式时随申请确认。阅读4+申请/存证10+查收或一次跟进3=17≤60人分钟，余43不自动填满；以后处理需重新核预算。",
+        "证据边界：90%只是选择加入平台的自报比例，缺对照、核验、漏报和成本信息；不能推因果成功率或净收益。接受、规则生效、成果和净收益明确分层，没有用该统计压过已知目标失效与时间缺口。",
+        "未来重评：要求重新认可具体目标、落实至少6小时及能力材料精力，从当时条件重新比较，并重写退款额/时间/争议及退出条件；普通计划可能足够，不必再上装置。今天只保住仍可申请的180机会，未声称已经退款。遵从Markdown、没有继续访谈或生成HTML。"
+      ],
+      "limitations": [
+        "原答未单列一句“未来180退款选项可能过期”，但以今天期限/机会、从当时条件重比及重写各路径可返额处理，没有假定180永久有效；这是表达显式性限制，未造成当前错误选择。",
+        "10分钟申请与回执采用题设，后续查收/跟进3分钟为规划上限，并非已确认的外部处理耗时。"
+      ],
+      "raw_request_sha256": "d1b15fe8714a95a80aa630f77576f951029ca166a948e9d0afddbb15c124e2bc",
+      "raw_answer_sha256": "eb7f99933907e9da12de2e348e3b7b6ec15e8794cef40087863d886e91da626d"
+    }
+  ],
+  "registered_bindings": [
+    {
+      "id": "TM-163",
+      "source_sha256": "ed77d48cee90851627f4cf859acd1ed59047e83a4cded0a78c1408e198aa5db4",
+      "card_sha256": "c9783d74be6b14dcbab267cf6646e4f0b176e5084b5556a31d2421abdcc1eb92",
+      "runtime_sha256": "f566921e402c9940f1bf22257e2c491e13729c47d6ae33f5308ba70bc89d6da1"
+    }
+  ],
+  "raw_artifact_sha256": {
+    "tool163-results.json": "9e364d3eff221f995cc9b8421e3f9b62b963cb6fc6e5d814fe67e2b317a0102a"
+  },
+  "resource_binding_checks": [
+    {
+      "path": "SKILL.md",
+      "recorded_sha256": "a11e4eecb7106e2fcddd5a1fbc1cb2f7ca991abf7eaad8bd55640d76f344ff9f",
+      "current_sha256": "a11e4eecb7106e2fcddd5a1fbc1cb2f7ca991abf7eaad8bd55640d76f344ff9f",
+      "matches": true
+    },
+    {
+      "path": "references/tools/TM-163.md",
+      "recorded_sha256": "f566921e402c9940f1bf22257e2c491e13729c47d6ae33f5308ba70bc89d6da1",
+      "current_sha256": "f566921e402c9940f1bf22257e2c491e13729c47d6ae33f5308ba70bc89d6da1",
+      "matches": true
+    },
+    {
+      "path": "references/cards/TM-163.md",
+      "recorded_sha256": "c9783d74be6b14dcbab267cf6646e4f0b176e5084b5556a31d2421abdcc1eb92",
+      "current_sha256": "c9783d74be6b14dcbab267cf6646e4f0b176e5084b5556a31d2421abdcc1eb92",
+      "matches": true
+    },
+    {
+      "path": "references/user-models/TM-163.md",
+      "recorded_sha256": "ed77d48cee90851627f4cf859acd1ed59047e83a4cded0a78c1408e198aa5db4",
+      "current_sha256": "ed77d48cee90851627f4cf859acd1ed59047e83a4cded0a78c1408e198aa5db4",
+      "matches": true
+    },
+    {
+      "path": "references/toolbox-orchestration.md",
+      "recorded_sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "current_sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "matches": true
+    },
+    {
+      "path": "references/tool-runtime.md",
+      "recorded_sha256": "f87ad1e7c8c5051afc8acf85db539779d8f6069dd40e81fd69e24faf6cd06145",
+      "current_sha256": "f87ad1e7c8c5051afc8acf85db539779d8f6069dd40e81fd69e24faf6cd06145",
+      "matches": true
+    },
+    {
+      "path": "references/decision-report.md",
+      "recorded_sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "current_sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "matches": true
+    },
+    {
+      "path": "references/second-order-check.md",
+      "recorded_sha256": "733f5ff5ce00c02ec94ef7a82da36b9520472031193fc461eca2bb4f30cbfe8f",
+      "current_sha256": "733f5ff5ce00c02ec94ef7a82da36b9520472031193fc461eca2bb4f30cbfe8f",
+      "matches": true
+    }
+  ],
+  "independent_calculation_record": {
+    "fit_total_person_minutes": 70,
+    "fit_already_used": 8,
+    "fit_remaining": 62,
+    "fit_fixed_future_minutes": 51,
+    "fit_other_future_minutes": 11,
+    "misuse_required_minutes": 360,
+    "misuse_available_minutes": 60,
+    "misuse_gap_minutes": 300,
+    "misuse_current_exit_refund": 180,
+    "misuse_conditional_completion_extra_refund_vs_exit": 120,
+    "misuse_plan_minutes": 17,
+    "misuse_unassigned_minutes": 43
+  },
+  "scope": {
+    "responses": 2,
+    "execution_contexts": 1,
+    "execution_context_ids": [
+      "/root/tool163_trial"
+    ],
+    "local_tool_trials": 2,
+    "standalone_html": 0,
+    "embedded_html": 0,
+    "entry_behavior_reviewed_here": false,
+    "real_world_outcomes": false,
+    "visual_preview": false
+  },
+  "artifact_stable_during_review": true
+}

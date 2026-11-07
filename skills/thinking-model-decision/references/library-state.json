@@ -1,10 +1,10 @@
 {
-  "version": "2.9.0",
-  "revision": 179,
-  "updated_at": "2026-11-06T02:06:34.704198+00:00",
-  "user_models": 162,
+  "version": "2.10.0",
+  "revision": 186,
+  "updated_at": "2026-11-07T13:14:25.102951+00:00",
+  "user_models": 163,
   "wan_tools": 100,
-  "sample_cards": 45,
+  "sample_cards": 46,
   "sample_card_ids": [
     "TM-054",
     "TM-062",
@@ -50,7 +50,8 @@
     "TM-159",
     "TM-160",
     "TM-161",
-    "TM-162"
+    "TM-162",
+    "TM-163"
   ],
   "behavior_trial_scope": {
     "v0_1_full_entry_cases": [
@@ -74,7 +75,7 @@
     "tested_at_revision": 2,
     "tested_version": "1.0.0"
   },
-  "change": "Add TM-161, TM-162 published sources/cards/runtime/routing; actual simulations independently reviewed; limits and deployment verification remain separate.",
+  "change": "Add TM-163 published sources/cards/runtime/routing; actual simulations independently reviewed; limits and deployment verification remain separate.",
   "validation": {
     "tested_at_revision": 2,
     "official_skill_structure": "passed",
@@ -87,12 +88,12 @@
     "sandbox_manuscript_update": "passed",
     "tested_version": "1.0.0"
   },
-  "total_cards": 162,
+  "total_cards": 163,
   "source_reviewed_cards": 117,
   "card_status_counts": {
     "source_reviewed": 117,
     "sample_reviewed": 8,
-    "behavior_checked": 37
+    "behavior_checked": 38
   },
   "needs_review": [],
   "release_validation_history": {
@@ -572,6 +573,64 @@
         "references/evaluation/v2.8.0/reviews/entry-review.json"
       ],
       "integrity_retrieval_record": "references/evaluation/v2.8.0/integrity-and-retrieval.json"
+    },
+    "2.9.0": {
+      "status": "passed_with_limits",
+      "version": "2.9.0",
+      "revision": 179,
+      "valid_for_current_revision": false,
+      "scope": "TM-161,TM-162 increment: actual tool/entry simulations and configured integrity/retrieval checks; not full-library behavior validation",
+      "evidence": "references/evaluation/results-v2.9.md",
+      "official_skill_structure": "passed",
+      "library_integrity": "passed",
+      "runtime_integrity": "passed",
+      "evidence_bundle_revision": 177,
+      "post_bundle_recall_metadata_repair": true,
+      "actual_simulated_responses": 7,
+      "execution_contexts": 3,
+      "context_grouping": {
+        "/root/entry_1106": 3,
+        "/root/trial161_1106": 2,
+        "/root/trial162_1106": 2
+      },
+      "independent_response_review": "passed_with_limits",
+      "reviewed_local_responses": 4,
+      "reviewed_entry_responses": 3,
+      "standalone_html_reports": 4,
+      "entry_html_reports": 2,
+      "tool_html_reports": 2,
+      "html_static_checks": "checked separately by final release audit",
+      "html_visual_preview": "not_completed_browser_local_file_policy",
+      "lexical_retrieval_checks": 28,
+      "structural_checks_in_retrieval_run": 2,
+      "failed_retrieval_attempts_preserved": 1,
+      "album_pages": 17,
+      "unique_album_entries": 164,
+      "numbered_models": 162,
+      "unnumbered_album_entries": 2,
+      "old_body_reread_ids": [],
+      "old_metadata_unchanged_count": 160,
+      "source_media_scope": {
+        "TM-161": {
+          "tables": 2,
+          "images": 4,
+          "media_read_this_run": true
+        },
+        "TM-162": {
+          "tables": 2,
+          "images": 4,
+          "media_read_this_run": true
+        }
+      },
+      "all_models_retested_this_release": false,
+      "real_world_outcomes_validated": false,
+      "cross_client_compatibility_tested": false,
+      "package_and_deployment": "Separate ZIP audit, remote commit/download readback and each authorized local target receipts required; not asserted by this report",
+      "review_records": [
+        "references/evaluation/v2.9.0/reviews/tool-review.json",
+        "references/evaluation/v2.9.0/reviews/entry-review.json"
+      ],
+      "integrity_retrieval_record": "references/evaluation/v2.9.0/integrity-and-retrieval.json"
     }
   },
   "workflow_validation": {
@@ -930,10 +989,11 @@
       "TM-159",
       "TM-160",
       "TM-161",
-      "TM-162"
+      "TM-162",
+      "TM-163"
     ],
-    "migrated_count": 162,
-    "total_user_models": 162,
+    "migrated_count": 163,
+    "total_user_models": 163,
     "remaining_not_migrated": 0
   },
   "preview_validation_history": {
@@ -961,48 +1021,42 @@
   },
   "release_validation": {
     "status": "passed_with_limits",
-    "version": "2.9.0",
-    "revision": 179,
+    "version": "2.10.0",
+    "revision": 186,
     "valid_for_current_revision": true,
-    "scope": "TM-161,TM-162 increment: actual tool/entry simulations and configured integrity/retrieval checks; not full-library behavior validation",
-    "evidence": "references/evaluation/results-v2.9.md",
+    "scope": "TM-163 increment: actual tool/entry simulations and configured integrity/retrieval checks; not full-library behavior validation",
+    "evidence": "references/evaluation/results-v2.10.md",
     "official_skill_structure": "passed",
     "library_integrity": "passed",
     "runtime_integrity": "passed",
-    "evidence_bundle_revision": 177,
-    "post_bundle_recall_metadata_repair": true,
-    "actual_simulated_responses": 7,
-    "execution_contexts": 3,
+    "evidence_bundle_revision": 186,
+    "post_bundle_recall_metadata_repair": false,
+    "actual_simulated_responses": 4,
+    "execution_contexts": 2,
     "context_grouping": {
-      "/root/entry_1106": 3,
-      "/root/trial161_1106": 2,
-      "/root/trial162_1106": 2
+      "/root/entry163_trial": 2,
+      "/root/tool163_trial": 2
     },
     "independent_response_review": "passed_with_limits",
-    "reviewed_local_responses": 4,
-    "reviewed_entry_responses": 3,
-    "standalone_html_reports": 4,
-    "entry_html_reports": 2,
-    "tool_html_reports": 2,
+    "reviewed_local_responses": 2,
+    "reviewed_entry_responses": 2,
+    "standalone_html_reports": 1,
+    "entry_html_reports": 1,
+    "tool_html_reports": 0,
     "html_static_checks": "checked separately by final release audit",
-    "html_visual_preview": "not_completed_browser_local_file_policy",
+    "html_visual_preview": "not_performed",
     "lexical_retrieval_checks": 28,
     "structural_checks_in_retrieval_run": 2,
     "failed_retrieval_attempts_preserved": 1,
     "album_pages": 17,
-    "unique_album_entries": 164,
-    "numbered_models": 162,
+    "unique_album_entries": 165,
+    "numbered_models": 163,
     "unnumbered_album_entries": 2,
     "old_body_reread_ids": [],
-    "old_metadata_unchanged_count": 160,
+    "old_metadata_unchanged_count": 162,
     "source_media_scope": {
-      "TM-161": {
-        "tables": 2,
-        "images": 4,
-        "media_read_this_run": true
-      },
-      "TM-162": {
-        "tables": 2,
+      "TM-163": {
+        "tables": 1,
         "images": 4,
         "media_read_this_run": true
       }
@@ -1012,9 +1066,9 @@
     "cross_client_compatibility_tested": false,
     "package_and_deployment": "Separate ZIP audit, remote commit/download readback and each authorized local target receipts required; not asserted by this report",
     "review_records": [
-      "references/evaluation/v2.9.0/reviews/tool-review.json",
-      "references/evaluation/v2.9.0/reviews/entry-review.json"
+      "references/evaluation/v2.10.0/reviews/tool-review.json",
+      "references/evaluation/v2.10.0/reviews/entry-review.json"
     ],
-    "integrity_retrieval_record": "references/evaluation/v2.9.0/integrity-and-retrieval.json"
+    "integrity_retrieval_record": "references/evaluation/v2.10.0/integrity-and-retrieval.json"
   }
 }

@@ -1,0 +1,6 @@
+{
+  "raw_sha256": "fee19f10e4b4024457f916f29f2e46f91fc0131a1df7c70f4d2222fa44a94df4",
+  "public_sha256": "f88eb42740ad13ce7173317aabe3e65049352e79e6446a5443147326bca6d4d4",
+  "only_change": "previous_enumeration.path local absolute filesystem locator replaced by previous-maintenance-scan/album-manifest.json; all dates, entries, page hashes, counts and comparisons unchanged. Raw original remains in maintenance workspace.",
+  "trigger": "Initial static audit caught local workspace locator; initial failed audit retained in maintenance receipts."
+}

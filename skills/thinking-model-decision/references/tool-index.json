@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "version": "2.9.0",
+  "version": "2.10.0",
   "scope": "160 runtime tools; source checking, recorded trials, reviewed trials and real outcomes are distinct.",
   "tools": [
     {
@@ -5525,6 +5525,59 @@
       "card_sha256": "6e1ecf12a8cef553caa4b252ce54ff3c2017bdc5095cc92baed45c06e9e2cc47",
       "runtime_path": "references/tools/TM-162.md",
       "runtime_sha256": "684509179b1e7f9d40e0a85a8419adcd86c6bfe51111093548659c0de9630d34"
+    },
+    {
+      "id": "TM-163",
+      "name": "把背包扔过墙（承诺装置）",
+      "task": "定位反复偏离的具体选择时刻，在自愿且可行的目标下设计有期限和退出条件的预先安排，分查规则执行、行为变化与净效果",
+      "roles": [
+        "澄清",
+        "解释",
+        "约束",
+        "选项",
+        "取舍",
+        "执行",
+        "复盘"
+      ],
+      "signals": [
+        "把背包扔过墙",
+        "承诺装置",
+        "预先承诺",
+        "计划总落空",
+        "下决心没行动",
+        "写稿总刷手机",
+        "限制娱乐应用",
+        "自愿约束自己",
+        "可退押金",
+        "押金和沉没成本",
+        "交钱逼自己坚持",
+        "条件改变该退出",
+        "规则执行行为没改善",
+        "罚得越狠越有效吗",
+        "先改未来选择条件",
+        "手机锁住了却改用平板",
+        "平板和网页替代入口",
+        "绕过限制"
+      ],
+      "output": "未来选择分支、约束执行与核验安排、可退资金及全部资源账、例外退出、规则行为净益三层记录与下一步",
+      "runtime_status": "sample_trials_reviewed",
+      "trial_records": [
+        "references/evaluation/v2.10.0/trials/tool163-results.json",
+        "references/evaluation/v2.10.0/trials/entry-results.json"
+      ],
+      "review_records": [
+        "references/evaluation/v2.10.0/reviews/tool-review.json",
+        "references/evaluation/v2.10.0/reviews/entry-review.json"
+      ],
+      "source_review_records": [
+        "references/validation/TM-163-source-review.md"
+      ],
+      "source_path": "references/user-models/TM-163.md",
+      "source_sha256": "ed77d48cee90851627f4cf859acd1ed59047e83a4cded0a78c1408e198aa5db4",
+      "card_path": "references/cards/TM-163.md",
+      "card_sha256": "c9783d74be6b14dcbab267cf6646e4f0b176e5084b5556a31d2421abdcc1eb92",
+      "runtime_path": "references/tools/TM-163.md",
+      "runtime_sha256": "f566921e402c9940f1bf22257e2c491e13729c47d6ae33f5308ba70bc89d6da1"
     }
   ]
 }

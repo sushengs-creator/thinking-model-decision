@@ -1,0 +1,7 @@
+{
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"system-skills/skill-creator/scripts/quick_validate.py\", line 10, in <module>\n    import yaml\nModuleNotFoundError: No module named 'yaml'\n",
+  "scope": "Official skill frontmatter/structure validator executed against staged v2.10.0; not behavioral validation",
+  "reason": "The first command resolved the virtualenv Python symlink to system Python, dropping its installed YAML dependency. Validator code and skill were not changed."
+}

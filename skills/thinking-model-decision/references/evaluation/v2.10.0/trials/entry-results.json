@@ -1,0 +1,120 @@
+{
+  "execution_context_id": "/root/entry163_trial",
+  "execution_date": "2026-11-07",
+  "independence_note": "两条虚构请求由同一执行上下文分别处理；第二条澄清不沿用第一条的目标、设备、家庭或时间事实。不是两个代理或两个物理隔离会话。",
+  "skill_root": "../../../..",
+  "requests": [
+    {
+      "id": "entry163-plan",
+      "kind": "entry",
+      "request": "用思维模型决策工具帮我解决一个难题，并生成能保存的HTML行动计划。我想在下周三个工作日晚各用40分钟练习英语口语，为两个月后的国际项目交流做准备。每次练习只要录一段3分钟介绍，再回听修改两处表达。我已能做这件事，题目和资料都准备了。最近三个相似晚上，我本来20点开始，却总在打开手机查词时转去看短视频，拖到21点半才想起来，其中两天完全没练。我仍然想练，但不想靠重罚自己，不花额外的钱；每晚40分钟必须包括设置、练习、记录和复盘，不能挤占睡眠。我需要手机查词和随时接家人电话，平板也能刷同样的视频。家人暂时没有答应监督我。请根据已有信息直接给方案，必要的未知列成条件，不用重新问整套背景。",
+      "answer": "建议先做一周的轻量安排：在三个练习窗口内，只限制手机和平板上的短视频应用和常用网页，保留查词、录音及家人来电。先核验现有免费功能能否做到；不能做到，就用“先录3分钟、回听后只查两处表达”的备用流程，不加钱、不加罚，也不让家人承担尚未同意的监督。\n\n第一晚先把阅读与设置合并限在12分钟内，到点停止调工具，进入练习。三晚各40分钟，合计最多120分钟，已把记录、复盘和解除检查算进去；实际已花的准备时间要扣除，来电占用时间后也只用当晚剩余额度，不挤睡眠。建议排期是11月9日、11日、13日20:00—20:40，是否适用仍以你的实际空闲时间为准。\n\n每晚分开记录三件事：限制是否真的生效，录音和两处有用修改是否完成，得到的练习是否值得设置及干扰成本。规则生效仍没练，就重查疲劳、难度、替代入口和约束作用，不直接升级处罚。这是待实施的方案，不是已有效的结论。\n\n[打开完整 HTML 行动计划](../trials/entry163-plan.html)\n\nHTML 已保存并完成文件读回与内部导航检查；当前浏览器预览不可用，未做桌面及窄屏视觉验证。",
+      "model_ids": [
+        "TM-163"
+      ],
+      "html_file": "../trials/entry163-plan.html",
+      "resource_paths": [
+        "SKILL.md",
+        "references/decision-report.md",
+        "references/html-action-plan.md",
+        "references/toolbox-orchestration.md",
+        "references/decision-routing.md",
+        "references/tool-runtime.md",
+        "references/second-order-check.md",
+        "references/tool-catalog.md",
+        "references/wan-catalog.md",
+        "references/tools/TM-163.md",
+        "references/cards/TM-163.md",
+        "references/tool-index.json"
+      ]
+    },
+    {
+      "id": "entry-clarification",
+      "kind": "clarification",
+      "request": "我最近计划总是落空，越来越怀疑自己，是不是我就是没自控力。用这个工具陪我一步步理一理。",
+      "answer": "计划接连落空，确实容易让人开始怀疑自己。不过，单凭这些还不能判断是“没自控力”。我们先看一件具体的事：最近哪一次计划落空，最让你产生这个想法？",
+      "model_ids": [],
+      "html_file": null,
+      "resource_paths": [
+        "SKILL.md",
+        "references/guided-dialogue.md",
+        "references/questioning-toolkit.md"
+      ]
+    }
+  ],
+  "resource_bindings": [
+    {
+      "path": "SKILL.md",
+      "sha256": "a11e4eecb7106e2fcddd5a1fbc1cb2f7ca991abf7eaad8bd55640d76f344ff9f"
+    },
+    {
+      "path": "references/decision-report.md",
+      "sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478"
+    },
+    {
+      "path": "references/html-action-plan.md",
+      "sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef"
+    },
+    {
+      "path": "references/toolbox-orchestration.md",
+      "sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9"
+    },
+    {
+      "path": "references/decision-routing.md",
+      "sha256": "caec14f0dbefb52a40db5b1e11bf53fa2cc3cbc62419ce70285de45b3c898099"
+    },
+    {
+      "path": "references/tool-runtime.md",
+      "sha256": "f87ad1e7c8c5051afc8acf85db539779d8f6069dd40e81fd69e24faf6cd06145"
+    },
+    {
+      "path": "references/second-order-check.md",
+      "sha256": "733f5ff5ce00c02ec94ef7a82da36b9520472031193fc461eca2bb4f30cbfe8f"
+    },
+    {
+      "path": "references/tool-catalog.md",
+      "sha256": "2dfabfaff0e7505ce5f79e0afe40c586dccbf387e01ef0e7e8c23f631e0bc1f5",
+      "read_scope": "keyword excerpts: 执行|承诺|拖延|自控|意愿|习惯|自我决定|WOOP|福格"
+    },
+    {
+      "path": "references/wan-catalog.md",
+      "sha256": "d9d0bd0ce487a97f73f641a259a1beb163074a2c63df58c3bdaed440bf6b1604",
+      "read_scope": "keyword excerpts: 执行|承诺|拖延|自控|意愿|习惯|自我决定|WOOP|福格"
+    },
+    {
+      "path": "references/tools/TM-163.md",
+      "sha256": "f566921e402c9940f1bf22257e2c491e13729c47d6ae33f5308ba70bc89d6da1"
+    },
+    {
+      "path": "references/cards/TM-163.md",
+      "sha256": "c9783d74be6b14dcbab267cf6646e4f0b176e5084b5556a31d2421abdcc1eb92"
+    },
+    {
+      "path": "references/tool-index.json",
+      "sha256": "b624d34f7c6dde29ffffa8d6c26bf1f2c7935cfd26daacd5d6f0dc6658bd7bac",
+      "read_scope": "TM-163 record only"
+    },
+    {
+      "path": "references/guided-dialogue.md",
+      "sha256": "7700f109b08a913fcecf6a8ce26083f00376cc2f32863e7e9225e4ee47bb012a"
+    },
+    {
+      "path": "references/questioning-toolkit.md",
+      "sha256": "4c4435666732c7d48a602866c0c0f17cb3f6fb2676d088093052620a849c80f6"
+    }
+  ],
+  "artifact_bindings": [
+    {
+      "path": "entry163-plan.html",
+      "sha256": "d66606f8cf507ab146f35820b4d6109803b1595b37ad7c01bbca7706ff84af94"
+    }
+  ],
+  "delivery_checks": {
+    "file_readback": "completed",
+    "internal_navigation": "5 targets, none missing",
+    "self_contained": "UTF-8; inline CSS; no scripts or external dependencies",
+    "visual_preview": "not performed; iab and chrome browser entry points reported unavailable"
+  },
+  "external_actions": "未修改设备限制、发送消息、支付或调用私人案例。模型分析仅在本次虚构请求内形成建议。",
+  "evaluation": "未对原答打分或进行试跑评审。"
+}

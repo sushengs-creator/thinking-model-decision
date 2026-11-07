@@ -1,0 +1,8 @@
+{
+  "cause": "Actual natural-language query 手机锁住了却改用平板怎么办 failed in both library and runtime search top8.",
+  "change": "Added three grounded symptom phrases to card metadata search_terms and runtime signals; source/card/runtime bodies unchanged.",
+  "timing": "Before behavior bundle registration; all responses retain actual read-time bindings.",
+  "failure_receipt": "retrieval-run-20261107T130417508157Z.json",
+  "post_repair_receipt": "retrieval-run-20261107T130437970703Z.json",
+  "post_repair_all_30_checks_passed": true
+}

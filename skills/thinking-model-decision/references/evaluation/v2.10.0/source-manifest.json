@@ -1,0 +1,64 @@
+{
+  "captured_date": "2026-11-07",
+  "count": 1,
+  "old_body_reread_scope": [],
+  "old_body_limit": "TM-001—162正文未重读；只比对合集目录元数据。",
+  "records": [
+    {
+      "id": "TM-163",
+      "title": "思维模型163：把背包扔过墙 ——计划总落空，除了下决心，还能做什么？",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060566&idx=2&sn=f27f7f67059eb6d60da790f4929a0344&chksm=beabeee589dc67f3053ed2bf38d709a987876ba3fea126719d8ffea945a061d11923d081cb79#rd",
+      "msgid": "2650060566",
+      "itemidx": "2",
+      "published_at_page_display": "2026-11-07T15:59:00+08:00",
+      "album_create_time": "1794038294",
+      "album_time_china": "2026-11-07T15:58:14+08:00",
+      "captured_at": "2026-11-07T12:55:14.412Z",
+      "reading_method": "ordinary_browser_rendered_visible_body",
+      "browser_surface": "built-in browser",
+      "body_scope": "Full body, beginning, end, model card and HTML table cells; recommendations/comments excluded",
+      "nonwhitespace_utf16_units": 7608,
+      "fnv1a32_code_units": "9f9dcbd2",
+      "fingerprint_algorithm": "FNV-1a32 over UTF-16 code units after removing whitespace",
+      "body_sha256": "97aa961083153e19e8a15f59ecf8e575b2c1c82eb8d2824f53c14195ced301f0",
+      "source_sha256": "ed77d48cee90851627f4cf859acd1ed59047e83a4cded0a78c1408e198aa5db4",
+      "table_count": 1,
+      "tables": [
+        {
+          "rows": [
+            [
+              "安排",
+              "写稿",
+              "刷视频扣除代价后",
+              "在这些假设下的比较"
+            ],
+            [
+              "没有额外约束",
+              "4",
+              "7",
+              "刷视频更有吸引力"
+            ],
+            [
+              "给刷视频增加1分代价",
+              "4",
+              "6",
+              "相对顺序没有改变"
+            ],
+            [
+              "给刷视频增加4分代价",
+              "4",
+              "3",
+              "写稿变得更有吸引力"
+            ]
+          ],
+          "text": "安排\n\t\n写稿\n\t\n刷视频扣除代价后\n\t\n在这些假设下的比较\n\n\n没有额外约束\n\t\n4\n\t\n7\n\t\n刷视频更有吸引力\n\n\n给刷视频增加1分代价\n\t\n4\n\t\n6\n\t\n相对顺序没有改变\n\n\n给刷视频增加4分代价\n\t\n4\n\t\n3\n\t写稿变得更有吸引力"
+        }
+      ],
+      "image_count": 4,
+      "media_read_this_run": true,
+      "media_scope": "4幅图片本轮已逐张查看；本包保留文字和审阅摘要，原图仅留维护工作区。",
+      "underlying_claims_all_independently_verified": false,
+      "reused_archive_matches_current_body": false
+    }
+  ]
+}

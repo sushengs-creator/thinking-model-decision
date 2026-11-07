@@ -1,0 +1,9 @@
+{
+  "status": "not_performed",
+  "scope": "This release will review the actual standalone HTML content and static document structure; no browser-rendered visual pass is claimed.",
+  "reason": "The entry executor reported preview unavailable in its own execution context. The actual standalone HTML content is independently reviewed and final static audit checks structure; no desktop or narrow-screen rendered pass is claimed.",
+  "limitations": [
+    "No responsive/client rendering coverage; content and structure will be independently reviewed."
+  ],
+  "actual_executor_record": "trials/entry-results.json"
+}

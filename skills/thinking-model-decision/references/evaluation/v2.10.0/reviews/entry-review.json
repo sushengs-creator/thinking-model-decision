@@ -1,0 +1,248 @@
+{
+  "date": "2026-11-07",
+  "reviewed_at_utc": "2026-11-07T13:13:59.421059+00:00",
+  "reviewer": "/root/baseline_1105",
+  "independence": "Reviewer did not author TM-163 card/runtime, execute either answer, or create/edit HTML. Completed raw answers and HTML were reviewed only after READY; evaluation criteria were not shared with executor. This reviewer previously independently checked source integrity.",
+  "verdict": "passed_with_limits",
+  "blocking_failures": [],
+  "limitations": [
+    "仅覆盖两个虚构入口请求，来自同一执行上下文：一份完整方案和一个首轮澄清；不等于两个互相独立的入口执行。",
+    "静态内容、保存与链接核对不能代替视觉渲染；浏览器预览不可用已被原答披露，本评审不把它当内容失败，也不声称做过视觉验证。",
+    "设备功能、用户采用、真实设置、时间、三晚执行、学习成果、净收益与长期效果均未实施验证。"
+  ],
+  "cases": [
+    {
+      "id": "entry163-plan",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "入口选型：完整请求仅说使用思维模型决策工具，没有指定TM-163或提示其模型名。回答把用户已认可、具备能力材料却在查词时转向视频的具体片段，映射到有限改变未来选项的机制。TM-163实际产出条件分支、期限、备选、资源账和三层检查；仅用一个模型符合当前缺口，未把目录命中或候选工具冒称已运行。",
+        "目标与证据：保留两个月后的交流目标，但本轮仅安排下一周三个晚上。用户陈述、工作假说和设备/时段未知分别标出；没有把三个片段确定为唯一原因，也未把第三晚未知产出补成失败或成功。信息足以作条件方案，未重复一整套访谈。",
+        "功能与自主：限制手机和平板实际视频应用与网页入口，须核验查词、录音、资料及必要来电通道正常；不假定操作系统功能存在。只能用现有免费且可可靠结束的功能，误挡、无法验证必要通信或不能结束就不用。家人没有监督、测试或密码保管任务；没有新费用、押金或处罚。",
+        "现实备选：保留原流程作为基准，比较可验证的短时限制与先录后查、平板收远。备用流程只宣称增加摩擦与减少触发，明确未封住娱乐入口；未把普通计划或未生效的软件设置写成承诺装置已执行。",
+        "预算逐项复算：每晚12分钟阅读/检查/设置（首晚5+7）、3分钟录音、5分钟回听、8分钟两处修改、4分钟重新说、3分钟保存记录、5分钟三层复查及结束检查，合计40；三个晚上合计120。后两晚前12分钟明确为5分钟检查及7分钟缓冲/恢复/练习，第三晚跨三记录复盘包含在原5分钟内。此前已耗阅读设置未知而非0，要求先扣；超预算减/停，不免费加准备、第四次复盘、补练或续期。",
+        "时间与质量：独立日历核对2026年11月9/11/13分别为周一/三/五；明确只是下周条件排期，若没有三个可用晚上则减少。每晚硬结束、不挤睡眠，电话和家庭紧急事项占用同一窗口。成果不是开着录音或凑数量：3分钟实质介绍、回听、两处原句到新句并说明改进，无法核实时诚实标记；不足则记录未完成。",
+        "三层反馈：规则生效/误挡/绕开，与实际开始、实质录音和有用修改，以及总耗时、压力、干扰后的净效果分开。规则生效仍不行动时检查疲劳、难度、替代入口与相对吸引力，没有自动加罚，也未断言强度不可能相关。三晚比较仅为局部反馈，不写因果成功率或长期效果。",
+        "退出与二阶反应：常用入口受限可能降低转移便利，同时保留替代入口、忙于解除或资料受阻的反向分支。修复只在准备预算内，误挡必要功能立即停用；疲劳、生病、目标变化或无安静条件可缩减/取消，普通临时冲动不被自动当例外。第三晚结束本轮，不预支后续周。",
+        "来源限定：HTML明确只实际读取TM-163运行文件、卡片和索引记录；其他编排规范作为方法依据。没有借原文研究、4/7教学数值、撤稿或名人案例作当前实证，未虚构查询设备现状。当前原文SHA用于评审注册绑定，不等于执行者又完整读过原文。",
+        "交付与状态：实际HTML完整存在且最终原答链接指向此文件；首页有建议、第一步和关键条件。全文没有已启用、已执行或有效的虚构状态；保存/读回与真实行动明确分开。原答主动披露未做桌面和窄屏视觉验证。独立静态检查5个内部导航目标全部存在，资源定位3项存在，无重复ID、脚本、事件处理器或外部资源依赖；UTF-8、响应式和打印样式存在，但不据此冒称实际渲染通过。"
+      ],
+      "limitations": [
+        "设备限制能否存在且可可靠结束、三晚实际可用和全部动作耗时仍需实施时确认；本次未实测。",
+        "HTML内容及静态结构已审阅；桌面、窄屏与打印实际渲染未验证。"
+      ],
+      "raw_request_sha256": "46b04339af455d72ff63c8ed2f1eece14c104b9e97a2eb1008066dcdf63a18ae",
+      "raw_answer_sha256": "9eaaa251ffbd0906d6f5c742a047a173a9268a6b7b745a8351639e081fd32475"
+    },
+    {
+      "id": "entry-clarification",
+      "verdict": "passed_with_limits",
+      "findings": [
+        "承接计划落空导致的自我怀疑，但明确现有材料不足以判定没有自控力；未用安慰替代事实，也没有性格诊断或强行归因。",
+        "首轮仅一个主要缺口：最近哪次计划落空触发这种评价。该问题索取可观察的具体片段，答案会改变后续立题；没有一个问号塞入多个独立问题或整张表单。",
+        "没有继续分析或代编用户回答；没有继承上一场景的英语、设备、家人或40分钟条件。model_ids为空，没有声称已运行TM-144等未读模型；这里按通用引导规则提出日常澄清问题。",
+        "用户要求陪伴逐步理清，当前仅是首轮问题，不生成HTML符合单轮澄清例外。未冒称已完成决策或解决整个问题。"
+      ],
+      "limitations": [
+        "仅观察一轮提问，未验证后续真实回答后的持续对话、重新选型或最终报告。",
+        "两条入口请求在同一个执行上下文，观察到本条未带入上一条具体事实，但不等于两个独立执行上下文。"
+      ],
+      "raw_request_sha256": "99b1955c5c596eb29809b199575b035593ac8aa2bbc6c758d5d995872d5ac5d3",
+      "raw_answer_sha256": "c8343df28aa7b49923973a43d22ea800425916960e193cba172eed4c25e0a144"
+    }
+  ],
+  "registered_bindings": [
+    {
+      "id": "TM-163",
+      "source_sha256": "ed77d48cee90851627f4cf859acd1ed59047e83a4cded0a78c1408e198aa5db4",
+      "card_sha256": "c9783d74be6b14dcbab267cf6646e4f0b176e5084b5556a31d2421abdcc1eb92",
+      "runtime_sha256": "f566921e402c9940f1bf22257e2c491e13729c47d6ae33f5308ba70bc89d6da1"
+    }
+  ],
+  "raw_artifact_sha256": {
+    "entry-results.json": "198c868aec7382312dd8a5bc9e3ae19462a75dc4245b8228bdb74b1ebe9d2fe9",
+    "entry163-plan.html": "d66606f8cf507ab146f35820b4d6109803b1595b37ad7c01bbca7706ff84af94"
+  },
+  "resource_binding_checks": [
+    {
+      "path": "SKILL.md",
+      "recorded_sha256": "a11e4eecb7106e2fcddd5a1fbc1cb2f7ca991abf7eaad8bd55640d76f344ff9f",
+      "current_sha256": "a11e4eecb7106e2fcddd5a1fbc1cb2f7ca991abf7eaad8bd55640d76f344ff9f",
+      "matches": true
+    },
+    {
+      "path": "references/decision-report.md",
+      "recorded_sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "current_sha256": "23d6d977449bf9a39697da3e72c68a1a18b1c05d8a79558f9a1ef7d133720478",
+      "matches": true
+    },
+    {
+      "path": "references/html-action-plan.md",
+      "recorded_sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef",
+      "current_sha256": "5833665ae600b7f25fa8ec0cf27733c2ab7116f80d39a32c0e5f530ac095deef",
+      "matches": true
+    },
+    {
+      "path": "references/toolbox-orchestration.md",
+      "recorded_sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "current_sha256": "0cb399beb9c887d7ef7e1a5dff8662e5ef388cc9ea4d581aa51a1b3d1fa917b9",
+      "matches": true
+    },
+    {
+      "path": "references/decision-routing.md",
+      "recorded_sha256": "caec14f0dbefb52a40db5b1e11bf53fa2cc3cbc62419ce70285de45b3c898099",
+      "current_sha256": "caec14f0dbefb52a40db5b1e11bf53fa2cc3cbc62419ce70285de45b3c898099",
+      "matches": true
+    },
+    {
+      "path": "references/tool-runtime.md",
+      "recorded_sha256": "f87ad1e7c8c5051afc8acf85db539779d8f6069dd40e81fd69e24faf6cd06145",
+      "current_sha256": "f87ad1e7c8c5051afc8acf85db539779d8f6069dd40e81fd69e24faf6cd06145",
+      "matches": true
+    },
+    {
+      "path": "references/second-order-check.md",
+      "recorded_sha256": "733f5ff5ce00c02ec94ef7a82da36b9520472031193fc461eca2bb4f30cbfe8f",
+      "current_sha256": "733f5ff5ce00c02ec94ef7a82da36b9520472031193fc461eca2bb4f30cbfe8f",
+      "matches": true
+    },
+    {
+      "path": "references/tool-catalog.md",
+      "recorded_sha256": "2dfabfaff0e7505ce5f79e0afe40c586dccbf387e01ef0e7e8c23f631e0bc1f5",
+      "current_sha256": "2dfabfaff0e7505ce5f79e0afe40c586dccbf387e01ef0e7e8c23f631e0bc1f5",
+      "matches": true,
+      "execution_read_scope": "keyword excerpts: 执行|承诺|拖延|自控|意愿|习惯|自我决定|WOOP|福格"
+    },
+    {
+      "path": "references/wan-catalog.md",
+      "recorded_sha256": "d9d0bd0ce487a97f73f641a259a1beb163074a2c63df58c3bdaed440bf6b1604",
+      "current_sha256": "d9d0bd0ce487a97f73f641a259a1beb163074a2c63df58c3bdaed440bf6b1604",
+      "matches": true,
+      "execution_read_scope": "keyword excerpts: 执行|承诺|拖延|自控|意愿|习惯|自我决定|WOOP|福格"
+    },
+    {
+      "path": "references/tools/TM-163.md",
+      "recorded_sha256": "f566921e402c9940f1bf22257e2c491e13729c47d6ae33f5308ba70bc89d6da1",
+      "current_sha256": "f566921e402c9940f1bf22257e2c491e13729c47d6ae33f5308ba70bc89d6da1",
+      "matches": true
+    },
+    {
+      "path": "references/cards/TM-163.md",
+      "recorded_sha256": "c9783d74be6b14dcbab267cf6646e4f0b176e5084b5556a31d2421abdcc1eb92",
+      "current_sha256": "c9783d74be6b14dcbab267cf6646e4f0b176e5084b5556a31d2421abdcc1eb92",
+      "matches": true
+    },
+    {
+      "path": "references/tool-index.json",
+      "recorded_sha256": "b624d34f7c6dde29ffffa8d6c26bf1f2c7935cfd26daacd5d6f0dc6658bd7bac",
+      "current_sha256": "b624d34f7c6dde29ffffa8d6c26bf1f2c7935cfd26daacd5d6f0dc6658bd7bac",
+      "matches": true,
+      "execution_read_scope": "TM-163 record only"
+    },
+    {
+      "path": "references/guided-dialogue.md",
+      "recorded_sha256": "7700f109b08a913fcecf6a8ce26083f00376cc2f32863e7e9225e4ee47bb012a",
+      "current_sha256": "7700f109b08a913fcecf6a8ce26083f00376cc2f32863e7e9225e4ee47bb012a",
+      "matches": true
+    },
+    {
+      "path": "references/questioning-toolkit.md",
+      "recorded_sha256": "4c4435666732c7d48a602866c0c0f17cb3f6fb2676d088093052620a849c80f6",
+      "current_sha256": "4c4435666732c7d48a602866c0c0f17cb3f6fb2676d088093052620a849c80f6",
+      "matches": true
+    }
+  ],
+  "independent_calculation_record": {
+    "night_minutes": [
+      12,
+      3,
+      5,
+      8,
+      4,
+      3,
+      5
+    ],
+    "night_total": 40,
+    "number_of_nights": 3,
+    "whole_scope_minutes": 120,
+    "first_night_preparation_split": [
+      5,
+      7
+    ],
+    "third_night_aggregate_review_inside_existing_minutes": 5,
+    "new_money": 0,
+    "family_tasks": 0,
+    "already_spent_preparation": "unknown; explicitly deducted before remaining allocation",
+    "calendar": {
+      "2026-11-09": "Monday",
+      "2026-11-11": "Wednesday",
+      "2026-11-13": "Friday"
+    }
+  },
+  "html_static_checks": {
+    "ids": [
+      "facts",
+      "design",
+      "schedule",
+      "review",
+      "sources"
+    ],
+    "duplicate_ids": false,
+    "internal_links": [
+      "#facts",
+      "#design",
+      "#schedule",
+      "#review",
+      "#sources"
+    ],
+    "missing_internal_targets": [],
+    "scripts": 0,
+    "external_assets": [],
+    "event_handlers": [],
+    "css_external_urls": [],
+    "tag_errors": [],
+    "unclosed_tags": [],
+    "meta": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width,initial-scale=1"
+      }
+    ],
+    "code_resource_locations": [
+      {
+        "path": "references/tools/TM-163.md",
+        "exists": true
+      },
+      {
+        "path": "references/cards/TM-163.md",
+        "exists": true
+      },
+      {
+        "path": "references/tool-index.json",
+        "exists": true
+      }
+    ],
+    "responsive_css_present": true,
+    "table_horizontal_scroll": true,
+    "print_css_present": true,
+    "placeholder_markers": []
+  },
+  "scope": {
+    "responses": 2,
+    "execution_contexts": 1,
+    "execution_context_ids": [
+      "/root/entry163_trial"
+    ],
+    "full_entry_plans": 1,
+    "first_turn_clarifications": 1,
+    "standalone_html": 1,
+    "actual_model_ids": [
+      "TM-163"
+    ],
+    "real_world_outcomes": false,
+    "visual_preview": false
+  },
+  "artifact_stable_during_review": true
+}

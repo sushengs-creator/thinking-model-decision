@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-07",
+  "input_digest": "fe46af0266c98b4e9194d0835b7f0078deac1a6c541ebf010df134fe60f4d6c0",
+  "purpose": "Public portability only. Original SHA values refer to actual raw execution artifacts and are not relabeled as public-file digests.",
+  "files": [
+    {
+      "public_path": "trials/entry-inputs.json",
+      "original_sha256": "406bf540316246b5273c4ef20c815598697950badc8ad945c1487fde1100a8cc",
+      "public_sha256": "406bf540316246b5273c4ef20c815598697950badc8ad945c1487fde1100a8cc",
+      "only_changes": "Resource paths relocated. Request, answer, review prose and original recorded hashes otherwise retained."
+    },
+    {
+      "public_path": "trials/entry-results.json",
+      "original_sha256": "198c868aec7382312dd8a5bc9e3ae19462a75dc4245b8228bdb74b1ebe9d2fe9",
+      "public_sha256": "038ff8670c230eee2fe079395d69e4da14ea7b7f6ce831bed51fe1e86595f0a7",
+      "only_changes": "Resource paths relocated. Request, answer, review prose and original recorded hashes otherwise retained."
+    },
+    {
+      "public_path": "trials/entry163-plan.html",
+      "original_sha256": "d66606f8cf507ab146f35820b4d6109803b1595b37ad7c01bbca7706ff84af94",
+      "public_sha256": "d66606f8cf507ab146f35820b4d6109803b1595b37ad7c01bbca7706ff84af94",
+      "only_changes": "Resource paths relocated. Request, answer, review prose and original recorded hashes otherwise retained."
+    },
+    {
+      "public_path": "trials/tool163-inputs.json",
+      "original_sha256": "75a34d52915135786c542e898c5e5672159d84ae069e8555741a6520bbba5752",
+      "public_sha256": "75a34d52915135786c542e898c5e5672159d84ae069e8555741a6520bbba5752",
+      "only_changes": "Resource paths relocated. Request, answer, review prose and original recorded hashes otherwise retained."
+    },
+    {
+      "public_path": "trials/tool163-results.json",
+      "original_sha256": "9e364d3eff221f995cc9b8421e3f9b62b963cb6fc6e5d814fe67e2b317a0102a",
+      "public_sha256": "9e364d3eff221f995cc9b8421e3f9b62b963cb6fc6e5d814fe67e2b317a0102a",
+      "only_changes": "Resource paths relocated. Request, answer, review prose and original recorded hashes otherwise retained."
+    },
+    {
+      "public_path": "reviews/entry-review.json",
+      "original_sha256": "789d87abd450500bea1751a2e0ae590e56164551af7719a83d93622439f1ad8c",
+      "public_sha256": "789d87abd450500bea1751a2e0ae590e56164551af7719a83d93622439f1ad8c",
+      "only_changes": "Resource paths relocated. Request, answer, review prose and original recorded hashes otherwise retained."
+    },
+    {
+      "public_path": "reviews/html-visual-review.json",
+      "original_sha256": "7a306565d818e7c189ca35faf3c1d14078a17786a1d77d42da04008823eda49b",
+      "public_sha256": "7a306565d818e7c189ca35faf3c1d14078a17786a1d77d42da04008823eda49b",
+      "only_changes": "Resource paths relocated. Request, answer, review prose and original recorded hashes otherwise retained."
+    },
+    {
+      "public_path": "reviews/retrieval-repair.json",
+      "original_sha256": "9d7ac1bd008a8db702dd5e0aa9ef56260168799423154cb2a7175b2a10a2e300",
+      "public_sha256": "9d7ac1bd008a8db702dd5e0aa9ef56260168799423154cb2a7175b2a10a2e300",
+      "only_changes": "Resource paths relocated. Request, answer, review prose and original recorded hashes otherwise retained."
+    },
+    {
+      "public_path": "reviews/source-independent-check.json",
+      "original_sha256": "80ccda2c34afe3d3d6640a94ba5ec869bdb94fe895dc29ae510fb8a9227fcac9",
+      "public_sha256": "80ccda2c34afe3d3d6640a94ba5ec869bdb94fe895dc29ae510fb8a9227fcac9",
+      "only_changes": "Resource paths relocated. Request, answer, review prose and original recorded hashes otherwise retained."
+    },
+    {
+      "public_path": "reviews/tool-review.json",
+      "original_sha256": "e354d77c43b3b6a0eda53e40bc86878a277d4968a36c53ad7cee7201a558b323",
+      "public_sha256": "e354d77c43b3b6a0eda53e40bc86878a277d4968a36c53ad7cee7201a558b323",
+      "only_changes": "Resource paths relocated. Request, answer, review prose and original recorded hashes otherwise retained."
+    }
+  ]
+}

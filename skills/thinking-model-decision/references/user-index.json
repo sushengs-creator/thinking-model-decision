@@ -9560,5 +9560,99 @@
     },
     "validation_note_path": "references/validation-notes/TM-162.md",
     "validation_note_sha256": "f7f18b69987c1d29ccc2f091edc6f3dde179a38c6426f2ccb8478ceabeaf6dbf"
+  },
+  {
+    "id": "TM-163",
+    "title": "思维模型163：把背包扔过墙 ——计划总落空，除了下决心，还能做什么？",
+    "short_name": "思维模型163：把背包扔过墙 ——计划总落空，除了下决心，还能做什么？",
+    "path": "references/user-models/TM-163.md",
+    "html_path": null,
+    "source_url": "https://mp.weixin.qq.com/s?__biz=MjM5MjA2Nzc0MA==&mid=2650060566&idx=2&sn=f27f7f67059eb6d60da790f4929a0344&chksm=beabeee589dc67f3053ed2bf38d709a987876ba3fea126719d8ffea945a061d11923d081cb79#rd",
+    "source_label": "微信公众号正式发表全文，本轮正常浏览器核对",
+    "captured_at": "2026-11-07",
+    "source_format": "user_provided_utf8",
+    "source_sha256": "ed77d48cee90851627f4cf859acd1ed59047e83a4cded0a78c1408e198aa5db4",
+    "content_sha256": "ed77d48cee90851627f4cf859acd1ed59047e83a4cded0a78c1408e198aa5db4",
+    "html_sha256": null,
+    "content_status": "source_archived",
+    "card_path": "references/cards/TM-163.md",
+    "search_terms": [
+      "思维模型163：把背包扔过墙 ——计划总落空，除了下决心，还能做什么？"
+    ],
+    "card_sha256": "c9783d74be6b14dcbab267cf6646e4f0b176e5084b5556a31d2421abdcc1eb92",
+    "card_source_sha256": "ed77d48cee90851627f4cf859acd1ed59047e83a4cded0a78c1408e198aa5db4",
+    "card_status": "behavior_checked",
+    "card_revision": 3,
+    "card_registered_at": "2026-11-07T13:14:25.011810+00:00",
+    "card_version": "0.1",
+    "card_metadata": {
+      "trigger": "计划时想做、行动时却反复转去诱惑，想用应用限制、交付约定或可退押金改变未来选择；先辨目标可行、能力精力与自愿性，再设计可退出的具体安排",
+      "source_sections": [
+        "背包扔过墙，就一定能逼自己翻过去吗？",
+        "办了健身卡，就算给自己加了约束吗？",
+        "手机都锁了，为什么还是没动笔？",
+        "钱已经交了，为什么还要分清能不能退？",
+        "还没开始健身，就怕自己又半途而废？",
+        "看到研究说有效，先别急着照搬",
+        "今晚八点要写稿，下午先把这五件事安排好",
+        "项目已经不值得做，还要为当初的承诺硬撑吗？"
+      ],
+      "search_terms": [
+        "把背包扔过墙",
+        "承诺装置",
+        "预先承诺",
+        "计划总落空",
+        "下决心没行动",
+        "写稿总刷手机",
+        "限制娱乐应用",
+        "自愿约束自己",
+        "可退押金",
+        "押金和沉没成本",
+        "交钱逼自己坚持",
+        "条件改变该退出",
+        "规则执行行为没改善",
+        "罚得越狠越有效吗",
+        "先改未来选择条件",
+        "手机锁住了却改用平板",
+        "平板和网页替代入口",
+        "绕过限制"
+      ],
+      "decision_stage": [
+        "界定问题",
+        "解释原因",
+        "比较方案",
+        "设计行动",
+        "学习执行",
+        "复盘更新"
+      ],
+      "relations": [
+        {
+          "ww_id": "WW-2.7",
+          "relation": "部分重叠并可衔接",
+          "reason": "均定位具体偏离场景；WOOP把内在障碍变成If—Then动作，本工具改变未来可选项或后果。执行意图不自动构成承诺装置，不重复计算有效性证据。"
+        },
+        {
+          "ww_id": "WW-2.4",
+          "relation": "互补",
+          "reason": "自主、胜任和关系支持帮助判断是否应先修复目标与条件，防止把不会做、疲劳或外部控制误当需要更重自我惩罚。"
+        },
+        {
+          "ww_id": "WW-6.3",
+          "relation": "部分机制相通，范围不同",
+          "reason": "均关注规则怎样改变可选行为和实际后果；激励相容可检查核验漏洞和指标替代，本工具限定本人知情自愿的自我约束，不能直接推广成控制他人的制度。"
+        }
+      ],
+      "warnings": [
+        "目标值得、本人认可且任务可行是前提；能力、材料和精力不足不能靠增加处罚补齐。",
+        "原文4/7分数为教学假设，不是心理量或罚金测算；规则执行、行为改善、净收益分开。",
+        "不可退旧费用与仍可改变的退款、押金、退出代价分开；返还本金不算新增利润。",
+        "对他人策略性承诺、折扣购买、普通计划和开始信心均不自动等于自我承诺装置。",
+        "涉及协作者必须核真实同意和职责，保留必要通信/工作功能、明确期限、紧急例外与目标变化后的退出。",
+        "规则实施但行为未改善不能只归为力度不足，也不能直接排除力度；检查实际选择、替代入口及任务条件。",
+        "原文定义条件编号、撤稿时态与开始信心表述需限定；实证研究及2026年状态未在本轮独立核实。"
+      ]
+    },
+    "validation_note_path": "references/validation-notes/TM-163.md",
+    "validation_note_sha256": "f6fd23caa5e6aac6a265a742fd51cc21f5599a2317d629fd02f806d70260c9d4"
   }
 ]
